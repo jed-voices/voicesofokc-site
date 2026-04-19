@@ -1,0 +1,2 @@
+Internal reference check:
+- No broken internal href/src references found in the packaged site.
