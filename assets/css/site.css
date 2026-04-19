@@ -83,10 +83,10 @@ audio { display:none; }
 .hero { padding:40px 0 8px; }
 .hero-card {
   position:relative; min-height:min(84vh,780px); border-radius:30px; overflow:hidden;
-  background:linear-gradient(110deg, rgba(6,20,33,.84), rgba(15,42,68,.58) 38%, rgba(15,42,68,.22) 70%, rgba(15,42,68,.14)), var(--hero-image, url('../assets/images/hero-18.jpg')) center center / cover no-repeat;
+  background:linear-gradient(110deg, rgba(6,20,33,.84), rgba(15,42,68,.58) 38%, rgba(15,42,68,.22) 70%, rgba(15,42,68,.14)), var(--hero-image, url('../images/hero-18.jpg')) center center / cover no-repeat;
   box-shadow:var(--shadow-lg);
 }
-.home-hero { background:linear-gradient(110deg, rgba(6,20,33,.84), rgba(15,42,68,.58) 38%, rgba(15,42,68,.22) 70%, rgba(15,42,68,.14)), url('../assets/images/featured-episode-8.jpg') center center / cover no-repeat; }
+.home-hero { background:linear-gradient(110deg, rgba(6,20,33,.84), rgba(15,42,68,.58) 38%, rgba(15,42,68,.22) 70%, rgba(15,42,68,.14)), url('../images/featured-episode-8.jpg') center center / cover no-repeat; }
 .hero-content { position:relative; z-index:1; display:grid; grid-template-columns:minmax(0,1.08fr) minmax(300px,390px); gap:32px; align-items:end; min-height:inherit; padding:64px clamp(24px,4vw,48px) 48px; }
 .hero-copy { color:var(--cloud-white); }
 .hero-copy .title-xl,.hero-copy .title-lg,.hero-copy .title-md,.hero-copy .title-sm { color:var(--cloud-white); }
