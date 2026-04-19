@@ -1,0 +1,1641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Voices of OKC is a student-produced podcast from City Center featuring leaders, stories, and ideas shaping Oklahoma City." />
+  <meta property="og:title" content="Voices of OKC" />
+  <meta property="og:description" content="A student-produced podcast from City Center featuring leaders, stories, and ideas shaping Oklahoma City." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/og-voices-okc.jpg" />
+  <meta name="theme-color" content="#0F2A44" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <title>Voices of OKC</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --civic-navy: #0F2A44;
+      --slate: #3E4C59;
+      --cloud-white: #F4F7FA;
+      --ice-blue: #7CC6FE;
+      --warm-signal-blue: #5FA8D3;
+      --electric-coral: #FF5A5F;
+
+      --text: #183044;
+      --text-soft: #506273;
+      --line: rgba(15, 42, 68, 0.12);
+      --line-strong: rgba(15, 42, 68, 0.2);
+      --shadow-sm: 0 8px 24px rgba(15, 42, 68, 0.06);
+      --shadow-md: 0 18px 50px rgba(15, 42, 68, 0.08);
+      --shadow-lg: 0 28px 60px rgba(15, 42, 68, 0.14);
+
+      --space-1: 4px;
+      --space-2: 8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-5: 20px;
+      --space-6: 24px;
+      --space-7: 28px;
+      --space-8: 32px;
+      --space-10: 40px;
+      --space-12: 48px;
+      --space-14: 56px;
+      --space-16: 64px;
+      --space-18: 72px;
+      --space-20: 80px;
+      --space-24: 96px;
+
+      --section-width: 1200px;
+      --radius-sm: 12px;
+      --radius-md: 16px;
+      --radius-lg: 20px;
+      --radius-xl: 28px;
+      --radius-2xl: 34px;
+      --header-height: 80px;
+      --audio-height: 88px;
+      --focus-ring: 0 0 0 3px rgba(124, 198, 254, 0.35);
+      --ease: 220ms cubic-bezier(.2,.8,.2,1);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top right, rgba(124, 198, 254, 0.14), transparent 28%),
+        linear-gradient(180deg, #ffffff, #fbfdff 40%, #f8fbfe 100%);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      padding-bottom: calc(var(--audio-height) + var(--space-6));
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      font: inherit;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    audio {
+      display: none;
+    }
+
+    :focus-visible {
+      outline: none;
+      box-shadow: var(--focus-ring);
+      border-radius: var(--radius-sm);
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: var(--space-4);
+      top: -48px;
+      z-index: 2000;
+      background: var(--civic-navy);
+      color: var(--cloud-white);
+      padding: var(--space-3) var(--space-4);
+      border-radius: 999px;
+      transition: top var(--ease);
+    }
+
+    .skip-link:focus {
+      top: var(--space-4);
+    }
+
+    .site-shell {
+      overflow: hidden;
+    }
+
+    .container {
+      width: min(100% - 40px, var(--section-width));
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: var(--space-24) 0;
+    }
+
+    .section-tight {
+      padding-top: var(--space-20);
+      padding-bottom: var(--space-20);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-3);
+      margin-bottom: var(--space-4);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--warm-signal-blue);
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 32px;
+      height: 1px;
+      background: currentColor;
+      opacity: 0.55;
+    }
+
+    .title-xl,
+    .title-lg,
+    .title-md,
+    .title-sm {
+      margin: 0;
+      font-family: "Sora", "Inter", sans-serif;
+      letter-spacing: -0.035em;
+      color: var(--civic-navy);
+      line-height: 1.05;
+      text-wrap: balance;
+    }
+
+    .title-xl { font-size: clamp(2.75rem, 5vw, 5.1rem); }
+    .title-lg { font-size: clamp(2rem, 3.6vw, 3.25rem); }
+    .title-md { font-size: clamp(1.5rem, 2.3vw, 2rem); }
+    .title-sm { font-size: 1.18rem; line-height: 1.2; }
+
+    .lede {
+      margin: 0;
+      max-width: 760px;
+      color: var(--text-soft);
+      font-size: clamp(1.02rem, 1.3vw, 1.16rem);
+      text-wrap: pretty;
+    }
+
+    .body-copy p {
+      margin: 0 0 var(--space-4);
+      color: var(--text-soft);
+      font-size: 1.02rem;
+      text-wrap: pretty;
+    }
+
+    .body-copy p:last-child {
+      margin-bottom: 0;
+    }
+
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      margin-top: var(--space-8);
+    }
+
+    .button,
+    .button-secondary,
+    .button-ghost,
+    .button-outline,
+    .audio-control {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 52px;
+      padding: 0 var(--space-6);
+      border-radius: 999px;
+      font-size: 0.96rem;
+      font-weight: 700;
+      transition:
+        transform var(--ease),
+        box-shadow var(--ease),
+        background-color var(--ease),
+        border-color var(--ease),
+        opacity var(--ease);
+      will-change: transform;
+    }
+
+    .button:hover,
+    .button-secondary:hover,
+    .button-ghost:hover,
+    .button-outline:hover,
+    .audio-control:hover {
+      transform: translateY(-2px);
+    }
+
+    .button {
+      color: var(--civic-navy);
+      background: var(--ice-blue);
+      box-shadow: 0 14px 34px rgba(124, 198, 254, 0.28);
+    }
+
+    .button-secondary {
+      color: var(--cloud-white);
+      background: var(--civic-navy);
+      box-shadow: 0 14px 34px rgba(15, 42, 68, 0.16);
+    }
+
+    .button-ghost {
+      color: var(--cloud-white);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1.5px solid rgba(244, 247, 250, 0.24);
+      backdrop-filter: blur(10px);
+    }
+
+    .button-outline {
+      min-height: 48px;
+      color: var(--civic-navy);
+      background: #ffffff;
+      border: 1px solid rgba(15, 42, 68, 0.14);
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(244, 247, 250, 0.88);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(15, 42, 68, 0.08);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: var(--header-height);
+      gap: var(--space-5);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-4);
+      min-width: 0;
+    }
+
+    .brand-mark {
+      width: 44px;
+      height: 44px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    .brand-lockup {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .brand-name {
+      font-family: "Sora", "Inter", sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--civic-navy);
+      line-height: 1.05;
+    }
+
+    .brand-tag {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-soft);
+      margin-top: var(--space-1);
+    }
+
+    .nav-toggle {
+      display: none;
+      padding: var(--space-3);
+      margin-right: -12px;
+    }
+
+    .nav-toggle span,
+    .nav-toggle::before,
+    .nav-toggle::after {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--civic-navy);
+      border-radius: 999px;
+      transition: transform var(--ease), opacity var(--ease);
+      content: "";
+    }
+
+    .nav-toggle span {
+      margin: 5px 0;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: var(--space-7);
+    }
+
+    .nav a {
+      position: relative;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text);
+      transition: color var(--ease), opacity var(--ease);
+    }
+
+    .nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      width: 100%;
+      height: 2px;
+      background: var(--ice-blue);
+      border-radius: 999px;
+      transform: scaleX(0);
+      transform-origin: left center;
+      transition: transform var(--ease);
+    }
+
+    .nav a:hover {
+      color: var(--civic-navy);
+    }
+
+    .nav a:hover::after,
+    .nav a:focus-visible::after {
+      transform: scaleX(1);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+    }
+
+    .hero {
+      padding: var(--space-14) 0 var(--space-2);
+    }
+
+    .hero-card {
+      position: relative;
+      min-height: min(88vh, 860px);
+      border-radius: var(--radius-2xl);
+      overflow: hidden;
+      background:
+        linear-gradient(110deg, rgba(6, 20, 33, 0.85), rgba(15, 42, 68, 0.62) 38%, rgba(15, 42, 68, 0.24) 70%, rgba(15, 42, 68, 0.16)),
+        url('assets/images/hero-18.jpg') center center / cover no-repeat;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .hero-card::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: 34%;
+      background: linear-gradient(180deg, rgba(15, 42, 68, 0), rgba(15, 42, 68, 0.58));
+      pointer-events: none;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(320px, 400px);
+      gap: var(--space-8);
+      align-items: end;
+      min-height: inherit;
+      padding: var(--space-18) clamp(28px, 4vw, 52px) var(--space-14);
+    }
+
+    .hero-copy {
+      max-width: 760px;
+      color: var(--cloud-white);
+    }
+
+    .hero-copy .title-xl,
+    .hero-copy .title-lg,
+    .hero-copy .title-md,
+    .hero-copy .title-sm {
+      color: var(--cloud-white);
+    }
+
+    .hero-copy .eyebrow {
+      color: var(--ice-blue);
+    }
+
+    .hero-copy .lede {
+      color: rgba(244, 247, 250, 0.85);
+      margin-top: var(--space-5);
+    }
+
+    .hero-panel {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: var(--radius-xl);
+      padding: var(--space-6);
+      backdrop-filter: blur(12px);
+      color: var(--cloud-white);
+    }
+
+    .hero-panel h2 {
+      margin-bottom: var(--space-3);
+      color: var(--cloud-white);
+      font-size: 1.08rem;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-panel p {
+      margin: 0 0 var(--space-4);
+      color: rgba(244, 247, 250, 0.82);
+      font-size: 0.96rem;
+    }
+
+    .hero-meta {
+      display: grid;
+      gap: var(--space-2);
+      margin-bottom: var(--space-5);
+    }
+
+    .hero-meta-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+      padding-top: var(--space-3);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 0.92rem;
+    }
+
+    .hero-meta-item span:first-child {
+      color: rgba(244, 247, 250, 0.66);
+    }
+
+    .strip {
+      margin-top: var(--space-4);
+      padding: var(--space-4) 0 var(--space-2);
+    }
+
+    .strip-card {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: var(--space-2);
+      background: var(--cloud-white);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: var(--space-3) var(--space-4);
+      box-shadow: 0 16px 40px rgba(15, 42, 68, 0.06);
+    }
+
+    .strip-item {
+      text-align: center;
+      font-size: 0.86rem;
+      font-weight: 700;
+      color: var(--slate);
+      letter-spacing: 0.02em;
+    }
+
+    .featured-grid,
+    .about-grid {
+      display: grid;
+      gap: var(--space-8);
+      align-items: center;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+
+    .image-frame {
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-md);
+      background: #e8eff5;
+      border: 1px solid rgba(15, 42, 68, 0.08);
+    }
+
+    .image-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 420ms cubic-bezier(.2,.8,.2,1), opacity var(--ease);
+    }
+
+    .featured-image {
+      aspect-ratio: 4 / 3;
+    }
+
+    .about-image {
+      aspect-ratio: 4 / 4.2;
+    }
+
+    .card-surface {
+      background: linear-gradient(180deg, #ffffff, #f9fbfd);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      padding: var(--space-8);
+      box-shadow: var(--shadow-md);
+    }
+
+    .episode-kicker {
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--warm-signal-blue);
+      margin-bottom: var(--space-4);
+    }
+
+    .episode-title {
+      margin: 0 0 var(--space-4);
+      font-family: "Sora", "Inter", sans-serif;
+      font-size: clamp(1.6rem, 2.4vw, 2.4rem);
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      color: var(--civic-navy);
+      text-wrap: balance;
+    }
+
+    .episode-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-4);
+      margin: var(--space-5) 0 var(--space-7);
+      padding-top: var(--space-5);
+      border-top: 1px solid var(--line);
+      color: var(--text-soft);
+      font-size: 0.93rem;
+      font-weight: 600;
+    }
+
+    .student-section {
+      background: linear-gradient(180deg, #f7fbff, #ffffff);
+    }
+
+    .student-head {
+      max-width: 760px;
+      margin-bottom: var(--space-8);
+    }
+
+    .student-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+      gap: var(--space-6);
+      align-items: stretch;
+    }
+
+    .student-primary {
+      min-height: 620px;
+    }
+
+    .student-side {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      gap: var(--space-6);
+    }
+
+    .student-note {
+      margin-top: var(--space-6);
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: var(--space-4);
+    }
+
+    .mini-card {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .mini-card h3 {
+      margin: 0 0 var(--space-2);
+      font-family: "Sora", "Inter", sans-serif;
+      font-size: 1rem;
+      letter-spacing: -0.02em;
+      color: var(--civic-navy);
+    }
+
+    .mini-card p {
+      margin: 0;
+      color: var(--text-soft);
+      font-size: 0.94rem;
+      text-wrap: pretty;
+    }
+
+    .guest-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: var(--space-5);
+      margin-top: var(--space-8);
+    }
+
+    .guest-card {
+      overflow: hidden;
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      transition:
+        transform var(--ease),
+        box-shadow var(--ease),
+        border-color var(--ease);
+      will-change: transform;
+    }
+
+    .guest-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-md);
+      border-color: rgba(15, 42, 68, 0.18);
+    }
+
+    .guest-card:hover .guest-card-image img {
+      transform: scale(1.03);
+    }
+
+    .guest-card-image {
+      aspect-ratio: 4 / 3;
+      background: #ebf2f8;
+      overflow: hidden;
+    }
+
+    .guest-card-copy {
+      padding: var(--space-5);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+      flex: 1;
+    }
+
+    .guest-role {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--warm-signal-blue);
+    }
+
+    .guest-card-copy p {
+      margin: 0;
+      color: var(--text-soft);
+      font-size: 0.94rem;
+      text-wrap: pretty;
+    }
+
+    .platform-section {
+      background: var(--civic-navy);
+      color: var(--cloud-white);
+    }
+
+    .platform-section .title-lg,
+    .platform-section .lede,
+    .platform-section .eyebrow {
+      color: var(--cloud-white);
+    }
+
+    .platform-section .eyebrow {
+      color: var(--ice-blue);
+    }
+
+    .platform-row {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: var(--space-4);
+      margin-top: var(--space-8);
+    }
+
+    .platform-card {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      text-align: center;
+      transition: transform var(--ease), background var(--ease), opacity var(--ease);
+    }
+
+    .platform-card:hover {
+      transform: translateY(-3px);
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .platform-card strong {
+      display: block;
+      font-family: "Sora", "Inter", sans-serif;
+      font-size: 1rem;
+      letter-spacing: -0.02em;
+      margin-bottom: var(--space-2);
+    }
+
+    .platform-card span {
+      color: rgba(244, 247, 250, 0.72);
+      font-size: 0.92rem;
+      text-wrap: pretty;
+    }
+
+    .cta-band {
+      background: linear-gradient(135deg, #112f4a, #183b5b);
+      color: var(--cloud-white);
+      border-radius: var(--radius-xl);
+      padding: var(--space-10) clamp(24px, 4vw, 46px);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: var(--space-6);
+      align-items: center;
+      box-shadow: 0 24px 50px rgba(15, 42, 68, 0.16);
+    }
+
+    .cta-band .title-md,
+    .cta-band p {
+      color: var(--cloud-white);
+      margin: 0;
+    }
+
+    .cta-band p {
+      color: rgba(244, 247, 250, 0.82);
+      margin-top: var(--space-3);
+      max-width: 720px;
+      text-wrap: pretty;
+    }
+
+    .site-footer {
+      background: #0c2238;
+      color: var(--cloud-white);
+      padding: var(--space-16) 0 var(--space-7);
+      margin-top: var(--space-24);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) repeat(3, minmax(0, 0.7fr));
+      gap: var(--space-7);
+    }
+
+    .footer-brand {
+      max-width: 470px;
+    }
+
+    .footer-brand .brand {
+      margin-bottom: var(--space-4);
+    }
+
+    .footer-copy {
+      color: rgba(244, 247, 250, 0.75);
+      font-size: 0.96rem;
+      margin: 0;
+      text-wrap: pretty;
+    }
+
+    .footer-column h2 {
+      margin: 0 0 var(--space-4);
+      font-family: "Sora", "Inter", sans-serif;
+      font-size: 1rem;
+      letter-spacing: -0.02em;
+      color: var(--cloud-white);
+    }
+
+    .footer-column a,
+    .footer-column span {
+      display: block;
+      margin: 0 0 var(--space-3);
+      color: rgba(244, 247, 250, 0.76);
+      font-size: 0.94rem;
+    }
+
+    .footer-bottom {
+      margin-top: var(--space-9);
+      padding-top: var(--space-5);
+      border-top: 1px solid rgba(244, 247, 250, 0.08);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: var(--space-2) var(--space-4);
+      color: rgba(244, 247, 250, 0.6);
+      font-size: 0.88rem;
+    }
+
+    .audio-player {
+      position: fixed;
+      left: 50%;
+      bottom: var(--space-4);
+      transform: translateX(-50%);
+      z-index: 1400;
+      width: min(calc(100% - 24px), 1120px);
+      background: rgba(244, 247, 250, 0.96);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(15, 42, 68, 0.1);
+      box-shadow: 0 18px 40px rgba(15, 42, 68, 0.16);
+      border-radius: 24px;
+      padding: var(--space-4);
+    }
+
+    .audio-player[data-unavailable="true"] .audio-meta::after {
+      content: "Add assets/audio/latest-episode.mp3 to activate the player.";
+      display: block;
+      margin-top: var(--space-1);
+      font-size: 0.76rem;
+      color: var(--text-soft);
+      opacity: 0.72;
+    }
+
+    .audio-grid {
+      display: grid;
+      grid-template-columns: auto minmax(0, 260px) 1fr auto;
+      gap: var(--space-4);
+      align-items: center;
+    }
+
+    .audio-control {
+      min-width: 52px;
+      padding: 0;
+      background: var(--civic-navy);
+      color: var(--cloud-white);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .audio-control[disabled] {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .audio-meta {
+      min-width: 0;
+    }
+
+    .audio-label {
+      display: block;
+      font-size: 0.73rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--warm-signal-blue);
+      margin-bottom: var(--space-1);
+    }
+
+    .audio-title {
+      display: block;
+      font-family: "Sora", "Inter", sans-serif;
+      font-size: 0.96rem;
+      line-height: 1.2;
+      color: var(--civic-navy);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .audio-progress-wrap {
+      min-width: 0;
+      display: grid;
+      gap: var(--space-2);
+    }
+
+    .audio-range {
+      width: 100%;
+      margin: 0;
+      accent-color: var(--ice-blue);
+      cursor: pointer;
+      appearance: none;
+      background: transparent;
+    }
+
+    .audio-range::-webkit-slider-runnable-track {
+      height: 6px;
+      background:
+        linear-gradient(to right, var(--ice-blue) 0%, var(--ice-blue) var(--progress, 0%), rgba(15,42,68,.16) var(--progress, 0%), rgba(15,42,68,.16) 100%);
+      border-radius: 999px;
+    }
+
+    .audio-range::-webkit-slider-thumb {
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--civic-navy);
+      border: 2px solid var(--cloud-white);
+      margin-top: -5px;
+      box-shadow: 0 2px 8px rgba(15,42,68,.18);
+    }
+
+    .audio-range::-moz-range-track {
+      height: 6px;
+      background: rgba(15,42,68,.16);
+      border-radius: 999px;
+    }
+
+    .audio-range::-moz-range-progress {
+      height: 6px;
+      background: var(--ice-blue);
+      border-radius: 999px;
+    }
+
+    .audio-range::-moz-range-thumb {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--civic-navy);
+      border: 2px solid var(--cloud-white);
+      box-shadow: 0 2px 8px rgba(15,42,68,.18);
+    }
+
+    .audio-times {
+      display: flex;
+      justify-content: space-between;
+      gap: var(--space-4);
+      color: var(--text-soft);
+      font-size: 0.84rem;
+      font-weight: 600;
+    }
+
+    .audio-links {
+      display: flex;
+      gap: var(--space-2);
+      flex-wrap: wrap;
+    }
+
+    .audio-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 0 var(--space-4);
+      border-radius: 999px;
+      border: 1px solid rgba(15, 42, 68, 0.14);
+      background: #ffffff;
+      color: var(--civic-navy);
+      font-size: 0.86rem;
+      font-weight: 700;
+      transition: transform var(--ease), box-shadow var(--ease), opacity var(--ease);
+    }
+
+    .audio-link:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-sm);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    @media (max-width: 1180px) {
+      .hero-content,
+      .student-grid,
+      .featured-grid,
+      .about-grid,
+      .footer-grid,
+      .cta-band {
+        grid-template-columns: 1fr;
+      }
+
+      .student-primary { min-height: 480px; }
+      .guest-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .platform-row,
+      .student-note,
+      .strip-card {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .audio-grid {
+        grid-template-columns: auto minmax(0, 1fr);
+      }
+      .audio-links {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 860px) {
+      :root {
+        --header-height: 72px;
+        --audio-height: 124px;
+      }
+
+      .section {
+        padding: var(--space-20) 0;
+      }
+
+      .nav-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .nav-actions .button-secondary {
+        display: none;
+      }
+
+      .nav-wrap {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        background: rgba(244, 247, 250, 0.98);
+        backdrop-filter: blur(16px);
+        border-bottom: 1px solid rgba(15, 42, 68, 0.08);
+        padding: var(--space-3) var(--space-5) var(--space-6);
+        display: none;
+      }
+
+      .nav-wrap.open {
+        display: block;
+      }
+
+      .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-3);
+        margin-bottom: var(--space-4);
+      }
+
+      .nav a {
+        font-size: 1rem;
+      }
+
+      .mobile-action {
+        display: inline-flex;
+      }
+
+      .hero {
+        padding-top: var(--space-8);
+      }
+
+      .hero-card {
+        min-height: 720px;
+        background-position: center right;
+      }
+
+      .hero-content {
+        padding: var(--space-12) var(--space-6) var(--space-6);
+        align-items: end;
+      }
+
+      .audio-player {
+        bottom: var(--space-3);
+      }
+    }
+
+    @media (min-width: 861px) {
+      .mobile-action {
+        display: none;
+      }
+    }
+
+    @media (max-width: 680px) {
+      body {
+        padding-bottom: calc(128px + var(--space-5));
+      }
+
+      .container {
+        width: min(100% - 24px, var(--section-width));
+      }
+
+      .hero-card {
+        min-height: 640px;
+        border-radius: 24px;
+      }
+
+      .button,
+      .button-secondary,
+      .button-ghost,
+      .button-outline {
+        width: 100%;
+      }
+
+      .strip-card,
+      .guest-grid,
+      .platform-row,
+      .student-note {
+        grid-template-columns: 1fr;
+      }
+
+      .student-side {
+        grid-template-rows: none;
+      }
+
+      .student-primary {
+        min-height: 380px;
+      }
+
+      .audio-player {
+        border-radius: 20px;
+      }
+
+      .audio-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-3);
+      }
+
+      .audio-control {
+        width: 100%;
+      }
+
+      .audio-links {
+        width: 100%;
+      }
+
+      .audio-link {
+        flex: 1 1 100%;
+      }
+
+      .title-xl {
+        font-size: clamp(2.2rem, 10vw, 3.2rem);
+      }
+
+      .title-lg {
+        font-size: clamp(1.7rem, 7vw, 2.4rem);
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Voices of OKC home">
+          <img class="brand-mark" src="assets/images/voices-icon-civic-navy.png" alt="Voices of OKC logo icon" />
+          <span class="brand-lockup">
+            <span class="brand-name">Voices of OKC</span>
+            <span class="brand-tag">A City Center Podcast</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Toggle navigation">
+          <span></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <div class="nav-wrap" id="siteNav">
+          <nav class="nav" aria-label="Primary navigation">
+            <a href="episodes/">Episodes</a>
+            <a href="about/">About</a>
+            <a href="#students">Student Production</a>
+            <a href="#guests">Guests</a>
+            <a href="sponsors/">Sponsors</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <div class="nav-actions">
+            <a class="button-secondary" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer">Watch Now</a>
+            <a class="button-secondary mobile-action" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer">Watch Now</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section-tight" aria-labelledby="hero-heading">
+        <div class="container">
+          <div class="hero-card">
+            <div class="hero-content">
+              <div class="hero-copy">
+                <span class="eyebrow">Student-produced · Oklahoma City</span>
+                <h1 class="title-xl" id="hero-heading">Conversations shaping Oklahoma City.</h1>
+                <p class="lede">Voices of OKC is a student-produced podcast from City Center featuring leaders, stories, and ideas moving our city forward with depth, dignity, and real access.</p>
+                <div class="button-row">
+                  <a class="button" href="#episodes">Watch the Latest Episode</a>
+                  <a class="button-secondary" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer">YouTube</a>
+                  <a class="button-ghost" href="#students">How Students Are Involved</a>
+                </div>
+              </div>
+
+              <aside class="hero-panel" aria-labelledby="hero-panel-title">
+                <h2 id="hero-panel-title">Why this matters</h2>
+                <p>Voices of OKC is more than a podcast feed. It is a civic storytelling platform where students gain real production experience while conversations with leaders help shape how our city sees itself.</p>
+                <div class="hero-meta">
+                  <div class="hero-meta-item"><span>Format</span><strong>Long-form video + audio</strong></div>
+                  <div class="hero-meta-item"><span>Produced by</span><strong>Students + City Center</strong></div>
+                  <div class="hero-meta-item"><span>Focus</span><strong>Leadership, hope, civic life</strong></div>
+                </div>
+                <a class="button" href="about/">Explore the Show</a>
+              </aside>
+            </div>
+          </div>
+
+          <div class="strip" aria-label="Show themes">
+            <div class="strip-card">
+              <div class="strip-item">Leadership</div>
+              <div class="strip-item">Student Production</div>
+              <div class="strip-item">Oklahoma City</div>
+              <div class="strip-item">Long-form Conversation</div>
+              <div class="strip-item">Mentorship</div>
+              <div class="strip-item">Stories of Hope</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="episodes" aria-labelledby="episodes-heading">
+        <div class="container featured-grid">
+          <article class="image-frame featured-image">
+            <img src="assets/images/featured-episode-8.jpg" alt="Mayor David Holt in conversation with student host Jordan Arnett and Jed Chappell for Voices of OKC" />
+          </article>
+
+          <article class="card-surface">
+            <div class="episode-kicker">Latest Episode</div>
+            <h2 class="episode-title" id="episodes-heading">From Policy to People: Mayor David Holt on leadership, youth, and Oklahoma City</h2>
+            <div class="body-copy">
+              <p>A conversation about civic leadership, long-term vision, the role of youth in shaping a city, and why productive pathways matter in Oklahoma City.</p>
+            </div>
+            <div class="episode-meta">
+              <span>Featured Guest: Mayor David Holt</span>
+              <span>Student Host: Jordan Arnett</span>
+              <span>Recorded at City Hall</span>
+            </div>
+            <div class="button-row">
+              <a class="button-secondary" href="episodes/mayor-david-holt/">View episode page</a>
+              <a class="button-outline" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer">Watch on YouTube</a>
+              <a class="button-outline" href="https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6" target="_blank" rel="noreferrer">Spotify</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="about-preview" aria-labelledby="about-preview-heading">
+        <div class="container about-grid">
+          <article class="card-surface">
+            <span class="eyebrow">About the show</span>
+            <h2 class="title-lg" id="about-preview-heading">A podcast rooted in Oklahoma City.</h2>
+            <div class="body-copy" style="margin-top: 20px;">
+              <p>Voices of OKC is a podcast from City Center that highlights leaders, ideas, and stories shaping Oklahoma City. Each conversation is designed to be thoughtful, grounded, and human.</p>
+              <p>The show exists not only to spotlight strong voices in our city, but to help students grow through real production experience, meaningful access, and the kind of responsibility that changes what they believe is possible.</p>
+            </div>
+            <div class="button-row">
+              <a class="button-secondary" href="about/">About Voices of OKC</a>
+            </div>
+          </article>
+
+          <article class="image-frame about-image">
+            <img src="assets/images/about-show-11.jpg" alt="Jed Chappell and student host Jordan Arnett smiling together at the podcast table" />
+          </article>
+        </div>
+      </section>
+
+      <section class="section student-section" id="students" aria-labelledby="students-heading">
+        <div class="container">
+          <div class="student-head">
+            <span class="eyebrow">Student production</span>
+            <h2 class="title-lg" id="students-heading">Produced with students. Built for real growth.</h2>
+            <p class="lede" style="margin-top: 18px;">Voices of OKC is more than a podcast. It is a hands-on learning environment where students gain real experience in interviewing, production, audio, camera work, and storytelling. They are not just watching from the sidelines. They are helping make the work happen.</p>
+          </div>
+
+          <div class="student-grid">
+            <article class="image-frame student-primary">
+              <img src="assets/images/student-production-16.jpg" alt="Students working on audio and camera production during a Voices of OKC recording with Mayor David Holt" />
+            </article>
+
+            <div class="student-side">
+              <article class="image-frame">
+                <img src="assets/images/student-production-3.jpg" alt="Behind the scenes view of the Voices of OKC production setup with lights, monitor, and recording table" />
+              </article>
+              <article class="image-frame">
+                <img src="assets/images/student-production-14.jpg" alt="Production monitor showing the live switcher view during a Voices of OKC recording" />
+              </article>
+            </div>
+          </div>
+
+          <div class="student-note">
+            <article class="mini-card">
+              <h3>Student hosts</h3>
+              <p>Students are given real opportunities to host, co-host, and ask meaningful questions in live conversations.</p>
+            </article>
+            <article class="mini-card">
+              <h3>Production experience</h3>
+              <p>Camera work, audio, switching, lighting, and setup become practical skills instead of abstract ideas.</p>
+            </article>
+            <article class="mini-card">
+              <h3>Civic access</h3>
+              <p>Students engage leaders across Oklahoma City and learn how thoughtful conversations are built in real rooms.</p>
+            </article>
+            <article class="mini-card">
+              <h3>Long-term impact</h3>
+              <p>The goal is not only content. It is confidence, skill, exposure, and a stronger sense of what students can become.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="guests" aria-labelledby="guests-heading">
+        <div class="container">
+          <span class="eyebrow">Featured guests</span>
+          <h2 class="title-lg" id="guests-heading">Voices helping shape the city.</h2>
+          <p class="lede" style="margin-top: 18px;">Conversations with civic leaders, founders, mentors, public servants, and voices of hope across Oklahoma City.</p>
+
+          <div class="guest-grid">
+            <article class="guest-card">
+              <div class="guest-card-image">
+                <img src="assets/images/guest-mayor-holt.jpg" alt="Mayor David Holt recording an episode of Voices of OKC" />
+              </div>
+              <div class="guest-card-copy">
+                <span class="guest-role">Featured conversation</span>
+                <h3 class="title-sm">Mayor David Holt</h3>
+                <p>Leadership, youth, and the long work of building a stronger Oklahoma City.</p>
+                <a class="button-outline" href="episodes/mayor-david-holt/">View episode</a>
+              </div>
+            </article>
+
+            <article class="guest-card">
+              <div class="guest-card-image">
+                <img src="assets/images/guest-derrick.jpg" alt="Branded artwork for the Derrick Sier episode of Voices of OKC" />
+              </div>
+              <div class="guest-card-copy">
+                <span class="guest-role">Mentorship</span>
+                <h3 class="title-sm">Derrick Sier</h3>
+                <p>How one connection can change the trajectory of a life and why community matters.</p>
+                <a class="button-outline" href="episodes/derrick-sier/">View episode</a>
+              </div>
+            </article>
+
+            <article class="guest-card">
+              <div class="guest-card-image">
+                <img src="assets/images/alt-featured-13.jpg" alt="Conversation frame from Voices of OKC" />
+              </div>
+              <div class="guest-card-copy">
+                <span class="guest-role">Performance + resilience</span>
+                <h3 class="title-sm">Dr. Wayne Chappelle</h3>
+                <p>Psychology, performance, and the mindset behind resilience in life and leadership.</p>
+                <a class="button-outline" href="https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6" target="_blank" rel="noreferrer">Listen now</a>
+              </div>
+            </article>
+
+            <article class="guest-card">
+              <div class="guest-card-image">
+                <img src="assets/images/about-show-11.jpg" alt="Student host and Jed Chappell at the podcast table" />
+              </div>
+              <div class="guest-card-copy">
+                <span class="guest-role">Public leadership</span>
+                <h3 class="title-sm">More voices coming</h3>
+                <p>Public servants, founders, civic leaders, and voices of hope across Oklahoma City.</p>
+                <a class="button-outline" href="https://instagram.com/voicesofokc" target="_blank" rel="noreferrer">Follow updates</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section platform-section" id="platforms" aria-labelledby="platforms-heading">
+        <div class="container">
+          <span class="eyebrow">Watch + listen</span>
+          <h2 class="title-lg" id="platforms-heading">Wherever you are, start here.</h2>
+          <p class="lede" style="margin-top: 18px;">Follow the show, watch full conversations, and stay connected as new episodes release.</p>
+
+          <div class="platform-row">
+            <a class="platform-card" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer">
+              <strong>YouTube</strong>
+              <span>Full episodes and clips</span>
+            </a>
+            <a class="platform-card" href="https://instagram.com/voicesofokc" target="_blank" rel="noreferrer">
+              <strong>Instagram</strong>
+              <span>Announcements and short-form content</span>
+            </a>
+            <a class="platform-card" href="https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6" target="_blank" rel="noreferrer">
+              <strong>Spotify</strong>
+              <span>Listen on Spotify</span>
+            </a>
+            <a class="platform-card" href="https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322" target="_blank" rel="noreferrer">
+              <strong>Apple Podcasts</strong>
+              <span>Listen on Apple Podcasts</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sponsors" aria-labelledby="sponsors-heading">
+        <div class="container">
+          <div class="cta-band">
+            <div>
+              <h2 class="title-md" id="sponsors-heading">Support conversations that matter and the students helping produce them.</h2>
+              <p>Sponsoring Voices of OKC helps amplify meaningful stories in Oklahoma City while investing in real production experience for students growing in skill, confidence, and opportunity.</p>
+            </div>
+            <div class="button-row" style="margin-top: 0; justify-content: flex-end;">
+              <a class="button" href="sponsors/">Become a Sponsor</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="brand">
+              <img class="brand-mark" src="assets/images/voices-icon-white.png" alt="Voices of OKC logo icon" />
+              <span class="brand-lockup">
+                <span class="brand-name" style="color: var(--cloud-white);">Voices of OKC</span>
+                <span class="brand-tag" style="color: rgba(244,247,250,0.68);">A City Center Podcast</span>
+              </span>
+            </div>
+            <p class="footer-copy">Voices of OKC is a student-produced podcast from City Center highlighting leaders, stories, and ideas shaping Oklahoma City.</p>
+          </div>
+
+          <div class="footer-column">
+            <h2>Explore</h2>
+            <a href="episodes/">Episodes</a>
+            <a href="about/">About</a>
+            <a href="#students">Student Production</a>
+            <a href="#guests">Guests</a>
+          </div>
+
+          <div class="footer-column">
+            <h2>Follow</h2>
+            <a href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer">YouTube</a>
+            <a href="https://instagram.com/voicesofokc" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6" target="_blank" rel="noreferrer">Spotify</a>
+            <a href="https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322" target="_blank" rel="noreferrer">Apple Podcasts</a>
+          </div>
+
+          <div class="footer-column">
+            <h2>Contact</h2>
+            <span>info@voicesofokc.org</span>
+            <span>Oklahoma City, Oklahoma</span>
+            <span>Produced through City Center</span>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>© <span id="year"></span> Voices of OKC. All rights reserved.</span>
+          <span>Custom domain, platform links, and contact email updated.</span>
+        </div>
+      </div>
+    </footer>
+
+    <aside class="audio-player" aria-labelledby="audio-title" data-unavailable="true">
+      <audio id="siteAudio" preload="none">
+        <source src="assets/audio/latest-episode.mp3" type="audio/mpeg" />
+      </audio>
+
+      <div class="audio-grid">
+        <button class="audio-control" id="audioToggle" aria-label="Play latest episode audio">
+          <span id="audioToggleLabel">Play</span>
+        </button>
+
+        <div class="audio-meta">
+          <span class="audio-label">Latest audio</span>
+          <span class="audio-title" id="audio-title">From Policy to People: Mayor David Holt on leadership, youth, and Oklahoma City</span>
+        </div>
+
+        <div class="audio-progress-wrap">
+          <input
+            class="audio-range"
+            id="audioSeek"
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            step="0.1"
+            aria-label="Seek through episode audio"
+          />
+          <div class="audio-times" aria-live="polite">
+            <span id="audioCurrent">0:00</span>
+            <span id="audioDuration">0:00</span>
+          </div>
+        </div>
+
+        <div class="audio-links">
+          <a class="audio-link" href="https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6" target="_blank" rel="noreferrer">Spotify</a>
+          <a class="audio-link" href="https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322" target="_blank" rel="noreferrer">Apple</a>
+          <a class="audio-link" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer">YouTube</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const siteNav = document.getElementById('siteNav');
+    const yearEl = document.getElementById('year');
+
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+
+    if (navToggle && siteNav) {
+      navToggle.addEventListener('click', () => {
+        const isOpen = siteNav.classList.toggle('open');
+        navToggle.setAttribute('aria-expanded', String(isOpen));
+      });
+
+      siteNav.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+          if (window.innerWidth <= 860) {
+            siteNav.classList.remove('open');
+            navToggle.setAttribute('aria-expanded', 'false');
+          }
+        });
+      });
+    }
+
+    const audio = document.getElementById('siteAudio');
+    const audioToggle = document.getElementById('audioToggle');
+    const audioToggleLabel = document.getElementById('audioToggleLabel');
+    const audioSeek = document.getElementById('audioSeek');
+    const audioCurrent = document.getElementById('audioCurrent');
+    const audioDuration = document.getElementById('audioDuration');
+    const audioPlayer = document.querySelector('.audio-player');
+
+    const formatTime = (seconds) => {
+      if (!Number.isFinite(seconds)) return '0:00';
+      const mins = Math.floor(seconds / 60);
+      const secs = Math.floor(seconds % 60).toString().padStart(2, '0');
+      return `${mins}:${secs}`;
+    };
+
+    const updateProgressUI = () => {
+      const duration = Number.isFinite(audio.duration) && audio.duration > 0 ? audio.duration : 0;
+      const current = Number.isFinite(audio.currentTime) ? audio.currentTime : 0;
+      const progress = duration ? (current / duration) * 100 : 0;
+      audioSeek.value = progress;
+      audioSeek.style.setProperty('--progress', `${progress}%`);
+      audioCurrent.textContent = formatTime(current);
+      audioDuration.textContent = formatTime(duration);
+    };
+
+    const setPlayState = (isPlaying) => {
+      audioToggleLabel.textContent = isPlaying ? 'Pause' : 'Play';
+      audioToggle.setAttribute('aria-label', isPlaying ? 'Pause latest episode audio' : 'Play latest episode audio');
+    };
+
+    const updateAvailability = () => {
+      const hasSource = !!audio.querySelector('source')?.getAttribute('src');
+      const canPlay = hasSource && audio.networkState !== HTMLMediaElement.NETWORK_NO_SOURCE;
+      audioPlayer.dataset.unavailable = canPlay ? 'false' : 'true';
+    };
+
+    updateAvailability();
+    updateProgressUI();
+
+    audio.addEventListener('loadedmetadata', () => {
+      updateAvailability();
+      updateProgressUI();
+    });
+
+    audio.addEventListener('timeupdate', updateProgressUI);
+    audio.addEventListener('durationchange', updateProgressUI);
+    audio.addEventListener('ended', () => {
+      setPlayState(false);
+      updateProgressUI();
+    });
+    audio.addEventListener('error', () => {
+      audioPlayer.dataset.unavailable = 'true';
+      setPlayState(false);
+      audioToggle.disabled = true;
+      audioToggleLabel.textContent = 'Unavailable';
+    });
+
+    audioSeek.addEventListener('input', (event) => {
+      const duration = Number.isFinite(audio.duration) ? audio.duration : 0;
+      const progress = Number(event.target.value);
+      audioSeek.style.setProperty('--progress', `${progress}%`);
+      if (duration > 0) {
+        audio.currentTime = (progress / 100) * duration;
+      }
+      updateProgressUI();
+    });
+
+    audioToggle.addEventListener('click', async () => {
+      try {
+        if (!audio.getAttribute('src') && audio.querySelector('source')) {
+          audio.load();
+        }
+        if (audio.paused) {
+          await audio.play();
+          setPlayState(true);
+          audioPlayer.dataset.unavailable = 'false';
+        } else {
+          audio.pause();
+          setPlayState(false);
+        }
+      } catch (error) {
+        audioPlayer.dataset.unavailable = 'true';
+        audioToggle.disabled = true;
+        audioToggleLabel.textContent = 'Unavailable';
+      }
+    });
+
+    setPlayState(false);
+  </script>
+</body>
+</html>
