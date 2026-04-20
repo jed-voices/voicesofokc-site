@@ -15,6 +15,9 @@ const featuredImage = document.getElementById('featuredEpisodeImage');
 const featuredTitle = document.getElementById('featuredEpisodeTitle');
 const featuredDescription = document.getElementById('featuredEpisodeDescription');
 const featuredButton = document.getElementById('featuredEpisodeButton');
+const featuredYouTube = document.getElementById('featuredEpisodeYoutube');
+const featuredApple = document.getElementById('featuredEpisodeApple');
+const featuredSpotify = document.getElementById('featuredEpisodeSpotify');
 
 const fmt = (sec) => {
   if (!Number.isFinite(sec)) return '0:00';
@@ -57,9 +60,12 @@ async function loadLatestEpisode() {
     if (!res.ok) throw new Error('latest episode data unavailable');
     const episode = await res.json();
 
-    if (episode.title) {
-      titleEl.textContent = episode.title;
-      if (featuredTitle) featuredTitle.textContent = episode.title;
+    const title = (episode.title || '').trim();
+    const displayTitle = title ? title.toUpperCase() : '';
+
+    if (displayTitle) {
+      titleEl.textContent = displayTitle;
+      if (featuredTitle) featuredTitle.textContent = displayTitle;
     }
 
     if (episode.summary && featuredDescription) {
@@ -69,12 +75,23 @@ async function loadLatestEpisode() {
 
     if (episode.artwork_url && featuredImage) {
       featuredImage.src = episode.artwork_url;
-      featuredImage.alt = `${episode.title || 'Latest episode'} artwork for VOICES of OKC`;
+      featuredImage.alt = `${title || 'Latest episode'} artwork for VOICES of OKC`;
     }
 
-    if (episode.spotify_url) spotifyLink.href = episode.spotify_url;
-    if (episode.apple_url) appleLink.href = episode.apple_url;
-    if (episode.youtube_url) youtubeLink.href = episode.youtube_url;
+    if (episode.spotify_url) {
+      spotifyLink.href = episode.spotify_url;
+      if (featuredSpotify) featuredSpotify.href = episode.spotify_url;
+    }
+
+    if (episode.apple_url) {
+      appleLink.href = episode.apple_url;
+      if (featuredApple) featuredApple.href = episode.apple_url;
+    }
+
+    if (episode.youtube_url) {
+      youtubeLink.href = episode.youtube_url;
+      if (featuredYouTube) featuredYouTube.href = episode.youtube_url;
+    }
 
     if (episode.episode_url) {
       episodeLink.href = episode.episode_url;
