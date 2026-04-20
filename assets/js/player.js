@@ -5,18 +5,29 @@ const seek = document.getElementById('audioSeek');
 const currentEl = document.getElementById('audioCurrent');
 const durationEl = document.getElementById('audioDuration');
 const titleEl = document.getElementById('audioTitle');
-const player = document.getElementById('audioPlayer');
 const spotifyLink = document.getElementById('audioSpotify');
 const appleLink = document.getElementById('audioApple');
 const youtubeLink = document.getElementById('audioYoutube');
 const episodeLink = document.getElementById('audioEpisode');
 const note = document.getElementById('audioStatusNote');
 
+const featuredImage = document.getElementById('featuredEpisodeImage');
+const featuredTitle = document.getElementById('featuredEpisodeTitle');
+const featuredDescription = document.getElementById('featuredEpisodeDescription');
+const featuredButton = document.getElementById('featuredEpisodeButton');
+
 const fmt = (sec) => {
   if (!Number.isFinite(sec)) return '0:00';
   const m = Math.floor(sec / 60);
   const s = Math.floor(sec % 60).toString().padStart(2, '0');
   return `${m}:${s}`;
+};
+
+const stripHtml = (value) => {
+  if (!value) return '';
+  const tmp = document.createElement('div');
+  tmp.innerHTML = value;
+  return (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
 };
 
 const updateProgress = () => {
@@ -46,11 +57,33 @@ async function loadLatestEpisode() {
     if (!res.ok) throw new Error('latest episode data unavailable');
     const episode = await res.json();
 
-    if (episode.title) titleEl.textContent = episode.title;
+    if (episode.title) {
+      titleEl.textContent = episode.title;
+      if (featuredTitle) featuredTitle.textContent = episode.title;
+    }
+
+    if (episode.summary && featuredDescription) {
+      const cleanSummary = stripHtml(episode.summary);
+      if (cleanSummary) featuredDescription.textContent = cleanSummary;
+    }
+
+    if (episode.artwork_url && featuredImage) {
+      featuredImage.src = episode.artwork_url;
+      featuredImage.alt = `${episode.title || 'Latest episode'} artwork for VOICES of OKC`;
+    }
+
     if (episode.spotify_url) spotifyLink.href = episode.spotify_url;
     if (episode.apple_url) appleLink.href = episode.apple_url;
     if (episode.youtube_url) youtubeLink.href = episode.youtube_url;
-    if (episode.episode_url) episodeLink.href = episode.episode_url;
+
+    if (episode.episode_url) {
+      episodeLink.href = episode.episode_url;
+      if (featuredButton) {
+        featuredButton.href = episode.episode_url;
+        featuredButton.target = '_blank';
+        featuredButton.rel = 'noreferrer';
+      }
+    }
 
     if (!episode.audio_url) {
       setUnavailable('Audio source not set yet. Run the workflow or update latest-episode.json.');
