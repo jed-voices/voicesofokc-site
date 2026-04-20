@@ -17,6 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/site.css" />
+  <link rel="stylesheet" href="assets/css/final-overrides.css" />
 </head>
 <body>
   <header class="site-header">
@@ -73,7 +74,7 @@
 
     <section class="section" id="episodes">
       <div class="container featured-grid">
-        <article class="image-frame featured-image">
+        <article class="image-frame featured-image feature-card-visual">
           <img id="featuredEpisodeImage" src="assets/images/featured-episode-8.jpg" alt="Latest episode artwork for VOICES of OKC" />
         </article>
         <article class="card-surface">
@@ -82,15 +83,11 @@
           <div class="body-copy">
             <p id="featuredEpisodeDescription">A conversation about civic leadership, long-term vision, the role of youth in shaping a city, and why productive pathways matter in Oklahoma City.</p>
           </div>
-          <div class="episode-meta" id="featuredEpisodeMeta">
-            <span>Latest from Podbean</span>
-            <span>Auto-synced artwork + audio</span>
-            <span>Updated from the feed</span>
-          </div>
-          <div class="button-row">
-            <a class="button-secondary" id="featuredEpisodeButton" href="episodes/mayor-david-holt/">Open latest episode</a>
-            <a class="button-outline" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer">Watch on YouTube</a>
-            <a class="button-outline" href="https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322" target="_blank" rel="noreferrer">Apple Podcasts</a>
+          <div class="episode-actions">
+            <a class="action-pill action-pill--primary" id="featuredEpisodeButton" href="episodes/mayor-david-holt/" target="_blank" rel="noreferrer"><span class="action-icon action-icon--notes"></span><span class="action-label">Show Notes</span></a>
+            <a class="action-pill" id="featuredEpisodeYoutube" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer"><span class="action-icon action-icon--youtube"></span><span class="action-label">YouTube</span></a>
+            <a class="action-pill" id="featuredEpisodeApple" href="https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322" target="_blank" rel="noreferrer"><span class="action-icon action-icon--apple"></span><span class="action-label">Apple Podcasts</span></a>
+            <a class="action-pill" id="featuredEpisodeSpotify" href="https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6" target="_blank" rel="noreferrer"><span class="action-icon action-icon--spotify"></span><span class="action-label">Spotify</span></a>
           </div>
         </article>
       </div>
@@ -266,7 +263,7 @@
         </div>
         <div class="footer-bottom">
           <span>© 2026 VOICES of OKC. All rights reserved.</span>
-          <span>voicesofokc.org</span>
+          <span>www.voicesofokc.com</span>
         </div>
       </div>
     </footer>
