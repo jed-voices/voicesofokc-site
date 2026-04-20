@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2400" fill="none">
+  <defs>
+    <linearGradient id="fog" x1="800" y1="0" x2="800" y2="2400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="2400" fill="transparent"/>
+
+  <g opacity="0.22">
+    <rect x="1120" y="80" width="42" height="820" rx="20" fill="#33414D" opacity="0.10"/>
+    <rect x="1184" y="40" width="42" height="920" rx="20" fill="#33414D" opacity="0.08"/>
+    <rect x="1248" y="0" width="42" height="980" rx="20" fill="#33414D" opacity="0.07"/>
+    <rect x="1312" y="68" width="42" height="860" rx="20" fill="#33414D" opacity="0.08"/>
+    <rect x="1376" y="26" width="42" height="940" rx="20" fill="#33414D" opacity="0.08"/>
+  </g>
+
+  <g opacity="0.16">
+    <path d="M1040 580L1125 1080L1215 580" stroke="#2F3943" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1084 858L1182 858" stroke="#2F3943" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1056 708L1103 785" stroke="#2F3943" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1198 708L1151 785" stroke="#2F3943" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.18">
+    <path d="M210 1120C410 1060 620 1080 840 1134" stroke="#33414D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M210 1184C436 1138 648 1156 854 1210" stroke="#33414D" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+    <line x1="280" y1="820" x2="280" y2="1240" stroke="#33414D" stroke-width="10" stroke-linecap="round" opacity="0.28"/>
+    <line x1="352" y1="784" x2="352" y2="1236" stroke="#33414D" stroke-width="10" stroke-linecap="round" opacity="0.24"/>
+    <line x1="424" y1="756" x2="424" y2="1230" stroke="#33414D" stroke-width="10" stroke-linecap="round" opacity="0.22"/>
+    <line x1="496" y1="728" x2="496" y2="1220" stroke="#33414D" stroke-width="10" stroke-linecap="round" opacity="0.20"/>
+    <line x1="568" y1="710" x2="568" y2="1204" stroke="#33414D" stroke-width="10" stroke-linecap="round" opacity="0.20"/>
+    <line x1="640" y1="700" x2="640" y2="1188" stroke="#33414D" stroke-width="10" stroke-linecap="round" opacity="0.18"/>
+  </g>
+
+  <g opacity="0.2">
+    <rect x="90" y="1480" width="132" height="460" fill="#2F3943" opacity="0.10"/>
+    <rect x="246" y="1348" width="168" height="592" fill="#2F3943" opacity="0.12"/>
+    <rect x="442" y="1412" width="126" height="528" fill="#2F3943" opacity="0.10"/>
+    <rect x="592" y="1240" width="214" height="700" fill="#2F3943" opacity="0.12"/>
+    <path d="M868 1240H1036V1940H868V1240Z" fill="#2F3943" opacity="0.11"/>
+    <path d="M1094 1160H1274V1940H1094V1160Z" fill="#2F3943" opacity="0.10"/>
+    <path d="M1298 1300H1462V1940H1298V1300Z" fill="#2F3943" opacity="0.08"/>
+    <path d="M642 1160L720 1030L806 1160H642Z" fill="#2F3943" opacity="0.12"/>
+    <path d="M1136 1100L1188 1010L1240 1100H1136Z" fill="#2F3943" opacity="0.12"/>
+  </g>
+
+  <g opacity="0.14">
+    <path d="M94 2146C346 2054 642 2048 910 2134" stroke="#33414D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M184 2068C352 2004 558 2000 766 2050" stroke="#33414D" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="996" cy="2116" r="92" stroke="#2F3943" stroke-width="6" opacity="0.26"/>
+    <path d="M890 2120H1098" stroke="#2F3943" stroke-width="5" opacity="0.2"/>
+    <path d="M996 2014V2220" stroke="#2F3943" stroke-width="5" opacity="0.2"/>
+  </g>
+
+  <g opacity="0.12">
+    <circle cx="202" cy="212" r="4" fill="#33414D"/>
+    <circle cx="284" cy="290" r="5" fill="#33414D"/>
+    <circle cx="1310" cy="186" r="4" fill="#33414D"/>
+    <circle cx="1430" cy="244" r="6" fill="#33414D"/>
+    <circle cx="1260" cy="1740" r="5" fill="#33414D"/>
+    <circle cx="1428" cy="1600" r="4" fill="#33414D"/>
+    <circle cx="236" cy="1702" r="5" fill="#33414D"/>
+  </g>
+
+  <rect width="1600" height="2400" fill="url(#fog)"/>
+</svg>
