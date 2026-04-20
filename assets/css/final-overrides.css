@@ -1,0 +1,132 @@
+body::before {
+  opacity: 0.14 !important;
+  background-size: 1700px auto !important;
+  background-position: center 12px !important;
+}
+
+body::after {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.90) 0%, rgba(251,253,255,0.935) 44%, rgba(248,251,254,0.965) 100%),
+    radial-gradient(circle at 18% 14%, rgba(95,168,211,0.04), transparent 20%),
+    radial-gradient(circle at 82% 14%, rgba(15,42,68,0.024), transparent 18%) !important;
+}
+
+#featuredEpisodeMeta {
+  display: none !important;
+}
+
+.feature-card-visual,
+.detail-card-visual {
+  margin: 0 var(--space-4);
+}
+
+.episode-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.action-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(15,42,68,0.14);
+  background: rgba(255,255,255,0.92);
+  color: var(--civic-navy);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  transition: transform var(--ease), box-shadow var(--ease), background-color var(--ease), border-color var(--ease);
+}
+
+.action-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.action-pill--primary {
+  background: var(--civic-navy);
+  border-color: transparent;
+  color: var(--cloud-white);
+  box-shadow: 0 12px 28px rgba(15,42,68,0.16);
+}
+
+.action-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  flex: 0 0 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.action-icon--notes {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235FA8D3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 3.5h8l4 4V20a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4.5a1 1 0 0 1 1-1z'/%3E%3Cpath d='M15 3.5v4h4'/%3E%3Cpath d='M9 12h6'/%3E%3Cpath d='M9 16h6'/%3E%3C/svg%3E");
+}
+
+.action-pill--primary .action-icon--notes {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F4F7FA' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 3.5h8l4 4V20a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4.5a1 1 0 0 1 1-1z'/%3E%3Cpath d='M15 3.5v4h4'/%3E%3Cpath d='M9 12h6'/%3E%3Cpath d='M9 16h6'/%3E%3C/svg%3E");
+}
+
+.action-icon--youtube {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Crect x='2.5' y='5.5' width='19' height='13' rx='4' stroke='%235FA8D3' stroke-width='2'/%3E%3Cpath d='M10 9l5 3-5 3V9z' fill='%235FA8D3'/%3E%3C/svg%3E");
+}
+
+.action-icon--apple {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235FA8D3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='2.2' fill='%235FA8D3' stroke='%235FA8D3'/%3E%3Cpath d='M12 6.2a5.8 5.8 0 0 1 5.8 5.8'/%3E%3Cpath d='M12 6.2a5.8 5.8 0 0 0-5.8 5.8'/%3E%3Cpath d='M12 3.8a8.2 8.2 0 0 1 8.2 8.2'/%3E%3Cpath d='M12 3.8A8.2 8.2 0 0 0 3.8 12'/%3E%3Cpath d='M12 14.5v5.5'/%3E%3C/svg%3E");
+}
+
+.action-icon--spotify {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235FA8D3' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='9' stroke='%235FA8D3'/%3E%3Cpath d='M8 10.2c2.8-.8 5.7-.7 8.3.3'/%3E%3Cpath d='M8.8 13c2.3-.5 4.5-.4 6.6.4'/%3E%3Cpath d='M9.5 15.7c1.7-.3 3.3-.2 4.9.3'/%3E%3C/svg%3E");
+}
+
+.action-label {
+  white-space: nowrap;
+}
+
+#featuredEpisodeDescription {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1180px) {
+  .feature-card-visual,
+  .detail-card-visual {
+    margin: 0 var(--space-2);
+  }
+}
+
+@media (max-width: 920px) {
+  body::before {
+    opacity: 0.12 !important;
+    background-size: 1320px auto !important;
+    background-position: center 44px !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .feature-card-visual,
+  .detail-card-visual {
+    margin: 0;
+  }
+
+  .episode-actions {
+    gap: 10px;
+  }
+
+  .action-pill {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  body::before {
+    opacity: 0.1 !important;
+    background-size: 980px auto !important;
+    background-position: center 86px !important;
+  }
+}
