@@ -63,8 +63,8 @@ body::after {
 .button-secondary,
 .button-outline,
 .button-ghost,
-.action-pill,
 .audio-link {
+  display: inline-flex !important;
   min-height: 52px !important;
   padding: 0 22px !important;
   align-items: center !important;
@@ -73,6 +73,13 @@ body::after {
 }
 
 .action-pill {
+  display: grid !important;
+  grid-template-columns: 18px auto 18px;
+  column-gap: 10px;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 52px !important;
+  padding: 0 22px !important;
   border-radius: 999px;
   border: 1px solid rgba(15,42,68,0.14);
   background: rgba(255,255,255,0.92);
@@ -80,7 +87,16 @@ body::after {
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.02em;
+  text-align: center !important;
   transition: transform var(--ease), box-shadow var(--ease), background-color var(--ease), border-color var(--ease), color var(--ease);
+}
+
+.action-pill::after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  display: block;
+  grid-column: 3;
 }
 
 .action-pill:hover {
@@ -98,8 +114,10 @@ body::after {
 .action-icon {
   width: 18px;
   height: 18px;
-  display: inline-block;
-  flex: 0 0 18px;
+  display: block;
+  grid-column: 1;
+  justify-self: center;
+  align-self: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -130,6 +148,12 @@ body::after {
 }
 
 .action-label {
+  grid-column: 2;
+  display: block;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  line-height: 1.1;
   white-space: nowrap;
 }
 
@@ -155,48 +179,19 @@ body::after {
 .hero-panel-balanced .action-pill {
   min-height: 52px;
   padding: 0 20px;
-  backdrop-filter: blur(12px);
 }
 
 .hero-actions .action-pill {
   width: 100%;
-  justify-content: center;
-}
-
-.hero-actions .action-pill--hero-azure,
-.hero-panel-balanced .action-pill--hero-azure {
-  background: var(--ice-blue);
-  border-color: transparent;
-  color: var(--civic-navy);
-  box-shadow: 0 14px 30px rgba(95,168,211,0.22);
-}
-
-.hero-actions .action-pill--hero-dark {
-  background: rgba(15,42,68,0.94);
-  border-color: transparent;
-  color: var(--cloud-white);
-  box-shadow: 0 14px 30px rgba(6,20,33,0.26);
-}
-
-.hero-actions .action-pill--hero-ghost,
-.hero-panel-balanced .action-pill--hero-ghost {
-  background: rgba(255,255,255,0.07);
-  border-color: rgba(244,247,250,0.22);
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(244,247,250,0.24);
   color: var(--cloud-white);
   box-shadow: 0 12px 24px rgba(6,20,33,0.14);
 }
 
-.hero-actions .action-pill--hero-ghost:hover,
-.hero-panel-balanced .action-pill--hero-ghost:hover,
-.hero-actions .action-pill--hero-dark:hover,
-.hero-actions .action-pill--hero-azure:hover,
-.hero-panel-balanced .action-pill--hero-azure:hover {
+.hero-actions .action-pill:hover {
   box-shadow: 0 16px 30px rgba(6,20,33,0.22);
   border-color: rgba(95,168,211,0.36);
-}
-
-.action-pill--hero-azure .action-icon--youtube {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Crect x='2.5' y='5.5' width='19' height='13' rx='4' stroke='%230F2A44' stroke-width='2'/%3E%3Cpath d='M10 9l5 3-5 3V9z' fill='%230F2A44'/%3E%3C/svg%3E");
 }
 
 .hero-panel-balanced {
@@ -254,7 +249,6 @@ body::after {
   margin-top: 30px;
   align-self: flex-start;
   min-width: 236px;
-  justify-content: center;
 }
 
 #featuredEpisodeDescription {
@@ -274,7 +268,7 @@ body::after {
   .hero-actions .action-pill:nth-child(3) {
     grid-column: 1 / span 2;
     max-width: 292px;
-    justify-self: start;
+    justify-self: center;
   }
 }
 
@@ -316,7 +310,6 @@ body::after {
   .action-pill,
   .audio-link {
     width: 100%;
-    justify-content: center !important;
   }
 
   .hero-panel-balanced {
