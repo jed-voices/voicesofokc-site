@@ -2,10 +2,19 @@ const archiveGrid = document.getElementById('episodeArchiveGrid');
 
 const fallbackImage = '../assets/images/featured-episode-8.jpg';
 
+const normalizeBrandRefs = (value) => {
+  return String(value || '')
+    .replace('https://voicesofokc.org', 'https://www.voicesofokc.com')
+    .replace('http://voicesofokc.org', 'https://www.voicesofokc.com')
+    .replace('www.voicesofokc.org', 'www.voicesofokc.com')
+    .replace('voicesofokc.org', 'voicesofokc.com')
+    .replace('info@voicesofokc.org', 'info@voicesofokc.com');
+};
+
 const trimSummary = (value) => {
   if (!value) return '';
   const tmp = document.createElement('div');
-  tmp.innerHTML = value;
+  tmp.innerHTML = normalizeBrandRefs(value);
   const text = (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
   return text.length > 170 ? `${text.slice(0, 167)}…` : text;
 };
