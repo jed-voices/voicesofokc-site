@@ -1,6 +1,6 @@
 # VOICES of OKC Launch Notes
 
-## What this fresh package fixes
+## What this package fixes
 - Header is cleaner and more streamlined.
 - Navigation is all caps.
 - `VOICES of OKC` formatting is applied through the core site build.
@@ -8,6 +8,7 @@
 - Student photos are integrated into the homepage.
 - Internal navigation now includes a real `/episodes/` page.
 - The custom media player no longer depends on weekly local MP3 uploads.
+- The site is configured for `www.voicesofokc.com`.
 
 ## How the custom player now works
 - Homepage player reads `assets/data/latest-episode.json`
@@ -24,10 +25,10 @@ The main breakages came from missing repo folders and pages:
 This package includes those folders and pages so the main internal link structure resolves.
 
 ## Direct links to test after deploy
-- https://voicesofokc.org/
-- https://voicesofokc.org/about/
-- https://voicesofokc.org/sponsors/
-- https://voicesofokc.org/episodes/
-- https://voicesofokc.org/episodes/mayor-david-holt/
-- https://voicesofokc.org/episodes/derrick-sier/
-- https://voicesofokc.org/assets/images/featured-episode-8.jpg
+- https://www.voicesofokc.com/
+- https://www.voicesofokc.com/about/
+- https://www.voicesofokc.com/sponsors/
+- https://www.voicesofokc.com/episodes/
+- https://www.voicesofokc.com/episodes/mayor-david-holt/
+- https://www.voicesofokc.com/episodes/derrick-sier/
+- https://www.voicesofokc.com/assets/images/featured-episode-8.jpg
