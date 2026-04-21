@@ -269,7 +269,7 @@ body::after {
   margin-bottom: 0;
 }
 
-/* Featured episode button system: tighter 1-row layout */
+/* Featured episode button system: stable one-line labels */
 #episodes .card-surface .episode-actions {
   display: grid !important;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -282,21 +282,20 @@ body::after {
   width: 100%;
   min-width: 0;
   min-height: 72px !important;
-  padding: 0 16px !important;
+  padding: 0 14px !important;
   border-radius: 18px;
   border: 2px solid rgba(15, 42, 68, 0.12);
   background: #ffffff;
   box-shadow: none;
-  display: grid !important;
-  grid-template-columns: 28px minmax(0, 1fr);
-  column-gap: 10px;
-  justify-content: start !important;
+  display: flex !important;
+  justify-content: center !important;
   align-items: center !important;
-  text-align: left !important;
-  font-size: 0.82rem;
+  gap: 9px;
+  text-align: center !important;
+  font-size: 0.72rem;
   font-weight: 800;
-  letter-spacing: 0;
-  line-height: 1.05;
+  letter-spacing: -0.01em;
+  line-height: 1;
   overflow: hidden;
 }
 
@@ -323,19 +322,22 @@ body::after {
 }
 
 #episodes .card-surface .episode-actions .action-icon {
-  width: 28px;
-  height: 28px;
-  min-width: 28px;
-  justify-self: center;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  flex: 0 0 24px;
+  justify-self: auto;
 }
 
 #episodes .card-surface .episode-actions .action-label {
   min-width: 0;
-  justify-self: start;
-  text-align: left;
-  line-height: 1.08;
-  white-space: normal;
-  overflow-wrap: anywhere;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  justify-self: auto;
 }
 
 @media (min-width: 981px) {
@@ -423,14 +425,15 @@ body::after {
 
   #episodes .card-surface .episode-actions .action-pill {
     min-height: 68px !important;
-    font-size: 0.95rem;
     padding: 0 18px !important;
-    grid-template-columns: 30px minmax(0, 1fr);
+    font-size: 0.95rem;
+    gap: 12px;
   }
 
   #episodes .card-surface .episode-actions .action-icon {
-    width: 30px;
-    height: 30px;
-    min-width: 30px;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    flex-basis: 28px;
   }
 }
