@@ -46,6 +46,26 @@ body::after {
   padding: 32px !important;
 }
 
+#guests .eyebrow,
+#platforms .eyebrow,
+.student-head .eyebrow {
+  display: flex !important;
+  width: max-content;
+  margin-bottom: 16px !important;
+}
+
+#guests .title-with-rule,
+#platforms .title-with-rule,
+.student-head .title-with-rule {
+  display: block !important;
+}
+
+#guests .title-with-rule::after,
+#platforms .title-with-rule::after,
+.student-head .title-with-rule::after {
+  width: min(336px, 64vw) !important;
+}
+
 .button-row,
 .episode-actions,
 .audio-links {
@@ -173,12 +193,6 @@ body::after {
   gap: 14px;
   margin-top: 34px;
   max-width: 620px;
-}
-
-.hero-actions .action-pill,
-.hero-panel-balanced .action-pill {
-  min-height: 52px;
-  padding: 0 20px;
 }
 
 .hero-actions .action-pill {
