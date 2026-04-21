@@ -34,7 +34,7 @@ async function loadEpisodes() {
       const title = episode.title || `EPISODE ${index + 1}`;
       const summary = trimSummary(episode.summary) || 'Listen to the latest conversation from VOICES of OKC.';
       const href = episode.episode_url || '#';
-      const label = index === 0 ? 'Latest from Podbean' : 'Podbean episode';
+      const label = index === 0 ? 'LATEST EPISODE' : 'EPISODE';
       return `
         <article class="guest-card">
           <div class="guest-card-image"><img src="${artwork}" alt="${title} artwork for VOICES of OKC" /></div>
@@ -52,8 +52,8 @@ async function loadEpisodes() {
       <article class="guest-card">
         <div class="guest-card-image"><img src="${fallbackImage}" alt="Fallback artwork for VOICES of OKC" /></div>
         <div class="guest-card-copy">
-          <span class="guest-role">Episode archive</span>
-          <h2 class="episode-title" style="font-size:1.15rem;margin:0;">PODBEAN SYNC NOT READY YET</h2>
+          <span class="guest-role">EPISODE ARCHIVE</span>
+          <h2 class="episode-title" style="font-size:1.15rem;margin:0;">EPISODE SYNC NOT READY YET</h2>
           <p>Run the “Update Podbean episode data” workflow in GitHub Actions to populate the latest episode thumbnails and links automatically.</p>
           <a class="button-outline" href="../index.html">Back home</a>
         </div>
