@@ -269,6 +269,68 @@ body::after {
   margin-bottom: 0;
 }
 
+/* Featured episode button system: tighter 1-row layout */
+#episodes .card-surface .episode-actions {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  align-items: stretch;
+  margin-top: 32px;
+}
+
+#episodes .card-surface .episode-actions .action-pill {
+  width: 100%;
+  min-height: 72px !important;
+  padding: 0 22px !important;
+  border-radius: 18px;
+  border: 2px solid rgba(15, 42, 68, 0.12);
+  background: #ffffff;
+  box-shadow: none;
+  display: grid !important;
+  grid-template-columns: 34px minmax(0, 1fr);
+  column-gap: 14px;
+  justify-content: start !important;
+  align-items: center !important;
+  text-align: left !important;
+  font-size: 1.04rem;
+  letter-spacing: -0.01em;
+}
+
+#episodes .card-surface .episode-actions .action-pill::after {
+  display: none;
+}
+
+#episodes .card-surface .episode-actions .action-pill:hover {
+  transform: translateY(-1px);
+  border-color: rgba(95, 168, 211, 0.62);
+  box-shadow: 0 10px 24px rgba(15, 42, 68, 0.08);
+}
+
+#episodes .card-surface .episode-actions .action-pill--primary {
+  background: var(--civic-navy);
+  border-color: var(--civic-navy);
+  color: var(--cloud-white);
+  box-shadow: 0 12px 28px rgba(15, 42, 68, 0.16);
+}
+
+#episodes .card-surface .episode-actions .action-pill--primary:hover {
+  background: #133553;
+  border-color: #133553;
+}
+
+#episodes .card-surface .episode-actions .action-icon {
+  width: 34px;
+  height: 34px;
+  justify-self: center;
+}
+
+#episodes .card-surface .episode-actions .action-label {
+  justify-self: start;
+  text-align: left;
+  line-height: 1;
+  white-space: nowrap;
+}
+
 @media (min-width: 981px) {
   .button-row {
     flex-wrap: nowrap;
@@ -294,6 +356,10 @@ body::after {
 
   .hero-panel-copy {
     max-width: none;
+  }
+
+  #episodes .card-surface .episode-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -342,5 +408,15 @@ body::after {
     margin-top: 22px;
     min-width: 0;
     width: 100%;
+  }
+
+  #episodes .card-surface .episode-actions {
+    grid-template-columns: 1fr;
+  }
+
+  #episodes .card-surface .episode-actions .action-pill {
+    min-height: 68px !important;
+    font-size: 0.98rem;
+    padding: 0 20px !important;
   }
 }
