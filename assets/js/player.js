@@ -10,6 +10,7 @@ const appleLink = document.getElementById('audioApple');
 const youtubeLink = document.getElementById('audioYoutube');
 const episodeLink = document.getElementById('audioEpisode');
 const note = document.getElementById('audioStatusNote');
+const audioPlayer = document.getElementById('audioPlayer');
 
 const featuredImage = document.getElementById('featuredEpisodeImage');
 const featuredTitle = document.getElementById('featuredEpisodeTitle');
@@ -31,6 +32,25 @@ const stripHtml = (value) => {
   const tmp = document.createElement('div');
   tmp.innerHTML = value;
   return (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
+};
+
+const isMobileViewport = () => window.matchMedia('(max-width: 680px)').matches;
+
+const hideMobilePlayer = () => {
+  if (!audioPlayer || !isMobileViewport()) return;
+  audio.pause();
+  setPlayState(false);
+  audioPlayer.style.display = 'none';
+  document.body.style.paddingBottom = '18px';
+};
+
+const wireMobileNavDismiss = () => {
+  if (!audioPlayer) return;
+  const navTargets = document.querySelectorAll('.nav a, .brand, .header-cta a, a[href^="#"]');
+  navTargets.forEach((el) => {
+    el.addEventListener('click', hideMobilePlayer);
+    el.addEventListener('touchstart', hideMobilePlayer, { passive: true });
+  });
 };
 
 const updateProgress = () => {
@@ -149,4 +169,5 @@ audio.addEventListener('error', () => {
 });
 
 setUnavailable('Loading latest episode...');
+wireMobileNavDismiss();
 loadLatestEpisode();
