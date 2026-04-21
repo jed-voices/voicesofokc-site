@@ -45,7 +45,13 @@ def find_artwork_url(entry, feed):
 
 def clean_summary(entry):
     summary = entry.get("summary") or entry.get("description") or ""
-    return " ".join(str(summary).split())
+    summary = " ".join(str(summary).split())
+    summary = summary.replace("https://voicesofokc.org", "https://www.voicesofokc.com")
+    summary = summary.replace("http://voicesofokc.org", "https://www.voicesofokc.com")
+    summary = summary.replace("www.voicesofokc.org", "www.voicesofokc.com")
+    summary = summary.replace("voicesofokc.org", "voicesofokc.com")
+    summary = summary.replace("info@voicesofokc.org", "info@voicesofokc.com")
+    return summary
 
 if not feed_url:
     raise SystemExit("PODBEAN_FEED_URL is missing.")
