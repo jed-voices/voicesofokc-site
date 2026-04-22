@@ -272,7 +272,7 @@ body::after {
 /* Featured episode + episode detail media buttons */
 .card-surface .episode-actions {
   display: grid !important;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
   align-items: stretch;
   margin-top: 32px;
@@ -281,23 +281,23 @@ body::after {
 .card-surface .episode-actions .action-pill {
   width: 100%;
   min-width: 0;
-  min-height: 82px !important;
-  padding: 0 18px !important;
+  min-height: 72px !important;
+  padding: 0 22px !important;
   border-radius: 999px;
-  border: 1px solid rgba(15, 42, 68, 0.04);
+  border: 1px solid rgba(15, 42, 68, 0.06);
   background: #f1f2f4;
   color: #111111;
   box-shadow: 0 8px 18px rgba(15, 42, 68, 0.05);
   display: flex !important;
-  justify-content: center !important;
+  justify-content: flex-start !important;
   align-items: center !important;
-  gap: 16px;
-  text-align: center !important;
-  font-size: clamp(0.95rem, 1vw, 1.15rem);
+  gap: 14px;
+  text-align: left !important;
+  font-size: clamp(0.9rem, 0.7rem + 0.4vw, 1rem);
   font-weight: 800;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.015em;
   line-height: 1;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .card-surface .episode-actions .action-pill::after {
@@ -312,21 +312,21 @@ body::after {
 
 .card-surface .episode-actions .action-pill--primary {
   background: #f1f2f4;
-  border-color: rgba(15, 42, 68, 0.04);
+  border-color: rgba(15, 42, 68, 0.06);
   color: #111111;
   box-shadow: 0 8px 18px rgba(15, 42, 68, 0.05);
 }
 
 .card-surface .episode-actions .action-pill--primary:hover {
   background: #eceef1;
-  border-color: rgba(15, 42, 68, 0.04);
+  border-color: rgba(15, 42, 68, 0.06);
 }
 
 .card-surface .episode-actions .action-icon {
-  width: 44px;
-  height: 44px;
-  min-width: 44px;
-  flex: 0 0 44px;
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  flex: 0 0 38px;
   justify-self: auto;
 }
 
@@ -336,8 +336,8 @@ body::after {
   text-align: left;
   line-height: 1;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow: visible;
+  text-overflow: clip;
   justify-self: auto;
 }
 
@@ -366,10 +366,6 @@ body::after {
 
   .hero-panel-copy {
     max-width: none;
-  }
-
-  .card-surface .episode-actions {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -425,17 +421,17 @@ body::after {
   }
 
   .card-surface .episode-actions .action-pill {
-    min-height: 76px !important;
-    padding: 0 22px !important;
-    font-size: 1rem;
-    gap: 14px;
+    min-height: 72px !important;
+    padding: 0 20px !important;
+    font-size: 0.98rem;
+    gap: 12px;
     justify-content: flex-start !important;
   }
 
   .card-surface .episode-actions .action-icon {
-    width: 40px;
-    height: 40px;
-    min-width: 40px;
-    flex-basis: 40px;
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    flex-basis: 36px;
   }
 }
