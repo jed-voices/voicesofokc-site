@@ -269,6 +269,60 @@ body::after {
   margin-bottom: 0;
 }
 
+/* Crisper image treatment across recurring card sections */
+img,
+.image-frame img,
+.guest-card-image img,
+.team-image img,
+.feature-card-visual img,
+.detail-card-visual img,
+.featured-image img,
+.about-image img,
+.student-primary img,
+.student-side img {
+  image-rendering: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.image-frame,
+.guest-card-image,
+.team-image,
+.feature-card-visual,
+.detail-card-visual,
+.featured-image,
+.about-image,
+.student-primary,
+.student-side article {
+  overflow: hidden;
+}
+
+.guest-card-image img,
+.team-image img,
+.feature-card-visual img,
+.detail-card-visual img,
+.featured-image img,
+.about-image img,
+.student-primary img,
+.student-side article img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.image-frame img,
+.guest-card-image img,
+.team-image img {
+  transition: transform 240ms cubic-bezier(.2,.8,.2,1);
+}
+
+.image-frame:hover img,
+.guest-card:hover .guest-card-image img {
+  transform: translateZ(0) scale(1.008);
+}
+
 /* Minimal one-row media buttons for homepage, episode pages, and podcast team page */
 .card-surface .episode-actions {
   display: flex !important;
@@ -421,7 +475,7 @@ body::after {
   }
 
   .hero-panel-balanced .hero-meta {
-    margin-top: 18px;
+    margin-top: 18px !important;
   }
 
   .hero-panel-cta {
