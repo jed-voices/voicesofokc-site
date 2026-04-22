@@ -333,12 +333,15 @@ body::after {
   border-color: #133553;
 }
 
-.card-surface .episode-actions .action-icon {
+.card-surface .episode-actions .action-icon,
+.card-surface .episode-actions .platform-icon-img {
   width: 18px;
   height: 18px;
   min-width: 18px;
   flex: 0 0 18px;
   justify-self: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .card-surface .episode-actions .action-label {
@@ -442,7 +445,8 @@ body::after {
     justify-content: center !important;
   }
 
-  .card-surface .episode-actions .action-icon {
+  .card-surface .episode-actions .action-icon,
+  .card-surface .episode-actions .platform-icon-img {
     width: 17px;
     height: 17px;
     min-width: 17px;
