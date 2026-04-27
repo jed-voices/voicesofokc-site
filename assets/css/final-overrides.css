@@ -49,6 +49,7 @@ body::after {
 #guests .eyebrow,
 #platforms .eyebrow,
 .student-head .eyebrow,
+.team-card > .eyebrow,
 .episode-archive-section > .container > .eyebrow {
   display: flex !important;
   width: max-content;
@@ -58,6 +59,7 @@ body::after {
 #guests .title-with-rule,
 #platforms .title-with-rule,
 .student-head .title-with-rule,
+.team-card > .title-with-rule,
 .episode-archive-section > .container > .title-with-rule {
   display: block !important;
 }
@@ -65,6 +67,7 @@ body::after {
 #guests .title-with-rule::after,
 #platforms .title-with-rule::after,
 .student-head .title-with-rule::after,
+.team-card > .title-with-rule::after,
 .episode-archive-section > .container > .title-with-rule::after {
   width: min(336px, 64vw) !important;
 }
