@@ -301,6 +301,15 @@ img,
   overflow: hidden;
 }
 
+.feature-card-visual,
+.detail-card-visual,
+.featured-image,
+.about-image {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}
+
 .guest-card-image img,
 .team-image img,
 .feature-card-visual img,
@@ -324,6 +333,10 @@ img,
 .image-frame:hover img,
 .guest-card:hover .guest-card-image img {
   transform: translateZ(0) scale(1.008);
+}
+
+.about-image {
+  aspect-ratio: 3 / 2 !important;
 }
 
 /* Minimal one-row media buttons for homepage, episode pages, and podcast team page */
@@ -1029,10 +1042,33 @@ body {
 
 .student-grid {
   gap: 20px;
+  align-items: start;
+}
+
+.student-primary {
+  min-height: 0 !important;
+  aspect-ratio: 16 / 9;
+}
+
+.student-side {
+  grid-template-rows: none;
+  min-height: 0;
+  height: auto;
+}
+
+.student-side article {
+  min-height: 0;
+  aspect-ratio: 16 / 9;
 }
 
 .student-note {
   margin-top: 26px;
+}
+
+.featured-grid > *,
+.about-grid > *,
+.split-grid > * {
+  min-width: 0;
 }
 
 .platform-section {
@@ -1202,6 +1238,10 @@ body {
   background: #e8eff5;
 }
 
+.team-image:not(.team-image--square) {
+  max-width: 560px;
+}
+
 .team-image--square {
   aspect-ratio: 1 / 1;
 }
@@ -1324,6 +1364,12 @@ body {
     padding: 12px 0;
   }
 
+  .featured-grid,
+  .about-grid,
+  .split-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
   .nav {
     gap: 14px 18px;
     padding-top: 6px;
@@ -1351,6 +1397,16 @@ body {
 
   .footer-grid {
     gap: 34px;
+  }
+
+  .student-side {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: none;
+    height: auto;
+  }
+
+  .student-side article {
+    aspect-ratio: 16 / 9;
   }
 }
 
@@ -1418,6 +1474,10 @@ body {
     font-size: .72rem;
   }
 
+  .student-side {
+    grid-template-columns: 1fr;
+  }
+
   .hero {
     padding-top: 18px !important;
   }
@@ -1431,6 +1491,12 @@ body {
   .card-surface,
   .card {
     padding: 24px !important;
+  }
+
+  .feature-card-visual,
+  .detail-card-visual {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .button-row,
