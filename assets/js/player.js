@@ -113,12 +113,19 @@ async function loadLatestEpisode() {
       if (featuredYouTube) featuredYouTube.href = episode.youtube_url;
     }
 
-    if (episode.episode_url) {
-      episodeLink.href = episode.episode_url;
+    const localEpisodeUrl = episode.site_path || episode.site_url || episode.episode_url;
+
+    if (localEpisodeUrl) {
+      episodeLink.href = localEpisodeUrl;
       if (featuredButton) {
-        featuredButton.href = episode.episode_url;
-        featuredButton.target = '_blank';
-        featuredButton.rel = 'noreferrer';
+        featuredButton.href = localEpisodeUrl;
+        if (episode.site_path || episode.site_url) {
+          featuredButton.removeAttribute('target');
+          featuredButton.removeAttribute('rel');
+        } else {
+          featuredButton.target = '_blank';
+          featuredButton.rel = 'noreferrer';
+        }
       }
     }
 

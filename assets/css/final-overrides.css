@@ -617,6 +617,82 @@ body {
   margin-bottom: 0;
 }
 
+.episode-detail-page .hero {
+  padding-bottom: 28px !important;
+}
+
+.episode-detail-grid {
+  align-items: start !important;
+}
+
+.episode-detail-card .episode-title {
+  font-size: clamp(1.55rem, 2.35vw, 2.55rem);
+}
+
+.episode-audio {
+  display: block;
+  width: 100%;
+  margin: 22px 0 0;
+}
+
+.episode-notes-wrap {
+  max-width: 920px;
+}
+
+.episode-notes {
+  margin-top: 18px;
+}
+
+.episode-notes h2,
+.episode-notes h3,
+.episode-notes h4 {
+  margin: 30px 0 12px;
+  color: var(--civic-navy);
+  font-family: "Sora", "Inter", system-ui, sans-serif;
+  font-weight: 800;
+  line-height: 1.22;
+}
+
+.episode-notes h2 {
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+}
+
+.episode-notes h3 {
+  font-size: clamp(1.12rem, 1.45vw, 1.32rem);
+}
+
+.episode-notes p,
+.episode-notes li,
+.episode-notes blockquote {
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.78;
+}
+
+.episode-notes ul,
+.episode-notes ol {
+  margin: 16px 0 22px;
+  padding-left: 1.25rem;
+}
+
+.episode-notes li + li {
+  margin-top: 8px;
+}
+
+.episode-notes a {
+  color: var(--civic-navy);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: rgba(95,168,211,.58);
+  text-underline-offset: 3px;
+}
+
+.episode-notes blockquote {
+  margin: 22px 0;
+  padding: 4px 0 4px 20px;
+  border-left: 4px solid var(--azure);
+}
+
 .mt-copy {
   margin-top: 20px;
 }

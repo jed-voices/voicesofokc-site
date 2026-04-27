@@ -13,6 +13,8 @@
 ## How the custom player now works
 - Homepage player reads `assets/data/latest-episode.json`
 - GitHub Action updates that file from the Podbean feed
+- GitHub Action also generates a local static page for the newest episode from Podbean show notes
+- Latest episode links point to the local VOICES episode page when one has been generated
 - If playback fails at first launch, run the workflow manually once in GitHub Actions
 
 ## Broken links that existed before

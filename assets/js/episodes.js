@@ -33,7 +33,8 @@ async function loadEpisodes() {
       const artwork = episode.artwork_url || fallbackImage;
       const title = episode.title || `EPISODE ${index + 1}`;
       const summary = trimSummary(episode.summary) || 'Listen to the latest conversation from VOICES of OKC.';
-      const href = episode.episode_url || '#';
+      const href = episode.site_path ? `../${episode.site_path}` : (episode.site_url || episode.episode_url || '#');
+      const targetAttrs = episode.site_path || episode.site_url ? '' : ' target="_blank" rel="noreferrer"';
       const label = index === 0 ? 'LATEST EPISODE' : 'EPISODE';
       return `
         <article class="guest-card">
@@ -42,7 +43,7 @@ async function loadEpisodes() {
             <span class="guest-role">${label}</span>
             <h2 class="episode-title" style="font-size:1.15rem;margin:0;">${title}</h2>
             <p>${summary}</p>
-            <a class="button-outline" href="${href}" target="_blank" rel="noreferrer">Open episode</a>
+            <a class="button-outline" href="${href}"${targetAttrs}>Open episode</a>
           </div>
         </article>
       `;

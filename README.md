@@ -30,9 +30,10 @@ Static GitHub Pages site for **VOICES of OKC**, a student-produced podcast from 
 Upload the **contents** of this folder to the repository root so that `assets/`, `about/`, `episodes/`, and `sponsors/` all sit beside `index.html`.
 
 ## Custom player + Podbean automation
-The site includes a custom player that reads:
+The site includes a custom player and episode archive that read:
 
 `assets/data/latest-episode.json`
+`assets/data/episodes.json`
 
 A GitHub Action is included at:
 
@@ -41,6 +42,8 @@ A GitHub Action is included at:
 It runs on a schedule and updates episode JSON from the Podbean feed using:
 
 `PODBEAN_FEED_URL = https://feed.podbean.com/voicesofokc/feed.xml`
+
+The updater also generates a local static page for the newest episode using the Podbean show notes, then points the homepage latest episode link and the first archive card to that VOICES page instead of the Podbean episode page.
 
 If your Podbean feed URL is different, change it in the workflow file.
 
