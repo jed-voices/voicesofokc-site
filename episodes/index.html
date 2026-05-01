@@ -3,13 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Watch, listen, and explore the conversations shaping Oklahoma City on VOICES of OKC." />
+  <meta name="description" content="Explore the VOICES of OKC episode archive, featuring Oklahoma City leaders, civic stories, student-produced conversations, and local themes." />
+  <link rel="canonical" href="https://www.voicesofokc.com/episodes/" />
   <meta property="og:title" content="Episodes | VOICES of OKC" />
-  <meta property="og:description" content="Watch, listen, and explore the conversations shaping Oklahoma City on VOICES of OKC." />
+  <meta property="og:description" content="Explore student-produced conversations with Oklahoma City leaders, builders, artists, advocates, entrepreneurs, and neighbors." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="../assets/images/og-voices-okc.jpg" />
+  <meta property="og:url" content="https://www.voicesofokc.com/episodes/" />
+  <meta property="og:image" content="https://www.voicesofokc.com/assets/images/og-voices-okc.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Episodes | VOICES of OKC" />
+  <meta name="twitter:description" content="Explore student-produced conversations with Oklahoma City leaders, builders, artists, advocates, entrepreneurs, and neighbors." />
+  <meta name="twitter:image" content="https://www.voicesofokc.com/assets/images/og-voices-okc.jpg" />
   <meta name="theme-color" content="#0F2A44" />
   <link rel="icon" href="../favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png" />
   <link rel="apple-touch-icon" href="../assets/favicon/apple-touch-icon.png" />
   <link rel="manifest" href="../site.webmanifest" />
   <title>Episodes | VOICES of OKC</title>
@@ -21,6 +29,7 @@
   <script>(function(w,d,s,n,a){if(!w[n]){var l='call,catch,on,once,set,then,track,openCheckout'.split(','),i,o=function(n){return'function'==typeof n?o.l.push([arguments])&&o:function(){return o.l.push([n,arguments])&&o}},t=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=!0;j.src='https://cdn.fundraiseup.com/widget/'+a+'';t.parentNode.insertBefore(j,t);o.s=Date.now();o.v=5;o.h=w.location.href;o.l=[];for(i=0;i<8;i++)o[l[i]]=o(l[i]);w[n]=o}})(window,document,'script','FundraiseUp','ALZDJCPT');</script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="../index.html" aria-label="VOICES of OKC home">
@@ -31,32 +40,40 @@
           </span>
         </a>
         <nav class="nav" aria-label="Primary navigation">
-          <a href="../episodes/">Episodes</a>
+          <a href="../episodes/" aria-current="page">Episodes</a>
           <a href="../about/">About</a>
           <a href="../podcast-team/">Podcast Team</a>
-          <a href="../index.html#guests">Guests</a>
+          <a href="../guests/">Guests</a>
           <a href="../sponsors/">Sponsors</a>
-          <a href="../index.html#contact">Contact</a>
+          <a href="../contact/">Contact</a>
         </nav>
         <div class="header-cta">
           <a class="button-secondary" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer">Watch Now</a>
         </div>
       </div>
     </header>
-  <main>
+  <main id="main-content">
     <section class="section episode-archive-section">
       <div class="container">
         <span class="eyebrow">Episode archive</span>
-        <h1 class="title-xl title-with-rule title-with-rule--wide">RECENT CONVERSATIONS.</h1>
-        <p class="lede" style="margin-top:18px;">Watch, listen, and explore the voices shaping Oklahoma City.</p>
-        <div id="episodeArchiveGrid" class="guest-grid" style="margin-top:32px;">
-          <article class="guest-card">
-            <div class="guest-card-image"><img src="../assets/images/featured-episode-8.jpg" alt="Latest episode artwork for VOICES of OKC" /></div>
-            <div class="guest-card-copy">
+        <h1 class="title-xl title-with-rule title-with-rule--wide">CONVERSATIONS SHAPING OKLAHOMA CITY.</h1>
+        <p class="lede mt-lede">Search the archive by guest, theme, or idea. The structure is built to grow as VOICES of OKC adds more leaders, builders, artists, advocates, entrepreneurs, and neighbors.</p>
+        <div class="archive-toolbar" aria-label="Episode archive filters">
+          <label>
+            <span class="guest-role">Search episodes</span>
+            <input class="archive-search" id="episodeSearch" type="search" placeholder="Search guests, themes, or topics" />
+          </label>
+          <div class="theme-filter" id="themeFilter" aria-label="Filter episodes by theme"></div>
+        </div>
+        <p class="episode-date" id="episodeArchiveStatus" aria-live="polite">Loading conversations...</p>
+        <div id="episodeArchiveGrid" class="episode-archive-grid">
+          <article class="episode-card episode-archive-card">
+            <div class="episode-card-media"><img src="../assets/images/featured-episode-8.jpg" alt="Latest episode artwork for VOICES of OKC" /></div>
+            <div class="episode-card-body">
               <span class="guest-role">Loading</span>
-              <h2 class="episode-title title-with-rule" style="font-size:1.15rem;margin:0;">LOADING EPISODES...</h2>
+              <h2 class="episode-card-title">LOADING EPISODES...</h2>
               <p>Recent episodes from Podbean will populate here automatically.</p>
-              <a class="button-outline" href="../index.html">Back home</a>
+              <a class="button-outline" href="../index.html">Back Home</a>
             </div>
           </article>
         </div>
@@ -67,11 +84,11 @@
       <div class="container">
         <div class="footer-grid">
           <div>
-            <div class="brand" style="margin-bottom:16px;">
+            <div class="brand footer-brand">
               <img class="brand-mark" src="../assets/images/voices-icon-white.png" alt="VOICES of OKC logo icon" />
               <span class="brand-lockup">
-                <span class="brand-name" style="color:var(--cloud-white);">VOICES of OKC</span>
-                <span class="brand-tag" style="color:rgba(244,247,250,.68);">A CITY CENTER PODCAST</span>
+                <span class="brand-name footer-brand-name">VOICES of OKC</span>
+                <span class="brand-tag footer-brand-tag">A CITY CENTER PODCAST</span>
               </span>
             </div>
             <p class="footer-copy">VOICES of OKC is a student-produced podcast from City Center highlighting leaders, stories, and ideas shaping Oklahoma City.</p>
@@ -81,7 +98,8 @@
             <a href="../episodes/">Episodes</a>
             <a href="../about/">About</a>
             <a href="../podcast-team/">Podcast Team</a>
-            <a href="../index.html#guests">Guests</a>
+            <a href="../guests/">Guests</a>
+            <a href="../contact/">Contact</a>
           </div>
           <div class="footer-column">
             <h2>Follow</h2>
@@ -89,6 +107,7 @@
             <a href="https://instagram.com/voicesofokc" target="_blank" rel="noreferrer">Instagram</a>
             <a href="https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6" target="_blank" rel="noreferrer">Spotify</a>
             <a href="https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322" target="_blank" rel="noreferrer">Apple Podcasts</a>
+            <a href="../watch-listen/">Watch + Listen</a>
           </div>
           <div class="footer-column">
             <h2>Contact</h2>

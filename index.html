@@ -45,9 +45,9 @@
           <a href="episodes/">Episodes</a>
           <a href="about/">About</a>
           <a href="podcast-team/">Podcast Team</a>
-          <a href="index.html#guests">Guests</a>
+          <a href="guests/">Guests</a>
           <a href="sponsors/">Sponsors</a>
-          <a href="index.html#contact">Contact</a>
+          <a href="contact/">Contact</a>
         </nav>
         <div class="header-cta">
           <a class="button-secondary" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer">Watch Now</a>
@@ -55,29 +55,27 @@
       </div>
     </header>
   <main id="main-content">
-    <section class="hero">
+    <section class="hero hero-platform">
       <div class="container">
         <div class="hero-card home-hero">
           <div class="hero-content">
             <div class="hero-copy">
               <span class="eyebrow">Student-produced · Oklahoma City</span>
-              <h1 class="title-xl title-with-rule title-with-rule--wide title-with-rule--light">STORIES SHAPING OKLAHOMA CITY</h1>
-              <p class="lede">VOICES of OKC is a student-produced podcast from City Center featuring leaders, stories, and ideas moving our city forward with depth, dignity, and real access.</p>
-              <div class="episode-actions hero-actions">
-                <a class="action-pill" href="#episodes"><span class="action-icon action-icon--youtube"></span><span class="action-label">Watch the Latest Episode</span></a>
-                <a class="action-pill" href="https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6" target="_blank" rel="noreferrer"><span class="action-icon action-icon--spotify"></span><span class="action-label">Listen on Spotify</span></a>
-                <a class="action-pill" href="#students"><span class="action-icon action-icon--students"></span><span class="action-label">How Students Are Involved</span></a>
+              <h1 class="title-xl title-with-rule title-with-rule--wide title-with-rule--light">STORIES THAT HELP US SEE OKLAHOMA CITY MORE CLEARLY.</h1>
+              <p class="lede">VOICES of OKC is a student-produced civic storytelling platform from City Center, featuring conversations with the leaders, builders, artists, advocates, entrepreneurs, and neighbors shaping the future of Oklahoma City.</p>
+              <div class="button-row">
+                <a class="button" href="episodes/">WATCH EPISODES</a>
+                <a class="button-ghost" href="sponsors/">BECOME A SPONSOR</a>
+                <a class="button-ghost" href="#students">HOW STUDENTS ARE INVOLVED</a>
               </div>
             </div>
-            <aside class="hero-panel hero-panel-balanced">
-              <h2 class="hero-panel-title">WHY THIS MATTERS</h2>
-              <p class="hero-panel-copy">VOICES of OKC is more than a podcast feed. It is a civic storytelling platform where students gain real production experience while conversations with leaders help shape how our city sees itself.</p>
-              <div class="hero-meta">
-                <div class="hero-meta-item"><span>Format</span><strong>Long-form video + audio</strong></div>
-                <div class="hero-meta-item"><span>Produced by</span><strong>Students + City Center</strong></div>
-                <div class="hero-meta-item"><span>Focus</span><strong>Leadership, hope, civic life</strong></div>
+            <aside class="hero-media-card" aria-label="Featured VOICES of OKC episode">
+              <img src="assets/images/featured-episode-8.jpg" srcset="assets/images/optimized/featured-episode-8.jpg" alt="VOICES of OKC conversation in the studio" />
+              <div class="hero-media-body">
+                <span class="guest-role">Featured conversation</span>
+                <h2 class="title-sm">Long-form video + audio from Oklahoma City</h2>
+                <p>Real conversations, student production experience, and local stories given room to breathe.</p>
               </div>
-              <a class="action-pill action-pill--primary hero-panel-cta" href="about/"><span class="action-icon action-icon--notes"></span><span class="action-label">Explore the Show</span></a>
             </aside>
           </div>
         </div>
@@ -85,23 +83,75 @@
     </section>
 
     <section class="section" id="episodes">
-      <div class="container featured-grid">
+      <div class="container featured-episode">
         <article class="image-frame featured-image feature-card-visual">
-          <img id="featuredEpisodeImage" src="assets/images/featured-episode-8.jpg" alt="Latest episode artwork for VOICES of OKC" />
+          <img id="featuredEpisodeImage" src="assets/images/featured-episode-8.jpg" alt="Latest VOICES of OKC episode artwork" />
         </article>
         <article class="card-surface">
-          <div class="episode-kicker">Latest Episode</div>
+          <div class="episode-badge-row">
+            <span class="badge">Latest episode</span>
+            <span class="badge">Featured conversation</span>
+          </div>
+          <div class="episode-kicker" id="featuredEpisodeGuest">Adam Coury · Leadership, learning, and the next generation</div>
           <h2 class="episode-title title-with-rule" id="featuredEpisodeTitle">FROM POLICY TO PEOPLE: MAYOR DAVID HOLT ON LEADERSHIP, YOUTH, AND OKLAHOMA CITY</h2>
           <div class="body-copy">
             <p id="featuredEpisodeDescription">A conversation about civic leadership, long-term vision, the role of youth in shaping a city, and why productive pathways matter in Oklahoma City.</p>
           </div>
           <div class="episode-actions">
-            <a class="action-pill action-pill--primary" id="featuredEpisodeButton" href="episodes/mayor-david-holt/" target="_blank" rel="noreferrer"><span class="action-icon action-icon--notes"></span><span class="action-label">Notes</span></a>
-            <a class="action-pill" id="featuredEpisodeYoutube" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="assets/images/icon-youtube.png" alt="YouTube icon" /><span class="action-label">YouTube</span></a>
-            <a class="action-pill" id="featuredEpisodeApple" href="https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="assets/images/icon-apple-podcasts.png" alt="Apple Podcasts icon" /><span class="action-label">Apple</span></a>
+            <a class="action-pill" id="featuredEpisodeYoutube" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="assets/images/icon-youtube.png" alt="YouTube icon" /><span class="action-label">Watch on YouTube</span></a>
             <a class="action-pill" id="featuredEpisodeSpotify" href="https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="assets/images/icon-spotify.png" alt="Spotify icon" /><span class="action-label">Spotify</span></a>
+            <a class="action-pill" id="featuredEpisodeApple" href="https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="assets/images/icon-apple-podcasts.png" alt="Apple Podcasts icon" /><span class="action-label">Apple Podcasts</span></a>
+            <a class="action-pill action-pill--primary" id="featuredEpisodeButton" href="episodes/mayor-david-holt/" target="_blank" rel="noreferrer"><span class="action-icon action-icon--notes"></span><span class="action-label">Show Notes</span></a>
           </div>
         </article>
+      </div>
+    </section>
+
+    <section class="section section-tight" id="why-this-matters">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Why this matters</span>
+          <h2 class="title-lg title-with-rule">A civic platform, not just a podcast feed.</h2>
+          <p class="lede mt-lede">VOICES of OKC is more than a podcast feed. It is a civic storytelling platform where students gain real production experience while conversations with leaders help shape how our city sees itself.</p>
+        </div>
+        <div class="proof-grid">
+          <article class="proof-card">
+            <h3>Long-form video + audio</h3>
+            <p>Conversations have room for context, reflection, and the details that make a story worth hearing.</p>
+          </article>
+          <article class="proof-card">
+            <h3>Student production experience</h3>
+            <p>Students learn the practical work of hosting, camera, audio, lighting, editing, and storytelling.</p>
+          </article>
+          <article class="proof-card">
+            <h3>Civic leadership conversations</h3>
+            <p>The guest list points toward people carrying responsibility for the city in public and private ways.</p>
+          </article>
+          <article class="proof-card">
+            <h3>Local stories with dignity</h3>
+            <p>Each episode is built to help Oklahoma City see its neighbors with more honesty and imagination.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tight" id="themes">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Browse by theme</span>
+          <h2 class="title-lg title-with-rule">A growing archive of city-shaping conversations.</h2>
+          <p class="lede mt-lede">The archive is designed to grow beyond chronology, making it easier to find conversations by the ideas and responsibilities shaping Oklahoma City.</p>
+        </div>
+        <div class="theme-grid">
+          <a class="theme-card" href="episodes/?theme=civic-leadership"><h3>Civic Leadership</h3><p>Public service, decision-making, and the long work of building trust.</p><span>Browse theme</span></a>
+          <a class="theme-card" href="episodes/?theme=business-entrepreneurship"><h3>Business &amp; Entrepreneurship</h3><p>Builders, founders, and local leaders creating opportunity in Oklahoma City.</p><span>Browse theme</span></a>
+          <a class="theme-card" href="episodes/?theme=arts-culture"><h3>Arts &amp; Culture</h3><p>Creative voices helping the city understand itself through story, craft, and imagination.</p><span>Browse theme</span></a>
+          <a class="theme-card" href="episodes/?theme=restoration-second-chances"><h3>Restoration &amp; Second Chances</h3><p>Stories of recovery, responsibility, repair, and hope with substance.</p><span>Browse theme</span></a>
+          <a class="theme-card" href="episodes/?theme=youth-family"><h3>Youth &amp; Family</h3><p>Conversations about students, parents, mentors, and the next generation.</p><span>Browse theme</span></a>
+          <a class="theme-card" href="episodes/?theme=faith-purpose-resilience"><h3>Faith, Purpose &amp; Resilience</h3><p>Grounded reflections on meaning, endurance, and the choices that form a life.</p><span>Browse theme</span></a>
+          <a class="theme-card" href="episodes/?theme=sports-mindset-performance"><h3>Sports, Mindset &amp; Performance</h3><p>Pressure, discipline, coaching, and the habits that shape people under strain.</p><span>Browse theme</span></a>
+          <a class="theme-card" href="episodes/?theme=community-builders"><h3>Community Builders</h3><p>Neighbors, mentors, advocates, and organizations strengthening the city from within.</p><span>Browse theme</span></a>
+        </div>
       </div>
     </section>
 
@@ -111,15 +161,15 @@
           <span class="eyebrow">About the show</span>
           <h2 class="title-lg title-with-rule">A podcast rooted in Oklahoma City.</h2>
           <div class="body-copy mt-copy">
-            <p>VOICES of OKC highlights leaders, ideas, and stories shaping Oklahoma City. Each conversation is designed to be thoughtful, grounded, and human.</p>
-            <p>The show exists not only to spotlight strong voices in our city, but to help students grow through real production experience, meaningful access, and the kind of responsibility that changes what they believe is possible.</p>
+            <p>Every city is shaped by more than buildings, policy, and headlines. It is shaped by people: by what they carry, what they build, what they survive, and what they choose to give back.</p>
+            <p>VOICES of OKC exists to hold those conversations with care, giving students real production experience while inviting the city to see itself with more honesty, dignity, and imagination.</p>
           </div>
           <div class="button-row">
-            <a class="button-secondary" href="about/">About VOICES of OKC</a>
+          <a class="button-secondary" href="about/">ABOUT VOICES of OKC</a>
           </div>
         </article>
         <article class="image-frame about-image">
-          <img src="assets/images/about-show-11.jpg" alt="Student host Jordan Arnett interviewing Mayor David Holt for VOICES of OKC" />
+          <img loading="lazy" src="assets/images/about-show-11.jpg" srcset="assets/images/optimized/about-show-11.jpg" alt="Student host Jordan Arnett interviewing Mayor David Holt for VOICES of OKC" />
         </article>
       </div>
     </section>
@@ -129,18 +179,18 @@
         <div class="student-head">
           <span class="eyebrow">Student production</span>
           <h2 class="title-lg title-with-rule">Produced with students. Built for real growth.</h2>
-          <p class="lede mt-lede">VOICES of OKC is more than a podcast. It is a hands-on learning environment where students gain real experience in interviewing, production, audio, camera work, and storytelling. They are not just watching from the sidelines. They are helping make the work happen.</p>
+          <p class="lede mt-lede">VOICES of OKC is produced inside the media studio at City Center, where students and emerging creatives gain real experience in storytelling, production, leadership, and civic conversation.</p>
         </div>
         <div class="student-grid">
           <article class="image-frame student-primary">
-            <img src="assets/images/student-production-16.jpg" alt="Students working on audio and camera production during a VOICES of OKC recording" />
+            <img loading="lazy" src="assets/images/student-production-16.jpg" srcset="assets/images/optimized/student-production-16.jpg" alt="Students working on audio and camera production during a VOICES of OKC recording" />
           </article>
           <div class="student-side">
             <article class="image-frame">
-              <img src="assets/images/student-production-3.jpg" alt="Students collaborating on audio and production during a VOICES of OKC recording" />
+              <img loading="lazy" src="assets/images/student-production-3.jpg" srcset="assets/images/optimized/student-production-3.jpg" alt="Students collaborating on audio and production during a VOICES of OKC recording" />
             </article>
             <article class="image-frame">
-              <img src="assets/images/alt-featured-13.jpg" alt="Student-led recording session with camera and audio gear during a VOICES of OKC production" />
+              <img loading="lazy" src="assets/images/alt-featured-13.jpg" srcset="assets/images/optimized/alt-featured-13.jpg" alt="Student-led recording session with camera and audio gear during a VOICES of OKC production" />
             </article>
           </div>
         </div>
@@ -167,46 +217,56 @@
 
     <section class="section" id="guests">
       <div class="container">
-        <span class="eyebrow">Featured guests</span>
-        <h2 class="title-lg title-with-rule">Voices helping shape the city.</h2>
-        <p class="lede mt-lede">Conversations with civic leaders, founders, mentors, public servants, and voices of hope across Oklahoma City.</p>
-        <div class="guest-grid">
-          <article class="guest-card">
-            <div class="guest-card-image"><img src="assets/images/guest-mayor-holt.jpg" alt="Mayor David Holt recording an episode of VOICES of OKC" /></div>
-            <div class="guest-card-copy">
-              <span class="guest-role">Featured conversation</span>
-              <h3 class="title-sm">Mayor David Holt</h3>
-              <p>Leadership, youth, and the long work of building a stronger Oklahoma City.</p>
-              <a class="button-outline" href="episodes/mayor-david-holt/">View episode</a>
+        <div class="section-head">
+          <span class="eyebrow">Featured guests</span>
+          <h2 class="title-lg title-with-rule">The beginning of a real Oklahoma City archive.</h2>
+          <p class="lede mt-lede">Episode cards are structured around the people, themes, and questions shaping the city, so the archive can grow with intention.</p>
+        </div>
+        <div class="episode-preview-grid">
+          <article class="episode-card">
+            <div class="episode-card-media"><img loading="lazy" src="assets/images/guest-mayor-holt.jpg" srcset="assets/images/optimized/guest-mayor-holt.jpg" alt="Mayor David Holt recording an episode of VOICES of OKC" /></div>
+            <div class="episode-card-body">
+              <span class="guest-role">Mayor David Holt · City of Oklahoma City</span>
+              <h3 class="episode-card-title">FROM POLICY TO PEOPLE: THE PRIVILEGE OF LEADING OKLAHOMA CITY</h3>
+              <div class="tag-list"><span class="tag">Civic Leadership</span><span class="tag">Youth &amp; Family</span></div>
+              <p>Leadership, youth, civic responsibility, and the long work of building a stronger Oklahoma City.</p>
+              <a class="button-outline" href="episodes/mayor-david-holt/">View Episode</a>
             </div>
           </article>
-          <article class="guest-card">
-            <div class="guest-card-image"><img src="assets/images/student-interview-94.jpg" alt="Student host in conversation on VOICES of OKC" /></div>
-            <div class="guest-card-copy">
-              <span class="guest-role">Student-produced</span>
-              <h3 class="title-sm">Jordan Arnett</h3>
-              <p>Student-led hosting and real civic access are part of what makes this platform distinct.</p>
-              <a class="button-outline" href="about/">See the story</a>
+          <article class="episode-card">
+            <div class="episode-card-media"><img loading="lazy" src="assets/images/student-interview-94.jpg" srcset="assets/images/optimized/student-interview-94.jpg" alt="Student host in conversation on VOICES of OKC" /></div>
+            <div class="episode-card-body">
+              <span class="guest-role">Jordan Arnett · City Center student host</span>
+              <h3 class="episode-card-title">16 YEARS OLD... AND ALREADY TEACHING US ABOUT HOPE</h3>
+              <div class="tag-list"><span class="tag">Youth &amp; Family</span><span class="tag">Resilience</span></div>
+              <p>Student-led hosting, personal story, and the kind of honesty that helps hope feel practical.</p>
+              <a class="button-outline" href="episodes/">Explore Archive</a>
             </div>
           </article>
-          <article class="guest-card">
-            <div class="guest-card-image"><img src="assets/images/student-production-3.jpg" alt="Students collaborating during a VOICES of OKC production" /></div>
-            <div class="guest-card-copy">
-              <span class="guest-role">Behind the scenes</span>
-              <h3 class="title-sm">Student Production</h3>
-              <p>Meaningful work happens before the camera rolls and while the room is still learning together.</p>
-              <a class="button-outline" href="#students">Student production</a>
+          <article class="episode-card">
+            <div class="episode-card-media"><img loading="lazy" src="assets/images/student-production-3.jpg" srcset="assets/images/optimized/student-production-3.jpg" alt="Students collaborating during a VOICES of OKC production" /></div>
+            <div class="episode-card-body">
+              <span class="guest-role">Derrick Sier · Restore OKC</span>
+              <h3 class="episode-card-title">FROM MISNOMER TO MENTORSHIP: REBUILDING IDENTITY IN OKC</h3>
+              <div class="tag-list"><span class="tag">Community Builders</span><span class="tag">Second Chances</span></div>
+              <p>Mentorship, positive adult influence, and the community structures that help young people grow.</p>
+              <a class="button-outline" href="episodes/derrick-sier/">View Episode</a>
             </div>
           </article>
-          <article class="guest-card">
-            <div class="guest-card-image"><img src="assets/images/student-production-16.jpg" alt="Camera and audio gear set for a VOICES of OKC production" /></div>
-            <div class="guest-card-copy">
-              <span class="guest-role">Hands-on learning</span>
-              <h3 class="title-sm">Camera + Craft</h3>
-              <p>Students learn by doing, not by watching from the edges of the room.</p>
-              <a class="button-outline" href="sponsors/">Support the work</a>
+          <article class="episode-card">
+            <div class="episode-card-media"><img loading="lazy" src="assets/images/featured-episode-8.jpg" srcset="assets/images/optimized/featured-episode-8.jpg" alt="VOICES of OKC featured episode artwork" /></div>
+            <div class="episode-card-body">
+              <span class="guest-role">Adam Coury · Leadership and learning</span>
+              <h3 class="episode-card-title">USE WISELY: LEADERSHIP, LEARNING, AND THE NEXT GENERATION</h3>
+              <div class="tag-list"><span class="tag">Purpose</span><span class="tag">Youth &amp; Family</span></div>
+              <p>A grounded conversation about discernment, responsibility, and staying human in a changing world.</p>
+              <a class="button-outline" href="episodes/use-wisely-adam-coury-on-leadership-learning-and-the-next-generation/">View Episode</a>
             </div>
           </article>
+        </div>
+        <div class="button-row">
+          <a class="button-secondary" href="episodes/">EXPLORE ALL EPISODES</a>
+          <a class="button-outline" href="guests/">NOMINATE A GUEST</a>
         </div>
       </div>
     </section>
@@ -218,22 +278,42 @@
         <p class="lede mt-lede">Follow the show, watch full conversations, and stay connected as new episodes release.</p>
         <div class="platform-row">
           <a class="platform-card" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer"><strong>YouTube</strong><span>Full episodes and clips</span></a>
-          <a class="platform-card" href="https://instagram.com/voicesofokc" target="_blank" rel="noreferrer"><strong>Instagram</strong><span>Announcements and short-form content</span></a>
           <a class="platform-card" href="https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6" target="_blank" rel="noreferrer"><strong>Spotify</strong><span>Listen on Spotify</span></a>
           <a class="platform-card" href="https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322" target="_blank" rel="noreferrer"><strong>Apple Podcasts</strong><span>Listen on Apple Podcasts</span></a>
+          <a class="platform-card" href="https://voicesofokc.podbean.com/" target="_blank" rel="noreferrer"><strong>Podbean</strong><span>Episode feed and show notes</span></a>
+          <a class="platform-card" href="https://instagram.com/voicesofokc" target="_blank" rel="noreferrer"><strong>Instagram</strong><span>Announcements and short-form content</span></a>
+        </div>
+        <div class="button-row">
+          <a class="button" href="watch-listen/">WATCH + LISTEN OPTIONS</a>
         </div>
       </div>
     </section>
 
     <section class="section" id="sponsors">
       <div class="container">
-        <div class="cta-band">
+        <div class="sponsor-cta">
           <div>
-            <h2 class="title-md title-with-rule title-with-rule--light">Support conversations that matter and the students helping produce them.</h2>
+            <h2 class="title-md title-with-rule title-with-rule--light">PARTNER WITH STORIES THAT STRENGTHEN THE CITY.</h2>
             <p>Sponsoring VOICES of OKC helps amplify meaningful stories in Oklahoma City while investing in real production experience for students growing in skill, confidence, and opportunity.</p>
           </div>
           <div class="button-row cta-actions">
-            <a class="button" href="sponsors/">Learn More</a>
+            <a class="button" href="sponsors/">VIEW SPONSOR OPPORTUNITIES</a>
+            <a class="button-ghost" href="contact/">CONTACT US</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tight" id="nominate">
+      <div class="container">
+        <div class="guest-nomination-cta">
+          <div>
+            <span class="eyebrow">Guest nominations</span>
+            <h2 class="title-md title-with-rule">KNOW A VOICE OKLAHOMA CITY SHOULD HEAR?</h2>
+            <p>Help us find leaders, builders, artists, advocates, entrepreneurs, mentors, and neighbors whose stories can help Oklahoma City see itself more clearly.</p>
+          </div>
+          <div class="button-row cta-actions">
+            <a class="button-secondary" href="guests/#nominate">NOMINATE A GUEST</a>
           </div>
         </div>
       </div>
@@ -257,7 +337,8 @@
             <a href="episodes/">Episodes</a>
             <a href="about/">About</a>
             <a href="podcast-team/">Podcast Team</a>
-            <a href="index.html#guests">Guests</a>
+            <a href="guests/">Guests</a>
+            <a href="contact/">Contact</a>
           </div>
           <div class="footer-column">
             <h2>Follow</h2>
@@ -265,6 +346,7 @@
             <a href="https://instagram.com/voicesofokc" target="_blank" rel="noreferrer">Instagram</a>
             <a href="https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6" target="_blank" rel="noreferrer">Spotify</a>
             <a href="https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322" target="_blank" rel="noreferrer">Apple Podcasts</a>
+            <a href="watch-listen/">Watch + Listen</a>
           </div>
           <div class="footer-column">
             <h2>Contact</h2>

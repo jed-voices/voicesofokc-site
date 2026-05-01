@@ -20,6 +20,28 @@ latest_path = Path("assets/data/latest-episode.json")
 episodes_path = Path("assets/data/episodes.json")
 sitemap_path = Path("sitemap.xml")
 latest_path.parent.mkdir(parents=True, exist_ok=True)
+PRESERVED_CONTENT_FIELDS = {
+    "episode_number",
+    "slug",
+    "guest_name",
+    "guest_title",
+    "guest_organization",
+    "guest_website",
+    "guest_instagram",
+    "guest_linkedin",
+    "organization_links",
+    "mentioned_resources",
+    "mentioned_books",
+    "mentioned_organizations",
+    "theme_tags",
+    "featured_quote",
+    "thumbnail_url",
+    "youtube_url",
+    "guest_headshot",
+    "sponsor_presented_by",
+    "site_path",
+    "site_url",
+}
 
 SAFE_INLINE_TAGS = {"strong", "em", "b", "i", "br"}
 SAFE_BLOCK_TAGS = {"p", "ul", "ol", "li", "blockquote", "h2", "h3", "h4"}
@@ -192,7 +214,9 @@ def find_artwork_url(entry, feed):
 
 def clean_summary(entry):
     summary = entry.get("summary") or entry.get("description") or ""
-    summary = " ".join(str(summary).split())
+    summary = strip_html(summary)
+    summary = re.sub(r"([.!?])(?=[A-Z])", r"\1 ", summary)
+    summary = re.sub(r":(?=https?://)", ": ", summary)
     return normalize_brand_refs(summary)
 
 
@@ -218,6 +242,14 @@ def truncate_text(value, limit=160):
     return text[: limit - 1].rsplit(" ", 1)[0] + "…"
 
 
+def local_asset_path(value, prefix):
+    path = str(value or "")
+    for marker in ("../../assets/", "../assets/", "assets/"):
+        if path.startswith(marker):
+            return f"{prefix}{path[path.index('assets/'):]}"
+    return path
+
+
 def slugify(value):
     normalized = unicodedata.normalize("NFKD", value or "")
     ascii_value = normalized.encode("ascii", "ignore").decode("ascii")
@@ -230,9 +262,12 @@ def build_episode_page(episode, show_notes_html):
     display_title = title.upper()
     description = truncate_text(strip_html(show_notes_html) or episode.get("summary"), 170)
     site_url = episode["site_url"]
-    artwork_url = episode.get("artwork_url") or "../../assets/images/featured-episode-8.jpg"
+    artwork_url = episode.get("thumbnail_url") or episode.get("artwork_url") or "../../assets/images/featured-episode-8.jpg"
+    page_artwork_url = local_asset_path(artwork_url, "../../")
+    social_artwork_url = local_asset_path(artwork_url, f"{site_origin}/")
     audio_url = episode.get("audio_url", "")
     published_at = episode.get("published_at", "")
+    episode_youtube_url = episode.get("youtube_url") or youtube_url
 
     audio_markup = ""
     if audio_url:
@@ -252,11 +287,11 @@ def build_episode_page(episode, show_notes_html):
   <meta property="og:description" content="{escape(description, quote=True)}" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="{escape(site_url, quote=True)}" />
-  <meta property="og:image" content="{escape(artwork_url, quote=True)}" />
+  <meta property="og:image" content="{escape(social_artwork_url, quote=True)}" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{escape(title, quote=True)} | VOICES of OKC" />
   <meta name="twitter:description" content="{escape(description, quote=True)}" />
-  <meta name="twitter:image" content="{escape(artwork_url, quote=True)}" />
+  <meta name="twitter:image" content="{escape(social_artwork_url, quote=True)}" />
   <meta name="theme-color" content="#0F2A44" />
   <link rel="icon" href="../../favicon.ico" />
   <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png" />
@@ -286,9 +321,9 @@ def build_episode_page(episode, show_notes_html):
           <a href="../../episodes/" aria-current="page">Episodes</a>
           <a href="../../about/">About</a>
           <a href="../../podcast-team/">Podcast Team</a>
-          <a href="../../index.html#guests">Guests</a>
+          <a href="../../guests/">Guests</a>
           <a href="../../sponsors/">Sponsors</a>
-          <a href="../../index.html#contact">Contact</a>
+          <a href="../../contact/">Contact</a>
         </nav>
         <div class="header-cta">
           <a class="button-secondary" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer">Watch Now</a>
@@ -300,7 +335,7 @@ def build_episode_page(episode, show_notes_html):
       <div class="container">
         <div class="split-grid episode-detail-grid">
           <article class="image-frame featured-image detail-card-visual episode-artwork">
-            <img src="{escape(artwork_url, quote=True)}" alt="{escape(title, quote=True)} artwork for VOICES of OKC" />
+            <img src="{escape(page_artwork_url, quote=True)}" alt="{escape(title, quote=True)} artwork for VOICES of OKC" />
           </article>
           <article class="card-surface episode-detail-card">
             <span class="episode-kicker">Latest episode</span>
@@ -311,9 +346,10 @@ def build_episode_page(episode, show_notes_html):
               <span>Show notes from Podbean</span>
             </div>{audio_markup}
             <div class="episode-actions">
-              <a class="action-pill" href="{escape(youtube_url, quote=True)}" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="../../assets/images/icon-youtube.png" alt="YouTube icon" /><span class="action-label">YouTube</span></a>
+              <a class="action-pill" href="{escape(episode_youtube_url, quote=True)}" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="../../assets/images/icon-youtube.png" alt="YouTube icon" /><span class="action-label">YouTube</span></a>
               <a class="action-pill" href="{escape(apple_url, quote=True)}" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="../../assets/images/icon-apple-podcasts.png" alt="Apple Podcasts icon" /><span class="action-label">Apple</span></a>
               <a class="action-pill" href="{escape(spotify_url, quote=True)}" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="../../assets/images/icon-spotify.png" alt="Spotify icon" /><span class="action-label">Spotify</span></a>
+              <a class="action-pill action-pill--primary" href="{escape(episode.get('podbean_url') or episode.get('episode_url') or site_url, quote=True)}" target="_blank" rel="noreferrer"><span class="action-icon action-icon--notes"></span><span class="action-label">Podbean</span></a>
             </div>
           </article>
         </div>
@@ -348,7 +384,8 @@ def build_episode_page(episode, show_notes_html):
             <a href="../../episodes/">Episodes</a>
             <a href="../../about/">About</a>
             <a href="../../podcast-team/">Podcast Team</a>
-            <a href="../../index.html#guests">Guests</a>
+            <a href="../../guests/">Guests</a>
+            <a href="../../contact/">Contact</a>
           </div>
           <div class="footer-column">
             <h2>Follow</h2>
@@ -356,6 +393,7 @@ def build_episode_page(episode, show_notes_html):
             <a href="https://instagram.com/voicesofokc" target="_blank" rel="noreferrer">Instagram</a>
             <a href="{escape(spotify_url, quote=True)}" target="_blank" rel="noreferrer">Spotify</a>
             <a href="{escape(apple_url, quote=True)}" target="_blank" rel="noreferrer">Apple Podcasts</a>
+            <a href="../../watch-listen/">Watch + Listen</a>
           </div>
           <div class="footer-column">
             <h2>Contact</h2>
@@ -414,6 +452,17 @@ if not feed.entries:
     raise SystemExit("Feed has no entries.")
 
 entries = []
+existing_by_key = {}
+if episodes_path.exists():
+    try:
+        existing_data = json.loads(episodes_path.read_text(encoding="utf-8"))
+        for item in existing_data.get("episodes", []):
+            for key in (item.get("podbean_url"), item.get("episode_url"), item.get("title")):
+                if key:
+                    existing_by_key[str(key)] = item
+    except (json.JSONDecodeError, OSError):
+        existing_by_key = {}
+
 for index, entry in enumerate(feed.entries[:12]):
     title = (entry.get("title") or "").strip()
     slug = slugify(title)
@@ -431,6 +480,10 @@ for index, entry in enumerate(feed.entries[:12]):
         "apple_url": apple_url,
         "youtube_url": youtube_url,
     }
+    existing = existing_by_key.get(podbean_url) or existing_by_key.get(title) or {}
+    for field in PRESERVED_CONTENT_FIELDS:
+        if field in existing and existing[field] not in ("", None, []):
+            payload[field] = existing[field]
     if index == 0:
         payload["site_path"] = site_path
         payload["site_url"] = f"{site_origin}/{site_path}"
@@ -438,6 +491,8 @@ for index, entry in enumerate(feed.entries[:12]):
     entries.append(payload)
 
 latest = dict(entries[0])
+if latest.get("thumbnail_url"):
+    latest["thumbnail_url"] = local_asset_path(latest["thumbnail_url"], "")
 latest["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 latest_show_notes = sanitize_show_notes(find_show_notes(feed.entries[0]))
 episode_page = write_episode_page(latest, latest_show_notes)

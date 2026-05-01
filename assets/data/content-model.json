@@ -1,0 +1,65 @@
+{
+  "episode_schema_version": "1.0",
+  "purpose": "Repeatable content structure for VOICES of OKC episode pages and future CMS migration.",
+  "episode_fields": [
+    "episode_number",
+    "slug",
+    "guest_name",
+    "guest_title",
+    "guest_organization",
+    "episode_title",
+    "short_description",
+    "full_show_notes",
+    "youtube_url",
+    "spotify_url",
+    "apple_url",
+    "podbean_url",
+    "guest_website",
+    "guest_instagram",
+    "guest_linkedin",
+    "organization_links",
+    "mentioned_resources",
+    "mentioned_books",
+    "mentioned_organizations",
+    "theme_tags",
+    "featured_quote",
+    "thumbnail_image",
+    "guest_headshot",
+    "sponsor_presented_by"
+  ],
+  "theme_tags": [
+    "Civic Leadership",
+    "Business & Entrepreneurship",
+    "Arts & Culture",
+    "Restoration & Second Chances",
+    "Youth & Family",
+    "Faith, Purpose & Resilience",
+    "Sports, Mindset & Performance",
+    "Community Builders",
+    "Student Production"
+  ],
+  "forms": {
+    "sponsor_inquiry": [
+      "Name",
+      "Company",
+      "Email",
+      "Phone",
+      "Sponsorship interest",
+      "Budget range",
+      "Message"
+    ],
+    "guest_nomination": [
+      "Guest name",
+      "Organization",
+      "Contact info",
+      "Why this story matters",
+      "Suggested topic",
+      "Submitted by"
+    ],
+    "general_contact": [
+      "Name",
+      "Email",
+      "Message"
+    ]
+  }
+}

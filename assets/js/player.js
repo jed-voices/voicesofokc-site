@@ -19,6 +19,7 @@ const featuredButton = document.getElementById('featuredEpisodeButton');
 const featuredYouTube = document.getElementById('featuredEpisodeYoutube');
 const featuredApple = document.getElementById('featuredEpisodeApple');
 const featuredSpotify = document.getElementById('featuredEpisodeSpotify');
+const featuredGuest = document.getElementById('featuredEpisodeGuest');
 
 const fmt = (sec) => {
   if (!Number.isFinite(sec)) return '0:00';
@@ -32,6 +33,13 @@ const stripHtml = (value) => {
   const tmp = document.createElement('div');
   tmp.innerHTML = value;
   return (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
+};
+
+const truncateText = (value, limit = 360) => {
+  const text = String(value || '').replace(/\s+/g, ' ').trim();
+  if (text.length <= limit) return text;
+  const clipped = text.slice(0, limit - 3);
+  return `${clipped.slice(0, clipped.lastIndexOf(' ')).trim() || clipped}...`;
 };
 
 const isMobileViewport = () => window.matchMedia('(max-width: 680px)').matches;
@@ -58,6 +66,7 @@ const updateProgress = () => {
   const current = Number.isFinite(audio.currentTime) ? audio.currentTime : 0;
   const pct = duration ? (current / duration) * 100 : 0;
   seek.value = pct;
+  seek.style.setProperty('--progress', `${pct}%`);
   currentEl.textContent = fmt(current);
   durationEl.textContent = fmt(duration);
 };
@@ -88,13 +97,20 @@ async function loadLatestEpisode() {
       if (featuredTitle) featuredTitle.textContent = displayTitle;
     }
 
-    if (episode.summary && featuredDescription) {
-      const cleanSummary = stripHtml(episode.summary);
-      if (cleanSummary) featuredDescription.textContent = cleanSummary;
+    if (featuredGuest && episode.guest_name) {
+      const guestMeta = [episode.guest_name, episode.guest_title || episode.guest_organization].filter(Boolean).join(' · ');
+      featuredGuest.textContent = guestMeta;
     }
 
-    if (episode.artwork_url && featuredImage) {
-      featuredImage.src = episode.artwork_url;
+    if (episode.summary && featuredDescription) {
+      const cleanSummary = stripHtml(episode.summary);
+      if (cleanSummary) featuredDescription.textContent = truncateText(cleanSummary);
+    }
+
+    const featuredArtwork = episode.thumbnail_url || episode.artwork_url;
+    if (featuredArtwork && featuredImage) {
+      featuredImage.src = featuredArtwork;
+      featuredImage.removeAttribute('srcset');
       featuredImage.alt = `${title || 'Latest episode'} artwork for VOICES of OKC`;
     }
 
