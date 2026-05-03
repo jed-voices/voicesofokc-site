@@ -11,20 +11,27 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=ErUs6G6PS6o",
-      "theme_tags": [
-        "Arts & Culture",
-        "Restoration & Second Chances",
-        "Community Builders",
-        "Civic Leadership"
-      ],
+      "guest_instagram": "https://www.instagram.com/mynameisjabee/",
+      "site_path": "episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
+      "guest_name": "Jabee Williams",
+      "site_url": "https://www.voicesofokc.com/episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
       "organization_links": [
         "https://livefreeoklahoma.com/",
         "https://www.withloveokc.org/",
         "https://www.staarfoundation.org/",
         "https://www.urbanbridge.org/"
       ],
-      "guest_instagram": "https://www.instagram.com/mynameisjabee/",
-      "slug": "hope-in-hard-places-jabee-williams-on-okc-violence-and-hope",
+      "episode_number": 23,
+      "guest_title": "Artist, entrepreneur, and community advocate",
+      "thumbnail_url": "../assets/images/optimized/jabee-youtube-thumbnail.jpg",
+      "guest_website": "https://www.mynameisjabee.com/",
+      "guest_organization": "Live Free Oklahoma \u00b7 With Love OKC",
+      "theme_tags": [
+        "Arts & Culture",
+        "Restoration & Second Chances",
+        "Community Builders",
+        "Civic Leadership"
+      ],
       "mentioned_organizations": [
         "Live Free Oklahoma",
         "With Love OKC",
@@ -36,14 +43,7 @@
         "Oklahoma City Public Schools - Emerson South",
         "City Center"
       ],
-      "site_path": "episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
-      "guest_title": "Artist, entrepreneur, and community advocate",
-      "guest_name": "Jabee Williams",
-      "guest_website": "https://www.mynameisjabee.com/",
-      "site_url": "https://www.voicesofokc.com/episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
-      "episode_number": 23,
-      "thumbnail_url": "../assets/images/optimized/jabee-youtube-thumbnail.jpg",
-      "guest_organization": "Live Free Oklahoma \u00b7 With Love OKC"
+      "slug": "hope-in-hard-places-jabee-williams-on-okc-violence-and-hope"
     },
     {
       "title": "Use Wisely: Adam Coury on Leadership, Learning, and the Next Generation",
@@ -56,18 +56,18 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=kbb1hKveims",
+      "site_path": "episodes/use-wisely-adam-coury-on-leadership-learning-and-the-next-generation/",
+      "guest_name": "Adam Coury",
+      "site_url": "https://www.voicesofokc.com/episodes/use-wisely-adam-coury-on-leadership-learning-and-the-next-generation/",
+      "episode_number": 22,
+      "guest_title": "Leadership, learning, and the next generation",
+      "thumbnail_url": "../assets/images/optimized/adam-coury-youtube-thumbnail.jpg",
       "theme_tags": [
         "Faith, Purpose & Resilience",
         "Youth & Family",
         "Civic Leadership"
       ],
-      "slug": "use-wisely-adam-coury-on-leadership-learning-and-the-next-generation",
-      "site_path": "episodes/use-wisely-adam-coury-on-leadership-learning-and-the-next-generation/",
-      "guest_title": "Leadership, learning, and the next generation",
-      "guest_name": "Adam Coury",
-      "site_url": "https://www.voicesofokc.com/episodes/use-wisely-adam-coury-on-leadership-learning-and-the-next-generation/",
-      "episode_number": 22,
-      "thumbnail_url": "../assets/images/optimized/adam-coury-youtube-thumbnail.jpg"
+      "slug": "use-wisely-adam-coury-on-leadership-learning-and-the-next-generation"
     },
     {
       "title": "Beyond Winning: Bryan Fetzer on Pressure and Perspective in OKC",
@@ -80,15 +80,15 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://youtube.com/@voicesofokc",
+      "guest_name": "Bryan Fetzer",
+      "episode_number": 21,
+      "guest_title": "Coach and performance leader",
       "theme_tags": [
         "Sports, Mindset & Performance",
         "Civic Leadership",
         "Community Builders"
       ],
-      "slug": "beyond-winning-bryan-fetzer-on-pressure-and-perspective-in-okc",
-      "guest_title": "Coach and performance leader",
-      "guest_name": "Bryan Fetzer",
-      "episode_number": 21
+      "slug": "beyond-winning-bryan-fetzer-on-pressure-and-perspective-in-okc"
     },
     {
       "title": "Over 22,000 Babies Later: What One Doctor Learned About Life and Hope",
@@ -101,14 +101,14 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://youtube.com/@voicesofokc",
+      "guest_name": "Dr. David Kallenberger",
+      "episode_number": 20,
+      "guest_title": "Physician",
       "theme_tags": [
         "Faith, Purpose & Resilience",
         "Community Builders"
       ],
-      "slug": "over-22000-babies-later-what-one-doctor-learned-about-life-and-hope",
-      "guest_title": "Physician",
-      "guest_name": "Dr. David Kallenberger",
-      "episode_number": 20
+      "slug": "over-22000-babies-later-what-one-doctor-learned-about-life-and-hope"
     },
     {
       "title": "Beyond Quick Fix: Functional Medicine and Real Healing in Oklahoma City",
@@ -121,15 +121,15 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://youtube.com/@voicesofokc",
+      "guest_name": "Tiffany Richey",
+      "episode_number": 19,
+      "guest_title": "Founder",
+      "guest_organization": "Richey Wellness",
       "theme_tags": [
         "Community Builders",
         "Faith, Purpose & Resilience"
       ],
-      "slug": "beyond-quick-fix-functional-medicine-and-real-healing-in-oklahoma-city",
-      "guest_title": "Founder",
-      "guest_name": "Tiffany Richey",
-      "episode_number": 19,
-      "guest_organization": "Richey Wellness"
+      "slug": "beyond-quick-fix-functional-medicine-and-real-healing-in-oklahoma-city"
     },
     {
       "title": "Rethinking Justice in Oklahoma:  Public Safety, Real Reform, and Redemption",
@@ -142,16 +142,16 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://youtube.com/@voicesofokc",
+      "guest_name": "Tricia Everest",
+      "episode_number": 18,
+      "guest_title": "Oklahoma Secretary of Public Safety",
+      "guest_organization": "State of Oklahoma",
       "theme_tags": [
         "Civic Leadership",
         "Restoration & Second Chances",
         "Community Builders"
       ],
-      "slug": "rethinking-justice-in-oklahoma-public-safety-real-reform-and-redemption",
-      "guest_title": "Oklahoma Secretary of Public Safety",
-      "guest_name": "Tricia Everest",
-      "episode_number": 18,
-      "guest_organization": "State of Oklahoma"
+      "slug": "rethinking-justice-in-oklahoma-public-safety-real-reform-and-redemption"
     },
     {
       "title": "Community Through Conversation: Mike Hearne on Storytelling in Oklahoma City",
@@ -164,16 +164,16 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://youtube.com/@voicesofokc",
+      "guest_name": "Mike Hearne",
+      "episode_number": 17,
+      "guest_title": "Storyteller and podcast host",
+      "guest_organization": "This is Oklahoma",
       "theme_tags": [
         "Arts & Culture",
         "Community Builders",
         "Business & Entrepreneurship"
       ],
-      "slug": "community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city",
-      "guest_title": "Storyteller and podcast host",
-      "guest_name": "Mike Hearne",
-      "episode_number": 17,
-      "guest_organization": "This is Oklahoma"
+      "slug": "community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city"
     },
     {
       "title": "From Misnomer to Mentorship: Derrick Sier on Rebuilding Identity in Oklahoma City",
@@ -186,16 +186,16 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://youtube.com/@voicesofokc",
+      "guest_name": "Derrick Sier",
+      "episode_number": 16,
+      "guest_title": "Mentor and community builder",
+      "guest_organization": "Restore OKC",
       "theme_tags": [
         "Community Builders",
         "Restoration & Second Chances",
         "Youth & Family"
       ],
-      "slug": "from-misnomer-to-mentorship-derrick-sier-on-rebuilding-identity-in-oklahoma-city",
-      "guest_title": "Mentor and community builder",
-      "guest_name": "Derrick Sier",
-      "episode_number": 16,
-      "guest_organization": "Restore OKC"
+      "slug": "from-misnomer-to-mentorship-derrick-sier-on-rebuilding-identity-in-oklahoma-city"
     },
     {
       "title": "From Policy to People: The Privilege of Leading Oklahoma City",
@@ -208,16 +208,16 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://youtube.com/@voicesofokc",
+      "guest_name": "Mayor David Holt",
+      "episode_number": 15,
+      "guest_title": "Mayor",
+      "guest_organization": "City of Oklahoma City",
       "theme_tags": [
         "Civic Leadership",
         "Youth & Family",
         "Community Builders"
       ],
-      "slug": "from-policy-to-people-the-privilege-of-leading-oklahoma-city",
-      "guest_title": "Mayor",
-      "guest_name": "Mayor David Holt",
-      "episode_number": 15,
-      "guest_organization": "City of Oklahoma City"
+      "slug": "from-policy-to-people-the-privilege-of-leading-oklahoma-city"
     },
     {
       "title": "Cutting Weight, Cutting Drama: Victoria\u2019s Story of Hope",
@@ -230,16 +230,16 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://youtube.com/@voicesofokc",
+      "guest_name": "Victoria Haggard",
+      "episode_number": 14,
+      "guest_title": "City Center student story",
+      "guest_organization": "City Center",
       "theme_tags": [
         "Youth & Family",
         "Restoration & Second Chances",
         "Faith, Purpose & Resilience"
       ],
-      "slug": "cutting-weight-cutting-drama-victorias-story-of-hope",
-      "guest_title": "City Center student story",
-      "guest_name": "Victoria Haggard",
-      "episode_number": 14,
-      "guest_organization": "City Center"
+      "slug": "cutting-weight-cutting-drama-victorias-story-of-hope"
     },
     {
       "title": "16 Years Old... and Already Teaching Us About Hope | Jordan Arnett",
@@ -252,16 +252,16 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://youtube.com/@voicesofokc",
+      "guest_name": "Jordan Arnett",
+      "episode_number": 13,
+      "guest_title": "Student host",
+      "guest_organization": "City Center",
       "theme_tags": [
         "Youth & Family",
         "Faith, Purpose & Resilience",
         "Student Production"
       ],
-      "slug": "16-years-old-and-already-teaching-us-about-hope-jordan-arnett",
-      "guest_title": "Student host",
-      "guest_name": "Jordan Arnett",
-      "episode_number": 13,
-      "guest_organization": "City Center"
+      "slug": "16-years-old-and-already-teaching-us-about-hope-jordan-arnett"
     },
     {
       "title": "Fast Lanes and Faith: Eliud Villarreal on Risk, Family, and Hope",
@@ -274,15 +274,15 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://youtube.com/@voicesofokc",
+      "guest_name": "Eliud Villarreal",
+      "episode_number": 12,
+      "guest_title": "Founder",
+      "guest_organization": "Exotic Motorsports",
       "theme_tags": [
         "Business & Entrepreneurship",
         "Faith, Purpose & Resilience"
       ],
-      "slug": "fast-lanes-and-faith-eliud-villarreal-on-risk-family-and-hope",
-      "guest_title": "Founder",
-      "guest_name": "Eliud Villarreal",
-      "episode_number": 12,
-      "guest_organization": "Exotic Motorsports"
+      "slug": "fast-lanes-and-faith-eliud-villarreal-on-risk-family-and-hope"
     }
   ]
 }
