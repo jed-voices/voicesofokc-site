@@ -9,27 +9,6 @@
   "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
   "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
   "youtube_url": "https://www.youtube.com/watch?v=ErUs6G6PS6o",
-  "guest_instagram": "https://www.instagram.com/mynameisjabee/",
-  "episode_number": 23,
-  "slug": "hope-in-hard-places-jabee-williams-on-okc-violence-and-hope",
-  "theme_tags": [
-    "Arts & Culture",
-    "Restoration & Second Chances",
-    "Community Builders",
-    "Civic Leadership"
-  ],
-  "site_url": "https://www.voicesofokc.com/episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
-  "guest_organization": "Live Free Oklahoma \u00b7 With Love OKC",
-  "guest_website": "https://www.mynameisjabee.com/",
-  "thumbnail_url": "https://i.ytimg.com/vi/ErUs6G6PS6o/maxresdefault.jpg",
-  "guest_name": "Jabee Williams",
-  "organization_links": [
-    "https://livefreeoklahoma.com/",
-    "https://www.withloveokc.org/",
-    "https://www.staarfoundation.org/",
-    "https://www.urbanbridge.org/"
-  ],
-  "site_path": "episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
   "mentioned_organizations": [
     "Live Free Oklahoma",
     "With Love OKC",
@@ -41,6 +20,27 @@
     "Oklahoma City Public Schools - Emerson South",
     "City Center"
   ],
+  "guest_name": "Jabee Williams",
+  "thumbnail_url": "https://i.ytimg.com/vi/ErUs6G6PS6o/maxresdefault.jpg",
   "guest_title": "Artist, entrepreneur, and community advocate",
-  "updated_at": "2026-05-04 17:57 UTC"
+  "organization_links": [
+    "https://livefreeoklahoma.com/",
+    "https://www.withloveokc.org/",
+    "https://www.staarfoundation.org/",
+    "https://www.urbanbridge.org/"
+  ],
+  "guest_website": "https://www.mynameisjabee.com/",
+  "guest_organization": "Live Free Oklahoma \u00b7 With Love OKC",
+  "site_url": "https://www.voicesofokc.com/episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
+  "slug": "hope-in-hard-places-jabee-williams-on-okc-violence-and-hope",
+  "theme_tags": [
+    "Arts & Culture",
+    "Restoration & Second Chances",
+    "Community Builders",
+    "Civic Leadership"
+  ],
+  "site_path": "episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
+  "episode_number": 23,
+  "guest_instagram": "https://www.instagram.com/mynameisjabee/",
+  "updated_at": "2026-05-04 21:46 UTC"
 }
