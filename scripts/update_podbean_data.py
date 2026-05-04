@@ -47,6 +47,7 @@ SAFE_INLINE_TAGS = {"strong", "em", "b", "i", "br"}
 SAFE_BLOCK_TAGS = {"p", "ul", "ol", "li", "blockquote", "h2", "h3", "h4"}
 SAFE_TAGS = SAFE_INLINE_TAGS | SAFE_BLOCK_TAGS | {"a"}
 URL_RE = re.compile(r"https?://[^\s<]+")
+YOUTUBE_VIDEO_RE = re.compile(r"(?:v=|youtu\.be/|embed/|shorts/)([a-zA-Z0-9_-]{6,})")
 
 
 def normalize_brand_refs(value):
@@ -248,6 +249,17 @@ def local_asset_path(value, prefix):
         if path.startswith(marker):
             return f"{prefix}{path[path.index('assets/'):]}"
     return path
+
+
+def youtube_thumbnail_from_url(value):
+    match = YOUTUBE_VIDEO_RE.search(str(value or ""))
+    if not match:
+        return ""
+    return f"https://i.ytimg.com/vi/{match.group(1)}/maxresdefault.jpg"
+
+
+def is_youtube_thumbnail(value):
+    return bool(re.search(r"(?:i\.ytimg\.com|img\.youtube\.com)/vi/", str(value or "")))
 
 
 def slugify(value):
@@ -484,6 +496,14 @@ for index, entry in enumerate(feed.entries[:12]):
     for field in PRESERVED_CONTENT_FIELDS:
         if field in existing and existing[field] not in ("", None, []):
             payload[field] = existing[field]
+    youtube_artwork = (
+        youtube_thumbnail_from_url(payload.get("youtube_url"))
+        or (payload.get("thumbnail_url") if is_youtube_thumbnail(payload.get("thumbnail_url")) else "")
+        or (payload.get("artwork_url") if is_youtube_thumbnail(payload.get("artwork_url")) else "")
+    )
+    if youtube_artwork:
+        payload["thumbnail_url"] = youtube_artwork
+        payload["artwork_url"] = youtube_artwork
     if index == 0:
         payload["site_path"] = site_path
         payload["site_url"] = f"{site_origin}/{site_path}"

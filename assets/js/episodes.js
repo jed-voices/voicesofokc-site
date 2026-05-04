@@ -43,6 +43,21 @@ const slugify = (value) => {
     .replace(/^-+|-+$/g, '');
 };
 
+const youtubeThumbnailFromUrl = (value) => {
+  const url = String(value || '');
+  const match = url.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([a-zA-Z0-9_-]{6,})/);
+  return match ? `https://i.ytimg.com/vi/${match[1]}/maxresdefault.jpg` : '';
+};
+
+const isYoutubeThumbnail = (value) => /(?:i\.ytimg\.com|img\.youtube\.com)\/vi\//.test(String(value || ''));
+
+const getEpisodeArtwork = (episode) => {
+  return youtubeThumbnailFromUrl(episode.youtube_url)
+    || (isYoutubeThumbnail(episode.thumbnail_url) ? episode.thumbnail_url : '')
+    || (isYoutubeThumbnail(episode.artwork_url) ? episode.artwork_url : '')
+    || fallbackImage;
+};
+
 const stripHtml = (value) => {
   const tmp = document.createElement('div');
   tmp.innerHTML = normalizeBrandRefs(value);
@@ -143,7 +158,7 @@ const renderEpisodes = (episodes) => {
   }
 
   archiveGrid.innerHTML = visible.slice(0, 24).map((episode, index) => {
-    const artwork = episode.thumbnail_url || episode.artwork_url || fallbackImage;
+    const artwork = getEpisodeArtwork(episode);
     const title = episode.title || `Episode ${index + 1}`;
     const summary = trimSummary(episode.summary) || 'Listen to the latest conversation from VOICES of OKC.';
     const href = buildEpisodeHref(episode);

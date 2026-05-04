@@ -42,6 +42,14 @@ const truncateText = (value, limit = 360) => {
   return `${clipped.slice(0, clipped.lastIndexOf(' ')).trim() || clipped}...`;
 };
 
+const youtubeThumbnailFromUrl = (value) => {
+  const url = String(value || '');
+  const match = url.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([a-zA-Z0-9_-]{6,})/);
+  return match ? `https://i.ytimg.com/vi/${match[1]}/maxresdefault.jpg` : '';
+};
+
+const isYoutubeThumbnail = (value) => /(?:i\.ytimg\.com|img\.youtube\.com)\/vi\//.test(String(value || ''));
+
 const isMobileViewport = () => window.matchMedia('(max-width: 680px)').matches;
 
 const hideMobilePlayer = () => {
@@ -107,7 +115,9 @@ async function loadLatestEpisode() {
       if (cleanSummary) featuredDescription.textContent = truncateText(cleanSummary);
     }
 
-    const featuredArtwork = episode.thumbnail_url || episode.artwork_url;
+    const featuredArtwork = youtubeThumbnailFromUrl(episode.youtube_url)
+      || (isYoutubeThumbnail(episode.thumbnail_url) ? episode.thumbnail_url : '')
+      || (isYoutubeThumbnail(episode.artwork_url) ? episode.artwork_url : '');
     if (featuredArtwork && featuredImage) {
       featuredImage.src = featuredArtwork;
       featuredImage.removeAttribute('srcset');
