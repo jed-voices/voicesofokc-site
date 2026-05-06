@@ -1,0 +1,42 @@
+{
+  "brand": {
+    "name": "VOICES of OKC",
+    "email_label": "VOICES of OKC Email",
+    "email": "info@voicesofokc.com",
+    "domain": "www.voicesofokc.com",
+    "site_origin": "https://www.voicesofokc.com"
+  },
+  "forms": {
+    "general_contact": {
+      "label": "General Contact Form",
+      "provider": "tally-fillout",
+      "embed_url": "",
+      "fallback_email": "info@voicesofokc.com",
+      "subject": "VOICES of OKC General Contact",
+      "airtable_ready": true
+    },
+    "guest_nomination": {
+      "label": "Guest Nomination Form",
+      "provider": "tally-fillout",
+      "embed_url": "",
+      "fallback_email": "info@voicesofokc.com",
+      "subject": "VOICES of OKC Guest Nomination",
+      "airtable_ready": true
+    },
+    "sponsor_inquiry": {
+      "label": "Sponsor Inquiry Form",
+      "provider": "tally-fillout",
+      "embed_url": "",
+      "fallback_email": "info@voicesofokc.com",
+      "subject": "VOICES of OKC Sponsor Inquiry",
+      "airtable_ready": true
+    }
+  },
+  "analytics": {
+    "enabled": true,
+    "event_layer": "dataLayer",
+    "gtag_id": "",
+    "plausible_domain": "",
+    "cloudflare_web_analytics_token": ""
+  }
+}

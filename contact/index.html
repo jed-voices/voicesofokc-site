@@ -63,16 +63,17 @@
 
     <section class="section section-tight">
       <div class="container form-page-grid">
-        <article class="form-shell">
+        <article class="form-shell" data-form-key="general_contact">
           <h2>General Contact Form</h2>
-          <p>This form is structured for a future Tally or Fillout embed and Airtable handoff.</p>
-          <form class="form-embed" action="mailto:info@voicesofokc.com" method="post" enctype="text/plain" data-form-provider-ready="tally-fillout">
+          <p>This form is prepared for a Tally or Fillout embed and Airtable handoff.</p>
+          <p class="form-contact-line"><strong>VOICES of OKC Email:</strong> <a data-site-email-link href="mailto:info@voicesofokc.com">info@voicesofokc.com</a></p>
+          <form class="form-embed" action="mailto:info@voicesofokc.com" method="post" enctype="text/plain" data-form-provider-ready="tally-fillout" data-form-key="general_contact">
             <label>Name<input name="Name" autocomplete="name" required /></label>
             <label>Email<input name="Email" type="email" autocomplete="email" required /></label>
             <label>Message<textarea name="Message" required></textarea></label>
             <button class="button-secondary" type="submit">Send Message</button>
           </form>
-          <p class="form-note">For launch, submissions open an email draft to info@voicesofokc.com.</p>
+          <p class="form-note">Submissions currently open an email draft. Add the final embedded form URL when the Airtable connection is ready.</p>
         </article>
         <aside class="city-center-panel">
           <h2>Direct contact</h2>
@@ -118,7 +119,7 @@
         </div>
         <div class="footer-column">
           <h2>Contact</h2>
-          <span>info@voicesofokc.com</span>
+          <span><strong>VOICES of OKC Email:</strong> <a data-site-email-link href="mailto:info@voicesofokc.com">info@voicesofokc.com</a></span>
           <span>Oklahoma City, Oklahoma</span>
           <span>Produced through City Center</span>
         </div>
@@ -129,5 +130,6 @@
       </div>
     </div>
   </footer>
+  <script src="../assets/js/site-automation.js" defer></script>
 </body>
 </html>

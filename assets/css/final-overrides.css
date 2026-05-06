@@ -824,6 +824,26 @@ img,
   border:1px solid rgba(15,42,68,.11);
 }
 
+.guest-nomination-cta .cta-eyebrow-row {
+  display:block;
+  margin:0 0 16px;
+}
+
+.guest-nomination-cta .eyebrow {
+  display:flex !important;
+  width:max-content;
+  margin:0 !important;
+}
+
+.guest-nomination-cta h2.title-with-rule {
+  display:block !important;
+  clear:both;
+}
+
+.guest-nomination-cta .title-with-rule::after {
+  width:min(260px,56vw) !important;
+}
+
 .sponsor-cta h2,
 .guest-nomination-cta h2 {
   margin:0;
@@ -895,6 +915,14 @@ img,
   gap:16px;
 }
 
+.form-embed-frame {
+  width:100%;
+  min-height:680px;
+  border:1px solid rgba(15,42,68,.12);
+  border-radius:10px;
+  background:#fff;
+}
+
 .form-embed label {
   display:grid;
   gap:7px;
@@ -926,6 +954,27 @@ img,
   color:var(--muted);
   font-size:.88rem;
   line-height:1.55;
+}
+
+.form-note a,
+.form-contact-line a,
+.footer-column a[data-site-email-link] {
+  color:inherit;
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:3px;
+}
+
+.form-note code {
+  font-size:.82em;
+  color:var(--civic-navy);
+}
+
+.form-contact-line {
+  margin:12px 0 18px;
+  color:var(--slate);
+  font-size:.92rem;
+  line-height:1.5;
 }
 
 .field-list {

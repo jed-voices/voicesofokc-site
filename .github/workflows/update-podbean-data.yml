@@ -30,6 +30,7 @@ jobs:
           APPLE_URL: "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322"
           YOUTUBE_URL: "https://youtube.com/@voicesofokc"
           SITE_ORIGIN: "https://www.voicesofokc.com"
+          SITE_EMAIL: "info@voicesofokc.com"
         run: python scripts/update_podbean_data.py
 
       - name: Commit changes if needed

@@ -39,6 +39,7 @@
     "Student Production"
   ],
   "forms": {
+    "notification_email": "info@voicesofokc.com",
     "sponsor_inquiry": [
       "Name",
       "Company",

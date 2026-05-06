@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import parse_qsl, urlencode, urlparse, urlsplit, urlunsplit
 
 import feedparser
 
@@ -14,10 +14,12 @@ feed_url = os.environ.get("PODBEAN_FEED_URL", "").strip()
 spotify_url = os.environ.get("SPOTIFY_URL", "").strip()
 apple_url = os.environ.get("APPLE_URL", "").strip()
 youtube_url = os.environ.get("YOUTUBE_URL", "").strip()
+site_email = os.environ.get("SITE_EMAIL", "info@voicesofokc.com").strip()
 
 site_origin = os.environ.get("SITE_ORIGIN", "https://www.voicesofokc.com").rstrip("/")
 latest_path = Path("assets/data/latest-episode.json")
 episodes_path = Path("assets/data/episodes.json")
+episode_map_path = Path("assets/data/episode-map.json")
 sitemap_path = Path("sitemap.xml")
 latest_path.parent.mkdir(parents=True, exist_ok=True)
 PRESERVED_CONTENT_FIELDS = {
@@ -48,6 +50,23 @@ SAFE_BLOCK_TAGS = {"p", "ul", "ol", "li", "blockquote", "h2", "h3", "h4"}
 SAFE_TAGS = SAFE_INLINE_TAGS | SAFE_BLOCK_TAGS | {"a"}
 URL_RE = re.compile(r"https?://[^\s<]+")
 YOUTUBE_VIDEO_RE = re.compile(r"(?:v=|youtu\.be/|embed/|shorts/)([a-zA-Z0-9_-]{6,})")
+TRACKING_QUERY_KEYS = {
+    "fbclid",
+    "gclid",
+    "mc_cid",
+    "mc_eid",
+    "msclkid",
+}
+STATIC_SITEMAP_PATHS = [
+    "/",
+    "/about/",
+    "/podcast-team/",
+    "/guests/",
+    "/sponsors/",
+    "/watch-listen/",
+    "/contact/",
+    "/episodes/",
+]
 
 
 def normalize_brand_refs(value):
@@ -69,6 +88,19 @@ def is_safe_url(value):
     return parsed.scheme in {"http", "https", "mailto"}
 
 
+def strip_tracking_params(value):
+    url = str(value or "").strip()
+    parsed = urlsplit(url)
+    if parsed.scheme not in {"http", "https"}:
+        return url
+    kept = [
+        (key, val)
+        for key, val in parse_qsl(parsed.query, keep_blank_values=True)
+        if not key.lower().startswith("utm_") and key.lower() not in TRACKING_QUERY_KEYS
+    ]
+    return urlunsplit((parsed.scheme, parsed.netloc, parsed.path, urlencode(kept, doseq=True), parsed.fragment))
+
+
 def escape_and_link_text(value):
     text = str(value or "")
     pieces = []
@@ -76,9 +108,10 @@ def escape_and_link_text(value):
     for match in URL_RE.finditer(text):
         url = match.group(0).rstrip(".,);]")
         trailing = match.group(0)[len(url):]
+        clean_url = strip_tracking_params(url)
         pieces.append(escape(text[cursor:match.start()]))
-        href = escape(url, quote=True)
-        pieces.append(f'<a href="{href}" target="_blank" rel="noreferrer">{escape(url)}</a>')
+        href = escape(clean_url, quote=True)
+        pieces.append(f'<a href="{href}" target="_blank" rel="noreferrer">{escape(clean_url)}</a>')
         pieces.append(escape(trailing))
         cursor = match.end()
     pieces.append(escape(text[cursor:]))
@@ -109,7 +142,7 @@ class ShowNotesSanitizer(HTMLParser):
             href = ""
             for name, value in attrs:
                 if name.lower() == "href":
-                    href = str(value or "").strip()
+                    href = strip_tracking_params(value)
                     break
             if not href or not is_safe_url(href):
                 return
@@ -269,6 +302,51 @@ def slugify(value):
     return slug[:96].strip("-") or "latest-episode"
 
 
+def podbean_slug(value):
+    parsed = urlparse(str(value or ""))
+    parts = [part for part in parsed.path.split("/") if part]
+    return parts[-1] if parts else ""
+
+
+def add_lookup_item(lookup, key, item):
+    if key:
+        lookup[str(key).strip()] = item
+
+
+def build_lookup(items):
+    lookup = {}
+    for item in items:
+        add_lookup_item(lookup, item.get("podbean_url"), item)
+        add_lookup_item(lookup, item.get("episode_url"), item)
+        add_lookup_item(lookup, item.get("podbean_slug"), item)
+        add_lookup_item(lookup, podbean_slug(item.get("podbean_url") or item.get("episode_url")), item)
+        add_lookup_item(lookup, item.get("title"), item)
+        add_lookup_item(lookup, slugify(item.get("title", "")), item)
+        add_lookup_item(lookup, item.get("episode_number"), item)
+    return lookup
+
+
+def load_episode_map():
+    if not episode_map_path.exists():
+        return {}
+    try:
+        data = json.loads(episode_map_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    return build_lookup(data.get("episodes", []))
+
+
+def find_mapped_episode(lookup, payload, slug):
+    return (
+        lookup.get(payload.get("podbean_url"))
+        or lookup.get(payload.get("episode_url"))
+        or lookup.get(podbean_slug(payload.get("podbean_url") or payload.get("episode_url")))
+        or lookup.get(payload.get("title"))
+        or lookup.get(slug)
+        or {}
+    )
+
+
 def build_episode_page(episode, show_notes_html):
     title = episode["title"]
     display_title = title.upper()
@@ -280,6 +358,23 @@ def build_episode_page(episode, show_notes_html):
     audio_url = episode.get("audio_url", "")
     published_at = episode.get("published_at", "")
     episode_youtube_url = episode.get("youtube_url") or youtube_url
+    episode_number = episode.get("episode_number")
+    episode_kicker = f"Episode {episode_number}" if episode_number else "Episode"
+    guest_meta = " · ".join(
+        part
+        for part in (
+            episode.get("guest_name"),
+            episode.get("guest_title") or episode.get("guest_organization"),
+        )
+        if part
+    )
+    theme_markup = ""
+    if episode.get("theme_tags"):
+        theme_markup = (
+            '\n              <div class="tag-list">'
+            + "".join(f'<span class="tag">{escape(str(theme))}</span>' for theme in episode.get("theme_tags", [])[:4])
+            + "</div>"
+        )
 
     audio_markup = ""
     if audio_url:
@@ -317,6 +412,7 @@ def build_episode_page(episode, show_notes_html):
   <link rel="stylesheet" href="../../assets/css/site.css" />
   <link rel="stylesheet" href="../../assets/css/final-overrides.css" />
   <script>(function(w,d,s,n,a){{if(!w[n]){{var l='call,catch,on,once,set,then,track,openCheckout'.split(','),i,o=function(n){{return'function'==typeof n?o.l.push([arguments])&&o:function(){{return o.l.push([n,arguments])&&o}}}},t=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=!0;j.src='https://cdn.fundraiseup.com/widget/'+a+'';t.parentNode.insertBefore(j,t);o.s=Date.now();o.v=5;o.h=w.location.href;o.l=[];for(i=0;i<8;i++)o[l[i]]=o(l[i]);w[n]=o}}}})(window,document,'script','FundraiseUp','ALZDJCPT');</script>
+  <script src="../../assets/js/site-automation.js" defer></script>
 </head>
 <body class="episode-detail-page">
   <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -350,13 +446,14 @@ def build_episode_page(episode, show_notes_html):
             <img src="{escape(page_artwork_url, quote=True)}" alt="{escape(title, quote=True)} artwork for VOICES of OKC" />
           </article>
           <article class="card-surface episode-detail-card">
-            <span class="episode-kicker">Latest episode</span>
+            <span class="episode-kicker">{escape(episode_kicker)}</span>
             <h1 class="episode-title title-with-rule">{escape(display_title)}</h1>
             <div class="episode-meta">
               <span>VOICES of OKC</span>
+              {f'<span>{escape(guest_meta)}</span>' if guest_meta else ''}
               <span>{escape(published_at)}</span>
               <span>Show notes from Podbean</span>
-            </div>{audio_markup}
+            </div>{theme_markup}{audio_markup}
             <div class="episode-actions">
               <a class="action-pill" href="{escape(episode_youtube_url, quote=True)}" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="../../assets/images/icon-youtube.png" alt="YouTube icon" /><span class="action-label">YouTube</span></a>
               <a class="action-pill" href="{escape(apple_url, quote=True)}" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="../../assets/images/icon-apple-podcasts.png" alt="Apple Podcasts icon" /><span class="action-label">Apple</span></a>
@@ -409,7 +506,7 @@ def build_episode_page(episode, show_notes_html):
           </div>
           <div class="footer-column">
             <h2>Contact</h2>
-            <span>info@voicesofokc.com</span>
+            <span><strong>VOICES of OKC Email:</strong> <a data-site-email-link href="mailto:{escape(site_email, quote=True)}">{escape(site_email)}</a></span>
             <span>Oklahoma City, Oklahoma</span>
             <span>Produced through City Center</span>
           </div>
@@ -454,6 +551,19 @@ def update_sitemap(episode):
         sitemap = sitemap.rstrip() + "\n" + insert
     sitemap_path.write_text(sitemap, encoding="utf-8")
 
+
+def write_sitemap(episodes):
+    urls = [f"{site_origin}{path}" for path in STATIC_SITEMAP_PATHS]
+    urls.extend(episode["site_url"] for episode in episodes if episode.get("site_url"))
+    seen = []
+    for url in urls:
+        if url not in seen:
+            seen.append(url)
+    sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    sitemap.extend(f"  <url><loc>{escape(url)}</loc></url>" for url in seen)
+    sitemap.append("</urlset>")
+    sitemap_path.write_text("\n".join(sitemap) + "\n", encoding="utf-8")
+
 if not feed_url:
     raise SystemExit("PODBEAN_FEED_URL is missing.")
 
@@ -468,12 +578,11 @@ existing_by_key = {}
 if episodes_path.exists():
     try:
         existing_data = json.loads(episodes_path.read_text(encoding="utf-8"))
-        for item in existing_data.get("episodes", []):
-            for key in (item.get("podbean_url"), item.get("episode_url"), item.get("title")):
-                if key:
-                    existing_by_key[str(key)] = item
+        existing_by_key = build_lookup(existing_data.get("episodes", []))
     except (json.JSONDecodeError, OSError):
         existing_by_key = {}
+
+mapped_by_key = load_episode_map()
 
 for index, entry in enumerate(feed.entries[:12]):
     title = (entry.get("title") or "").strip()
@@ -490,12 +599,19 @@ for index, entry in enumerate(feed.entries[:12]):
         "published_at": (entry.get("published") or entry.get("updated") or "").strip(),
         "spotify_url": spotify_url,
         "apple_url": apple_url,
-        "youtube_url": youtube_url,
+        "youtube_url": "",
     }
     existing = existing_by_key.get(podbean_url) or existing_by_key.get(title) or {}
+    mapped = find_mapped_episode(mapped_by_key, payload, slug)
     for field in PRESERVED_CONTENT_FIELDS:
         if field in existing and existing[field] not in ("", None, []):
             payload[field] = existing[field]
+    for field in PRESERVED_CONTENT_FIELDS:
+        if field in mapped and mapped[field] not in ("", None, []):
+            payload[field] = mapped[field]
+    payload["site_path"] = payload.get("site_path") or site_path
+    payload["site_url"] = f"{site_origin}/{payload['site_path']}"
+    payload["episode_url"] = payload["site_url"]
     youtube_artwork = (
         youtube_thumbnail_from_url(payload.get("youtube_url"))
         or (payload.get("thumbnail_url") if is_youtube_thumbnail(payload.get("thumbnail_url")) else "")
@@ -504,21 +620,19 @@ for index, entry in enumerate(feed.entries[:12]):
     if youtube_artwork:
         payload["thumbnail_url"] = youtube_artwork
         payload["artwork_url"] = youtube_artwork
-    if index == 0:
-        payload["site_path"] = site_path
-        payload["site_url"] = f"{site_origin}/{site_path}"
-        payload["episode_url"] = payload["site_url"]
     entries.append(payload)
 
 latest = dict(entries[0])
 if latest.get("thumbnail_url"):
     latest["thumbnail_url"] = local_asset_path(latest["thumbnail_url"], "")
 latest["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-latest_show_notes = sanitize_show_notes(find_show_notes(feed.entries[0]))
-episode_page = write_episode_page(latest, latest_show_notes)
-update_sitemap(latest)
+generated_pages = []
+for episode, entry in zip(entries, feed.entries[:12]):
+    show_notes = sanitize_show_notes(find_show_notes(entry))
+    generated_pages.append(write_episode_page(episode, show_notes))
+write_sitemap(entries)
 
 latest_path.write_text(json.dumps(latest, indent=2), encoding="utf-8")
 episodes_path.write_text(json.dumps({"episodes": entries}, indent=2), encoding="utf-8")
 
-print(f"Wrote {latest_path}, {episodes_path}, and {episode_page}")
+print(f"Wrote {latest_path}, {episodes_path}, sitemap.xml, and {len(generated_pages)} episode pages")

@@ -75,10 +75,11 @@
           </ul>
         </article>
 
-        <article class="form-shell">
+        <article class="form-shell" data-form-key="guest_nomination">
           <h2>Guest Nomination Form</h2>
           <p>This static form is ready to replace with a Tally or Fillout embed connected to Airtable.</p>
-          <form class="form-embed" action="mailto:info@voicesofokc.com" method="post" enctype="text/plain" data-form-provider-ready="tally-fillout">
+          <p class="form-contact-line"><strong>VOICES of OKC Email:</strong> <a data-site-email-link href="mailto:info@voicesofokc.com">info@voicesofokc.com</a></p>
+          <form class="form-embed" action="mailto:info@voicesofokc.com" method="post" enctype="text/plain" data-form-provider-ready="tally-fillout" data-form-key="guest_nomination">
             <label>Guest name<input name="Guest name" autocomplete="name" /></label>
             <label>Organization<input name="Organization" /></label>
             <label>Contact info<input name="Contact info" autocomplete="email" /></label>
@@ -87,7 +88,7 @@
             <label>Submitted by<input name="Submitted by" autocomplete="name" /></label>
             <button class="button-secondary" type="submit">Nominate a Guest</button>
           </form>
-          <p class="form-note">For launch, submissions open an email draft. Replace this block with the final embedded form URL when the Airtable connection is ready.</p>
+          <p class="form-note">Submissions currently open an email draft. Add the final embedded form URL when the Airtable connection is ready.</p>
         </article>
       </div>
     </section>
@@ -124,7 +125,7 @@
         </div>
         <div class="footer-column">
           <h2>Contact</h2>
-          <span>info@voicesofokc.com</span>
+          <span><strong>VOICES of OKC Email:</strong> <a data-site-email-link href="mailto:info@voicesofokc.com">info@voicesofokc.com</a></span>
           <span>Oklahoma City, Oklahoma</span>
           <span>Produced through City Center</span>
         </div>
@@ -135,5 +136,6 @@
       </div>
     </div>
   </footer>
+  <script src="../assets/js/site-automation.js" defer></script>
 </body>
 </html>
