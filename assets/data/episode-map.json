@@ -2,6 +2,19 @@
   "purpose": "Manual bridge for matching Podbean episodes to YouTube videos, guest metadata, and local episode pages. The update workflow reads this before regenerating public JSON and pages.",
   "episodes": [
     {
+      "episode_number": 25,
+      "title": "Before They Break: GNWY on Mental Health, Purpose & Hope",
+      "podbean_url": "https://voicesofokc.podbean.com/e/before-they-break-gnwy-on-mental-health-purpose-hope/",
+      "podbean_slug": "before-they-break-gnwy-on-mental-health-purpose-hope",
+      "youtube_url": "",
+      "guest_name": "Generation Why (Jordan Miller, Stuart Bennett)",
+      "guest_title": "Mental health advocacy team",
+      "theme_tags": [],
+      "site_path": "episodes/before-they-break-gnwy-on-mental-health-purpose-hope/",
+      "site_url": "https://www.voicesofokc.com/episodes/before-they-break-gnwy-on-mental-health-purpose-hope/",
+      "thumbnail_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple_GNWY8ajvv.png"
+    },
+    {
       "episode_number": 24,
       "title": "Life Needs Vision: Carey Conley on Vision, Mental Health, and Young Adults",
       "podbean_url": "https://voicesofokc.podbean.com/e/life-needs-vision-carey-conley-on-vision-mental-health-and-young-adults/",
@@ -66,6 +79,8 @@
         "Civic Leadership",
         "Community Builders"
       ],
+      "site_path": "episodes/beyond-winning-bryan-fetzer-on-pressure-and-perspective-in-okc/",
+      "site_url": "https://www.voicesofokc.com/episodes/beyond-winning-bryan-fetzer-on-pressure-and-perspective-in-okc/",
       "thumbnail_url": "https://i.ytimg.com/vi/G22Cai7-QdQ/maxresdefault.jpg",
       "podbean_slug": "beyond-winning-bryan-fetzer-on-pressure-and-perspective-in-okc"
     },
@@ -80,6 +95,8 @@
         "Faith, Purpose & Resilience",
         "Community Builders"
       ],
+      "site_path": "episodes/over-22-000-babies-later-what-one-doctor-learned-about-life-and-hope/",
+      "site_url": "https://www.voicesofokc.com/episodes/over-22-000-babies-later-what-one-doctor-learned-about-life-and-hope/",
       "thumbnail_url": "https://i.ytimg.com/vi/9m4V5Swk5jo/maxresdefault.jpg",
       "podbean_slug": "over-22000-babies-later-what-one-doctor-learned-about-life-and-hope"
     },
@@ -95,6 +112,8 @@
         "Community Builders",
         "Faith, Purpose & Resilience"
       ],
+      "site_path": "episodes/beyond-quick-fix-functional-medicine-and-real-healing-in-oklahoma-city/",
+      "site_url": "https://www.voicesofokc.com/episodes/beyond-quick-fix-functional-medicine-and-real-healing-in-oklahoma-city/",
       "thumbnail_url": "https://i.ytimg.com/vi/vlKtdFjBbko/maxresdefault.jpg",
       "podbean_slug": "beyond-quick-fix-functional-medicine-and-real-healing-in-oklahoma-city"
     },
@@ -111,6 +130,8 @@
         "Restoration & Second Chances",
         "Community Builders"
       ],
+      "site_path": "episodes/rethinking-justice-in-oklahoma-public-safety-real-reform-and-redemption/",
+      "site_url": "https://www.voicesofokc.com/episodes/rethinking-justice-in-oklahoma-public-safety-real-reform-and-redemption/",
       "thumbnail_url": "https://i.ytimg.com/vi/NiFu6rjG_0k/maxresdefault.jpg",
       "podbean_slug": "rethinking-justice-in-oklahoma-public-safety-real-reform-and-redemption"
     },
@@ -127,6 +148,8 @@
         "Community Builders",
         "Business & Entrepreneurship"
       ],
+      "site_path": "episodes/community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city/",
+      "site_url": "https://www.voicesofokc.com/episodes/community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city/",
       "thumbnail_url": "https://i.ytimg.com/vi/QRZNxiuNa1o/maxresdefault.jpg",
       "podbean_slug": "community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city"
     },
@@ -143,6 +166,8 @@
         "Restoration & Second Chances",
         "Youth & Family"
       ],
+      "site_path": "episodes/from-misnomer-to-mentorship-derrick-sier-on-rebuilding-identity-in-oklahoma-city/",
+      "site_url": "https://www.voicesofokc.com/episodes/from-misnomer-to-mentorship-derrick-sier-on-rebuilding-identity-in-oklahoma-city/",
       "thumbnail_url": "https://i.ytimg.com/vi/YCzqO3WmUfg/maxresdefault.jpg",
       "podbean_slug": "episode-16"
     },
@@ -159,6 +184,8 @@
         "Youth & Family",
         "Community Builders"
       ],
+      "site_path": "episodes/from-policy-to-people-the-privilege-of-leading-oklahoma-city/",
+      "site_url": "https://www.voicesofokc.com/episodes/from-policy-to-people-the-privilege-of-leading-oklahoma-city/",
       "thumbnail_url": "https://i.ytimg.com/vi/beuOfntpmdk/maxresdefault.jpg",
       "podbean_slug": "episode-15-mayor-david-holt"
     },
@@ -175,39 +202,10 @@
         "Restoration & Second Chances",
         "Faith, Purpose & Resilience"
       ],
+      "site_path": "episodes/cutting-weight-cutting-drama-victorias-story-of-hope/",
+      "site_url": "https://www.voicesofokc.com/episodes/cutting-weight-cutting-drama-victorias-story-of-hope/",
       "thumbnail_url": "https://i.ytimg.com/vi/PsG61E-OFBU/maxresdefault.jpg",
       "podbean_slug": "cutting-weight-cutting-drama-victoria-haggard-s-story-of-hope"
-    },
-    {
-      "episode_number": 13,
-      "title": "16 Years Old... and Already Teaching Us About Hope | Jordan Arnett",
-      "podbean_url": "https://voicesofokc.podbean.com/e/16-years-old-and-already-teaching-us-about-hope-jordan-arnett/",
-      "youtube_url": "https://www.youtube.com/watch?v=QJ9ZQQHjxuw",
-      "guest_name": "Jordan Arnett",
-      "guest_title": "Student host",
-      "guest_organization": "City Center",
-      "theme_tags": [
-        "Youth & Family",
-        "Faith, Purpose & Resilience",
-        "Student Production"
-      ],
-      "thumbnail_url": "https://i.ytimg.com/vi/QJ9ZQQHjxuw/maxresdefault.jpg",
-      "podbean_slug": "16-years-old-and-already-teaching-us-about-hope-jordan-arnett"
-    },
-    {
-      "episode_number": 12,
-      "title": "Fast Lanes and Faith: Eliud Villarreal on Risk, Family, and Hope",
-      "podbean_url": "https://voicesofokc.podbean.com/e/episode-12-eliud-villarreal/",
-      "youtube_url": "https://www.youtube.com/watch?v=bdYWKYrUgWQ",
-      "guest_name": "Eliud Villarreal",
-      "guest_title": "Founder",
-      "guest_organization": "Exotic Motorsports",
-      "theme_tags": [
-        "Business & Entrepreneurship",
-        "Faith, Purpose & Resilience"
-      ],
-      "thumbnail_url": "https://i.ytimg.com/vi/bdYWKYrUgWQ/maxresdefault.jpg",
-      "podbean_slug": "episode-12-eliud-villarreal"
     }
   ]
 }
