@@ -16,7 +16,7 @@
    ============================================================ */
 
 body {
-  background: #f8fbfe !important;
+  background: var(--cloud-white) !important;
 }
 
 .section-tight {
@@ -390,7 +390,7 @@ img,
 
 .card-surface .episode-actions .action-pill:hover {
   transform: translateY(-1px);
-  background: #f7f8fa;
+  background: var(--cloud-white);
   box-shadow: 0 8px 20px rgba(15, 42, 68, 0.05);
 }
 
@@ -727,7 +727,7 @@ img,
   position:relative;
   overflow:hidden;
   aspect-ratio:16 / 9;
-  background:#e7eef5;
+  background:var(--cloud-white);
 }
 
 .episode-card-media img {
@@ -1063,7 +1063,7 @@ html {
 
 body {
   background:
-    linear-gradient(180deg, #fbfdff 0%, #f7fbfe 44%, #f3f8fc 100%) !important;
+    linear-gradient(180deg, #F4F7FA 0%, #F4F7FA 44%, #F4F7FA 100%) !important;
   color: var(--civic-navy);
 }
 
@@ -1672,7 +1672,7 @@ body {
 
 .episode-archive-card .guest-card-image {
   aspect-ratio: 1 / 1;
-  background: #e7eef5;
+  background: var(--cloud-white);
 }
 
 .episode-archive-card .episode-title {
@@ -1767,7 +1767,7 @@ body {
 
 .team-image {
   aspect-ratio: 4 / 4.8;
-  background: #e8eff5;
+  background: var(--cloud-white);
 }
 
 .team-image:not(.team-image--square) {
