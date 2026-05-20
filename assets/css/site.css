@@ -189,7 +189,7 @@ audio { display:none; }
 }
 .cta-band .title-md,.cta-band p { margin:0; color:var(--cloud-white); }
 .cta-band p { margin-top:12px; color:rgba(244,247,250,.82); max-width:720px; text-wrap:pretty; }
-.site-footer { background:#0c2238; color:var(--cloud-white); padding:64px 0 28px; margin-top:96px; }
+.site-footer { background:var(--civic-navy); color:var(--cloud-white); padding:64px 0 28px; margin-top:96px; }
 .footer-grid { display:grid; grid-template-columns:minmax(0,1.25fr) repeat(3,minmax(0,.7fr)); gap:28px; }
 .footer-copy { color:rgba(244,247,250,.75); font-size:.95rem; margin:0; }
 .footer-column h2 { margin:0 0 14px; font-family:"Sora","Inter",sans-serif; font-size:1rem; color:var(--cloud-white); }

@@ -402,8 +402,8 @@ img,
 }
 
 .card-surface .episode-actions .action-pill--primary:hover {
-  background: #133553;
-  border-color: #133553;
+  background: var(--civic-navy);
+  border-color: var(--civic-navy);
 }
 
 .card-surface .episode-actions .action-icon,
@@ -614,7 +614,7 @@ img,
 .episode-artwork img,
 .episode-archive-card .episode-card-media img {
   object-fit:contain;
-  background:#10283f;
+  background:var(--civic-navy);
 }
 
 .featured-episode .episode-actions,
@@ -802,7 +802,7 @@ img,
 .sponsor-cta,
 .guest-nomination-cta {
   border-radius:var(--radius-panel);
-  background:linear-gradient(135deg,#102b45 0%,#173a59 100%);
+  background:linear-gradient(135deg,#0F2A44 0%,#0F2A44 100%);
   color:var(--cloud-white);
   padding:44px clamp(24px,4vw,48px);
   display:grid;
@@ -1619,7 +1619,7 @@ body {
 
 .cta-band {
   border-radius: var(--radius-panel);
-  background: linear-gradient(135deg, #102b45 0%, #173a59 100%);
+  background: linear-gradient(135deg, #0F2A44 0%, #0F2A44 100%);
   box-shadow: 0 24px 48px rgba(15,42,68,.14);
 }
 
@@ -1642,7 +1642,7 @@ body {
 
 .site-footer {
   margin-top: 72px;
-  background: #0b2137;
+  background: var(--civic-navy);
 }
 
 .footer-column a {
