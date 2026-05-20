@@ -1,22 +1,36 @@
+/* ============================================================
+   VOICES of OKC — Locked Brand Tokens
+   ------------------------------------------------------------
+   Colors:
+     --civic-navy: #0F2A44  (anchor — heroes, headers, footers)
+     --azure:      #5FA8D3  (accent — buttons, links, highlights)
+     --slate:      #3E4C59  (body text, secondary UI)
+     --cloud-white:#F4F7FA  (backgrounds, cards, negative space)
+   Fonts:
+     --font-display: Sora    (headlines/display, weights 600/700/800)
+     --font-body:    Inter   (body/UI, weights 400/500/600)
+     --font-punch:   Bebas Neue (sparingly for badges/social)
+   Approved exceptions:
+     YouTube #FF1200, Spotify #1ED760, Apple Podcasts purple gradient
+     — kept in native platform colors for brand recognition.
+   ============================================================ */
+
 :root {
   --civic-navy:#0F2A44;
   --slate:#3E4C59;
   --cloud-white:#F4F7FA;
-  --ice-blue:#5FA8D3;
+  --azure:#5FA8D3;
   --warm-signal-blue:#5FA8D3;
-  --electric-coral:#FF5A5F;
   --text:#183044;
   --text-soft:#506273;
   --line:rgba(15,42,68,.12);
-  --line-strong:rgba(15,42,68,.18);
   --shadow-sm:0 8px 22px rgba(15,42,68,.055);
   --shadow-md:0 18px 44px rgba(15,42,68,.075);
   --shadow-lg:0 28px 64px rgba(15,42,68,.14);
-  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:20px; --space-6:24px;
-  --space-7:28px; --space-8:32px; --space-10:40px; --space-12:48px; --space-14:56px; --space-16:64px;
-  --space-18:72px; --space-20:80px; --space-24:96px;
+  --space-2:8px; --space-3:12px; --space-4:16px;
+  --space-20:80px; --space-24:96px;
   --section-width:1200px;
-  --radius-sm:12px; --radius-md:16px; --radius-lg:20px; --radius-xl:28px; --radius-2xl:32px;
+  --radius-xl:28px;
   --header-height:72px;
   --audio-height:90px;
   --ease:220ms cubic-bezier(.2,.8,.2,1);
@@ -72,7 +86,7 @@ audio { display:none; }
   height:4px;
   margin-top:18px;
   border-radius:999px;
-  background:linear-gradient(90deg, var(--ice-blue) 0%, rgba(95,168,211,.92) 72%, rgba(95,168,211,0) 100%);
+  background:linear-gradient(90deg, var(--azure) 0%, rgba(95,168,211,.92) 72%, rgba(95,168,211,0) 100%);
   box-shadow:0 0 0 1px rgba(95,168,211,.12), 0 10px 22px rgba(95,168,211,.16);
 }
 .title-with-rule--wide::after { width:min(320px,58vw); }
@@ -97,7 +111,7 @@ audio { display:none; }
   transition:transform var(--ease), box-shadow var(--ease), opacity var(--ease), background-color var(--ease), border-color var(--ease);
 }
 .button:hover,.button-secondary:hover,.button-outline:hover,.button-ghost:hover,.audio-control:hover,.audio-link:hover { transform:translateY(-2px); }
-.button { min-height:50px; padding:0 22px; background:var(--ice-blue); color:var(--civic-navy); box-shadow:0 12px 28px rgba(95,168,211,.24); }
+.button { min-height:50px; padding:0 22px; background:var(--azure); color:var(--civic-navy); box-shadow:0 12px 28px rgba(95,168,211,.24); }
 .button-secondary { min-height:50px; padding:0 22px; background:var(--civic-navy); color:var(--cloud-white); box-shadow:var(--shadow-sm); }
 .button-outline { min-height:46px; padding:0 18px; border:1px solid rgba(15,42,68,.14); background:#fff; color:var(--civic-navy); }
 .button-ghost { min-height:50px; padding:0 22px; border:1.5px solid rgba(244,247,250,.24); background:rgba(255,255,255,.06); color:var(--cloud-white); backdrop-filter:blur(10px); }
@@ -123,7 +137,7 @@ audio { display:none; }
 .hero-content { position:relative; z-index:1; display:grid; grid-template-columns:minmax(0,1.08fr) minmax(300px,390px); gap:32px; align-items:end; min-height:inherit; padding:64px clamp(24px,4vw,48px) 48px; }
 .hero-copy { color:var(--cloud-white); }
 .hero-copy .title-xl,.hero-copy .title-lg,.hero-copy .title-md,.hero-copy .title-sm { color:var(--cloud-white); }
-.hero-copy .eyebrow { color:var(--ice-blue); }
+.hero-copy .eyebrow { color:var(--azure); }
 .hero-copy .lede { color:rgba(244,247,250,.85); margin-top:20px; }
 .hero-panel { background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.14); border-radius:var(--radius-xl); padding:24px; backdrop-filter:blur(12px); color:var(--cloud-white); }
 .hero-panel h2,.hero-panel h3 { margin:0 0 12px; color:var(--cloud-white); font-family:"Sora","Inter",sans-serif; font-size:1.02rem; }
@@ -166,7 +180,7 @@ audio { display:none; }
 .guest-card-copy p { margin:0; color:var(--text-soft); font-size:.93rem; text-wrap:pretty; }
 .platform-section { background:var(--civic-navy); color:var(--cloud-white); }
 .platform-section .title-lg,.platform-section .lede,.platform-section .eyebrow { color:var(--cloud-white); }
-.platform-section .eyebrow { color:var(--ice-blue); }
+.platform-section .eyebrow { color:var(--azure); }
 .platform-row { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; margin-top:32px; }
 .platform-card { background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.12); border-radius:20px; padding:20px; text-align:center; transition:transform var(--ease), background var(--ease); }
 .platform-card:hover { transform:translateY(-3px); background:rgba(255,255,255,.1); }
@@ -199,7 +213,7 @@ audio { display:none; }
   white-space:nowrap; overflow:hidden; text-overflow:ellipsis; text-transform:uppercase; letter-spacing:.04em;
 }
 .audio-progress-wrap { min-width:0; display:grid; gap:8px; }
-.audio-range { width:100%; margin:0; accent-color:var(--ice-blue); background:transparent; }
+.audio-range { width:100%; margin:0; accent-color:var(--azure); background:transparent; }
 .audio-times { display:flex; justify-content:space-between; gap:12px; color:var(--text-soft); font-size:.82rem; font-weight:600; }
 .audio-links { display:flex; gap:8px; flex-wrap:wrap; }
 .audio-link { min-height:40px; padding:0 14px; border:1px solid rgba(15,42,68,.14); background:#fff; color:var(--civic-navy); font-size:.84rem; }

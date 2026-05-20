@@ -1,3 +1,20 @@
+/* ============================================================
+   VOICES of OKC — Locked Brand Tokens
+   ------------------------------------------------------------
+   Colors:
+     --civic-navy: #0F2A44  (anchor — heroes, headers, footers)
+     --azure:      #5FA8D3  (accent — buttons, links, highlights)
+     --slate:      #3E4C59  (body text, secondary UI)
+     --cloud-white:#F4F7FA  (backgrounds, cards, negative space)
+   Fonts:
+     --font-display: Sora    (headlines/display, weights 600/700/800)
+     --font-body:    Inter   (body/UI, weights 400/500/600)
+     --font-punch:   Bebas Neue (sparingly for badges/social)
+   Approved exceptions:
+     YouTube #FF1200, Spotify #1ED760, Apple Podcasts purple gradient
+     — kept in native platform colors for brand recognition.
+   ============================================================ */
+
 body {
   background: #f8fbfe !important;
 }
@@ -512,13 +529,9 @@ img,
 
 /* Launch refinement pass: editorial polish, accessibility, and shared page patterns */
 :root {
-  --surface:#ffffff;
-  --surface-soft:#f3f7fb;
-  --surface-tint:#eef6fb;
   --azure:#5FA8D3;
   --ink:#10283f;
   --muted:#5d6f7f;
-  --focus:#1b6f9f;
   --radius-card:10px;
   --radius-panel:14px;
   --radius-hero:20px;
@@ -551,7 +564,7 @@ img,
 }
 
 .hero-media-body .guest-role {
-  color:var(--ice-blue);
+  color:var(--azure);
 }
 
 .hero-media-body h2 {
@@ -699,7 +712,7 @@ img,
 .theme-card span {
   display:block;
   margin-top:18px;
-  color:var(--ice-blue);
+  color:var(--azure);
   font-size:.78rem;
   font-weight:800;
   text-transform:uppercase;
@@ -979,7 +992,7 @@ img,
   width:8px;
   height:8px;
   margin-right:9px;
-  background:var(--ice-blue);
+  background:var(--azure);
 }
 
 .page-intro {
@@ -1294,7 +1307,7 @@ body {
   bottom: -13px;
   height: 2px;
   border-radius: 999px;
-  background: var(--ice-blue);
+  background: var(--azure);
   opacity: 0;
   transform: scaleX(.72);
   transition: opacity var(--ease), transform var(--ease);
@@ -1419,7 +1432,7 @@ body {
 .title-with-rule::after {
   height: 3px;
   border-radius: 0;
-  background: var(--ice-blue);
+  background: var(--azure);
   box-shadow: none;
 }
 
@@ -1437,7 +1450,7 @@ body {
 }
 
 .button {
-  background: var(--ice-blue);
+  background: var(--azure);
   color: #071b2d;
   box-shadow: 0 12px 24px rgba(95,168,211,.2);
 }
@@ -1728,7 +1741,7 @@ body {
   width: 10px;
   height: 10px;
   margin-top: .55em;
-  background: var(--ice-blue);
+  background: var(--azure);
 }
 
 .sponsor-proof {
@@ -1819,7 +1832,7 @@ body {
   height: 6px;
   appearance: none;
   border-radius: 999px;
-  background: linear-gradient(90deg, var(--ice-blue) var(--progress), rgba(15,42,68,.13) var(--progress));
+  background: linear-gradient(90deg, var(--azure) var(--progress), rgba(15,42,68,.13) var(--progress));
 }
 
 .audio-range::-webkit-slider-thumb {
