@@ -349,7 +349,7 @@ def find_mapped_episode(lookup, payload, slug):
 
 def build_episode_page(episode, show_notes_html):
     title = episode["title"]
-    display_title = title.upper()
+    display_title = title
     description = truncate_text(strip_html(show_notes_html) or episode.get("summary"), 170)
     site_url = episode["site_url"]
     artwork_url = episode.get("thumbnail_url") or episode.get("artwork_url") or "../../assets/images/featured-episode-8.jpg"
@@ -486,6 +486,7 @@ def build_episode_page(episode, show_notes_html):
                 <span class="brand-tag footer-brand-tag">A CITY CENTER PODCAST</span>
               </span>
             </div>
+            <p class="footer-tagline">Stories that help us see Oklahoma City more clearly.</p>
             <p class="footer-copy">VOICES of OKC is a student-produced podcast from City Center highlighting leaders, stories, and ideas shaping Oklahoma City.</p>
           </div>
           <div class="footer-column">
