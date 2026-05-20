@@ -2,19 +2,6 @@ body {
   background: #f8fbfe !important;
 }
 
-body::before,
-body::after {
-  content: none !important;
-  display: none !important;
-  background: none !important;
-  opacity: 0 !important;
-}
-
-.section {
-  padding-top: 88px !important;
-  padding-bottom: 88px !important;
-}
-
 .section-tight {
   padding-top: 72px !important;
   padding-bottom: 72px !important;
@@ -28,10 +15,6 @@ body::after {
   align-items: center !important;
   padding-top: 56px !important;
   padding-bottom: 56px !important;
-}
-
-#featuredEpisodeMeta {
-  display: none !important;
 }
 
 .feature-card-visual,
