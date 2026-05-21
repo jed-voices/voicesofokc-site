@@ -542,7 +542,7 @@ img,
 }
 
 .hero-media-card {
-  align-self:center;
+  align-self:end;
   overflow:hidden;
   border-radius:var(--radius-panel);
   background:rgba(244,247,250,.96);
