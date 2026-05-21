@@ -21,12 +21,19 @@ const featuredApple = document.getElementById('featuredEpisodeApple');
 const featuredSpotify = document.getElementById('featuredEpisodeSpotify');
 const featuredGuest = document.getElementById('featuredEpisodeGuest');
 
+const latestEpisodeUrl = 'assets/data/latest-episode.json';
+const episodesUrl = 'assets/data/episodes.json';
+const siteConfigUrl = 'assets/data/site-config.json';
+const youtubeChannelUrl = 'https://youtube.com/@voicesofokc';
+
 const fmt = (sec) => {
   if (!Number.isFinite(sec)) return '0:00';
   const m = Math.floor(sec / 60);
   const s = Math.floor(sec % 60).toString().padStart(2, '0');
   return `${m}:${s}`;
 };
+
+const cleanText = (value) => String(value || '').replace(/\s+/g, ' ').trim();
 
 const stripHtml = (value) => {
   if (!value) return '';
@@ -48,7 +55,112 @@ const youtubeThumbnailFromUrl = (value) => {
   return match ? `https://i.ytimg.com/vi/${match[1]}/maxresdefault.jpg` : '';
 };
 
-const isYoutubeThumbnail = (value) => /(?:i\.ytimg\.com|img\.youtube\.com)\/vi\//.test(String(value || ''));
+const normalizeEpisodeSlug = (value) => {
+  const raw = cleanText(value);
+  if (!raw) return '';
+
+  let path = raw;
+  try {
+    path = new URL(raw, window.location.origin).pathname;
+  } catch (error) {
+    path = raw;
+  }
+
+  return path
+    .replace(/^\/+|\/+$/g, '')
+    .replace(/\/index\.html$/i, '')
+    .replace(/^episodes\//i, '')
+    .replace(/\/$/g, '');
+};
+
+const episodeMatchesSlug = (episode, slug) => {
+  const target = normalizeEpisodeSlug(slug);
+  if (!target) return false;
+
+  return [
+    episode.podbean_slug,
+    episode.slug,
+    episode.site_path,
+    episode.site_url,
+    episode.episode_url,
+  ].some((value) => normalizeEpisodeSlug(value) === target);
+};
+
+const loadJson = async (url) => {
+  const res = await fetch(url, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`${url} unavailable`);
+  return res.json();
+};
+
+const renderFeaturedEpisode = (episode) => {
+  if (!episode || !featuredTitle) return;
+
+  const title = cleanText(episode.title);
+
+  if (title) {
+    featuredTitle.textContent = title;
+  }
+
+  if (featuredGuest && episode.guest_name) {
+    const guestMeta = [episode.guest_name, episode.guest_title || episode.guest_organization].filter(Boolean).join(' · ');
+    featuredGuest.textContent = guestMeta;
+  }
+
+  if (episode.summary && featuredDescription) {
+    const cleanSummary = stripHtml(episode.summary);
+    if (cleanSummary) featuredDescription.textContent = truncateText(cleanSummary);
+  }
+
+  const featuredArtwork = youtubeThumbnailFromUrl(episode.youtube_url)
+    || episode.thumbnail_url
+    || episode.artwork_url;
+  if (featuredArtwork && featuredImage) {
+    featuredImage.src = featuredArtwork;
+    featuredImage.removeAttribute('srcset');
+    featuredImage.alt = `${title || 'Featured episode'} artwork for VOICES of OKC`;
+  }
+
+  if (featuredSpotify && episode.spotify_url) {
+    featuredSpotify.href = episode.spotify_url;
+  }
+
+  if (featuredApple && episode.apple_url) {
+    featuredApple.href = episode.apple_url;
+  }
+
+  if (featuredYouTube) {
+    featuredYouTube.href = episode.youtube_url || youtubeChannelUrl;
+  }
+
+  const localEpisodeUrl = episode.site_path || episode.site_url || episode.episode_url;
+
+  if (localEpisodeUrl && featuredButton) {
+    featuredButton.href = localEpisodeUrl;
+    if (episode.site_path || episode.site_url) {
+      featuredButton.removeAttribute('target');
+      featuredButton.removeAttribute('rel');
+    } else {
+      featuredButton.target = '_blank';
+      featuredButton.rel = 'noreferrer';
+    }
+  }
+};
+
+const loadFeaturedEpisode = async (latestEpisode) => {
+  const config = await loadJson(siteConfigUrl).catch(() => ({}));
+  const featuredSlug = cleanText(config.featured_episode_slug || (config.brand && config.brand.featured_episode_slug));
+
+  if (!featuredSlug) {
+    renderFeaturedEpisode(latestEpisode);
+    return;
+  }
+
+  const episodeData = await loadJson(episodesUrl).catch(() => ({}));
+  const episodes = Array.isArray(episodeData) ? episodeData : (episodeData.episodes || []);
+  const featuredEpisode = episodes.find((episode) => episodeMatchesSlug(episode, featuredSlug));
+
+  renderFeaturedEpisode(featuredEpisode || latestEpisode);
+};
 
 const isMobileViewport = () => window.matchMedia('(max-width: 680px)').matches;
 
@@ -93,66 +205,37 @@ const setUnavailable = (message) => {
 
 async function loadLatestEpisode() {
   try {
-    const res = await fetch('assets/data/latest-episode.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error('latest episode data unavailable');
-    const episode = await res.json();
+    const episode = await loadJson(latestEpisodeUrl);
 
     const title = (episode.title || '').trim();
     const displayTitle = title ? title.toUpperCase() : '';
 
     if (displayTitle) {
       titleEl.textContent = displayTitle;
-      if (featuredTitle) featuredTitle.textContent = displayTitle;
-    }
-
-    if (featuredGuest && episode.guest_name) {
-      const guestMeta = [episode.guest_name, episode.guest_title || episode.guest_organization].filter(Boolean).join(' · ');
-      featuredGuest.textContent = guestMeta;
-    }
-
-    if (episode.summary && featuredDescription) {
-      const cleanSummary = stripHtml(episode.summary);
-      if (cleanSummary) featuredDescription.textContent = truncateText(cleanSummary);
-    }
-
-    const featuredArtwork = youtubeThumbnailFromUrl(episode.youtube_url)
-      || (isYoutubeThumbnail(episode.thumbnail_url) ? episode.thumbnail_url : '')
-      || (isYoutubeThumbnail(episode.artwork_url) ? episode.artwork_url : '');
-    if (featuredArtwork && featuredImage) {
-      featuredImage.src = featuredArtwork;
-      featuredImage.removeAttribute('srcset');
-      featuredImage.alt = `${title || 'Latest episode'} artwork for VOICES of OKC`;
     }
 
     if (episode.spotify_url) {
       spotifyLink.href = episode.spotify_url;
-      if (featuredSpotify) featuredSpotify.href = episode.spotify_url;
     }
 
     if (episode.apple_url) {
       appleLink.href = episode.apple_url;
-      if (featuredApple) featuredApple.href = episode.apple_url;
     }
 
     if (episode.youtube_url) {
       youtubeLink.href = episode.youtube_url;
-      if (featuredYouTube) featuredYouTube.href = episode.youtube_url;
     }
 
     const localEpisodeUrl = episode.site_path || episode.site_url || episode.episode_url;
 
     if (localEpisodeUrl) {
       episodeLink.href = localEpisodeUrl;
-      if (featuredButton) {
-        featuredButton.href = localEpisodeUrl;
-        if (episode.site_path || episode.site_url) {
-          featuredButton.removeAttribute('target');
-          featuredButton.removeAttribute('rel');
-        } else {
-          featuredButton.target = '_blank';
-          featuredButton.rel = 'noreferrer';
-        }
-      }
+    }
+
+    try {
+      await loadFeaturedEpisode(episode);
+    } catch (error) {
+      renderFeaturedEpisode(episode);
     }
 
     if (!episode.audio_url) {
