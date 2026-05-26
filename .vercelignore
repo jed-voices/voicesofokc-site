@@ -1,0 +1,13 @@
+# Vercel deploy exclusions — files stay in the repo but aren't uploaded
+# to Vercel's CDN. Use this to keep production deploys lightweight.
+
+# Photoshop source files and intermediate composite renders. These are
+# kept in the repo for source-of-truth purposes but aren't referenced by
+# any deployed HTML/CSS/JS (verified via grep). Excluding saves ~232 MB
+# per deploy.
+assets/images/team-composite/
+
+# Working documents — not part of the live site
+BRAND_AUDIT.md
+LAUNCH-NOTES.md
+LINK-CHECK.txt
