@@ -1234,3 +1234,41 @@ The current code has the line treatment partially implemented but with drift fro
 4. **Style variants:** The codebase has `title-with-rule`, `title-with-rule--wide`, and `title-with-rule--light` variants. Per the new spec, the `--wide` variant should be deprecated (no full-headline-width treatment). The `--light` variant (which adjusts color for dark backgrounds) can remain but should also follow the 3px thickness and target-word-width rules.
 
 These drifts should be resolved in a focused implementation pass (separate from this brand-guide update).
+
+
+### 10.2 Azure as a Decorative-Only Color
+
+Per the brand standards in `system.md`, Azure `#5FA8D3` is the brand's accent color. However, due to WCAG AA contrast requirements, **Azure must never be used as a body or label text color on a light background** (Cloud White or White).
+
+#### Why
+
+Azure on Cloud White has a contrast ratio of approximately **2.7:1**, which fails WCAG AA's 4.5:1 minimum for normal-sized text. Lighthouse and other accessibility audits will flag Azure text as inaccessible.
+
+#### Where Azure IS allowed
+
+- **Decorative rules** (the thin Azure line treatment documented in §10.1)
+- **Hover state transitions** (e.g., a link briefly turning Azure on hover is fine — momentary, not body text)
+- **Icons and small accent graphics** where there is sufficient visual context (the color is contextual, not the primary information carrier)
+- **Background fills behind dark text** (Azure as a section background with Civic Navy or white text on top)
+- **Audio waveform / range slider accent colors** (UI controls, not text)
+- **Text on a DARK background** (Azure on Civic Navy is approximately 5.2:1 — passes WCAG AA)
+  - Example: the eyebrow on the `#platforms` section (Civic Navy background) may remain Azure
+
+#### Where Azure is NOT allowed
+
+- Body paragraphs
+- Eyebrows on light backgrounds (use Civic Navy `#0F2A44` instead)
+- Episode kickers on light backgrounds (use Slate `#3E4C59`)
+- Guest-role meta lines on light backgrounds (use Slate)
+- CTA labels on light backgrounds (use Civic Navy)
+- Any small text where contrast against the background falls below 4.5:1
+
+#### Color substitution mapping (for reference)
+
+| Context | Use |
+|---|---|
+| Prominent label (eyebrow, audio-label) | Civic Navy `#0F2A44` |
+| Card kicker / guest-role / meta | Slate `#3E4C59` |
+| CTA text in a card | Civic Navy `#0F2A44` |
+
+This rule was applied to the codebase in audit fix batch E (commit history will identify it). Future stylesheets and components should follow this rule from the start.

@@ -553,7 +553,7 @@ img,
 }
 
 .hero-media-body .guest-role {
-  color:var(--azure);
+  color:var(--slate);
 }
 
 .hero-media-body h2 {
@@ -701,7 +701,7 @@ img,
 .theme-card span {
   display:block;
   margin-top:18px;
-  color:var(--azure);
+  color:var(--civic-navy);
   font-size:.78rem;
   font-weight:800;
   text-transform:uppercase;
