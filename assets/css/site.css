@@ -38,7 +38,7 @@ body {
   margin:0;
   font-family:"Inter",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   color:var(--civic-navy);
-  background:linear-gradient(180deg,#ffffff,#F4F7FA 42%,#F4F7FA 100%);
+  background:var(--cloud-white);
   line-height:1.6;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;

@@ -15,17 +15,12 @@
      — kept in native platform colors for brand recognition.
    ============================================================ */
 
-body {
-  background: var(--cloud-white) !important;
-}
-
 .section-tight {
-  padding-top: 72px !important;
-  padding-bottom: 72px !important;
+  padding: clamp(48px, 5vw, 72px) 0 !important;
 }
 
 .hero {
-  padding: 32px 0 12px !important;
+  padding: clamp(20px, 3vw, 32px) 0 clamp(12px, 2vw, 20px) !important;
 }
 
 .hero-content {
@@ -345,39 +340,32 @@ img,
 /* Minimal one-row media buttons for homepage, episode pages, and podcast team page */
 .card-surface .episode-actions {
   display: flex !important;
-  flex-wrap: nowrap;
-  gap: 8px;
+  flex-wrap: wrap;
+  gap: 10px;
   align-items: center;
   justify-content: flex-start;
-  overflow-x: auto;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
   margin-top: 24px;
   padding-bottom: 2px;
-}
-
-.card-surface .episode-actions::-webkit-scrollbar {
-  display: none;
 }
 
 .card-surface .episode-actions .action-pill {
   width: auto;
   min-width: 0;
-  min-height: 46px !important;
-  padding: 0 12px !important;
-  border-radius: 999px;
-  border: 1px solid rgba(15, 42, 68, 0.08);
-  background: #ffffff;
-  color: #111111;
+  min-height: 44px !important;
+  padding: 0 16px !important;
+  background: transparent;
+  color: var(--civic-navy);
+  border: 1px solid var(--civic-navy);
   box-shadow: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 999px;
   display: inline-flex !important;
-  justify-content: center !important;
   align-items: center !important;
+  justify-content: center !important;
   gap: 8px;
+  white-space: nowrap;
   text-align: left !important;
-  font-size: 0.82rem;
-  font-weight: 700;
   letter-spacing: -0.01em;
   line-height: 1;
   overflow: visible;
@@ -391,6 +379,8 @@ img,
 .card-surface .episode-actions .action-pill:hover {
   transform: translateY(-1px);
   background: var(--cloud-white);
+  border-color: var(--civic-navy);
+  color: var(--civic-navy);
   box-shadow: 0 8px 20px rgba(15, 42, 68, 0.05);
 }
 
@@ -402,8 +392,9 @@ img,
 }
 
 .card-surface .episode-actions .action-pill--primary:hover {
-  background: var(--civic-navy);
-  border-color: var(--civic-navy);
+  background: #163450;
+  border-color: #163450;
+  color: #ffffff;
 }
 
 .card-surface .episode-actions .action-icon,
@@ -1062,8 +1053,6 @@ html {
 }
 
 body {
-  background:
-    linear-gradient(180deg, #F4F7FA 0%, #F4F7FA 44%, #F4F7FA 100%) !important;
   color: var(--civic-navy);
 }
 
@@ -1329,17 +1318,7 @@ body {
 }
 
 .section {
-  padding-top: 96px !important;
-  padding-bottom: 96px !important;
-}
-
-.section-tight {
-  padding-top: 76px !important;
-  padding-bottom: 76px !important;
-}
-
-.hero {
-  padding: 28px 0 20px !important;
+  padding: clamp(64px, 7vw, 96px) 0 !important;
 }
 
 .hero-card {
