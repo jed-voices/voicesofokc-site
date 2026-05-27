@@ -2181,3 +2181,29 @@ body {
     margin: 24px auto 0;
   }
 }
+
+/* === G3: Azure thin-line treatment per BRAND_AUDIT.md §10 ===
+   Content-width Azure line via .rule-target span inside .title-with-rule.
+   When .rule-target is present, suppress the default ::after pseudo-element
+   on its parent heading. */
+
+.title-with-rule .rule-target {
+  border-bottom: 3px solid var(--azure);
+  padding-bottom: var(--space-2);
+  display: inline-block;
+}
+
+.title-with-rule:has(.rule-target)::after {
+  display: none !important;
+}
+
+/* Retire deprecated --wide variant: any .title-with-rule--wide collapses to
+   the default behavior. Width is now content-driven via .rule-target. */
+.title-with-rule--wide::after {
+  width: auto !important;
+}
+
+/* --light variant remains: it adjusts the appearance for dark backgrounds.
+   With the new spec, --light is mostly redundant since the line is just
+   Azure regardless of background. Leave the variant class for HTML
+   compatibility but the override above unifies appearance. */
