@@ -37,6 +37,7 @@ CRITICAL_TOKENS = [
     ".page-intro",
     # Headings + Azure rule
     ".title-xl", ".title-lg", ".title-md", ".title-with-rule", ".rule-target",
+    ".episode-card-title",
     # Hero supporting text
     ".eyebrow", ".lede",
     # Buttons (hero CTAs)

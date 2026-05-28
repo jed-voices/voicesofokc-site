@@ -741,6 +741,8 @@ img,
   font-family:"Sora","Inter",sans-serif;
   font-size:1.04rem;
   line-height:1.2;
+  text-transform:uppercase;
+  letter-spacing:.04em;
 }
 
 .episode-card-body p {
@@ -2202,10 +2204,10 @@ body {
   display: none !important;
 }
 
-/* Tighten the gap on the lone non-rule-target heading (featured episode title) */
+/* Episode titles do not use the Azure heading line. */
 #featuredEpisodeTitle.title-with-rule::after,
 .episode-title.title-with-rule::after {
-  margin-top: 10px !important;
+  display: none !important;
 }
 
 /* Retire deprecated --wide variant: any .title-with-rule--wide collapses to
