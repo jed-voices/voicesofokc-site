@@ -230,7 +230,7 @@ body {
   letter-spacing: 0 !important;
 }
 .title-xl {
-  font-size: 4.55rem !important;
+  font-size: 4rem !important;
   line-height: 1.02 !important;
 }
 .title-lg {
@@ -604,6 +604,7 @@ body {
   display: inline;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+  white-space: nowrap;
 }
 .title-with-rule:has(.rule-target)::after {
   display: none !important;

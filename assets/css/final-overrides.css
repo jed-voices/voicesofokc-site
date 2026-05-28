@@ -1102,7 +1102,7 @@ body {
 }
 
 .title-xl {
-  font-size: 4.55rem !important;
+  font-size: 4rem !important;
   line-height: 1.02 !important;
 }
 
@@ -2196,6 +2196,7 @@ body {
   display: inline;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+  white-space: nowrap;
 }
 
 .title-with-rule:has(.rule-target)::after {
