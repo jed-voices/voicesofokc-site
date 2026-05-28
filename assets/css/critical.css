@@ -353,6 +353,9 @@ body {
   max-width: 760px;
   color: rgba(244,247,250,.86);
 }
+.hero-copy .eyebrow {
+  color: rgba(244,247,250,.86);
+}
 .hero-panel,
 .hero-panel-balanced {
   border-radius: var(--radius-panel) !important;
@@ -597,8 +600,9 @@ body {
 }
 .title-with-rule .rule-target {
   border-bottom: 3px solid var(--azure);
-  padding-bottom: var(--space-2);
+  padding-bottom: 4px;
   display: inline-block;
+  white-space: nowrap;
 }
 .title-with-rule:has(.rule-target)::after {
   display: none !important;
