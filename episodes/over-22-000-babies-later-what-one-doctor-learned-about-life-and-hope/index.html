@@ -627,15 +627,18 @@ body {
   }
 }
 .title-with-rule .rule-target {
-  border-bottom: 3px solid var(--azure);
-  padding-bottom: 4px;
-  display: inline;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+  text-decoration: underline;
+  text-decoration-color: var(--azure);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
   white-space: nowrap;
 }
 .title-with-rule:has(.rule-target)::after {
   display: none !important;
+}
+#featuredEpisodeTitle.title-with-rule::after,
+.episode-title.title-with-rule::after {
+  margin-top: 10px !important;
 }
 .contact-router .card-surface .button-outline {
   margin-top: auto;
