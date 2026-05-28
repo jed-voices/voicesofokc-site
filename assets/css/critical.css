@@ -601,8 +601,9 @@ body {
 .title-with-rule .rule-target {
   border-bottom: 3px solid var(--azure);
   padding-bottom: 4px;
-  display: inline-block;
-  white-space: nowrap;
+  display: inline;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 .title-with-rule:has(.rule-target)::after {
   display: none !important;
