@@ -11,24 +11,24 @@
   "forms": {
     "general_contact": {
       "label": "General Contact Form",
-      "provider": "tally-fillout",
-      "embed_url": "",
+      "provider": "tally",
+      "tally_form_id": "VL4kbN",
       "fallback_email": "info@voicesofokc.com",
       "subject": "VOICES of OKC General Contact",
       "airtable_ready": true
     },
     "guest_nomination": {
       "label": "Guest Nomination Form",
-      "provider": "tally-fillout",
-      "embed_url": "",
+      "provider": "tally",
+      "tally_form_id": "RGV7bP",
       "fallback_email": "info@voicesofokc.com",
       "subject": "VOICES of OKC Guest Nomination",
       "airtable_ready": true
     },
     "sponsor_inquiry": {
       "label": "Sponsor Inquiry Form",
-      "provider": "tally-fillout",
-      "embed_url": "",
+      "provider": "tally",
+      "tally_form_id": "2EDMbA",
       "fallback_email": "info@voicesofokc.com",
       "subject": "VOICES of OKC Sponsor Inquiry",
       "airtable_ready": true

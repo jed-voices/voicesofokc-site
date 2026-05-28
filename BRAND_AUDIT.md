@@ -1298,3 +1298,55 @@ This produces the spec-correct content-width line behavior automatically as long
 #### Deprecation: `title-with-rule--wide`
 
 The `--wide` variant has been removed from all HTML on non-episode pages. The CSS still defines the class to avoid breakage but treats it as a no-op (width: auto). The variant can be fully deleted from CSS in a future cleanup pass once we confirm nothing else depends on it.
+
+
+## 11. Form Provider
+
+VOICES of OKC uses [Tally](https://tally.so) (Pro plan) as the form provider for all visitor-facing submission flows. Forms are integrated as Tally popups triggered from buttons via `data-tally-open` attributes.
+
+### Form inventory
+
+| Form | Tally ID | Triggered from |
+| --- | --- | --- |
+| Contact / Get in Touch | `VL4kbN` | Contact page CTA |
+| Guest Nomination | `RGV7bP` | Guests page CTA |
+| Sponsor Inquiry | `2EDMbA` | Sponsors page (hero, opportunities section, main CTA block) |
+
+### Integration pattern
+
+Every HTML page includes the Tally widget script in `<head>`:
+
+    <script async src="https://tally.so/widgets/embed.js"></script>
+
+Buttons that open a form use:
+
+    <button data-tally-open="[FORM_ID]" data-tally-overlay="1" type="button">Button text</button>
+
+The `data-tally-overlay="1"` attribute is recommended - it dims the page behind the popup and improves focus.
+
+### Brand setup in Tally
+
+Brand colors configured in Tally workspace settings:
+- Primary color: `#0F2A44` (Civic Navy)
+- Background color: `#F4F7FA` (Cloud White)
+
+### Submission destinations
+
+All form submissions:
+1. Are recorded in the Tally dashboard
+2. Trigger an email notification to `jed@okcitycenter.org`
+3. Can optionally be wired to Airtable, Slack, or webhooks via Tally Pro integrations
+
+### Architectural change from Phase F
+
+Phase F retired the `mailto:`-based form approach used previously. The page architecture also shifted from "form sits on the page" to "context page leads to a single confident CTA":
+
+- **Contact page**: now a router that directs sponsorship and guest inquiries to their dedicated pages, with a general "Send us a message" CTA for everything else.
+- **Sponsors page**: hero and opportunities sections explain what sponsorship means, then a single "Start a Sponsor Conversation" CTA opens the form.
+- **Guests page**: "What makes a strong nomination" content + a "Nominate a Guest" CTA card.
+
+This architecture treats the form as a tool, not the page's primary content.
+
+### Email display change
+
+Previously, every page footer displayed the team email as a `mailto:` link. This was flagged by Lighthouse as a security concern (non-HTTPS subresource). Footer emails are now plain-text displays (the email string is still visible - copy/paste works).

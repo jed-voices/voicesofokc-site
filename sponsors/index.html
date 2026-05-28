@@ -28,6 +28,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/site.css" />
   <link rel="stylesheet" href="../assets/css/final-overrides.css" />
+  <script async src="https://tally.so/widgets/embed.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -63,7 +64,7 @@
               <h1 class="title-xl title-with-rule title-with-rule--light">SUPPORT CONVERSATIONS THAT MATTER AND THE STUDENTS HELPING PRODUCE <span class="rule-target">THEM</span>.</h1>
               <p class="lede">VOICES of OKC is a student-produced podcast from City Center featuring leaders, stories, and ideas shaping Oklahoma City. Sponsoring the show helps strengthen meaningful local storytelling while investing in real student growth through production, media, and leadership experience.</p>
               <div class="button-row">
-                <a class="button" href="#sponsor-inquiry">Become a Sponsor</a>
+                <button class="button" data-tally-open="2EDMbA" data-tally-overlay="1" type="button">Become a Sponsor</button>
                 <a class="button-secondary" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer">Watch the Show</a>
               </div>
             </div>
@@ -101,7 +102,7 @@
             <li>Special collaborations that help thoughtful local stories reach the right audience.</li>
           </ul>
           <div class="button-row">
-            <a class="button-secondary" href="#sponsor-inquiry">Start a Conversation</a>
+            <button class="button-secondary" data-tally-open="2EDMbA" data-tally-overlay="1" type="button">Start a Conversation</button>
             <a class="button-outline" href="https://okcitycenter.org/?form=FUNVLQDUACK" target="_blank" rel="noreferrer">Give Through City Center</a>
           </div>
         </article>
@@ -109,25 +110,16 @@
     </section>
 
     <section class="section section-tight" id="sponsor-inquiry">
-      <div class="container form-page-grid">
-        <article class="city-center-panel">
-          <h2>A good sponsor does not interrupt the story. It helps make the story possible.</h2>
+      <div class="container sponsor-cta-block" data-form-key="sponsor_inquiry">
+        <div class="sponsor-cta-copy">
+          <span class="eyebrow">Ready to talk</span>
+          <h2 class="title-lg title-with-rule">A good sponsor does not interrupt the story. It helps make the story <span class="rule-target">possible</span>.</h2>
           <p>VOICES of OKC is looking for partners who care about youth, leadership, civic life, and the long work of telling Oklahoma City stories with substance.</p>
-        </article>
-        <article class="form-shell" data-form-key="sponsor_inquiry">
-          <h2>Sponsor Inquiry Form</h2>
-          <p class="form-contact-line"><strong>VOICES of OKC Email:</strong> <a data-site-email-link href="mailto:info@voicesofokc.com">info@voicesofokc.com</a></p>
-          <form class="form-embed" action="mailto:info@voicesofokc.com" method="post" enctype="text/plain" data-form-provider-ready="tally-fillout" data-form-key="sponsor_inquiry">
-            <label>Name<input name="Name" autocomplete="name" /></label>
-            <label>Company<input name="Company" autocomplete="organization" /></label>
-            <label>Email<input name="Email" type="email" autocomplete="email" /></label>
-            <label>Phone<input name="Phone" type="tel" autocomplete="tel" /></label>
-            <label>Sponsorship interest<select name="Sponsorship interest"><option>Season sponsorship</option><option>Episode sponsorship</option><option>Student production support</option><option>Special collaboration</option></select></label>
-            <label>Budget range<select name="Budget range"><option>Exploring options</option><option>Under $2,500</option><option>$2,500-$5,000</option><option>$5,000-$10,000</option><option>$10,000+</option></select></label>
-            <label>Message<textarea name="Message"></textarea></label>
-            <button class="button-secondary" type="submit">Submit Sponsor Inquiry</button>
-          </form>
-        </article>
+        </div>
+        <div class="sponsor-cta-action">
+          <button class="button-secondary" data-tally-open="2EDMbA" data-tally-overlay="1" type="button">Start a Sponsor Conversation</button>
+          <a class="button-outline" href="https://okcitycenter.org/?form=FUNVLQDUACK" target="_blank" rel="noreferrer">Give Through City Center</a>
+        </div>
       </div>
     </section>
   </main>
@@ -164,7 +156,7 @@
           </div>
           <div class="footer-column">
             <h2>Contact</h2>
-            <span><strong>VOICES of OKC Email:</strong> <a data-site-email-link href="mailto:info@voicesofokc.com">info@voicesofokc.com</a></span>
+            <span><strong>VOICES of OKC Email:</strong> <span class="email-display">info@voicesofokc.com</span></span>
             <span>Oklahoma City, Oklahoma</span>
             <span>Produced through City Center</span>
           </div>

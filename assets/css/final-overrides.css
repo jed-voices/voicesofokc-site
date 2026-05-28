@@ -2207,3 +2207,110 @@ body {
    With the new spec, --light is mostly redundant since the line is just
    Azure regardless of background. Leave the variant class for HTML
    compatibility but the override above unifies appearance. */
+
+/* === F: Tally form integration page layouts === */
+
+/* Contact page router cards */
+.contact-router {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-6, 24px);
+  margin-bottom: var(--space-8, 32px);
+}
+
+.contact-router .card-surface {
+  padding: var(--space-6, 24px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3, 12px);
+}
+
+.contact-router .card-surface .button-outline {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+@media (max-width: 720px) {
+  .contact-router {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Contact page main CTA */
+.contact-cta {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: var(--space-8, 32px);
+  align-items: center;
+}
+
+.contact-cta-copy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3, 12px);
+}
+
+.contact-cta-action {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 920px) {
+  .contact-cta {
+    grid-template-columns: 1fr;
+    gap: var(--space-5, 20px);
+  }
+  .contact-cta-action {
+    justify-content: flex-start;
+  }
+}
+
+/* Sponsor CTA block */
+.sponsor-cta-block {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: var(--space-8, 32px);
+  align-items: center;
+}
+
+.sponsor-cta-copy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3, 12px);
+}
+
+.sponsor-cta-action {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3, 12px);
+  align-items: flex-end;
+}
+
+@media (max-width: 920px) {
+  .sponsor-cta-block {
+    grid-template-columns: 1fr;
+    gap: var(--space-5, 20px);
+  }
+  .sponsor-cta-action {
+    align-items: flex-start;
+  }
+}
+
+/* Guest CTA card */
+.guest-cta-card {
+  padding: var(--space-6, 24px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3, 12px);
+}
+
+.guest-cta-card .button-secondary {
+  margin-top: var(--space-2, 8px);
+  align-self: flex-start;
+}
+
+/* Plain-text email display (replaces former mailto: links) */
+.email-display {
+  font-weight: inherit;
+  color: inherit;
+}
