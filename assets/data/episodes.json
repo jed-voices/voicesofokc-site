@@ -5,16 +5,17 @@
       "audio_url": "https://mcdn.podbean.com/mf/web/7d9jeth9zq2p8pfq/EP26-Daniel_Haynes-audio_master6nmf0.mp3",
       "episode_url": "https://www.voicesofokc.com/episodes/more-than-accounting-daniel-haynes-on-purpose-community-and-oklahoma-city/",
       "podbean_url": "https://voicesofokc.podbean.com/e/more-than-accounting-daniel-haynes-on-purpose-community-and-oklahoma-city/",
-      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple-DH62fnr.png",
+      "artwork_url": "https://i.ytimg.com/vi/ru4Ywdskviw/maxresdefault.jpg",
       "summary": "There\u2019s a line Daniel Haynes says in this conversation that quietly captures the entire heart of the episode: \u201cWhen something is led by love, no one gets left behind.\u201d Daniel is the founder of Skyward Financial Solutions, a Certified Fraud Examiner, and co-founder of Live Full alongside his wife, Raven. But more than titles, Daniel is someone deeply committed to stewardship, integrity, family, and serving people well. In this episode, Daniel shares the story of growing up in rural Oklahoma, collapsing during a basketball game because of an enlarged heart, losing a close friend, and eventually discovering accounting as a calling at just 16 years old. Jed and Daniel also discuss the rapid growth of Oklahoma City, why exposure changes lives, how families need community around them, and why leadership rooted in love creates stronger cities. This conversation feels deeply Oklahoma City. Thoughtful. Honest. Hopeful. It\u2019s a reminder that the future of a city is shaped not only by development projects and arenas, but by people quietly choosing integrity, generosity, and stewardship every single day. Resources &amp; Links: City Center Live Full Skyward Financial Solutions",
       "published_at": "Wed, 27 May 2026 08:04:20 -0500",
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=ru4Ywdskviw",
       "guest_name": "Daniel Haynes",
+      "site_path": "episodes/more-than-accounting-daniel-haynes-on-purpose-community-and-oklahoma-city/",
       "guest_title": "Founder of Skyward Financial",
       "site_url": "https://www.voicesofokc.com/episodes/more-than-accounting-daniel-haynes-on-purpose-community-and-oklahoma-city/",
-      "site_path": "episodes/more-than-accounting-daniel-haynes-on-purpose-community-and-oklahoma-city/"
+      "thumbnail_url": "https://i.ytimg.com/vi/ru4Ywdskviw/maxresdefault.jpg"
     },
     {
       "title": "Before They Break: GNWY on Mental Health, Purpose & Hope",
@@ -27,10 +28,10 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=0cEn75UmOiY",
-      "site_url": "https://www.voicesofokc.com/episodes/before-they-break-gnwy-on-mental-health-purpose-hope/",
-      "guest_title": "Mental health advocacy team",
-      "site_path": "episodes/before-they-break-gnwy-on-mental-health-purpose-hope/",
       "guest_name": "Generation Why (Jordan Miller, Stuart Bennett)",
+      "site_path": "episodes/before-they-break-gnwy-on-mental-health-purpose-hope/",
+      "guest_title": "Mental health advocacy team",
+      "site_url": "https://www.voicesofokc.com/episodes/before-they-break-gnwy-on-mental-health-purpose-hope/",
       "thumbnail_url": "https://i.ytimg.com/vi/0cEn75UmOiY/maxresdefault.jpg",
       "episode_number": 25
     },
@@ -50,10 +51,10 @@
         "Youth & Family",
         "Community Builders"
       ],
-      "site_url": "https://www.voicesofokc.com/episodes/life-needs-vision-carey-conley-on-vision-mental-health-and-young-adults/",
-      "guest_title": "Vision, mental health, and young adults",
-      "site_path": "episodes/life-needs-vision-carey-conley-on-vision-mental-health-and-young-adults/",
       "guest_name": "Carey Conley",
+      "site_path": "episodes/life-needs-vision-carey-conley-on-vision-mental-health-and-young-adults/",
+      "guest_title": "Vision, mental health, and young adults",
+      "site_url": "https://www.voicesofokc.com/episodes/life-needs-vision-carey-conley-on-vision-mental-health-and-young-adults/",
       "thumbnail_url": "https://i.ytimg.com/vi/cCucgNeWgvM/maxresdefault.jpg",
       "episode_number": 24
     },
@@ -74,13 +75,13 @@
         "Community Builders",
         "Civic Leadership"
       ],
-      "site_url": "https://www.voicesofokc.com/episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
-      "guest_title": "Artist, entrepreneur, and community advocate",
-      "guest_organization": "Live Free Oklahoma \u00b7 With Love OKC",
-      "site_path": "episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
       "guest_name": "Jabee Williams",
+      "site_path": "episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
+      "guest_title": "Artist, entrepreneur, and community advocate",
+      "site_url": "https://www.voicesofokc.com/episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
       "thumbnail_url": "https://i.ytimg.com/vi/ErUs6G6PS6o/maxresdefault.jpg",
-      "episode_number": 23
+      "episode_number": 23,
+      "guest_organization": "Live Free Oklahoma \u00b7 With Love OKC"
     },
     {
       "title": "Use Wisely: Adam Coury on Leadership, Learning, and the Next Generation",
@@ -98,10 +99,10 @@
         "Youth & Family",
         "Civic Leadership"
       ],
-      "site_url": "https://www.voicesofokc.com/episodes/use-wisely-adam-coury-on-leadership-learning-and-the-next-generation/",
-      "guest_title": "Leadership, learning, and the next generation",
-      "site_path": "episodes/use-wisely-adam-coury-on-leadership-learning-and-the-next-generation/",
       "guest_name": "Adam Coury",
+      "site_path": "episodes/use-wisely-adam-coury-on-leadership-learning-and-the-next-generation/",
+      "guest_title": "Leadership, learning, and the next generation",
+      "site_url": "https://www.voicesofokc.com/episodes/use-wisely-adam-coury-on-leadership-learning-and-the-next-generation/",
       "thumbnail_url": "https://i.ytimg.com/vi/kbb1hKveims/maxresdefault.jpg",
       "episode_number": 22
     },
@@ -121,10 +122,10 @@
         "Civic Leadership",
         "Community Builders"
       ],
-      "site_url": "https://www.voicesofokc.com/episodes/beyond-winning-bryan-fetzer-on-pressure-and-perspective-in-okc/",
-      "guest_title": "Coach and performance leader",
-      "site_path": "episodes/beyond-winning-bryan-fetzer-on-pressure-and-perspective-in-okc/",
       "guest_name": "Bryan Fetzer",
+      "site_path": "episodes/beyond-winning-bryan-fetzer-on-pressure-and-perspective-in-okc/",
+      "guest_title": "Coach and performance leader",
+      "site_url": "https://www.voicesofokc.com/episodes/beyond-winning-bryan-fetzer-on-pressure-and-perspective-in-okc/",
       "thumbnail_url": "https://i.ytimg.com/vi/G22Cai7-QdQ/maxresdefault.jpg",
       "episode_number": 21
     },
@@ -143,10 +144,10 @@
         "Faith, Purpose & Resilience",
         "Community Builders"
       ],
-      "site_url": "https://www.voicesofokc.com/episodes/over-22-000-babies-later-what-one-doctor-learned-about-life-and-hope/",
-      "guest_title": "Physician",
-      "site_path": "episodes/over-22-000-babies-later-what-one-doctor-learned-about-life-and-hope/",
       "guest_name": "Dr. David Kallenberger",
+      "site_path": "episodes/over-22-000-babies-later-what-one-doctor-learned-about-life-and-hope/",
+      "guest_title": "Physician",
+      "site_url": "https://www.voicesofokc.com/episodes/over-22-000-babies-later-what-one-doctor-learned-about-life-and-hope/",
       "thumbnail_url": "https://i.ytimg.com/vi/9m4V5Swk5jo/maxresdefault.jpg",
       "episode_number": 20
     },
@@ -165,13 +166,13 @@
         "Community Builders",
         "Faith, Purpose & Resilience"
       ],
-      "site_url": "https://www.voicesofokc.com/episodes/beyond-quick-fix-functional-medicine-and-real-healing-in-oklahoma-city/",
-      "guest_title": "Founder",
-      "guest_organization": "Richey Wellness",
-      "site_path": "episodes/beyond-quick-fix-functional-medicine-and-real-healing-in-oklahoma-city/",
       "guest_name": "Tiffany Richey",
+      "site_path": "episodes/beyond-quick-fix-functional-medicine-and-real-healing-in-oklahoma-city/",
+      "guest_title": "Founder",
+      "site_url": "https://www.voicesofokc.com/episodes/beyond-quick-fix-functional-medicine-and-real-healing-in-oklahoma-city/",
       "thumbnail_url": "https://i.ytimg.com/vi/vlKtdFjBbko/maxresdefault.jpg",
-      "episode_number": 19
+      "episode_number": 19,
+      "guest_organization": "Richey Wellness"
     },
     {
       "title": "Rethinking Justice in Oklahoma:  Public Safety, Real Reform, and Redemption",
@@ -189,13 +190,13 @@
         "Restoration & Second Chances",
         "Community Builders"
       ],
-      "site_url": "https://www.voicesofokc.com/episodes/rethinking-justice-in-oklahoma-public-safety-real-reform-and-redemption/",
-      "guest_title": "Oklahoma Secretary of Public Safety",
-      "guest_organization": "State of Oklahoma",
-      "site_path": "episodes/rethinking-justice-in-oklahoma-public-safety-real-reform-and-redemption/",
       "guest_name": "Tricia Everest",
+      "site_path": "episodes/rethinking-justice-in-oklahoma-public-safety-real-reform-and-redemption/",
+      "guest_title": "Oklahoma Secretary of Public Safety",
+      "site_url": "https://www.voicesofokc.com/episodes/rethinking-justice-in-oklahoma-public-safety-real-reform-and-redemption/",
       "thumbnail_url": "https://i.ytimg.com/vi/NiFu6rjG_0k/maxresdefault.jpg",
-      "episode_number": 18
+      "episode_number": 18,
+      "guest_organization": "State of Oklahoma"
     },
     {
       "title": "Community Through Conversation: Mike Hearne on Storytelling in Oklahoma City",
@@ -213,13 +214,13 @@
         "Community Builders",
         "Business & Entrepreneurship"
       ],
-      "site_url": "https://www.voicesofokc.com/episodes/community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city/",
-      "guest_title": "Storyteller and podcast host",
-      "guest_organization": "This is Oklahoma",
-      "site_path": "episodes/community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city/",
       "guest_name": "Mike Hearne",
+      "site_path": "episodes/community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city/",
+      "guest_title": "Storyteller and podcast host",
+      "site_url": "https://www.voicesofokc.com/episodes/community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city/",
       "thumbnail_url": "https://i.ytimg.com/vi/QRZNxiuNa1o/maxresdefault.jpg",
-      "episode_number": 17
+      "episode_number": 17,
+      "guest_organization": "This is Oklahoma"
     },
     {
       "title": "From Misnomer to Mentorship: Derrick Sier on Rebuilding Identity in Oklahoma City",
@@ -237,13 +238,13 @@
         "Restoration & Second Chances",
         "Youth & Family"
       ],
-      "site_url": "https://www.voicesofokc.com/episodes/from-misnomer-to-mentorship-derrick-sier-on-rebuilding-identity-in-oklahoma-city/",
-      "guest_title": "Mentor and community builder",
-      "guest_organization": "Restore OKC",
-      "site_path": "episodes/from-misnomer-to-mentorship-derrick-sier-on-rebuilding-identity-in-oklahoma-city/",
       "guest_name": "Derrick Sier",
+      "site_path": "episodes/from-misnomer-to-mentorship-derrick-sier-on-rebuilding-identity-in-oklahoma-city/",
+      "guest_title": "Mentor and community builder",
+      "site_url": "https://www.voicesofokc.com/episodes/from-misnomer-to-mentorship-derrick-sier-on-rebuilding-identity-in-oklahoma-city/",
       "thumbnail_url": "https://i.ytimg.com/vi/YCzqO3WmUfg/maxresdefault.jpg",
-      "episode_number": 16
+      "episode_number": 16,
+      "guest_organization": "Restore OKC"
     },
     {
       "title": "From Policy to People: The Privilege of Leading Oklahoma City",
@@ -261,13 +262,13 @@
         "Youth & Family",
         "Community Builders"
       ],
-      "site_url": "https://www.voicesofokc.com/episodes/from-policy-to-people-the-privilege-of-leading-oklahoma-city/",
-      "guest_title": "Mayor",
-      "guest_organization": "City of Oklahoma City",
-      "site_path": "episodes/from-policy-to-people-the-privilege-of-leading-oklahoma-city/",
       "guest_name": "Mayor David Holt",
+      "site_path": "episodes/from-policy-to-people-the-privilege-of-leading-oklahoma-city/",
+      "guest_title": "Mayor",
+      "site_url": "https://www.voicesofokc.com/episodes/from-policy-to-people-the-privilege-of-leading-oklahoma-city/",
       "thumbnail_url": "https://i.ytimg.com/vi/beuOfntpmdk/maxresdefault.jpg",
-      "episode_number": 15
+      "episode_number": 15,
+      "guest_organization": "City of Oklahoma City"
     }
   ]
 }
