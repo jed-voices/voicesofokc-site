@@ -1,5 +1,11 @@
 # VOICES of OKC — Brand Compliance Audit
 
+> **Status note (2026-05-30):** The `--ice-blue` → `--azure` token-naming item
+> in §"Current implementation status" has since been **resolved** — the CSS now
+> uses `--azure` consistently across all stylesheets. The `var(--ice-blue)`
+> references listed in the tables below describe the pre-cleanup state and are
+> retained for historical record only.
+
 Audit scope: current local checkout on branch `cleanup/replace-hardcoded-youtube-fallback`. The scan was read-only except for writing this report file. It covered all `.html` files, all CSS in `assets/css/`, `assets/data/site-config.json`, `assets/data/episode-map.json`, and relevant `assets/js/*.js` files for color/font/copy tokens.
 
 ## 1. Summary
@@ -1223,7 +1229,7 @@ Examples:
 
 The current code has the line treatment partially implemented but with drift from this specification:
 
-1. **Token name mismatch:** The CSS currently references `var(--ice-blue)` for the line color. Per brand spec, this should be `var(--azure)` (or whatever the canonical Azure token name is). Both names appear to map to the same color value (`#5FA8D3`) but the naming inconsistency is a maintenance hazard. Future cleanup should standardize on one name.
+1. **Token name mismatch — RESOLVED (2026-05-30):** The CSS previously referenced `var(--ice-blue)` for the line color. It has since been standardized to `var(--azure)` (`#5FA8D3`) across all three stylesheets, removing the maintenance hazard. No `var(--ice-blue)` references remain in the CSS.
 
 2. **Thickness drift:** `assets/css/site.css` declares the line `height: 4px`. `assets/css/final-overrides.css` overrides it to `3px`. Per spec, `3px` is correct. The base rule in `site.css` should be updated to `3px` and the override removed.
 
