@@ -77,11 +77,19 @@ const updateProgress = () => {
   seek.style.setProperty('--progress', `${pct}%`);
   currentEl.textContent = fmt(current);
   durationEl.textContent = fmt(duration);
+  if ('mediaSession' in navigator && 'setPositionState' in navigator.mediaSession && duration > 0 && current <= duration) {
+    try {
+      navigator.mediaSession.setPositionState({ duration, position: current, playbackRate: audio.playbackRate || 1 });
+    } catch (e) { /* setPositionState can throw on invalid ranges; ignore */ }
+  }
 };
 
 const setPlayState = (playing) => {
   toggleLabel.textContent = playing ? 'Pause' : 'Play';
   toggle.setAttribute('aria-label', playing ? 'Pause latest episode audio' : 'Play latest episode audio');
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.playbackState = playing ? 'playing' : 'paused';
+  }
 };
 
 const setUnavailable = (message) => {
@@ -161,6 +169,17 @@ async function loadLatestEpisode() {
     }
 
     audio.src = episode.audio_url;
+    if ('mediaSession' in navigator) {
+      const artwork = featuredArtwork
+        ? [{ src: featuredArtwork, sizes: '1280x720', type: 'image/jpeg' }]
+        : [];
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: title || 'Latest episode',
+        artist: episode.guest_name || 'VOICES of OKC',
+        album: 'VOICES of OKC',
+        artwork
+      });
+    }
     toggle.disabled = false;
     seek.disabled = false;
     note.textContent = episode.updated_at ? `Latest episode synced ${episode.updated_at}` : 'Latest episode ready to play.';
@@ -190,9 +209,39 @@ seek.addEventListener('input', (e) => {
   updateProgress();
 });
 
+function registerMediaSession() {
+  if (!('mediaSession' in navigator)) return;
+  const ms = navigator.mediaSession;
+  const SKIP = 15;
+  ms.setActionHandler('play', async () => {
+    try { await audio.play(); setPlayState(true); } catch (e) {}
+  });
+  ms.setActionHandler('pause', () => { audio.pause(); setPlayState(false); });
+  ms.setActionHandler('seekbackward', (d) => {
+    const by = (d && d.seekOffset) || SKIP;
+    audio.currentTime = Math.max(0, audio.currentTime - by);
+    updateProgress();
+  });
+  ms.setActionHandler('seekforward', (d) => {
+    const by = (d && d.seekOffset) || SKIP;
+    const dur = Number.isFinite(audio.duration) ? audio.duration : audio.currentTime;
+    audio.currentTime = Math.min(dur, audio.currentTime + by);
+    updateProgress();
+  });
+  ms.setActionHandler('seekto', (d) => {
+    if (d && typeof d.seekTime === 'number') {
+      if (d.fastSeek && 'fastSeek' in audio) { audio.fastSeek(d.seekTime); }
+      else { audio.currentTime = d.seekTime; }
+      updateProgress();
+    }
+  });
+}
+
 audio.addEventListener('timeupdate', updateProgress);
 audio.addEventListener('durationchange', updateProgress);
 audio.addEventListener('loadedmetadata', updateProgress);
+audio.addEventListener('play', () => setPlayState(true));
+audio.addEventListener('pause', () => setPlayState(false));
 audio.addEventListener('ended', () => {
   setPlayState(false);
   updateProgress();
@@ -203,4 +252,5 @@ audio.addEventListener('error', () => {
 
 setUnavailable('Loading latest episode...');
 wireMobileNavDismiss();
+registerMediaSession();
 loadLatestEpisode();
