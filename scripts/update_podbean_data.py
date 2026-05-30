@@ -419,7 +419,7 @@ def build_episode_page(episode, show_notes_html):
   <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="../../index.html" aria-label="VOICES of OKC home">
-          <img class="brand-mark" src="../../assets/images/voices-icon-civic-navy.png" alt="VOICES of OKC logo icon" />
+          <img class="brand-mark" src="../../assets/images/voices-icon-civic-navy.png" alt="VOICES of OKC logo icon" width="40" height="40" decoding="async" />
           <span class="brand-lockup">
             <span class="brand-name">VOICES of OKC</span>
             <span class="brand-tag">A CITY CENTER PODCAST</span>
@@ -443,7 +443,7 @@ def build_episode_page(episode, show_notes_html):
       <div class="container">
         <div class="split-grid episode-detail-grid">
           <article class="image-frame featured-image detail-card-visual episode-artwork">
-            <img src="{escape(page_artwork_url, quote=True)}" alt="{escape(title, quote=True)} artwork for VOICES of OKC" />
+            <img src="{escape(page_artwork_url, quote=True)}" alt="{escape(title, quote=True)} artwork for VOICES of OKC" width="1280" height="720" fetchpriority="high" decoding="async" />
           </article>
           <article class="card-surface episode-detail-card">
             <span class="episode-kicker">{escape(episode_kicker)}</span>
@@ -455,9 +455,9 @@ def build_episode_page(episode, show_notes_html):
               <span>Show notes from Podbean</span>
             </div>{theme_markup}{audio_markup}
             <div class="episode-actions">
-              <a class="action-pill" href="{escape(episode_youtube_url, quote=True)}" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="../../assets/images/icon-youtube.png" alt="YouTube icon" /><span class="action-label">YouTube</span></a>
-              <a class="action-pill" href="{escape(apple_url, quote=True)}" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="../../assets/images/icon-apple-podcasts.png" alt="Apple Podcasts icon" /><span class="action-label">Apple</span></a>
-              <a class="action-pill" href="{escape(spotify_url, quote=True)}" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="../../assets/images/icon-spotify.png" alt="Spotify icon" /><span class="action-label">Spotify</span></a>
+              <a class="action-pill" href="{escape(episode_youtube_url, quote=True)}" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="../../assets/images/icon-youtube.png" alt="YouTube icon" width="18" height="18" loading="lazy" decoding="async" /><span class="action-label">YouTube</span></a>
+              <a class="action-pill" href="{escape(apple_url, quote=True)}" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="../../assets/images/icon-apple-podcasts.png" alt="Apple Podcasts icon" width="18" height="18" loading="lazy" decoding="async" /><span class="action-label">Apple</span></a>
+              <a class="action-pill" href="{escape(spotify_url, quote=True)}" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="../../assets/images/icon-spotify.png" alt="Spotify icon" width="18" height="18" loading="lazy" decoding="async" /><span class="action-label">Spotify</span></a>
               <a class="action-pill action-pill--primary" href="{escape(episode.get('podbean_url') or episode.get('episode_url') or site_url, quote=True)}" target="_blank" rel="noreferrer"><span class="action-icon action-icon--notes"></span><span class="action-label">Podbean</span></a>
             </div>
           </article>
@@ -480,7 +480,7 @@ def build_episode_page(episode, show_notes_html):
         <div class="footer-grid">
           <div>
             <div class="brand footer-brand">
-              <img class="brand-mark" src="../../assets/images/voices-icon-white.png" alt="VOICES of OKC logo icon" />
+              <img class="brand-mark" src="../../assets/images/voices-icon-white.png" alt="VOICES of OKC logo icon" width="40" height="40" loading="lazy" decoding="async" />
               <span class="brand-lockup">
                 <span class="brand-name footer-brand-name">VOICES of OKC</span>
                 <span class="brand-tag footer-brand-tag">A CITY CENTER PODCAST</span>
