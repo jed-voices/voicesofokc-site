@@ -2343,3 +2343,16 @@ body {
   font-weight: inherit;
   color: inherit;
 }
+
+/* Media & Guest Resources page: stack eyebrows above section headings.
+   The site opts into this per-section via hard-coded selectors (#guests,
+   .team-card, etc.); scope the same treatment to the whole /media page so
+   every section header renders consistently. Class-scoped: affects no other page. */
+.media-resources .eyebrow {
+  display: flex;
+  width: max-content;
+  margin-bottom: 16px;
+}
+.media-resources .title-with-rule {
+  display: block;
+}
