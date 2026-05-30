@@ -496,6 +496,7 @@ def build_episode_page(episode, show_notes_html):
             <a href="../../podcast-team/">Podcast Team</a>
             <a href="../../guests/">Guests</a>
             <a href="../../contact/">Contact</a>
+            <a href="../../media/">Media &amp; Guests</a>
           </div>
           <div class="footer-column">
             <h2>Follow</h2>
