@@ -380,6 +380,20 @@ body {
     linear-gradient(105deg, rgba(6,20,33,.91), rgba(15,42,68,.66) 42%, rgba(15,42,68,.2) 74%),
     url('../images/optimized/featured-episode-8.jpg') center center / cover no-repeat !important;
 }
+@media (max-width: 768px) {
+.home-hero {
+    background:
+      linear-gradient(105deg, rgba(6,20,33,.91), rgba(15,42,68,.66) 42%, rgba(15,42,68,.2) 74%),
+      url('../images/responsive/featured-episode-8-768.jpg') center center / cover no-repeat !important;
+  }
+}
+@media (max-width: 480px) {
+.home-hero {
+    background:
+      linear-gradient(105deg, rgba(6,20,33,.91), rgba(15,42,68,.66) 42%, rgba(15,42,68,.2) 74%),
+      url('../images/responsive/featured-episode-8-480.jpg') center center / cover no-repeat !important;
+  }
+}
 .hero-content {
   position: relative;
   z-index: 1;
@@ -677,7 +691,7 @@ body {
   <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="../index.html" aria-label="VOICES of OKC home">
-          <img class="brand-mark" src="../assets/images/voices-icon-civic-navy.png" alt="VOICES of OKC logo icon" />
+          <img class="brand-mark" src="../assets/images/voices-icon-civic-navy.png" alt="VOICES of OKC logo icon" width="40" height="40" decoding="async" />
           <span class="brand-lockup">
             <span class="brand-name">VOICES of OKC</span>
             <span class="brand-tag">A CITY CENTER PODCAST</span>
@@ -733,7 +747,7 @@ body {
         <article class="image-frame featured-image detail-card-visual">
           <picture>
             <source type="image/webp" srcset="../assets/images/responsive/student-production-16-480.webp 480w, ../assets/images/responsive/student-production-16-768.webp 768w, ../assets/images/responsive/student-production-16-1200.webp 1200w" sizes="(max-width: 768px) 100vw, 600px" />
-            <img loading="lazy" src="../assets/images/responsive/student-production-16-1200.jpg" srcset="../assets/images/responsive/student-production-16-480.jpg 480w, ../assets/images/responsive/student-production-16-768.jpg 768w, ../assets/images/responsive/student-production-16-1200.jpg 1200w" sizes="(max-width: 768px) 100vw, 600px" alt="Students working on audio and camera production during a VOICES of OKC recording" />
+            <img loading="lazy" src="../assets/images/responsive/student-production-16-1200.jpg" srcset="../assets/images/responsive/student-production-16-480.jpg 480w, ../assets/images/responsive/student-production-16-768.jpg 768w, ../assets/images/responsive/student-production-16-1200.jpg 1200w" sizes="(max-width: 768px) 100vw, 600px" alt="Students working on audio and camera production during a VOICES of OKC recording" width="1200" height="676" decoding="async" />
           </picture>
         </article>
       </div>
@@ -761,7 +775,7 @@ body {
         <div class="footer-grid">
           <div>
             <div class="brand footer-brand">
-              <img class="brand-mark" src="../assets/images/voices-icon-white.png" alt="VOICES of OKC logo icon" />
+              <img class="brand-mark" src="../assets/images/voices-icon-white.png" alt="VOICES of OKC logo icon" width="40" height="40" decoding="async" loading="lazy" />
               <span class="brand-lockup">
                 <span class="brand-name footer-brand-name">VOICES of OKC</span>
                 <span class="brand-tag footer-brand-tag">A CITY CENTER PODCAST</span>

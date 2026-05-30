@@ -382,6 +382,20 @@ body {
     linear-gradient(105deg, rgba(6,20,33,.91), rgba(15,42,68,.66) 42%, rgba(15,42,68,.2) 74%),
     url('../images/optimized/featured-episode-8.jpg') center center / cover no-repeat !important;
 }
+@media (max-width: 768px) {
+.home-hero {
+    background:
+      linear-gradient(105deg, rgba(6,20,33,.91), rgba(15,42,68,.66) 42%, rgba(15,42,68,.2) 74%),
+      url('../images/responsive/featured-episode-8-768.jpg') center center / cover no-repeat !important;
+  }
+}
+@media (max-width: 480px) {
+.home-hero {
+    background:
+      linear-gradient(105deg, rgba(6,20,33,.91), rgba(15,42,68,.66) 42%, rgba(15,42,68,.2) 74%),
+      url('../images/responsive/featured-episode-8-480.jpg') center center / cover no-repeat !important;
+  }
+}
 .hero-content {
   position: relative;
   z-index: 1;
@@ -679,7 +693,7 @@ body {
   <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="index.html" aria-label="VOICES of OKC home">
-          <img class="brand-mark" src="assets/images/voices-icon-civic-navy.png" alt="VOICES of OKC logo icon" />
+          <img class="brand-mark" src="assets/images/voices-icon-civic-navy.png" alt="VOICES of OKC logo icon" width="40" height="40" decoding="async" />
           <span class="brand-lockup">
             <span class="brand-name">VOICES of OKC</span>
             <span class="brand-tag">A CITY CENTER PODCAST</span>
@@ -719,7 +733,7 @@ body {
                   <div class="episode-card-media">
                     <picture>
                       <source type="image/webp" srcset="assets/images/responsive/guest-mayor-holt-480.webp 480w, assets/images/responsive/guest-mayor-holt-768.webp 768w, assets/images/responsive/guest-mayor-holt-1200.webp 1200w" sizes="(max-width: 768px) 100vw, 460px" />
-                      <img src="assets/images/responsive/guest-mayor-holt-1200.jpg" srcset="assets/images/responsive/guest-mayor-holt-480.jpg 480w, assets/images/responsive/guest-mayor-holt-768.jpg 768w, assets/images/responsive/guest-mayor-holt-1200.jpg 1200w" sizes="(max-width: 768px) 100vw, 460px" alt="Mayor David Holt recording an episode of VOICES of OKC" fetchpriority="high" />
+                      <img src="assets/images/responsive/guest-mayor-holt-1200.jpg" srcset="assets/images/responsive/guest-mayor-holt-480.jpg 480w, assets/images/responsive/guest-mayor-holt-768.jpg 768w, assets/images/responsive/guest-mayor-holt-1200.jpg 1200w" sizes="(max-width: 768px) 100vw, 460px" alt="Mayor David Holt recording an episode of VOICES of OKC" fetchpriority="high" width="1200" height="800" decoding="async" />
                     </picture>
                   </div>
                   <div class="episode-card-body">
@@ -738,7 +752,7 @@ body {
     <section class="section" id="episodes">
       <div class="container featured-episode">
         <article class="image-frame featured-image feature-card-visual">
-          <img id="featuredEpisodeImage" src="assets/images/responsive/featured-episode-8-1200.jpg" srcset="assets/images/responsive/featured-episode-8-480.jpg 480w, assets/images/responsive/featured-episode-8-768.jpg 768w, assets/images/responsive/featured-episode-8-1200.jpg 1200w" sizes="(max-width: 768px) 100vw, 600px" alt="Latest VOICES of OKC episode artwork" />
+          <img id="featuredEpisodeImage" src="assets/images/responsive/featured-episode-8-1200.jpg" srcset="assets/images/responsive/featured-episode-8-480.jpg 480w, assets/images/responsive/featured-episode-8-768.jpg 768w, assets/images/responsive/featured-episode-8-1200.jpg 1200w" sizes="(max-width: 768px) 100vw, 600px" alt="Latest VOICES of OKC episode artwork" width="1200" height="800" decoding="async" />
         </article>
         <article class="card-surface">
           <div class="episode-badge-row">
@@ -751,9 +765,9 @@ body {
             <p id="featuredEpisodeDescription">A conversation about civic leadership, long-term vision, the role of youth in shaping a city, and why productive pathways matter in Oklahoma City.</p>
           </div>
           <div class="episode-actions">
-            <a class="action-pill" id="featuredEpisodeYoutube" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="assets/images/icon-youtube.png" alt="YouTube icon" /><span class="action-label">Watch on YouTube</span></a>
-            <a class="action-pill" id="featuredEpisodeSpotify" href="https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="assets/images/icon-spotify.png" alt="Spotify icon" /><span class="action-label">Spotify</span></a>
-            <a class="action-pill" id="featuredEpisodeApple" href="https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="assets/images/icon-apple-podcasts.png" alt="Apple Podcasts icon" /><span class="action-label">Apple Podcasts</span></a>
+            <a class="action-pill" id="featuredEpisodeYoutube" href="https://youtube.com/@voicesofokc" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="assets/images/icon-youtube.png" alt="YouTube icon" width="120" height="120" decoding="async" loading="lazy" /><span class="action-label">Watch on YouTube</span></a>
+            <a class="action-pill" id="featuredEpisodeSpotify" href="https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="assets/images/icon-spotify.png" alt="Spotify icon" width="120" height="120" decoding="async" loading="lazy" /><span class="action-label">Spotify</span></a>
+            <a class="action-pill" id="featuredEpisodeApple" href="https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322" target="_blank" rel="noreferrer"><img class="platform-icon-img" src="assets/images/icon-apple-podcasts.png" alt="Apple Podcasts icon" width="120" height="120" decoding="async" loading="lazy" /><span class="action-label">Apple Podcasts</span></a>
             <a class="action-pill action-pill--primary" id="featuredEpisodeButton" href="episodes/from-policy-to-people-the-privilege-of-leading-oklahoma-city/" target="_blank" rel="noreferrer"><span class="action-icon action-icon--notes"></span><span class="action-label">Show Notes</span></a>
           </div>
         </article>
@@ -824,7 +838,7 @@ body {
         <article class="image-frame about-image">
           <picture>
             <source type="image/webp" srcset="assets/images/responsive/about-show-11-480.webp 480w, assets/images/responsive/about-show-11-768.webp 768w, assets/images/responsive/about-show-11-1200.webp 1200w" sizes="(max-width: 768px) 100vw, 600px" />
-            <img loading="lazy" src="assets/images/responsive/about-show-11-1200.jpg" srcset="assets/images/responsive/about-show-11-480.jpg 480w, assets/images/responsive/about-show-11-768.jpg 768w, assets/images/responsive/about-show-11-1200.jpg 1200w" sizes="(max-width: 768px) 100vw, 600px" alt="Student host Jordan Arnett interviewing Mayor David Holt for VOICES of OKC" />
+            <img loading="lazy" src="assets/images/responsive/about-show-11-1200.jpg" srcset="assets/images/responsive/about-show-11-480.jpg 480w, assets/images/responsive/about-show-11-768.jpg 768w, assets/images/responsive/about-show-11-1200.jpg 1200w" sizes="(max-width: 768px) 100vw, 600px" alt="Student host Jordan Arnett interviewing Mayor David Holt for VOICES of OKC" width="1200" height="800" decoding="async" />
           </picture>
         </article>
       </div>
@@ -841,17 +855,17 @@ body {
           <article class="image-frame student-primary">
             <picture>
               <source type="image/webp" srcset="assets/images/responsive/student-production-16-480.webp 480w, assets/images/responsive/student-production-16-768.webp 768w, assets/images/responsive/student-production-16-1200.webp 1200w" sizes="(max-width: 768px) 100vw, 600px" />
-              <img loading="lazy" src="assets/images/responsive/student-production-16-1200.jpg" srcset="assets/images/responsive/student-production-16-480.jpg 480w, assets/images/responsive/student-production-16-768.jpg 768w, assets/images/responsive/student-production-16-1200.jpg 1200w" sizes="(max-width: 768px) 100vw, 600px" alt="Students working on audio and camera production during a VOICES of OKC recording" />
+              <img loading="lazy" src="assets/images/responsive/student-production-16-1200.jpg" srcset="assets/images/responsive/student-production-16-480.jpg 480w, assets/images/responsive/student-production-16-768.jpg 768w, assets/images/responsive/student-production-16-1200.jpg 1200w" sizes="(max-width: 768px) 100vw, 600px" alt="Students working on audio and camera production during a VOICES of OKC recording" width="1200" height="676" decoding="async" />
             </picture>
           </article>
           <div class="student-side">
             <article class="image-frame">
-              <img loading="lazy" src="assets/images/student-production-3.jpg" srcset="assets/images/optimized/student-production-3.jpg" alt="Students collaborating on audio and production during a VOICES of OKC recording" />
+              <img loading="lazy" src="assets/images/student-production-3.jpg" srcset="assets/images/optimized/student-production-3.jpg" alt="Students collaborating on audio and production during a VOICES of OKC recording" width="1086" height="724" decoding="async" />
             </article>
             <article class="image-frame">
               <picture>
                 <source type="image/webp" srcset="assets/images/responsive/alt-featured-13-480.webp 480w, assets/images/responsive/alt-featured-13-768.webp 768w, assets/images/responsive/alt-featured-13-1200.webp 1200w" sizes="(max-width: 768px) 100vw, 480px" />
-                <img loading="lazy" src="assets/images/responsive/alt-featured-13-1200.jpg" srcset="assets/images/responsive/alt-featured-13-480.jpg 480w, assets/images/responsive/alt-featured-13-768.jpg 768w, assets/images/responsive/alt-featured-13-1200.jpg 1200w" sizes="(max-width: 768px) 100vw, 480px" alt="Student-led recording session with camera and audio gear during a VOICES of OKC production" />
+                <img loading="lazy" src="assets/images/responsive/alt-featured-13-1200.jpg" srcset="assets/images/responsive/alt-featured-13-480.jpg 480w, assets/images/responsive/alt-featured-13-768.jpg 768w, assets/images/responsive/alt-featured-13-1200.jpg 1200w" sizes="(max-width: 768px) 100vw, 480px" alt="Student-led recording session with camera and audio gear during a VOICES of OKC production" width="1200" height="800" decoding="async" />
               </picture>
             </article>
           </div>
@@ -886,7 +900,7 @@ body {
         </div>
         <div class="episode-preview-grid">
           <article class="episode-card">
-            <div class="episode-card-media"><picture><source type="image/webp" srcset="assets/images/responsive/guest-mayor-holt-480.webp 480w, assets/images/responsive/guest-mayor-holt-768.webp 768w" sizes="(max-width: 768px) 100vw, 360px" /><img loading="lazy" src="assets/images/responsive/guest-mayor-holt-768.jpg" srcset="assets/images/responsive/guest-mayor-holt-480.jpg 480w, assets/images/responsive/guest-mayor-holt-768.jpg 768w" sizes="(max-width: 768px) 100vw, 360px" alt="Mayor David Holt recording an episode of VOICES of OKC" /></picture></div>
+            <div class="episode-card-media"><picture><source type="image/webp" srcset="assets/images/responsive/guest-mayor-holt-480.webp 480w, assets/images/responsive/guest-mayor-holt-768.webp 768w" sizes="(max-width: 768px) 100vw, 360px" /><img loading="lazy" src="assets/images/responsive/guest-mayor-holt-768.jpg" srcset="assets/images/responsive/guest-mayor-holt-480.jpg 480w, assets/images/responsive/guest-mayor-holt-768.jpg 768w" sizes="(max-width: 768px) 100vw, 360px" alt="Mayor David Holt recording an episode of VOICES of OKC" width="768" height="512" decoding="async" /></picture></div>
             <div class="episode-card-body">
               <span class="guest-role">Mayor David Holt · City of Oklahoma City</span>
               <h3 class="episode-card-title">FROM POLICY TO PEOPLE: THE PRIVILEGE OF LEADING OKLAHOMA CITY</h3>
@@ -896,7 +910,7 @@ body {
             </div>
           </article>
           <article class="episode-card">
-            <div class="episode-card-media"><img loading="lazy" src="assets/images/student-interview-94.jpg" srcset="assets/images/optimized/student-interview-94.jpg" alt="Student host in conversation on VOICES of OKC" /></div>
+            <div class="episode-card-media"><img loading="lazy" src="assets/images/student-interview-94.jpg" srcset="assets/images/optimized/student-interview-94.jpg" alt="Student host in conversation on VOICES of OKC" width="1086" height="724" decoding="async" /></div>
             <div class="episode-card-body">
               <span class="guest-role">Jordan Arnett · City Center student host</span>
               <h3 class="episode-card-title">16 YEARS OLD... AND ALREADY TEACHING US ABOUT HOPE</h3>
@@ -906,7 +920,7 @@ body {
             </div>
           </article>
           <article class="episode-card">
-            <div class="episode-card-media"><img loading="lazy" src="assets/images/student-production-3.jpg" srcset="assets/images/optimized/student-production-3.jpg" alt="Students collaborating during a VOICES of OKC production" /></div>
+            <div class="episode-card-media"><img loading="lazy" src="assets/images/student-production-3.jpg" srcset="assets/images/optimized/student-production-3.jpg" alt="Students collaborating during a VOICES of OKC production" width="1086" height="724" decoding="async" /></div>
             <div class="episode-card-body">
               <span class="guest-role">Derrick Sier · Restore OKC</span>
               <h3 class="episode-card-title">FROM MISNOMER TO MENTORSHIP: REBUILDING IDENTITY IN OKC</h3>
@@ -916,7 +930,7 @@ body {
             </div>
           </article>
           <article class="episode-card">
-            <div class="episode-card-media"><picture><source type="image/webp" srcset="assets/images/responsive/featured-episode-8-480.webp 480w, assets/images/responsive/featured-episode-8-768.webp 768w" sizes="(max-width: 768px) 100vw, 360px" /><img loading="lazy" src="assets/images/responsive/featured-episode-8-768.jpg" srcset="assets/images/responsive/featured-episode-8-480.jpg 480w, assets/images/responsive/featured-episode-8-768.jpg 768w" sizes="(max-width: 768px) 100vw, 360px" alt="VOICES of OKC featured episode artwork" /></picture></div>
+            <div class="episode-card-media"><picture><source type="image/webp" srcset="assets/images/responsive/featured-episode-8-480.webp 480w, assets/images/responsive/featured-episode-8-768.webp 768w" sizes="(max-width: 768px) 100vw, 360px" /><img loading="lazy" src="assets/images/responsive/featured-episode-8-768.jpg" srcset="assets/images/responsive/featured-episode-8-480.jpg 480w, assets/images/responsive/featured-episode-8-768.jpg 768w" sizes="(max-width: 768px) 100vw, 360px" alt="VOICES of OKC featured episode artwork" width="768" height="512" decoding="async" /></picture></div>
             <div class="episode-card-body">
               <span class="guest-role">Adam Coury · Leadership and learning</span>
               <h3 class="episode-card-title">USE WISELY: LEADERSHIP, LEARNING, AND THE NEXT GENERATION</h3>
@@ -988,7 +1002,7 @@ body {
         <div class="footer-grid">
           <div>
             <div class="brand footer-brand">
-              <img class="brand-mark" src="assets/images/voices-icon-white.png" alt="VOICES of OKC logo icon" />
+              <img class="brand-mark" src="assets/images/voices-icon-white.png" alt="VOICES of OKC logo icon" width="40" height="40" decoding="async" loading="lazy" />
               <span class="brand-lockup">
                 <span class="brand-name footer-brand-name">VOICES of OKC</span>
                 <span class="brand-tag footer-brand-tag">A CITY CENTER PODCAST</span>
