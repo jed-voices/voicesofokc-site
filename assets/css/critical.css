@@ -352,6 +352,20 @@ body {
     linear-gradient(105deg, rgba(6,20,33,.91), rgba(15,42,68,.66) 42%, rgba(15,42,68,.2) 74%),
     url('../images/optimized/featured-episode-8.jpg') center center / cover no-repeat !important;
 }
+@media (max-width: 768px) {
+.home-hero {
+    background:
+      linear-gradient(105deg, rgba(6,20,33,.91), rgba(15,42,68,.66) 42%, rgba(15,42,68,.2) 74%),
+      url('../images/responsive/featured-episode-8-768.jpg') center center / cover no-repeat !important;
+  }
+}
+@media (max-width: 480px) {
+.home-hero {
+    background:
+      linear-gradient(105deg, rgba(6,20,33,.91), rgba(15,42,68,.66) 42%, rgba(15,42,68,.2) 74%),
+      url('../images/responsive/featured-episode-8-480.jpg') center center / cover no-repeat !important;
+  }
+}
 .hero-content {
   position: relative;
   z-index: 1;

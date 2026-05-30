@@ -172,7 +172,7 @@ const renderEpisodes = (episodes) => {
     return `
       <article class="episode-card episode-archive-card">
         <a class="episode-card-media" href="${escapeHtml(href)}"${externalAttrs}>
-          <img loading="lazy" src="${escapeHtml(artwork)}" alt="${escapeHtml(title)} artwork for VOICES of OKC" />
+          <img loading="lazy" src="${escapeHtml(artwork)}" alt="${escapeHtml(title)} artwork for VOICES of OKC" width="1280" height="720" decoding="async" />
         </a>
         <div class="episode-card-body">
           <span class="guest-role">${escapeHtml(label)}</span>
@@ -231,7 +231,7 @@ async function loadEpisodes() {
     if (archiveStatus) archiveStatus.textContent = 'Episode sync needs attention';
     archiveGrid.innerHTML = `
       <article class="episode-card episode-archive-card">
-        <div class="episode-card-media"><img src="${fallbackImage}" alt="Fallback artwork for VOICES of OKC" /></div>
+        <div class="episode-card-media"><img src="${fallbackImage}" alt="Fallback artwork for VOICES of OKC" loading="lazy" width="1280" height="720" decoding="async" /></div>
         <div class="episode-card-body">
           <span class="guest-role">Episode archive</span>
           <h2 class="episode-card-title">EPISODE SYNC NOT READY YET</h2>
