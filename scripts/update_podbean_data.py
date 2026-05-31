@@ -425,7 +425,11 @@ def build_episode_page(episode, show_notes_html):
             <span class="brand-tag">A CITY CENTER PODCAST</span>
           </span>
         </a>
-        <nav class="nav" aria-label="Primary navigation">
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+          <svg class="nav-toggle-open" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="17" x2="20" y2="17"></line></svg>
+          <svg class="nav-toggle-close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"></line><line x1="18" y1="6" x2="6" y2="18"></line></svg>
+        </button>
+        <nav class="nav" id="primaryNav" aria-label="Primary navigation">
           <a href="../../episodes/" aria-current="page">Episodes</a>
           <a href="../../about/">About</a>
           <a href="../../podcast-team/">Podcast Team</a>

@@ -178,3 +178,39 @@
     wireTracking();
   });
 })();
+
+/* Mobile hamburger nav toggle. No-op if the header/toggle/nav aren't present. */
+(function () {
+  function initMobileNav() {
+    var header = document.querySelector('.site-header');
+    if (!header) return;
+    var toggle = header.querySelector('.nav-toggle');
+    var nav = header.querySelector('#primaryNav') || header.querySelector('.nav');
+    if (!toggle || !nav) return;
+    function close() {
+      header.classList.remove('nav-open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Open menu');
+    }
+    function open() {
+      header.classList.add('nav-open');
+      toggle.setAttribute('aria-expanded', 'true');
+      toggle.setAttribute('aria-label', 'Close menu');
+    }
+    toggle.addEventListener('click', function () {
+      header.classList.contains('nav-open') ? close() : open();
+    });
+    nav.addEventListener('click', function (e) {
+      if (e.target.closest('a')) close();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && header.classList.contains('nav-open')) close();
+    });
+  }
+  var runMobileNav = initMobileNav;
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', runMobileNav);
+  } else {
+    runMobileNav();
+  }
+})();
