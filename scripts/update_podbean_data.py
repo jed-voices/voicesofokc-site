@@ -590,7 +590,7 @@ if episodes_path.exists():
 
 mapped_by_key = load_episode_map()
 
-for index, entry in enumerate(feed.entries[:12]):
+for index, entry in enumerate(feed.entries):
     title = (entry.get("title") or "").strip()
     slug = slugify(title)
     site_path = f"episodes/{slug}/"
@@ -633,7 +633,7 @@ if latest.get("thumbnail_url"):
     latest["thumbnail_url"] = local_asset_path(latest["thumbnail_url"], "")
 latest["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 generated_pages = []
-for episode, entry in zip(entries, feed.entries[:12]):
+for episode, entry in zip(entries, feed.entries):
     show_notes = sanitize_show_notes(find_show_notes(entry))
     generated_pages.append(write_episode_page(episode, show_notes))
 write_sitemap(entries)

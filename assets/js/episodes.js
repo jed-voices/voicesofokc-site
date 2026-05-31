@@ -142,9 +142,10 @@ const renderEpisodes = (episodes) => {
   const activeButton = themeFilter ? themeFilter.querySelector('[aria-pressed="true"]') : null;
   const activeTheme = activeButton ? activeButton.dataset.theme : 'all';
   const visible = episodes.filter((episode) => matchesEpisode(episode, search, activeTheme));
+  const shown = visible.slice(0, 12);
 
   if (archiveStatus) {
-    archiveStatus.textContent = visible.length === 1 ? '1 conversation shown' : `${visible.length} conversations shown`;
+    archiveStatus.textContent = shown.length === 1 ? '1 conversation shown' : `${shown.length} conversations shown`;
   }
 
   if (!visible.length) {
@@ -157,7 +158,7 @@ const renderEpisodes = (episodes) => {
     return;
   }
 
-  archiveGrid.innerHTML = visible.slice(0, 24).map((episode, index) => {
+  archiveGrid.innerHTML = shown.map((episode, index) => {
     const artwork = getEpisodeArtwork(episode);
     const title = episode.title || `Episode ${index + 1}`;
     const summary = trimSummary(episode.summary) || 'Listen to the latest conversation from VOICES of OKC.';
