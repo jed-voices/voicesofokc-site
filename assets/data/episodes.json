@@ -12,10 +12,10 @@
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=ru4Ywdskviw",
       "site_url": "https://www.voicesofokc.com/episodes/more-than-accounting-daniel-haynes-on-purpose-community-and-oklahoma-city/",
+      "site_path": "episodes/more-than-accounting-daniel-haynes-on-purpose-community-and-oklahoma-city/",
       "guest_title": "Founder of Skyward Financial",
       "thumbnail_url": "https://i.ytimg.com/vi/ru4Ywdskviw/maxresdefault.jpg",
-      "guest_name": "Daniel Haynes",
-      "site_path": "episodes/more-than-accounting-daniel-haynes-on-purpose-community-and-oklahoma-city/"
+      "guest_name": "Daniel Haynes"
     },
     {
       "title": "Before They Break: GNWY on Mental Health, Purpose & Hope",
@@ -28,12 +28,12 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=0cEn75UmOiY",
-      "site_url": "https://www.voicesofokc.com/episodes/before-they-break-gnwy-on-mental-health-purpose-hope/",
-      "guest_title": "Mental health advocacy team",
       "episode_number": 25,
+      "site_url": "https://www.voicesofokc.com/episodes/before-they-break-gnwy-on-mental-health-purpose-hope/",
+      "site_path": "episodes/before-they-break-gnwy-on-mental-health-purpose-hope/",
+      "guest_title": "Mental health advocacy team",
       "thumbnail_url": "https://i.ytimg.com/vi/0cEn75UmOiY/maxresdefault.jpg",
-      "guest_name": "Generation Why (Jordan Miller, Stuart Bennett)",
-      "site_path": "episodes/before-they-break-gnwy-on-mental-health-purpose-hope/"
+      "guest_name": "Generation Why (Jordan Miller, Stuart Bennett)"
     },
     {
       "title": "Life Needs Vision: Carey Conley on Vision, Mental Health, and Young Adults",
@@ -46,17 +46,17 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=cCucgNeWgvM",
+      "episode_number": 24,
       "site_url": "https://www.voicesofokc.com/episodes/life-needs-vision-carey-conley-on-vision-mental-health-and-young-adults/",
+      "site_path": "episodes/life-needs-vision-carey-conley-on-vision-mental-health-and-young-adults/",
       "theme_tags": [
         "Faith, Purpose & Resilience",
         "Youth & Family",
         "Community Builders"
       ],
       "guest_title": "Vision, mental health, and young adults",
-      "episode_number": 24,
       "thumbnail_url": "https://i.ytimg.com/vi/cCucgNeWgvM/maxresdefault.jpg",
-      "guest_name": "Carey Conley",
-      "site_path": "episodes/life-needs-vision-carey-conley-on-vision-mental-health-and-young-adults/"
+      "guest_name": "Carey Conley"
     },
     {
       "title": "Hope in Hard Places: Jabee Williams on OKC, Violence, and Hope",
@@ -69,8 +69,9 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=ErUs6G6PS6o",
-      "guest_organization": "Live Free Oklahoma \u00b7 With Love OKC",
+      "episode_number": 23,
       "site_url": "https://www.voicesofokc.com/episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
+      "site_path": "episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/",
       "theme_tags": [
         "Arts & Culture",
         "Restoration & Second Chances",
@@ -78,10 +79,9 @@
         "Civic Leadership"
       ],
       "guest_title": "Artist, entrepreneur, and community advocate",
-      "episode_number": 23,
       "thumbnail_url": "https://i.ytimg.com/vi/ErUs6G6PS6o/maxresdefault.jpg",
       "guest_name": "Jabee Williams",
-      "site_path": "episodes/hope-in-hard-places-jabee-williams-on-okc-violence-and-hope/"
+      "guest_organization": "Live Free Oklahoma \u00b7 With Love OKC"
     },
     {
       "title": "Use Wisely: Adam Coury on Leadership, Learning, and the Next Generation",
@@ -94,17 +94,17 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=kbb1hKveims",
+      "episode_number": 22,
       "site_url": "https://www.voicesofokc.com/episodes/use-wisely-adam-coury-on-leadership-learning-and-the-next-generation/",
+      "site_path": "episodes/use-wisely-adam-coury-on-leadership-learning-and-the-next-generation/",
       "theme_tags": [
         "Faith, Purpose & Resilience",
         "Youth & Family",
         "Civic Leadership"
       ],
       "guest_title": "Leadership, learning, and the next generation",
-      "episode_number": 22,
       "thumbnail_url": "https://i.ytimg.com/vi/kbb1hKveims/maxresdefault.jpg",
-      "guest_name": "Adam Coury",
-      "site_path": "episodes/use-wisely-adam-coury-on-leadership-learning-and-the-next-generation/"
+      "guest_name": "Adam Coury"
     },
     {
       "title": "Beyond Winning: Bryan Fetzer on Pressure and Perspective in OKC",
@@ -117,17 +117,17 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=G22Cai7-QdQ",
+      "episode_number": 21,
       "site_url": "https://www.voicesofokc.com/episodes/beyond-winning-bryan-fetzer-on-pressure-and-perspective-in-okc/",
+      "site_path": "episodes/beyond-winning-bryan-fetzer-on-pressure-and-perspective-in-okc/",
       "theme_tags": [
         "Sports, Mindset & Performance",
         "Civic Leadership",
         "Community Builders"
       ],
       "guest_title": "Coach and performance leader",
-      "episode_number": 21,
       "thumbnail_url": "https://i.ytimg.com/vi/G22Cai7-QdQ/maxresdefault.jpg",
-      "guest_name": "Bryan Fetzer",
-      "site_path": "episodes/beyond-winning-bryan-fetzer-on-pressure-and-perspective-in-okc/"
+      "guest_name": "Bryan Fetzer"
     },
     {
       "title": "Over 22,000 Babies Later: What One Doctor Learned About Life and Hope",
@@ -140,16 +140,16 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=9m4V5Swk5jo",
+      "episode_number": 20,
       "site_url": "https://www.voicesofokc.com/episodes/over-22-000-babies-later-what-one-doctor-learned-about-life-and-hope/",
+      "site_path": "episodes/over-22-000-babies-later-what-one-doctor-learned-about-life-and-hope/",
       "theme_tags": [
         "Faith, Purpose & Resilience",
         "Community Builders"
       ],
       "guest_title": "Physician",
-      "episode_number": 20,
       "thumbnail_url": "https://i.ytimg.com/vi/9m4V5Swk5jo/maxresdefault.jpg",
-      "guest_name": "Dr. David Kallenberger",
-      "site_path": "episodes/over-22-000-babies-later-what-one-doctor-learned-about-life-and-hope/"
+      "guest_name": "Dr. David Kallenberger"
     },
     {
       "title": "Beyond Quick Fix: Functional Medicine and Real Healing in Oklahoma City",
@@ -162,17 +162,17 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=vlKtdFjBbko",
-      "guest_organization": "Richey Wellness",
+      "episode_number": 19,
       "site_url": "https://www.voicesofokc.com/episodes/beyond-quick-fix-functional-medicine-and-real-healing-in-oklahoma-city/",
+      "site_path": "episodes/beyond-quick-fix-functional-medicine-and-real-healing-in-oklahoma-city/",
       "theme_tags": [
         "Community Builders",
         "Faith, Purpose & Resilience"
       ],
       "guest_title": "Founder",
-      "episode_number": 19,
       "thumbnail_url": "https://i.ytimg.com/vi/vlKtdFjBbko/maxresdefault.jpg",
       "guest_name": "Tiffany Richey",
-      "site_path": "episodes/beyond-quick-fix-functional-medicine-and-real-healing-in-oklahoma-city/"
+      "guest_organization": "Richey Wellness"
     },
     {
       "title": "Rethinking Justice in Oklahoma:  Public Safety, Real Reform, and Redemption",
@@ -185,18 +185,18 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=NiFu6rjG_0k",
-      "guest_organization": "State of Oklahoma",
+      "episode_number": 18,
       "site_url": "https://www.voicesofokc.com/episodes/rethinking-justice-in-oklahoma-public-safety-real-reform-and-redemption/",
+      "site_path": "episodes/rethinking-justice-in-oklahoma-public-safety-real-reform-and-redemption/",
       "theme_tags": [
         "Civic Leadership",
         "Restoration & Second Chances",
         "Community Builders"
       ],
       "guest_title": "Oklahoma Secretary of Public Safety",
-      "episode_number": 18,
       "thumbnail_url": "https://i.ytimg.com/vi/NiFu6rjG_0k/maxresdefault.jpg",
       "guest_name": "Tricia Everest",
-      "site_path": "episodes/rethinking-justice-in-oklahoma-public-safety-real-reform-and-redemption/"
+      "guest_organization": "State of Oklahoma"
     },
     {
       "title": "Community Through Conversation: Mike Hearne on Storytelling in Oklahoma City",
@@ -209,18 +209,18 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=QRZNxiuNa1o",
-      "guest_organization": "This is Oklahoma",
+      "episode_number": 17,
       "site_url": "https://www.voicesofokc.com/episodes/community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city/",
+      "site_path": "episodes/community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city/",
       "theme_tags": [
         "Arts & Culture",
         "Community Builders",
         "Business & Entrepreneurship"
       ],
       "guest_title": "Storyteller and podcast host",
-      "episode_number": 17,
       "thumbnail_url": "https://i.ytimg.com/vi/QRZNxiuNa1o/maxresdefault.jpg",
       "guest_name": "Mike Hearne",
-      "site_path": "episodes/community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city/"
+      "guest_organization": "This is Oklahoma"
     },
     {
       "title": "From Misnomer to Mentorship: Derrick Sier on Rebuilding Identity in Oklahoma City",
@@ -233,18 +233,18 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=YCzqO3WmUfg",
-      "guest_organization": "Restore OKC",
+      "episode_number": 16,
       "site_url": "https://www.voicesofokc.com/episodes/from-misnomer-to-mentorship-derrick-sier-on-rebuilding-identity-in-oklahoma-city/",
+      "site_path": "episodes/from-misnomer-to-mentorship-derrick-sier-on-rebuilding-identity-in-oklahoma-city/",
       "theme_tags": [
         "Community Builders",
         "Restoration & Second Chances",
         "Youth & Family"
       ],
       "guest_title": "Mentor and community builder",
-      "episode_number": 16,
       "thumbnail_url": "https://i.ytimg.com/vi/YCzqO3WmUfg/maxresdefault.jpg",
       "guest_name": "Derrick Sier",
-      "site_path": "episodes/from-misnomer-to-mentorship-derrick-sier-on-rebuilding-identity-in-oklahoma-city/"
+      "guest_organization": "Restore OKC"
     },
     {
       "title": "From Policy to People: The Privilege of Leading Oklahoma City",
@@ -257,18 +257,224 @@
       "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
       "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
       "youtube_url": "https://www.youtube.com/watch?v=beuOfntpmdk",
-      "guest_organization": "City of Oklahoma City",
+      "episode_number": 15,
       "site_url": "https://www.voicesofokc.com/episodes/from-policy-to-people-the-privilege-of-leading-oklahoma-city/",
+      "site_path": "episodes/from-policy-to-people-the-privilege-of-leading-oklahoma-city/",
       "theme_tags": [
         "Civic Leadership",
         "Youth & Family",
         "Community Builders"
       ],
       "guest_title": "Mayor",
-      "episode_number": 15,
       "thumbnail_url": "https://i.ytimg.com/vi/beuOfntpmdk/maxresdefault.jpg",
       "guest_name": "Mayor David Holt",
-      "site_path": "episodes/from-policy-to-people-the-privilege-of-leading-oklahoma-city/"
+      "guest_organization": "City of Oklahoma City"
+    },
+    {
+      "title": "Cutting Weight, Cutting Drama: Victoria\u2019s Story of Hope",
+      "audio_url": "https://mcdn.podbean.com/mf/web/ynpi7hvxs3guk4wr/Episode_14_-_Victoria_6vqpw.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/cutting-weight-cutting-drama-victorias-story-of-hope/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/cutting-weight-cutting-drama-victoria-haggard-s-story-of-hope/",
+      "artwork_url": "https://i.ytimg.com/vi/PsG61E-OFBU/maxresdefault.jpg",
+      "summary": "Victoria Haggard\u2019s story is one of quiet transformation. From early struggles and personal loss to discipline through wrestling, mentorship at City Center, and a growing calling toward law, Victoria\u2019s journey reveals what can happen when hope meets determination. This episode explores grief, faith, resilience, and the life-changing power of a safe place that refuses to give up on young people. A moving reminder that the future is not decided by where you start\u2014but by the moment you choose to change.",
+      "published_at": "Tue, 17 Feb 2026 09:52:44 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "https://www.youtube.com/watch?v=PsG61E-OFBU",
+      "episode_number": 14,
+      "site_url": "https://www.voicesofokc.com/episodes/cutting-weight-cutting-drama-victorias-story-of-hope/",
+      "site_path": "episodes/cutting-weight-cutting-drama-victorias-story-of-hope/",
+      "theme_tags": [
+        "Youth & Family",
+        "Restoration & Second Chances",
+        "Faith, Purpose & Resilience"
+      ],
+      "guest_title": "City Center student story",
+      "thumbnail_url": "https://i.ytimg.com/vi/PsG61E-OFBU/maxresdefault.jpg",
+      "guest_name": "Victoria Haggard",
+      "guest_organization": "City Center"
+    },
+    {
+      "title": "16 Years Old... and Already Teaching Us About Hope | Jordan Arnett",
+      "audio_url": "https://mcdn.podbean.com/mf/web/39vgysk9xt73zbrf/Episode_13_-_Jordan_Arnett9v1g9.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/16-years-old-and-already-teaching-us-about-hope-jordan-arnett/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/16-years-old-and-already-teaching-us-about-hope-jordan-arnett/",
+      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple_Podcast_Thumbnails_JORDAN899p1.png",
+      "summary": "Some stories don\u2019t just inspire you. They quietly change the way you see hope. In this episode of Voices of OKC, the roles flip as 16-year-old City Center student Jordan Arnett steps into the host seat and interviews Jed about redemption, purpose, and the road that led to City Center. But the conversation quickly turns into something deeper. Jordan shares his own story. Growing up with instability. A season of drifting in eighth grade. And the moment that became a turning point\u2014August 20, 2023. With remarkable honesty and wisdom beyond his years, Jordan talks about faith, community, and what to do when life feels low. His reminder is simple but powerful: Happiness doesn\u2019t equal joy. This is a conversation about resilience, redemption, and the reality that hope is still possible\u2014no matter your past or your age. Listen now and discover why the next generation may be carrying more wisdom than we realize.",
+      "published_at": "Tue, 10 Feb 2026 11:32:06 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "",
+      "site_path": "episodes/16-years-old-and-already-teaching-us-about-hope-jordan-arnett/",
+      "site_url": "https://www.voicesofokc.com/episodes/16-years-old-and-already-teaching-us-about-hope-jordan-arnett/"
+    },
+    {
+      "title": "Fast Lanes and Faith: Eliud Villarreal on Risk, Family, and Hope",
+      "audio_url": "https://mcdn.podbean.com/mf/web/di866xz5z4vvif4w/Episode_12_-_Eliud_Villarrealaseu1.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/fast-lanes-and-faith-eliud-villarreal-on-risk-family-and-hope/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/episode-12-eliud-villarreal/",
+      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple_Podcast_Thumbnails_Eliudbln4z.png",
+      "summary": "Exotic Motorsports founder Eliud Villarreal shares his journey of faith, risk, and resilience, revealing how hope and integrity carried him through entrepreneurship\u2019s highest highs and hardest moments.",
+      "published_at": "Tue, 03 Feb 2026 16:01:08 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "",
+      "site_path": "episodes/fast-lanes-and-faith-eliud-villarreal-on-risk-family-and-hope/",
+      "site_url": "https://www.voicesofokc.com/episodes/fast-lanes-and-faith-eliud-villarreal-on-risk-family-and-hope/"
+    },
+    {
+      "title": "You Can\u2019t Borrow Faith: Choosing Hope When Life Gets Heavy | Dr. Jon Chasteen",
+      "audio_url": "https://mcdn.podbean.com/mf/web/gwpm69nsftycmd8w/Episode_11_-_Jon_Chasteen7fs5n.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/you-cant-borrow-faith-choosing-hope-when-life-gets-heavy-dr-jon-chasteen/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/episode-11-pastor-jon-chasteen/",
+      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple_Jon7jra9.png",
+      "summary": "Jon Chasteen shares his journey of faith, leadership, and rebuilding through failure\u2014and why real hope must be anchored beyond what we can see.",
+      "published_at": "Tue, 20 Jan 2026 15:23:56 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "",
+      "site_path": "episodes/you-cant-borrow-faith-choosing-hope-when-life-gets-heavy-dr-jon-chasteen/",
+      "site_url": "https://www.voicesofokc.com/episodes/you-cant-borrow-faith-choosing-hope-when-life-gets-heavy-dr-jon-chasteen/"
+    },
+    {
+      "title": "From Spencer to the Center: A Story of Hope and Mentorship | Ashonte Winston",
+      "audio_url": "https://mcdn.podbean.com/mf/web/65wwffedx8mctf96/Episode_10_-_Ashonte_WInston9k7x2.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/from-spencer-to-the-center-a-story-of-hope-and-mentorship-ashonte-winston/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/from-spencer-to-city-center-shante-winston-s-story-of-hope-and-mentorship/",
+      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple_Ashonte_Winston62l9r.png",
+      "summary": "Ashonte Winston shares her journey of grit, mentorship, and purpose\u2014and why showing up consistently can change the trajectory of a young person\u2019s life.",
+      "published_at": "Tue, 13 Jan 2026 10:54:09 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "",
+      "site_path": "episodes/from-spencer-to-the-center-a-story-of-hope-and-mentorship-ashonte-winston/",
+      "site_url": "https://www.voicesofokc.com/episodes/from-spencer-to-the-center-a-story-of-hope-and-mentorship-ashonte-winston/"
+    },
+    {
+      "title": "Discipline Before the Fight: The Power of Mentorship | Emanuel Rivera",
+      "audio_url": "https://mcdn.podbean.com/mf/web/6923dgnnrq5ftgch/Episode_9_-_Emmanuel_Rivera6o3oo.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/discipline-before-the-fight-the-power-of-mentorship-emanuel-rivera/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/from-south-side-streets-to-city-center-coach-emanuel-s-come-up/",
+      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple_Podcast_Thumbnails_Eliudbln4z.png",
+      "summary": "Emmanuel Rivera shares how discipline, mentorship, and community partnerships through The Come Up Foundation are transforming young lives in Oklahoma City, one relationship at a time.",
+      "published_at": "Tue, 06 Jan 2026 09:00:00 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "",
+      "site_path": "episodes/discipline-before-the-fight-the-power-of-mentorship-emanuel-rivera/",
+      "site_url": "https://www.voicesofokc.com/episodes/discipline-before-the-fight-the-power-of-mentorship-emanuel-rivera/"
+    },
+    {
+      "title": "Adversity Is the Advantage: The Psychology Behind Resilience | Dr. Wayne Chappelle",
+      "audio_url": "https://mcdn.podbean.com/mf/web/v74ca52gnvi4zhn4/Episode_8_Dr_Wayne_Chappelle6soln-e3jpw9-Optimized.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/adversity-is-the-advantage-the-psychology-behind-resilience-dr-wayne-chappelle/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/from-battlefield-to-basketball-dr-wayne-chappelle-on-building-an-unbreakable-mindset/",
+      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple_Dr_Wayneb5olp.png",
+      "summary": "What you will hear in this episode: In this episode of Voices of OKC, Jed sits down with Dr. Wayne Chappelle, a licensed clinical and sports psychologist whose work spans elite military units, professional athletics, and high-performance leaders across the country. Dr. Chappelle currently serves as a Sports Psychologist for the OKC Thunder and previously led the Aeromedical Operational Psychology Program for the Air Force Research Laboratory, where he studied what he calls the Psychology of a Hero. His work focused on identifying the mindset, resilience, and personality traits required to succeed in extreme, high-stakes environments. Together, they explore why hardship can become a hidden advantage, how mindset shapes outcomes over time, and why people who endure difficult seasons are better equipped for long-term success. This conversation challenges the idea that comfort leads to growth and offers a grounded, hopeful perspective on resilience, purpose, and personal responsibility. If you\u2019ve ever wondered why some people keep moving forward when life gets heavy, this episode is for you. Key Takeaways from the Conversation \u2022 Why mindset is often the deciding factor between potential and performance\u2022 How experiencing hard things can actually increase resilience and long-term success\u2022 What elite military operators and professional athletes have in common mentally\u2022 Why discomfort, pressure, and adversity often sharpen clarity and purpose\u2022 How self-awareness and mental discipline shape outcomes over time Memorable Quotes &quot;You don&#x27;t become resilient by avoiding hard things. You become resilient by going through them.\u201d &quot;Pressure doesn&#x27;t create character. It reveals it.\u201d &quot;Mindset is the filter through which everything else passes.\u201d About the Guest Dr. Wayne Chappelle is a licensed clinical psychologist and board-certified by the American Board of Professional Psychology (ABPP). With over 20 years of experience, he has worked at the intersection of psychology, performance, and resilience, serving elite military personnel, professional athletes, and high-performing leaders. His work blends psychological testing, behavioral analysis, and real-world observation to understand what allows people to thrive under pressure. Call to Action Voices of OKC is produced at City Center, a nonprofit in the heart of Oklahoma City that empowers youth and families through mentorship, resources, and opportunities. If this episode challenged or encouraged you:\u2022 Subscribe to Voices of OKC\u2022 Share this episode with someone who needs it\u2022 Learn more about City Center and how you can support the work happening in our community Real PEOPLE. Real HOPE. Real OKC.",
+      "published_at": "Tue, 30 Dec 2025 07:15:30 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "",
+      "site_path": "episodes/adversity-is-the-advantage-the-psychology-behind-resilience-dr-wayne-chappelle/",
+      "site_url": "https://www.voicesofokc.com/episodes/adversity-is-the-advantage-the-psychology-behind-resilience-dr-wayne-chappelle/"
+    },
+    {
+      "title": "After the Badge: Healing and Hope Beyond Trauma | Jeff Morefield",
+      "audio_url": "https://mcdn.podbean.com/mf/web/6i45b2scgx6bnhwg/Episode_5_-_Jeff_Morefield7136c.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/after-the-badge-healing-and-hope-beyond-trauma-jeff-morefield/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/after-the-badge-healing-and-hope-beyond-trauma/",
+      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Social_Media_Jeff_Morefield6qcr3.png",
+      "summary": "What You Will Hear in This Episode \u2022 The launch of Voices of OKC and why spotlighting local difference makers matters. \u2022 Jeff Morfield&#x27;s upbringing as a military brat, moving constantly, and attending six different schools. \u2022 Living overseas during the Cold War, growing up in Germany, and witnessing life behind the Iron Curtain. \u2022 A terrifying encounter in East Berlin and how it shaped Jeff\u2019s understanding of freedom. \u2022 Returning to Oklahoma just before the OKC bombing, and how that moment propelled him toward law enforcement. \u2022 Serving 22 years as a police officer and deploying with the Oklahoma Army National Guard to combat zones. \u2022 The unseen toll of law enforcement and military service, exposure to hundreds of critical incidents. \u2022 How trauma compounds over time and why first responders often lack healthy outlets. \u2022 The coping mechanisms no one talks about, drinking, gambling, infidelity, and silent suffering. \u2022 A defining officer-involved shooting in 2021 and realizing something had to change. \u2022 The reintegration struggle after deployment and wearing the uniform for decades. \u2022 Discovering a massive gap in transition support for retiring first responders. \u2022 Research showing first responders die 5\u20137 years earlier than the general population. \u2022 Why Jeff chose to create a nonprofit instead of a for-profit solution. \u2022 The vision and symbolism behind the On Call Project name and logo. \u2022 Launching the Thriving Responder course focused on personal development, not just tactics. \u2022 The Beyond the Badge program helping first responders transition into civilian careers. \u2022 Addressing identity loss, mental health, finances, physical health, and spiritual wellbeing. \u2022 Building pathways, resumes, certifications, and real employment opportunities. \u2022 What hope truly means for first responders standing at the edge of retirement. \u2022 Separating role from identity and learning it\u2019s okay to take the uniform off. Key Quotes \u201cFreedom isn\u2019t something you understand until you see a world without it.\u201d \u201cPolice officers see 600 to 800 critical incidents in a career. Most people see four or five in a lifetime.\u201d \u201cYou weren\u2019t meant to carry all of that and walk away untouched.\u201d \u201cWhen the uniform comes off, it\u2019s not \u2018see you later.\u2019 It shouldn\u2019t be.\u201d \u201cWe onboard people intentionally, then throw them to the wind when they\u2019re done.\u201d \u201cThe tattered \u2018O\u2019 represents the life we lived. The \u2018Project\u2019 is the path forward.\u201d\u201cHope is understanding there is a pathway forward.\u201d \u201cPolice officer was my role. Husband and father are my identity.\u201d \u201cIt\u2019s okay to take it off. Nobody thinks less of you.\u201d \u201cGod can redeem the hardest experiences and use them to bring life to others.\u201d",
+      "published_at": "Mon, 22 Dec 2025 16:31:00 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "",
+      "site_path": "episodes/after-the-badge-healing-and-hope-beyond-trauma-jeff-morefield/",
+      "site_url": "https://www.voicesofokc.com/episodes/after-the-badge-healing-and-hope-beyond-trauma-jeff-morefield/"
+    },
+    {
+      "title": "From the Band to the Bridge: Marcus Jackson\u2019s Eastside Journey",
+      "audio_url": "https://mcdn.podbean.com/mf/web/24mbkquzeja2fxdq/Episode_7_-_Marcus_Jacksona4x00.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/from-the-band-to-the-bridge-marcus-jacksons-eastside-journey/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/from-band-room-to-bridge-impact-marcus-jackson-s-east-okc-journey/",
+      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple_Marcusbe1f3.png",
+      "summary": "Marcus Jackson recounts his path from a music-loving kid in Northeast Oklahoma City to co-founding the Bridge Impact Center (Urban Bridge), a holistic youth center. He explains how mentors, music education, and community support shaped his vision. The episode highlights the Bridge\u2019s practical approach\u2014incentives like Bridge Bucks, hands-on stations, mental health supports, and community partnerships\u2014that helped secure a brick-and-mortar space and serve over 200 teens, creating pathways for leadership and hope across OKC. What You Will Hear in This Episode \u2022 Marcus Jackson\u2019s upbringing in Northeast OKC, being the youngest, feeling awkward, and getting in trouble outside the house\u2022 Being diagnosed with ADD in third grade, and how \u201chaving the info\u201d didn\u2019t mean having support\u2022 A real picture of neighborhood life, \u201cbusy\u201d summers, latchkey days, and uneven access to good vs. bad\u2022 The turning point, how a band teacher recognized Marcus\u2019 talent, pulled him toward Classen, and possibly saved his trajectory\u2022 Why mentors matter, not 24/7, but showing up consistently in their lane\u2022 How music became Marcus\u2019 pathway to confidence, discipline, and purpose, plus the \u201cADD as a superpower\u201d idea when you lock in\u2022 The role of strong parenting, boundaries, respect, and a mom who didn\u2019t play\u2022 The deeper question behind hope, what are you looking forward to, do you know what you love, do you know what you\u2019re good at\u2022 How society can talk people out of their calling, \u201ctoo old,\u201d \u201ctoo young,\u201d \u201cget a real career\u201d\u2022 Marcus\u2019 path into faith-based music, then youth leadership, then full-time community work\u2022 Meeting Vernon Dees, building momentum through youth ministry, and scaling a school-based model from 6 schools to 31\u2022 Compassion fatigue, family pressure, and doing what he had to do, including commercial plumbing, while still serving kids\u2022 The night Marcus realized \u201cfilling a room\u201d wasn\u2019t the same as transformation, \u201ccutting yards vs landscaping\u201d\u2022 The birth of the Bridge vision, more time, holistic support, and a space built around what teens actually need\u2022 The Bridge \u201cbuffet\u201d model, choice-based stations, adult-led programs, incentives, and autonomy that actually moves the needle\u2022 The gritty early days, coffee shop whiteboards, working at Ross at 4:30am, no money, no team, just faith and grind\u2022 The miracle moments, a church buying a building to make the youth center possible, and a six-figure check that forced infrastructure to level up\u2022 A powerful story from the ice storm, meeting a kid walking 10 blocks for Wi-Fi, and how the Bridge became a lifeline\u2022 The long game, five years to open the doors, serving 200+ teens annually, and building leaders from the teens themselves\u2022 Why OKC is uniquely positioned to innovate in youth and community development, and why it\u2019s a city-wide effort Key Quotes \u201cThis is a team sport.\u201d \u201cLiving where I lived, you just never know who\u2019s gonna walk up, what they\u2019re gonna say, what kind of scheme they got going on.\u201d \u201cIt was easier for me to join a gang than it was for me to find a mentor.\u201d \u201cShe told me, I see who you hang out with and you\u2019re too talented. You need to go somewhere else.\u201d \u201cHe expected excellence because he believed I could do it.\u201d \u201cADD can be a superpower. When you lock into something you love, you can really lock in.\u201d \u201cWe were cutting yards, but we weren\u2019t landscaping.\u201d \u201cWe need more time, and we need to stop the silo of ministry focus and start looking at the whole person.\u201d \u201cWe\u2019re going to be the buffet. The trickiest thing about a buffet is you think you chose what you ate, but it was already cooked.\u201d \u201cFive years is what it took for us to open those doors.\u201d \u201cOklahoma City is prime for being leaders in innovating how we serve young people, families, and communities.\u201d",
+      "published_at": "Thu, 18 Dec 2025 06:20:43 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "",
+      "site_path": "episodes/from-the-band-to-the-bridge-marcus-jacksons-eastside-journey/",
+      "site_url": "https://www.voicesofokc.com/episodes/from-the-band-to-the-bridge-marcus-jacksons-eastside-journey/"
+    },
+    {
+      "title": "Game Changer: Kelli Masters' Story of Influence and Impact",
+      "audio_url": "https://mcdn.podbean.com/mf/web/dmemn472eby7uh6t/Episode_6_-_Kelli_Masters_AUDIOa9wlw.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/game-changer-kelli-masters-story-of-influence-and-impact/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/game-changer-kelli-masters-story-of-influence-and-impact/",
+      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple_Kelli_Mastersblg2g.png",
+      "summary": "Kelli Masters is an attorney, sports agent, author, and speaker known for breaking barriers in sports and law. A former National and World Champion baton twirler and Miss Oklahoma 1997, she earned her Juris Doctorate with Honors from the University of Oklahoma. After beginning her legal career in litigation, she became a Certified NFL Sports Agent in 2005 and founded KMM Sports. In 2010, she made history as the first woman to represent a top-five NFL Draft pick. Today, Kelli leads KMM Sports, heads High Impact Life Ministries, and inspires audiences nationwide through her book and speaking. What You Will Hear in This Episode \u2022 How Kelly Masters grew up as an Oklahoma native and lifelong OU football fan\u2022 The childhood drive that began with baton twirling and perfectionism\u2022 Kelly\u2019s breaking point in law school and the moment she truly discovered hope\u2022 Surrendering fear, identity, and achievement to God\u2022 How winning Miss Oklahoma opened the door to law school\u2022 Building a law practice focused on service to ministries, foundations, and missions\u2022 The unexpected introduction to sports agency work\u2022 Becoming the first woman to represent a drafted NFL player\u2022 Launching KMM Sports in Oklahoma City when everyone told her it was impossible\u2022 Growing a nationwide agency representing 30+ athletes\u2022 The underdog story of Cooper McDonald making the Kansas City Chiefs roster\u2022 Kelly\u2019s practical steps for discerning purpose, hearing God\u2019s voice, and walking in obedience\u2022 Why spiritual mentors matter and how fear tried to shape her life\u2022 A powerful encouragement for listeners who feel overlooked, weary, or forgotten Key Quotes &quot;Hope didn\u2019t get real for me until the moment I surrendered and realized God\u2019s love was actually for me.&quot; &quot;When you&#x27;re driven by fear, nothing you accomplish is ever enough. Surrender changes everything.&quot; &quot;I told God, whatever You ask me to do, the answer is yes, even if it means scrubbing toilets.&quot; &quot;I didn\u2019t think I belonged in the sports agent world, but that\u2019s exactly where God called me to be.&quot; &quot;Everyone told me starting an agency in Oklahoma City was crazy, but I had peace. I knew what God said.&quot; &quot;God has not forgotten you. His promises are for you. He is an on-time God, even when it feels delayed.&quot; &quot;He will bless you, and until then, He will keep you.&quot;",
+      "published_at": "Mon, 15 Dec 2025 17:26:21 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "",
+      "site_path": "episodes/game-changer-kelli-masters-story-of-influence-and-impact/",
+      "site_url": "https://www.voicesofokc.com/episodes/game-changer-kelli-masters-story-of-influence-and-impact/"
+    },
+    {
+      "title": "Christmas at City Center - 12 Days with Spinozi",
+      "audio_url": "https://mcdn.podbean.com/mf/web/s62p02vshw9b9qwy/2540859_episodes_18253726-spinozi-12-days-with-spinozi-christmas-at-city-center.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/christmas-at-city-center-12-days-with-spinozi/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/spinozi-12-days-with-spinozi-christmas-at-city-center/",
+      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple_Ron_Bentonale8a.png",
+      "summary": "Ron \u201cSpinozi\u201d Benton \u2014 From a $250 Bet to a Christmas Movement In this inspiring and wildly entertaining episode of Voices of OKC, Jed sits down with Ron \u201cSpinozi\u201d Benton, beloved radio host from The Morning Animals on The Sports Animal, and the unexpected heart behind one of Oklahoma City\u2019s most powerful holiday traditions \u2014 12 Days with Spinozi. What began as a lost $250 college football bet turned into a chain reaction of generosity that now provides Christmas gifts for thousands of kids e...",
+      "published_at": "Tue, 25 Nov 2025 17:00:00 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "",
+      "site_path": "episodes/christmas-at-city-center-12-days-with-spinozi/",
+      "site_url": "https://www.voicesofokc.com/episodes/christmas-at-city-center-12-days-with-spinozi/"
+    },
+    {
+      "title": "Success Has a Process - And It Starts with Failure | Toby Brown",
+      "audio_url": "https://mcdn.podbean.com/mf/web/riudlx8nc55anmdo/2540859_episodes_18252939-toby-brown-success-has-a-process-and-it-starts-with-failure.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/success-has-a-process-and-it-starts-with-failure-toby-brown/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/toby-brown-success-has-a-process-and-it-starts-with-failure/",
+      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple_Tobyai4zy.png",
+      "summary": "Toby Brown \u2014 Entrepreneur, Investor &amp;amp; Purpose-Driven Leader In this empowering episode of Voices of OKC, Jed sits down with Toby Brown, Founder &amp;amp; CEO of The Brown Group, whose portfolio spans real estate, fitness, spirits, automotive, banking, private lending, and more. Toby\u2019s journey is a powerful example of discipline, faith, and transformation. Raised in Arkansas before moving to Oklahoma, Toby shares how he went from an 8-year corporate job to discovering real estate\u2014and how one c...",
+      "published_at": "Tue, 25 Nov 2025 16:00:00 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "",
+      "site_path": "episodes/success-has-a-process-and-it-starts-with-failure-toby-brown/",
+      "site_url": "https://www.voicesofokc.com/episodes/success-has-a-process-and-it-starts-with-failure-toby-brown/"
+    },
+    {
+      "title": "From Poverty to Prosperity: The Evans Brothers Story",
+      "audio_url": "https://mcdn.podbean.com/mf/web/fec49wt50sawzziw/2540859_episodes_18050543-jack-jay-evans-from-poverty-to-prosperity-the-evans-brothers-story.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/from-poverty-to-prosperity-the-evans-brothers-story/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/jack-jay-evans-from-poverty-to-prosperity-the-evans-brothers-story/",
+      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple_Jack_and_Jaya6l4h.png",
+      "summary": "Jack &amp;amp; Jay Evans \u2014 Twin Brothers, Builders, Developers &amp;amp; Breakers of Generational Cycles In this inspiring episode of Voices of OKC, Jed sits down with Jack and Jay Evans, identical twins, successful Oklahoma developers, homebuilders, and longtime supporters of City Center. Their story is one of resilience, family, hard work, and breaking generational cycles that often repeat themselves. Jack and Jay share openly about growing up with deaf parents, navigating childhood poverty, relyin...",
+      "published_at": "Tue, 25 Nov 2025 16:00:00 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "",
+      "site_path": "episodes/from-poverty-to-prosperity-the-evans-brothers-story/",
+      "site_url": "https://www.voicesofokc.com/episodes/from-poverty-to-prosperity-the-evans-brothers-story/"
+    },
+    {
+      "title": "Dignity First: Building a Culture of Hope | Julie Chappell",
+      "audio_url": "https://mcdn.podbean.com/mf/web/4wc2wjmqsi4lzouw/2540859_episodes_17900008-julie-chappell-dignity-first-building-a-culture-of-hope.mp3",
+      "episode_url": "https://www.voicesofokc.com/episodes/dignity-first-building-a-culture-of-hope-julie-chappell/",
+      "podbean_url": "https://voicesofokc.podbean.com/e/julie-chappell-dignity-first-building-a-culture-of-hope/",
+      "artwork_url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21707324/Voices_Spotify_Apple_Julie_Chappell7bosk.png",
+      "summary": "Co-Founder of City Center, Mother of the Center, and Builder of a Culture of Dignity In this powerful opening episode of Voices of OKC, Jed sits down with his wife and City Center co-founder, Julie Chappell. She is the heart, the glue, and the steady voice behind the culture of dignity that defines everything City Center does. Julie\u2019s story is one of resilience, compassion, and lived experience. She knows firsthand what it feels like to be a young mother struggling to survive. She also knows exactly what it feels like to receive help, both the right way and the wrong way. Julie shares her early life in Jones, Oklahoma, becoming a single mom in her early twenties while working, attending college, and battling food insecurity. She describes the painful day she visited a local food pantry, a day that shaped her entire philosophy of leadership. After being interrogated, judged, and handed moldy bread in a Ziploc bag, Julie walked away with a promise: no one should ever feel this way when asking for help. That vow is now the foundation of City Center\u2019s culture. Julie runs operations with a relentless commitment to dignity, making every visitor feel seen, respected, and valued. Whether she is planning a community block party, reorganizing the resource center, or personally shopping for Christmas gifts for thousands of kids, her mission is simple: to help kids succeed. Restore dignity and remind people they matter. She tells meaningful stories of families whose lives have changed because of City Center\u2019s approach, including the growing list of moms, dads, and young people who return years later as volunteers. Julie also shares one deeply moving success story. A young woman who was once affiliated with a gang discovered hope, graduated from college, earned a wrestling scholarship, and is now headed to law school to fight for kids just like her. What You Will Hear in This Episode \u2022 Julie\u2019s upbringing in Jones, Oklahoma \u2022 Becoming a single mother while in college \u2022 Navigating poverty, food insecurity, and stigma \u2022 The dehumanizing food pantry experience that changed everything \u2022 Why is dignity at the core of City Center \u2022 How the Christmas program was built from Julie\u2019s lived experiences \u2022 Behind the scenes of more than seven thousand Christmas gifts \u2022 What makes block parties, resource centers, and events so impactful \u2022 A powerful redemption story of a once-meanest kid in the building, now becoming a future attorney Key Quotes \u201cIt was not about the food. It was the way I was treated.\u201d",
+      "published_at": "Tue, 21 Oct 2025 15:00:00 -0500",
+      "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
+      "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
+      "youtube_url": "",
+      "site_path": "episodes/dignity-first-building-a-culture-of-hope-julie-chappell/",
+      "site_url": "https://www.voicesofokc.com/episodes/dignity-first-building-a-culture-of-hope-julie-chappell/"
     }
   ]
 }
