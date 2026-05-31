@@ -2417,3 +2417,9 @@ body {
     width: 100%;
   }
 }
+
+/* Persistent player buttons: uppercase labels (Episodes / Spotify / Apple / YouTube) */
+.audio-link {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
