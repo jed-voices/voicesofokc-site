@@ -2,6 +2,18 @@
   "purpose": "Manual bridge for matching Podbean episodes to YouTube videos, guest metadata, and local episode pages. The update workflow reads this before regenerating public JSON and pages.",
   "episodes": [
     {
+      "episode_number": 27,
+      "title": "Growing Hope in Oklahoma: Brooke Freeman on Farming, Faith, and Community",
+      "podbean_url": "https://voicesofokc.podbean.com/e/growing-hope-in-oklahoma-brooke-freeman-on-farming-faith-and-community/",
+      "podbean_slug": "growing-hope-in-oklahoma-brooke-freeman-on-farming-faith-and-community",
+      "youtube_url": "https://www.youtube.com/watch?v=wKdoyoswrtk",
+      "guest_name": "Brooke Freeman",
+      "theme_tags": [],
+      "site_path": "episodes/growing-hope-in-oklahoma-brooke-freeman-on-farming-faith-and-community/",
+      "site_url": "https://www.voicesofokc.com/episodes/growing-hope-in-oklahoma-brooke-freeman-on-farming-faith-and-community/",
+      "thumbnail_url": "https://i.ytimg.com/vi/wKdoyoswrtk/maxresdefault.jpg"
+    },
+    {
       "episode_number": 25,
       "title": "Before They Break: GNWY on Mental Health, Purpose & Hope",
       "podbean_url": "https://voicesofokc.podbean.com/e/before-they-break-gnwy-on-mental-health-purpose-hope/",
