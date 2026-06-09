@@ -9,10 +9,10 @@
   "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
   "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
   "youtube_url": "https://www.youtube.com/watch?v=wKdoyoswrtk",
-  "thumbnail_url": "https://i.ytimg.com/vi/wKdoyoswrtk/maxresdefault.jpg",
-  "episode_number": 27,
-  "guest_name": "Brooke Freeman",
   "site_url": "https://www.voicesofokc.com/episodes/growing-hope-in-oklahoma-brooke-freeman-on-farming-faith-and-community/",
   "site_path": "episodes/growing-hope-in-oklahoma-brooke-freeman-on-farming-faith-and-community/",
-  "updated_at": "2026-06-09 04:33 UTC"
+  "episode_number": 27,
+  "guest_name": "Brooke Freeman",
+  "thumbnail_url": "https://i.ytimg.com/vi/wKdoyoswrtk/maxresdefault.jpg",
+  "updated_at": "2026-06-09 10:02 UTC"
 }
