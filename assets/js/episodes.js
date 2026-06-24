@@ -51,10 +51,18 @@ const youtubeThumbnailFromUrl = (value) => {
 
 const isYoutubeThumbnail = (value) => /(?:i\.ytimg\.com|img\.youtube\.com)\/vi\//.test(String(value || ''));
 
+// Tier 2: accept a usable non-YouTube image (e.g. Podbean episode artwork) before the static fallback.
+const usableImage = (value) => {
+  const url = String(value || '').trim();
+  return /^https:\/\//.test(url) ? url : '';
+};
+
 const getEpisodeArtwork = (episode) => {
   return youtubeThumbnailFromUrl(episode.youtube_url)
     || (isYoutubeThumbnail(episode.thumbnail_url) ? episode.thumbnail_url : '')
     || (isYoutubeThumbnail(episode.artwork_url) ? episode.artwork_url : '')
+    || usableImage(episode.thumbnail_url)
+    || usableImage(episode.artwork_url)
     || fallbackImage;
 };
 
