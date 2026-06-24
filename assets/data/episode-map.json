@@ -2,6 +2,23 @@
   "purpose": "Manual bridge for matching Podbean episodes to YouTube videos, guest metadata, and local episode pages. The update workflow reads this before regenerating public JSON and pages.",
   "episodes": [
     {
+      "episode_number": 30,
+      "title": "What Oklahoma City Cannot Lose as It Grows with Brad Carter",
+      "podbean_url": "https://voicesofokc.podbean.com/e/what-oklahoma-city-cannot-lose-as-it-grows-with-brad-carter/",
+      "podbean_slug": "what-oklahoma-city-cannot-lose-as-it-grows-with-brad-carter",
+      "youtube_url": "https://www.youtube.com/watch?v=InMaqTgR_cU",
+      "guest_name": "Brad Carter",
+      "guest_title": "Oklahoma City's Ward 1 Councilman",
+      "theme_tags": [
+        "Civic Leadership",
+        "Community Builders",
+        "Restoration & Second Chances"
+      ],
+      "site_path": "episodes/what-oklahoma-city-cannot-lose-as-it-grows-with-brad-carter/",
+      "site_url": "https://www.voicesofokc.com/episodes/what-oklahoma-city-cannot-lose-as-it-grows-with-brad-carter/",
+      "thumbnail_url": "https://i.ytimg.com/vi/InMaqTgR_cU/maxresdefault.jpg"
+    },
+    {
       "episode_number": 27,
       "title": "Growing Hope in Oklahoma: Brooke Freeman on Farming, Faith, and Community",
       "podbean_url": "https://voicesofokc.podbean.com/e/growing-hope-in-oklahoma-brooke-freeman-on-farming-faith-and-community/",
