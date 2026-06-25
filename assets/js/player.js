@@ -56,6 +56,10 @@ const usableImage = (value) => {
   return /^https:\/\//.test(url) ? url : '';
 };
 
+// True only for the Podbean fallback tier (a usable non-YouTube https image), which gets
+// the blurred-fill treatment so square artwork doesn't pillarbox against flat navy bars.
+const needsFill = (value) => /^https:\/\//.test(String(value || '')) && !isYoutubeThumbnail(value);
+
 const isMobileViewport = () => window.matchMedia('(max-width: 680px)').matches;
 
 const hideMobilePlayer = () => {
@@ -138,6 +142,16 @@ async function loadLatestEpisode() {
       featuredImage.src = featuredArtwork;
       featuredImage.removeAttribute('srcset');
       featuredImage.alt = `${title || 'Latest episode'} artwork for VOICES of OKC`;
+      const featuredFrame = featuredImage.closest('.image-frame') || featuredImage.parentElement;
+      if (featuredFrame) {
+        if (needsFill(featuredArtwork)) {
+          featuredFrame.classList.add('is-fill-art');
+          featuredFrame.style.setProperty('--card-art', `url('${featuredArtwork}')`);
+        } else {
+          featuredFrame.classList.remove('is-fill-art');
+          featuredFrame.style.removeProperty('--card-art');
+        }
+      }
     }
 
     if (episode.spotify_url) {
