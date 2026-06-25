@@ -66,6 +66,11 @@ const getEpisodeArtwork = (episode) => {
     || fallbackImage;
 };
 
+// True only for the Podbean fallback tier (a usable non-YouTube https image). YouTube
+// thumbnails and the local static fallback are already 16:9 and render cover as before;
+// the Podbean art is often square, so it gets the blurred-fill treatment instead of flat bars.
+const needsFill = (value) => /^https:\/\//.test(String(value || '')) && !isYoutubeThumbnail(value);
+
 const stripHtml = (value) => {
   const tmp = document.createElement('div');
   tmp.innerHTML = normalizeBrandRefs(value);
@@ -168,6 +173,7 @@ const renderEpisodes = (episodes) => {
 
   archiveGrid.innerHTML = shown.map((episode, index) => {
     const artwork = getEpisodeArtwork(episode);
+    const fill = needsFill(artwork);
     const title = episode.title || `Episode ${index + 1}`;
     const summary = trimSummary(episode.summary) || 'Listen to the latest conversation from VOICES of OKC.';
     const href = buildEpisodeHref(episode);
@@ -180,7 +186,7 @@ const renderEpisodes = (episodes) => {
 
     return `
       <article class="episode-card episode-archive-card">
-        <a class="episode-card-media" href="${escapeHtml(href)}"${externalAttrs}>
+        <a class="episode-card-media${fill ? ' is-fill-art' : ''}" href="${escapeHtml(href)}"${externalAttrs}${fill ? ` style="--card-art:url('${escapeHtml(artwork)}')"` : ''}>
           <img loading="lazy" src="${escapeHtml(artwork)}" alt="${escapeHtml(title)} artwork for VOICES of OKC" width="1280" height="720" decoding="async" />
         </a>
         <div class="episode-card-body">
