@@ -9,16 +9,16 @@
   "spotify_url": "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6",
   "apple_url": "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322",
   "youtube_url": "https://www.youtube.com/watch?v=InMaqTgR_cU",
-  "guest_title": "Oklahoma City's Ward 1 Councilman",
-  "episode_number": 30,
   "site_url": "https://www.voicesofokc.com/episodes/what-oklahoma-city-cannot-lose-as-it-grows-with-brad-carter/",
   "thumbnail_url": "https://i.ytimg.com/vi/InMaqTgR_cU/maxresdefault.jpg",
-  "guest_name": "Brad Carter",
-  "site_path": "episodes/what-oklahoma-city-cannot-lose-as-it-grows-with-brad-carter/",
   "theme_tags": [
     "Civic Leadership",
     "Community Builders",
     "Restoration & Second Chances"
   ],
-  "updated_at": "2026-06-28 14:14 UTC"
+  "guest_name": "Brad Carter",
+  "guest_title": "Oklahoma City's Ward 1 Councilman",
+  "episode_number": 30,
+  "site_path": "episodes/what-oklahoma-city-cannot-lose-as-it-grows-with-brad-carter/",
+  "updated_at": "2026-06-28 19:44 UTC"
 }
