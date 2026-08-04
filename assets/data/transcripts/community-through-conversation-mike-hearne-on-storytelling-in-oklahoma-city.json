@@ -1,0 +1,4611 @@
+{
+  "episode_title": "Community Through Conversation: Mike Hearne on Storytelling in Oklahoma City",
+  "episode_slug": "community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city",
+  "source": "Published episode audio",
+  "language": "en",
+  "review_status": "machine-generated",
+  "generated_at": "2026-08-04T09:58:02+00:00",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 29.98,
+      "text": "Welcome to Voices of OKC. Thank you guys so much for joining us again this week. We tell stories of voices in Oklahoma City. We talk about leaders. We talk about people that are resilient, that have the grit at ten."
+    },
+    {
+      "start": 30.0,
+      "end": 59.98,
+      "text": "It takes to overcome and succeed in this city. So we're so grateful that you've come to hear those stories. And today's going to be a very incredible day. My good friend, Mike Hearne is with us today. So, Mike, it's so good to have you on the podcast. Thank you. How long ago did we meet? What was that like two or three years ago? I would say a couple of years ago. Yeah, Andy connected us. Yeah. And so we were at like a we were a men's breakfast. And I think I was telling my stories what it was. Yeah. And so I actually met another good friend, Jeff Moorfield, who has come on the podcast."
+    },
+    {
+      "start": 60.0,
+      "end": 90.0,
+      "text": "So, yeah, it's been great to know you, man. And I just love what you do with This is Oklahoma, the podcast, such a great platform. So many incredible stories being told. Love what you do. It actually inspired us. So that's part of the inspiration that led us to do what we're doing. So thanks a ton, man. Yeah, I'm jealous of your setup. Thank you so much. Well, we're very, very fortunate and so grateful that we get to do this. And, you know, as everybody knows, and as you know, now, you know, students are going to be helping produce this whole thing."
+    },
+    {
+      "start": 90.0,
+      "end": 101.66,
+      "text": "You know, helping develop skills like that for young people. But, man, let's get into it. Like, so tell me about you, Mike. I mean, I love the accent. So we got to go there. Like, where were you born? What was that like? And what brought you to America?"
+    },
+    {
+      "start": 101.66,
+      "end": 120.18,
+      "text": "Yeah. So originally from Wales in the UK, South Wales, specifically town called Bridge End. I grew up, you know, playing a lot of sports, football, soccer for Americans, football, golf, a little bit of rugby. I only played a little bit of rugby until I started getting tackled and hurt. I was like, golf's probably better for me."
+    },
+    {
+      "start": 120.18,
+      "end": 149.24,
+      "text": "But yeah, you know, grew up back home. I have a younger brother who's five years younger than me. Mom's a nurse. Dad is in the glazing space. So kind of windows doors. Oh, cool. Engineer kind of that way. And so, yeah, I grew up, you know, we never realized kind of similar to a lot of people. You never realize what you have and don't have. You just know that like your parents are doing really good things for you and never go without. And, you know, we did one family vacation every year and had a great time. And, you know, just like fortunate to have the opportunities."
+    },
+    {
+      "start": 149.24,
+      "end": 178.54,
+      "text": "And now I understand kind of the work that my parents both put in and dad worked kind of a side gig, you know, to pay for us and pay for me to go play golf, pay for my brother to go to university and, you know, do my brother was into field hockey and, you know, just things you don't realize, right? When you're growing up and you're a teenager. And I definitely, I kind of realized young, 10, 11, 12 years old that I was a decent golfer, especially in my area. And I definitely had that chip on my shoulder. I'm sure it's funny for people to listen and know me from that time."
+    },
+    {
+      "start": 178.54,
+      "end": 180.92,
+      "text": "Like I walked around thinking I was the man, right?"
+    },
+    {
+      "start": 180.92,
+      "end": 181.46,
+      "text": "That's awesome."
+    },
+    {
+      "start": 181.46,
+      "end": 182.6,
+      "text": "At 12 years old too, right?"
+    },
+    {
+      "start": 182.7,
+      "end": 184.22,
+      "text": "Which is going through that phase."
+    },
+    {
+      "start": 184.36,
+      "end": 189.38,
+      "text": "Do you think the golf in the UK is more, is there a different culture there for that?"
+    },
+    {
+      "start": 189.5,
+      "end": 191.28,
+      "text": "Absolutely. Yeah. It's a lot more accessible."
+    },
+    {
+      "start": 191.5,
+      "end": 191.6,
+      "text": "Sure."
+    },
+    {
+      "start": 191.74,
+      "end": 195.5,
+      "text": "I think country club culture out here is very hard to break into. It's very expensive."
+    },
+    {
+      "start": 196.22,
+      "end": 205.18,
+      "text": "We do have great public golf courses here, but back home there was one or two public golf courses, but they're mainly clubs, but their membership is very accessible."
+    },
+    {
+      "start": 205.18,
+      "end": 205.66,
+      "text": "Oh, okay."
+    },
+    {
+      "start": 205.78,
+      "end": 212.58,
+      "text": "And so I joined our local golf club on my eighth birthday because you could only join after you turned eight."
+    },
+    {
+      "start": 212.72,
+      "end": 213.0,
+      "text": "Wow."
+    },
+    {
+      "start": 213.08,
+      "end": 219.66,
+      "text": "So joined my local golf club at eight. My dad kind of started golf roughly six to eight months before I did as well."
+    },
+    {
+      "start": 219.84,
+      "end": 227.22,
+      "text": "So he was getting into it. My granddad's, both of them were into it. And so that kind of got us started in golf and I just kind of fell in love with it."
+    },
+    {
+      "start": 227.26,
+      "end": 231.2,
+      "text": "I was naturally good at it. I enjoyed practicing a lot. I wanted to get better."
+    },
+    {
+      "start": 231.2,
+      "end": 238.2,
+      "text": "So, um, you know, I, I had a lot of kind of, I wouldn't say grief, but, you know, people in my high school, you know, like, Oh, you're the golfer."
+    },
+    {
+      "start": 238.26,
+      "end": 246.12,
+      "text": "You're playing the old man's sport, you know, and now they're all playing golf, but they were all kind of like the jocks playing football and rugby and running around and, you know, going to parties and stuff."
+    },
+    {
+      "start": 246.12,
+      "end": 252.64,
+      "text": "And I played golf early Saturday morning and Sunday mornings and didn't really party much in high school because I was kind of focused on golf and it worked out."
+    },
+    {
+      "start": 252.64,
+      "end": 259.42,
+      "text": "But yeah, that's awesome. And you actually recently, you got to play a pro tournament, didn't you? Or like an amateur?"
+    },
+    {
+      "start": 259.56,
+      "end": 263.44,
+      "text": "Yeah. So I qualified for the USM last year, which was the first time ever."
+    },
+    {
+      "start": 263.6,
+      "end": 264.54,
+      "text": "That's a big deal."
+    },
+    {
+      "start": 264.84,
+      "end": 271.34,
+      "text": "Yeah. Yeah. It was, it was amazing. Had a great experience, went through two qualifiers, a local one and a regional one in Texas."
+    },
+    {
+      "start": 271.34,
+      "end": 282.9,
+      "text": "And immediately, you know, you, there was 11 spots locally. And then there was, which I got through in a playoff. And then there was seven spots in the regional one. I finished fifth in that one."
+    },
+    {
+      "start": 282.9,
+      "end": 283.18,
+      "text": "Okay."
+    },
+    {
+      "start": 283.56,
+      "end": 293.76,
+      "text": "Kind of an out of body experience, kind of got hot in the back nine, made some putts. And then, you know, a month later, I'm in San Francisco playing at the Olympic club in the US amateur around the best amateurs in the world."
+    },
+    {
+      "start": 293.76,
+      "end": 301.6,
+      "text": "And at the age of 35, I'm like, I know why I'm not a professional golfer anymore, you know, or at all. Right. Those guys are all in, I'm sure."
+    },
+    {
+      "start": 301.7,
+      "end": 307.96,
+      "text": "Oh, they were incredible. Yeah. I was fortunate to play a practice round with three of the guys who were on the national championship winning team from Oklahoma state."
+    },
+    {
+      "start": 308.1,
+      "end": 309.06,
+      "text": "Wow. That's cool."
+    },
+    {
+      "start": 309.06,
+      "end": 319.26,
+      "text": "And met their coach and the three players. And, you know, I get on the tee box and my caddy's like, well, he's ranked third in the world. He's ranked fourth in the world and he's ranked 27th and you're not ranked."
+    },
+    {
+      "start": 319.26,
+      "end": 323.36,
+      "text": "And I was like, yeah, you know, but great experience."
+    },
+    {
+      "start": 323.36,
+      "end": 325.0,
+      "text": "And you're probably the oldest guy there too."
+    },
+    {
+      "start": 325.0,
+      "end": 330.38,
+      "text": "One of the oldest guys to be there. Yeah, absolutely. Who had qualified to go. But yeah, I mean, what an experience."
+    },
+    {
+      "start": 330.54,
+      "end": 338.82,
+      "text": "That's very cool, man. Well, I want to like mention something you talked about, but so you played golf and you got really involved in that. You found out you had a natural gift for it."
+    },
+    {
+      "start": 338.82,
+      "end": 344.22,
+      "text": "And, you know, we, we work with a lot of students here that have a lot of challenges or challenges they are facing."
+    },
+    {
+      "start": 344.62,
+      "end": 350.26,
+      "text": "So I want to just ask you, like, how critical was that to you for, you know, giving you some direction in life?"
+    },
+    {
+      "start": 350.3,
+      "end": 355.54,
+      "text": "Maybe you weren't going to fly off the tracks like some people do, but do you feel like that gave you some direction in life?"
+    },
+    {
+      "start": 355.54,
+      "end": 358.16,
+      "text": "And how would that apply to us here at city center?"
+    },
+    {
+      "start": 358.38,
+      "end": 363.8,
+      "text": "Yeah, absolutely. It was something that I think once you understand, you have a little bit of natural talent, right."
+    },
+    {
+      "start": 363.8,
+      "end": 367.78,
+      "text": "Or something excites you or you enjoy going out when the weather isn't perfect, right?"
+    },
+    {
+      "start": 367.78,
+      "end": 375.04,
+      "text": "Like, you know, when, when there's days where, you know, and wrestlers, you know, athletes kind of the day, it's never a perfect day to work out, but they still do it."
+    },
+    {
+      "start": 375.08,
+      "end": 380.3,
+      "text": "And we look at all the best players in the world and, you know, the repetitions and putting in the work is definitely there."
+    },
+    {
+      "start": 380.3,
+      "end": 387.26,
+      "text": "And I just had something that I had a little bit of success early on, which kind of gave me the bug a little bit and had great support system."
+    },
+    {
+      "start": 387.48,
+      "end": 389.6,
+      "text": "I also had a great group of guys at the golf club."
+    },
+    {
+      "start": 389.6,
+      "end": 396.84,
+      "text": "So there's about 15 of us and I was one of the youngest kids, if you will, at the club out of the 15."
+    },
+    {
+      "start": 397.12,
+      "end": 399.58,
+      "text": "And so we, we had a great group that would always go play golf together."
+    },
+    {
+      "start": 399.66,
+      "end": 400.08,
+      "text": "Oh, okay."
+    },
+    {
+      "start": 400.14,
+      "end": 402.24,
+      "text": "All summer long, you know, mom and dad drop us off."
+    },
+    {
+      "start": 402.48,
+      "end": 405.6,
+      "text": "And it's funny, like we still have the same group text today."
+    },
+    {
+      "start": 405.68,
+      "end": 406.16,
+      "text": "That's awesome."
+    },
+    {
+      "start": 406.16,
+      "end": 409.7,
+      "text": "You know, and I'm like the youngest at 35 and they're all, you know, getting married, having kids."
+    },
+    {
+      "start": 409.7,
+      "end": 411.2,
+      "text": "And we're still kind of playing golf."
+    },
+    {
+      "start": 411.92,
+      "end": 416.74,
+      "text": "That's probably one of the things I do miss from back home is that community of guys, because we kind of grew up together playing golf."
+    },
+    {
+      "start": 416.74,
+      "end": 424.48,
+      "text": "But yeah, having something to focus on and, you know, friends are going out on the weekends and, you know, I definitely did my share of enjoying myself, you know, back home."
+    },
+    {
+      "start": 424.48,
+      "end": 431.64,
+      "text": "But I was always focused on, you know, I have to play golf tomorrow morning, whether it's a competition and, or just getting out and playing."
+    },
+    {
+      "start": 431.78,
+      "end": 433.76,
+      "text": "I played a lot with my granddad on Sunday mornings."
+    },
+    {
+      "start": 433.88,
+      "end": 435.08,
+      "text": "Yeah, that's really good insight."
+    },
+    {
+      "start": 435.1,
+      "end": 435.38,
+      "text": "I like to play early."
+    },
+    {
+      "start": 435.7,
+      "end": 442.34,
+      "text": "Yeah, that's really good insight, you know, because that's our goal here is to find those things that, you know, young people can be interested in."
+    },
+    {
+      "start": 442.34,
+      "end": 450.8,
+      "text": "And, and I think sometimes individual sports are great because, you know, you're, they don't have to worry about any external, you know, it's you competing against you, you know?"
+    },
+    {
+      "start": 450.8,
+      "end": 453.04,
+      "text": "And so that sometimes that's really good for you, I think."
+    },
+    {
+      "start": 453.04,
+      "end": 454.28,
+      "text": "So that's awesome, man."
+    },
+    {
+      "start": 454.56,
+      "end": 458.32,
+      "text": "So you, so you, when did you actually come to America?"
+    },
+    {
+      "start": 458.32,
+      "end": 459.18,
+      "text": "How long ago was that?"
+    },
+    {
+      "start": 459.34,
+      "end": 459.54,
+      "text": "Yeah."
+    },
+    {
+      "start": 459.58,
+      "end": 461.44,
+      "text": "So I got here in August of 2011."
+    },
+    {
+      "start": 461.84,
+      "end": 462.14,
+      "text": "Okay."
+    },
+    {
+      "start": 462.24,
+      "end": 463.86,
+      "text": "So I was born in 1990."
+    },
+    {
+      "start": 464.18,
+      "end": 468.12,
+      "text": "So I came here just for my 21st birthday, which is late as a freshman."
+    },
+    {
+      "start": 468.12,
+      "end": 468.52,
+      "text": "Okay."
+    },
+    {
+      "start": 468.68,
+      "end": 473.7,
+      "text": "I graduated high school in 2009 and that had committed to go to a university in Florida."
+    },
+    {
+      "start": 473.9,
+      "end": 474.14,
+      "text": "Okay."
+    },
+    {
+      "start": 474.26,
+      "end": 479.18,
+      "text": "The company that my dad was working for that summer after the period I'd committed to went out of business."
+    },
+    {
+      "start": 479.36,
+      "end": 480.82,
+      "text": "So dad doesn't have a job."
+    },
+    {
+      "start": 480.98,
+      "end": 481.96,
+      "text": "Mom's working as a nurse."
+    },
+    {
+      "start": 482.06,
+      "end": 482.2,
+      "text": "Yeah."
+    },
+    {
+      "start": 482.26,
+      "end": 487.54,
+      "text": "We got, you know, me and my younger brother and just made decisions to like, Hey, we need to put this off for a little bit."
+    },
+    {
+      "start": 487.66,
+      "end": 495.88,
+      "text": "I went to graduate high school, went to work at the local golf course and honestly like lived the best two years of my life from age 19 to 20."
+    },
+    {
+      "start": 496.02,
+      "end": 497.78,
+      "text": "You know, I'm working at the local golf course."
+    },
+    {
+      "start": 497.78,
+      "end": 501.96,
+      "text": "I played golf every morning, you know, and I worked kind of behind the bar and on the beverage side."
+    },
+    {
+      "start": 502.06,
+      "end": 504.06,
+      "text": "And so I bar didn't open till 11 a.m."
+    },
+    {
+      "start": 504.06,
+      "end": 506.26,
+      "text": "And so I practiced every morning, every night."
+    },
+    {
+      "start": 506.74,
+      "end": 511.14,
+      "text": "And, you know, and I finally like there came a point, I'm like, I can't, this is not a career for me."
+    },
+    {
+      "start": 511.22,
+      "end": 512.1,
+      "text": "I need to reapply."
+    },
+    {
+      "start": 512.26,
+      "end": 520.18,
+      "text": "And so reapplied late, reapplied in May of 2011 and had one phone call, which was from Southern Nazarene University, which is right down the street."
+    },
+    {
+      "start": 520.18,
+      "end": 521.32,
+      "text": "Right down the street from us."
+    },
+    {
+      "start": 521.5,
+      "end": 522.08,
+      "text": "That's awesome."
+    },
+    {
+      "start": 522.08,
+      "end": 522.7,
+      "text": "One offer."
+    },
+    {
+      "start": 522.84,
+      "end": 528.3,
+      "text": "And I remember the Skype call from my coach and I thought the connection was really bad because he was speaking so slow."
+    },
+    {
+      "start": 529.26,
+      "end": 530.64,
+      "text": "That Oklahoma accent got you."
+    },
+    {
+      "start": 530.64,
+      "end": 531.0,
+      "text": "Yeah."
+    },
+    {
+      "start": 531.1,
+      "end": 536.54,
+      "text": "But he offered me a 50 cent scholarship to come out that fall and didn't have enough money to come on a visit."
+    },
+    {
+      "start": 536.68,
+      "end": 537.68,
+      "text": "We're just like, yeah, let's go."
+    },
+    {
+      "start": 537.76,
+      "end": 538.66,
+      "text": "Like, where is Oklahoma?"
+    },
+    {
+      "start": 538.84,
+      "end": 539.8,
+      "text": "What is it Nazarene?"
+    },
+    {
+      "start": 539.94,
+      "end": 540.62,
+      "text": "I had no idea."
+    },
+    {
+      "start": 541.22,
+      "end": 541.78,
+      "text": "That's amazing."
+    },
+    {
+      "start": 541.78,
+      "end": 545.86,
+      "text": "You know, me and my dad came out here and, yeah, I found out."
+    },
+    {
+      "start": 545.94,
+      "end": 546.56,
+      "text": "I landed."
+    },
+    {
+      "start": 546.86,
+      "end": 548.52,
+      "text": "My golf clubs, I think, didn't make the flight."
+    },
+    {
+      "start": 548.66,
+      "end": 549.56,
+      "text": "They came the next day."
+    },
+    {
+      "start": 549.84,
+      "end": 551.54,
+      "text": "It's 105 degrees outside."
+    },
+    {
+      "start": 551.76,
+      "end": 553.88,
+      "text": "You know, I'm like, what have I done to myself?"
+    },
+    {
+      "start": 553.9,
+      "end": 554.56,
+      "text": "What is going on?"
+    },
+    {
+      "start": 554.82,
+      "end": 560.64,
+      "text": "And then my coach tells me, he's like, we've had some issues with the NCAA or with the NAIA clearinghouse."
+    },
+    {
+      "start": 560.74,
+      "end": 562.34,
+      "text": "You're not eligible for your freshman year."
+    },
+    {
+      "start": 562.46,
+      "end": 563.22,
+      "text": "So you can't play."
+    },
+    {
+      "start": 563.52,
+      "end": 564.44,
+      "text": "Oh, my gosh."
+    },
+    {
+      "start": 564.6,
+      "end": 568.04,
+      "text": "And I'm like 4,000 miles from home, about to turn 21."
+    },
+    {
+      "start": 568.32,
+      "end": 568.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 568.58,
+      "end": 569.58,
+      "text": "My dad's just left."
+    },
+    {
+      "start": 569.58,
+      "end": 573.44,
+      "text": "Mom and dad are home, you know, and this is way before, obviously, FaceTime and iPhone."
+    },
+    {
+      "start": 573.64,
+      "end": 573.8,
+      "text": "Yeah."
+    },
+    {
+      "start": 573.8,
+      "end": 574.48,
+      "text": "I didn't have an iPhone."
+    },
+    {
+      "start": 574.6,
+      "end": 578.84,
+      "text": "I've got like this, you know, pay phone that I just kind of, you know, bought from Walmart."
+    },
+    {
+      "start": 579.04,
+      "end": 581.76,
+      "text": "And I'm just like, I really struggled that first month."
+    },
+    {
+      "start": 581.84,
+      "end": 582.06,
+      "text": "Sure."
+    },
+    {
+      "start": 582.06,
+      "end": 583.42,
+      "text": "Really kind of missed home a lot."
+    },
+    {
+      "start": 583.66,
+      "end": 587.9,
+      "text": "And, you know, I had a girlfriend at the time in high school and kind of obviously missed that."
+    },
+    {
+      "start": 588.06,
+      "end": 592.3,
+      "text": "And, you know, everything was kind of great Monday to Friday before six o'clock."
+    },
+    {
+      "start": 592.46,
+      "end": 597.02,
+      "text": "But then after six o'clock, the six hour time difference back home, all my friends were in bed and gone to sleep."
+    },
+    {
+      "start": 597.02,
+      "end": 598.24,
+      "text": "So you feel isolated."
+    },
+    {
+      "start": 598.24,
+      "end": 599.94,
+      "text": "Oh, I felt totally isolated."
+    },
+    {
+      "start": 600.28,
+      "end": 603.36,
+      "text": "And I eventually, you know, I had some really good friends."
+    },
+    {
+      "start": 603.58,
+      "end": 609.04,
+      "text": "And one of my host families, who was my roommate's parents, took me to Thanksgiving for the first time."
+    },
+    {
+      "start": 609.04,
+      "end": 609.48,
+      "text": "Oh, that's cool."
+    },
+    {
+      "start": 609.76,
+      "end": 610.58,
+      "text": "Great experience."
+    },
+    {
+      "start": 610.76,
+      "end": 612.66,
+      "text": "You know, like there's 30 other family members."
+    },
+    {
+      "start": 612.7,
+      "end": 614.04,
+      "text": "And I'm back around family."
+    },
+    {
+      "start": 614.22,
+      "end": 614.98,
+      "text": "And it was weird, too."
+    },
+    {
+      "start": 615.12,
+      "end": 615.86,
+      "text": "It feels familiar."
+    },
+    {
+      "start": 616.06,
+      "end": 616.32,
+      "text": "Yeah."
+    },
+    {
+      "start": 616.46,
+      "end": 618.18,
+      "text": "But the other thing, too, it was a weird connection."
+    },
+    {
+      "start": 618.36,
+      "end": 619.64,
+      "text": "They had family dogs running around."
+    },
+    {
+      "start": 619.64,
+      "end": 620.06,
+      "text": "Oh, yeah."
+    },
+    {
+      "start": 620.06,
+      "end": 623.18,
+      "text": "And I'm just like the fact that, like, I have a connection to, like, an animal."
+    },
+    {
+      "start": 623.36,
+      "end": 624.68,
+      "text": "We've always had dogs growing up."
+    },
+    {
+      "start": 624.8,
+      "end": 627.22,
+      "text": "And that was kind of like a strange thing that kind of settled me."
+    },
+    {
+      "start": 627.9,
+      "end": 630.54,
+      "text": "But, yeah, I mean, it was miserable my first year."
+    },
+    {
+      "start": 630.76,
+      "end": 633.56,
+      "text": "And definitely had – we had a very international team."
+    },
+    {
+      "start": 633.68,
+      "end": 633.96,
+      "text": "Okay."
+    },
+    {
+      "start": 634.16,
+      "end": 638.48,
+      "text": "It was me, guys from South Africa, Sweden, Scotland, England, Colombia."
+    },
+    {
+      "start": 638.48,
+      "end": 638.82,
+      "text": "Oh, that's pretty cool."
+    },
+    {
+      "start": 638.82,
+      "end": 640.58,
+      "text": "That really helped a little bit, too."
+    },
+    {
+      "start": 641.14,
+      "end": 641.84,
+      "text": "And so –"
+    },
+    {
+      "start": 641.84,
+      "end": 643.74,
+      "text": "You all have that same thing in common, I'm sure."
+    },
+    {
+      "start": 643.74,
+      "end": 644.34,
+      "text": "For sure, yeah."
+    },
+    {
+      "start": 644.4,
+      "end": 645.9,
+      "text": "My assistant coach was from South Africa."
+    },
+    {
+      "start": 646.08,
+      "end": 647.72,
+      "text": "And I turned 21 in September."
+    },
+    {
+      "start": 648.08,
+      "end": 650.52,
+      "text": "And, you know, I can say this now because I'm out of school."
+    },
+    {
+      "start": 650.68,
+      "end": 653.5,
+      "text": "But at Southern Nazarene, you're probably not allowed to go drinking and partying."
+    },
+    {
+      "start": 653.74,
+      "end": 656.74,
+      "text": "But he did say to me, he's like, we're going to go and have a beer for your 21st birthday."
+    },
+    {
+      "start": 656.86,
+      "end": 657.58,
+      "text": "Don't tell anybody."
+    },
+    {
+      "start": 657.7,
+      "end": 657.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 657.98,
+      "end": 658.9,
+      "text": "I was like, yes, sir."
+    },
+    {
+      "start": 658.92,
+      "end": 659.14,
+      "text": "Okay."
+    },
+    {
+      "start": 659.3,
+      "end": 659.64,
+      "text": "Yes, sir."
+    },
+    {
+      "start": 659.64,
+      "end": 661.44,
+      "text": "So that night, and it was so simple."
+    },
+    {
+      "start": 661.64,
+      "end": 666.04,
+      "text": "You know, we just – just going out and, you know, because obviously the legal drinking age is 18 back home."
+    },
+    {
+      "start": 666.04,
+      "end": 671.02,
+      "text": "And kind of like the camaraderie and the group and the community that you build when you simply –"
+    },
+    {
+      "start": 671.02,
+      "end": 672.84,
+      "text": "And I'm not saying, you know, we didn't go out and get hammered."
+    },
+    {
+      "start": 672.92,
+      "end": 674.38,
+      "text": "You go out and have a couple of beers."
+    },
+    {
+      "start": 674.52,
+      "end": 674.7,
+      "text": "No."
+    },
+    {
+      "start": 674.86,
+      "end": 675.56,
+      "text": "Watch a game."
+    },
+    {
+      "start": 675.72,
+      "end": 676.68,
+      "text": "Celebrate someone's birthday."
+    },
+    {
+      "start": 676.78,
+      "end": 677.46,
+      "text": "Whatever it is."
+    },
+    {
+      "start": 678.4,
+      "end": 681.1,
+      "text": "You know, and that really helped, too."
+    },
+    {
+      "start": 681.18,
+      "end": 683.62,
+      "text": "I knew that, like, I wasn't just an outcast."
+    },
+    {
+      "start": 683.76,
+      "end": 686.1,
+      "text": "Coming here, didn't grow up in a religious family."
+    },
+    {
+      "start": 686.24,
+      "end": 690.62,
+      "text": "And going to a Southern Nazarene where it's like, you know, if you drink, like, you're getting kicked out of school and sent home."
+    },
+    {
+      "start": 690.78,
+      "end": 692.4,
+      "text": "It's a different world in Oklahoma, too."
+    },
+    {
+      "start": 692.4,
+      "end": 693.68,
+      "text": "So that really helped a little bit."
+    },
+    {
+      "start": 693.68,
+      "end": 697.66,
+      "text": "But the biggest shift for me, I went home that Christmas."
+    },
+    {
+      "start": 698.04,
+      "end": 698.08,
+      "text": "Okay."
+    },
+    {
+      "start": 698.16,
+      "end": 703.2,
+      "text": "And I had a countdown on my phone timer of, like, how many days it is to go home, which started the day I got here."
+    },
+    {
+      "start": 703.64,
+      "end": 712.22,
+      "text": "And so when I finally got home, you know, saw my parents, saw my family, younger brother, and my group of mates that I would kind of go and hang out with."
+    },
+    {
+      "start": 712.84,
+      "end": 718.04,
+      "text": "And, you know, around home, going out and having a few drinks and celebrating Christmas, I realized that I hadn't missed anything."
+    },
+    {
+      "start": 718.04,
+      "end": 722.52,
+      "text": "And I realized that my friends are still doing, you know, they're still working."
+    },
+    {
+      "start": 722.66,
+      "end": 725.92,
+      "text": "They've got their own lives, but they're, you know, they missed nothing."
+    },
+    {
+      "start": 726.14,
+      "end": 726.24,
+      "text": "Right."
+    },
+    {
+      "start": 726.62,
+      "end": 730.28,
+      "text": "And so I kind of had a bit of a mind switch when I came back that second semester."
+    },
+    {
+      "start": 730.28,
+      "end": 733.16,
+      "text": "If I have an opportunity here, you know, let's really kind of."
+    },
+    {
+      "start": 733.3,
+      "end": 734.26,
+      "text": "Got to go all in."
+    },
+    {
+      "start": 734.38,
+      "end": 734.52,
+      "text": "Yeah."
+    },
+    {
+      "start": 734.74,
+      "end": 735.04,
+      "text": "Yeah."
+    },
+    {
+      "start": 735.24,
+      "end": 735.56,
+      "text": "So."
+    },
+    {
+      "start": 735.78,
+      "end": 736.74,
+      "text": "That's really cool, man."
+    },
+    {
+      "start": 736.82,
+      "end": 736.98,
+      "text": "Yeah."
+    },
+    {
+      "start": 737.06,
+      "end": 740.26,
+      "text": "So Southern Nazarene, what was your major that you pursued?"
+    },
+    {
+      "start": 740.4,
+      "end": 740.62,
+      "text": "Yeah."
+    },
+    {
+      "start": 740.68,
+      "end": 743.34,
+      "text": "So originally it was business because I just like, sure, let's do that."
+    },
+    {
+      "start": 743.36,
+      "end": 744.88,
+      "text": "I didn't know what I wanted to do."
+    },
+    {
+      "start": 744.96,
+      "end": 745.5,
+      "text": "Like most people."
+    },
+    {
+      "start": 745.5,
+      "end": 746.16,
+      "text": "That's kind of a default."
+    },
+    {
+      "start": 746.16,
+      "end": 746.64,
+      "text": "Yeah."
+    },
+    {
+      "start": 746.64,
+      "end": 752.88,
+      "text": "And then I, then I moved into, I had a great marketing professor called Dave O'Bannon that,"
+    },
+    {
+      "start": 753.08,
+      "end": 757.86,
+      "text": "you know, said, Hey, like, I think you, you're naturally, you know, have a little bit of charisma"
+    },
+    {
+      "start": 757.86,
+      "end": 759.74,
+      "text": "and I think you'd be great in sales and marketing."
+    },
+    {
+      "start": 759.74,
+      "end": 761.38,
+      "text": "Do you enjoy building projects?"
+    },
+    {
+      "start": 761.38,
+      "end": 761.58,
+      "text": "Yeah."
+    },
+    {
+      "start": 761.66,
+      "end": 764.14,
+      "text": "You know, so that's kind of, I eventually graduated with a marketing."
+    },
+    {
+      "start": 764.22,
+      "end": 765.02,
+      "text": "Very cool, man."
+    },
+    {
+      "start": 765.62,
+      "end": 768.82,
+      "text": "Well, I really love, this is Oklahoma, man."
+    },
+    {
+      "start": 768.82,
+      "end": 769.86,
+      "text": "It's such a great podcast."
+    },
+    {
+      "start": 769.86,
+      "end": 772.48,
+      "text": "I love the, the guests that you bring on."
+    },
+    {
+      "start": 772.56,
+      "end": 775.56,
+      "text": "I love your just thoughtful questions and, and the way you interview people."
+    },
+    {
+      "start": 775.56,
+      "end": 781.14,
+      "text": "So I'm definitely taking notes on that for, for myself personally, but yeah."
+    },
+    {
+      "start": 781.2,
+      "end": 782.68,
+      "text": "So how did that get started?"
+    },
+    {
+      "start": 782.72,
+      "end": 784.5,
+      "text": "That's cause that's a very unique podcast."
+    },
+    {
+      "start": 784.94,
+      "end": 785.38,
+      "text": "Yeah."
+    },
+    {
+      "start": 785.38,
+      "end": 787.34,
+      "text": "I mean, I, so I graduated 2015."
+    },
+    {
+      "start": 787.34,
+      "end": 792.9,
+      "text": "Uh, I got into residential real estate as a day job, um, had a visa to stay."
+    },
+    {
+      "start": 793.16,
+      "end": 799.6,
+      "text": "And I, at that first kind of one year of, of, of real estate, I didn't really want to"
+    },
+    {
+      "start": 799.6,
+      "end": 800.44,
+      "text": "work a nine to five."
+    },
+    {
+      "start": 800.44,
+      "end": 802.54,
+      "text": "I didn't want to like choose a career and dive right in."
+    },
+    {
+      "start": 803.02,
+      "end": 805.78,
+      "text": "A lot of people back home choose that first year as a gap year."
+    },
+    {
+      "start": 805.78,
+      "end": 806.22,
+      "text": "Right."
+    },
+    {
+      "start": 806.22,
+      "end": 809.88,
+      "text": "Have some experience, you know, go get a little bit of a job, make a little bit of money, but"
+    },
+    {
+      "start": 809.88,
+      "end": 810.84,
+      "text": "kind of enjoy yourself."
+    },
+    {
+      "start": 810.84,
+      "end": 814.68,
+      "text": "And, you know, you just spent four years in university, you know, go maybe travel a little"
+    },
+    {
+      "start": 814.68,
+      "end": 815.22,
+      "text": "bit or whatever."
+    },
+    {
+      "start": 815.22,
+      "end": 820.32,
+      "text": "So got into real estate and had an okay first year and then a decent second year."
+    },
+    {
+      "start": 820.98,
+      "end": 826.74,
+      "text": "Um, and 2017 came around and I, I was working part-time at Oklahoma city golf and country"
+    },
+    {
+      "start": 826.74,
+      "end": 827.06,
+      "text": "club."
+    },
+    {
+      "start": 827.06,
+      "end": 830.52,
+      "text": "I was working part-time there cause I, you know, just graduated, wasn't, didn't have"
+    },
+    {
+      "start": 830.52,
+      "end": 831.5,
+      "text": "enough money to buy a membership."
+    },
+    {
+      "start": 831.74,
+      "end": 831.9,
+      "text": "Yeah."
+    },
+    {
+      "start": 831.94,
+      "end": 836.86,
+      "text": "And I had great perks obviously of working out there, played a lot of golf, but there's"
+    },
+    {
+      "start": 836.86,
+      "end": 837.54,
+      "text": "something in me."
+    },
+    {
+      "start": 837.54,
+      "end": 840.02,
+      "text": "I think that I was taught from a young age was just building connection."
+    },
+    {
+      "start": 840.02,
+      "end": 841.3,
+      "text": "I think golf helps that too."
+    },
+    {
+      "start": 841.38,
+      "end": 844.66,
+      "text": "You're playing golf with a lot of older people that, you know, you're comfortable around."
+    },
+    {
+      "start": 844.74,
+      "end": 844.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 844.86,
+      "end": 849.36,
+      "text": "So I built some great connections at Oklahoma city, um, ended up getting a job in or offered"
+    },
+    {
+      "start": 849.36,
+      "end": 850.44,
+      "text": "a job in commercial real estate."
+    },
+    {
+      "start": 850.5,
+      "end": 850.78,
+      "text": "Okay."
+    },
+    {
+      "start": 851.0,
+      "end": 852.74,
+      "text": "Did that for six months, hated it."
+    },
+    {
+      "start": 852.92,
+      "end": 856.6,
+      "text": "Uh, just wasn't, it was in an office, wasn't a good fit for me or my personality."
+    },
+    {
+      "start": 856.6,
+      "end": 858.62,
+      "text": "And so I got fired from that job."
+    },
+    {
+      "start": 859.16,
+      "end": 862.66,
+      "text": "Um, and I remember driving home, it was just like, what am I going to do now?"
+    },
+    {
+      "start": 862.72,
+      "end": 866.08,
+      "text": "And I still have done the real estate thing, but not commercial real estate specifically."
+    },
+    {
+      "start": 866.42,
+      "end": 871.52,
+      "text": "And so I came across a video and it was talking about social media and how, you know, photography"
+    },
+    {
+      "start": 871.52,
+      "end": 876.3,
+      "text": "and social media is kind of like the new way of generating, you know, um, leads businesses"
+    },
+    {
+      "start": 876.3,
+      "end": 877.28,
+      "text": "and creating a community."
+    },
+    {
+      "start": 877.66,
+      "end": 883.76,
+      "text": "And so I just kind of dove into that and created, created the Instagram in 2017, uh, around June"
+    },
+    {
+      "start": 883.76,
+      "end": 889.28,
+      "text": "of 2017, um, and then created the podcast, uh, May of 2018, almost a year later."
+    },
+    {
+      "start": 889.66,
+      "end": 889.76,
+      "text": "Wow."
+    },
+    {
+      "start": 889.84,
+      "end": 894.2,
+      "text": "So the podcast came about and the goal was, you know, build community, tell stories, uh, and"
+    },
+    {
+      "start": 894.2,
+      "end": 895.74,
+      "text": "generate leads to sell houses."
+    },
+    {
+      "start": 896.26,
+      "end": 900.72,
+      "text": "Um, and I had some friends, fortunately gave me the equipment from Bethany children, uh,"
+    },
+    {
+      "start": 900.72,
+      "end": 905.46,
+      "text": "Bethany, um, first church down the street, BFC, right next to SNU, um, Alan Brown, who's"
+    },
+    {
+      "start": 905.46,
+      "end": 906.7,
+      "text": "still there is doing great job."
+    },
+    {
+      "start": 906.76,
+      "end": 910.36,
+      "text": "He, he gave me the equipment to go out and record five episodes, see how you feel."
+    },
+    {
+      "start": 910.36,
+      "end": 912.54,
+      "text": "And then we'll roll from there and get you started."
+    },
+    {
+      "start": 913.3,
+      "end": 914.34,
+      "text": "So grateful for that."
+    },
+    {
+      "start": 914.68,
+      "end": 914.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 914.82,
+      "end": 916.5,
+      "text": "And so I started that way."
+    },
+    {
+      "start": 916.58,
+      "end": 920.08,
+      "text": "And then the original goal was to put a cheesy real estate ad at the beginning of every podcast,"
+    },
+    {
+      "start": 920.36,
+      "end": 920.56,
+      "text": "right?"
+    },
+    {
+      "start": 920.6,
+      "end": 923.36,
+      "text": "You know, I, Mike, a real estate agent, you know, do you want to buy and sell?"
+    },
+    {
+      "start": 923.44,
+      "end": 924.02,
+      "text": "Whatever it is."
+    },
+    {
+      "start": 924.26,
+      "end": 924.34,
+      "text": "Yeah."
+    },
+    {
+      "start": 924.46,
+      "end": 927.6,
+      "text": "Um, and I just sat there, I did five really impactful episodes."
+    },
+    {
+      "start": 927.72,
+      "end": 929.5,
+      "text": "I realized that it's not about real estate."
+    },
+    {
+      "start": 929.6,
+      "end": 930.34,
+      "text": "It's not about me."
+    },
+    {
+      "start": 930.4,
+      "end": 931.1,
+      "text": "It's about the guest."
+    },
+    {
+      "start": 931.2,
+      "end": 931.44,
+      "text": "Yeah."
+    },
+    {
+      "start": 931.62,
+      "end": 937.42,
+      "text": "And I'm glad fortunately that I did that because not on any of the close to 800 episodes in"
+    },
+    {
+      "start": 937.42,
+      "end": 940.3,
+      "text": "now, there's been no specific real estate advertisement."
+    },
+    {
+      "start": 940.66,
+      "end": 941.08,
+      "text": "That's good."
+    },
+    {
+      "start": 941.14,
+      "end": 941.54,
+      "text": "That's cool."
+    },
+    {
+      "start": 941.74,
+      "end": 944.26,
+      "text": "So I'm, do you feel like you still generated leads though from?"
+    },
+    {
+      "start": 944.38,
+      "end": 944.92,
+      "text": "Yeah, absolutely."
+    },
+    {
+      "start": 945.1,
+      "end": 945.82,
+      "text": "Yeah, definitely."
+    },
+    {
+      "start": 945.96,
+      "end": 950.24,
+      "text": "It was definitely tough the first year because I just fell in love with podcasting and forgot"
+    },
+    {
+      "start": 950.24,
+      "end": 951.0,
+      "text": "about real estate."
+    },
+    {
+      "start": 951.2,
+      "end": 955.24,
+      "text": "I know it was really tough and I wasn't making any money from the, from the podcast at that"
+    },
+    {
+      "start": 955.24,
+      "end": 955.56,
+      "text": "point."
+    },
+    {
+      "start": 955.56,
+      "end": 961.14,
+      "text": "And, and I just kind of fell in love with conversation, meeting people, natural curiosity, but also"
+    },
+    {
+      "start": 961.14,
+      "end": 965.74,
+      "text": "selfishly for me, like I was getting to sit in rooms that, you know, I didn't deserve to"
+    },
+    {
+      "start": 965.74,
+      "end": 969.96,
+      "text": "be in and I get to meet people and share their story and then learn from them of like, okay,"
+    },
+    {
+      "start": 970.04,
+      "end": 972.12,
+      "text": "these successful business owners and all the things, right."
+    },
+    {
+      "start": 972.12,
+      "end": 973.8,
+      "text": "It's, it's the biggest cheat code in the world."
+    },
+    {
+      "start": 973.9,
+      "end": 974.46,
+      "text": "No doubt."
+    },
+    {
+      "start": 974.54,
+      "end": 975.76,
+      "text": "To get in front of successful people."
+    },
+    {
+      "start": 975.76,
+      "end": 976.36,
+      "text": "No doubt."
+    },
+    {
+      "start": 976.56,
+      "end": 976.84,
+      "text": "You know?"
+    },
+    {
+      "start": 977.0,
+      "end": 978.78,
+      "text": "Um, so yeah, that's kind of how it started."
+    },
+    {
+      "start": 978.88,
+      "end": 979.84,
+      "text": "It snowballed from there."
+    },
+    {
+      "start": 979.84,
+      "end": 986.52,
+      "text": "Um, 144 episodes in, I finally approached the Oklahoma hall of fame and I struck up a conversation"
+    },
+    {
+      "start": 986.52,
+      "end": 988.42,
+      "text": "with them and they became my first sponsor."
+    },
+    {
+      "start": 988.6,
+      "end": 988.88,
+      "text": "Okay."
+    },
+    {
+      "start": 989.04,
+      "end": 993.18,
+      "text": "And so that was, um, yeah, after two years of podcasting really."
+    },
+    {
+      "start": 993.44,
+      "end": 994.4,
+      "text": "So it took a little bit."
+    },
+    {
+      "start": 994.58,
+      "end": 994.9,
+      "text": "Yeah."
+    },
+    {
+      "start": 994.96,
+      "end": 999.92,
+      "text": "I mean, when people think of, when people think of 144 episodes, maybe not, but no, it definitely"
+    },
+    {
+      "start": 999.92,
+      "end": 1000.6,
+      "text": "took some time."
+    },
+    {
+      "start": 1000.6,
+      "end": 1005.3,
+      "text": "And, um, but then once that, you know, that then snowballs and the second one follows and,"
+    },
+    {
+      "start": 1005.38,
+      "end": 1009.68,
+      "text": "um, yeah, I just like remember making, I remember coming home being like, I just made"
+    },
+    {
+      "start": 1009.68,
+      "end": 1011.2,
+      "text": "money and doing podcasting."
+    },
+    {
+      "start": 1011.3,
+      "end": 1011.46,
+      "text": "Yeah."
+    },
+    {
+      "start": 1011.5,
+      "end": 1012.32,
+      "text": "This is crazy."
+    },
+    {
+      "start": 1012.52,
+      "end": 1012.72,
+      "text": "What?"
+    },
+    {
+      "start": 1012.96,
+      "end": 1013.14,
+      "text": "Yeah."
+    },
+    {
+      "start": 1013.34,
+      "end": 1013.62,
+      "text": "Yeah."
+    },
+    {
+      "start": 1013.62,
+      "end": 1014.6,
+      "text": "It just kind of snowballed."
+    },
+    {
+      "start": 1014.6,
+      "end": 1017.86,
+      "text": "That's very social media just kind of kept flying after that."
+    },
+    {
+      "start": 1017.98,
+      "end": 1018.6,
+      "text": "That's really cool."
+    },
+    {
+      "start": 1018.6,
+      "end": 1019.04,
+      "text": "It's been a lot of fun."
+    },
+    {
+      "start": 1019.24,
+      "end": 1019.3,
+      "text": "Yeah."
+    },
+    {
+      "start": 1019.34,
+      "end": 1019.64,
+      "text": "Awesome."
+    },
+    {
+      "start": 1020.04,
+      "end": 1022.64,
+      "text": "Well, right now we're going to take a really quick break and then we're going to come right"
+    },
+    {
+      "start": 1022.64,
+      "end": 1026.76,
+      "text": "back because I'm excited to hear more about this is Oklahoma and everything Mike is involved"
+    },
+    {
+      "start": 1026.76,
+      "end": 1029.16,
+      "text": "in, but join us back here in a few minutes."
+    },
+    {
+      "start": 1029.28,
+      "end": 1030.06,
+      "text": "We'll talk some more."
+    },
+    {
+      "start": 1039.68,
+      "end": 1052.82,
+      "text": "We are back with Mike Hearn with this is Oklahoma and it's been a great conversation."
+    },
+    {
+      "start": 1052.82,
+      "end": 1054.12,
+      "text": "So we're going to keep it going, Mike."
+    },
+    {
+      "start": 1054.48,
+      "end": 1055.12,
+      "text": "Um, yeah."
+    },
+    {
+      "start": 1055.22,
+      "end": 1059.2,
+      "text": "So I love, you know, the whole process of starting new things."
+    },
+    {
+      "start": 1059.2,
+      "end": 1060.14,
+      "text": "It's so interesting."
+    },
+    {
+      "start": 1060.14,
+      "end": 1064.98,
+      "text": "There's always unique stories that people have, you know, we, we tend to think, oh man, this"
+    },
+    {
+      "start": 1064.98,
+      "end": 1070.16,
+      "text": "had to be, man, this guy was in a cave for a year and he had this plan built when sometimes"
+    },
+    {
+      "start": 1070.16,
+      "end": 1075.22,
+      "text": "it's just like somebody gave me some equipment and I just recorded a few podcasts and I began"
+    },
+    {
+      "start": 1075.22,
+      "end": 1077.0,
+      "text": "to become inspired by myself, you know?"
+    },
+    {
+      "start": 1077.0,
+      "end": 1078.12,
+      "text": "So I love that."
+    },
+    {
+      "start": 1078.18,
+      "end": 1081.9,
+      "text": "So I've fallen in love with podcasting now too, just like you had mentioned, because"
+    },
+    {
+      "start": 1081.9,
+      "end": 1083.88,
+      "text": "that's the biggest thing for me."
+    },
+    {
+      "start": 1083.88,
+      "end": 1086.96,
+      "text": "Just interesting people are so fascinating to me."
+    },
+    {
+      "start": 1086.96,
+      "end": 1090.06,
+      "text": "You know, I love talking to people that I agree with."
+    },
+    {
+      "start": 1090.12,
+      "end": 1093.78,
+      "text": "I don't agree with everything, you know, because it's, I feel like that kind of dialogue"
+    },
+    {
+      "start": 1093.78,
+      "end": 1094.74,
+      "text": "is so important right now."
+    },
+    {
+      "start": 1094.74,
+      "end": 1101.1,
+      "text": "So it's cool that, you know, there is this platform these days to really amplify a message"
+    },
+    {
+      "start": 1101.1,
+      "end": 1103.5,
+      "text": "or somebody else's message that's positive."
+    },
+    {
+      "start": 1103.5,
+      "end": 1106.54,
+      "text": "And so anyway, more about this is Oklahoma."
+    },
+    {
+      "start": 1106.74,
+      "end": 1108.46,
+      "text": "So tell me about your first guest."
+    },
+    {
+      "start": 1108.52,
+      "end": 1109.08,
+      "text": "What was that like?"
+    },
+    {
+      "start": 1109.34,
+      "end": 1111.26,
+      "text": "Uh, so first guest was Desmond Mason."
+    },
+    {
+      "start": 1111.5,
+      "end": 1112.8,
+      "text": "Oh, the basketball player."
+    },
+    {
+      "start": 1112.86,
+      "end": 1113.88,
+      "text": "You became strong."
+    },
+    {
+      "start": 1113.98,
+      "end": 1114.18,
+      "text": "Yeah."
+    },
+    {
+      "start": 1114.24,
+      "end": 1114.82,
+      "text": "Out of nowhere."
+    },
+    {
+      "start": 1114.82,
+      "end": 1119.48,
+      "text": "Um, we, and I think like that's kind of, I, and I started messaging him."
+    },
+    {
+      "start": 1119.54,
+      "end": 1123.38,
+      "text": "The podcast idea generally started in October, November, the year prior."
+    },
+    {
+      "start": 1123.38,
+      "end": 1123.7,
+      "text": "Okay."
+    },
+    {
+      "start": 1123.8,
+      "end": 1128.34,
+      "text": "And so I started messaging him, uh, in November and I look back and, you know, and he's like,"
+    },
+    {
+      "start": 1128.38,
+      "end": 1130.68,
+      "text": "yeah, let's do, and we've recorded it around March."
+    },
+    {
+      "start": 1130.68,
+      "end": 1132.24,
+      "text": "Cause I, we talked about March madness."
+    },
+    {
+      "start": 1132.4,
+      "end": 1132.64,
+      "text": "Okay."
+    },
+    {
+      "start": 1132.72,
+      "end": 1133.7,
+      "text": "It didn't go out till May."
+    },
+    {
+      "start": 1133.7,
+      "end": 1137.66,
+      "text": "Oh, so that was the first kind of little fail, but it was still like a great episode, uh,"
+    },
+    {
+      "start": 1137.66,
+      "end": 1139.2,
+      "text": "at the, you know, and now he's an artist."
+    },
+    {
+      "start": 1139.2,
+      "end": 1143.06,
+      "text": "And so we talked a lot, we were in his studio, talked a lot about his story and going to Oklahoma"
+    },
+    {
+      "start": 1143.06,
+      "end": 1146.72,
+      "text": "state playing, you know, for the Sonics and for the thunder and a little stint in the NBA"
+    },
+    {
+      "start": 1146.72,
+      "end": 1147.86,
+      "text": "and then his art career."
+    },
+    {
+      "start": 1147.86,
+      "end": 1149.76,
+      "text": "And so that was number one."
+    },
+    {
+      "start": 1149.9,
+      "end": 1151.66,
+      "text": "And there's funny story about that one."
+    },
+    {
+      "start": 1151.74,
+      "end": 1155.38,
+      "text": "You know, I, I, I videoed it for myself just to kind of see how I am."
+    },
+    {
+      "start": 1155.38,
+      "end": 1155.46,
+      "text": "Oh yeah."
+    },
+    {
+      "start": 1155.46,
+      "end": 1155.72,
+      "text": "Gotcha."
+    },
+    {
+      "start": 1155.88,
+      "end": 1155.9,
+      "text": "Yeah."
+    },
+    {
+      "start": 1155.9,
+      "end": 1156.08,
+      "text": "Right."
+    },
+    {
+      "start": 1156.54,
+      "end": 1160.16,
+      "text": "And so I'm, I'm, you know, we're in and he's into his intro and he's telling me all about"
+    },
+    {
+      "start": 1160.16,
+      "end": 1161.88,
+      "text": "growing up in Texas and going to Oklahoma state."
+    },
+    {
+      "start": 1161.88,
+      "end": 1167.3,
+      "text": "And I look over and the, where there should be a red recording light, it was green."
+    },
+    {
+      "start": 1167.62,
+      "end": 1167.86,
+      "text": "Right."
+    },
+    {
+      "start": 1167.86,
+      "end": 1171.12,
+      "text": "And it just said, it was the, I'd hit the play button instead of the record."
+    },
+    {
+      "start": 1171.4,
+      "end": 1171.54,
+      "text": "Oh no."
+    },
+    {
+      "start": 1171.82,
+      "end": 1175.8,
+      "text": "So like, you can see my face melt, you know, just like freaking out."
+    },
+    {
+      "start": 1175.86,
+      "end": 1178.58,
+      "text": "And then I had to stop him, you know, otherwise I'd lose the whole thing."
+    },
+    {
+      "start": 1178.62,
+      "end": 1179.24,
+      "text": "So I stopped him."
+    },
+    {
+      "start": 1179.26,
+      "end": 1180.12,
+      "text": "I said like, I'm so sorry."
+    },
+    {
+      "start": 1180.2,
+      "end": 1181.04,
+      "text": "I made, made a mistake."
+    },
+    {
+      "start": 1181.16,
+      "end": 1181.98,
+      "text": "Can we start again?"
+    },
+    {
+      "start": 1182.0,
+      "end": 1182.2,
+      "text": "Yeah."
+    },
+    {
+      "start": 1182.26,
+      "end": 1183.42,
+      "text": "You know, and he was great."
+    },
+    {
+      "start": 1183.54,
+      "end": 1183.74,
+      "text": "Sure."
+    },
+    {
+      "start": 1183.84,
+      "end": 1184.86,
+      "text": "I've heard he's a great guy."
+    },
+    {
+      "start": 1184.86,
+      "end": 1184.98,
+      "text": "He was so good."
+    },
+    {
+      "start": 1185.28,
+      "end": 1185.4,
+      "text": "Yeah."
+    },
+    {
+      "start": 1185.44,
+      "end": 1186.68,
+      "text": "And so that was number one."
+    },
+    {
+      "start": 1186.78,
+      "end": 1189.98,
+      "text": "Todd Vincent from Iote Coffee was on in the first five."
+    },
+    {
+      "start": 1190.12,
+      "end": 1190.38,
+      "text": "Okay."
+    },
+    {
+      "start": 1190.72,
+      "end": 1193.4,
+      "text": "Chad, who owns a Midtown Barbers was in there as well."
+    },
+    {
+      "start": 1193.52,
+      "end": 1193.8,
+      "text": "Okay."
+    },
+    {
+      "start": 1193.8,
+      "end": 1199.2,
+      "text": "And then Cody Lorendi and a friend of mine, Jonathan Brown from the energy who came on"
+    },
+    {
+      "start": 1199.2,
+      "end": 1200.02,
+      "text": "early too."
+    },
+    {
+      "start": 1200.1,
+      "end": 1200.9,
+      "text": "There were two friends."
+    },
+    {
+      "start": 1201.04,
+      "end": 1202.12,
+      "text": "I was like, Hey, I need reps."
+    },
+    {
+      "start": 1202.22,
+      "end": 1202.42,
+      "text": "Yep."
+    },
+    {
+      "start": 1202.48,
+      "end": 1202.68,
+      "text": "Come on."
+    },
+    {
+      "start": 1202.74,
+      "end": 1202.92,
+      "text": "Yep."
+    },
+    {
+      "start": 1203.04,
+      "end": 1203.2,
+      "text": "Yep."
+    },
+    {
+      "start": 1203.6,
+      "end": 1205.14,
+      "text": "So that was an early one, which is great."
+    },
+    {
+      "start": 1205.16,
+      "end": 1206.68,
+      "text": "Cause we're still, you know, good friends today."
+    },
+    {
+      "start": 1207.94,
+      "end": 1210.18,
+      "text": "Kelly Masters was the episode, you know, Kelly."
+    },
+    {
+      "start": 1210.76,
+      "end": 1212.74,
+      "text": "She was on our, she was on our show."
+    },
+    {
+      "start": 1212.94,
+      "end": 1213.48,
+      "text": "She did great."
+    },
+    {
+      "start": 1213.98,
+      "end": 1218.4,
+      "text": "So yeah, it's, you know, and it leads to, you know, if you're, if you're conscious of"
+    },
+    {
+      "start": 1218.4,
+      "end": 1221.58,
+      "text": "following up and building relationship, then that's your first step you're in."
+    },
+    {
+      "start": 1221.58,
+      "end": 1223.8,
+      "text": "And then you just stay, build a relationship after that."
+    },
+    {
+      "start": 1223.94,
+      "end": 1226.56,
+      "text": "So those are the first five and it just kind of, yeah."
+    },
+    {
+      "start": 1226.74,
+      "end": 1227.26,
+      "text": "That's great."
+    },
+    {
+      "start": 1227.34,
+      "end": 1228.42,
+      "text": "And that way it was one a week."
+    },
+    {
+      "start": 1228.42,
+      "end": 1231.4,
+      "text": "We released one a week for probably six months."
+    },
+    {
+      "start": 1231.4,
+      "end": 1233.02,
+      "text": "And then I started getting the itch."
+    },
+    {
+      "start": 1233.1,
+      "end": 1234.26,
+      "text": "I'm like, I can do two a week."
+    },
+    {
+      "start": 1234.52,
+      "end": 1234.66,
+      "text": "Yeah."
+    },
+    {
+      "start": 1234.86,
+      "end": 1234.98,
+      "text": "Yeah."
+    },
+    {
+      "start": 1235.38,
+      "end": 1236.84,
+      "text": "Went to two during COVID."
+    },
+    {
+      "start": 1236.92,
+      "end": 1238.48,
+      "text": "I went to three a week cause it was on zoom."
+    },
+    {
+      "start": 1238.58,
+      "end": 1239.14,
+      "text": "Everyone's at home."
+    },
+    {
+      "start": 1239.22,
+      "end": 1240.98,
+      "text": "I had loads of time, but now back to two a week."
+    },
+    {
+      "start": 1241.26,
+      "end": 1241.38,
+      "text": "Sure."
+    },
+    {
+      "start": 1241.42,
+      "end": 1241.94,
+      "text": "That's awesome."
+    },
+    {
+      "start": 1242.36,
+      "end": 1243.32,
+      "text": "So that's really cool."
+    },
+    {
+      "start": 1243.4,
+      "end": 1246.06,
+      "text": "So there are students here that are helping produce this, like I'd mentioned."
+    },
+    {
+      "start": 1246.36,
+      "end": 1249.9,
+      "text": "So what would you, if they were listening right now that they're currently not here"
+    },
+    {
+      "start": 1249.9,
+      "end": 1253.62,
+      "text": "today, they're in school, but if they were listening right now, what would you say one"
+    },
+    {
+      "start": 1253.62,
+      "end": 1260.2,
+      "text": "of the most critical things for the growth of the show was for you regarding the podcast?"
+    },
+    {
+      "start": 1260.28,
+      "end": 1262.58,
+      "text": "What could we maybe learn from what you experienced?"
+    },
+    {
+      "start": 1262.68,
+      "end": 1265.36,
+      "text": "Maybe your failures and, you know, successes too."
+    },
+    {
+      "start": 1265.78,
+      "end": 1266.0,
+      "text": "Yeah."
+    },
+    {
+      "start": 1266.06,
+      "end": 1271.68,
+      "text": "For me and like the way, and I think I, I listened to, I do listen to a lot of podcasts"
+    },
+    {
+      "start": 1271.68,
+      "end": 1275.66,
+      "text": "and I do make notes of just one-off great questions."
+    },
+    {
+      "start": 1275.66,
+      "end": 1278.84,
+      "text": "You know, people might ask and I kind of have a question bank."
+    },
+    {
+      "start": 1279.96,
+      "end": 1285.54,
+      "text": "And so on every episode I do, usually I have a pad in front of me and when the guest is"
+    },
+    {
+      "start": 1285.54,
+      "end": 1289.86,
+      "text": "speaking, I'm writing down notes, dates, names, just to remember if they come back in"
+    },
+    {
+      "start": 1289.86,
+      "end": 1290.34,
+      "text": "conversation."
+    },
+    {
+      "start": 1290.34,
+      "end": 1294.72,
+      "text": "So someone might reference their kid, their wife, their dog, certain dates that they,"
+    },
+    {
+      "start": 1294.84,
+      "end": 1296.78,
+      "text": "you know, things, great things happened in this year."
+    },
+    {
+      "start": 1296.78,
+      "end": 1300.3,
+      "text": "And so I will write those notes down just to remind myself and refer to it."
+    },
+    {
+      "start": 1301.18,
+      "end": 1303.66,
+      "text": "But I don't see it as, I just see it as a conversation."
+    },
+    {
+      "start": 1303.9,
+      "end": 1305.36,
+      "text": "It's just, it's, that's all it is."
+    },
+    {
+      "start": 1305.36,
+      "end": 1305.62,
+      "text": "Right."
+    },
+    {
+      "start": 1305.68,
+      "end": 1309.78,
+      "text": "And there's great interviews out there that have their 10 questions and I never enjoyed"
+    },
+    {
+      "start": 1309.78,
+      "end": 1313.0,
+      "text": "listening to those episodes because they're just very like, they don't flow."
+    },
+    {
+      "start": 1313.14,
+      "end": 1313.32,
+      "text": "Right."
+    },
+    {
+      "start": 1313.38,
+      "end": 1319.12,
+      "text": "And, and, and I enjoy, I enjoy listening to podcasts that flow and editing's great."
+    },
+    {
+      "start": 1319.22,
+      "end": 1320.18,
+      "text": "It makes a lot of help."
+    },
+    {
+      "start": 1320.18,
+      "end": 1322.56,
+      "text": "And, you know, we should, everybody should edit."
+    },
+    {
+      "start": 1322.56,
+      "end": 1328.04,
+      "text": "But, but yeah, I just kept at it and just loved doing it and had a general curiosity"
+    },
+    {
+      "start": 1328.04,
+      "end": 1329.1,
+      "text": "to learn from people."
+    },
+    {
+      "start": 1329.8,
+      "end": 1333.46,
+      "text": "And everyone, I think, and you've probably come across this too, most successful people"
+    },
+    {
+      "start": 1333.46,
+      "end": 1334.44,
+      "text": "have similar traits."
+    },
+    {
+      "start": 1334.66,
+      "end": 1334.82,
+      "text": "Yeah."
+    },
+    {
+      "start": 1335.02,
+      "end": 1340.5,
+      "text": "You know, you know, whether it is that they sold, you know, flowers door to door or,"
+    },
+    {
+      "start": 1340.62,
+      "end": 1343.82,
+      "text": "you know, sold, if they're in sales, they sold something in high school."
+    },
+    {
+      "start": 1344.1,
+      "end": 1344.12,
+      "text": "Yeah."
+    },
+    {
+      "start": 1344.22,
+      "end": 1344.88,
+      "text": "That's a good point."
+    },
+    {
+      "start": 1344.96,
+      "end": 1349.48,
+      "text": "Or, you know, some people who, who have successful had some form of tragedy sometimes"
+    },
+    {
+      "start": 1349.48,
+      "end": 1350.16,
+      "text": "happen to them."
+    },
+    {
+      "start": 1350.16,
+      "end": 1350.34,
+      "text": "Right."
+    },
+    {
+      "start": 1350.34,
+      "end": 1351.74,
+      "text": "They've overcome a lot of things."
+    },
+    {
+      "start": 1352.74,
+      "end": 1354.88,
+      "text": "Taking risk is a big one that's kind of come out."
+    },
+    {
+      "start": 1354.94,
+      "end": 1355.62,
+      "text": "People have done that."
+    },
+    {
+      "start": 1355.7,
+      "end": 1359.86,
+      "text": "And so, but, you know, you look back at everyone that's kind of been successful and a lot of"
+    },
+    {
+      "start": 1359.86,
+      "end": 1361.42,
+      "text": "it's just putting in time, right."
+    },
+    {
+      "start": 1361.42,
+      "end": 1365.92,
+      "text": "It's just getting, being rep, putting in reps, being prepared and being prepared in the podcast"
+    },
+    {
+      "start": 1365.92,
+      "end": 1367.7,
+      "text": "space is just learning a little bit about your guests."
+    },
+    {
+      "start": 1367.76,
+      "end": 1368.8,
+      "text": "You guys have a great thing."
+    },
+    {
+      "start": 1368.86,
+      "end": 1369.96,
+      "text": "You sent the form out, right."
+    },
+    {
+      "start": 1369.96,
+      "end": 1371.74,
+      "text": "So that's your level of being prepared."
+    },
+    {
+      "start": 1371.94,
+      "end": 1372.08,
+      "text": "Yeah."
+    },
+    {
+      "start": 1372.46,
+      "end": 1375.72,
+      "text": "But there's, you know, plenty of other things that you can do and social media is great."
+    },
+    {
+      "start": 1375.78,
+      "end": 1378.78,
+      "text": "You can go find out about, you know, people, their interests, whatever it is."
+    },
+    {
+      "start": 1378.78,
+      "end": 1381.1,
+      "text": "And taking 30 minutes just to learn a little bit."
+    },
+    {
+      "start": 1381.22,
+      "end": 1381.46,
+      "text": "Yeah."
+    },
+    {
+      "start": 1381.62,
+      "end": 1383.32,
+      "text": "And that, I think, settled the nerves for me too."
+    },
+    {
+      "start": 1383.38,
+      "end": 1383.62,
+      "text": "Sure."
+    },
+    {
+      "start": 1383.62,
+      "end": 1384.3,
+      "text": "Coming in."
+    },
+    {
+      "start": 1384.36,
+      "end": 1384.54,
+      "text": "Yeah."
+    },
+    {
+      "start": 1384.74,
+      "end": 1388.88,
+      "text": "For my Desmond Mason episode, I had like three pages of things because he's, you know, he'd"
+    },
+    {
+      "start": 1388.88,
+      "end": 1389.64,
+      "text": "been into it a lot."
+    },
+    {
+      "start": 1389.68,
+      "end": 1389.96,
+      "text": "Yeah."
+    },
+    {
+      "start": 1389.96,
+      "end": 1394.82,
+      "text": "And for other people, if I don't know a lot about them, it's very easy to read."
+    },
+    {
+      "start": 1395.0,
+      "end": 1396.44,
+      "text": "Oklahoma City is a small city, right?"
+    },
+    {
+      "start": 1396.78,
+      "end": 1401.22,
+      "text": "You know, we know very close how to get to people, but also get to their friends and say,"
+    },
+    {
+      "start": 1401.3,
+      "end": 1403.52,
+      "text": "Hey, I'm interviewing John this afternoon."
+    },
+    {
+      "start": 1403.94,
+      "end": 1404.58,
+      "text": "What do you know?"
+    },
+    {
+      "start": 1404.72,
+      "end": 1408.42,
+      "text": "What are the, what are the great stories that he should share or he doesn't share very often,"
+    },
+    {
+      "start": 1408.54,
+      "end": 1409.72,
+      "text": "you know, little things like that."
+    },
+    {
+      "start": 1409.78,
+      "end": 1411.22,
+      "text": "So yeah, definitely just being prepared."
+    },
+    {
+      "start": 1411.22,
+      "end": 1414.62,
+      "text": "And then also not, not worrying about asking hard questions."
+    },
+    {
+      "start": 1414.64,
+      "end": 1414.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 1414.86,
+      "end": 1415.42,
+      "text": "That's good."
+    },
+    {
+      "start": 1415.42,
+      "end": 1421.72,
+      "text": "Um, the other thing I learned, and this took me a long time was to not fear the silence"
+    },
+    {
+      "start": 1421.72,
+      "end": 1422.38,
+      "text": "in an episode."
+    },
+    {
+      "start": 1422.72,
+      "end": 1423.08,
+      "text": "Okay."
+    },
+    {
+      "start": 1423.44,
+      "end": 1423.62,
+      "text": "Yeah."
+    },
+    {
+      "start": 1423.7,
+      "end": 1429.16,
+      "text": "Because the guests, if you, if we sat here in silence as, and like, and you're, you're"
+    },
+    {
+      "start": 1429.16,
+      "end": 1433.56,
+      "text": "in your position and I'm the guest generally at some point, like I, one of us is going"
+    },
+    {
+      "start": 1433.56,
+      "end": 1436.86,
+      "text": "to break that silence and likely enough, it's the guest because you know, when you're a host,"
+    },
+    {
+      "start": 1436.92,
+      "end": 1438.32,
+      "text": "you're just used to sitting there in that silence."
+    },
+    {
+      "start": 1438.44,
+      "end": 1438.8,
+      "text": "Right."
+    },
+    {
+      "start": 1438.88,
+      "end": 1439.0,
+      "text": "Yeah."
+    },
+    {
+      "start": 1439.0,
+      "end": 1440.24,
+      "text": "Just letting them think a little bit."
+    },
+    {
+      "start": 1440.42,
+      "end": 1444.54,
+      "text": "And there were so many times early that I tried to fill that silence straight away and"
+    },
+    {
+      "start": 1444.54,
+      "end": 1444.94,
+      "text": "I missed."
+    },
+    {
+      "start": 1444.94,
+      "end": 1445.74,
+      "text": "Uncomfortable nature."
+    },
+    {
+      "start": 1445.86,
+      "end": 1446.22,
+      "text": "Absolutely."
+    },
+    {
+      "start": 1446.44,
+      "end": 1451.0,
+      "text": "And I missed that deep then the guest going deeper into whatever it is that they were"
+    },
+    {
+      "start": 1451.0,
+      "end": 1451.14,
+      "text": "talking about."
+    },
+    {
+      "start": 1451.14,
+      "end": 1451.7,
+      "text": "That's a good one."
+    },
+    {
+      "start": 1451.74,
+      "end": 1452.34,
+      "text": "That's a good point."
+    },
+    {
+      "start": 1452.56,
+      "end": 1455.24,
+      "text": "Um, and learning to, you know, we talked about some difficult things on the podcast."
+    },
+    {
+      "start": 1455.24,
+      "end": 1459.48,
+      "text": "People get really emotional talking about their family and going back, you know, and kind"
+    },
+    {
+      "start": 1459.48,
+      "end": 1462.18,
+      "text": "of forcing them to relive certain things."
+    },
+    {
+      "start": 1462.18,
+      "end": 1462.58,
+      "text": "Sure."
+    },
+    {
+      "start": 1462.8,
+      "end": 1466.48,
+      "text": "And just being comfortable, like sitting in silence or just taking a minute."
+    },
+    {
+      "start": 1466.48,
+      "end": 1469.96,
+      "text": "You know, I had a lot of guests on, and I say a lot, I've had a few guests on that,"
+    },
+    {
+      "start": 1470.46,
+      "end": 1474.62,
+      "text": "you know, we, we've talked about their son passing away tragically in high school."
+    },
+    {
+      "start": 1474.62,
+      "end": 1476.9,
+      "text": "You know, and, and it was a really heavy moment."
+    },
+    {
+      "start": 1477.08,
+      "end": 1478.24,
+      "text": "And we just sat there."
+    },
+    {
+      "start": 1478.3,
+      "end": 1479.7,
+      "text": "I said, yeah, we can edit this out."
+    },
+    {
+      "start": 1479.74,
+      "end": 1480.36,
+      "text": "It's no rush."
+    },
+    {
+      "start": 1480.78,
+      "end": 1481.42,
+      "text": "Take your time."
+    },
+    {
+      "start": 1481.58,
+      "end": 1481.84,
+      "text": "Yeah."
+    },
+    {
+      "start": 1481.86,
+      "end": 1486.82,
+      "text": "You know, I, I think, I think it's really cool when those moments stay in, you know,"
+    },
+    {
+      "start": 1487.22,
+      "end": 1491.2,
+      "text": "cause I, I, I, cause I just remembering now one example of that."
+    },
+    {
+      "start": 1491.2,
+      "end": 1495.86,
+      "text": "There's a guy I watched who he's a podcaster, but he had somebody on, he was a, this guy"
+    },
+    {
+      "start": 1495.86,
+      "end": 1497.42,
+      "text": "he had on, was it like an MMA fighter?"
+    },
+    {
+      "start": 1497.6,
+      "end": 1497.98,
+      "text": "Oh, I know."
+    },
+    {
+      "start": 1498.02,
+      "end": 1498.2,
+      "text": "Exactly."
+    },
+    {
+      "start": 1498.3,
+      "end": 1498.44,
+      "text": "Yeah."
+    },
+    {
+      "start": 1498.66,
+      "end": 1499.58,
+      "text": "The Theovan one."
+    },
+    {
+      "start": 1499.64,
+      "end": 1500.18,
+      "text": "Yeah, absolutely."
+    },
+    {
+      "start": 1500.3,
+      "end": 1501.3,
+      "text": "Wasn't that powerful, man?"
+    },
+    {
+      "start": 1501.3,
+      "end": 1504.5,
+      "text": "He just sat with him in his, in his pain, dude."
+    },
+    {
+      "start": 1504.52,
+      "end": 1505.7,
+      "text": "And it was so powerful."
+    },
+    {
+      "start": 1505.84,
+      "end": 1506.36,
+      "text": "So vulnerable."
+    },
+    {
+      "start": 1506.62,
+      "end": 1510.24,
+      "text": "And you know, it made me think like, we need more human moments like that, you know?"
+    },
+    {
+      "start": 1510.24,
+      "end": 1515.6,
+      "text": "And that's my hope is that, and it actually has, you know, on some level already on the"
+    },
+    {
+      "start": 1515.6,
+      "end": 1519.04,
+      "text": "podcast, but that's what I, you know, I really want to see that, you know, we need more human"
+    },
+    {
+      "start": 1519.04,
+      "end": 1519.86,
+      "text": "moments like that."
+    },
+    {
+      "start": 1519.96,
+      "end": 1525.1,
+      "text": "And I even like the podcast, uh, you know, platform and dynamic because, especially if"
+    },
+    {
+      "start": 1525.1,
+      "end": 1529.32,
+      "text": "you go long form, because, you know, it's really hard to fake who you are over an hour's"
+    },
+    {
+      "start": 1529.32,
+      "end": 1531.74,
+      "text": "worth of time, you know, of straight conversation."
+    },
+    {
+      "start": 1532.1,
+      "end": 1536.1,
+      "text": "And so I love seeing, getting to see people who, for who they really are, you know?"
+    },
+    {
+      "start": 1536.5,
+      "end": 1539.28,
+      "text": "So there's so many incredible things that come with it."
+    },
+    {
+      "start": 1539.28,
+      "end": 1543.36,
+      "text": "And, you know, it's just a powerful tool to really connect on a human level."
+    },
+    {
+      "start": 1543.54,
+      "end": 1548.74,
+      "text": "You know, uh, that's something that I had to, you know, I really, you know, it came"
+    },
+    {
+      "start": 1548.74,
+      "end": 1552.72,
+      "text": "to my remembrance because, you know, when you're podcasting, you're doing everything you can"
+    },
+    {
+      "start": 1552.72,
+      "end": 1553.84,
+      "text": "to be successful with it."
+    },
+    {
+      "start": 1554.1,
+      "end": 1556.78,
+      "text": "And then I, I kind of like slowed down for a second."
+    },
+    {
+      "start": 1556.78,
+      "end": 1560.72,
+      "text": "I said, you know what, I'm going to enjoy the people that I get to spend time with because"
+    },
+    {
+      "start": 1560.72,
+      "end": 1562.24,
+      "text": "number one, I just love people."
+    },
+    {
+      "start": 1562.5,
+      "end": 1566.34,
+      "text": "And these are some fascinating folks that we're getting to talk to, you know, everywhere"
+    },
+    {
+      "start": 1566.34,
+      "end": 1571.92,
+      "text": "from, you know, Mayor Holt to one of our families that comes and helps us here at the center"
+    },
+    {
+      "start": 1571.92,
+      "end": 1576.16,
+      "text": "every day, you know, and everybody has just a great story to tell."
+    },
+    {
+      "start": 1576.36,
+      "end": 1579.86,
+      "text": "And you never know what piece of that story is going to impact somebody."
+    },
+    {
+      "start": 1580.06,
+      "end": 1583.28,
+      "text": "So those human moments like that are just so, so powerful."
+    },
+    {
+      "start": 1583.28,
+      "end": 1590.2,
+      "text": "So I want to know maybe like, what's one just wild situation that's happened for you while"
+    },
+    {
+      "start": 1590.2,
+      "end": 1593.3,
+      "text": "you, since you've been podcasting that, you know, maybe not a lot of people know about."
+    },
+    {
+      "start": 1593.48,
+      "end": 1593.66,
+      "text": "Yeah."
+    },
+    {
+      "start": 1593.72,
+      "end": 1598.12,
+      "text": "I mean, there's a few, cause a lot of the times, you know, now that I've been doing it"
+    },
+    {
+      "start": 1598.12,
+      "end": 1603.02,
+      "text": "for so long and had so many guests on, you know, the key that helped me was asking every"
+    },
+    {
+      "start": 1603.02,
+      "end": 1603.96,
+      "text": "guest, who do you know?"
+    },
+    {
+      "start": 1604.04,
+      "end": 1604.26,
+      "text": "Right."
+    },
+    {
+      "start": 1604.26,
+      "end": 1608.18,
+      "text": "Cause I, and I think the Oklahoma mentality, you know, maybe it's just a Midwest type mentality"
+    },
+    {
+      "start": 1608.18,
+      "end": 1610.6,
+      "text": "that we don't shout about what we do."
+    },
+    {
+      "start": 1610.6,
+      "end": 1613.5,
+      "text": "You know, the most successful people generally are just quiet."
+    },
+    {
+      "start": 1613.7,
+      "end": 1615.54,
+      "text": "They don't want to be in the, in the, in the limelight."
+    },
+    {
+      "start": 1616.02,
+      "end": 1621.8,
+      "text": "And so when someone does, you know, share their contact says you should do the show and that's"
+    },
+    {
+      "start": 1621.8,
+      "end": 1625.52,
+      "text": "how they come on, you know, maybe it is one or two times they've done this before."
+    },
+    {
+      "start": 1625.58,
+      "end": 1626.86,
+      "text": "Maybe they've never done a podcast before."
+    },
+    {
+      "start": 1627.2,
+      "end": 1632.5,
+      "text": "And so, you know, there's been a few instances where, you know, like you said, it's only us"
+    },
+    {
+      "start": 1632.5,
+      "end": 1633.08,
+      "text": "two in the room."
+    },
+    {
+      "start": 1633.24,
+      "end": 1633.36,
+      "text": "Right."
+    },
+    {
+      "start": 1633.42,
+      "end": 1636.52,
+      "text": "So they don't think about the people that are listening or watching."
+    },
+    {
+      "start": 1636.52,
+      "end": 1639.44,
+      "text": "Cause if all those people were in a room, they'd get tight."
+    },
+    {
+      "start": 1639.62,
+      "end": 1640.06,
+      "text": "They wouldn't share."
+    },
+    {
+      "start": 1640.34,
+      "end": 1640.42,
+      "text": "Right."
+    },
+    {
+      "start": 1640.42,
+      "end": 1645.18,
+      "text": "So that's the beauty of it is that, like you said, you can't hide your emotions over a"
+    },
+    {
+      "start": 1645.18,
+      "end": 1646.46,
+      "text": "long form interview."
+    },
+    {
+      "start": 1646.72,
+      "end": 1646.92,
+      "text": "Yeah."
+    },
+    {
+      "start": 1647.2,
+      "end": 1651.1,
+      "text": "And so people get really vulnerable and, and, and usually, you know, what I found was it"
+    },
+    {
+      "start": 1651.1,
+      "end": 1654.28,
+      "text": "takes about kind of first 10 to 15 minutes for the guests to get comfortable."
+    },
+    {
+      "start": 1654.28,
+      "end": 1656.3,
+      "text": "And then they're like, oh, this is totally fun."
+    },
+    {
+      "start": 1656.38,
+      "end": 1656.88,
+      "text": "I get it."
+    },
+    {
+      "start": 1657.12,
+      "end": 1657.78,
+      "text": "I got this."
+    },
+    {
+      "start": 1657.88,
+      "end": 1658.04,
+      "text": "Yeah."
+    },
+    {
+      "start": 1658.22,
+      "end": 1658.56,
+      "text": "You know?"
+    },
+    {
+      "start": 1658.58,
+      "end": 1661.18,
+      "text": "And so, uh, there's a few for sure."
+    },
+    {
+      "start": 1661.18,
+      "end": 1665.88,
+      "text": "Like there's, um, recent guests I had on, I mean, got pretty emotional talking about his"
+    },
+    {
+      "start": 1665.88,
+      "end": 1669.9,
+      "text": "brother who was in addiction and is out and went to prison."
+    },
+    {
+      "start": 1669.9,
+      "end": 1674.4,
+      "text": "And, and is out now and prison saved his life and, um, came to Christ and has a beautiful"
+    },
+    {
+      "start": 1674.4,
+      "end": 1674.86,
+      "text": "family."
+    },
+    {
+      "start": 1674.86,
+      "end": 1678.44,
+      "text": "And that was kind of a person and to watch him get emotional about it."
+    },
+    {
+      "start": 1678.44,
+      "end": 1681.3,
+      "text": "Um, Jack and Jay story, you know, they're great."
+    },
+    {
+      "start": 1681.36,
+      "end": 1681.54,
+      "text": "Yeah."
+    },
+    {
+      "start": 1681.54,
+      "end": 1683.38,
+      "text": "What is obviously of city center, their story."
+    },
+    {
+      "start": 1683.38,
+      "end": 1687.28,
+      "text": "And I need to do another one with them because they were early before I started doing video."
+    },
+    {
+      "start": 1687.34,
+      "end": 1687.7,
+      "text": "Okay."
+    },
+    {
+      "start": 1687.7,
+      "end": 1693.34,
+      "text": "And we're in, in one of the, one of their houses, um, like three of us around a table,"
+    },
+    {
+      "start": 1693.42,
+      "end": 1694.4,
+      "text": "like bawling our eyes out."
+    },
+    {
+      "start": 1694.52,
+      "end": 1694.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 1694.88,
+      "end": 1695.16,
+      "text": "You know?"
+    },
+    {
+      "start": 1695.2,
+      "end": 1697.38,
+      "text": "And I'm not like, this is such a raw moment."
+    },
+    {
+      "start": 1697.46,
+      "end": 1699.5,
+      "text": "I wish I videoed from the get go."
+    },
+    {
+      "start": 1699.72,
+      "end": 1699.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 1699.92,
+      "end": 1700.22,
+      "text": "Yeah."
+    },
+    {
+      "start": 1700.22,
+      "end": 1702.32,
+      "text": "Um, so that was definitely a powerful one."
+    },
+    {
+      "start": 1702.88,
+      "end": 1707.38,
+      "text": "Um, and I think a lot of the people too, that have been successful that people look up to,"
+    },
+    {
+      "start": 1707.38,
+      "end": 1709.62,
+      "text": "like, you know, everything must be perfect in their life."
+    },
+    {
+      "start": 1710.08,
+      "end": 1711.04,
+      "text": "It's never perfect."
+    },
+    {
+      "start": 1711.04,
+      "end": 1712.04,
+      "text": "It's never, never."
+    },
+    {
+      "start": 1712.04,
+      "end": 1714.52,
+      "text": "They've been through maybe a lot more stuff than the average human."
+    },
+    {
+      "start": 1714.52,
+      "end": 1714.82,
+      "text": "Right."
+    },
+    {
+      "start": 1714.88,
+      "end": 1716.6,
+      "text": "Because they've risked a lot of things."
+    },
+    {
+      "start": 1716.6,
+      "end": 1720.48,
+      "text": "They put their life online, their business, their relationship online, you know, to chase,"
+    },
+    {
+      "start": 1720.48,
+      "end": 1725.16,
+      "text": "um, what they know is in their heart, a dream or a vision or something that they believe"
+    },
+    {
+      "start": 1725.16,
+      "end": 1731.22,
+      "text": "in, um, you know, and so, yeah, there's, there's definitely a few experiences where you're just"
+    },
+    {
+      "start": 1731.22,
+      "end": 1733.02,
+      "text": "like, um, wow."
+    },
+    {
+      "start": 1733.34,
+      "end": 1733.56,
+      "text": "Yeah."
+    },
+    {
+      "start": 1733.64,
+      "end": 1738.02,
+      "text": "You know, honestly, I start, the more I'm doing this, the more I start realizing, man,"
+    },
+    {
+      "start": 1738.02,
+      "end": 1741.96,
+      "text": "this is like a really amazing opportunity to do this."
+    },
+    {
+      "start": 1742.3,
+      "end": 1745.8,
+      "text": "And I even think for our students, you know, when they, when they're helping with the podcast"
+    },
+    {
+      "start": 1745.8,
+      "end": 1749.64,
+      "text": "and everything, look who they're rubbing shoulders with, you know, they're, they're"
+    },
+    {
+      "start": 1749.64,
+      "end": 1752.9,
+      "text": "the future leaders of our city are rubbing shoulders with the leaders of our city."
+    },
+    {
+      "start": 1752.9,
+      "end": 1755.06,
+      "text": "And I love that, you know, and that wouldn't."
+    },
+    {
+      "start": 1755.16,
+      "end": 1757.48,
+      "text": "Normally happen for a lot of our students that we have."
+    },
+    {
+      "start": 1757.48,
+      "end": 1763.68,
+      "text": "So I just love, you know, the, the importance of human connection, networking and relationship"
+    },
+    {
+      "start": 1763.68,
+      "end": 1765.12,
+      "text": "is such a big deal."
+    },
+    {
+      "start": 1765.12,
+      "end": 1769.1,
+      "text": "You know, it's so, and so we're trying to really communicate that to our students, but"
+    },
+    {
+      "start": 1769.1,
+      "end": 1770.84,
+      "text": "you know, podcasting does offer that."
+    },
+    {
+      "start": 1770.92,
+      "end": 1774.58,
+      "text": "It brings that opportunity to connect with people that you normally wouldn't, you know?"
+    },
+    {
+      "start": 1774.96,
+      "end": 1775.74,
+      "text": "So I love it."
+    },
+    {
+      "start": 1775.96,
+      "end": 1779.08,
+      "text": "And even in the modern world now, and then the kids are on their phones and we're always,"
+    },
+    {
+      "start": 1779.2,
+      "end": 1782.36,
+      "text": "we're always on our phones, you know, even the kids are sat in the same room and they're"
+    },
+    {
+      "start": 1782.36,
+      "end": 1783.36,
+      "text": "sending each other texts."
+    },
+    {
+      "start": 1783.58,
+      "end": 1784.32,
+      "text": "Like, isn't that crazy?"
+    },
+    {
+      "start": 1784.32,
+      "end": 1789.44,
+      "text": "The, the one thing that, the, the, the side effect to podcasting, it's, it's made my conversations"
+    },
+    {
+      "start": 1789.44,
+      "end": 1793.54,
+      "text": "better with my relationships, with my family, with my friends."
+    },
+    {
+      "start": 1793.54,
+      "end": 1794.1,
+      "text": "That's a good point, yeah."
+    },
+    {
+      "start": 1794.12,
+      "end": 1797.04,
+      "text": "Because I'm, you know, got in more reps, you know, whenever do we sit across the table"
+    },
+    {
+      "start": 1797.04,
+      "end": 1798.16,
+      "text": "from someone and have a conversation?"
+    },
+    {
+      "start": 1798.24,
+      "end": 1798.74,
+      "text": "That's great, man."
+    },
+    {
+      "start": 1798.74,
+      "end": 1799.4,
+      "text": "We do it now."
+    },
+    {
+      "start": 1799.48,
+      "end": 1801.18,
+      "text": "We get to force people to do it and it's great."
+    },
+    {
+      "start": 1801.18,
+      "end": 1803.26,
+      "text": "But, you know, you're having those conversations."
+    },
+    {
+      "start": 1803.26,
+      "end": 1808.14,
+      "text": "And so, you know, when you're with your parents or with family members, you know, or your grandparents,"
+    },
+    {
+      "start": 1808.46,
+      "end": 1809.72,
+      "text": "you know, hopefully they're still around."
+    },
+    {
+      "start": 1809.8,
+      "end": 1811.96,
+      "text": "Like you get this time to ask them certain questions."
+    },
+    {
+      "start": 1812.28,
+      "end": 1815.16,
+      "text": "And even if you don't know what questions to ask them, there's great books out there,"
+    },
+    {
+      "start": 1815.2,
+      "end": 1815.3,
+      "text": "right?"
+    },
+    {
+      "start": 1815.3,
+      "end": 1819.3,
+      "text": "A hundred questions to ask your mom or your dad, you know, these, but take the time to do"
+    },
+    {
+      "start": 1819.3,
+      "end": 1822.08,
+      "text": "it because, you know, you'll remember those memories."
+    },
+    {
+      "start": 1822.36,
+      "end": 1826.1,
+      "text": "And the greatest thing I ever done with my podcast setup is I interviewed my granddad."
+    },
+    {
+      "start": 1826.3,
+      "end": 1826.96,
+      "text": "Oh, really?"
+    },
+    {
+      "start": 1826.96,
+      "end": 1829.7,
+      "text": "You know, I took it home, interviewed him in the kitchen table, just kind of sat."
+    },
+    {
+      "start": 1829.82,
+      "end": 1830.72,
+      "text": "That had to be strong."
+    },
+    {
+      "start": 1830.72,
+      "end": 1833.24,
+      "text": "It was so cool, you know, and it's just for us, right?"
+    },
+    {
+      "start": 1833.24,
+      "end": 1833.48,
+      "text": "Yeah."
+    },
+    {
+      "start": 1833.48,
+      "end": 1834.5,
+      "text": "Since passed away."
+    },
+    {
+      "start": 1834.7,
+      "end": 1838.88,
+      "text": "And, you know, my nan, it's funny because mid episode, my mom and my nan come back from"
+    },
+    {
+      "start": 1838.88,
+      "end": 1839.5,
+      "text": "going shopping."
+    },
+    {
+      "start": 1839.68,
+      "end": 1840.54,
+      "text": "Is it okay to come in?"
+    },
+    {
+      "start": 1840.56,
+      "end": 1841.0,
+      "text": "I'm like, yeah."
+    },
+    {
+      "start": 1841.06,
+      "end": 1842.16,
+      "text": "And you can hear it in the episode."
+    },
+    {
+      "start": 1842.26,
+      "end": 1842.84,
+      "text": "He picks it up."
+    },
+    {
+      "start": 1842.94,
+      "end": 1848.72,
+      "text": "And so, yeah, like, you know, there is a, there is a documenting history side of what we do too,"
+    },
+    {
+      "start": 1848.72,
+      "end": 1848.94,
+      "text": "right?"
+    },
+    {
+      "start": 1848.94,
+      "end": 1851.94,
+      "text": "Because all this stuff is going to stand the test of time long after we're gone."
+    },
+    {
+      "start": 1852.22,
+      "end": 1855.94,
+      "text": "And people get to look back, like, you know, kids, grandkids get to look at like, oh my"
+    },
+    {
+      "start": 1855.94,
+      "end": 1857.72,
+      "text": "gosh, like dad or granddad was on this episode."
+    },
+    {
+      "start": 1857.82,
+      "end": 1859.7,
+      "text": "And I get to go listen to his voice and see him."
+    },
+    {
+      "start": 1860.06,
+      "end": 1863.72,
+      "text": "Like, that's the side that most people don't think about, but I like looking that far ahead"
+    },
+    {
+      "start": 1863.72,
+      "end": 1864.84,
+      "text": "to see those."
+    },
+    {
+      "start": 1864.94,
+      "end": 1866.76,
+      "text": "And that's a lot of thing I tell my guests too."
+    },
+    {
+      "start": 1866.84,
+      "end": 1869.52,
+      "text": "I'm like, look, if you're on the fence about doing this, think about your grandkids."
+    },
+    {
+      "start": 1869.76,
+      "end": 1873.84,
+      "text": "And have you, if you haven't told your personal family story yet, this is an opportunity"
+    },
+    {
+      "start": 1873.84,
+      "end": 1874.44,
+      "text": "to do that."
+    },
+    {
+      "start": 1874.62,
+      "end": 1874.8,
+      "text": "Yeah."
+    },
+    {
+      "start": 1874.94,
+      "end": 1876.58,
+      "text": "That's, that's a really great point."
+    },
+    {
+      "start": 1876.7,
+      "end": 1877.76,
+      "text": "And think about that."
+    },
+    {
+      "start": 1877.76,
+      "end": 1880.72,
+      "text": "You know, I, I imagine you had some great questions lined up."
+    },
+    {
+      "start": 1880.88,
+      "end": 1885.5,
+      "text": "Think about having that documented, you know, the questions you've always wanted to ask your"
+    },
+    {
+      "start": 1885.5,
+      "end": 1888.32,
+      "text": "granddad, you know, as an, as a mature man."
+    },
+    {
+      "start": 1888.32,
+      "end": 1893.3,
+      "text": "Now you can actually ask some really helpful questions, you know, that's so cool, man."
+    },
+    {
+      "start": 1893.36,
+      "end": 1897.2,
+      "text": "I, I, I'm definitely going to take your advice on that and try to lean into everybody that"
+    },
+    {
+      "start": 1897.2,
+      "end": 1900.04,
+      "text": "I need to, that's really personal to me."
+    },
+    {
+      "start": 1900.04,
+      "end": 1902.28,
+      "text": "You know, that's a really cool thing, man."
+    },
+    {
+      "start": 1902.68,
+      "end": 1903.26,
+      "text": "That's awesome."
+    },
+    {
+      "start": 1903.26,
+      "end": 1905.56,
+      "text": "Well, we also talk a lot about hope on the show."
+    },
+    {
+      "start": 1905.64,
+      "end": 1911.78,
+      "text": "And so, um, I would just love to hear, you know, was there like a really pivotal, hopeful"
+    },
+    {
+      "start": 1911.78,
+      "end": 1912.96,
+      "text": "moment for you?"
+    },
+    {
+      "start": 1913.0,
+      "end": 1917.5,
+      "text": "I know that you, we, we talked a little bit about you, you felt completely disparaged and"
+    },
+    {
+      "start": 1917.5,
+      "end": 1920.76,
+      "text": "like, man, what am I going to do in the beginning when you came here for college?"
+    },
+    {
+      "start": 1921.22,
+      "end": 1922.34,
+      "text": "So what was the moment?"
+    },
+    {
+      "start": 1922.34,
+      "end": 1926.54,
+      "text": "I know that you did talk about a transition point, but was there a moment that, man, that"
+    },
+    {
+      "start": 1926.54,
+      "end": 1928.58,
+      "text": "was it where I just knew, you know?"
+    },
+    {
+      "start": 1928.66,
+      "end": 1928.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 1929.2,
+      "end": 1929.98,
+      "text": "Yeah, absolutely."
+    },
+    {
+      "start": 1930.14,
+      "end": 1936.08,
+      "text": "I think just in my life in general, uh, 20, let's see, COVID was happening."
+    },
+    {
+      "start": 1936.3,
+      "end": 1940.46,
+      "text": "My, my, my granddad on my mom, on my dad's side passed when I was eight."
+    },
+    {
+      "start": 1940.46,
+      "end": 1943.38,
+      "text": "And so do have fun, you know, early memories of that."
+    },
+    {
+      "start": 1943.64,
+      "end": 1947.54,
+      "text": "Um, but after that had so, you know, I'm 35."
+    },
+    {
+      "start": 1947.6,
+      "end": 1952.88,
+      "text": "So I had like, oh, you know, 30 years basically with, with three grandparents, you know, my,"
+    },
+    {
+      "start": 1952.94,
+      "end": 1956.46,
+      "text": "my, my grand on my dad's side and then my, both my grandparents, my mom's side."
+    },
+    {
+      "start": 1956.46,
+      "end": 1960.48,
+      "text": "And so they were super impactful in my life, you know, kind of going and, and, you know,"
+    },
+    {
+      "start": 1960.58,
+      "end": 1964.0,
+      "text": "going over after school, or I played a lot of golf with my granddad on my mom's side."
+    },
+    {
+      "start": 1964.24,
+      "end": 1968.02,
+      "text": "And, um, as a kid, and I still do today, I love like honey on toast."
+    },
+    {
+      "start": 1968.3,
+      "end": 1968.68,
+      "text": "Oh yeah."
+    },
+    {
+      "start": 1968.68,
+      "end": 1972.0,
+      "text": "So like my nan would always say, Hey, you know, if you want to come up and they lived"
+    },
+    {
+      "start": 1972.0,
+      "end": 1973.16,
+      "text": "like a mile, less than a mile away."
+    },
+    {
+      "start": 1973.16,
+      "end": 1974.9,
+      "text": "So we'd always like walk the dog up to my nan's house."
+    },
+    {
+      "start": 1975.3,
+      "end": 1976.46,
+      "text": "So all these great memories."
+    },
+    {
+      "start": 1976.46,
+      "end": 1981.34,
+      "text": "Well, during COVID, my, uh, my dad's mom passed, uh, Christmas of 2020."
+    },
+    {
+      "start": 1981.54,
+      "end": 1983.84,
+      "text": "So I couldn't go home for the funeral because of COVID."
+    },
+    {
+      "start": 1983.84,
+      "end": 1986.48,
+      "text": "Um, and there was a probably kind of COVID funeral too."
+    },
+    {
+      "start": 1986.58,
+      "end": 1988.92,
+      "text": "So it was, you know, my mom was, cause I wanted to go home."
+    },
+    {
+      "start": 1989.0,
+      "end": 1990.72,
+      "text": "Mom was like, there's 15 of us here."
+    },
+    {
+      "start": 1990.8,
+      "end": 1991.34,
+      "text": "It's not."
+    },
+    {
+      "start": 1992.0,
+      "end": 2000.6,
+      "text": "Um, and then my grandmother on my mom's side passed, uh, let's see, it was kind of around"
+    },
+    {
+      "start": 2000.6,
+      "end": 2001.92,
+      "text": "October of 22."
+    },
+    {
+      "start": 2002.6,
+      "end": 2004.04,
+      "text": "Um, I didn't go to the funeral."
+    },
+    {
+      "start": 2004.12,
+      "end": 2004.82,
+      "text": "I went home."
+    },
+    {
+      "start": 2004.82,
+      "end": 2005.54,
+      "text": "I had a phone call."
+    },
+    {
+      "start": 2005.64,
+      "end": 2009.5,
+      "text": "I told my mom and dad, I said, look, if you know that she's not going to be doing well,"
+    },
+    {
+      "start": 2009.82,
+      "end": 2011.08,
+      "text": "call me and I'm on the next phone."
+    },
+    {
+      "start": 2011.08,
+      "end": 2011.2,
+      "text": "Yeah."
+    },
+    {
+      "start": 2011.7,
+      "end": 2014.36,
+      "text": "And we got a call Halloween weekend."
+    },
+    {
+      "start": 2014.96,
+      "end": 2018.98,
+      "text": "Mom said, and my mom was like in tears and I was about to do a podcast the day that I"
+    },
+    {
+      "start": 2018.98,
+      "end": 2019.54,
+      "text": "got the call."
+    },
+    {
+      "start": 2019.68,
+      "end": 2020.7,
+      "text": "I was at a friend's house."
+    },
+    {
+      "start": 2020.76,
+      "end": 2021.68,
+      "text": "We were about to do a podcast."
+    },
+    {
+      "start": 2021.88,
+      "end": 2026.92,
+      "text": "I remember FaceTime, my parents sat in the car about to do a podcast and, you know, got"
+    },
+    {
+      "start": 2026.92,
+      "end": 2029.38,
+      "text": "the call and my mom couldn't say the words."
+    },
+    {
+      "start": 2029.48,
+      "end": 2031.28,
+      "text": "And I just said, do I have to come home?"
+    },
+    {
+      "start": 2031.8,
+      "end": 2031.88,
+      "text": "Oh."
+    },
+    {
+      "start": 2031.88,
+      "end": 2036.06,
+      "text": "And she just, she just nodded and I was like, great book in the next flight."
+    },
+    {
+      "start": 2036.14,
+      "end": 2038.46,
+      "text": "So we flew out, um, flew out the next day."
+    },
+    {
+      "start": 2038.52,
+      "end": 2039.26,
+      "text": "I flew out that night."
+    },
+    {
+      "start": 2039.72,
+      "end": 2042.5,
+      "text": "Um, I landed literally within 24 hours."
+    },
+    {
+      "start": 2042.78,
+      "end": 2045.42,
+      "text": "Um, you know, which was probably a Saturday."
+    },
+    {
+      "start": 2045.74,
+      "end": 2049.54,
+      "text": "I, yeah, I went home Saturday to Saturday and Sunday to Sunday."
+    },
+    {
+      "start": 2049.58,
+      "end": 2050.2,
+      "text": "I think I flew."
+    },
+    {
+      "start": 2050.9,
+      "end": 2052.52,
+      "text": "Got home, landed Monday morning."
+    },
+    {
+      "start": 2053.28,
+      "end": 2055.82,
+      "text": "Um, going straight to the straight hospital this year."
+    },
+    {
+      "start": 2055.9,
+      "end": 2057.32,
+      "text": "And I show up and my nan looks at me."
+    },
+    {
+      "start": 2057.34,
+      "end": 2058.36,
+      "text": "She's like, what are you doing here?"
+    },
+    {
+      "start": 2058.36,
+      "end": 2062.68,
+      "text": "You know, and I was just like, came here to see you and I'm fighting tears back."
+    },
+    {
+      "start": 2062.9,
+      "end": 2065.8,
+      "text": "And, um, and so she passed Wednesday."
+    },
+    {
+      "start": 2066.06,
+      "end": 2068.42,
+      "text": "So I got, got to see her before she passed."
+    },
+    {
+      "start": 2068.64,
+      "end": 2072.38,
+      "text": "And so, um, wasn't at the bedside when she passed."
+    },
+    {
+      "start": 2072.46,
+      "end": 2076.38,
+      "text": "My mom was there, but you know, I saw her Monday afternoon, saw her Tuesday and saw her"
+    },
+    {
+      "start": 2076.38,
+      "end": 2077.02,
+      "text": "Wednesday morning."
+    },
+    {
+      "start": 2077.66,
+      "end": 2080.66,
+      "text": "Um, and that Wednesday was kind of like, she didn't say anything."
+    },
+    {
+      "start": 2080.66,
+      "end": 2083.92,
+      "text": "She was just kind of, you know, ticking clock kind of situation."
+    },
+    {
+      "start": 2083.92,
+      "end": 2087.0,
+      "text": "And I'd already kind of said my mentally in my head kind of said my, right."
+    },
+    {
+      "start": 2087.0,
+      "end": 2092.22,
+      "text": "And so then a year later, uh, my granddad struggled with, um, dementia."
+    },
+    {
+      "start": 2092.46,
+      "end": 2092.86,
+      "text": "Okay."
+    },
+    {
+      "start": 2093.04,
+      "end": 2097.92,
+      "text": "Um, so one was kind of, you know, struggling already a little bit with it."
+    },
+    {
+      "start": 2098.34,
+      "end": 2102.82,
+      "text": "And he was, you know, the guy I looked up to most of my dad and my granddad are just"
+    },
+    {
+      "start": 2102.82,
+      "end": 2106.3,
+      "text": "two super hardworking, um, gentlemen."
+    },
+    {
+      "start": 2106.3,
+      "end": 2109.22,
+      "text": "My granddad was, is like, was in the police force."
+    },
+    {
+      "start": 2109.22,
+      "end": 2110.24,
+      "text": "He was a military policeman."
+    },
+    {
+      "start": 2110.86,
+      "end": 2115.24,
+      "text": "Um, then, you know, military, military policeman, then police force and ended up being like our"
+    },
+    {
+      "start": 2115.24,
+      "end": 2117.74,
+      "text": "kind of chief superintendent for the region."
+    },
+    {
+      "start": 2118.92,
+      "end": 2122.8,
+      "text": "So it was very good in his career, always pushed education on me, always, you know, played"
+    },
+    {
+      "start": 2122.8,
+      "end": 2123.98,
+      "text": "golf with him through the summer."
+    },
+    {
+      "start": 2124.08,
+      "end": 2127.72,
+      "text": "Kind of, he played golf every Tuesday, Thursday, Sunday, eight o'clock in the morning, which"
+    },
+    {
+      "start": 2127.72,
+      "end": 2129.94,
+      "text": "is the, someone in high school is just like a crack of door."
+    },
+    {
+      "start": 2130.26,
+      "end": 2130.46,
+      "text": "I know."
+    },
+    {
+      "start": 2130.5,
+      "end": 2130.74,
+      "text": "Right."
+    },
+    {
+      "start": 2130.98,
+      "end": 2133.28,
+      "text": "Um, you know, and so I had got this amazing memories."
+    },
+    {
+      "start": 2133.28,
+      "end": 2138.32,
+      "text": "And so I didn't realize, um, you know, because I was in the States and my brother and family,"
+    },
+    {
+      "start": 2138.32,
+      "end": 2141.2,
+      "text": "you know, they got to see him every day and realize kind of his slow deterioration."
+    },
+    {
+      "start": 2141.2,
+      "end": 2143.44,
+      "text": "Whereas for me, it was kind of, oh, right."
+    },
+    {
+      "start": 2143.48,
+      "end": 2145.7,
+      "text": "He's, you know, asking the same questions every five minutes."
+    },
+    {
+      "start": 2146.36,
+      "end": 2153.58,
+      "text": "Um, so had, uh, I didn't go, I knew that he wasn't doing well and again, got the call."
+    },
+    {
+      "start": 2154.12,
+      "end": 2158.86,
+      "text": "Um, you know, granddad's passed away and his name, my, when I was a kid, I could, I couldn't"
+    },
+    {
+      "start": 2158.86,
+      "end": 2159.7,
+      "text": "call him granddad."
+    },
+    {
+      "start": 2159.78,
+      "end": 2160.96,
+      "text": "I could say gangan."
+    },
+    {
+      "start": 2161.08,
+      "end": 2161.44,
+      "text": "Okay."
+    },
+    {
+      "start": 2161.44,
+      "end": 2165.04,
+      "text": "So his name from my entire life was G A N G A N."
+    },
+    {
+      "start": 2165.14,
+      "end": 2165.86,
+      "text": "That's awesome."
+    },
+    {
+      "start": 2166.1,
+      "end": 2169.38,
+      "text": "And so, um, got the, got the call that he'd passed away."
+    },
+    {
+      "start": 2169.38,
+      "end": 2170.94,
+      "text": "And so I went home for that funeral."
+    },
+    {
+      "start": 2171.4,
+      "end": 2173.74,
+      "text": "Um, and I asked my parents, is anyone speaking?"
+    },
+    {
+      "start": 2173.74,
+      "end": 2175.28,
+      "text": "Like, what are we doing for the funeral?"
+    },
+    {
+      "start": 2175.88,
+      "end": 2177.84,
+      "text": "And something in me just said, like, you have to do it."
+    },
+    {
+      "start": 2177.84,
+      "end": 2178.52,
+      "text": "You have to speak."
+    },
+    {
+      "start": 2178.64,
+      "end": 2178.78,
+      "text": "Wow."
+    },
+    {
+      "start": 2179.26,
+      "end": 2181.8,
+      "text": "Um, at this time you're like, not a public speaker."
+    },
+    {
+      "start": 2182.0,
+      "end": 2182.4,
+      "text": "Right."
+    },
+    {
+      "start": 2182.56,
+      "end": 2186.4,
+      "text": "And I podcast is a little bit, but never, I done like maybe one or two kind of standing"
+    },
+    {
+      "start": 2186.4,
+      "end": 2192.52,
+      "text": "up, sharing my stories, um, but never in front of, you know, all of my granddad's friends,"
+    },
+    {
+      "start": 2192.66,
+      "end": 2194.3,
+      "text": "peers, family members, colleagues."
+    },
+    {
+      "start": 2194.76,
+      "end": 2198.24,
+      "text": "Um, these are the last words that you're going to speak about in front of these people,"
+    },
+    {
+      "start": 2198.32,
+      "end": 2198.54,
+      "text": "you know?"
+    },
+    {
+      "start": 2198.68,
+      "end": 2199.0,
+      "text": "Absolutely."
+    },
+    {
+      "start": 2199.0,
+      "end": 2202.28,
+      "text": "And so I wrote, I wrote this, what I was going to say."
+    },
+    {
+      "start": 2202.84,
+      "end": 2206.64,
+      "text": "Um, and there's a great, great quote in there by Jack London."
+    },
+    {
+      "start": 2207.26,
+      "end": 2209.32,
+      "text": "Um, and I kind of finished it with the quote."
+    },
+    {
+      "start": 2209.4,
+      "end": 2212.96,
+      "text": "I started with the quote and then read a little bit, but what happened, I get up there and I"
+    },
+    {
+      "start": 2212.96,
+      "end": 2216.86,
+      "text": "was fine all morning and we get in there in the hearse, take, you know, his drink kind"
+    },
+    {
+      "start": 2216.86,
+      "end": 2220.74,
+      "text": "of convoy down to the, um, to the crematorium where we did the service."
+    },
+    {
+      "start": 2221.0,
+      "end": 2225.52,
+      "text": "And I was fine until I got out of the car and kind of wheeled him out and put him on,"
+    },
+    {
+      "start": 2225.64,
+      "end": 2226.64,
+      "text": "you know, we didn't carry him in."
+    },
+    {
+      "start": 2226.7,
+      "end": 2227.54,
+      "text": "We kind of wheeled him in."
+    },
+    {
+      "start": 2227.54,
+      "end": 2231.8,
+      "text": "And then as soon as I stood up there and, and the pastor was, came out, he's like, look,"
+    },
+    {
+      "start": 2231.86,
+      "end": 2233.82,
+      "text": "I'm going to do a quick introduction and then I'm going to pull you up."
+    },
+    {
+      "start": 2234.14,
+      "end": 2238.32,
+      "text": "Um, and so 30 seconds later, I'm standing in front of, you know, all of these people."
+    },
+    {
+      "start": 2238.46,
+      "end": 2240.74,
+      "text": "All this that you just like, kind of like took in."
+    },
+    {
+      "start": 2240.82,
+      "end": 2241.06,
+      "text": "Yeah."
+    },
+    {
+      "start": 2241.06,
+      "end": 2242.62,
+      "text": "And I like immediately get emotional."
+    },
+    {
+      "start": 2242.62,
+      "end": 2244.02,
+      "text": "I'm crying and where are my glasses."
+    },
+    {
+      "start": 2244.02,
+      "end": 2245.74,
+      "text": "And so my tears are falling into my glasses."
+    },
+    {
+      "start": 2245.74,
+      "end": 2247.6,
+      "text": "So I can't see what I'm trying to read."
+    },
+    {
+      "start": 2248.02,
+      "end": 2256.7,
+      "text": "Um, so that was, and, but all that to say is during this time, um, I, my relationship"
+    },
+    {
+      "start": 2256.7,
+      "end": 2258.1,
+      "text": "with my ex-wife wasn't great."
+    },
+    {
+      "start": 2258.1,
+      "end": 2262.32,
+      "text": "And so, um, you know, we'd kind of just been, she'd moved out."
+    },
+    {
+      "start": 2262.44,
+      "end": 2266.58,
+      "text": "We hadn't really been doing, she hadn't moved out yet, but we just hadn't, things weren't"
+    },
+    {
+      "start": 2266.58,
+      "end": 2270.42,
+      "text": "going well and it hadn't been going well since about July of that year."
+    },
+    {
+      "start": 2270.42,
+      "end": 2274.9,
+      "text": "And so July, you know, June, August, September, October, I go home from my granddad's funeral."
+    },
+    {
+      "start": 2274.9,
+      "end": 2277.88,
+      "text": "Um, and I know things aren't good."
+    },
+    {
+      "start": 2277.92,
+      "end": 2284.28,
+      "text": "And so when I come back from that, um, I was home for a week, I came back and my ex-wife"
+    },
+    {
+      "start": 2284.28,
+      "end": 2285.42,
+      "text": "had moved out while I was away."
+    },
+    {
+      "start": 2285.56,
+      "end": 2286.1,
+      "text": "Oh, wow."
+    },
+    {
+      "start": 2286.16,
+      "end": 2291.38,
+      "text": "And so, you know, like it's, um, and then obviously things, you know, progress and snowball"
+    },
+    {
+      "start": 2291.38,
+      "end": 2292.88,
+      "text": "from there and we eventually get divorced."
+    },
+    {
+      "start": 2292.88,
+      "end": 2298.52,
+      "text": "And so that like probably four month period from October, November, December, January."
+    },
+    {
+      "start": 2299.12,
+      "end": 2299.56,
+      "text": "Yeah."
+    },
+    {
+      "start": 2299.9,
+      "end": 2302.08,
+      "text": "Really was like the lowest point in my life."
+    },
+    {
+      "start": 2302.08,
+      "end": 2302.44,
+      "text": "Right."
+    },
+    {
+      "start": 2302.44,
+      "end": 2307.18,
+      "text": "Um, because before that I'd never really had a tough point, you know, I, I, I was the kind"
+    },
+    {
+      "start": 2307.18,
+      "end": 2308.9,
+      "text": "of successful golfer from my town."
+    },
+    {
+      "start": 2308.9,
+      "end": 2310.16,
+      "text": "I'd come out to the States."
+    },
+    {
+      "start": 2310.16,
+      "end": 2314.86,
+      "text": "I'd stayed, I got married, you know, I'd bought a house and people knew the podcast at that"
+    },
+    {
+      "start": 2314.86,
+      "end": 2319.02,
+      "text": "point, you know, I'd probably done close to 500 episodes, but you're checking the boxes"
+    },
+    {
+      "start": 2319.02,
+      "end": 2319.92,
+      "text": "of building your life."
+    },
+    {
+      "start": 2319.92,
+      "end": 2322.96,
+      "text": "Everyone thinks on the outside, you're having a really good, you know, you're having a great"
+    },
+    {
+      "start": 2322.96,
+      "end": 2323.3,
+      "text": "life."
+    },
+    {
+      "start": 2323.3,
+      "end": 2328.86,
+      "text": "And then over, you know, from my, my grand passing Christmas of 2020 to end of 23, like things"
+    },
+    {
+      "start": 2328.86,
+      "end": 2331.1,
+      "text": "really, you know, went downhill and they were getting divorced."
+    },
+    {
+      "start": 2331.1,
+      "end": 2336.24,
+      "text": "So, you know, there's a lot of, um, a lot of perception of bad things around divorce."
+    },
+    {
+      "start": 2336.24,
+      "end": 2336.54,
+      "text": "Right."
+    },
+    {
+      "start": 2336.54,
+      "end": 2340.94,
+      "text": "You know, and, and you go through that mentally and then, you know, I, I'm in my house alone."
+    },
+    {
+      "start": 2341.56,
+      "end": 2341.88,
+      "text": "Right."
+    },
+    {
+      "start": 2342.16,
+      "end": 2347.16,
+      "text": "And thankfully for me, I got two dogs that I just kind of like, they were the best thing"
+    },
+    {
+      "start": 2347.16,
+      "end": 2347.78,
+      "text": "that happened to me."
+    },
+    {
+      "start": 2347.78,
+      "end": 2348.54,
+      "text": "Which they're kind of like human."
+    },
+    {
+      "start": 2348.74,
+      "end": 2349.4,
+      "text": "Doodles like humans."
+    },
+    {
+      "start": 2349.4,
+      "end": 2349.64,
+      "text": "Absolutely."
+    },
+    {
+      "start": 2349.9,
+      "end": 2350.06,
+      "text": "Right."
+    },
+    {
+      "start": 2350.1,
+      "end": 2350.7,
+      "text": "Two golden doodles."
+    },
+    {
+      "start": 2350.7,
+      "end": 2352.24,
+      "text": "And so they really kind of helped."
+    },
+    {
+      "start": 2352.24,
+      "end": 2356.1,
+      "text": "And then I had a great friend support around me, like, Hey, let's go out, let's go hit"
+    },
+    {
+      "start": 2356.1,
+      "end": 2356.58,
+      "text": "golf balls."
+    },
+    {
+      "start": 2356.58,
+      "end": 2357.32,
+      "text": "Let's go to dinner."
+    },
+    {
+      "start": 2357.32,
+      "end": 2361.42,
+      "text": "Like I had a really good friend group that kind of circled around me, which is so important,"
+    },
+    {
+      "start": 2361.42,
+      "end": 2364.58,
+      "text": "you know, and it's the people that kind of come out to help you, you know, they're friends,"
+    },
+    {
+      "start": 2364.64,
+      "end": 2367.2,
+      "text": "but you never realized how good a friend they are until something happens."
+    },
+    {
+      "start": 2367.44,
+      "end": 2372.32,
+      "text": "And so, yeah, I mean, it was like, it's never fun going to an attorney and talking about"
+    },
+    {
+      "start": 2372.32,
+      "end": 2372.82,
+      "text": "a divorce."
+    },
+    {
+      "start": 2372.82,
+      "end": 2376.08,
+      "text": "And then you're dealing with, you know, missing the memories of your family."
+    },
+    {
+      "start": 2376.08,
+      "end": 2379.48,
+      "text": "And, um, you know, my parents were great and they're so there, whatever you need, like"
+    },
+    {
+      "start": 2379.48,
+      "end": 2381.74,
+      "text": "it needs to come out and, you know, just going through that."
+    },
+    {
+      "start": 2381.78,
+      "end": 2387.74,
+      "text": "It was, yeah, the, the end of 23 into 24 was, was one of the hardest times for sure."
+    },
+    {
+      "start": 2387.86,
+      "end": 2389.46,
+      "text": "And I hear a recurring theme for you too."
+    },
+    {
+      "start": 2389.54,
+      "end": 2393.9,
+      "text": "It sounds like community has been a big hope builder for you, you know, being around the"
+    },
+    {
+      "start": 2393.9,
+      "end": 2399.08,
+      "text": "right people, people that are there understanding what you're going through and empathetic towards"
+    },
+    {
+      "start": 2399.08,
+      "end": 2401.04,
+      "text": "that and, you know, helping you and supporting you."
+    },
+    {
+      "start": 2401.04,
+      "end": 2405.88,
+      "text": "It seems like that's the hope builder in many situations for people is community."
+    },
+    {
+      "start": 2406.08,
+      "end": 2407.52,
+      "text": "And, you know, it's really cool."
+    },
+    {
+      "start": 2407.6,
+      "end": 2408.82,
+      "text": "You have such a great community too."
+    },
+    {
+      "start": 2408.92,
+      "end": 2409.08,
+      "text": "I did."
+    },
+    {
+      "start": 2409.16,
+      "end": 2412.76,
+      "text": "Every time I see it, it's like, we have, we have different friends that are kind of like"
+    },
+    {
+      "start": 2412.76,
+      "end": 2414.74,
+      "text": "connected in small ways."
+    },
+    {
+      "start": 2414.74,
+      "end": 2418.5,
+      "text": "You know, it's, it's really cool how that works, but you have a great community and you"
+    },
+    {
+      "start": 2418.5,
+      "end": 2421.24,
+      "text": "can tell that, you know, obviously things are going well, you're thriving."
+    },
+    {
+      "start": 2421.24,
+      "end": 2422.36,
+      "text": "And that's, that's so cool."
+    },
+    {
+      "start": 2422.4,
+      "end": 2425.98,
+      "text": "It's good information to have for number one, our audience, but also for our students."
+    },
+    {
+      "start": 2425.98,
+      "end": 2428.46,
+      "text": "We, we really promote that with them."
+    },
+    {
+      "start": 2428.46,
+      "end": 2433.0,
+      "text": "Like you need, you need a group of people to be around that are positive, that are moving in"
+    },
+    {
+      "start": 2433.0,
+      "end": 2434.02,
+      "text": "the same direction as you."
+    },
+    {
+      "start": 2434.02,
+      "end": 2436.94,
+      "text": "And so that's where a lot of hope can be developed."
+    },
+    {
+      "start": 2436.94,
+      "end": 2438.34,
+      "text": "It's like an incubator for hope."
+    },
+    {
+      "start": 2438.34,
+      "end": 2443.74,
+      "text": "I think the right community is an incubator for hope, but well, man, Mike, thank you so"
+    },
+    {
+      "start": 2443.74,
+      "end": 2444.74,
+      "text": "much for coming on, man."
+    },
+    {
+      "start": 2444.82,
+      "end": 2448.74,
+      "text": "I thank you for sharing that story too, about your experience with divorce."
+    },
+    {
+      "start": 2448.88,
+      "end": 2450.32,
+      "text": "That's man."
+    },
+    {
+      "start": 2450.32,
+      "end": 2455.12,
+      "text": "That's something that, like you said, we don't talk about that a lot sometimes and people"
+    },
+    {
+      "start": 2455.12,
+      "end": 2456.5,
+      "text": "that are going through that."
+    },
+    {
+      "start": 2456.64,
+      "end": 2460.3,
+      "text": "It's difficult, you know, I, cause I've, I've personally been divorced myself and I know what"
+    },
+    {
+      "start": 2460.3,
+      "end": 2464.76,
+      "text": "that's like, it feels like kind of like a, like a death in the, in your family kind of,"
+    },
+    {
+      "start": 2464.76,
+      "end": 2468.62,
+      "text": "you know, there's something has died, you know, that you really loved and wanted to"
+    },
+    {
+      "start": 2468.62,
+      "end": 2469.1,
+      "text": "nourish."
+    },
+    {
+      "start": 2469.1,
+      "end": 2471.2,
+      "text": "And for me, like that was the only family I had."
+    },
+    {
+      "start": 2471.26,
+      "end": 2471.54,
+      "text": "Yeah."
+    },
+    {
+      "start": 2471.66,
+      "end": 2472.36,
+      "text": "You're alone here."
+    },
+    {
+      "start": 2472.38,
+      "end": 2472.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 2472.5,
+      "end": 2476.44,
+      "text": "That was, you know, that was definitely the hardest kind of time of just, and back to"
+    },
+    {
+      "start": 2476.44,
+      "end": 2480.28,
+      "text": "what you said, community, you know, I, my personality, like I have, I can't just sit"
+    },
+    {
+      "start": 2480.28,
+      "end": 2480.56,
+      "text": "around."
+    },
+    {
+      "start": 2480.66,
+      "end": 2480.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 2480.76,
+      "end": 2482.16,
+      "text": "I have to get out and see people."
+    },
+    {
+      "start": 2482.16,
+      "end": 2485.24,
+      "text": "And you know, it was, yeah, definitely some great friendships."
+    },
+    {
+      "start": 2485.5,
+      "end": 2486.14,
+      "text": "That's great, man."
+    },
+    {
+      "start": 2486.2,
+      "end": 2486.6,
+      "text": "That's great."
+    },
+    {
+      "start": 2486.6,
+      "end": 2489.8,
+      "text": "Well, it's been incredible having you on, hopefully you'll come back."
+    },
+    {
+      "start": 2489.92,
+      "end": 2493.68,
+      "text": "Hopefully we didn't run you off, but I'm excited for what you're doing with this is"
+    },
+    {
+      "start": 2493.68,
+      "end": 2497.56,
+      "text": "Oklahoma and thankful for the support that you give city center, just, you know, through,"
+    },
+    {
+      "start": 2497.68,
+      "end": 2501.56,
+      "text": "you know, sharing the word about what we're doing and things like that means the world"
+    },
+    {
+      "start": 2501.56,
+      "end": 2501.94,
+      "text": "to us."
+    },
+    {
+      "start": 2502.02,
+      "end": 2503.3,
+      "text": "Thanks for bringing me on the podcast."
+    },
+    {
+      "start": 2503.3,
+      "end": 2505.32,
+      "text": "That was a incredible experience."
+    },
+    {
+      "start": 2505.32,
+      "end": 2509.1,
+      "text": "And so again, like I said, you inspired me and we're doing it now."
+    },
+    {
+      "start": 2509.1,
+      "end": 2514.02,
+      "text": "And I think young people are going to be really enriched by the whole process."
+    },
+    {
+      "start": 2514.02,
+      "end": 2517.6,
+      "text": "So thanks again, Mike, for coming from this is Oklahoma."
+    },
+    {
+      "start": 2517.8,
+      "end": 2519.52,
+      "text": "And if you need a house, he's your guy."
+    },
+    {
+      "start": 2519.62,
+      "end": 2521.76,
+      "text": "I'm telling you, he is your guy."
+    },
+    {
+      "start": 2521.94,
+      "end": 2524.74,
+      "text": "So have a great week and we will see you back next week."
+    }
+  ]
+}

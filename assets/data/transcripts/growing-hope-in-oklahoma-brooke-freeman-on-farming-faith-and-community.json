@@ -1,0 +1,1211 @@
+{
+  "episode_title": "Growing Hope in Oklahoma: Brooke Freeman on Farming, Faith, and Community",
+  "episode_slug": "growing-hope-in-oklahoma-brooke-freeman-on-farming-faith-and-community",
+  "source": "Published episode audio",
+  "language": "en",
+  "review_status": "machine-generated",
+  "generated_at": "2026-08-04T10:08:49+00:00",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 29.98,
+      "text": "Freeman Farms with Brooke Freeman. And I'm just so excited to hear about this because they provide so many"
+    },
+    {
+      "start": 30.0,
+      "end": 36.12,
+      "text": "pounds of produce to City Center every year. It's unbelievable. And it's straight from the ground"
+    },
+    {
+      "start": 36.12,
+      "end": 42.24,
+      "text": "to our kitchen. So our kids get the absolute best. So without further ado, welcome Brooke Freeman."
+    },
+    {
+      "start": 42.24,
+      "end": 48.18,
+      "text": "Thank you. You're welcome. Thank you so much for doing this. Yeah. I am just overjoyed at the"
+    },
+    {
+      "start": 48.18,
+      "end": 53.88,
+      "text": "partnership that we have with you guys. It's been such a just a tremendous joy to be able to take our"
+    },
+    {
+      "start": 53.88,
+      "end": 59.92,
+      "text": "kids out there, you know, and see what it looks like to do what you do, but also, you know, to experience"
+    },
+    {
+      "start": 59.92,
+      "end": 63.88,
+      "text": "pulling a vegetable out of the ground and eating it right there. That's kind of a big deal for them."
+    },
+    {
+      "start": 63.88,
+      "end": 67.48,
+      "text": "Yeah. So tell me a little bit about yourself, Brooke. I mean, we've gotten to know each other,"
+    },
+    {
+      "start": 67.48,
+      "end": 72.34,
+      "text": "but I don't know all about you. I want to hear more about, you know, how you grew up and where"
+    },
+    {
+      "start": 72.34,
+      "end": 74.8,
+      "text": "you grew up and all that good stuff. So tell me about Brooke."
+    },
+    {
+      "start": 74.8,
+      "end": 79.04,
+      "text": "Um, I'm actually from Ohio. Okay."
+    },
+    {
+      "start": 79.04,
+      "end": 87.8,
+      "text": "Um, but just life, life has brought me here to Oklahoma. I've been here for 12 years, I believe."
+    },
+    {
+      "start": 88.8,
+      "end": 99.78,
+      "text": "Um, and I've been married for 11 years. I have two boys, Jack and Lucas. Um, Jack is going to be a"
+    },
+    {
+      "start": 99.78,
+      "end": 101.08,
+      "text": "sophomore next year."
+    },
+    {
+      "start": 101.08,
+      "end": 104.2,
+      "text": "You grew up so fast. It's unbelievable how fast it goes."
+    },
+    {
+      "start": 104.54,
+      "end": 114.42,
+      "text": "And then Lucas is 10. And so, yeah, just a mom and mom and now a farmer and trying to build this"
+    },
+    {
+      "start": 114.42,
+      "end": 117.88,
+      "text": "nonprofit and trying to do all the hats."
+    },
+    {
+      "start": 118.32,
+      "end": 120.58,
+      "text": "So it is a nonprofit organization then, right?"
+    },
+    {
+      "start": 120.64,
+      "end": 120.84,
+      "text": "Yes."
+    },
+    {
+      "start": 120.84,
+      "end": 125.24,
+      "text": "That's right. Okay. So what, what started all that? What got you interested in doing what you're"
+    },
+    {
+      "start": 125.24,
+      "end": 125.76,
+      "text": "doing right now?"
+    },
+    {
+      "start": 125.76,
+      "end": 134.4,
+      "text": "Um, so, um, originally I have a nursing background. Um, I did NICU nursing and, um,"
+    },
+    {
+      "start": 134.54,
+      "end": 142.54,
+      "text": "I basically was working nights and weekends in a hospital and I wanted to get out of doing that."
+    },
+    {
+      "start": 142.54,
+      "end": 148.66,
+      "text": "Um, wanted to, I felt like I was missing activities with my kids and I was always tired and all of that."
+    },
+    {
+      "start": 148.66,
+      "end": 155.48,
+      "text": "So, um, I had a family member who was friends with someone that had a pain management"
+    },
+    {
+      "start": 155.48,
+      "end": 160.16,
+      "text": "office. And so they're like, Oh, there's this job opportunities where you can get out of the"
+    },
+    {
+      "start": 160.16,
+      "end": 166.88,
+      "text": "hospital. So I started, um, to work for this pain management doctor. And during that time,"
+    },
+    {
+      "start": 166.88,
+      "end": 173.74,
+      "text": "I just started getting stirred of there's gotta be something better than this. I felt like there"
+    },
+    {
+      "start": 173.74,
+      "end": 180.82,
+      "text": "was more natural. Maybe. Yes. I, I felt like, um, that wasn't my purpose anymore. I felt like I"
+    },
+    {
+      "start": 180.82,
+      "end": 190.92,
+      "text": "wanted to help people like truly help people. Um, and one day I just had this vision where I am like"
+    },
+    {
+      "start": 190.92,
+      "end": 198.38,
+      "text": "standing on a cliff and there are sheep everywhere. Okay. And I don't see Jesus, but in this vision,"
+    },
+    {
+      "start": 198.38,
+      "end": 204.44,
+      "text": "like I know that he's standing right next to me and I hear him say, I want you to feed my people."
+    },
+    {
+      "start": 204.44,
+      "end": 212.04,
+      "text": "And I remember in the vision, I'm like, what's that? What, what do you mean? Like, how am I"
+    },
+    {
+      "start": 212.04,
+      "end": 217.9,
+      "text": "supposed to feed your people? And then it was over and that was the end of it. And I kept trying to"
+    },
+    {
+      "start": 217.9,
+      "end": 223.46,
+      "text": "like, was it one of those just that it felt so real? Yes. Yeah. And I just kept trying to like"
+    },
+    {
+      "start": 223.46,
+      "end": 230.14,
+      "text": "reimagine that to see if I could get any more information. And that was literally the end of it."
+    },
+    {
+      "start": 230.14,
+      "end": 239.7,
+      "text": "Um, and so I just kind of held on to that vision. And, um, again, again, my heart was being stirred to"
+    },
+    {
+      "start": 239.7,
+      "end": 246.44,
+      "text": "get out of nursing and to do something that felt like I was truly making a big impact on people's"
+    },
+    {
+      "start": 246.44,
+      "end": 252.88,
+      "text": "health. And so I became a health coach. And through that, when I started talking to women,"
+    },
+    {
+      "start": 252.88,
+      "end": 261.94,
+      "text": "every single woman was saying to me, I can't afford organic, I can't afford healthy. I want to feed my"
+    },
+    {
+      "start": 261.94,
+      "end": 267.46,
+      "text": "kids healthy food. I don't have access. We're on a budget. It was the same thing over and over again."
+    },
+    {
+      "start": 267.46,
+      "end": 272.9,
+      "text": "So I went to my husband and I said, I think we need to start a farm and it needs to be a nonprofit."
+    },
+    {
+      "start": 272.9,
+      "end": 280.02,
+      "text": "And the, these families that need the food, we can give it to them. And, and you know,"
+    },
+    {
+      "start": 280.02,
+      "end": 288.12,
+      "text": "my husband was like, okay, like we just like blindly we're like, okay. Yeah. Um, have zero"
+    },
+    {
+      "start": 288.12,
+      "end": 295.18,
+      "text": "farming experience. No, I have, I had no idea what I was doing. No nonprofit experience, no business"
+    },
+    {
+      "start": 295.18,
+      "end": 303.36,
+      "text": "experience. And I just had this, like looking back at it now, I just think that was not me."
+    },
+    {
+      "start": 303.36,
+      "end": 311.24,
+      "text": "That was the Holy spirit because I literally had, there was no wavering. I was like, we are doing"
+    },
+    {
+      "start": 311.24,
+      "end": 319.5,
+      "text": "this. This was the vision. Like, this is what God wants me to do. Like we just blindly and stupidly"
+    },
+    {
+      "start": 319.5,
+      "end": 330.1,
+      "text": "a word stupidly just went with it. Um, so we, we started it five years ago. Uh, we got our 501 C3"
+    },
+    {
+      "start": 330.1,
+      "end": 339.04,
+      "text": "in January of 2020. Okay. But we didn't actually start farming until 21. That might be perfect timing."
+    },
+    {
+      "start": 339.38,
+      "end": 344.24,
+      "text": "Yeah. You know, because you're, we're in COVID and you know, what else can you do but farm outside?"
+    },
+    {
+      "start": 344.24,
+      "end": 348.4,
+      "text": "That's great. Yeah. That's a great option. Yeah. That's really neat how that landed."
+    },
+    {
+      "start": 349.3,
+      "end": 354.54,
+      "text": "Very cool. So you farm now and where's the farm located? It's in Chandler. Chandler. Yeah. Chandler,"
+    },
+    {
+      "start": 354.62,
+      "end": 359.48,
+      "text": "Oklahoma. Awesome. And some of our students have come out there to help, you know, farm the land"
+    },
+    {
+      "start": 359.48,
+      "end": 363.14,
+      "text": "and kind of see what your day looks like. What, what has that been like for the kids when,"
+    },
+    {
+      "start": 363.46,
+      "end": 369.68,
+      "text": "I mean, what do you see when they come out here? Yeah. It's awesome. Um, it, it can be stressful"
+    },
+    {
+      "start": 369.68,
+      "end": 375.58,
+      "text": "getting all these teenagers and kids. We have schools that come out like Cassidy comes out every year"
+    },
+    {
+      "start": 375.58,
+      "end": 384.8,
+      "text": "and they bring 72 kids. So it is, it can get really crazy, really stressful out there, but it's always,"
+    },
+    {
+      "start": 384.8,
+      "end": 392.34,
+      "text": "it just always reminds me that this really is God's work because they will come out and they just pick"
+    },
+    {
+      "start": 392.34,
+      "end": 399.98,
+      "text": "from the ground. And these kids are eating raw onions, raw garlic, beets. Like they will just put"
+    },
+    {
+      "start": 399.98,
+      "end": 408.88,
+      "text": "anything in their mouth because they are seeing it and experience it. Yeah. And like when I, I'm pretty"
+    },
+    {
+      "start": 408.88,
+      "end": 415.0,
+      "text": "sure it was city center that came out once and one of the kids, we were by the carrot bed, we were going"
+    },
+    {
+      "start": 415.0,
+      "end": 421.96,
+      "text": "to pull carrots. And one of the kids said, I had no idea. This is how a carrot is grown. And it's just"
+    },
+    {
+      "start": 421.96,
+      "end": 428.96,
+      "text": "a reminder that when we eat, we, we don't think about like where that came from or how that grows. We"
+    },
+    {
+      "start": 428.96,
+      "end": 433.7,
+      "text": "just eat, you know, what, when you think about it too, you're putting this in your body. We know that,"
+    },
+    {
+      "start": 433.7,
+      "end": 439.4,
+      "text": "but it's becoming a part of your biology. You know, when you think about that, I'm praying over"
+    },
+    {
+      "start": 439.4,
+      "end": 444.46,
+      "text": "every meal, number one. And number two, you know, why wouldn't I want to figure out a way to get the"
+    },
+    {
+      "start": 444.46,
+      "end": 450.18,
+      "text": "most nutritious food I could possibly get into my body, you know? And I think that's why a lot of"
+    },
+    {
+      "start": 450.18,
+      "end": 453.9,
+      "text": "our, and we hear this all the time these days, you know, there's a lot of people that are sluggish"
+    },
+    {
+      "start": 453.9,
+      "end": 458.74,
+      "text": "and tired and not feeling well and overweight and all these different things. And I believe it all goes"
+    },
+    {
+      "start": 458.74,
+      "end": 463.32,
+      "text": "back to food. Oh yeah, absolutely. And so I love that you're doing that. And I love that you're doing it in a"
+    },
+    {
+      "start": 463.32,
+      "end": 468.72,
+      "text": "way that saying, Hey, this should be accessible. You know, this should not be an accessible food is"
+    },
+    {
+      "start": 468.72,
+      "end": 473.86,
+      "text": "a human, right? We should all have access to food and how, you know, honestly, how cool would it be"
+    },
+    {
+      "start": 473.86,
+      "end": 478.98,
+      "text": "if we had some of our families start to farm in their backyard because of what they've experienced"
+    },
+    {
+      "start": 478.98,
+      "end": 484.6,
+      "text": "here and have a like continuous source of sustainable food for themselves. But so I love that you're"
+    },
+    {
+      "start": 484.6,
+      "end": 489.96,
+      "text": "teaching that. I love that our kids are being exposed to that because you're right. Um, in this area"
+    },
+    {
+      "start": 489.96,
+      "end": 494.96,
+      "text": "that there's just not a lot of farming happening, you know, but it's such a powerful, uh, ministry."
+    },
+    {
+      "start": 494.96,
+      "end": 501.8,
+      "text": "I believe that is very important because, you know, feeding people food can get you into,"
+    },
+    {
+      "start": 501.8,
+      "end": 507.4,
+      "text": "you know, spaces in the heart really quickly, you know, and ultimately our goal is just to"
+    },
+    {
+      "start": 507.4,
+      "end": 513.06,
+      "text": "have human experiences with people and help people feel normal, you know, and just feel like, Hey,"
+    },
+    {
+      "start": 513.06,
+      "end": 518.24,
+      "text": "I'm a human, just like you, my struggles look different, but we all need the same things."
+    },
+    {
+      "start": 518.24,
+      "end": 524.26,
+      "text": "And so how can we make acts, give access to those things? So love what you're doing. And so what do"
+    },
+    {
+      "start": 524.26,
+      "end": 528.14,
+      "text": "you think is next? Do you want to duplicate the farm somewhere else as well? Or do you want to stick"
+    },
+    {
+      "start": 528.14,
+      "end": 533.6,
+      "text": "to the farm that you have, which is, I'm sure your work's cut out for you. Yes. Right now, our goal is"
+    },
+    {
+      "start": 533.6,
+      "end": 542.8,
+      "text": "just to keep growing. Um, last year we donated a thousand pounds. So it, it, yeah, but we want to,"
+    },
+    {
+      "start": 542.8,
+      "end": 550.6,
+      "text": "I mean, it's still, I feel like just the tip of the iceberg and, uh, we, we just want to keep growing"
+    },
+    {
+      "start": 550.6,
+      "end": 558.38,
+      "text": "and, and provide more food to our partnerships that we have. Um, and so I just see the farm"
+    },
+    {
+      "start": 558.38,
+      "end": 567.08,
+      "text": "just getting more and more growth. Um, where we have 16 acres and we probably are growing on"
+    },
+    {
+      "start": 567.08,
+      "end": 576.5,
+      "text": "two acres. And so we have a, the farm has a lot of potential. Um, and I just, I, I, you know,"
+    },
+    {
+      "start": 576.58,
+      "end": 585.0,
+      "text": "obviously I, I'm just going with the flow. Um, whatever God brings our way. Um, I like when we"
+    },
+    {
+      "start": 585.0,
+      "end": 591.12,
+      "text": "first started the farm, I think it was hard for us to get supporters and donors. Cause everyone"
+    },
+    {
+      "start": 591.12,
+      "end": 596.56,
+      "text": "went like, what's your five-year plan? What's your, what's your distribution plan? You know,"
+    },
+    {
+      "start": 596.58,
+      "end": 602.42,
+      "text": "what's all this. And I honestly, I was just blindly following God and so food and give it away."
+    },
+    {
+      "start": 602.42,
+      "end": 607.98,
+      "text": "That's my plan. I was like, I don't have a five-year plan. My plan is whatever door God opens,"
+    },
+    {
+      "start": 607.98,
+      "end": 614.98,
+      "text": "like that's what will come. And that's kind of what we just stuck to of, of whatever will come."
+    },
+    {
+      "start": 615.0,
+      "end": 622.64,
+      "text": "Um, and so I have my plans, you know, I, we're, we're trying to build a commercial kitchen on the"
+    },
+    {
+      "start": 622.64,
+      "end": 630.78,
+      "text": "farm. We want to be able to have cooking classes and actually make food for people and make meals"
+    },
+    {
+      "start": 630.78,
+      "end": 636.08,
+      "text": "for people and all those things. And so I have a lot of plans, but I'm just kind of, I've,"
+    },
+    {
+      "start": 636.32,
+      "end": 642.48,
+      "text": "I have learned over the past five years, this is not my timing at all. Yeah. Don't make a plan"
+    },
+    {
+      "start": 642.48,
+      "end": 647.9,
+      "text": "because it's going to change for sure. And so we are just going with the flow, but, um,"
+    },
+    {
+      "start": 648.62,
+      "end": 656.06,
+      "text": "every year we grow every year we expand. And so God's just slowly, you know, moving us down the"
+    },
+    {
+      "start": 656.06,
+      "end": 660.2,
+      "text": "path where he wants us. I love that. That's really cool. Well, and you know, just the fact that,"
+    },
+    {
+      "start": 660.2,
+      "end": 667.06,
+      "text": "you know, um, there's so much need for that right now. And you know, when there's food insecurity,"
+    },
+    {
+      "start": 667.06,
+      "end": 672.62,
+      "text": "people typically will go to the dollar menu or something like that, you know? And so here,"
+    },
+    {
+      "start": 672.62,
+      "end": 678.02,
+      "text": "I don't even think the students and even parents really understand, you know, the, the level of"
+    },
+    {
+      "start": 678.02,
+      "end": 681.56,
+      "text": "food that, that they're getting the level of nutrients they're getting in their body. And"
+    },
+    {
+      "start": 681.56,
+      "end": 686.02,
+      "text": "it's just so cool, especially when they start to enjoy it, you know, and they embrace it."
+    },
+    {
+      "start": 686.14,
+      "end": 691.3,
+      "text": "Cause I think that's really it. If we could get our kids to enjoy and embrace the right food from the"
+    },
+    {
+      "start": 691.3,
+      "end": 695.34,
+      "text": "start, they probably wouldn't even want the other stuff, you know? Yeah. And so I love that the"
+    },
+    {
+      "start": 695.34,
+      "end": 700.48,
+      "text": "education side is happening. There's, I was listening to a podcast the other day and there"
+    },
+    {
+      "start": 700.48,
+      "end": 707.0,
+      "text": "was a guy talking about a friend of his in Texas that had a similar to you had a ranch or a farm"
+    },
+    {
+      "start": 707.0,
+      "end": 713.24,
+      "text": "or something like that, but, um, his restaurant or kitchen that he had on the ranch, they would only"
+    },
+    {
+      "start": 713.24,
+      "end": 719.24,
+      "text": "cook, um, stuff that is from Texas. You know what I mean? So I can see some, a lot of cool themes"
+    },
+    {
+      "start": 719.24,
+      "end": 724.34,
+      "text": "coming out of that. That would be so neat to, to have on your property. So I know we would come out"
+    },
+    {
+      "start": 724.34,
+      "end": 730.12,
+      "text": "there and do some classes. So, Hey, sign up for Brooks classes today. What's your website right"
+    },
+    {
+      "start": 730.12,
+      "end": 739.88,
+      "text": "now that we can point people to? Um, natural freedom farm.org. Um, and my emails natural"
+    },
+    {
+      "start": 739.88,
+      "end": 747.3,
+      "text": "freedom farm at Gmail. Okay. Um, we're on social media, so anyone can reach out. Um, and going back"
+    },
+    {
+      "start": 747.3,
+      "end": 754.52,
+      "text": "to the education, education is huge for our organization. We didn't want to just hand over"
+    },
+    {
+      "start": 754.52,
+      "end": 761.7,
+      "text": "food. Um, we want kids to have the hands-on experience. We want them to walk around the"
+    },
+    {
+      "start": 761.7,
+      "end": 768.62,
+      "text": "gardens and us to teach them. This is what the health benefits will you'll get from eating"
+    },
+    {
+      "start": 768.62,
+      "end": 775.36,
+      "text": "a beet. This is the health benefits of eating an onion. Um, and so they learn. And then as they're"
+    },
+    {
+      "start": 775.36,
+      "end": 783.54,
+      "text": "consuming it, they're like, so for beats, yes. So beats is great for cleansing the blood. It's good"
+    },
+    {
+      "start": 783.54,
+      "end": 789.44,
+      "text": "for blood pressure. It's good for the heart. Um, and so while they're eating that, they're like,"
+    },
+    {
+      "start": 789.6,
+      "end": 793.78,
+      "text": "Oh, okay, this is good for my heart. Or I've had groups out and they're like, Oh, let's give this"
+    },
+    {
+      "start": 793.78,
+      "end": 798.92,
+      "text": "to so-and-so, you know, she has diabetes or whatever. Yeah. And so it's, it's nice that they"
+    },
+    {
+      "start": 798.92,
+      "end": 804.84,
+      "text": "have that connection. Um, helping them connect those dots. Yes. That's really cool. And, and"
+    },
+    {
+      "start": 804.84,
+      "end": 811.74,
+      "text": "getting them to understand where their food comes from and how God intended it to be. Yeah. Um,"
+    },
+    {
+      "start": 811.98,
+      "end": 818.4,
+      "text": "we really do have a broken food system. Man, it's unreal, you know? Yeah. The fact that cereal was on"
+    },
+    {
+      "start": 818.4,
+      "end": 824.38,
+      "text": "our food pyramid for so long, you know, it just makes you wonder why, you know, I think I do know"
+    },
+    {
+      "start": 824.38,
+      "end": 829.76,
+      "text": "why, but at the same time, you're like, man, at the expense of, you know, people, you know,"
+    },
+    {
+      "start": 829.78,
+      "end": 834.34,
+      "text": "that's unfortunate, but the good news is we have choices, you know, and thank, and thanks to people"
+    },
+    {
+      "start": 834.34,
+      "end": 841.8,
+      "text": "like you, um, a lot of people have better choices. So, so what does that look like? Say I'm a, someone"
+    },
+    {
+      "start": 841.8,
+      "end": 846.76,
+      "text": "that just wants to come out to the farm. What does that look like? Can they show up? Can they just"
+    },
+    {
+      "start": 846.76,
+      "end": 853.9,
+      "text": "arrive? Should they call ahead? What does that look like? Yes. I said, I suggest that anyone reach out"
+    },
+    {
+      "start": 853.9,
+      "end": 860.72,
+      "text": "to me first because we don't live there. Um, we live 40 minutes away. And so I don't want anyone"
+    },
+    {
+      "start": 860.72,
+      "end": 867.34,
+      "text": "to show up and let's not be there. So, um, reach out on social media or email or anything to contact"
+    },
+    {
+      "start": 867.34,
+      "end": 875.92,
+      "text": "me and anyone can come out and visit. We've had just a one family come out and then we have our 72 kids"
+    },
+    {
+      "start": 875.92,
+      "end": 883.76,
+      "text": "come out. So, um, we have a wide range of people and, um, I would love to get to the point where"
+    },
+    {
+      "start": 883.76,
+      "end": 891.08,
+      "text": "we have, you know, open operation hours. Um, it's been hard cause I've kind of been a one man show"
+    },
+    {
+      "start": 891.08,
+      "end": 898.28,
+      "text": "for five years, um, doing all the things. And so sometimes I'm out there just when my schedule"
+    },
+    {
+      "start": 898.28,
+      "end": 905.66,
+      "text": "allows it. And, but it would be nice to one day, you know, say nine to two every day. We are open."
+    },
+    {
+      "start": 905.9,
+      "end": 911.8,
+      "text": "Yeah. We have a shop and come and purchase food and come get a tour and all the things. So that's"
+    },
+    {
+      "start": 911.8,
+      "end": 916.68,
+      "text": "great. I love that for sure. Well, I really want people to go to the website and check it out because,"
+    },
+    {
+      "start": 916.68,
+      "end": 920.98,
+      "text": "um, what you're doing is incredible. It's important. It's relevant. It's necessary."
+    },
+    {
+      "start": 921.16,
+      "end": 925.16,
+      "text": "You're not, and you're not just handing out food, you know, you're actually educating people"
+    },
+    {
+      "start": 925.16,
+      "end": 930.56,
+      "text": "as they consume this food. So it's just such a perfect program as it relates to nutrition"
+    },
+    {
+      "start": 930.56,
+      "end": 936.2,
+      "text": "for us specifically at city center. That's a really big deal to us because we do see a lot of young"
+    },
+    {
+      "start": 936.2,
+      "end": 943.18,
+      "text": "people and families going without, you know, and sometimes, you know, 10 bags of chips will get"
+    },
+    {
+      "start": 943.18,
+      "end": 949.56,
+      "text": "you the calories that, you know, really healthy carrot or something would have, it would have"
+    },
+    {
+      "start": 949.56,
+      "end": 955.1,
+      "text": "nourished your body totally different. And, you know, and so it's, if we can, things can be hard"
+    },
+    {
+      "start": 955.1,
+      "end": 959.6,
+      "text": "enough in communities like this. So if you're already, if you're on top of that experience and"
+    },
+    {
+      "start": 959.6,
+      "end": 964.94,
+      "text": "diabetes or all these other things that some of this food can cause, um, man, it's really hard to get"
+    },
+    {
+      "start": 964.94,
+      "end": 970.04,
+      "text": "yourself out of the situation that's, that can be challenging. So, you know, it starts with how we"
+    },
+    {
+      "start": 970.04,
+      "end": 975.06,
+      "text": "take care of ourself, you know, how we take care of our mind, our bodies and food definitely translates"
+    },
+    {
+      "start": 975.06,
+      "end": 980.22,
+      "text": "to a healthier mind as well, you know? So I really believe that there's a lot of us just walking"
+    },
+    {
+      "start": 980.22,
+      "end": 986.5,
+      "text": "around with this fog. Um, and we're wondering why and it's food. Yeah. And people don't know,"
+    },
+    {
+      "start": 986.64,
+      "end": 993.16,
+      "text": "they don't know, um, how to, they don't see another way. They see, I have a budget. This is what I have"
+    },
+    {
+      "start": 993.16,
+      "end": 998.94,
+      "text": "in front of me. A lot of communities, like their grocery store is a dollar general. And so like"
+    },
+    {
+      "start": 998.94,
+      "end": 1004.88,
+      "text": "they, the access isn't there. And that's really where we wanted to come in and partner with other"
+    },
+    {
+      "start": 1004.88,
+      "end": 1012.14,
+      "text": "nonprofits like you and say, Hey, your community doesn't have access to healthy foods, to fresh"
+    },
+    {
+      "start": 1012.14,
+      "end": 1016.72,
+      "text": "foods, to local foods. So we're going to come in and we're going to bring the food to you."
+    },
+    {
+      "start": 1016.72,
+      "end": 1026.0,
+      "text": "And so that's, that's really where we want to help these communities and help these families."
+    },
+    {
+      "start": 1026.0,
+      "end": 1029.6,
+      "text": "Um, cause a lot of people can't get out to Chandler either. You know, that's been another"
+    },
+    {
+      "start": 1029.6,
+      "end": 1036.94,
+      "text": "problem that we face is, um, organizations or families want to come get fresh vegetables,"
+    },
+    {
+      "start": 1036.94,
+      "end": 1043.5,
+      "text": "but they can't get out to Chandler. So having these partnerships in the inner cities is essential."
+    },
+    {
+      "start": 1043.5,
+      "end": 1047.9,
+      "text": "Yeah. See, that was my distribution plan. I had it."
+    },
+    {
+      "start": 1048.14,
+      "end": 1053.96,
+      "text": "Yeah. Yeah. She was right here. That's my world. My, my plan stays in my head. My wife would prefer"
+    },
+    {
+      "start": 1053.96,
+      "end": 1059.74,
+      "text": "it on paper more, but, but, well, that's awesome. Brooke, thank you so much for coming and, um,"
+    },
+    {
+      "start": 1060.12,
+      "end": 1064.94,
+      "text": "praying over your marriage that it's just continues to, uh, you know, sustaining something like this"
+    },
+    {
+      "start": 1064.94,
+      "end": 1070.3,
+      "text": "can be challenging, you know? So we realize, you know, it's not just you doing it. Most likely your"
+    },
+    {
+      "start": 1070.3,
+      "end": 1075.02,
+      "text": "husband's a part of that process as well. And, but it's so fulfilling, I'm sure, because it has been"
+    },
+    {
+      "start": 1075.02,
+      "end": 1080.9,
+      "text": "for us, you know, and, um, I just really love everything that's happening out there. And I don't"
+    },
+    {
+      "start": 1080.9,
+      "end": 1085.8,
+      "text": "know, would you guys be willing to come here and do a cooking class with our students? Okay. I think we"
+    },
+    {
+      "start": 1085.8,
+      "end": 1090.72,
+      "text": "should do that. We do cooking classes right now, but I want to do it from this angle for them to cook"
+    },
+    {
+      "start": 1090.72,
+      "end": 1096.12,
+      "text": "the food that, you know, you brought out and even explain what happens to other food. Maybe"
+    },
+    {
+      "start": 1096.12,
+      "end": 1100.96,
+      "text": "that doesn't happen to yours before it gets to their table. Yeah. You know, I mean, that could"
+    },
+    {
+      "start": 1100.96,
+      "end": 1106.68,
+      "text": "be pretty eyeopening just to see all the chemicals and things that go on. Yeah. That's a whole nother"
+    },
+    {
+      "start": 1106.68,
+      "end": 1113.48,
+      "text": "topic about, you know, how, how we farm and, and why we farm the way that we farm to give the most"
+    },
+    {
+      "start": 1113.48,
+      "end": 1117.68,
+      "text": "nutrients into the food that we grow. Okay. Well, tell us about that a little bit. I want to hear"
+    },
+    {
+      "start": 1117.68,
+      "end": 1123.68,
+      "text": "about that. Yeah. We can keep going as long as we want. So we do regenerative farming. Okay. And"
+    },
+    {
+      "start": 1123.68,
+      "end": 1129.58,
+      "text": "there's the originals. Yes. That's old school farming. Seventh year. Yeah. Six years, take"
+    },
+    {
+      "start": 1129.58,
+      "end": 1135.38,
+      "text": "off a year. Okay. Gotcha. Yeah. So we do. And so there's like pillars of regenerative farming,"
+    },
+    {
+      "start": 1135.38,
+      "end": 1143.76,
+      "text": "but it's basically your focus is the soil because the soil is what feeds your plants, the nutrients."
+    },
+    {
+      "start": 1143.76,
+      "end": 1152.46,
+      "text": "So if you have depleted the soil of good bacteria, it's like our gut, like God literally made our bodies"
+    },
+    {
+      "start": 1152.46,
+      "end": 1163.72,
+      "text": "and, and the garden, the same. And so, um, if we are spraying chemicals and not taking care of our soil"
+    },
+    {
+      "start": 1163.72,
+      "end": 1171.14,
+      "text": "and all of that good bacteria, good fungi, all those microbes die, then your plant is not getting any"
+    },
+    {
+      "start": 1171.14,
+      "end": 1180.66,
+      "text": "nutrients. So we do practices, um, that will give the soil the most nutrients. Okay. So that then"
+    },
+    {
+      "start": 1180.66,
+      "end": 1188.22,
+      "text": "your plant has the most nutrients because our thought is if this is the only vegetable that these"
+    },
+    {
+      "start": 1188.22,
+      "end": 1193.64,
+      "text": "kids are going to eat this week, I want it to be loaded. Superfood. Yeah. Yes. I want it to be loaded."
+    },
+    {
+      "start": 1193.78,
+      "end": 1198.96,
+      "text": "I don't want it to be depleted because most of the food that we do get in the grocery store is depleted"
+    },
+    {
+      "start": 1198.96,
+      "end": 1205.2,
+      "text": "because as soon as you take it out of the ground, it starts pulling, you know, it starts dying and all"
+    },
+    {
+      "start": 1205.2,
+      "end": 1210.5,
+      "text": "those nutrients start coming out. So that's why eating local and eating fresh is like the biggest"
+    },
+    {
+      "start": 1210.5,
+      "end": 1218.46,
+      "text": "trend right now. And so it is very important because, you know, sometimes at the grocery store,"
+    },
+    {
+      "start": 1218.46,
+      "end": 1225.82,
+      "text": "our food is weeks to months old and you're, it still looks decent. It does look decent. Why is that?"
+    },
+    {
+      "start": 1225.82,
+      "end": 1233.82,
+      "text": "Because they spray it with things to prevent it from rotting and going bad. So, um, so yes,"
+    },
+    {
+      "start": 1233.82,
+      "end": 1242.26,
+      "text": "we do regenerative farming. We want, um, we want the healthiest food because I, my goal is to"
+    },
+    {
+      "start": 1242.26,
+      "end": 1249.6,
+      "text": "improve the health of children in this community, in this state. And so in order to do that,"
+    },
+    {
+      "start": 1249.6,
+      "end": 1257.28,
+      "text": "I have to have the best produce. And so that is what we aim to do. And, um, yeah, that's why we're"
+    },
+    {
+      "start": 1257.28,
+      "end": 1261.96,
+      "text": "mission partners with you guys, because that's how we think too. You know, we think, you know,"
+    },
+    {
+      "start": 1262.24,
+      "end": 1267.32,
+      "text": "how we treat people, how, what we offer people, how we serve them, how they feel after they leave"
+    },
+    {
+      "start": 1267.32,
+      "end": 1274.5,
+      "text": "our space is probably more important and indicate some level of dignity that we offer, you know, above"
+    },
+    {
+      "start": 1274.5,
+      "end": 1279.12,
+      "text": "just the programs we offer and all that kind of stuff. We want to make sure people feel seen and"
+    },
+    {
+      "start": 1279.12,
+      "end": 1284.48,
+      "text": "valued that. So we want the best for them. You know, I remember when we first started doing food,"
+    },
+    {
+      "start": 1284.48,
+      "end": 1290.7,
+      "text": "that was one of the initial programs we set out to do because we did know food insecurity was really"
+    },
+    {
+      "start": 1290.7,
+      "end": 1296.54,
+      "text": "bad in this area. And, um, we had a program at first that we were working with, I think it was a"
+    },
+    {
+      "start": 1296.54,
+      "end": 1301.72,
+      "text": "government program, but the meals they were bringing just, you know, I was like, man, it's food,"
+    },
+    {
+      "start": 1301.72,
+      "end": 1306.76,
+      "text": "it's calories, but I wonder how they feel when they eat that, you know? And so we said, we're"
+    },
+    {
+      "start": 1306.76,
+      "end": 1311.3,
+      "text": "going to raise the money ourselves and we're going to have home cooked meals every day. Um, not always,"
+    },
+    {
+      "start": 1311.42,
+      "end": 1316.78,
+      "text": "not always from scratch, but man, for the most part, we, we try to do that. You know, we want it to"
+    },
+    {
+      "start": 1316.78,
+      "end": 1322.42,
+      "text": "smell like a home in here because this is one of the only places that might feel like home to a lot of"
+    },
+    {
+      "start": 1322.42,
+      "end": 1327.86,
+      "text": "our, our friends that come in here. So I love that heart behind that. That's really important."
+    },
+    {
+      "start": 1327.86,
+      "end": 1333.66,
+      "text": "That is really, and people, I think people feel that. Yeah. And that's a, you know, food banks are"
+    },
+    {
+      "start": 1333.66,
+      "end": 1340.76,
+      "text": "great. Um, and they definitely serve a purpose. We want, we don't want people hungry. Um, but our"
+    },
+    {
+      "start": 1340.76,
+      "end": 1349.72,
+      "text": "organization is solely focused on health. And so we don't want, you know, obviously if someone is"
+    },
+    {
+      "start": 1349.72,
+      "end": 1356.14,
+      "text": "starving, we want them to have cans or things that won't go bad and, and things like that. But, um,"
+    },
+    {
+      "start": 1356.14,
+      "end": 1365.5,
+      "text": "I want to not only feed, but improve health. And so that's where we are really focused and dedicated."
+    },
+    {
+      "start": 1365.5,
+      "end": 1372.26,
+      "text": "And so I love being partnered up with you all and knowing that I'm dropping food off and your cook"
+    },
+    {
+      "start": 1372.26,
+      "end": 1379.42,
+      "text": "is going to prepare a meal for your families and for the kids that come here. Um, I just love that"
+    },
+    {
+      "start": 1379.42,
+      "end": 1387.26,
+      "text": "what we bring is getting used and it's getting used quickly. And like most of the time I harvest"
+    },
+    {
+      "start": 1387.26,
+      "end": 1393.84,
+      "text": "that day and bring it to you all. So you all have the freshest food possible. We are spoiled. Yeah."
+    },
+    {
+      "start": 1393.94,
+      "end": 1399.7,
+      "text": "And, um, I'm a little nervous about getting this out there. I don't want your, uh, your food pantry is"
+    },
+    {
+      "start": 1399.7,
+      "end": 1405.86,
+      "text": "going to be packed because anything that isn't cooked will go into the refrigerator at the food pantry."
+    },
+    {
+      "start": 1405.86,
+      "end": 1411.8,
+      "text": "Mm-hmm. And, um, people can come get fresh vegetables through that way too. So, I mean,"
+    },
+    {
+      "start": 1411.8,
+      "end": 1416.72,
+      "text": "who, who can get fresh, who gives away fresh vegetables like this? You know, it's pretty cool."
+    },
+    {
+      "start": 1417.08,
+      "end": 1422.5,
+      "text": "And it really just gets me excited for people. So thank you so much, Brooke, for all you do. And"
+    },
+    {
+      "start": 1422.5,
+      "end": 1426.64,
+      "text": "again, website again, really quick for us. I want to make sure people hear that, but it's"
+    },
+    {
+      "start": 1426.64,
+      "end": 1435.24,
+      "text": "natural freedom farm.org is the, is the website and they can give there, they can contribute there and"
+    },
+    {
+      "start": 1435.24,
+      "end": 1441.82,
+      "text": "everything else. Yes. They can give, they can get a good idea of what we do. Um, social media too."
+    },
+    {
+      "start": 1442.08,
+      "end": 1448.98,
+      "text": "Everyone's on social media. So, um, you can always reach out to me through there. Um, and just kind of"
+    },
+    {
+      "start": 1448.98,
+      "end": 1454.84,
+      "text": "see what we do, see our beautiful produce and. I love it. Yes. Let's do it. So guys, please go to"
+    },
+    {
+      "start": 1454.84,
+      "end": 1461.12,
+      "text": "that website. Please contribute because this money is going straight to feeding families that need food,"
+    },
+    {
+      "start": 1461.12,
+      "end": 1466.34,
+      "text": "number one, but need nutritious food because the majority of their life I'm sure that has been,"
+    },
+    {
+      "start": 1466.34,
+      "end": 1474.12,
+      "text": "uh, spent eating non-nutritious food. So please give to Freeman farms. It's, it's an incredible"
+    },
+    {
+      "start": 1474.12,
+      "end": 1478.56,
+      "text": "program. I can't wait to see the kitchen and, um, Brooke, I'm just excited that you did this with us."
+    },
+    {
+      "start": 1478.7,
+      "end": 1484.0,
+      "text": "We, I really am excited just to get the word out about what you guys are doing. It's so special."
+    },
+    {
+      "start": 1484.0,
+      "end": 1488.6,
+      "text": "So, um, again, thank you so much for coming. Thank you. You got to come back. I want to hear more"
+    },
+    {
+      "start": 1488.6,
+      "end": 1493.7,
+      "text": "whenever this thing grows and you have your kitchen. Yes. And we'll come to a cooking class"
+    },
+    {
+      "start": 1493.7,
+      "end": 1498.28,
+      "text": "and we're excited to have the kids out in a couple of weeks. We're going to, they're going to cook at"
+    },
+    {
+      "start": 1498.28,
+      "end": 1503.32,
+      "text": "the farm. I love it. So we are excited to have them out. Awesome. Well, thank you guys again for"
+    },
+    {
+      "start": 1503.32,
+      "end": 1506.9,
+      "text": "joining us as well. Have a great week. Come back and join us next week."
+    }
+  ]
+}

@@ -1,0 +1,2801 @@
+{
+  "episode_title": "Over 22,000 Babies Later: What One Doctor Learned About Life and Hope",
+  "episode_slug": "over-22-000-babies-later-what-one-doctor-learned-about-life-and-hope",
+  "source": "Published episode audio",
+  "language": "en",
+  "review_status": "machine-generated",
+  "generated_at": "2026-08-04T10:02:31+00:00",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 29.98,
+      "text": "Welcome to Voices of OKC. We are so excited that you've joined us today. We tell stories about incredible people that are doing amazing things."
+    },
+    {
+      "start": 29.98,
+      "end": 57.98,
+      "text": "In our city. And guess what? Today is no exception. I'm so excited to shoot this episode today. We are not at City Center. Obviously, we're in a different location. We are in the home of Dr. David Kallenberger. Dr. David Kallenberger, thank you so much for coming on the show. The time that we've spent together already, just phenomenal. We had dinner not too long ago with you and your amazing daughter, Hillary, at Brielle's restaurant, which was phenomenal."
+    },
+    {
+      "start": 57.98,
+      "end": 68.98,
+      "text": "But just got to learn so much about you in that short amount of time. I said, we have to get on camera and record this because the life that you've lived is just phenomenal."
+    },
+    {
+      "start": 68.98,
+      "end": 84.98,
+      "text": "You know, I can't imagine how fulfilling it must be to live that life that you've lived as a doctor. And I'm not going to give anything away. I'd like for you to share what you do, how long you've been doing it and, you know, what that what it looked like to really choose that profession as a doctor."
+    },
+    {
+      "start": 84.98,
+      "end": 95.98,
+      "text": "Dr. David Kallenberger, Thank you for having me. It's my pleasure. I have, I started in this business, make a long story short, back when I was growing up in Pawhuska."
+    },
+    {
+      "start": 95.98,
+      "end": 96.98,
+      "text": "Dr. David Kallenberger, Okay."
+    },
+    {
+      "start": 96.98,
+      "end": 107.98,
+      "text": "Dr. David Kallenberger, And I had two very good friends who were the family physicians there. And I always looked up to them and decided I would, I wanted to be, I always knew I wanted to be a doctor."
+    },
+    {
+      "start": 107.98,
+      "end": 130.98,
+      "text": "Dr. David Kallenberger, Went down that path with the whole plan of going back to Pawhuska to turn them as a primary care physician. Well, fast forward to college and medical school. And then in medical school, of course, you always want to do what you're training in. But it became obvious to me that I could not know everything about everything, but I could know everything about some."
+    },
+    {
+      "start": 130.98,
+      "end": 131.98,
+      "text": "Dr. David Kallenberger, Right."
+    },
+    {
+      "start": 131.98,
+      "end": 137.68,
+      "text": "Dr. David Kallenberger, And that's kind of how I chose OBGYN because number one, it was a very early field."
+    },
+    {
+      "start": 137.68,
+      "end": 138.1,
+      "text": "Dr. David Kallenberger, Yeah."
+    },
+    {
+      "start": 138.1,
+      "end": 147.48,
+      "text": "Dr. David Kallenberger, Excuse me. And in that field, you can do primary care for women. You can do surgery and you can deliver babies."
+    },
+    {
+      "start": 147.48,
+      "end": 147.92,
+      "text": "Dr. David Kallenberger, Okay."
+    },
+    {
+      "start": 147.92,
+      "end": 160.52,
+      "text": "Dr. David Kallenberger, And so that's why I went down that path and just became more involved in it through my residency. And during that time, became interested in fertility treatments, which were very early in those days."
+    },
+    {
+      "start": 160.52,
+      "end": 172.88,
+      "text": "Dr. David Kallenberger, And we had a clinical faculty member, Henry Bennett, who was a gynecologist here in town, but he primarily did a lot of early fertility work."
+    },
+    {
+      "start": 173.52,
+      "end": 186.76,
+      "text": "So became stimulated with his stories. And so I became enthralled in the fertility aspect from early on, as well as just delivering babies and take care of women and doing surgeries."
+    },
+    {
+      "start": 186.76,
+      "end": 198.44,
+      "text": "Dr. David Kallenberger, And finished my residency, was assigned to Triple Army Medical Center for two years to pay off my final two years of active Army duty, military duty."
+    },
+    {
+      "start": 198.44,
+      "end": 221.28,
+      "text": "Dr. David Kallenberger, And was afforded the opportunity to have a research lab there, teaching residents how to do surgery, microsurgery, doing tubal reversals, bowel anastomosis, eryteral anastomosis, things that as a gynecologist doing surgery, you can get into trouble and have to know what to do with."
+    },
+    {
+      "start": 221.28,
+      "end": 230.68,
+      "text": "Dr. David Kallenberger, And then about that time, the IVF process just started in Odom, England, and it became fascinating."
+    },
+    {
+      "start": 231.5,
+      "end": 237.78,
+      "text": "And again, to fast forward, it came to the United States. The first program here was in Norfolk, Virginia."
+    },
+    {
+      "start": 237.78,
+      "end": 248.96,
+      "text": "And one of my previous students and good friends was at Norfolk at that time, and he met a gentleman named Dr. Ed Wortham, who's a PhD."
+    },
+    {
+      "start": 249.26,
+      "end": 256.16,
+      "text": "And they helped develop the initial program in Norfolk and were responsible for the first U.S. IVF baby."
+    },
+    {
+      "start": 256.16,
+      "end": 271.96,
+      "text": "They, I was all interested in the microsurgery, but didn't have the ability to do IVF because there was only, at that time, two centers in the United States, one in Norfolk and one in L.A."
+    },
+    {
+      "start": 271.96,
+      "end": 277.44,
+      "text": "But Dr. Wortham and Bundren came from, went to Hillcrest in Tulsa."
+    },
+    {
+      "start": 277.8,
+      "end": 282.56,
+      "text": "But for a lot of complicated reasons, that program terminated."
+    },
+    {
+      "start": 282.64,
+      "end": 288.4,
+      "text": "But they had called us before asking if we would want to be their first satellite program."
+    },
+    {
+      "start": 289.1,
+      "end": 295.88,
+      "text": "Originally, Dr. Roy Severt and Tony Puckett, who were at Mercy, because they did a lot of infertility as well."
+    },
+    {
+      "start": 295.88,
+      "end": 300.72,
+      "text": "But they couldn't do it at Mercy because it's a Catholic hospital."
+    },
+    {
+      "start": 301.36,
+      "end": 311.22,
+      "text": "And so they approached Jay Henry at Integris and said he'd be interested, but they'd have to involve me because he knew I was already involved in that."
+    },
+    {
+      "start": 311.8,
+      "end": 316.7,
+      "text": "And so they approached me, and Dr. Everett was my chief resident all through training, so that was an easy fold."
+    },
+    {
+      "start": 317.2,
+      "end": 319.32,
+      "text": "That's how we started the Bennett Fertility Institute."
+    },
+    {
+      "start": 319.62,
+      "end": 319.84,
+      "text": "Wow."
+    },
+    {
+      "start": 319.84,
+      "end": 327.52,
+      "text": "And then that's how it grew to be a very successful boutique program until its closure about three years ago."
+    },
+    {
+      "start": 327.64,
+      "end": 327.88,
+      "text": "Okay."
+    },
+    {
+      "start": 328.66,
+      "end": 333.98,
+      "text": "And with that, I continued to deliver babies because I just enjoyed it."
+    },
+    {
+      "start": 334.36,
+      "end": 339.38,
+      "text": "So I was one of the few people who specifically did infertility but still delivered babies because I enjoyed it."
+    },
+    {
+      "start": 339.42,
+      "end": 339.62,
+      "text": "Yeah."
+    },
+    {
+      "start": 339.76,
+      "end": 349.52,
+      "text": "Which is why I then had the opportunity to do a lot of multiples because of fertility treatments, and that's one of the side effects of it."
+    },
+    {
+      "start": 349.84,
+      "end": 355.5,
+      "text": "So you delivered a mother that delivered multiple babies?"
+    },
+    {
+      "start": 356.06,
+      "end": 356.38,
+      "text": "Yes."
+    },
+    {
+      "start": 356.62,
+      "end": 357.22,
+      "text": "What was the most?"
+    },
+    {
+      "start": 357.58,
+      "end": 365.1,
+      "text": "I've over the years had the opportunity to deliver 22,000 plus or minus babies."
+    },
+    {
+      "start": 365.38,
+      "end": 365.72,
+      "text": "Wow."
+    },
+    {
+      "start": 365.72,
+      "end": 376.24,
+      "text": "And I've had multiple sets of, several sets of multiples because the fertility treatment is my largest one set of quintuplets, which is five."
+    },
+    {
+      "start": 376.86,
+      "end": 377.26,
+      "text": "Wow."
+    },
+    {
+      "start": 377.26,
+      "end": 378.98,
+      "text": "Four sets of quadruplets, which is four."
+    },
+    {
+      "start": 379.14,
+      "end": 379.62,
+      "text": "Oh, wow."
+    },
+    {
+      "start": 380.38,
+      "end": 386.36,
+      "text": "Probably 100 to 150 triplets and over 200 and some odd twins."
+    },
+    {
+      "start": 386.9,
+      "end": 390.3,
+      "text": "So that's how that 22,000 number got up there."
+    },
+    {
+      "start": 390.4,
+      "end": 391.96,
+      "text": "It compounds a little bit, doesn't it?"
+    },
+    {
+      "start": 391.96,
+      "end": 394.58,
+      "text": "So that's how I got into this whole thing."
+    },
+    {
+      "start": 394.96,
+      "end": 396.78,
+      "text": "That's pretty amazing."
+    },
+    {
+      "start": 397.0,
+      "end": 402.04,
+      "text": "When I think about this, I think about why don't we hear more about doctors like you?"
+    },
+    {
+      "start": 402.26,
+      "end": 408.8,
+      "text": "You know, you are responsible for populating our city in many ways, you know."
+    },
+    {
+      "start": 408.8,
+      "end": 415.4,
+      "text": "You've cared for people and helped them bring life into this world, and that's just fascinating to me."
+    },
+    {
+      "start": 415.48,
+      "end": 418.0,
+      "text": "How do you process that?"
+    },
+    {
+      "start": 418.14,
+      "end": 423.14,
+      "text": "I mean, how do you hold that as a person that's worked in this field for 50 years, retired?"
+    },
+    {
+      "start": 423.78,
+      "end": 424.68,
+      "text": "You look back on that."
+    },
+    {
+      "start": 424.8,
+      "end": 425.58,
+      "text": "How do you hold that?"
+    },
+    {
+      "start": 426.38,
+      "end": 428.12,
+      "text": "Well, I hold it very close to my heart."
+    },
+    {
+      "start": 428.24,
+      "end": 428.42,
+      "text": "Sure."
+    },
+    {
+      "start": 428.5,
+      "end": 429.58,
+      "text": "It's my whole life."
+    },
+    {
+      "start": 430.02,
+      "end": 430.9,
+      "text": "It's my passion."
+    },
+    {
+      "start": 430.9,
+      "end": 434.12,
+      "text": "But let me be clear about one thing to your original question."
+    },
+    {
+      "start": 434.28,
+      "end": 435.86,
+      "text": "I'm no better than anybody else."
+    },
+    {
+      "start": 436.82,
+      "end": 443.88,
+      "text": "I'm just was in a lucky place and given a very big blessing to do what I've done."
+    },
+    {
+      "start": 444.08,
+      "end": 451.06,
+      "text": "But it's very rewarding, especially when I am out in public and somebody will tap me on the shoulder"
+    },
+    {
+      "start": 451.06,
+      "end": 454.38,
+      "text": "and it'll be a patient with their child or it'll be a child that I delivered."
+    },
+    {
+      "start": 454.38,
+      "end": 459.48,
+      "text": "And after 50 years, I've now delivered three generations."
+    },
+    {
+      "start": 459.92,
+      "end": 462.34,
+      "text": "Delivered a baby, their baby, and then their baby."
+    },
+    {
+      "start": 462.92,
+      "end": 463.52,
+      "text": "That's crazy."
+    },
+    {
+      "start": 463.98,
+      "end": 464.54,
+      "text": "That's amazing."
+    },
+    {
+      "start": 464.56,
+      "end": 465.3,
+      "text": "It's very rewarding."
+    },
+    {
+      "start": 465.54,
+      "end": 467.9,
+      "text": "It's nothing I would ever exchange for anything."
+    },
+    {
+      "start": 468.06,
+      "end": 473.66,
+      "text": "Matter of fact, I just called one of my close friends that you delivered and just told him, you know,"
+    },
+    {
+      "start": 473.72,
+      "end": 477.24,
+      "text": "hey, man, I'm here with, you know, the first man you ever saw in life."
+    },
+    {
+      "start": 477.7,
+      "end": 479.48,
+      "text": "He goes, yeah, that was like 42 years ago."
+    },
+    {
+      "start": 479.58,
+      "end": 480.18,
+      "text": "I was like, yeah, that's right."
+    },
+    {
+      "start": 480.4,
+      "end": 480.52,
+      "text": "Yes, it was."
+    },
+    {
+      "start": 480.62,
+      "end": 481.04,
+      "text": "That's right."
+    },
+    {
+      "start": 481.04,
+      "end": 488.54,
+      "text": "So, man, that is just such a cool opportunity that, you know, again, I think that we overlook a little bit."
+    },
+    {
+      "start": 488.66,
+      "end": 495.94,
+      "text": "You know, you're bringing life into our world and helping us populate the world with healthy, you know, people."
+    },
+    {
+      "start": 496.24,
+      "end": 499.9,
+      "text": "So I can't imagine the things that you've seen over the years."
+    },
+    {
+      "start": 500.42,
+      "end": 504.92,
+      "text": "And fertility, that's a, I can't imagine how rewarding that was because, I mean,"
+    },
+    {
+      "start": 504.92,
+      "end": 510.6,
+      "text": "you had to run into countless families that, you know, desperately wanted children, but they couldn't get pregnant."
+    },
+    {
+      "start": 510.6,
+      "end": 513.62,
+      "text": "You know, and how many, what was that like?"
+    },
+    {
+      "start": 513.68,
+      "end": 518.4,
+      "text": "How was that whenever you could see, you know, a family come in, they've been trying for a long time,"
+    },
+    {
+      "start": 518.4,
+      "end": 521.16,
+      "text": "and they felt like there was no hope, but then you see hope for that."
+    },
+    {
+      "start": 521.24,
+      "end": 522.82,
+      "text": "What was, how was that for you?"
+    },
+    {
+      "start": 522.9,
+      "end": 523.94,
+      "text": "What was that experience like?"
+    },
+    {
+      "start": 524.34,
+      "end": 525.92,
+      "text": "Oh, again, it was very rewarding."
+    },
+    {
+      "start": 526.08,
+      "end": 532.16,
+      "text": "And one of my common statements to new couples who would come in,"
+    },
+    {
+      "start": 532.16,
+      "end": 536.96,
+      "text": "and I would do their original intake and then examine them."
+    },
+    {
+      "start": 537.14,
+      "end": 541.6,
+      "text": "And I always have come into my private office to make plans."
+    },
+    {
+      "start": 542.24,
+      "end": 547.18,
+      "text": "And a lot of these couples have come from various other places,"
+    },
+    {
+      "start": 547.36,
+      "end": 550.5,
+      "text": "have been treatment that doesn't really do fertility, that superficial stuff."
+    },
+    {
+      "start": 550.94,
+      "end": 555.94,
+      "text": "But they would finally get in, and we took an intensive approach and laid out the plan"
+    },
+    {
+      "start": 555.94,
+      "end": 563.54,
+      "text": "and obviously had to reassure them that males were part of the problem"
+    },
+    {
+      "start": 563.54,
+      "end": 568.52,
+      "text": "and they were part of the process and that they would be our patients too."
+    },
+    {
+      "start": 569.62,
+      "end": 570.32,
+      "text": "And..."
+    },
+    {
+      "start": 570.32,
+      "end": 573.08,
+      "text": "Oh, so you're treating the whole, the whole couple, not just the..."
+    },
+    {
+      "start": 573.08,
+      "end": 573.62,
+      "text": "Yeah, that makes sense."
+    },
+    {
+      "start": 573.62,
+      "end": 574.4,
+      "text": "No, just the whole couple."
+    },
+    {
+      "start": 574.4,
+      "end": 580.86,
+      "text": "And my last statement to them always, when they left, after answering their question,"
+    },
+    {
+      "start": 581.0,
+      "end": 585.98,
+      "text": "I said, as it stands now, in my opinion, it's not if, it's when and how you have your baby."
+    },
+    {
+      "start": 586.64,
+      "end": 588.2,
+      "text": "Gosh, that has to be..."
+    },
+    {
+      "start": 588.2,
+      "end": 592.14,
+      "text": "I can't imagine the tears you've seen in the room on days like that."
+    },
+    {
+      "start": 592.74,
+      "end": 596.78,
+      "text": "And a lot of couples have said, you know, that really gave them the first chance of hope."
+    },
+    {
+      "start": 597.08,
+      "end": 600.16,
+      "text": "Now, I'm not saying I got every couple that came in pregnant because they didn't."
+    },
+    {
+      "start": 600.16,
+      "end": 604.72,
+      "text": "But I helped a lot of couples reach their role."
+    },
+    {
+      "start": 605.84,
+      "end": 608.68,
+      "text": "So that can lead into a really good question."
+    },
+    {
+      "start": 609.02,
+      "end": 614.52,
+      "text": "So as it relates to fertility and that whole practice and that being established,"
+    },
+    {
+      "start": 615.32,
+      "end": 620.08,
+      "text": "how transformative has that been to our, to say, Oklahoma City in general?"
+    },
+    {
+      "start": 620.84,
+      "end": 621.84,
+      "text": "Oh, it's been huge."
+    },
+    {
+      "start": 622.18,
+      "end": 625.94,
+      "text": "IVF just started originally in the 70s in Oldham, England."
+    },
+    {
+      "start": 625.94,
+      "end": 631.56,
+      "text": "And it then came to United States at Eastern Virginia University in Norfolk, Virginia."
+    },
+    {
+      "start": 631.86,
+      "end": 633.44,
+      "text": "That was the first U.S. program."
+    },
+    {
+      "start": 634.06,
+      "end": 636.52,
+      "text": "And then there was a program in Los Angeles at USC."
+    },
+    {
+      "start": 637.24,
+      "end": 644.24,
+      "text": "But two of the individuals who were at Norfolk came and opened a satellite in Tulsa,"
+    },
+    {
+      "start": 644.38,
+      "end": 645.9,
+      "text": "or opened a program in Tulsa."
+    },
+    {
+      "start": 646.38,
+      "end": 651.0,
+      "text": "And we got involved with them as their first satellite program."
+    },
+    {
+      "start": 651.08,
+      "end": 651.28,
+      "text": "Okay."
+    },
+    {
+      "start": 651.28,
+      "end": 654.72,
+      "text": "And then it just grew from there."
+    },
+    {
+      "start": 654.82,
+      "end": 662.9,
+      "text": "And we had the support of Integris health systems to develop the Henry G. Bennett Fertility Institute at Integris."
+    },
+    {
+      "start": 663.16,
+      "end": 669.68,
+      "text": "And it seems like there's probably a lot more room in the future for this to grow and to even become more effective."
+    },
+    {
+      "start": 669.94,
+      "end": 670.32,
+      "text": "Is that right?"
+    },
+    {
+      "start": 670.46,
+      "end": 670.88,
+      "text": "Oh, it's definitely right."
+    },
+    {
+      "start": 671.02,
+      "end": 673.76,
+      "text": "It's from when we started is totally different now."
+    },
+    {
+      "start": 673.76,
+      "end": 680.04,
+      "text": "And we've gone from just doing basic IVF where you retrieve the eggs, fertilize them with sperm,"
+    },
+    {
+      "start": 680.24,
+      "end": 687.28,
+      "text": "and then put the embryos back in the uterus, to now we retrieve eggs transvaginally, not laparoscopically."
+    },
+    {
+      "start": 687.28,
+      "end": 698.92,
+      "text": "We can do biopsy, the genetic biopsies on the embryos, and then freeze them and get the genetics back to make sure they're genetically normal,"
+    },
+    {
+      "start": 699.38,
+      "end": 704.94,
+      "text": "and then thaw them and transfer them and decrease the pregnancy loss,"
+    },
+    {
+      "start": 705.02,
+      "end": 709.28,
+      "text": "because most pregnancy losses are due to aneuploid or abnormal chromosomes."
+    },
+    {
+      "start": 709.58,
+      "end": 714.16,
+      "text": "So we can check and not put back an aneuploid embryo, just put back a euploid embryo."
+    },
+    {
+      "start": 714.16,
+      "end": 714.56,
+      "text": "Oh."
+    },
+    {
+      "start": 714.86,
+      "end": 720.38,
+      "text": "And we didn't do it for sex selection, because there's a fine line of what we can and should do."
+    },
+    {
+      "start": 720.52,
+      "end": 721.98,
+      "text": "That's the big controversy, I guess."
+    },
+    {
+      "start": 722.12,
+      "end": 722.44,
+      "text": "Yes."
+    },
+    {
+      "start": 722.72,
+      "end": 727.38,
+      "text": "But often there's, I mean, if they wanted to know, we'd tell them, because that's their right, their embryo."
+    },
+    {
+      "start": 727.96,
+      "end": 731.06,
+      "text": "But it's amazing the number of people that didn't want to know."
+    },
+    {
+      "start": 731.18,
+      "end": 732.14,
+      "text": "They wouldn't be surprised."
+    },
+    {
+      "start": 732.34,
+      "end": 733.76,
+      "text": "Yeah, that is pretty interesting."
+    },
+    {
+      "start": 734.44,
+      "end": 734.84,
+      "text": "Wow."
+    },
+    {
+      "start": 734.94,
+      "end": 737.24,
+      "text": "Well, I want to really get into some of the fun stuff, too."
+    },
+    {
+      "start": 737.34,
+      "end": 742.34,
+      "text": "Like, I know that you've experienced, you know, so much stuff throughout your career."
+    },
+    {
+      "start": 742.34,
+      "end": 752.04,
+      "text": "So I'd like to know, what is the top two deliveries that you say, man, I will never forget these deliveries,"
+    },
+    {
+      "start": 752.38,
+      "end": 754.68,
+      "text": "where they were, or whatever the case was."
+    },
+    {
+      "start": 754.74,
+      "end": 756.06,
+      "text": "What was so unique about them?"
+    },
+    {
+      "start": 756.38,
+      "end": 760.3,
+      "text": "But I just want to hear, what's the craziest delivery you've ever had to do?"
+    },
+    {
+      "start": 761.32,
+      "end": 766.82,
+      "text": "Well, I have to be real careful on answering this, because I hope every one of my pages think they were the most important baby eye delivery."
+    },
+    {
+      "start": 767.26,
+      "end": 767.54,
+      "text": "Yeah."
+    },
+    {
+      "start": 767.54,
+      "end": 770.54,
+      "text": "That's what I lead them to believe, which I do believe that at the time."
+    },
+    {
+      "start": 771.72,
+      "end": 785.08,
+      "text": "Probably the most two unique, or the most unique experience that involved, too, was I had a patient early on who I then delivered, delivered her daughter."
+    },
+    {
+      "start": 785.08,
+      "end": 792.54,
+      "text": "And over time, that daughter, her mother got pregnant again with what would be her sister."
+    },
+    {
+      "start": 793.4,
+      "end": 798.34,
+      "text": "And she would always come to the office visits with her mom."
+    },
+    {
+      "start": 798.88,
+      "end": 800.42,
+      "text": "And she would always be dressed up."
+    },
+    {
+      "start": 800.6,
+      "end": 800.74,
+      "text": "Yeah."
+    },
+    {
+      "start": 800.98,
+      "end": 803.02,
+      "text": "And she was 11, 12 years old."
+    },
+    {
+      "start": 803.02,
+      "end": 806.94,
+      "text": "And she had always asked me provocative questions about the pregnancy."
+    },
+    {
+      "start": 807.06,
+      "end": 808.82,
+      "text": "I went, well, you're pretty bright."
+    },
+    {
+      "start": 808.88,
+      "end": 810.7,
+      "text": "And I'd always take time to answer questions."
+    },
+    {
+      "start": 811.6,
+      "end": 813.4,
+      "text": "And time went on."
+    },
+    {
+      "start": 813.46,
+      "end": 816.18,
+      "text": "It was time for her mom to give birth to her sister."
+    },
+    {
+      "start": 817.04,
+      "end": 821.14,
+      "text": "And so I walked in the delivery room, and she was there with her mom and dad."
+    },
+    {
+      "start": 821.76,
+      "end": 823.98,
+      "text": "And I said, well, it doesn't surprise me that you're here."
+    },
+    {
+      "start": 824.68,
+      "end": 829.24,
+      "text": "And so we were going through the process, and I explained things to her."
+    },
+    {
+      "start": 829.26,
+      "end": 830.1,
+      "text": "But it's time to deliver."
+    },
+    {
+      "start": 830.8,
+      "end": 832.52,
+      "text": "And I said, do you want to deliver your sister?"
+    },
+    {
+      "start": 833.22,
+      "end": 833.92,
+      "text": "And she said, yeah."
+    },
+    {
+      "start": 833.98,
+      "end": 839.16,
+      "text": "So we'll go wash your hands and come back over, and we'll gown and glove you."
+    },
+    {
+      "start": 839.34,
+      "end": 839.88,
+      "text": "Yeah, that's a good one."
+    },
+    {
+      "start": 839.88,
+      "end": 841.26,
+      "text": "And so she came over."
+    },
+    {
+      "start": 841.76,
+      "end": 843.46,
+      "text": "The nurse gowned her and gloved her."
+    },
+    {
+      "start": 843.58,
+      "end": 843.78,
+      "text": "Yeah."
+    },
+    {
+      "start": 844.18,
+      "end": 845.2,
+      "text": "She's sitting there with me."
+    },
+    {
+      "start": 845.2,
+      "end": 847.14,
+      "text": "And, of course, through my hands."
+    },
+    {
+      "start": 847.14,
+      "end": 853.1,
+      "text": "But she put her hands on her sister's head when it's coming out, and I put my hands on."
+    },
+    {
+      "start": 853.16,
+      "end": 854.64,
+      "text": "So we delivered the baby."
+    },
+    {
+      "start": 854.88,
+      "end": 858.92,
+      "text": "She put her up on her mom's tummy, wait for the cord to quit."
+    },
+    {
+      "start": 859.02,
+      "end": 859.86,
+      "text": "Paul said, and cut it."
+    },
+    {
+      "start": 859.86,
+      "end": 864.06,
+      "text": "And then looks up at me and says, when I grow up, I want to do what you do."
+    },
+    {
+      "start": 864.52,
+      "end": 864.88,
+      "text": "Wow."
+    },
+    {
+      "start": 864.94,
+      "end": 869.92,
+      "text": "And so fast forward, she became my partner."
+    },
+    {
+      "start": 869.92,
+      "end": 871.6,
+      "text": "I mentored her during her training."
+    },
+    {
+      "start": 871.6,
+      "end": 874.98,
+      "text": "And she rotated with me a couple times when she was a resident."
+    },
+    {
+      "start": 875.28,
+      "end": 875.52,
+      "text": "Yeah."
+    },
+    {
+      "start": 875.64,
+      "end": 877.3,
+      "text": "And then she joined me as my partner."
+    },
+    {
+      "start": 877.44,
+      "end": 881.34,
+      "text": "So that's probably the most interesting two stories combined together."
+    },
+    {
+      "start": 881.34,
+      "end": 881.44,
+      "text": "Yeah."
+    },
+    {
+      "start": 881.44,
+      "end": 881.92,
+      "text": "And I know this person."
+    },
+    {
+      "start": 882.1,
+      "end": 882.72,
+      "text": "She's a friend."
+    },
+    {
+      "start": 882.84,
+      "end": 884.88,
+      "text": "And I didn't know this story until recently."
+    },
+    {
+      "start": 884.88,
+      "end": 887.62,
+      "text": "And it is just so fascinating, you know."
+    },
+    {
+      "start": 887.8,
+      "end": 890.52,
+      "text": "That decision to say, well, yeah, let's go."
+    },
+    {
+      "start": 890.78,
+      "end": 891.96,
+      "text": "Let's deliver this baby."
+    },
+    {
+      "start": 892.04,
+      "end": 893.62,
+      "text": "Let's deliver your sister, of all people."
+    },
+    {
+      "start": 894.36,
+      "end": 894.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 894.5,
+      "end": 898.86,
+      "text": "You know, what a story for her to have one up on her sister for the rest of her life, too."
+    },
+    {
+      "start": 899.02,
+      "end": 899.14,
+      "text": "Yeah."
+    },
+    {
+      "start": 899.14,
+      "end": 899.92,
+      "text": "And she's done that."
+    },
+    {
+      "start": 900.04,
+      "end": 903.46,
+      "text": "And the person who's my partner, Dr. Kristen Cheatwood."
+    },
+    {
+      "start": 903.64,
+      "end": 904.0,
+      "text": "Yeah."
+    },
+    {
+      "start": 904.0,
+      "end": 910.38,
+      "text": "I've left my practice, too, and is a very good surgeon, very intelligent."
+    },
+    {
+      "start": 910.44,
+      "end": 911.2,
+      "text": "She's incredible."
+    },
+    {
+      "start": 911.2,
+      "end": 912.52,
+      "text": "I'm very proud to have been her mentor."
+    },
+    {
+      "start": 912.86,
+      "end": 913.02,
+      "text": "Yep."
+    },
+    {
+      "start": 913.12,
+      "end": 914.14,
+      "text": "She's incredible."
+    },
+    {
+      "start": 914.36,
+      "end": 916.32,
+      "text": "She's highly respected in that community."
+    },
+    {
+      "start": 916.66,
+      "end": 918.94,
+      "text": "And obviously, you've been a great mentor."
+    },
+    {
+      "start": 919.12,
+      "end": 922.28,
+      "text": "So that doesn't hurt anything at all, you know, coming from you, I'm sure."
+    },
+    {
+      "start": 922.54,
+      "end": 931.24,
+      "text": "But so with fertility, now, I've heard that you would probably work, you know, in research, typically."
+    },
+    {
+      "start": 931.42,
+      "end": 932.68,
+      "text": "You always work with animals."
+    },
+    {
+      "start": 932.68,
+      "end": 933.28,
+      "text": "Is that correct?"
+    },
+    {
+      "start": 933.28,
+      "end": 933.36,
+      "text": "Correct."
+    },
+    {
+      "start": 933.84,
+      "end": 938.66,
+      "text": "So do you have any unique stories about working with animals?"
+    },
+    {
+      "start": 939.52,
+      "end": 945.92,
+      "text": "Well, the most unique story was I received a call one day from Dr. Bill Yee from Long Beach,"
+    },
+    {
+      "start": 945.96,
+      "end": 949.56,
+      "text": "who is one of my mentors in assisted reproductive techniques."
+    },
+    {
+      "start": 950.32,
+      "end": 954.4,
+      "text": "And he knew, he got a call from a colleague at Texas A&M."
+    },
+    {
+      "start": 954.6,
+      "end": 954.84,
+      "text": "Okay."
+    },
+    {
+      "start": 955.08,
+      "end": 959.06,
+      "text": "And that was at a time when there was, the lowland gorillas were becoming extinct."
+    },
+    {
+      "start": 959.4,
+      "end": 959.8,
+      "text": "Okay."
+    },
+    {
+      "start": 960.04,
+      "end": 961.54,
+      "text": "And they knew Oklahoma City."
+    },
+    {
+      "start": 961.54,
+      "end": 962.44,
+      "text": "And how big are these gorillas?"
+    },
+    {
+      "start": 962.44,
+      "end": 963.3,
+      "text": "What are they?"
+    },
+    {
+      "start": 963.64,
+      "end": 966.0,
+      "text": "Their lowlands are about 385 pounds."
+    },
+    {
+      "start": 966.66,
+      "end": 973.52,
+      "text": "And so he said, would you be willing, ask me if I'd be willing to work with them on the gorilla project out of the Oklahoma City Zoo?"
+    },
+    {
+      "start": 973.52,
+      "end": 977.56,
+      "text": "And I'd already talked to Dr. Mike Berry, who's a zoo vet."
+    },
+    {
+      "start": 977.62,
+      "end": 980.98,
+      "text": "And I said, sure, I'm always up for an adventure."
+    },
+    {
+      "start": 981.2,
+      "end": 981.9,
+      "text": "Yeah, that sounds fascinating."
+    },
+    {
+      "start": 981.9,
+      "end": 990.64,
+      "text": "And so I knew, obviously I know the gorilla is a mammal, and my undergraduate degree is in zoology, so I think I can probably figure this out."
+    },
+    {
+      "start": 990.64,
+      "end": 990.82,
+      "text": "Oh, yeah."
+    },
+    {
+      "start": 991.12,
+      "end": 993.64,
+      "text": "But I said, however, I'm dealing with a live gorilla."
+    },
+    {
+      "start": 993.94,
+      "end": 994.12,
+      "text": "Yeah."
+    },
+    {
+      "start": 994.12,
+      "end": 996.58,
+      "text": "And I wanted to make sure the ovaries were accessible."
+    },
+    {
+      "start": 996.72,
+      "end": 1000.52,
+      "text": "And that was back in the day when we retrieved the ovaries laparoscopically, not transvagantly."
+    },
+    {
+      "start": 1000.64,
+      "end": 1000.76,
+      "text": "Okay."
+    },
+    {
+      "start": 1001.24,
+      "end": 1004.68,
+      "text": "And so I said, well, really need to scope her first."
+    },
+    {
+      "start": 1004.88,
+      "end": 1007.5,
+      "text": "So I grabbed my nurse and my surgical equipment."
+    },
+    {
+      "start": 1007.64,
+      "end": 1008.38,
+      "text": "We set up a time."
+    },
+    {
+      "start": 1008.8,
+      "end": 1009.7,
+      "text": "Went out to the zoo."
+    },
+    {
+      "start": 1010.3,
+      "end": 1011.16,
+      "text": "Darted Boma down."
+    },
+    {
+      "start": 1011.28,
+      "end": 1012.0,
+      "text": "Boma was a gorilla."
+    },
+    {
+      "start": 1012.32,
+      "end": 1012.58,
+      "text": "Okay."
+    },
+    {
+      "start": 1012.86,
+      "end": 1014.32,
+      "text": "Darted her down."
+    },
+    {
+      "start": 1014.32,
+      "end": 1019.22,
+      "text": "And I laparoscoped, and sure enough, I could find her ovaries."
+    },
+    {
+      "start": 1019.38,
+      "end": 1020.74,
+      "text": "So the anatomy is very similar."
+    },
+    {
+      "start": 1020.86,
+      "end": 1021.48,
+      "text": "Very similar."
+    },
+    {
+      "start": 1021.64,
+      "end": 1021.72,
+      "text": "Yeah."
+    },
+    {
+      "start": 1022.06,
+      "end": 1032.56,
+      "text": "But I also found that she had fibroids in her uterus, which are benign muscle tumors in the uterus that can interfere with the implantation."
+    },
+    {
+      "start": 1033.0,
+      "end": 1040.5,
+      "text": "So I said, okay, what we'll do is we'll – well, first of all, we left."
+    },
+    {
+      "start": 1040.58,
+      "end": 1043.5,
+      "text": "I went, I will never operate at the zoo again because it's very barbaric."
+    },
+    {
+      "start": 1043.58,
+      "end": 1044.06,
+      "text": "Oh, yeah."
+    },
+    {
+      "start": 1044.06,
+      "end": 1045.68,
+      "text": "So he left and went, okay, how can we figure out?"
+    },
+    {
+      "start": 1045.68,
+      "end": 1048.04,
+      "text": "Oh, so they had surgical facilities."
+    },
+    {
+      "start": 1048.24,
+      "end": 1049.5,
+      "text": "Right now they have a very nice one."
+    },
+    {
+      "start": 1049.52,
+      "end": 1049.72,
+      "text": "Okay."
+    },
+    {
+      "start": 1049.76,
+      "end": 1051.16,
+      "text": "But back then it was very primitive."
+    },
+    {
+      "start": 1051.16,
+      "end": 1052.96,
+      "text": "I said, I'm not going to lose a gorilla on my watch."
+    },
+    {
+      "start": 1053.0,
+      "end": 1053.22,
+      "text": "Sure."
+    },
+    {
+      "start": 1053.62,
+      "end": 1060.86,
+      "text": "And so I somehow came up with this cockamamie idea where we practiced."
+    },
+    {
+      "start": 1060.86,
+      "end": 1063.2,
+      "text": "Our institute was on the second floor here."
+    },
+    {
+      "start": 1063.28,
+      "end": 1069.6,
+      "text": "Right across the hall was my private office, and upstairs was the surgery center, outpatient surgery center."
+    },
+    {
+      "start": 1069.6,
+      "end": 1071.54,
+      "text": "So I came up with some idea."
+    },
+    {
+      "start": 1071.54,
+      "end": 1079.12,
+      "text": "Why don't we go to the zoo, dart down the gorilla under the cloak of darkness."
+    },
+    {
+      "start": 1079.12,
+      "end": 1079.52,
+      "text": "I love where this is going."
+    },
+    {
+      "start": 1079.76,
+      "end": 1081.84,
+      "text": "Put her in a van on a respirator."
+    },
+    {
+      "start": 1081.94,
+      "end": 1082.52,
+      "text": "Oh, man."
+    },
+    {
+      "start": 1082.52,
+      "end": 1085.58,
+      "text": "Drove her to the loading dock of my office building."
+    },
+    {
+      "start": 1088.78,
+      "end": 1090.18,
+      "text": "Carried her upstairs to the OR."
+    },
+    {
+      "start": 1090.42,
+      "end": 1092.12,
+      "text": "I'd set up five nurses."
+    },
+    {
+      "start": 1092.12,
+      "end": 1093.92,
+      "text": "I'm imagining you throwing her over your shoulder."
+    },
+    {
+      "start": 1094.18,
+      "end": 1096.2,
+      "text": "No, it was on a rope journey."
+    },
+    {
+      "start": 1096.2,
+      "end": 1105.98,
+      "text": "And I convinced four of the staff upstairs to take part of this clan."
+    },
+    {
+      "start": 1106.36,
+      "end": 1111.22,
+      "text": "And I said, you can't say a word to anybody because this is very, I mean, I forgot I got caught."
+    },
+    {
+      "start": 1111.26,
+      "end": 1112.28,
+      "text": "Who knows what had happened to me?"
+    },
+    {
+      "start": 1112.62,
+      "end": 1117.02,
+      "text": "But anyway, got her in, got the eggs, did the myomectomy."
+    },
+    {
+      "start": 1117.3,
+      "end": 1117.56,
+      "text": "Yeah."
+    },
+    {
+      "start": 1118.02,
+      "end": 1118.46,
+      "text": "Getting ready."
+    },
+    {
+      "start": 1118.94,
+      "end": 1119.82,
+      "text": "Everything's going fine."
+    },
+    {
+      "start": 1120.02,
+      "end": 1120.2,
+      "text": "Yeah."
+    },
+    {
+      "start": 1120.2,
+      "end": 1127.68,
+      "text": "And I said, okay, before we wake her up, let me, before we take her back, let me check exactly, see how we're going to put these embryos in."
+    },
+    {
+      "start": 1128.04,
+      "end": 1130.34,
+      "text": "So I got a laparoscope and did a vaginoscopy."
+    },
+    {
+      "start": 1130.42,
+      "end": 1131.56,
+      "text": "I looked up at the cervix."
+    },
+    {
+      "start": 1131.98,
+      "end": 1132.94,
+      "text": "And I could find it."
+    },
+    {
+      "start": 1133.0,
+      "end": 1134.7,
+      "text": "But unfortunately, there was a growth on it."
+    },
+    {
+      "start": 1135.04,
+      "end": 1136.0,
+      "text": "I went, shoot."
+    },
+    {
+      "start": 1136.14,
+      "end": 1138.3,
+      "text": "Well, I said, well, if it's a human, you'd biopsied it."
+    },
+    {
+      "start": 1138.48,
+      "end": 1139.5,
+      "text": "So I biopsied it."
+    },
+    {
+      "start": 1140.22,
+      "end": 1141.26,
+      "text": "We got her back to the zoo."
+    },
+    {
+      "start": 1141.5,
+      "end": 1142.12,
+      "text": "Everything's fine."
+    },
+    {
+      "start": 1142.86,
+      "end": 1145.0,
+      "text": "And the biopsy came back cancer."
+    },
+    {
+      "start": 1145.7,
+      "end": 1146.96,
+      "text": "So I said, oh, goodness."
+    },
+    {
+      "start": 1146.96,
+      "end": 1151.52,
+      "text": "And so got the team together again from A&M."
+    },
+    {
+      "start": 1152.4,
+      "end": 1152.8,
+      "text": "Yeah."
+    },
+    {
+      "start": 1153.88,
+      "end": 1154.84,
+      "text": "Oh, my goodness."
+    },
+    {
+      "start": 1155.04,
+      "end": 1158.38,
+      "text": "And said, okay, let's, we pulled it off once."
+    },
+    {
+      "start": 1158.42,
+      "end": 1159.98,
+      "text": "Let's see if we can pull it off one more time."
+    },
+    {
+      "start": 1160.62,
+      "end": 1171.56,
+      "text": "And so we went to the zoo, darted her down, put her in the van, got her back upstairs, got the eggs, and then did a hysterectomy for cancer."
+    },
+    {
+      "start": 1171.74,
+      "end": 1171.98,
+      "text": "Yeah."
+    },
+    {
+      "start": 1172.46,
+      "end": 1175.68,
+      "text": "And then put her, going to take her back to the zoo."
+    },
+    {
+      "start": 1175.68,
+      "end": 1181.28,
+      "text": "Well, there was a mix-up that particular day of the anesthesiologist from A&M that would come."
+    },
+    {
+      "start": 1181.54,
+      "end": 1183.14,
+      "text": "There was a scheduling error."
+    },
+    {
+      "start": 1183.48,
+      "end": 1192.6,
+      "text": "So I got a friend of mine who's East Indian anesthesiologist to come and do the anesthesia."
+    },
+    {
+      "start": 1192.92,
+      "end": 1193.06,
+      "text": "Okay."
+    },
+    {
+      "start": 1193.38,
+      "end": 1194.02,
+      "text": "And I walked in."
+    },
+    {
+      "start": 1194.12,
+      "end": 1196.56,
+      "text": "We walked in with this 385-pound gorilla."
+    },
+    {
+      "start": 1196.84,
+      "end": 1198.12,
+      "text": "He eyes lit up."
+    },
+    {
+      "start": 1198.12,
+      "end": 1199.24,
+      "text": "Oh, you didn't tell him."
+    },
+    {
+      "start": 1199.34,
+      "end": 1200.08,
+      "text": "No, I didn't tell him."
+    },
+    {
+      "start": 1200.26,
+      "end": 1201.32,
+      "text": "He knew it was a gorilla."
+    },
+    {
+      "start": 1201.62,
+      "end": 1202.42,
+      "text": "That's amazing."
+    },
+    {
+      "start": 1202.42,
+      "end": 1206.8,
+      "text": "But I had to go just treat her like a 385-pound patient."
+    },
+    {
+      "start": 1207.02,
+      "end": 1207.18,
+      "text": "Yeah."
+    },
+    {
+      "start": 1207.38,
+      "end": 1208.16,
+      "text": "He's got it."
+    },
+    {
+      "start": 1208.16,
+      "end": 1208.44,
+      "text": "Oh, yeah."
+    },
+    {
+      "start": 1208.74,
+      "end": 1212.14,
+      "text": "So, of course, she was sleeping and got there, kept her asleep."
+    },
+    {
+      "start": 1212.26,
+      "end": 1212.98,
+      "text": "Everything's fine."
+    },
+    {
+      "start": 1212.98,
+      "end": 1219.98,
+      "text": "The mark of a good anesthesiologist is you wake the patient up at the last stitch or last staple."
+    },
+    {
+      "start": 1220.56,
+      "end": 1222.78,
+      "text": "Well, obviously, I didn't want Boma to wake up."
+    },
+    {
+      "start": 1222.86,
+      "end": 1223.0,
+      "text": "Sure."
+    },
+    {
+      "start": 1223.24,
+      "end": 1223.42,
+      "text": "Yeah."
+    },
+    {
+      "start": 1223.42,
+      "end": 1229.76,
+      "text": "And so, for some reason, one of the nurses was holding Boma's hands."
+    },
+    {
+      "start": 1230.8,
+      "end": 1234.26,
+      "text": "And she said, Boma's squeezing my hand."
+    },
+    {
+      "start": 1234.34,
+      "end": 1235.04,
+      "text": "I went, what?"
+    },
+    {
+      "start": 1235.52,
+      "end": 1240.16,
+      "text": "And it dawned on me he was waking her up because the mark of a good anesthesiologist, she wakes"
+    },
+    {
+      "start": 1240.16,
+      "end": 1240.9,
+      "text": "up at the last."
+    },
+    {
+      "start": 1241.02,
+      "end": 1241.42,
+      "text": "Oh."
+    },
+    {
+      "start": 1241.64,
+      "end": 1243.6,
+      "text": "And I went, put her down, put her down."
+    },
+    {
+      "start": 1243.7,
+      "end": 1243.92,
+      "text": "Yeah."
+    },
+    {
+      "start": 1244.14,
+      "end": 1244.9,
+      "text": "And he did with ketamine."
+    },
+    {
+      "start": 1245.08,
+      "end": 1246.72,
+      "text": "So he got control of the situation."
+    },
+    {
+      "start": 1247.26,
+      "end": 1251.3,
+      "text": "You can only imagine how upset that gorilla would have been to wake up in that oar."
+    },
+    {
+      "start": 1251.76,
+      "end": 1252.4,
+      "text": "Oh, my gosh."
+    },
+    {
+      "start": 1252.4,
+      "end": 1254.5,
+      "text": "And so we dodged that bullet."
+    },
+    {
+      "start": 1255.12,
+      "end": 1255.44,
+      "text": "Yeah."
+    },
+    {
+      "start": 1255.72,
+      "end": 1255.88,
+      "text": "Yeah."
+    },
+    {
+      "start": 1255.88,
+      "end": 1257.1,
+      "text": "Got back on the elevator."
+    },
+    {
+      "start": 1257.96,
+      "end": 1259.72,
+      "text": "And so, okay, got through this one."
+    },
+    {
+      "start": 1260.18,
+      "end": 1261.26,
+      "text": "I said, who has the ketamine?"
+    },
+    {
+      "start": 1261.82,
+      "end": 1263.52,
+      "text": "So-and-so has it because I don't have the ketamine."
+    },
+    {
+      "start": 1263.98,
+      "end": 1266.02,
+      "text": "So we're on the elevator and nobody had the ketamine."
+    },
+    {
+      "start": 1266.46,
+      "end": 1268.52,
+      "text": "You're in an elevator with a 385."
+    },
+    {
+      "start": 1268.52,
+      "end": 1273.2,
+      "text": "So if the gorilla would have awakened it or we had an elevator failure again."
+    },
+    {
+      "start": 1273.2,
+      "end": 1276.3,
+      "text": "So we got through that, got her back to the zoo."
+    },
+    {
+      "start": 1276.42,
+      "end": 1277.22,
+      "text": "Everything's fine."
+    },
+    {
+      "start": 1277.88,
+      "end": 1278.6,
+      "text": "Boma's fine."
+    },
+    {
+      "start": 1278.68,
+      "end": 1279.66,
+      "text": "We got embryos."
+    },
+    {
+      "start": 1279.66,
+      "end": 1284.86,
+      "text": "And about that time is when they were finished in the great escape."
+    },
+    {
+      "start": 1285.26,
+      "end": 1285.5,
+      "text": "Okay."
+    },
+    {
+      "start": 1285.66,
+      "end": 1287.16,
+      "text": "And they did the natural environment."
+    },
+    {
+      "start": 1287.54,
+      "end": 1292.64,
+      "text": "Well, all of a sudden, the lowlands started propagating naturally in their natural environment."
+    },
+    {
+      "start": 1292.76,
+      "end": 1294.82,
+      "text": "So we never had to transfer the embryos."
+    },
+    {
+      "start": 1295.1,
+      "end": 1295.46,
+      "text": "Oh."
+    },
+    {
+      "start": 1295.46,
+      "end": 1297.44,
+      "text": "I think they still might be in the Denver Zoo."
+    },
+    {
+      "start": 1297.6,
+      "end": 1297.8,
+      "text": "I don't know."
+    },
+    {
+      "start": 1297.84,
+      "end": 1298.7,
+      "text": "It's been years ago."
+    },
+    {
+      "start": 1299.14,
+      "end": 1299.5,
+      "text": "Wow."
+    },
+    {
+      "start": 1299.52,
+      "end": 1303.76,
+      "text": "So that's probably the most unusual thing that I've ever done."
+    },
+    {
+      "start": 1304.1,
+      "end": 1304.46,
+      "text": "Yeah."
+    },
+    {
+      "start": 1304.94,
+      "end": 1306.6,
+      "text": "That's extremely unusual."
+    },
+    {
+      "start": 1307.26,
+      "end": 1309.24,
+      "text": "That is so fascinating, though."
+    },
+    {
+      "start": 1309.24,
+      "end": 1314.3,
+      "text": "You know, I mean, just the fact that you got to live that scenario."
+    },
+    {
+      "start": 1314.4,
+      "end": 1314.86,
+      "text": "You know what I mean?"
+    },
+    {
+      "start": 1314.96,
+      "end": 1316.28,
+      "text": "That's just so cool."
+    },
+    {
+      "start": 1316.28,
+      "end": 1324.42,
+      "text": "Who gets to say they snuck a 365-pound, however big she was, into a hospital twice?"
+    },
+    {
+      "start": 1325.22,
+      "end": 1325.66,
+      "text": "You know?"
+    },
+    {
+      "start": 1325.94,
+      "end": 1326.04,
+      "text": "That's crazy."
+    },
+    {
+      "start": 1326.04,
+      "end": 1329.22,
+      "text": "I would venture to guess that I'd probably be the only one that's done that."
+    },
+    {
+      "start": 1329.22,
+      "end": 1330.04,
+      "text": "I think you are."
+    },
+    {
+      "start": 1330.12,
+      "end": 1330.78,
+      "text": "I think you are."
+    },
+    {
+      "start": 1330.8,
+      "end": 1332.82,
+      "text": "And plus, I was the only one dumb enough to try it."
+    },
+    {
+      "start": 1332.82,
+      "end": 1333.26,
+      "text": "Well."
+    },
+    {
+      "start": 1333.26,
+      "end": 1339.8,
+      "text": "Because, as I said, had they found out, I could have lost my license, accreditation, who knows what."
+    },
+    {
+      "start": 1340.42,
+      "end": 1344.7,
+      "text": "But the funny thing about it, and not the most funny, but the interesting thing about this,"
+    },
+    {
+      "start": 1345.36,
+      "end": 1348.5,
+      "text": "is I'd sworn all those people to secrecy."
+    },
+    {
+      "start": 1348.68,
+      "end": 1352.24,
+      "text": "And over 10, 15 years, no one ever said a word."
+    },
+    {
+      "start": 1352.3,
+      "end": 1353.08,
+      "text": "No one gave it?"
+    },
+    {
+      "start": 1353.42,
+      "end": 1354.14,
+      "text": "I love it."
+    },
+    {
+      "start": 1354.14,
+      "end": 1360.46,
+      "text": "And so one night, I was at dinner with the then-CEO of Integris."
+    },
+    {
+      "start": 1361.16,
+      "end": 1364.68,
+      "text": "And probably after a couple of glasses of wine, we were just visiting."
+    },
+    {
+      "start": 1364.86,
+      "end": 1365.12,
+      "text": "Sure."
+    },
+    {
+      "start": 1365.4,
+      "end": 1366.92,
+      "text": "I said, and we were good friends, too."
+    },
+    {
+      "start": 1366.96,
+      "end": 1368.4,
+      "text": "I said, you want me to tell you a story?"
+    },
+    {
+      "start": 1369.12,
+      "end": 1370.12,
+      "text": "He says, okay."
+    },
+    {
+      "start": 1370.98,
+      "end": 1373.28,
+      "text": "So I told him the story, and he just sat in there."
+    },
+    {
+      "start": 1373.52,
+      "end": 1374.8,
+      "text": "And he goes, you did what?"
+    },
+    {
+      "start": 1375.3,
+      "end": 1377.22,
+      "text": "I said, yeah, not once, but twice."
+    },
+    {
+      "start": 1378.08,
+      "end": 1378.88,
+      "text": "Oh, man."
+    },
+    {
+      "start": 1378.88,
+      "end": 1382.78,
+      "text": "He goes, only you would be dumb enough to try that and pull it off."
+    },
+    {
+      "start": 1382.78,
+      "end": 1386.04,
+      "text": "And so it's still folklore."
+    },
+    {
+      "start": 1387.0,
+      "end": 1387.82,
+      "text": "And then-"
+    },
+    {
+      "start": 1387.82,
+      "end": 1389.38,
+      "text": "Oh, that's legend forever."
+    },
+    {
+      "start": 1390.06,
+      "end": 1391.02,
+      "text": "That is legendary."
+    },
+    {
+      "start": 1391.12,
+      "end": 1394.74,
+      "text": "To my knowledge, no one had known about it by then, except the team of us."
+    },
+    {
+      "start": 1395.94,
+      "end": 1403.42,
+      "text": "And so my then partner and I received what's called the Circle of Excellence Award from the"
+    },
+    {
+      "start": 1403.42,
+      "end": 1406.34,
+      "text": "Foundation for the Fertility Institute and our work."
+    },
+    {
+      "start": 1408.0,
+      "end": 1410.94,
+      "text": "And so the CEO got up to present it."
+    },
+    {
+      "start": 1410.94,
+      "end": 1412.96,
+      "text": "And he started telling the story."
+    },
+    {
+      "start": 1413.54,
+      "end": 1415.44,
+      "text": "I went, well, I guess it's public knowledge now."
+    },
+    {
+      "start": 1415.52,
+      "end": 1416.18,
+      "text": "Oh, no."
+    },
+    {
+      "start": 1416.42,
+      "end": 1417.6,
+      "text": "Hope there's no statute of limitations."
+    },
+    {
+      "start": 1417.86,
+      "end": 1421.48,
+      "text": "Well, actually, when I originally said, do you want to hear a story?"
+    },
+    {
+      "start": 1421.6,
+      "end": 1425.18,
+      "text": "I said, I think the statute of limitations passed."
+    },
+    {
+      "start": 1425.34,
+      "end": 1425.6,
+      "text": "Yeah, yeah."
+    },
+    {
+      "start": 1425.6,
+      "end": 1426.72,
+      "text": "So then I told him the story."
+    },
+    {
+      "start": 1426.96,
+      "end": 1427.84,
+      "text": "That is incredible."
+    },
+    {
+      "start": 1428.34,
+      "end": 1429.82,
+      "text": "What a fascinating story."
+    },
+    {
+      "start": 1429.88,
+      "end": 1434.48,
+      "text": "Of all the fascinating things I've experienced, that's probably that and Dr. Cheatwood is probably"
+    },
+    {
+      "start": 1434.48,
+      "end": 1435.54,
+      "text": "too most unusual."
+    },
+    {
+      "start": 1435.54,
+      "end": 1438.9,
+      "text": "Well, I mean, you can just stop there and, you know, what a great life."
+    },
+    {
+      "start": 1439.02,
+      "end": 1440.16,
+      "text": "You know, what an exciting life."
+    },
+    {
+      "start": 1440.3,
+      "end": 1444.34,
+      "text": "And, you know, you said I was the only one dumb enough."
+    },
+    {
+      "start": 1444.4,
+      "end": 1449.82,
+      "text": "But I think there's something else behind that because I can tell as a doctor, and we've"
+    },
+    {
+      "start": 1449.82,
+      "end": 1454.38,
+      "text": "talked about this a little bit, but I can also see care for the patient is very important"
+    },
+    {
+      "start": 1454.38,
+      "end": 1455.06,
+      "text": "to you."
+    },
+    {
+      "start": 1455.26,
+      "end": 1455.62,
+      "text": "Absolutely."
+    },
+    {
+      "start": 1455.62,
+      "end": 1461.32,
+      "text": "And so I think that same feeling transferred to another form of life that you said, this"
+    },
+    {
+      "start": 1461.32,
+      "end": 1464.3,
+      "text": "form of life, too, needs care, you know?"
+    },
+    {
+      "start": 1464.6,
+      "end": 1468.96,
+      "text": "And so I think that it's not, you know, I know we're joking tongue-in-cheek saying that,"
+    },
+    {
+      "start": 1469.06,
+      "end": 1474.9,
+      "text": "but I think it's more like that heart that you have as a doctor to truly give quality care"
+    },
+    {
+      "start": 1474.9,
+      "end": 1475.3,
+      "text": "to people."
+    },
+    {
+      "start": 1475.44,
+      "end": 1479.14,
+      "text": "And I would really like you to share a little bit about that because I think that we see"
+    },
+    {
+      "start": 1479.14,
+      "end": 1482.04,
+      "text": "a lot of that dwindling these days."
+    },
+    {
+      "start": 1482.04,
+      "end": 1491.96,
+      "text": "Well, my biggest disappointment over the years is observing the lack of doctor-patient interaction."
+    },
+    {
+      "start": 1492.44,
+      "end": 1501.08,
+      "text": "A lot of that is a result of change in training over the years where residents are allowed"
+    },
+    {
+      "start": 1501.08,
+      "end": 1507.38,
+      "text": "to only work so many hours in a week, which decreases their learning time and experience"
+    },
+    {
+      "start": 1507.38,
+      "end": 1507.78,
+      "text": "time."
+    },
+    {
+      "start": 1507.78,
+      "end": 1515.24,
+      "text": "A lot of that is increased technology that we've experienced over the years, whether it"
+    },
+    {
+      "start": 1515.24,
+      "end": 1520.14,
+      "text": "be ultrasound, MRIs, CTs, interventional radiology."
+    },
+    {
+      "start": 1520.42,
+      "end": 1526.44,
+      "text": "A lot of things have separated the patient from the doctor."
+    },
+    {
+      "start": 1526.78,
+      "end": 1526.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 1527.3,
+      "end": 1534.04,
+      "text": "Then you get electronic medical records, and that's another barrier to doctor-patient interaction."
+    },
+    {
+      "start": 1534.04,
+      "end": 1534.48,
+      "text": "Yeah."
+    },
+    {
+      "start": 1536.06,
+      "end": 1541.76,
+      "text": "Even I, as a physician, go to a physician, only the exception of one, they're looking at"
+    },
+    {
+      "start": 1541.76,
+      "end": 1544.2,
+      "text": "the computer screen, talking to me, never looking at me."
+    },
+    {
+      "start": 1544.4,
+      "end": 1544.78,
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 1545.04,
+      "end": 1549.08,
+      "text": "And not that they're not paying attention."
+    },
+    {
+      "start": 1549.32,
+      "end": 1549.48,
+      "text": "Sure."
+    },
+    {
+      "start": 1549.88,
+      "end": 1551.98,
+      "text": "But it's all because you're required to do all this stuff."
+    },
+    {
+      "start": 1552.02,
+      "end": 1554.0,
+      "text": "Yeah, you probably have a little grace for that, too, being a doctor."
+    },
+    {
+      "start": 1554.0,
+      "end": 1559.64,
+      "text": "It's disappointing to me to see the loss of doctor-patient interaction."
+    },
+    {
+      "start": 1559.64,
+      "end": 1566.64,
+      "text": "For years, I was able to read body language and facial language, and sometimes patients"
+    },
+    {
+      "start": 1567.18,
+      "end": 1571.76,
+      "text": "would come in, especially as a gynecologist, treating women."
+    },
+    {
+      "start": 1573.64,
+      "end": 1576.82,
+      "text": "Not that it doesn't happen with men, too, but that's all I took care of was women."
+    },
+    {
+      "start": 1576.98,
+      "end": 1577.18,
+      "text": "Sure."
+    },
+    {
+      "start": 1577.18,
+      "end": 1585.56,
+      "text": "They would come in with a condition, and instead of just throwing them medication at, sometimes"
+    },
+    {
+      "start": 1585.56,
+      "end": 1590.94,
+      "text": "talking to them and finding out what the real issue is, because they may be there with a"
+    },
+    {
+      "start": 1590.94,
+      "end": 1594.6,
+      "text": "proceeding complaint that has nothing to do with what's going on with them."
+    },
+    {
+      "start": 1594.74,
+      "end": 1594.94,
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 1594.94,
+      "end": 1597.26,
+      "text": "And you can learn a lot just by talking and spending time."
+    },
+    {
+      "start": 1597.26,
+      "end": 1597.76,
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 1597.76,
+      "end": 1605.1,
+      "text": "And I've, at times, had a patient who, it was obvious, had something deeply wrong, and"
+    },
+    {
+      "start": 1605.1,
+      "end": 1606.2,
+      "text": "I knew I was getting behind."
+    },
+    {
+      "start": 1606.32,
+      "end": 1607.08,
+      "text": "I said, you know what?"
+    },
+    {
+      "start": 1607.18,
+      "end": 1611.6,
+      "text": "This is really important, and I think we need to spend more time, and I can't do that right"
+    },
+    {
+      "start": 1611.6,
+      "end": 1616.68,
+      "text": "now, because patients are waiting, but how about if we schedule a time, just you to come"
+    },
+    {
+      "start": 1616.68,
+      "end": 1619.46,
+      "text": "back with an allocated amount of time, and we can talk about it."
+    },
+    {
+      "start": 1619.46,
+      "end": 1620.12,
+      "text": "And we would do that."
+    },
+    {
+      "start": 1620.18,
+      "end": 1621.62,
+      "text": "I've done that on more than one occasion."
+    },
+    {
+      "start": 1621.62,
+      "end": 1631.84,
+      "text": "And during the event, the COVID episode, everyone's wearing masks, and it became obvious to me at"
+    },
+    {
+      "start": 1631.84,
+      "end": 1636.42,
+      "text": "the end, I went, man, I had to start reading eyes, because I no longer had the ability to"
+    },
+    {
+      "start": 1636.42,
+      "end": 1637.66,
+      "text": "read the facial expressions."
+    },
+    {
+      "start": 1637.76,
+      "end": 1639.04,
+      "text": "I think what that did to our kids, too."
+    },
+    {
+      "start": 1639.38,
+      "end": 1642.26,
+      "text": "It reinforced to me the importance of interaction."
+    },
+    {
+      "start": 1642.48,
+      "end": 1642.72,
+      "text": "Sure."
+    },
+    {
+      "start": 1643.6,
+      "end": 1650.0,
+      "text": "And that's, one of my disappointments is seeing the lack of that doctor-patient relationship."
+    },
+    {
+      "start": 1650.0,
+      "end": 1652.8,
+      "text": "Not that they're not good, but it's just different than it used to be."
+    },
+    {
+      "start": 1652.86,
+      "end": 1654.54,
+      "text": "Yeah, the system's changed so much, you know?"
+    },
+    {
+      "start": 1654.64,
+      "end": 1660.64,
+      "text": "And I personally believe that that interaction actually contributes to the healing process."
+    },
+    {
+      "start": 1660.84,
+      "end": 1661.32,
+      "text": "Oh, absolutely."
+    },
+    {
+      "start": 1661.6,
+      "end": 1663.32,
+      "text": "You feel like somebody cares about you, you know?"
+    },
+    {
+      "start": 1663.36,
+      "end": 1666.86,
+      "text": "And they actually have, they know what they're talking about when it comes to your anatomy,"
+    },
+    {
+      "start": 1667.16,
+      "end": 1672.04,
+      "text": "and they have your best interest at heart when they, you know, make that effort to be more"
+    },
+    {
+      "start": 1672.04,
+      "end": 1672.54,
+      "text": "personable."
+    },
+    {
+      "start": 1672.72,
+      "end": 1678.2,
+      "text": "So I appreciate that about you, and hopefully there's a way we can find a balance between technology"
+    },
+    {
+      "start": 1678.2,
+      "end": 1683.42,
+      "text": "and that, you know, because I do think technology does help us, you know, move the needle forward"
+    },
+    {
+      "start": 1683.42,
+      "end": 1688.78,
+      "text": "so significantly, but hopefully not at the expense of, you know, our humanity and our dignity"
+    },
+    {
+      "start": 1688.78,
+      "end": 1690.42,
+      "text": "and our respect and all that stuff."
+    },
+    {
+      "start": 1690.6,
+      "end": 1696.3,
+      "text": "So, you know, it's really interesting how that is such a very personal practice that needs to"
+    },
+    {
+      "start": 1696.3,
+      "end": 1697.22,
+      "text": "probably stay personal."
+    },
+    {
+      "start": 1697.46,
+      "end": 1697.74,
+      "text": "It does."
+    },
+    {
+      "start": 1698.26,
+      "end": 1701.82,
+      "text": "And I believe, don't misunderstand me, I'm not saying at all I'm the only one that does that."
+    },
+    {
+      "start": 1701.82,
+      "end": 1702.66,
+      "text": "Sure, yeah, yeah."
+    },
+    {
+      "start": 1702.66,
+      "end": 1704.58,
+      "text": "A lot of my, most of my colleagues do that."
+    },
+    {
+      "start": 1704.86,
+      "end": 1707.7,
+      "text": "I'm just saying the amount of that has dropped."
+    },
+    {
+      "start": 1707.82,
+      "end": 1712.4,
+      "text": "And I just read a manuscript, an article the other day that was addressing this, talking"
+    },
+    {
+      "start": 1712.4,
+      "end": 1722.38,
+      "text": "about the physical exam is almost non-existent because of all the technology, again, of ultrasounds,"
+    },
+    {
+      "start": 1722.52,
+      "end": 1723.88,
+      "text": "MRIs, intervention."
+    },
+    {
+      "start": 1723.88,
+      "end": 1729.08,
+      "text": "I mean, but that still doesn't take the place of the interaction between the patient and or"
+    },
+    {
+      "start": 1729.08,
+      "end": 1729.46,
+      "text": "couple."
+    },
+    {
+      "start": 1729.94,
+      "end": 1730.0,
+      "text": "Right."
+    },
+    {
+      "start": 1731.18,
+      "end": 1731.54,
+      "text": "And."
+    },
+    {
+      "start": 1731.9,
+      "end": 1734.24,
+      "text": "Well, and there's something you'll learn about how a couple interacts too."
+    },
+    {
+      "start": 1734.26,
+      "end": 1734.5,
+      "text": "That's right."
+    },
+    {
+      "start": 1734.62,
+      "end": 1736.78,
+      "text": "You know, you'll learn a lot about that, you know."
+    },
+    {
+      "start": 1736.88,
+      "end": 1741.08,
+      "text": "I know for me, in my line of business, I read people a lot too."
+    },
+    {
+      "start": 1741.16,
+      "end": 1746.02,
+      "text": "I've always done that, but you learn so much just how people interact with each other."
+    },
+    {
+      "start": 1746.54,
+      "end": 1749.2,
+      "text": "But that's part of the art of medicine."
+    },
+    {
+      "start": 1749.2,
+      "end": 1751.68,
+      "text": "You know, you talked about the art and science of medicine."
+    },
+    {
+      "start": 1751.84,
+      "end": 1754.76,
+      "text": "Now it's become more science and less of an art."
+    },
+    {
+      "start": 1754.76,
+      "end": 1761.32,
+      "text": "But the there are a lot of barriers that have brought us to this situation makes me sad."
+    },
+    {
+      "start": 1761.42,
+      "end": 1762.46,
+      "text": "I'm not being critical of it."
+    },
+    {
+      "start": 1762.48,
+      "end": 1763.42,
+      "text": "I'm just saying that's reality."
+    },
+    {
+      "start": 1764.02,
+      "end": 1764.24,
+      "text": "Yeah."
+    },
+    {
+      "start": 1765.04,
+      "end": 1767.56,
+      "text": "And I've had patients discuss that with me before."
+    },
+    {
+      "start": 1767.72,
+      "end": 1767.96,
+      "text": "Yeah."
+    },
+    {
+      "start": 1768.04,
+      "end": 1768.56,
+      "text": "And others."
+    },
+    {
+      "start": 1769.14,
+      "end": 1769.34,
+      "text": "Yeah."
+    },
+    {
+      "start": 1769.4,
+      "end": 1771.08,
+      "text": "It's really it's it's really interesting."
+    },
+    {
+      "start": 1771.22,
+      "end": 1771.38,
+      "text": "Yeah."
+    },
+    {
+      "start": 1771.38,
+      "end": 1781.36,
+      "text": "So I you know, it feels like for me, the more I start looking at things that people get involved in that they are just passionate about, you know, it's all art."
+    },
+    {
+      "start": 1781.8,
+      "end": 1788.2,
+      "text": "Because it's we express this thing that we're doing different than anyone else would, you know."
+    },
+    {
+      "start": 1788.72,
+      "end": 1795.26,
+      "text": "And when you really love something, it becomes art, you know, becomes something very special to you that you want to do in a specific way."
+    },
+    {
+      "start": 1795.26,
+      "end": 1808.44,
+      "text": "And so just I just landed on that thought, you know, I really believe that, you know, all of our passions and careers and desires can be, you know, our gift to the world that we can actually express out of ourself."
+    },
+    {
+      "start": 1808.54,
+      "end": 1810.46,
+      "text": "And so I see you've done that."
+    },
+    {
+      "start": 1810.58,
+      "end": 1819.88,
+      "text": "You know, it's just really powerful to think about all the relationships you've established and all the families you've helped, all the heartache you've probably experienced with families."
+    },
+    {
+      "start": 1819.88,
+      "end": 1828.9,
+      "text": "Like, you know, when you care that deeply about a family, the heartbreak is just as bad as the as as the joy is good at times, you know."
+    },
+    {
+      "start": 1828.96,
+      "end": 1834.26,
+      "text": "And so that's a lot to to process throughout a 50 year career."
+    },
+    {
+      "start": 1834.46,
+      "end": 1839.04,
+      "text": "And so, Dr. Kallenberger, I just want to say thank you so much for allowing us into your home."
+    },
+    {
+      "start": 1839.38,
+      "end": 1843.76,
+      "text": "We love your daughter and your and your granddaughter, Hillary and Brielle."
+    },
+    {
+      "start": 1843.88,
+      "end": 1847.0,
+      "text": "They're amazing folks and big supporters."
+    },
+    {
+      "start": 1847.18,
+      "end": 1848.52,
+      "text": "We're huge fans of them."
+    },
+    {
+      "start": 1848.52,
+      "end": 1850.52,
+      "text": "And we just appreciate your time."
+    },
+    {
+      "start": 1850.72,
+      "end": 1852.44,
+      "text": "Thank you for inviting us into your home."
+    },
+    {
+      "start": 1852.52,
+      "end": 1858.1,
+      "text": "We didn't even get to get into your amazing art pieces that we have here that are just absolutely phenomenal."
+    },
+    {
+      "start": 1858.58,
+      "end": 1863.22,
+      "text": "Everything is intentional in your home and you've just built a really phenomenal life."
+    },
+    {
+      "start": 1863.34,
+      "end": 1867.56,
+      "text": "And it's an honor to get to know you and just to share this brief amount of time with you."
+    },
+    {
+      "start": 1867.62,
+      "end": 1868.68,
+      "text": "So thanks so much."
+    },
+    {
+      "start": 1868.78,
+      "end": 1869.36,
+      "text": "It's my pleasure."
+    },
+    {
+      "start": 1869.48,
+      "end": 1871.0,
+      "text": "Thank you for allowing me."
+    },
+    {
+      "start": 1871.28,
+      "end": 1871.68,
+      "text": "Absolutely."
+    },
+    {
+      "start": 1871.68,
+      "end": 1876.32,
+      "text": "And if there's anything, one last thing you want to share before we go, you I mean, you you have earned this."
+    },
+    {
+      "start": 1876.32,
+      "end": 1883.96,
+      "text": "You man, one last thing that we can hear from a man that has experienced the life that you've experienced."
+    },
+    {
+      "start": 1883.96,
+      "end": 1889.9,
+      "text": "What would you want to share with families maybe that are potentially struggling with fertility or things of that nature?"
+    },
+    {
+      "start": 1889.9,
+      "end": 1894.3,
+      "text": "Well, I just share that treatment has come a long way."
+    },
+    {
+      "start": 1895.42,
+      "end": 1897.26,
+      "text": "It's more available than ever."
+    },
+    {
+      "start": 1897.46,
+      "end": 1898.86,
+      "text": "It's more successful than ever."
+    },
+    {
+      "start": 1899.82,
+      "end": 1913.34,
+      "text": "The only roadblock is the financial aspect because oftentimes, as you know, in medicine, people that need or deserve a procedure are not able to afford it or obtain it."
+    },
+    {
+      "start": 1913.34,
+      "end": 1913.6,
+      "text": "Yeah."
+    },
+    {
+      "start": 1914.44,
+      "end": 1918.76,
+      "text": "But over the years, insurance has become a little better on paying for fertility treatments."
+    },
+    {
+      "start": 1919.12,
+      "end": 1923.06,
+      "text": "It's now recognized as a disease, not just a condition."
+    },
+    {
+      "start": 1923.76,
+      "end": 1925.24,
+      "text": "And never give up."
+    },
+    {
+      "start": 1925.52,
+      "end": 1926.4,
+      "text": "Never give up."
+    },
+    {
+      "start": 1926.52,
+      "end": 1926.88,
+      "text": "That's good."
+    },
+    {
+      "start": 1927.24,
+      "end": 1928.32,
+      "text": "Thank you so much for that."
+    },
+    {
+      "start": 1929.12,
+      "end": 1931.14,
+      "text": "Over 22,000 babies delivered."
+    },
+    {
+      "start": 1931.5,
+      "end": 1934.34,
+      "text": "That's larger than a lot of cities in our country."
+    },
+    {
+      "start": 1934.98,
+      "end": 1936.24,
+      "text": "And that's pretty phenomenal."
+    },
+    {
+      "start": 1936.4,
+      "end": 1937.82,
+      "text": "Thanks again for letting us come."
+    },
+    {
+      "start": 1937.94,
+      "end": 1941.58,
+      "text": "And we just really hope you have an incredible day and enjoy the rest of your time."
+    },
+    {
+      "start": 1941.58,
+      "end": 1944.06,
+      "text": "It's a beautiful day outside, so try to get out and enjoy it."
+    },
+    {
+      "start": 1944.1,
+      "end": 1948.04,
+      "text": "And for you guys that have joined us again this week, we're just so grateful that you joined us."
+    },
+    {
+      "start": 1948.1,
+      "end": 1950.58,
+      "text": "This has been a great conversation with Dr. Kallenberger."
+    },
+    {
+      "start": 1951.38,
+      "end": 1952.74,
+      "text": "Please share this with your friends."
+    },
+    {
+      "start": 1953.22,
+      "end": 1960.02,
+      "text": "And we'd also love to hear from you, so email us at voicesofOKC at okcitycenter.org."
+    },
+    {
+      "start": 1960.08,
+      "end": 1966.0,
+      "text": "If you have a guest that you want to bring on that you think we should interview, we would love to have that person on our show."
+    },
+    {
+      "start": 1966.16,
+      "end": 1970.2,
+      "text": "So email us, and we would love to get you more info on how they can be a part of that."
+    },
+    {
+      "start": 1970.2,
+      "end": 1973.56,
+      "text": "But until then, join us next week, and we can't wait to see you."
+    }
+  ]
+}

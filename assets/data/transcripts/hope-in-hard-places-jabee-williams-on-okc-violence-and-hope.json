@@ -1,0 +1,2631 @@
+{
+  "episode_title": "Hope in Hard Places: Jabee Williams on OKC, Violence, and Hope",
+  "episode_slug": "hope-in-hard-places-jabee-williams-on-okc-violence-and-hope",
+  "source": "Published episode audio",
+  "language": "en",
+  "review_status": "machine-generated",
+  "generated_at": "2026-08-04T09:52:56+00:00",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 29.98,
+      "text": "With no further ado, JB Williams. What's up, JB? What's up, brother? Man, it's so good to have you, man. Man, when did we meet?"
+    },
+    {
+      "start": 29.98,
+      "end": 34.98,
+      "text": "I think I reached out to you on Facebook or something like that. Something like that, yeah."
+    },
+    {
+      "start": 34.98,
+      "end": 42.98,
+      "text": "A long time ago. A minute, though. It's been some years. We had breakfast at Jimmy's Egg. They're off of Cross from Barrios."
+    },
+    {
+      "start": 42.98,
+      "end": 49.98,
+      "text": "Yes. That's right, man. I just love the work that you were doing as far as just community advocacy and helping."
+    },
+    {
+      "start": 49.98,
+      "end": 58.98,
+      "text": "And I know you have a heart for young people, seeing them, mentoring, helping. Boys and Girls Club, OKC, schools."
+    },
+    {
+      "start": 58.98,
+      "end": 69.98,
+      "text": "You know, a lot of the, you know, organizations. And then, you know, I have my own organizations. I have Live Free Oklahoma and Love OKC."
+    },
+    {
+      "start": 69.98,
+      "end": 79.98,
+      "text": "Live Free is a community violence intervention program. And then, with Love OKC is a art initiative program. So we do, you know, things in the school."
+    },
+    {
+      "start": 79.98,
+      "end": 88.98,
+      "text": "We do, you know, work with Millwood to teach the students there, the high school and junior high students how to do murals and tell their stories through murals."
+    },
+    {
+      "start": 88.98,
+      "end": 90.98,
+      "text": "So that's been great."
+    },
+    {
+      "start": 90.98,
+      "end": 99.98,
+      "text": "We also, you know, curate and put on several art shows throughout the year. We just had one, Women of Color, last weekend that was really good."
+    },
+    {
+      "start": 99.98,
+      "end": 110.98,
+      "text": "We also do the Juneteenth Festival, Juneteenth on the East every year. We do a program with my community where we mentor students at Emerson, North Emerson South, also with the Star Foundation."
+    },
+    {
+      "start": 110.98,
+      "end": 119.98,
+      "text": "And I'm about to start a program over at the Berry House as well, where we're teaching the kids their creative pathways."
+    },
+    {
+      "start": 119.98,
+      "end": 134.98,
+      "text": "Being impacted in a way that I didn't get to experience whenever I was growing up and really show that there's way more out here and the world's way bigger than just, you know, my block, my neighborhood, my apartment complex, the east side, whatever, you know."
+    },
+    {
+      "start": 134.98,
+      "end": 141.98,
+      "text": "I love that, man. It was something I've always loved about you two minutes. You've always been able to move around and be respected and heard."
+    },
+    {
+      "start": 141.98,
+      "end": 146.98,
+      "text": "But man, there are so many things you have your hand in that are directly impacting and affecting young people."
+    },
+    {
+      "start": 146.98,
+      "end": 157.84,
+      "text": "You know, that's, I know what that's like. I actually, you know, ran around there a little bit when I was doing some things I shouldn't have been doing and all over the south side, the northwest side as well."
+    },
+    {
+      "start": 157.96,
+      "end": 164.38,
+      "text": "But there's plenty to get into in Oklahoma City, you know. And so for you growing up, what was that like?"
+    },
+    {
+      "start": 164.42,
+      "end": 171.42,
+      "text": "I mean, what was it like living in an environment where you felt like maybe you had to be on edge more than most other kids did?"
+    },
+    {
+      "start": 172.02,
+      "end": 175.02,
+      "text": "Because I feel like this shaped you into doing the things you do now."
+    },
+    {
+      "start": 175.02,
+      "end": 179.02,
+      "text": "So I think it'd be good for our audience to kind of hear what that was like for you growing up on the east side."
+    },
+    {
+      "start": 179.02,
+      "end": 184.12,
+      "text": "We were in a single parent home. There was even a brief period where we didn't even have a home."
+    },
+    {
+      "start": 184.28,
+      "end": 188.38,
+      "text": "When I think about growing up, that was the hardest part, watching my mom deal with all that."
+    },
+    {
+      "start": 188.62,
+      "end": 192.38,
+      "text": "And just a kid trying to navigate, trying to go to school and all that."
+    },
+    {
+      "start": 192.5,
+      "end": 194.56,
+      "text": "Make it down the block from school to make sure, you know."
+    },
+    {
+      "start": 194.56,
+      "end": 195.22,
+      "text": "Yeah, you know."
+    },
+    {
+      "start": 195.32,
+      "end": 195.9,
+      "text": "On the right block."
+    },
+    {
+      "start": 196.08,
+      "end": 199.36,
+      "text": "It's obvious that it was hard. It was tough. You know what I'm saying?"
+    },
+    {
+      "start": 199.36,
+      "end": 203.26,
+      "text": "But I heard Marcus say this one time."
+    },
+    {
+      "start": 204.06,
+      "end": 207.98,
+      "text": "He said, sometimes people say, I'm a product of my environment."
+    },
+    {
+      "start": 208.22,
+      "end": 211.6,
+      "text": "And they say that whenever they locked up or something like that or something."
+    },
+    {
+      "start": 211.72,
+      "end": 219.46,
+      "text": "You know, I think for me, my environment, the environment I grew up in helped me see something else, want something different."
+    },
+    {
+      "start": 219.46,
+      "end": 224.96,
+      "text": "For instance, like sixth grade, my best friend in sixth grade, he's doing life in prison right now."
+    },
+    {
+      "start": 225.08,
+      "end": 228.98,
+      "text": "You know what I'm saying? He was actually on death row, but he got commuted to life."
+    },
+    {
+      "start": 229.68,
+      "end": 232.6,
+      "text": "And we grew up in the same neighborhood, went to the same school."
+    },
+    {
+      "start": 233.58,
+      "end": 239.8,
+      "text": "And, you know, I think about, you know, I think about like, you know, we were around the same things."
+    },
+    {
+      "start": 239.8,
+      "end": 247.26,
+      "text": "And like how, you know, how I was able to like, you know, like navigate out of that."
+    },
+    {
+      "start": 247.44,
+      "end": 249.8,
+      "text": "You know what I'm saying? And navigate away from it."
+    },
+    {
+      "start": 249.9,
+      "end": 254.1,
+      "text": "And then even my, you know, my family, my brothers, my cousins, you know what I'm saying?"
+    },
+    {
+      "start": 254.26,
+      "end": 258.86,
+      "text": "Just everything from gangbanging in our family and dope dealing, pimping, everything."
+    },
+    {
+      "start": 259.06,
+      "end": 261.8,
+      "text": "You know what I'm saying? All those things that I saw growing up."
+    },
+    {
+      "start": 261.92,
+      "end": 262.36,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 262.52,
+      "end": 264.56,
+      "text": "You're exposed to everything that everybody else was."
+    },
+    {
+      "start": 264.64,
+      "end": 264.72,
+      "text": "Yeah."
+    },
+    {
+      "start": 264.72,
+      "end": 268.46,
+      "text": "And like, as kids, we didn't really have a choice."
+    },
+    {
+      "start": 268.68,
+      "end": 270.3,
+      "text": "We had like, that's just what was around us."
+    },
+    {
+      "start": 270.36,
+      "end": 270.66,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 270.66,
+      "end": 274.26,
+      "text": "I couldn't pick up and go move or pick up and go leave because I'm a kid."
+    },
+    {
+      "start": 274.38,
+      "end": 274.78,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 274.86,
+      "end": 275.36,
+      "text": "It's near me."
+    },
+    {
+      "start": 275.5,
+      "end": 275.72,
+      "text": "Right."
+    },
+    {
+      "start": 275.9,
+      "end": 281.7,
+      "text": "I just, I feel like I'm definitely blessed to have come out on the opposite side,"
+    },
+    {
+      "start": 281.8,
+      "end": 286.76,
+      "text": "but it's definitely hard whenever you see your family and your friends that have gone through that."
+    },
+    {
+      "start": 286.84,
+      "end": 287.34,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 287.52,
+      "end": 289.26,
+      "text": "And, you know, I'm, I'm blessed."
+    },
+    {
+      "start": 289.34,
+      "end": 291.6,
+      "text": "I've never seen, you know, the pen."
+    },
+    {
+      "start": 291.6,
+      "end": 295.48,
+      "text": "I've been to the county and I think about my little brother, my little cousin who's been to the pen."
+    },
+    {
+      "start": 295.56,
+      "end": 297.16,
+      "text": "It was, it happened so much."
+    },
+    {
+      "start": 297.24,
+      "end": 299.38,
+      "text": "Growing up, man, when I get to jail, I'm a normal."
+    },
+    {
+      "start": 299.62,
+      "end": 300.12,
+      "text": "Crazy, man."
+    },
+    {
+      "start": 300.2,
+      "end": 301.0,
+      "text": "It's so crazy."
+    },
+    {
+      "start": 301.08,
+      "end": 305.7,
+      "text": "That was like, it was just, it was just like you hear people coming home and they talking about,"
+    },
+    {
+      "start": 305.78,
+      "end": 307.6,
+      "text": "you making plans for prison."
+    },
+    {
+      "start": 307.7,
+      "end": 308.3,
+      "text": "That's crazy."
+    },
+    {
+      "start": 308.48,
+      "end": 310.88,
+      "text": "I saw growing up, it's so important to me."
+    },
+    {
+      "start": 311.04,
+      "end": 318.76,
+      "text": "It's a responsibility of mine for me to make sure to be there for people who were in that same position that I was in."
+    },
+    {
+      "start": 318.76,
+      "end": 327.38,
+      "text": "Luckily, I was able to be around people that, that saw something in me, wanted to help me and be there for me and teach me other ways."
+    },
+    {
+      "start": 327.5,
+      "end": 332.5,
+      "text": "I had, and I had, I had a, um, a mom that was, was always on my head."
+    },
+    {
+      "start": 332.78,
+      "end": 334.34,
+      "text": "It's a good point that you're making."
+    },
+    {
+      "start": 334.48,
+      "end": 336.24,
+      "text": "You chose a different route."
+    },
+    {
+      "start": 336.42,
+      "end": 337.88,
+      "text": "So it's possible, you know what I mean?"
+    },
+    {
+      "start": 337.9,
+      "end": 338.6,
+      "text": "But it's hard."
+    },
+    {
+      "start": 338.68,
+      "end": 342.3,
+      "text": "People don't realize how hard that can be when you're, I mean, we see it every day here."
+    },
+    {
+      "start": 342.3,
+      "end": 345.16,
+      "text": "We see kids make crazy progress, man."
+    },
+    {
+      "start": 345.28,
+      "end": 351.18,
+      "text": "And then they get kind of sucked back into the cycle of their family that their family's been in for, for a long time."
+    },
+    {
+      "start": 351.24,
+      "end": 351.58,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 351.62,
+      "end": 355.0,
+      "text": "Because they don't, again, back to that, we go to prison."
+    },
+    {
+      "start": 355.26,
+      "end": 360.16,
+      "text": "You know, we, we're getting prepared for that narrative, not this narrative they're trying to pitch."
+    },
+    {
+      "start": 360.32,
+      "end": 360.6,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 360.6,
+      "end": 364.82,
+      "text": "And once you get caught up in it one time, it's so hard to get out."
+    },
+    {
+      "start": 364.92,
+      "end": 374.16,
+      "text": "If you, if you ever get pulled over, if you ever trying to get a job, just that one time can really derail any progress you try to make after that."
+    },
+    {
+      "start": 374.16,
+      "end": 378.7,
+      "text": "I understand why some, some of our guys, like, you know, they, they do good."
+    },
+    {
+      "start": 378.76,
+      "end": 380.94,
+      "text": "And they like, man, this just ain't, it ain't clicking."
+    },
+    {
+      "start": 381.12,
+      "end": 382.14,
+      "text": "I got to go back to this."
+    },
+    {
+      "start": 382.24,
+      "end": 382.64,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 382.8,
+      "end": 389.8,
+      "text": "You know, I understand that cousins and brothers and, you know, best friends who, you know, they, they like, man, I'm about to be, you know what I'm saying?"
+    },
+    {
+      "start": 389.8,
+      "end": 391.46,
+      "text": "You know, you know what I'm saying?"
+    },
+    {
+      "start": 391.62,
+      "end": 391.96,
+      "text": "I already know."
+    },
+    {
+      "start": 392.06,
+      "end": 393.2,
+      "text": "You know, and I'm not about to argue."
+    },
+    {
+      "start": 393.34,
+      "end": 393.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 393.52,
+      "end": 403.98,
+      "text": "I'm not about to argue with you about it or try to, or try to like, you know, you know, all I can do is understand and still be here and prepare, you know, if you want to, you know what I'm saying, come back around, you know what I'm saying?"
+    },
+    {
+      "start": 404.06,
+      "end": 405.42,
+      "text": "Because I understand it."
+    },
+    {
+      "start": 405.64,
+      "end": 407.3,
+      "text": "That's a real reality, man."
+    },
+    {
+      "start": 407.9,
+      "end": 411.08,
+      "text": "And, you know, it's, it's not easy."
+    },
+    {
+      "start": 411.4,
+      "end": 413.68,
+      "text": "It's not easy to come up out of that, you know?"
+    },
+    {
+      "start": 413.84,
+      "end": 417.06,
+      "text": "I remember when I wasn't, I got sentenced to 47 years in prison."
+    },
+    {
+      "start": 417.14,
+      "end": 417.62,
+      "text": "I only did eight."
+    },
+    {
+      "start": 417.86,
+      "end": 418.74,
+      "text": "God's grace, man."
+    },
+    {
+      "start": 418.74,
+      "end": 426.0,
+      "text": "But I remember that when I first got out, one of those old friends that I used to pick me up, took me to cattleman's, got me a steak, steak dinner."
+    },
+    {
+      "start": 426.24,
+      "end": 428.22,
+      "text": "And he was like, Hey, I got you."
+    },
+    {
+      "start": 428.32,
+      "end": 429.44,
+      "text": "You don't get on your feet with this."
+    },
+    {
+      "start": 429.5,
+      "end": 429.88,
+      "text": "You're good."
+    },
+    {
+      "start": 430.66,
+      "end": 432.32,
+      "text": "And it was going to be that easy for me."
+    },
+    {
+      "start": 432.56,
+      "end": 435.36,
+      "text": "Made my, we got to the penitentiary."
+    },
+    {
+      "start": 435.46,
+      "end": 440.74,
+      "text": "That whole thing right there for me, that moment was like, it could have been either way."
+    },
+    {
+      "start": 440.74,
+      "end": 443.32,
+      "text": "And it's tempting because that's all I knew, man."
+    },
+    {
+      "start": 443.42,
+      "end": 450.22,
+      "text": "I was 18 when I went into prison and that's really all I knew how to do as far as making money for myself."
+    },
+    {
+      "start": 450.6,
+      "end": 455.62,
+      "text": "Thankfully, I chose a different route and I had a foundation that was built that time I was in prison."
+    },
+    {
+      "start": 455.62,
+      "end": 465.04,
+      "text": "But for people that that's their everyday life, everyday, all day, and your family has a pattern in the history of generationally being wrapped up in that same cycle."
+    },
+    {
+      "start": 465.04,
+      "end": 469.64,
+      "text": "So what kind of, you know, it's hard to even start thinking about an option."
+    },
+    {
+      "start": 469.92,
+      "end": 470.34,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 470.5,
+      "end": 471.94,
+      "text": "So I get it, man."
+    },
+    {
+      "start": 472.0,
+      "end": 479.78,
+      "text": "There has to be an understanding of that, you know, an understanding of that to really be able to reach young people that are in that type of scenario."
+    },
+    {
+      "start": 479.78,
+      "end": 489.96,
+      "text": "You have to have the heart of a person that's been through that thing or lived in that community or whatever to actually have an effective impact, man, because it's not going to translate."
+    },
+    {
+      "start": 490.34,
+      "end": 491.64,
+      "text": "It's nothing against anyone."
+    },
+    {
+      "start": 491.96,
+      "end": 492.88,
+      "text": "And we don't want to hear it."
+    },
+    {
+      "start": 492.98,
+      "end": 493.32,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 493.32,
+      "end": 497.0,
+      "text": "Y'all who come knocking on your door trying to, you're like, man, I ain't trying to hear that."
+    },
+    {
+      "start": 497.08,
+      "end": 500.24,
+      "text": "You don't even, like, you don't even live in these apartments."
+    },
+    {
+      "start": 500.48,
+      "end": 501.36,
+      "text": "You don't live in this neighborhood."
+    },
+    {
+      "start": 501.64,
+      "end": 507.24,
+      "text": "You know, and so many people who love the adventure of it."
+    },
+    {
+      "start": 507.36,
+      "end": 508.02,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 508.34,
+      "end": 508.98,
+      "text": "You know what I mean?"
+    },
+    {
+      "start": 508.98,
+      "end": 512.26,
+      "text": "But, you know, they're not credible."
+    },
+    {
+      "start": 512.84,
+      "end": 514.3,
+      "text": "They don't have the lived experience."
+    },
+    {
+      "start": 514.56,
+      "end": 519.14,
+      "text": "They're not from where we're from, you know, and all those things."
+    },
+    {
+      "start": 519.14,
+      "end": 524.54,
+      "text": "And, you know, really, you know, they do more harm than they do good."
+    },
+    {
+      "start": 524.66,
+      "end": 525.06,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 525.08,
+      "end": 525.68,
+      "text": "I've seen that."
+    },
+    {
+      "start": 525.68,
+      "end": 542.62,
+      "text": "And so, yeah, I just think that, you know, especially whenever we're trying to, you know, really make a difference and help change the lives of, you know, these young people and even, you know, people who are older still dealing with a lot of this stuff."
+    },
+    {
+      "start": 542.62,
+      "end": 549.36,
+      "text": "You know, you know, people who are just living that adventure, you know what I'm saying?"
+    },
+    {
+      "start": 549.54,
+      "end": 552.94,
+      "text": "And they, you know, they kind of in the way of the work, you know what I'm saying?"
+    },
+    {
+      "start": 553.14,
+      "end": 553.94,
+      "text": "So, yeah."
+    },
+    {
+      "start": 554.14,
+      "end": 559.66,
+      "text": "I always said there has to be indigenous leadership in every center that we have, whatever community it's in."
+    },
+    {
+      "start": 560.26,
+      "end": 563.12,
+      "text": "You know, how we do it is definitely something that's important to us."
+    },
+    {
+      "start": 563.2,
+      "end": 568.62,
+      "text": "We feel like how you deliver services is way more important than the evidence-based curriculum itself."
+    },
+    {
+      "start": 568.62,
+      "end": 573.08,
+      "text": "But having that indigenous leadership really needed for that community."
+    },
+    {
+      "start": 573.36,
+      "end": 575.08,
+      "text": "You may not need a food pantry in that community."
+    },
+    {
+      "start": 575.26,
+      "end": 578.78,
+      "text": "Maybe a food pantry keeps that community deeper in poverty."
+    },
+    {
+      "start": 578.92,
+      "end": 583.72,
+      "text": "Maybe they need to figure out how to have an actual grocery store that's got healthy food in it."
+    },
+    {
+      "start": 583.92,
+      "end": 585.84,
+      "text": "Yeah, I'm glad you said that about the developers."
+    },
+    {
+      "start": 586.08,
+      "end": 587.94,
+      "text": "Come with all these ideas for the East Side."
+    },
+    {
+      "start": 588.44,
+      "end": 589.1,
+      "text": "We're going to do this."
+    },
+    {
+      "start": 589.14,
+      "end": 589.72,
+      "text": "We're going to do that."
+    },
+    {
+      "start": 589.86,
+      "end": 597.18,
+      "text": "And you shouldn't do anything for the community without the community in mind and without checking with the community first."
+    },
+    {
+      "start": 597.18,
+      "end": 603.18,
+      "text": "For one, somebody told me, what you do for us, without us, you do to us."
+    },
+    {
+      "start": 603.38,
+      "end": 603.94,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 604.56,
+      "end": 613.42,
+      "text": "And so you always, you know, have the community in mind when you're doing whatever you're doing, whether it's outreach, whether it's food, whatever."
+    },
+    {
+      "start": 613.7,
+      "end": 614.16,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 614.68,
+      "end": 617.92,
+      "text": "Developer, like a, you know, like a community developer."
+    },
+    {
+      "start": 618.88,
+      "end": 620.12,
+      "text": "Why is it always developer?"
+    },
+    {
+      "start": 620.88,
+      "end": 622.3,
+      "text": "Well, because they got the big idea."
+    },
+    {
+      "start": 622.34,
+      "end": 622.64,
+      "text": "Yeah."
+    },
+    {
+      "start": 622.82,
+      "end": 624.36,
+      "text": "They got the grand idea."
+    },
+    {
+      "start": 624.36,
+      "end": 627.72,
+      "text": "But I was saying, I said, you know, I said, here's the thing."
+    },
+    {
+      "start": 628.4,
+      "end": 632.48,
+      "text": "We weren't really talking about the nuance of what you were just saying, but we were talking about development."
+    },
+    {
+      "start": 632.64,
+      "end": 634.2,
+      "text": "I said, here's what's, here's the problem."
+    },
+    {
+      "start": 634.24,
+      "end": 635.38,
+      "text": "And this goes into this."
+    },
+    {
+      "start": 635.42,
+      "end": 639.3,
+      "text": "I think we see economic development happen overnight."
+    },
+    {
+      "start": 640.06,
+      "end": 645.36,
+      "text": "Starbucks pop up overnight everywhere, but we don't see social development pace at all."
+    },
+    {
+      "start": 645.36,
+      "end": 656.74,
+      "text": "Well, we have a lot of nonprofit organizations that could help with that, but we do operate within this, like the structure of funding and things like that, that can become complicated and unpredictable."
+    },
+    {
+      "start": 656.74,
+      "end": 660.86,
+      "text": "So you don't, you're not going to see social development ever keep up."
+    },
+    {
+      "start": 660.86,
+      "end": 675.78,
+      "text": "But what if we had systems that did give us that financial horsepower that was more of a, you know, a system that didn't rely necessarily on whether or not somebody was going to be interested in giving from one year to the next, you know, it would change a lot of things, man."
+    },
+    {
+      "start": 676.02,
+      "end": 680.3,
+      "text": "And that social development maybe could keep pace a little bit better."
+    },
+    {
+      "start": 680.3,
+      "end": 686.2,
+      "text": "And we would see people being able to embrace the change that comes in their community versus being pushed out of it."
+    },
+    {
+      "start": 686.42,
+      "end": 686.52,
+      "text": "Yeah."
+    },
+    {
+      "start": 686.64,
+      "end": 687.04,
+      "text": "You know what I mean?"
+    },
+    {
+      "start": 687.36,
+      "end": 687.84,
+      "text": "That's good."
+    },
+    {
+      "start": 687.94,
+      "end": 694.4,
+      "text": "So I think there's a component there that is just not taken seriously, you know, because we're all about money in America, man."
+    },
+    {
+      "start": 694.4,
+      "end": 697.82,
+      "text": "We are all about that dollar and that bottom line, that ROI."
+    },
+    {
+      "start": 698.12,
+      "end": 708.32,
+      "text": "And I get that as a business owner myself, but at the same time, at the end of the day, there's too much at stake right now with, with our humanity, I think, you know, for all of us, honestly, you know, so."
+    },
+    {
+      "start": 708.32,
+      "end": 709.32,
+      "text": "Live free, man."
+    },
+    {
+      "start": 709.38,
+      "end": 710.1,
+      "text": "Tell me about live free."
+    },
+    {
+      "start": 710.1,
+      "end": 710.16,
+      "text": "Yeah."
+    },
+    {
+      "start": 710.22,
+      "end": 716.96,
+      "text": "So I've had several friends and family shot and killed over the years."
+    },
+    {
+      "start": 717.24,
+      "end": 718.66,
+      "text": "I got, just cause it's so many."
+    },
+    {
+      "start": 718.78,
+      "end": 727.1,
+      "text": "My brother was shot and killed and that was probably the one that really helped just reshape my thinking."
+    },
+    {
+      "start": 727.3,
+      "end": 728.18,
+      "text": "Not immediately."
+    },
+    {
+      "start": 728.34,
+      "end": 735.88,
+      "text": "Cause immediately, you know, he got into it with somebody in the neighborhood and, and it was an ongoing thing."
+    },
+    {
+      "start": 735.88,
+      "end": 743.18,
+      "text": "And so that really was what kind of helped catapult me."
+    },
+    {
+      "start": 743.18,
+      "end": 752.0,
+      "text": "And I think about even just like doing music and telling these stories and talking about these people's stories go untold and whose voices go unheard."
+    },
+    {
+      "start": 752.0,
+      "end": 757.64,
+      "text": "And there are, there are people in Oklahoma city that have no idea that these kinds of things happen."
+    },
+    {
+      "start": 757.64,
+      "end": 758.44,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 758.6,
+      "end": 760.3,
+      "text": "I have those conversations all the time."
+    },
+    {
+      "start": 760.38,
+      "end": 763.38,
+      "text": "It's like, they're like, we got a gun violence issue in Oklahoma city."
+    },
+    {
+      "start": 763.5,
+      "end": 763.96,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 763.96,
+      "end": 767.22,
+      "text": "So, so I started live free Oklahoma."
+    },
+    {
+      "start": 767.4,
+      "end": 776.26,
+      "text": "We originally were live free OKC and made the choice to, to rebrand and relaunch as a live free Oklahoma."
+    },
+    {
+      "start": 776.26,
+      "end": 780.42,
+      "text": "And it's definitely, I've learned a lot since then."
+    },
+    {
+      "start": 780.6,
+      "end": 783.94,
+      "text": "I went to university of Chicago leadership Academy."
+    },
+    {
+      "start": 784.22,
+      "end": 799.82,
+      "text": "And so I did five months there, graduated and, you know, really have a better understanding of what real CVI work is and governance and nonprofits and all that."
+    },
+    {
+      "start": 799.82,
+      "end": 807.0,
+      "text": "Because those that I didn't, I didn't understand, I got taken advantage of, I understand the work a whole lot more and I'm educated."
+    },
+    {
+      "start": 807.26,
+      "end": 811.62,
+      "text": "There isn't anybody in the city that knows CVI better than me."
+    },
+    {
+      "start": 811.68,
+      "end": 821.14,
+      "text": "Now, I feel like I'm way more knowledgeable and live free Oklahoma as we're partnering with groups in Lawton, groups in Tulsa, Muskogee, Bolley, prisons."
+    },
+    {
+      "start": 821.14,
+      "end": 832.28,
+      "text": "And so really trying to, you know, do this, this work statewide and see a real reduction in violence, you know, and it's, it's, it's going to be a uphill climb."
+    },
+    {
+      "start": 832.4,
+      "end": 836.38,
+      "text": "You know, we don't have, you know, the funding and all that that we, that we once did."
+    },
+    {
+      "start": 836.48,
+      "end": 847.38,
+      "text": "And so we're, you know, we're trying to, to get there, but, you know, we have, I have a great team, great, you know, group of volunteers that, you know, are with me all the time."
+    },
+    {
+      "start": 847.38,
+      "end": 856.82,
+      "text": "I'm a great, a great advisory committee, you know, and then, you know, I overseen by the national organization now."
+    },
+    {
+      "start": 856.98,
+      "end": 857.32,
+      "text": "Oh, okay."
+    },
+    {
+      "start": 857.44,
+      "end": 858.78,
+      "text": "And, you know."
+    },
+    {
+      "start": 858.9,
+      "end": 859.82,
+      "text": "It's nice to have that covering."
+    },
+    {
+      "start": 859.86,
+      "end": 860.22,
+      "text": "Yeah."
+    },
+    {
+      "start": 860.3,
+      "end": 863.1,
+      "text": "And I'm governed by the national board, you know what I'm saying?"
+    },
+    {
+      "start": 863.32,
+      "end": 867.56,
+      "text": "So, so there's no way for me to, to, to mess up, you know."
+    },
+    {
+      "start": 867.72,
+      "end": 868.16,
+      "text": "Yeah, that's good, man."
+    },
+    {
+      "start": 868.36,
+      "end": 869.4,
+      "text": "Let's say bulletproof, man."
+    },
+    {
+      "start": 869.4,
+      "end": 869.68,
+      "text": "Yeah."
+    },
+    {
+      "start": 869.92,
+      "end": 870.62,
+      "text": "That's good for sure."
+    },
+    {
+      "start": 870.72,
+      "end": 871.86,
+      "text": "I want to hear what that looks like."
+    },
+    {
+      "start": 871.86,
+      "end": 880.34,
+      "text": "So there wasn't a shooting, but kids and these two kids that got into their school, they were on social media going back and forth."
+    },
+    {
+      "start": 880.64,
+      "end": 882.2,
+      "text": "Somebody at the school reached out."
+    },
+    {
+      "start": 882.68,
+      "end": 886.72,
+      "text": "I got a hold of the, the mom of one kid and the dad of the other kid."
+    },
+    {
+      "start": 886.8,
+      "end": 893.04,
+      "text": "Now, one of the kids game bang and, you know, you know, I kind of, I checked, I checked on who he was."
+    },
+    {
+      "start": 893.2,
+      "end": 895.54,
+      "text": "He was, he was who he said he was."
+    },
+    {
+      "start": 895.72,
+      "end": 896.14,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 896.88,
+      "end": 899.52,
+      "text": "And the other kid, you know, he wasn't like that."
+    },
+    {
+      "start": 899.64,
+      "end": 900.14,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 900.14,
+      "end": 902.84,
+      "text": "And so, yeah."
+    },
+    {
+      "start": 903.16,
+      "end": 905.3,
+      "text": "And, and it could be serious, you know?"
+    },
+    {
+      "start": 905.78,
+      "end": 913.46,
+      "text": "And so I had a meeting with the mom of the kid who was in the streets and, and then I had a meeting with the other kid and his dad."
+    },
+    {
+      "start": 914.58,
+      "end": 917.78,
+      "text": "And basically it was just a misunderstanding."
+    },
+    {
+      "start": 918.32,
+      "end": 919.72,
+      "text": "And that was it."
+    },
+    {
+      "start": 919.82,
+      "end": 928.22,
+      "text": "Once we figured out it was a misunderstanding, they agreed that, you know, and I told the other kid, I said, listen, man, he, this kid don't want to smoke with you for real."
+    },
+    {
+      "start": 928.22,
+      "end": 928.72,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 928.82,
+      "end": 936.76,
+      "text": "But what happened was the kid who, who game bang kind of got, you know, got, got lit up by the other kid."
+    },
+    {
+      "start": 936.88,
+      "end": 937.46,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 937.62,
+      "end": 938.22,
+      "text": "So, so."
+    },
+    {
+      "start": 938.22,
+      "end": 939.02,
+      "text": "He got a tongue on him."
+    },
+    {
+      "start": 939.02,
+      "end": 939.32,
+      "text": "Yeah."
+    },
+    {
+      "start": 939.4,
+      "end": 941.24,
+      "text": "So he got a, he got a, he got a, you know what I'm saying?"
+    },
+    {
+      "start": 941.26,
+      "end": 942.88,
+      "text": "He got a left, let his hood know."
+    },
+    {
+      "start": 943.08,
+      "end": 943.76,
+      "text": "He ain't, you know what I'm saying?"
+    },
+    {
+      "start": 943.86,
+      "end": 944.18,
+      "text": "Sure, yeah."
+    },
+    {
+      "start": 944.18,
+      "end": 947.94,
+      "text": "And so, but I was like, he really don't want, he really didn't want to smoke with you for real."
+    },
+    {
+      "start": 948.06,
+      "end": 948.52,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 949.04,
+      "end": 949.76,
+      "text": "And so."
+    },
+    {
+      "start": 950.46,
+      "end": 953.76,
+      "text": "But no, those kids are not going to hear that from just anybody."
+    },
+    {
+      "start": 953.9,
+      "end": 954.16,
+      "text": "Right."
+    },
+    {
+      "start": 954.28,
+      "end": 958.44,
+      "text": "And, you know, and, you know, the parents ain't trying to hear that from just anybody."
+    },
+    {
+      "start": 958.58,
+      "end": 959.04,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 959.12,
+      "end": 959.72,
+      "text": "Nobody is."
+    },
+    {
+      "start": 959.72,
+      "end": 963.9,
+      "text": "And so, you know, we, they were able to squash it."
+    },
+    {
+      "start": 964.78,
+      "end": 968.9,
+      "text": "And, you know, I check on them every now and then to make sure, you know, ain't no smoke."
+    },
+    {
+      "start": 968.96,
+      "end": 969.72,
+      "text": "They doing good."
+    },
+    {
+      "start": 970.04,
+      "end": 970.22,
+      "text": "Yeah."
+    },
+    {
+      "start": 970.28,
+      "end": 978.3,
+      "text": "A girl was at a club, got into it with a dude and her family is with all that."
+    },
+    {
+      "start": 978.38,
+      "end": 979.14,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 979.24,
+      "end": 980.84,
+      "text": "They are all riding down to."
+    },
+    {
+      "start": 980.98,
+      "end": 981.3,
+      "text": "Yeah."
+    },
+    {
+      "start": 981.48,
+      "end": 986.08,
+      "text": "And so, and so, but all it was because the dude stepped to a girl."
+    },
+    {
+      "start": 986.22,
+      "end": 986.76,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 986.76,
+      "end": 991.22,
+      "text": "And so, you know, I talked to him and I apologized to her if I need to."
+    },
+    {
+      "start": 991.48,
+      "end": 992.28,
+      "text": "Isn't that crazy, man?"
+    },
+    {
+      "start": 992.28,
+      "end": 992.48,
+      "text": "Yeah."
+    },
+    {
+      "start": 992.56,
+      "end": 993.98,
+      "text": "It's a little bit of communication."
+    },
+    {
+      "start": 994.44,
+      "end": 996.04,
+      "text": "A bullet flies through the air."
+    },
+    {
+      "start": 996.52,
+      "end": 996.92,
+      "text": "Yeah."
+    },
+    {
+      "start": 996.92,
+      "end": 997.5,
+      "text": "It's done."
+    },
+    {
+      "start": 997.74,
+      "end": 1000.16,
+      "text": "And her family was ready to, you know what I'm saying?"
+    },
+    {
+      "start": 1000.26,
+      "end": 1000.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 1000.5,
+      "end": 1002.16,
+      "text": "Because she's not going to do myself like that."
+    },
+    {
+      "start": 1002.28,
+      "end": 1002.56,
+      "text": "You know what I mean?"
+    },
+    {
+      "start": 1002.56,
+      "end": 1003.3,
+      "text": "I already know."
+    },
+    {
+      "start": 1003.5,
+      "end": 1006.56,
+      "text": "I mean, it's crazy what people get killed over, man."
+    },
+    {
+      "start": 1006.56,
+      "end": 1006.84,
+      "text": "Yeah."
+    },
+    {
+      "start": 1007.06,
+      "end": 1008.52,
+      "text": "It's crazy stuff, man."
+    },
+    {
+      "start": 1008.74,
+      "end": 1009.46,
+      "text": "Stepping on people."
+    },
+    {
+      "start": 1009.64,
+      "end": 1013.2,
+      "text": "I've seen some people get lit up for stepping on someone's shoes."
+    },
+    {
+      "start": 1013.58,
+      "end": 1013.6,
+      "text": "Yeah."
+    },
+    {
+      "start": 1013.6,
+      "end": 1014.2,
+      "text": "All that."
+    },
+    {
+      "start": 1014.28,
+      "end": 1014.68,
+      "text": "It's crazy."
+    },
+    {
+      "start": 1014.68,
+      "end": 1015.92,
+      "text": "That's what, that's what happened."
+    },
+    {
+      "start": 1015.92,
+      "end": 1021.48,
+      "text": "I think it was a year or two ago at a, at a party, dude got his shoes, stepped on and"
+    },
+    {
+      "start": 1021.48,
+      "end": 1022.4,
+      "text": "he got hit with the chair."
+    },
+    {
+      "start": 1022.52,
+      "end": 1023.12,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1023.24,
+      "end": 1024.0,
+      "text": "And ended up dying."
+    },
+    {
+      "start": 1024.16,
+      "end": 1024.62,
+      "text": "You know what I mean?"
+    },
+    {
+      "start": 1024.92,
+      "end": 1025.16,
+      "text": "That's crazy."
+    },
+    {
+      "start": 1025.16,
+      "end": 1027.06,
+      "text": "So, so yeah."
+    },
+    {
+      "start": 1028.24,
+      "end": 1030.82,
+      "text": "But the fact that what you guys do, man, that's crazy."
+    },
+    {
+      "start": 1030.88,
+      "end": 1032.04,
+      "text": "You know, think about that."
+    },
+    {
+      "start": 1032.14,
+      "end": 1033.3,
+      "text": "I mean, how old were those kids?"
+    },
+    {
+      "start": 1034.56,
+      "end": 1037.18,
+      "text": "Those kids were like 16, 15."
+    },
+    {
+      "start": 1037.86,
+      "end": 1040.56,
+      "text": "The, the, the, the girl at the club and all that, they was adults."
+    },
+    {
+      "start": 1040.66,
+      "end": 1041.2,
+      "text": "They was grown."
+    },
+    {
+      "start": 1041.34,
+      "end": 1044.16,
+      "text": "But those kids, man, that's life that would have been snuffed out."
+    },
+    {
+      "start": 1044.16,
+      "end": 1045.72,
+      "text": "I mean, I'm telling you right now that would have happened."
+    },
+    {
+      "start": 1045.84,
+      "end": 1046.66,
+      "text": "Yeah, for sure."
+    },
+    {
+      "start": 1046.82,
+      "end": 1050.08,
+      "text": "If not that day or next day, it eventually would have happened."
+    },
+    {
+      "start": 1050.08,
+      "end": 1050.28,
+      "text": "Yeah."
+    },
+    {
+      "start": 1050.28,
+      "end": 1051.22,
+      "text": "I just know how it works."
+    },
+    {
+      "start": 1051.36,
+      "end": 1053.7,
+      "text": "And the kid who was in the streets who, you know what I'm saying?"
+    },
+    {
+      "start": 1053.78,
+      "end": 1056.74,
+      "text": "Like, you know, he done been caught with pistols and stuff before."
+    },
+    {
+      "start": 1056.84,
+      "end": 1060.46,
+      "text": "So he, you know, he, but when he at school, he don't got his pistol on him."
+    },
+    {
+      "start": 1060.5,
+      "end": 1063.02,
+      "text": "And the dude ended up, you know, running up on him the right way."
+    },
+    {
+      "start": 1063.08,
+      "end": 1063.32,
+      "text": "Yeah."
+    },
+    {
+      "start": 1063.84,
+      "end": 1064.74,
+      "text": "But, you know what I'm saying?"
+    },
+    {
+      "start": 1064.82,
+      "end": 1066.46,
+      "text": "He just, he just, you know, got him."
+    },
+    {
+      "start": 1066.56,
+      "end": 1066.82,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1066.82,
+      "end": 1067.46,
+      "text": "He got with him."
+    },
+    {
+      "start": 1067.82,
+      "end": 1072.12,
+      "text": "And so the kid who, who in the streets, he, you know, he was prepared to."
+    },
+    {
+      "start": 1072.12,
+      "end": 1074.06,
+      "text": "Like, all right, now I got to take, take this where I know it needs to go."
+    },
+    {
+      "start": 1074.06,
+      "end": 1074.16,
+      "text": "Yeah."
+    },
+    {
+      "start": 1074.16,
+      "end": 1074.68,
+      "text": "To the next level."
+    },
+    {
+      "start": 1074.7,
+      "end": 1074.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 1074.96,
+      "end": 1075.96,
+      "text": "Which he was about to do."
+    },
+    {
+      "start": 1076.06,
+      "end": 1076.56,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1076.72,
+      "end": 1076.92,
+      "text": "So."
+    },
+    {
+      "start": 1077.22,
+      "end": 1077.66,
+      "text": "Yeah, man."
+    },
+    {
+      "start": 1077.68,
+      "end": 1080.82,
+      "text": "So that's what, you know, in it, and you know, every situation you obviously know ain't"
+    },
+    {
+      "start": 1080.82,
+      "end": 1083.86,
+      "text": "the same, but, but that's what it is."
+    },
+    {
+      "start": 1083.86,
+      "end": 1088.56,
+      "text": "And then sometimes once you, sometimes it's like, well, what can I, what can I do for you?"
+    },
+    {
+      "start": 1088.62,
+      "end": 1089.28,
+      "text": "What do you need?"
+    },
+    {
+      "start": 1089.44,
+      "end": 1094.14,
+      "text": "We had one situation where a kid got shot and mom, I'm going to find him."
+    },
+    {
+      "start": 1094.28,
+      "end": 1094.66,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1094.68,
+      "end": 1095.88,
+      "text": "Y'all don't find him before I do."
+    },
+    {
+      "start": 1095.88,
+      "end": 1096.3,
+      "text": "I've seen him."
+    },
+    {
+      "start": 1096.3,
+      "end": 1096.94,
+      "text": "I've heard that too."
+    },
+    {
+      "start": 1096.94,
+      "end": 1097.52,
+      "text": "I've seen that."
+    },
+    {
+      "start": 1097.82,
+      "end": 1098.98,
+      "text": "He done shot my baby."
+    },
+    {
+      "start": 1099.48,
+      "end": 1101.64,
+      "text": "And then we realized, man, it's hot in this house."
+    },
+    {
+      "start": 1101.72,
+      "end": 1102.16,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1102.24,
+      "end": 1106.34,
+      "text": "She's like, well, when he shot my son, he put a hole in our AC unit."
+    },
+    {
+      "start": 1106.8,
+      "end": 1107.3,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1107.3,
+      "end": 1110.68,
+      "text": "Well, we like, well, if we get the AC fixed for you."
+    },
+    {
+      "start": 1110.84,
+      "end": 1111.04,
+      "text": "Yeah."
+    },
+    {
+      "start": 1111.16,
+      "end": 1111.7,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1111.8,
+      "end": 1112.44,
+      "text": "Would you agree?"
+    },
+    {
+      "start": 1112.86,
+      "end": 1113.24,
+      "text": "I love it."
+    },
+    {
+      "start": 1113.24,
+      "end": 1113.84,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1113.98,
+      "end": 1114.2,
+      "text": "Yeah."
+    },
+    {
+      "start": 1114.34,
+      "end": 1114.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 1114.5,
+      "end": 1116.02,
+      "text": "So sometimes it looks like that."
+    },
+    {
+      "start": 1116.12,
+      "end": 1116.68,
+      "text": "You know what I mean?"
+    },
+    {
+      "start": 1116.68,
+      "end": 1119.7,
+      "text": "And not everybody can understand that."
+    },
+    {
+      "start": 1119.84,
+      "end": 1120.02,
+      "text": "Yeah."
+    },
+    {
+      "start": 1120.16,
+      "end": 1120.66,
+      "text": "For real."
+    },
+    {
+      "start": 1120.68,
+      "end": 1123.36,
+      "text": "Not everybody can see that, oh, here's a tangible need right here."
+    },
+    {
+      "start": 1123.4,
+      "end": 1123.54,
+      "text": "Right."
+    },
+    {
+      "start": 1123.6,
+      "end": 1123.92,
+      "text": "Because she."
+    },
+    {
+      "start": 1123.98,
+      "end": 1124.74,
+      "text": "It seems ridiculous."
+    },
+    {
+      "start": 1124.74,
+      "end": 1125.04,
+      "text": "Yeah."
+    },
+    {
+      "start": 1125.04,
+      "end": 1127.24,
+      "text": "Because it was a gunshot in this person's house."
+    },
+    {
+      "start": 1127.36,
+      "end": 1128.06,
+      "text": "But it's real."
+    },
+    {
+      "start": 1128.3,
+      "end": 1131.48,
+      "text": "And every time she's sitting in that house hot, she's more mad."
+    },
+    {
+      "start": 1131.8,
+      "end": 1133.14,
+      "text": "Gun violence goes up in the summertime."
+    },
+    {
+      "start": 1133.14,
+      "end": 1133.36,
+      "text": "Yeah."
+    },
+    {
+      "start": 1133.36,
+      "end": 1136.02,
+      "text": "She looking at her son on crutches and sitting in that hot house."
+    },
+    {
+      "start": 1136.16,
+      "end": 1136.38,
+      "text": "Yeah."
+    },
+    {
+      "start": 1136.58,
+      "end": 1137.0,
+      "text": "The more."
+    },
+    {
+      "start": 1137.22,
+      "end": 1137.5,
+      "text": "I'm getting them."
+    },
+    {
+      "start": 1137.52,
+      "end": 1141.1,
+      "text": "Every drop of sweat they drop, it's probably her getting more and more mad."
+    },
+    {
+      "start": 1141.26,
+      "end": 1141.78,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1141.96,
+      "end": 1142.92,
+      "text": "That makes sense, man."
+    },
+    {
+      "start": 1142.92,
+      "end": 1143.34,
+      "text": "But that's."
+    },
+    {
+      "start": 1143.34,
+      "end": 1144.14,
+      "text": "So we got her AC fixed."
+    },
+    {
+      "start": 1144.2,
+      "end": 1144.4,
+      "text": "Yeah."
+    },
+    {
+      "start": 1144.62,
+      "end": 1145.5,
+      "text": "That's crazy, man."
+    },
+    {
+      "start": 1145.5,
+      "end": 1147.3,
+      "text": "Those creative ways of doing that."
+    },
+    {
+      "start": 1147.38,
+      "end": 1149.84,
+      "text": "But think about the lives that were saved, man."
+    },
+    {
+      "start": 1149.86,
+      "end": 1150.98,
+      "text": "Just in those two incidents."
+    },
+    {
+      "start": 1151.16,
+      "end": 1152.54,
+      "text": "I know that lives were saved."
+    },
+    {
+      "start": 1152.72,
+      "end": 1152.78,
+      "text": "Yeah."
+    },
+    {
+      "start": 1153.28,
+      "end": 1156.68,
+      "text": "That's a really crazy big deal to think about, man."
+    },
+    {
+      "start": 1157.0,
+      "end": 1158.94,
+      "text": "And so that's why I know the work's so important."
+    },
+    {
+      "start": 1158.94,
+      "end": 1161.42,
+      "text": "Because if we can communicate and talk and intervene."
+    },
+    {
+      "start": 1161.86,
+      "end": 1165.28,
+      "text": "I mean, you're talking about intervening with 15-year-old students, too."
+    },
+    {
+      "start": 1166.3,
+      "end": 1169.96,
+      "text": "That kind of intervention saves more than a community."
+    },
+    {
+      "start": 1170.08,
+      "end": 1170.84,
+      "text": "It saves a legacy."
+    },
+    {
+      "start": 1170.84,
+      "end": 1171.98,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1172.74,
+      "end": 1173.86,
+      "text": "And, man, that's a big deal."
+    },
+    {
+      "start": 1173.86,
+      "end": 1179.42,
+      "text": "And just as a person who's been impacted by young violence myself, that means a lot, man."
+    },
+    {
+      "start": 1179.42,
+      "end": 1179.62,
+      "text": "Yeah."
+    },
+    {
+      "start": 1179.74,
+      "end": 1180.42,
+      "text": "That's crazy cool."
+    },
+    {
+      "start": 1180.5,
+      "end": 1181.44,
+      "text": "Well, I appreciate what you're doing."
+    },
+    {
+      "start": 1181.46,
+      "end": 1182.88,
+      "text": "And you have peacemakers that do this."
+    },
+    {
+      "start": 1183.02,
+      "end": 1183.14,
+      "text": "Yeah."
+    },
+    {
+      "start": 1183.42,
+      "end": 1185.42,
+      "text": "You'll basically deploy them when you get a call."
+    },
+    {
+      "start": 1185.54,
+      "end": 1185.8,
+      "text": "Yeah."
+    },
+    {
+      "start": 1186.04,
+      "end": 1186.88,
+      "text": "And sometimes you're that."
+    },
+    {
+      "start": 1187.06,
+      "end": 1188.48,
+      "text": "You operate a peacemaker, too."
+    },
+    {
+      "start": 1188.62,
+      "end": 1189.86,
+      "text": "So that's really cool."
+    },
+    {
+      "start": 1190.2,
+      "end": 1192.0,
+      "text": "What's the website really quick so we can go to?"
+    },
+    {
+      "start": 1192.12,
+      "end": 1193.86,
+      "text": "It's livefreeoklahoma.com."
+    },
+    {
+      "start": 1193.94,
+      "end": 1195.14,
+      "text": "Let's hear about With Love, man."
+    },
+    {
+      "start": 1195.26,
+      "end": 1196.5,
+      "text": "I want to hear about what you guys do there."
+    },
+    {
+      "start": 1196.82,
+      "end": 1199.2,
+      "text": "Because I want a mural secretly."
+    },
+    {
+      "start": 1199.36,
+      "end": 1199.76,
+      "text": "I don't know if."
+    },
+    {
+      "start": 1199.84,
+      "end": 1200.48,
+      "text": "We got you, bro."
+    },
+    {
+      "start": 1200.48,
+      "end": 1200.86,
+      "text": "All right."
+    },
+    {
+      "start": 1200.86,
+      "end": 1202.96,
+      "text": "You know we did Marcus Millwood."
+    },
+    {
+      "start": 1202.96,
+      "end": 1203.54,
+      "text": "I saw it."
+    },
+    {
+      "start": 1203.58,
+      "end": 1203.74,
+      "text": "Yeah."
+    },
+    {
+      "start": 1203.84,
+      "end": 1204.86,
+      "text": "I was jealous, man."
+    },
+    {
+      "start": 1204.86,
+      "end": 1205.6,
+      "text": "It looks good, man."
+    },
+    {
+      "start": 1205.64,
+      "end": 1205.94,
+      "text": "It looks really good."
+    },
+    {
+      "start": 1205.94,
+      "end": 1206.08,
+      "text": "Yeah."
+    },
+    {
+      "start": 1206.08,
+      "end": 1206.6,
+      "text": "We got you."
+    },
+    {
+      "start": 1207.0,
+      "end": 1211.76,
+      "text": "So, you know, With Love, we have Marcus's at Urban Bridge."
+    },
+    {
+      "start": 1211.94,
+      "end": 1213.1,
+      "text": "We have Millwood."
+    },
+    {
+      "start": 1213.32,
+      "end": 1215.28,
+      "text": "We have Boys and Girls Club."
+    },
+    {
+      "start": 1215.76,
+      "end": 1216.12,
+      "text": "Homeland."
+    },
+    {
+      "start": 1216.84,
+      "end": 1217.1,
+      "text": "Yeah."
+    },
+    {
+      "start": 1217.22,
+      "end": 1217.92,
+      "text": "Tony Thunder."
+    },
+    {
+      "start": 1218.8,
+      "end": 1219.62,
+      "text": "Carlos Natalie."
+    },
+    {
+      "start": 1220.12,
+      "end": 1221.04,
+      "text": "Dusty Gilpin."
+    },
+    {
+      "start": 1221.74,
+      "end": 1222.6,
+      "text": "Jesse Warren."
+    },
+    {
+      "start": 1223.36,
+      "end": 1223.96,
+      "text": "I love it, man."
+    },
+    {
+      "start": 1224.16,
+      "end": 1226.58,
+      "text": "You guys were able to honor his mom, Bishop Eilinda."
+    },
+    {
+      "start": 1226.58,
+      "end": 1228.32,
+      "text": "She was a big impact in my life, too."
+    },
+    {
+      "start": 1228.32,
+      "end": 1228.52,
+      "text": "Sure."
+    },
+    {
+      "start": 1228.52,
+      "end": 1228.94,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1229.28,
+      "end": 1230.96,
+      "text": "She's been an impact in my life, man."
+    },
+    {
+      "start": 1230.96,
+      "end": 1232.88,
+      "text": "She spoke a word over me one time."
+    },
+    {
+      "start": 1233.06,
+      "end": 1236.94,
+      "text": "I went to church with Marcus one weekend, and she spoke a word over me, man."
+    },
+    {
+      "start": 1236.96,
+      "end": 1238.2,
+      "text": "That made me just dizzy."
+    },
+    {
+      "start": 1238.46,
+      "end": 1238.56,
+      "text": "Yeah."
+    },
+    {
+      "start": 1238.92,
+      "end": 1239.64,
+      "text": "I couldn't believe it."
+    },
+    {
+      "start": 1239.66,
+      "end": 1240.72,
+      "text": "But, yeah, she's a powerhouse."
+    },
+    {
+      "start": 1240.8,
+      "end": 1242.58,
+      "text": "Well, she did to me, too."
+    },
+    {
+      "start": 1242.72,
+      "end": 1247.58,
+      "text": "I went and visited the church, and I was at the back just chilling, like trying to be in the cut."
+    },
+    {
+      "start": 1247.58,
+      "end": 1252.98,
+      "text": "And, of course, she called me out and came and prayed for me and, like, really was prophetic."
+    },
+    {
+      "start": 1253.78,
+      "end": 1260.36,
+      "text": "And I feel like the things that she said, I took the other way."
+    },
+    {
+      "start": 1260.52,
+      "end": 1275.72,
+      "text": "Like, I was like, you know, because of where I was in that part of my life, I was taking it like a kind of like a not a good thing, but, like, not as serious because I felt like things were good."
+    },
+    {
+      "start": 1275.72,
+      "end": 1280.48,
+      "text": "But she was prophetic and telling me to, like, watch out and, you know what I'm saying, be careful."
+    },
+    {
+      "start": 1281.04,
+      "end": 1284.98,
+      "text": "And, you know, people say that all the time."
+    },
+    {
+      "start": 1285.16,
+      "end": 1292.56,
+      "text": "But now, like, I wish I had to, like, really, like, you know, dug in a little bit deeper that day to what she was saying."
+    },
+    {
+      "start": 1292.66,
+      "end": 1294.78,
+      "text": "But I definitely received it, you know."
+    },
+    {
+      "start": 1294.84,
+      "end": 1296.16,
+      "text": "And, like I said, it was prophetic."
+    },
+    {
+      "start": 1296.62,
+      "end": 1300.3,
+      "text": "And like she said, you know, I come out of it, and I did."
+    },
+    {
+      "start": 1300.44,
+      "end": 1300.98,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1301.78,
+      "end": 1303.4,
+      "text": "Yeah, she did that."
+    },
+    {
+      "start": 1303.4,
+      "end": 1307.16,
+      "text": "I went, and I'd never met her before at all."
+    },
+    {
+      "start": 1307.24,
+      "end": 1308.36,
+      "text": "She didn't know anything about me."
+    },
+    {
+      "start": 1308.88,
+      "end": 1311.54,
+      "text": "Well, at least I didn't know what the scenario was."
+    },
+    {
+      "start": 1311.6,
+      "end": 1318.42,
+      "text": "But she did this to me towards the end, I guess, of the service whenever I think the offering was finished."
+    },
+    {
+      "start": 1318.6,
+      "end": 1320.56,
+      "text": "And she just stops and looks at me."
+    },
+    {
+      "start": 1320.96,
+      "end": 1321.94,
+      "text": "I got a word for you."
+    },
+    {
+      "start": 1322.0,
+      "end": 1322.36,
+      "text": "Come up here."
+    },
+    {
+      "start": 1322.38,
+      "end": 1323.68,
+      "text": "I was like, yes, ma'am."
+    },
+    {
+      "start": 1323.78,
+      "end": 1325.32,
+      "text": "I get up there, and she gave this word."
+    },
+    {
+      "start": 1325.32,
+      "end": 1334.26,
+      "text": "And it was, man, I'm talking spot on with everything that we were trying to get done with city center stuff and the future that we had been hoping for."
+    },
+    {
+      "start": 1334.98,
+      "end": 1336.2,
+      "text": "And Marcus looked at me."
+    },
+    {
+      "start": 1336.28,
+      "end": 1338.34,
+      "text": "He goes, I didn't even tell her nothing, Jen."
+    },
+    {
+      "start": 1338.4,
+      "end": 1339.18,
+      "text": "I promise, man."
+    },
+    {
+      "start": 1339.48,
+      "end": 1342.5,
+      "text": "And so, and then Lynn was there, too."
+    },
+    {
+      "start": 1342.54,
+      "end": 1343.84,
+      "text": "And she said, I didn't tell you anything either."
+    },
+    {
+      "start": 1343.84,
+      "end": 1351.34,
+      "text": "So it was really amazing because, you know, in those moments, I've seen people manipulate that kind of stuff in my past."
+    },
+    {
+      "start": 1351.6,
+      "end": 1356.44,
+      "text": "But that did not feel like that at all with Bishop, with Miss Alinda."
+    },
+    {
+      "start": 1356.58,
+      "end": 1358.2,
+      "text": "Man, she is incredible."
+    },
+    {
+      "start": 1358.54,
+      "end": 1359.96,
+      "text": "It was definitely real, you know."
+    },
+    {
+      "start": 1360.06,
+      "end": 1360.26,
+      "text": "Yeah."
+    },
+    {
+      "start": 1360.26,
+      "end": 1361.64,
+      "text": "And I've seen that, too."
+    },
+    {
+      "start": 1362.1,
+      "end": 1363.62,
+      "text": "But, no, it was definitely legit."
+    },
+    {
+      "start": 1363.76,
+      "end": 1374.38,
+      "text": "And like I said, everything that, you know, she spoke over me, you know, because what she said was, you know, I was going to come out of it and be better."
+    },
+    {
+      "start": 1374.56,
+      "end": 1376.58,
+      "text": "But I was coming out of something else already."
+    },
+    {
+      "start": 1376.88,
+      "end": 1378.48,
+      "text": "So I was thinking it was that."
+    },
+    {
+      "start": 1378.6,
+      "end": 1380.42,
+      "text": "I didn't realize it was going to be something else."
+    },
+    {
+      "start": 1380.54,
+      "end": 1381.08,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1381.28,
+      "end": 1381.48,
+      "text": "Yeah."
+    },
+    {
+      "start": 1381.76,
+      "end": 1382.08,
+      "text": "So."
+    },
+    {
+      "start": 1382.42,
+      "end": 1383.22,
+      "text": "Well, that's cool."
+    },
+    {
+      "start": 1383.28,
+      "end": 1383.42,
+      "text": "Yeah."
+    },
+    {
+      "start": 1383.46,
+      "end": 1386.42,
+      "text": "So she definitely deserves that honor to be on the mural, man."
+    },
+    {
+      "start": 1386.52,
+      "end": 1389.28,
+      "text": "And especially with Marcus's building, you know, that's just a bit."
+    },
+    {
+      "start": 1389.28,
+      "end": 1390.24,
+      "text": "And that was her old spot, too."
+    },
+    {
+      "start": 1390.54,
+      "end": 1390.94,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1390.94,
+      "end": 1394.02,
+      "text": "Well, and I even know the history of that spot from way back in the day."
+    },
+    {
+      "start": 1394.12,
+      "end": 1396.06,
+      "text": "It used to be something totally different."
+    },
+    {
+      "start": 1396.36,
+      "end": 1396.34,
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "start": 1396.34,
+      "end": 1396.66,
+      "text": "No doubt."
+    },
+    {
+      "start": 1396.74,
+      "end": 1397.0,
+      "text": "No doubt."
+    },
+    {
+      "start": 1397.02,
+      "end": 1398.72,
+      "text": "A little hopping, little joint, you know."
+    },
+    {
+      "start": 1398.82,
+      "end": 1399.0,
+      "text": "So."
+    },
+    {
+      "start": 1399.52,
+      "end": 1403.88,
+      "text": "But it's cool that it's being used for that now and that the whole family is being honored in that way."
+    },
+    {
+      "start": 1403.94,
+      "end": 1404.8,
+      "text": "It's pretty neat."
+    },
+    {
+      "start": 1404.9,
+      "end": 1405.6,
+      "text": "So With Love."
+    },
+    {
+      "start": 1405.6,
+      "end": 1407.14,
+      "text": "I want to definitely check that out."
+    },
+    {
+      "start": 1407.16,
+      "end": 1408.02,
+      "text": "What's the website for that?"
+    },
+    {
+      "start": 1409.06,
+      "end": 1409.98,
+      "text": "Withloveokc.org."
+    },
+    {
+      "start": 1410.02,
+      "end": 1410.24,
+      "text": "Okay."
+    },
+    {
+      "start": 1410.86,
+      "end": 1411.18,
+      "text": "Awesome."
+    },
+    {
+      "start": 1411.32,
+      "end": 1412.66,
+      "text": "Well, hopefully we can talk, man."
+    },
+    {
+      "start": 1412.66,
+      "end": 1413.44,
+      "text": "I'd love to see a mural."
+    },
+    {
+      "start": 1413.72,
+      "end": 1413.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 1413.9,
+      "end": 1414.36,
+      "text": "Let's do it."
+    },
+    {
+      "start": 1414.42,
+      "end": 1414.62,
+      "text": "Yeah."
+    },
+    {
+      "start": 1414.62,
+      "end": 1415.42,
+      "text": "We'll do it for sure."
+    },
+    {
+      "start": 1415.42,
+      "end": 1417.26,
+      "text": "But, man, JB, I really appreciate you, man."
+    },
+    {
+      "start": 1417.3,
+      "end": 1419.54,
+      "text": "Before we close, we talk about hope here a lot."
+    },
+    {
+      "start": 1420.26,
+      "end": 1424.74,
+      "text": "One thing that you are hopeful about for our city and for its future."
+    },
+    {
+      "start": 1424.9,
+      "end": 1426.16,
+      "text": "I have a song called Hope."
+    },
+    {
+      "start": 1426.76,
+      "end": 1426.98,
+      "text": "Okay."
+    },
+    {
+      "start": 1427.88,
+      "end": 1434.48,
+      "text": "And, you know, when I perform this song, I always talk about, before I perform it, I always say, you know,"
+    },
+    {
+      "start": 1436.0,
+      "end": 1444.0,
+      "text": "a kid growing up, as a kid growing up with nothing, you know, it's crazy, like, how much hope I had."
+    },
+    {
+      "start": 1444.18,
+      "end": 1444.72,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1444.72,
+      "end": 1450.02,
+      "text": "Like, I still had hope for tomorrow, for something better, for the future, you know?"
+    },
+    {
+      "start": 1450.68,
+      "end": 1462.0,
+      "text": "And so, you know, when I think about our city, like, you know, especially, you know, with everything that we're dealing with, everything that's going on,"
+    },
+    {
+      "start": 1462.04,
+      "end": 1464.54,
+      "text": "we can talk about all the bad and stuff like that."
+    },
+    {
+      "start": 1464.54,
+      "end": 1474.88,
+      "text": "But, like, just like when I was a kid, you know, and that's one reason why I stay in Oklahoma is because I have so much hope for the other side."
+    },
+    {
+      "start": 1475.02,
+      "end": 1478.84,
+      "text": "I have so much hope for the promised land we're going to see one day in Oklahoma City."
+    },
+    {
+      "start": 1479.6,
+      "end": 1481.9,
+      "text": "And so that's what I'm hopeful for."
+    },
+    {
+      "start": 1481.9,
+      "end": 1493.7,
+      "text": "I'm just really hopeful for, you know, the, not, when I say the fruits, people always think about, like, you know, like money or, like, you know what I'm saying?"
+    },
+    {
+      "start": 1493.78,
+      "end": 1495.5,
+      "text": "We're going to get what we're owed."
+    },
+    {
+      "start": 1495.66,
+      "end": 1509.34,
+      "text": "But when I say, what I want to say is the work that we're doing, the people that we want this work to affect, I have hope that it's going to happen for them."
+    },
+    {
+      "start": 1509.34,
+      "end": 1510.5,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1510.82,
+      "end": 1515.52,
+      "text": "And that person will be a judge sitting here one day, and that person will be a judge."
+    },
+    {
+      "start": 1515.52,
+      "end": 1516.0,
+      "text": "That's good, man."
+    },
+    {
+      "start": 1516.0,
+      "end": 1516.84,
+      "text": "I'm on the same page."
+    },
+    {
+      "start": 1516.98,
+      "end": 1517.56,
+      "text": "I want to see that."
+    },
+    {
+      "start": 1517.64,
+      "end": 1521.48,
+      "text": "I want to see the CEO of City Center be one of these young people that came through here, man."
+    },
+    {
+      "start": 1521.54,
+      "end": 1522.46,
+      "text": "I believe it can happen, man."
+    },
+    {
+      "start": 1522.7,
+      "end": 1524.52,
+      "text": "Well, I'm going to hang on to that hope with you, man."
+    },
+    {
+      "start": 1524.56,
+      "end": 1528.08,
+      "text": "And I really appreciate you seeing a stronger, healthier community."
+    },
+    {
+      "start": 1528.58,
+      "end": 1530.2,
+      "text": "That's what we all want, I think, you know."
+    },
+    {
+      "start": 1530.34,
+      "end": 1536.56,
+      "text": "And I love that, man, we can just have conversations about stuff like this, be real, and figure it out together, man."
+    },
+    {
+      "start": 1536.56,
+      "end": 1539.82,
+      "text": "You know, it's our city, you know, and we're neighbors."
+    },
+    {
+      "start": 1540.02,
+      "end": 1540.8,
+      "text": "We're brothers, you know."
+    },
+    {
+      "start": 1540.94,
+      "end": 1547.74,
+      "text": "And so I like that we can move in that direction, and I like what Oklahoma City has in front of it, man."
+    },
+    {
+      "start": 1547.78,
+      "end": 1552.3,
+      "text": "I think we have, honestly, man, I think that flyover state stuff is getting ready to go away."
+    },
+    {
+      "start": 1552.56,
+      "end": 1552.78,
+      "text": "Oh, yeah."
+    },
+    {
+      "start": 1552.88,
+      "end": 1557.48,
+      "text": "It may have already gone away, but so much is happening here right now and so much more room to grow."
+    },
+    {
+      "start": 1557.66,
+      "end": 1559.44,
+      "text": "So thanks a lot, JB, for coming."
+    },
+    {
+      "start": 1559.58,
+      "end": 1560.94,
+      "text": "And thank you guys for watching, man."
+    },
+    {
+      "start": 1560.94,
+      "end": 1562.48,
+      "text": "We really appreciate you guys so much."
+    }
+  ]
+}

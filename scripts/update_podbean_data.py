@@ -3,7 +3,8 @@ import os
 import re
 import unicodedata
 from datetime import datetime, timezone
-from html import escape
+from email.utils import parsedate_to_datetime
+from html import escape, unescape
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlparse, urlsplit, urlunsplit
@@ -21,8 +22,31 @@ latest_path = Path("assets/data/latest-episode.json")
 episodes_path = Path("assets/data/episodes.json")
 episode_map_path = Path("assets/data/episode-map.json")
 sitemap_path = Path("sitemap.xml")
+archive_path = Path("episodes/index.html")
+transcripts_dir = Path("assets/data/transcripts")
+TRANSCRIPT_CORRECTIONS = {
+    "hope-in-hard-places-jabee-williams-on-okc-violence-and-hope": {
+        "JB Williams": "Jabee Williams",
+        "J.B. Williams": "Jabee Williams",
+    },
+    "community-through-conversation-mike-hearne-on-storytelling-in-oklahoma-city": {
+        "Mike Herne": "Mike Hearne",
+    },
+    "beyond-winning-bryan-fetzer-on-pressure-and-perspective-in-okc": {
+        "Brian Fetzer": "Bryan Fetzer",
+    },
+    "use-wisely-adam-coury-on-leadership-learning-and-the-next-generation": {
+        "Adam Corey": "Adam Coury",
+    },
+    "from-misnomer-to-mentorship-derrick-sier-on-rebuilding-identity-in-oklahoma-city": {
+        "Derek Seer": "Derrick Sier",
+    },
+    "growing-hope-in-oklahoma-brooke-freeman-on-farming-faith-and-community": {
+        "Brook Freeman": "Brooke Freeman",
+    },
+}
 latest_path.parent.mkdir(parents=True, exist_ok=True)
-PRESERVED_CONTENT_FIELDS = {
+PRESERVED_CONTENT_FIELDS = (
     "episode_number",
     "slug",
     "guest_name",
@@ -43,7 +67,7 @@ PRESERVED_CONTENT_FIELDS = {
     "sponsor_presented_by",
     "site_path",
     "site_url",
-}
+)
 
 SAFE_INLINE_TAGS = {"strong", "em", "b", "i", "br"}
 SAFE_BLOCK_TAGS = {"p", "ul", "ol", "li", "blockquote", "h2", "h3", "h4"}
@@ -266,7 +290,7 @@ def strip_html(value):
     parser = ShowNotesSanitizer()
     parser.feed(str(value or ""))
     text = re.sub(r"<[^>]+>", " ", parser.get_html())
-    return " ".join(text.split())
+    return " ".join(unescape(text).split())
 
 
 def truncate_text(value, limit=160):
@@ -274,6 +298,99 @@ def truncate_text(value, limit=160):
     if len(text) <= limit:
         return text
     return text[: limit - 1].rsplit(" ", 1)[0] + "…"
+
+
+def structured_data_markup(payload, element_id=""):
+    identifier = f' id="{escape(element_id, quote=True)}"' if element_id else ""
+    serialized = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    return f'<script type="application/ld+json"{identifier}>{serialized}</script>'
+
+
+def iso_date(value):
+    try:
+        return parsedate_to_datetime(str(value or "")).isoformat()
+    except (TypeError, ValueError, OverflowError):
+        return ""
+
+
+def load_transcript(slug):
+    transcript_path = transcripts_dir / f"{slug}.json"
+    if not transcript_path.exists():
+        return None
+    try:
+        payload = json.loads(transcript_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+    return payload if payload.get("segments") else None
+
+
+def format_timestamp(seconds):
+    total = max(0, int(float(seconds or 0)))
+    hours, remainder = divmod(total, 3600)
+    minutes, secs = divmod(remainder, 60)
+    return f"{hours}:{minutes:02d}:{secs:02d}" if hours else f"{minutes}:{secs:02d}"
+
+
+def iso_duration(seconds):
+    total = max(0, int(round(float(seconds or 0))))
+    hours, remainder = divmod(total, 3600)
+    minutes, secs = divmod(remainder, 60)
+    parts = ["PT"]
+    if hours:
+        parts.append(f"{hours}H")
+    if minutes:
+        parts.append(f"{minutes}M")
+    if secs or total == 0:
+        parts.append(f"{secs}S")
+    return "".join(parts)
+
+
+def transcript_markup(transcript):
+    if not transcript:
+        return ""
+    slug = str(transcript.get("episode_slug", ""))
+    corrections = TRANSCRIPT_CORRECTIONS.get(slug, {})
+    grouped = []
+    current = []
+    current_start = 0
+    word_count = 0
+    for segment in transcript.get("segments", []):
+        text = " ".join(str(segment.get("text", "")).split())
+        for old, new in corrections.items():
+            text = text.replace(old, new)
+        if not text:
+            continue
+        if not current:
+            current_start = segment.get("start", 0)
+        current.append(text)
+        word_count += len(text.split())
+        span = float(segment.get("end", 0)) - float(current_start or 0)
+        if word_count >= 95 or span >= 55:
+            grouped.append((current_start, " ".join(current)))
+            current = []
+            word_count = 0
+    if current:
+        grouped.append((current_start, " ".join(current)))
+    paragraphs = "\n".join(
+        f'                <p><span class="transcript-time">{escape(format_timestamp(start))}</span> {escape(text)}</p>'
+        for start, text in grouped
+    )
+    return f"""
+    <section class="section section-tight transcript-section" id="transcript">
+      <div class="container episode-notes-wrap">
+        <article class="card-surface">
+          <span class="eyebrow">Full episode</span>
+          <h2 class="title-md">Transcript</h2>
+          <p class="transcript-note">This transcript was generated from the published episode audio and lightly formatted for readability. It may contain errors in names or phrasing.</p>
+          <details class="transcript-disclosure">
+            <summary>Read the full transcript</summary>
+            <div class="body-copy transcript-copy">
+{paragraphs}
+            </div>
+          </details>
+        </article>
+      </div>
+    </section>"""
 
 
 def local_asset_path(value, prefix):
@@ -300,6 +417,10 @@ def slugify(value):
     ascii_value = normalized.encode("ascii", "ignore").decode("ascii")
     slug = re.sub(r"[^a-zA-Z0-9]+", "-", ascii_value).strip("-").lower()
     return slug[:96].strip("-") or "latest-episode"
+
+
+def slug_from_episode(episode):
+    return str(episode.get("site_path", "")).strip("/").split("/")[-1]
 
 
 def podbean_slug(value):
@@ -347,6 +468,202 @@ def find_mapped_episode(lookup, payload, slug):
     )
 
 
+def episode_structured_data(episode, description, social_artwork_url, transcript=None):
+    site_url = episode["site_url"]
+    published = iso_date(episode.get("published_at"))
+    podcast = {
+        "@type": "PodcastEpisode",
+        "@id": f"{site_url}#episode",
+        "name": episode.get("title"),
+        "url": site_url,
+        "description": description,
+        "image": social_artwork_url,
+        "mainEntityOfPage": {"@type": "WebPage", "@id": site_url},
+        "creator": {
+            "@type": "Organization",
+            "@id": f"{site_origin}/#organization",
+            "name": "VOICES of OKC",
+            "url": f"{site_origin}/",
+        },
+        "partOfSeries": {
+            "@type": "PodcastSeries",
+            "@id": f"{site_origin}/#podcast",
+            "name": "VOICES of OKC",
+            "url": f"{site_origin}/",
+        },
+    }
+    if published:
+        podcast["datePublished"] = published
+    if episode.get("episode_number"):
+        podcast["episodeNumber"] = str(episode["episode_number"])
+    if episode.get("theme_tags"):
+        podcast["keywords"] = episode["theme_tags"]
+    same_as = [
+        value
+        for value in (episode.get("podbean_url"), episode.get("youtube_url"))
+        if value and value != site_url
+    ]
+    if same_as:
+        podcast["sameAs"] = same_as
+    if episode.get("audio_url"):
+        podcast["associatedMedia"] = {
+            "@type": "AudioObject",
+            "contentUrl": episode["audio_url"],
+            "encodingFormat": "audio/mpeg",
+        }
+    transcript_segments = (transcript or {}).get("segments", [])
+    if transcript_segments:
+        duration = iso_duration(transcript_segments[-1].get("end", 0))
+        podcast["duration"] = duration
+        if podcast.get("associatedMedia"):
+            podcast["associatedMedia"]["duration"] = duration
+    if episode.get("guest_name"):
+        guest = {"@type": "Person", "name": episode["guest_name"]}
+        if episode.get("guest_title"):
+            guest["jobTitle"] = episode["guest_title"]
+        if episode.get("guest_website"):
+            guest["url"] = episode["guest_website"]
+        podcast["contributor"] = guest
+
+    graph = [
+        {
+            "@type": "BreadcrumbList",
+            "@id": f"{site_url}#breadcrumb",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{site_origin}/"},
+                {"@type": "ListItem", "position": 2, "name": "Episodes", "item": f"{site_origin}/episodes/"},
+                {"@type": "ListItem", "position": 3, "name": episode.get("title"), "item": site_url},
+            ],
+        },
+        podcast,
+    ]
+    return {"@context": "https://schema.org", "@graph": graph}
+
+
+def archive_artwork(episode):
+    artwork = (
+        youtube_thumbnail_from_url(episode.get("youtube_url"))
+        or episode.get("thumbnail_url")
+        or episode.get("artwork_url")
+        or "../assets/images/featured-episode-8.jpg"
+    )
+    return local_asset_path(artwork, "../")
+
+
+def archive_episode_markup(episode, index):
+    title = episode.get("title") or f"Episode {index + 1}"
+    summary = truncate_text(episode.get("summary"), 190)
+    site_path = episode.get("site_path") or ""
+    href = f"../{site_path}" if site_path else episode.get("episode_url", "#")
+    artwork = archive_artwork(episode)
+    guest_meta = " · ".join(
+        part for part in (episode.get("guest_name"), episode.get("guest_organization")) if part
+    )
+    themes = "".join(
+        f'<span class="tag">{escape(str(theme))}</span>' for theme in episode.get("theme_tags", [])[:3]
+    )
+    theme_markup = f'\n              <div class="tag-list">{themes}</div>' if themes else ""
+    label = f"Episode {episode['episode_number']}" if episode.get("episode_number") else ("Latest episode" if index == 0 else "Episode")
+    podbean_url = episode.get("podbean_url") or episode.get("episode_url") or href
+    published = ""
+    try:
+        published = parsedate_to_datetime(episode.get("published_at", "")).strftime("%b %-d, %Y")
+    except (TypeError, ValueError, OverflowError):
+        pass
+    meta = " · ".join(part for part in (guest_meta, published) if part)
+    return f"""          <article class="episode-card episode-archive-card">
+            <a class="episode-card-media" href="{escape(href, quote=True)}">
+              <img loading="lazy" src="{escape(artwork, quote=True)}" alt="{escape(title, quote=True)} artwork for VOICES of OKC" width="1280" height="720" decoding="async" />
+            </a>
+            <div class="episode-card-body">
+              <span class="guest-role">{escape(label)}</span>
+              <h2 class="episode-card-title">{escape(title.upper())}</h2>
+              <div class="episode-date">{escape(meta)}</div>{theme_markup}
+              <p>{escape(summary)}</p>
+              <div class="episode-card-actions">
+                <a class="button-outline" href="{escape(href, quote=True)}">View Episode</a>
+                <a class="button-outline" href="{escape(podbean_url, quote=True)}" target="_blank" rel="noreferrer">Podbean</a>
+              </div>
+            </div>
+          </article>"""
+
+
+def archive_structured_data(episodes):
+    archive_url = f"{site_origin}/episodes/"
+    return {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "@id": f"{archive_url}#breadcrumb",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{site_origin}/"},
+                    {"@type": "ListItem", "position": 2, "name": "Episodes", "item": archive_url},
+                ],
+            },
+            {
+                "@type": "CollectionPage",
+                "@id": archive_url,
+                "name": "VOICES of OKC Episode Archive",
+                "description": "Student-produced conversations with Oklahoma City leaders, builders, artists, advocates, entrepreneurs, and neighbors.",
+                "isPartOf": {"@id": f"{site_origin}/#website"},
+                "mainEntity": {
+                    "@type": "ItemList",
+                    "numberOfItems": len(episodes),
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": index + 1,
+                            "url": episode.get("site_url"),
+                            "name": episode.get("title"),
+                        }
+                        for index, episode in enumerate(episodes)
+                        if episode.get("site_url")
+                    ],
+                },
+            },
+        ],
+    }
+
+
+def replace_marker_block(document, start_marker, end_marker, content):
+    pattern = re.compile(
+        rf"{re.escape(start_marker)}.*?{re.escape(end_marker)}",
+        flags=re.DOTALL,
+    )
+    replacement = f"{start_marker}\n{content}\n        {end_marker}"
+    updated, count = pattern.subn(replacement, document, count=1)
+    if count != 1:
+        raise SystemExit(f"Could not find archive marker block: {start_marker}")
+    return updated
+
+
+def write_episode_archive(episodes):
+    document = archive_path.read_text(encoding="utf-8")
+    cards = "\n".join(archive_episode_markup(episode, index) for index, episode in enumerate(episodes))
+    document = replace_marker_block(
+        document,
+        "<!-- EPISODE_ARCHIVE_START -->",
+        "<!-- EPISODE_ARCHIVE_END -->",
+        cards,
+    )
+    schema = structured_data_markup(archive_structured_data(episodes), "archive-structured-data")
+    document = replace_marker_block(
+        document,
+        "<!-- ARCHIVE_STRUCTURED_DATA_START -->",
+        "<!-- ARCHIVE_STRUCTURED_DATA_END -->",
+        schema,
+    )
+    conversation_label = "1 conversation shown" if len(episodes) == 1 else f"{len(episodes)} conversations shown"
+    document = re.sub(
+        r'(<p class="episode-date" id="episodeArchiveStatus" aria-live="polite">).*?(</p>)',
+        rf"\g<1>{escape(conversation_label)}\g<2>",
+        document,
+        count=1,
+    )
+    archive_path.write_text(document, encoding="utf-8")
+
+
 def build_episode_page(episode, show_notes_html):
     title = episode["title"]
     display_title = title
@@ -358,6 +675,10 @@ def build_episode_page(episode, show_notes_html):
     audio_url = episode.get("audio_url", "")
     published_at = episode.get("published_at", "")
     episode_youtube_url = episode.get("youtube_url") or youtube_url
+    episode_slug = slug_from_episode(episode)
+    transcript = load_transcript(episode_slug)
+    transcript_section = transcript_markup(transcript)
+    episode_schema = structured_data_markup(episode_structured_data(episode, description, social_artwork_url, transcript))
     episode_number = episode.get("episode_number")
     episode_kicker = f"Episode {episode_number}" if episode_number else "Episode"
     guest_meta = " · ".join(
@@ -406,6 +727,7 @@ def build_episode_page(episode, show_notes_html):
   <link rel="apple-touch-icon" href="../../assets/favicon/apple-touch-icon.png" />
   <link rel="manifest" href="../../site.webmanifest" />
   <title>{escape(title)} | VOICES of OKC</title>
+  {episode_schema}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
@@ -478,6 +800,7 @@ def build_episode_page(episode, show_notes_html):
         </article>
       </div>
     </section>
+{transcript_section}
   </main>
   <footer class="site-footer" id="contact">
       <div class="container">
@@ -636,9 +959,10 @@ generated_pages = []
 for episode, entry in zip(entries, feed.entries):
     show_notes = sanitize_show_notes(find_show_notes(entry))
     generated_pages.append(write_episode_page(episode, show_notes))
+write_episode_archive(entries)
 write_sitemap(entries)
 
 latest_path.write_text(json.dumps(latest, indent=2), encoding="utf-8")
 episodes_path.write_text(json.dumps({"episodes": entries}, indent=2), encoding="utf-8")
 
-print(f"Wrote {latest_path}, {episodes_path}, sitemap.xml, and {len(generated_pages)} episode pages")
+print(f"Wrote {latest_path}, {episodes_path}, {archive_path}, sitemap.xml, and {len(generated_pages)} episode pages")

@@ -155,7 +155,7 @@ const renderEpisodes = (episodes) => {
   const activeButton = themeFilter ? themeFilter.querySelector('[aria-pressed="true"]') : null;
   const activeTheme = activeButton ? activeButton.dataset.theme : 'all';
   const visible = episodes.filter((episode) => matchesEpisode(episode, search, activeTheme));
-  const shown = visible.slice(0, 12);
+  const shown = visible;
 
   if (archiveStatus) {
     archiveStatus.textContent = shown.length === 1 ? '1 conversation shown' : `${shown.length} conversations shown`;

@@ -45,6 +45,23 @@ It runs on a schedule and updates episode JSON from the Podbean feed using:
 
 The updater also generates a local static page for the newest episode using the Podbean show notes, then points the homepage latest episode link and the first archive card to that VOICES page instead of the Podbean episode page.
 
+The updater now also:
+
+- writes every episode card into `/episodes/index.html` so the complete archive is available without JavaScript
+- keeps the archive search and theme filters as a progressive enhancement
+- adds `PodcastEpisode`, `AudioObject`, and breadcrumb structured data to episode pages
+- preserves transcript files stored in `assets/data/transcripts/` and publishes them on the matching episode pages
+
+The homepage defines the VOICES organization, website, and podcast series in JSON-LD. The archive defines a crawlable `CollectionPage` and `ItemList`.
+
+## Transcript workflow
+
+Selected machine-generated transcripts live at:
+
+`assets/data/transcripts/<episode-slug>.json`
+
+On Apple silicon, `scripts/transcribe_selected_episodes.py` can generate or refresh the selected transcript set from the published episode audio. It requires `mlx-whisper` and `ffmpeg`. The transcript data is intentionally separate from the scheduled Podbean sync so an automated feed refresh never overwrites editorial transcript work.
+
 If your Podbean feed URL is different, change it in the workflow file.
 
 ## Before going live

@@ -1,0 +1,2031 @@
+{
+  "episode_title": "From Policy to People: The Privilege of Leading Oklahoma City",
+  "episode_slug": "from-policy-to-people-the-privilege-of-leading-oklahoma-city",
+  "source": "Published episode audio",
+  "language": "en",
+  "review_status": "machine-generated",
+  "generated_at": "2026-08-04T09:48:04+00:00",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 25.8,
+      "text": "Welcome to Voices of OKC. We are so excited you joined us again for this episode today."
+    },
+    {
+      "start": 25.8,
+      "end": 41.6,
+      "text": "Well, as you can tell, we're in a different setting today. Voices of OKC, like I've mentioned before, is a podcast around highlighting leadership in our city, from families to students at City Center to municipality leaders in our city, even on the state level."
+    },
+    {
+      "start": 41.6,
+      "end": 47.3,
+      "text": "And so we are very excited today because we have a very special guest. You know him. You love him."
+    },
+    {
+      "start": 47.3,
+      "end": 55.2,
+      "text": "I also have a co-host and our co-host is Jordan Arnett. He's going to be hosting today. But our guest is Mayor David Holt."
+    },
+    {
+      "start": 55.2,
+      "end": 56.7,
+      "text": "Thank you so much, Mayor, for being here today."
+    },
+    {
+      "start": 56.7,
+      "end": 63.2,
+      "text": "Well, thank you. Well, welcome. I mean, what better place for Voices of OKC to tape than City Hall of Oklahoma City?"
+    },
+    {
+      "start": 63.2,
+      "end": 67.2,
+      "text": "Absolutely. And at this time, actually, my co-host is going to take over. Sure."
+    },
+    {
+      "start": 67.2,
+      "end": 72.2,
+      "text": "And guide our questions. 100 percent. Welcome, guys, once again. And let's get right to it. First off, how are you doing today?"
+    },
+    {
+      "start": 72.2,
+      "end": 79.2,
+      "text": "I'm doing great. How are you? I'm glad to hear it's been a good day for me. I'm here. Obviously City Hall, wonderful place. I will say congrats on the third term."
+    },
+    {
+      "start": 79.2,
+      "end": 83.5,
+      "text": "Thank you. 86.5 percent, one point shy away of the all time record. Thank you."
+    },
+    {
+      "start": 83.7,
+      "end": 87.46,
+      "text": "And I would say, how's that feel like? Third term coming up in May?"
+    },
+    {
+      "start": 87.72,
+      "end": 96.32,
+      "text": "Well, it feels validating. And, you know, in politics these days, especially, people aren't getting that type of consensus, right?"
+    },
+    {
+      "start": 96.32,
+      "end": 106.62,
+      "text": "Yeah. And to get that type of broad support, 86 percent, it speaks to our unique political culture in Oklahoma City that, like, we're finding ways to work together."
+    },
+    {
+      "start": 107.28,
+      "end": 117.56,
+      "text": "I obviously got the votes of Democrats, Republicans and independents. And again, in current American politics, there's not a lot of election days like that anymore."
+    },
+    {
+      "start": 117.56,
+      "end": 125.28,
+      "text": "So I'm very proud of what we've created here in OKC. And certainly that was a validating moment that really confirms that we're on the right track."
+    },
+    {
+      "start": 125.42,
+      "end": 132.96,
+      "text": "100 percent. The community, I think, is growing together and just growing closer towards a common goal, which I think is so important, especially like with a state of how the world could be."
+    },
+    {
+      "start": 133.02,
+      "end": 137.1,
+      "text": "Sometimes I think it's so important that when the community unites, things definitely change for sure."
+    },
+    {
+      "start": 137.1,
+      "end": 144.96,
+      "text": "But I say, let's just dive in. Like, why politics? Like, what led to this path of obviously, Punta City North, best high school? Just saying. No bias."
+    },
+    {
+      "start": 144.96,
+      "end": 146.36,
+      "text": "We'll be part of the story for sure."
+    },
+    {
+      "start": 146.6,
+      "end": 151.94,
+      "text": "But what led to wanting to become the mayor and wanting to get into politics? What was this like?"
+    },
+    {
+      "start": 152.4,
+      "end": 159.86,
+      "text": "Well, so I went to Wiley Post, Hefner, and PC North. And at Wiley Post, I was student council president."
+    },
+    {
+      "start": 159.86,
+      "end": 164.26,
+      "text": "I don't even know if they have that kind of thing anymore, but it was an election."
+    },
+    {
+      "start": 164.26,
+      "end": 174.28,
+      "text": "And then at North, I was sophomore class president. And then I was son spirit vice president. So my junior year."
+    },
+    {
+      "start": 175.14,
+      "end": 185.78,
+      "text": "So I've always been, even from an early age, somebody who wanted to be a part of the group of people who are making decisions for my community,"
+    },
+    {
+      "start": 186.38,
+      "end": 190.0,
+      "text": "working to make the community of which I'm a part a better place."
+    },
+    {
+      "start": 190.0,
+      "end": 196.92,
+      "text": "And so, yeah, I would say it definitely traces back to my upbringing in Putnam City schools."
+    },
+    {
+      "start": 197.84,
+      "end": 202.86,
+      "text": "I went off from North to George Washington University in D.C. and got a political science major."
+    },
+    {
+      "start": 203.28,
+      "end": 207.08,
+      "text": "I worked in politics. I worked in the White House for President Bush."
+    },
+    {
+      "start": 207.08,
+      "end": 214.3,
+      "text": "I ended up becoming chief of staff to my predecessor mayor, Mayor Mick Cornett, who incidentally is a Putnam City graduate."
+    },
+    {
+      "start": 214.68,
+      "end": 220.5,
+      "text": "And then and then I went I was elected to the Oklahoma State Senate for eight years."
+    },
+    {
+      "start": 220.5,
+      "end": 222.34,
+      "text": "And then eight years ago, I was elected mayor."
+    },
+    {
+      "start": 222.52,
+      "end": 230.52,
+      "text": "So it is what I have done my whole adult life, but really also what I was doing even as a kid growing up in Northwest OKC."
+    },
+    {
+      "start": 230.52,
+      "end": 234.92,
+      "text": "So basically, my big takeaway from that is in Putnam City, schools are the place to be."
+    },
+    {
+      "start": 235.12,
+      "end": 236.24,
+      "text": "Yeah. Totally no bias."
+    },
+    {
+      "start": 236.24,
+      "end": 241.98,
+      "text": "Actually, the mayor before Mayor Cornett, the elected mayor before Mayor Cornett was on the Putnam City School Board."
+    },
+    {
+      "start": 242.2,
+      "end": 248.66,
+      "text": "So we're like we are now at like nearly 30 years of Putnam City mayoral representation."
+    },
+    {
+      "start": 248.88,
+      "end": 251.5,
+      "text": "That's impressive. I think there needs to be some kind of celebration."
+    },
+    {
+      "start": 251.96,
+      "end": 255.5,
+      "text": "That's a little gala like, you know, students, former alumni."
+    },
+    {
+      "start": 255.5,
+      "end": 261.0,
+      "text": "Alumni. Well, that's awesome. So even as a kid, you were like, OK, I want to be someone who can help lead others."
+    },
+    {
+      "start": 261.6,
+      "end": 271.02,
+      "text": "A big question I would have was just in is there ever was there ever a time where there was elementary, middle, high school or even in your political career where you had to make a difficult leadership decision?"
+    },
+    {
+      "start": 271.64,
+      "end": 273.98,
+      "text": "And what was just like that thought process like?"
+    },
+    {
+      "start": 274.08,
+      "end": 276.7,
+      "text": "And looking back on it now, do you think you would still have done the same thing?"
+    },
+    {
+      "start": 277.26,
+      "end": 280.42,
+      "text": "Yeah, I mean, on some level that happens every single day."
+    },
+    {
+      "start": 280.42,
+      "end": 290.04,
+      "text": "But but certainly, I mean, along the way in this journey as mayor, you know, a couple of things might come to mind."
+    },
+    {
+      "start": 290.16,
+      "end": 293.28,
+      "text": "One was the response to to covid."
+    },
+    {
+      "start": 294.86,
+      "end": 304.76,
+      "text": "And, you know, here in Oklahoma City in this there's three counties that make up Oklahoma City, Canadian, Oklahoma and Cleveland counties."
+    },
+    {
+      "start": 304.76,
+      "end": 310.34,
+      "text": "And I bring that up because that's kind of how covid deaths were measured were sort of by counties."
+    },
+    {
+      "start": 310.64,
+      "end": 325.5,
+      "text": "So the other 74 counties of Oklahoma had a significantly higher death rate than Oklahoma, Canadian and Cleveland counties, the parts of Oklahoma made up by this city."
+    },
+    {
+      "start": 325.5,
+      "end": 345.22,
+      "text": "I bring all this up to say that the choices we made during the summer of the spring and summer and fall of 2020 were difficult choices because they presented you sometimes with two bad options, you know, because you really you're you're you."
+    },
+    {
+      "start": 345.32,
+      "end": 348.06,
+      "text": "What you wanted to do is just live your life the way you were living it before."
+    },
+    {
+      "start": 348.06,
+      "end": 350.82,
+      "text": "But that wasn't really the best choice."
+    },
+    {
+      "start": 351.6,
+      "end": 363.92,
+      "text": "And we can basically numerically look at our death rate versus the death rate of the rest of the state and say if people died in Oklahoma City at the same rate that they did in the other 74 counties of our state."
+    },
+    {
+      "start": 364.0,
+      "end": 366.92,
+      "text": "And this isn't like comparing us to some other country."
+    },
+    {
+      "start": 366.92,
+      "end": 369.8,
+      "text": "This is comparing us just to the rest of our own state that we live in."
+    },
+    {
+      "start": 370.64,
+      "end": 379.5,
+      "text": "It's almost a thousand people didn't die in Oklahoma City that would have died if they just treated it the way that the rest of the state treated it."
+    },
+    {
+      "start": 380.26,
+      "end": 385.78,
+      "text": "So now those thousand people don't know who they are, so they don't write me a thank you note or anything."
+    },
+    {
+      "start": 385.78,
+      "end": 385.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 385.86,
+      "end": 394.86,
+      "text": "But like just by taking a more serious approach and I don't think going overboard, I think we found like the kind of the right middle ground."
+    },
+    {
+      "start": 395.0,
+      "end": 402.66,
+      "text": "But by treating it a little more seriously, like people are alive today, you know, and that's obviously we also did lose people anyways."
+    },
+    {
+      "start": 402.66,
+      "end": 404.88,
+      "text": "But but we saved lives."
+    },
+    {
+      "start": 404.88,
+      "end": 406.98,
+      "text": "And so I certainly feel validated."
+    },
+    {
+      "start": 407.08,
+      "end": 408.02,
+      "text": "I wouldn't change a thing."
+    },
+    {
+      "start": 408.66,
+      "end": 411.06,
+      "text": "But those were difficult decisions."
+    },
+    {
+      "start": 411.06,
+      "end": 422.98,
+      "text": "And in that particular moment in time, you know, the I was asserting as were mayors around the country, asserting authority that I wouldn't otherwise normally have."
+    },
+    {
+      "start": 422.98,
+      "end": 438.24,
+      "text": "Sort of like in certain emergency situations, kind of every level of government provides some short term ability for mayors, governors and presidents to almost behave in a dictatorial way, you know, and that's not American, you know."
+    },
+    {
+      "start": 438.24,
+      "end": 442.12,
+      "text": "And so I was certainly always working to get out of that as quickly as I could."
+    },
+    {
+      "start": 442.12,
+      "end": 446.4,
+      "text": "But in those first few days and weeks, you sort of just have to do stuff."
+    },
+    {
+      "start": 446.54,
+      "end": 449.62,
+      "text": "You know, you got to exercise what they would call emergency powers, you know."
+    },
+    {
+      "start": 450.14,
+      "end": 452.26,
+      "text": "And again, we saved lives."
+    },
+    {
+      "start": 452.44,
+      "end": 453.84,
+      "text": "So that's one example."
+    },
+    {
+      "start": 454.02,
+      "end": 461.52,
+      "text": "I mean, maybe a less sober example would be the quest to keep the thunder in Oklahoma City."
+    },
+    {
+      "start": 461.52,
+      "end": 468.16,
+      "text": "We're the 42nd largest market in the United States."
+    },
+    {
+      "start": 468.36,
+      "end": 472.74,
+      "text": "And by that, I mean the number of people who live in the metropolitan area."
+    },
+    {
+      "start": 472.74,
+      "end": 477.14,
+      "text": "So that's going to include War Acres and Bethany and Edmund and Norman and all of that."
+    },
+    {
+      "start": 477.46,
+      "end": 485.56,
+      "text": "So when you add up all those people that live in the area, we're 42nd, which is great, except that there's only 30 teams in the area."
+    },
+    {
+      "start": 486.84,
+      "end": 487.8,
+      "text": "That's a problem."
+    },
+    {
+      "start": 488.38,
+      "end": 489.3,
+      "text": "There's the issue."
+    },
+    {
+      "start": 489.3,
+      "end": 489.9,
+      "text": "Yeah."
+    },
+    {
+      "start": 490.14,
+      "end": 498.36,
+      "text": "So there's actually 18 larger markets in the United States that don't have an NBA team."
+    },
+    {
+      "start": 498.58,
+      "end": 504.68,
+      "text": "And some big cities, when you start to rattle through them, you're like, oh, Nashville, San Diego, Kansas City, Austin."
+    },
+    {
+      "start": 504.98,
+      "end": 511.54,
+      "text": "You know, you're like, okay, that's like some real cities that have, and in many cases, have other professional sports teams, but don't have the NBA."
+    },
+    {
+      "start": 511.84,
+      "end": 514.18,
+      "text": "And most of those cities would like to have the NBA."
+    },
+    {
+      "start": 514.18,
+      "end": 514.26,
+      "text": "Okay."
+    },
+    {
+      "start": 514.78,
+      "end": 521.0,
+      "text": "So it's always been kind of a stretch that we have the thunder, right?"
+    },
+    {
+      "start": 521.14,
+      "end": 530.58,
+      "text": "And a lot of crazy things happened before you were born to make all that happen, to make that possible back in 2008."
+    },
+    {
+      "start": 530.58,
+      "end": 538.14,
+      "text": "But as it turns out, it was even harder to keep the thunder for the long term than it was to get them in the first place."
+    },
+    {
+      "start": 538.14,
+      "end": 549.64,
+      "text": "Because what I was faced with as mayor in circa 2021 was the reality that the initial lease with the team was expiring."
+    },
+    {
+      "start": 549.64,
+      "end": 551.8,
+      "text": "It was expiring in 2023."
+    },
+    {
+      "start": 552.84,
+      "end": 561.24,
+      "text": "And the most important element that a city brings to the table, in addition to its size, is its facility."
+    },
+    {
+      "start": 561.8,
+      "end": 569.8,
+      "text": "And if you're not very big relative to the potential competition for that franchise, you better have a nice arena."
+    },
+    {
+      "start": 569.94,
+      "end": 570.2,
+      "text": "Right."
+    },
+    {
+      "start": 570.3,
+      "end": 570.88,
+      "text": "And we didn't."
+    },
+    {
+      "start": 571.02,
+      "end": 571.62,
+      "text": "We just didn't."
+    },
+    {
+      "start": 571.62,
+      "end": 578.9,
+      "text": "I mean, the current arena that we're still playing in now is the smallest by square footage, not by capacity."
+    },
+    {
+      "start": 579.04,
+      "end": 581.22,
+      "text": "People sometimes don't hear me say the second part of that sentence."
+    },
+    {
+      "start": 581.92,
+      "end": 584.82,
+      "text": "Square footage, which is really important to the user of an arena."
+    },
+    {
+      "start": 584.82,
+      "end": 593.52,
+      "text": "Because at the end of the day, it's a business, and they're trying to make money, and they need the square footage, which means the hospitality areas and the restaurants and the bars and all that."
+    },
+    {
+      "start": 594.0,
+      "end": 596.66,
+      "text": "So it's the smallest by square footage in the NBA."
+    },
+    {
+      "start": 596.66,
+      "end": 599.04,
+      "text": "It's actually relatively old."
+    },
+    {
+      "start": 599.14,
+      "end": 607.34,
+      "text": "I know it's hard for people to believe, but in the context of arenas around the country, being more than 20 years old is getting a little towards the older end of things."
+    },
+    {
+      "start": 608.16,
+      "end": 611.96,
+      "text": "And it's just not that high quality, right?"
+    },
+    {
+      "start": 612.14,
+      "end": 615.42,
+      "text": "I mean, $200 million is what we as a community have put into that arena."
+    },
+    {
+      "start": 615.84,
+      "end": 617.54,
+      "text": "And that's real money to you and me."
+    },
+    {
+      "start": 618.02,
+      "end": 620.66,
+      "text": "But we live in a world of billion-dollar arenas."
+    },
+    {
+      "start": 620.9,
+      "end": 624.98,
+      "text": "The Clippers, where the All-Star game just occurred, that's a $2 billion arena."
+    },
+    {
+      "start": 624.98,
+      "end": 635.34,
+      "text": "So we were faced with the reality of we've got to build a new arena or we are not going to get the team to sign a new lease."
+    },
+    {
+      "start": 636.34,
+      "end": 642.76,
+      "text": "And I know, because I follow this stuff, that cities don't really pass these anymore."
+    },
+    {
+      "start": 643.04,
+      "end": 645.52,
+      "text": "People don't like investing in arenas."
+    },
+    {
+      "start": 645.88,
+      "end": 647.1,
+      "text": "I understand why."
+    },
+    {
+      "start": 647.78,
+      "end": 650.7,
+      "text": "But the 42nd largest market has no choice."
+    },
+    {
+      "start": 650.7,
+      "end": 653.1,
+      "text": "No private sector actor."
+    },
+    {
+      "start": 653.2,
+      "end": 655.5,
+      "text": "What people could or should do is irrelevant."
+    },
+    {
+      "start": 655.76,
+      "end": 660.52,
+      "text": "What matters is what they are going to do, and nobody was going to build an arena in Oklahoma City."
+    },
+    {
+      "start": 660.52,
+      "end": 670.74,
+      "text": "And so the mayor is the adult in the room, the realist, the leader who has to explain that to the people."
+    },
+    {
+      "start": 670.88,
+      "end": 676.16,
+      "text": "Sometimes being a leader is telling people what they need to hear, not just what they want to hear."
+    },
+    {
+      "start": 677.1,
+      "end": 681.64,
+      "text": "And in that case, what they needed to hear was, guys, we have to do this."
+    },
+    {
+      "start": 682.2,
+      "end": 683.3,
+      "text": "You can make a choice."
+    },
+    {
+      "start": 683.3,
+      "end": 685.28,
+      "text": "We don't have to have the Thunder."
+    },
+    {
+      "start": 685.7,
+      "end": 686.84,
+      "text": "I would like to have the Thunder."
+    },
+    {
+      "start": 687.06,
+      "end": 690.46,
+      "text": "But you can decide that we don't have to have them."
+    },
+    {
+      "start": 690.52,
+      "end": 694.06,
+      "text": "But you have to understand that having them requires this investment."
+    },
+    {
+      "start": 695.12,
+      "end": 697.26,
+      "text": "And ultimately, we took it to the voters."
+    },
+    {
+      "start": 697.36,
+      "end": 698.3,
+      "text": "And we got 71%."
+    },
+    {
+      "start": 698.88,
+      "end": 699.58,
+      "text": "That's incredible."
+    },
+    {
+      "start": 699.7,
+      "end": 708.04,
+      "text": "A few months later, Kansas City, the home of the Super Bowl champs at the time, failed a new stadium."
+    },
+    {
+      "start": 708.2,
+      "end": 710.12,
+      "text": "And now that team is moving to Kansas."
+    },
+    {
+      "start": 710.12,
+      "end": 710.9,
+      "text": "That's true."
+    },
+    {
+      "start": 710.98,
+      "end": 711.44,
+      "text": "From Missouri."
+    },
+    {
+      "start": 711.8,
+      "end": 715.8,
+      "text": "So those things, most cities don't even try anymore."
+    },
+    {
+      "start": 716.34,
+      "end": 717.9,
+      "text": "And those who do seem to fail them."
+    },
+    {
+      "start": 718.02,
+      "end": 720.46,
+      "text": "But we not only passed ours, we got overwhelming support."
+    },
+    {
+      "start": 720.54,
+      "end": 721.76,
+      "text": "But it took two years."
+    },
+    {
+      "start": 722.4,
+      "end": 723.44,
+      "text": "First, you make the decision."
+    },
+    {
+      "start": 723.74,
+      "end": 724.38,
+      "text": "You're going to do it."
+    },
+    {
+      "start": 724.94,
+      "end": 728.54,
+      "text": "And maybe you could argue it was an easy decision because I had no choice."
+    },
+    {
+      "start": 728.62,
+      "end": 730.82,
+      "text": "It was like, this is the only way we're going to keep this team."
+    },
+    {
+      "start": 731.66,
+      "end": 737.44,
+      "text": "But the decision was not only to proceed but also to really spend two years talking about it."
+    },
+    {
+      "start": 737.44,
+      "end": 744.92,
+      "text": "I mean, if you were to look at my State of the City addresses, and for me, that's sort of my big moment to kind of capture the city's attention on something important."
+    },
+    {
+      "start": 745.22,
+      "end": 754.78,
+      "text": "That's what I dedicated like half of each address for two years to was explaining this issue and helping people understand why we've got to do this."
+    },
+    {
+      "start": 754.92,
+      "end": 757.02,
+      "text": "And ultimately, obviously, they agreed."
+    },
+    {
+      "start": 757.6,
+      "end": 758.1,
+      "text": "That's incredible."
+    },
+    {
+      "start": 758.18,
+      "end": 759.64,
+      "text": "I have a follow-up leadership question."
+    },
+    {
+      "start": 759.64,
+      "end": 764.3,
+      "text": "And, you know, making leadership decisions like we're talking about right now can be very hard."
+    },
+    {
+      "start": 764.94,
+      "end": 767.3,
+      "text": "You know, you talk about making that decision."
+    },
+    {
+      "start": 767.56,
+      "end": 768.32,
+      "text": "You know it's right."
+    },
+    {
+      "start": 768.48,
+      "end": 769.5,
+      "text": "You know it has to be done."
+    },
+    {
+      "start": 769.74,
+      "end": 771.8,
+      "text": "But then there's the fallout of that decision."
+    },
+    {
+      "start": 772.0,
+      "end": 774.06,
+      "text": "You know, there's the good side of that and the bad side."
+    },
+    {
+      "start": 774.64,
+      "end": 782.46,
+      "text": "So how do you manage the maybe emotions, the leadership in you to deal with that?"
+    },
+    {
+      "start": 782.56,
+      "end": 786.6,
+      "text": "What's your process in managing that emotion in leadership?"
+    },
+    {
+      "start": 786.6,
+      "end": 791.3,
+      "text": "Well, I think, first of all, I've always believed in fully explaining the decision."
+    },
+    {
+      "start": 791.56,
+      "end": 797.76,
+      "text": "I think sometimes people make a tough decision and they make the right decision, but they just decide they don't really want to explain it."
+    },
+    {
+      "start": 798.88,
+      "end": 800.14,
+      "text": "You should just listen to me."
+    },
+    {
+      "start": 800.66,
+      "end": 800.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 800.76,
+      "end": 805.3,
+      "text": "And so I think you feel better, though, if you fully explain it."
+    },
+    {
+      "start": 805.4,
+      "end": 807.54,
+      "text": "And also, you get more support."
+    },
+    {
+      "start": 807.72,
+      "end": 815.3,
+      "text": "I mean, like, you know, if you walk people through your thought process, most people will come along."
+    },
+    {
+      "start": 815.44,
+      "end": 817.48,
+      "text": "But they kind of needed the explanation."
+    },
+    {
+      "start": 817.86,
+      "end": 818.08,
+      "text": "Sure."
+    },
+    {
+      "start": 818.08,
+      "end": 818.88,
+      "text": "That makes sense."
+    },
+    {
+      "start": 819.04,
+      "end": 822.22,
+      "text": "I mean, it's natural for you sometimes to feel like they should just listen to you."
+    },
+    {
+      "start": 822.24,
+      "end": 823.12,
+      "text": "They should just trust you."
+    },
+    {
+      "start": 823.94,
+      "end": 825.84,
+      "text": "You don't have the time to explain all this."
+    },
+    {
+      "start": 825.84,
+      "end": 832.28,
+      "text": "But, you know, it goes a long way, even though after you've explained it, I mean, what I just described, we didn't get 100 percent."
+    },
+    {
+      "start": 832.42,
+      "end": 832.56,
+      "text": "Right."
+    },
+    {
+      "start": 832.9,
+      "end": 833.14,
+      "text": "Right."
+    },
+    {
+      "start": 833.34,
+      "end": 833.48,
+      "text": "Yeah."
+    },
+    {
+      "start": 833.52,
+      "end": 834.14,
+      "text": "We got 71."
+    },
+    {
+      "start": 834.36,
+      "end": 834.52,
+      "text": "Sure."
+    },
+    {
+      "start": 834.54,
+      "end": 839.34,
+      "text": "So that still means 29 percent, basically like one in three people were still against it."
+    },
+    {
+      "start": 839.38,
+      "end": 842.0,
+      "text": "And some of them viciously so, you know."
+    },
+    {
+      "start": 842.0,
+      "end": 848.42,
+      "text": "And so that still requires, obviously, emotional management to just accept that you can't please everybody."
+    },
+    {
+      "start": 849.6,
+      "end": 855.12,
+      "text": "And but I think you'll feel better about it if you've sort of done everything you can to please everybody."
+    },
+    {
+      "start": 855.12,
+      "end": 864.52,
+      "text": "You know, like once you've sort of exhausted your explanations and you've truly thought through the whole thing, I think you're more at peace personally."
+    },
+    {
+      "start": 864.78,
+      "end": 865.44,
+      "text": "That makes sense."
+    },
+    {
+      "start": 865.44,
+      "end": 874.18,
+      "text": "And accepting that some people, unfortunately, you don't like to go through your life thinking that one in three people are just flat out unreasonable."
+    },
+    {
+      "start": 874.82,
+      "end": 875.18,
+      "text": "Yeah."
+    },
+    {
+      "start": 875.46,
+      "end": 875.82,
+      "text": "Right."
+    },
+    {
+      "start": 875.92,
+      "end": 876.74,
+      "text": "We don't want to think that."
+    },
+    {
+      "start": 876.74,
+      "end": 879.98,
+      "text": "But I live in a world where I have to be faced with that reality all the time."
+    },
+    {
+      "start": 880.1,
+      "end": 883.04,
+      "text": "And it is true on this or any number of other things."
+    },
+    {
+      "start": 883.14,
+      "end": 885.58,
+      "text": "There's just a lot of people that just they're immune to logic."
+    },
+    {
+      "start": 885.78,
+      "end": 886.4,
+      "text": "They're unreasonable."
+    },
+    {
+      "start": 886.7,
+      "end": 888.02,
+      "text": "They're sort of against everything."
+    },
+    {
+      "start": 889.4,
+      "end": 893.9,
+      "text": "And you just you have little choice but to accept that if you're going to move forward."
+    },
+    {
+      "start": 893.9,
+      "end": 897.56,
+      "text": "I'm sure you have to develop a level of healthy, thick skin in politics."
+    },
+    {
+      "start": 897.9,
+      "end": 898.06,
+      "text": "Yeah."
+    },
+    {
+      "start": 898.22,
+      "end": 898.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 898.58,
+      "end": 900.62,
+      "text": "I mean, there's just some people that are just kind of."
+    },
+    {
+      "start": 901.58,
+      "end": 902.02,
+      "text": "Yeah."
+    },
+    {
+      "start": 902.08,
+      "end": 904.06,
+      "text": "They're just just just mad at the world."
+    },
+    {
+      "start": 904.24,
+      "end": 904.36,
+      "text": "Yeah."
+    },
+    {
+      "start": 904.8,
+      "end": 905.24,
+      "text": "Absolutely."
+    },
+    {
+      "start": 905.24,
+      "end": 910.2,
+      "text": "And so you you just accept that that's part of the deal."
+    },
+    {
+      "start": 910.38,
+      "end": 919.44,
+      "text": "And you try to work with the overwhelming majority that that are reasonable and willing to listen and willing to think through the arguments and follow the logic."
+    },
+    {
+      "start": 919.7,
+      "end": 920.68,
+      "text": "You know, that's incredible."
+    },
+    {
+      "start": 921.14,
+      "end": 923.3,
+      "text": "I have a question about something you said earlier."
+    },
+    {
+      "start": 923.3,
+      "end": 928.46,
+      "text": "It was you said that leadership often requires you to tell people what they need to hear, not what they want to hear."
+    },
+    {
+      "start": 928.52,
+      "end": 932.68,
+      "text": "So my question was, is there has there ever been a moment in your career where someone had to, like, actually tell you something?"
+    },
+    {
+      "start": 932.76,
+      "end": 933.82,
+      "text": "It's not what you wanted to hear."
+    },
+    {
+      "start": 933.96,
+      "end": 937.64,
+      "text": "But you're looking back on your like, that was really good advice or I need that."
+    },
+    {
+      "start": 938.76,
+      "end": 939.08,
+      "text": "Probably."
+    },
+    {
+      "start": 939.46,
+      "end": 939.86,
+      "text": "For sure."
+    },
+    {
+      "start": 939.96,
+      "end": 940.14,
+      "text": "I know."
+    },
+    {
+      "start": 940.26,
+      "end": 941.3,
+      "text": "So it's a loaded question."
+    },
+    {
+      "start": 941.5,
+      "end": 942.62,
+      "text": "It's a loaded question."
+    },
+    {
+      "start": 942.76,
+      "end": 943.3,
+      "text": "I'm just trying."
+    },
+    {
+      "start": 943.54,
+      "end": 945.88,
+      "text": "I don't I don't know if I can readily think of an example."
+    },
+    {
+      "start": 945.88,
+      "end": 958.44,
+      "text": "But but yeah, I mean, I'm sure I think obviously a leader is constantly listening, constantly taking in information and needs to be willing to adjust."
+    },
+    {
+      "start": 958.44,
+      "end": 968.38,
+      "text": "And so it's also important kind of as you create your own positions and your philosophies that you're still always sort of leaving wiggle room for for new information."
+    },
+    {
+      "start": 968.38,
+      "end": 972.54,
+      "text": "You know, that's that's a seemingly in current American politics."
+    },
+    {
+      "start": 972.54,
+      "end": 980.18,
+      "text": "There's a dynamic of absolutism and and just like I absolutely know the right way and nothing can change my mind."
+    },
+    {
+      "start": 980.18,
+      "end": 983.38,
+      "text": "And even obvious facts that everyone can see."
+    },
+    {
+      "start": 983.84,
+      "end": 986.36,
+      "text": "I'm going to ignore those, you know, and keep moving."
+    },
+    {
+      "start": 986.46,
+      "end": 987.66,
+      "text": "Well, that's just that's just crazy."
+    },
+    {
+      "start": 987.66,
+      "end": 994.34,
+      "text": "I mean, like you have to always sort of be willing to accept that life has a lot of gray in it."
+    },
+    {
+      "start": 994.46,
+      "end": 995.58,
+      "text": "It's not all black and white."
+    },
+    {
+      "start": 996.3,
+      "end": 1013.42,
+      "text": "And every I always use if you really probably studied my language, especially in prepared remarks, you know, you probably see a lot of words of there are a lot of words that are designed to leave those spaces for change and evolution."
+    },
+    {
+      "start": 1013.42,
+      "end": 1024.34,
+      "text": "You know, like it's OK, I think, for a leader to speak in sort of tones of gray, you know, you know, this is probably the best thing to do."
+    },
+    {
+      "start": 1024.42,
+      "end": 1027.48,
+      "text": "As far as we know today, this is this is what we should do."
+    },
+    {
+      "start": 1027.58,
+      "end": 1031.74,
+      "text": "You know, I mean, like you just have to allow yourself new information."
+    },
+    {
+      "start": 1031.98,
+      "end": 1040.06,
+      "text": "So I think this is a long way of answering your question, though, that, yes, I'm sure I'm absolutely heard things that I needed to hear that did not necessarily align with what I believed at that moment."
+    },
+    {
+      "start": 1040.06,
+      "end": 1043.36,
+      "text": "But hopefully I reacted appropriately."
+    },
+    {
+      "start": 1043.78,
+      "end": 1047.92,
+      "text": "Sometimes it takes like a few hours or days to really digest what you've just heard."
+    },
+    {
+      "start": 1048.18,
+      "end": 1053.82,
+      "text": "But but I am sure I have done some 180s from time to time because just new information."
+    },
+    {
+      "start": 1054.04,
+      "end": 1055.1,
+      "text": "Yeah, it's really good."
+    },
+    {
+      "start": 1055.32,
+      "end": 1057.28,
+      "text": "Well, at this time, we're going to take a brief break."
+    },
+    {
+      "start": 1057.56,
+      "end": 1058.46,
+      "text": "Come right back."
+    },
+    {
+      "start": 1058.54,
+      "end": 1060.92,
+      "text": "But we're so enjoying this this podcast right now."
+    },
+    {
+      "start": 1061.2,
+      "end": 1062.04,
+      "text": "I hope you guys are, too."
+    },
+    {
+      "start": 1062.16,
+      "end": 1063.8,
+      "text": "We'll be back in a few minutes."
+    },
+    {
+      "start": 1064.02,
+      "end": 1066.06,
+      "text": "We can't wait to finish this interview out."
+    },
+    {
+      "start": 1066.36,
+      "end": 1068.04,
+      "text": "Welcome back to Voices of OKC."
+    },
+    {
+      "start": 1068.16,
+      "end": 1069.36,
+      "text": "Again, my name is Jed Chappell."
+    },
+    {
+      "start": 1069.36,
+      "end": 1070.66,
+      "text": "Today, I'm the co-host."
+    },
+    {
+      "start": 1070.86,
+      "end": 1072.34,
+      "text": "We are host is Jordan Arnett."
+    },
+    {
+      "start": 1072.44,
+      "end": 1073.66,
+      "text": "He's doing a phenomenal job."
+    },
+    {
+      "start": 1073.76,
+      "end": 1076.66,
+      "text": "We are with Mayor Holt and we're going to jump right back into it."
+    },
+    {
+      "start": 1076.66,
+      "end": 1077.46,
+      "text": "Jordan, take it away."
+    },
+    {
+      "start": 1077.72,
+      "end": 1078.18,
+      "text": "Yeah, 100 percent."
+    },
+    {
+      "start": 1078.26,
+      "end": 1080.16,
+      "text": "So I want to get the topic of the youth."
+    },
+    {
+      "start": 1080.5,
+      "end": 1081.42,
+      "text": "You know, obviously, it's 2018."
+    },
+    {
+      "start": 1081.72,
+      "end": 1084.6,
+      "text": "The youth has been very important in the diversity of the community as well."
+    },
+    {
+      "start": 1084.66,
+      "end": 1091.52,
+      "text": "So I would say as a leader in position like yourself, what are like big things that the youth should probably focus on now?"
+    },
+    {
+      "start": 1091.76,
+      "end": 1092.92,
+      "text": "So they're prepared for the future."
+    },
+    {
+      "start": 1092.92,
+      "end": 1099.72,
+      "text": "Well, I want young people to be civically aware."
+    },
+    {
+      "start": 1102.04,
+      "end": 1103.94,
+      "text": "You know, I used to say read the newspaper."
+    },
+    {
+      "start": 1104.14,
+      "end": 1105.52,
+      "text": "I recognize it's getting harder and harder."
+    },
+    {
+      "start": 1105.72,
+      "end": 1107.72,
+      "text": "They may not be printing one much longer."
+    },
+    {
+      "start": 1107.72,
+      "end": 1117.08,
+      "text": "But like whatever, get some news from a respected source, not just social media, which can be full of nonsense."
+    },
+    {
+      "start": 1117.08,
+      "end": 1121.06,
+      "text": "And so be aware of your community."
+    },
+    {
+      "start": 1121.4,
+      "end": 1140.48,
+      "text": "Recognize that these things that you may find kind of boring are the things, however, that make your life possible, you know, and that the more of us that are invested in those things, the better for our ability to continue the structure that makes what you do here in America possible."
+    },
+    {
+      "start": 1140.48,
+      "end": 1149.08,
+      "text": "I think also, though, at the same time, you know, sometimes people say, oh, man, like go vote and get active and like you're going to affect change."
+    },
+    {
+      "start": 1149.08,
+      "end": 1160.08,
+      "text": "And then and then people get disappointed when they realize, I mean, of course, their vote counts, but it is one of a million or or or the thing they want to accomplish can happen."
+    },
+    {
+      "start": 1160.08,
+      "end": 1161.3,
+      "text": "But it's going to take like five years."
+    },
+    {
+      "start": 1161.3,
+      "end": 1163.28,
+      "text": "And I don't have you know, I just want to send a tweet, you know."
+    },
+    {
+      "start": 1163.28,
+      "end": 1175.52,
+      "text": "So at the same time, as I I empower you to go make change, I also caution you to understand that you have to like be realistic about it."
+    },
+    {
+      "start": 1176.18,
+      "end": 1181.28,
+      "text": "You absolutely can change the world, but like it's going to take time and it's going to take persistence and patience."
+    },
+    {
+      "start": 1182.68,
+      "end": 1185.72,
+      "text": "And I mean, there's no better example of that than Oklahoma City story."
+    },
+    {
+      "start": 1186.08,
+      "end": 1191.22,
+      "text": "It can look maybe from the outside like this is an overnight success that we're kind of like on top of the world right now."
+    },
+    {
+      "start": 1191.22,
+      "end": 1195.96,
+      "text": "But that took 30 years, really, you know, of investment and vision."
+    },
+    {
+      "start": 1196.36,
+      "end": 1208.0,
+      "text": "And every ribbon I cut in Oklahoma City on every cool project, you know, took took many years and like hundreds, if not thousands of people all working on it in some form or fashion."
+    },
+    {
+      "start": 1208.22,
+      "end": 1210.22,
+      "text": "So like we were just talking about the arena."
+    },
+    {
+      "start": 1210.42,
+      "end": 1221.2,
+      "text": "OK, so I started that conversation publicly around 2021 and then we voted in 2023 and then we're going to break ground in 2026 and we're going to cut the ribbon in 2028."
+    },
+    {
+      "start": 1221.22,
+      "end": 1229.38,
+      "text": "I mean, that's that's like the time it would take you to go to middle school and high school, like just from beginning to end of that one project."
+    },
+    {
+      "start": 1229.38,
+      "end": 1232.96,
+      "text": "But that's what it requires to actually get things done."
+    },
+    {
+      "start": 1233.2,
+      "end": 1241.52,
+      "text": "So sometimes it's like it's like young people have half the right idea, like they want to get involved, but they but maybe lack the patience."
+    },
+    {
+      "start": 1241.72,
+      "end": 1244.52,
+      "text": "And so it's like I don't again always want to tell people what they want to hear."
+    },
+    {
+      "start": 1244.66,
+      "end": 1251.34,
+      "text": "I need to hear. And what you need to hear is like you can affect change, but like it's going to take time and that's OK."
+    },
+    {
+      "start": 1251.34,
+      "end": 1261.1,
+      "text": "Just just stick with it, you know, but be an active participant in our city and in our state and our country."
+    },
+    {
+      "start": 1262.14,
+      "end": 1268.32,
+      "text": "You know, I would also say, I mean, this is, you know, a city that I think does care about young people."
+    },
+    {
+      "start": 1268.32,
+      "end": 1275.06,
+      "text": "And I can think of several examples of investments we're making or have made over the last decade in the young people of our city."
+    },
+    {
+      "start": 1275.06,
+      "end": 1279.32,
+      "text": "You know, the big engine of change in Oklahoma City has been the MAPS initiative."
+    },
+    {
+      "start": 1279.56,
+      "end": 1285.6,
+      "text": "So this is metropolitan area projects. It's a temporary sales tax that we've approved now four times."
+    },
+    {
+      "start": 1285.96,
+      "end": 1296.8,
+      "text": "And the fourth iteration that I developed and led the charge on in 2019 has youth centers that are going to go into especially challenged parts of our city,"
+    },
+    {
+      "start": 1296.8,
+      "end": 1304.32,
+      "text": "like where the crime rates are higher, where incomes are lower, like where kids really need the most support."
+    },
+    {
+      "start": 1304.32,
+      "end": 1308.5,
+      "text": "And you may think, well, surely we already have stuff like that."
+    },
+    {
+      "start": 1308.52,
+      "end": 1318.08,
+      "text": "And we kind of do, but nothing like this. This is these are going to be really, really nice for, you know, you you've seen what we can do at our best."
+    },
+    {
+      "start": 1318.3,
+      "end": 1320.94,
+      "text": "Across the street from PC North is the Senior Wellness Center."
+    },
+    {
+      "start": 1321.18,
+      "end": 1324.28,
+      "text": "Yes. That was built by MAPS 3. That's a beautiful facility."
+    },
+    {
+      "start": 1324.28,
+      "end": 1329.62,
+      "text": "Now, obviously, that is for seniors. I don't mean seniors in high school. It's for senior citizens."
+    },
+    {
+      "start": 1329.72,
+      "end": 1331.7,
+      "text": "We sneak an injury. No worries."
+    },
+    {
+      "start": 1331.7,
+      "end": 1337.94,
+      "text": "We want to have facilities like that for young people. And so and so that's what these youth centers are going to be."
+    },
+    {
+      "start": 1339.24,
+      "end": 1348.2,
+      "text": "I think that, you know, it's really critical that we that we are always thinking about how our decisions will impact ultimately the young people,"
+    },
+    {
+      "start": 1348.2,
+      "end": 1353.46,
+      "text": "because that's who obviously will experience it and reckon with our decisions more than anybody else."
+    },
+    {
+      "start": 1353.46,
+      "end": 1358.42,
+      "text": "We're sitting we're sitting here right now in the mayor's conference room."
+    },
+    {
+      "start": 1358.76,
+      "end": 1363.8,
+      "text": "And when I took office eight years ago, this room had all the pictures of the old mayors."
+    },
+    {
+      "start": 1365.04,
+      "end": 1368.22,
+      "text": "And that's the way it had been for as long as anybody could remember."
+    },
+    {
+      "start": 1368.22,
+      "end": 1373.3,
+      "text": "So it's a bunch of old white guys and and Patience Ladding, our first and only female mayor."
+    },
+    {
+      "start": 1373.8,
+      "end": 1381.2,
+      "text": "So I respectfully relocated those and replaced them with pictures of Oklahoma City kids."
+    },
+    {
+      "start": 1381.26,
+      "end": 1389.86,
+      "text": "So that's what you see here. So, I mean, it's really important that I think when we make important decisions in this room and this room is hosted a lot of important conversations."
+    },
+    {
+      "start": 1389.86,
+      "end": 1395.94,
+      "text": "That we have the kids who are affected the most gazing down at us from these walls."
+    },
+    {
+      "start": 1396.08,
+      "end": 1401.76,
+      "text": "And I also picked models. I mean, these are all like my kids actually are down there."
+    },
+    {
+      "start": 1402.0,
+      "end": 1405.9,
+      "text": "But also they're like kids of friends and stuff. Yeah, people I knew."
+    },
+    {
+      "start": 1406.58,
+      "end": 1409.34,
+      "text": "So when I say models, I don't mean like I call it a modeling agency."
+    },
+    {
+      "start": 1409.34,
+      "end": 1416.14,
+      "text": "But we picked we picked models that are demographically representative of Oklahoma City."
+    },
+    {
+      "start": 1416.14,
+      "end": 1420.06,
+      "text": "And so Oklahoma City is a very diverse city, especially among the youth."
+    },
+    {
+      "start": 1420.16,
+      "end": 1422.62,
+      "text": "Sixty percent of Oklahoma City kids are non-white."
+    },
+    {
+      "start": 1423.94,
+      "end": 1429.68,
+      "text": "But of course, we've had 35 different people serve as mayor and every single one was white. Right."
+    },
+    {
+      "start": 1429.76,
+      "end": 1434.96,
+      "text": "So that was another thing. It's like, I want you to look at these walls and say, well, I can't ever be in the leadership of the city."
+    },
+    {
+      "start": 1435.04,
+      "end": 1439.14,
+      "text": "Look, look who all has been serving. I want you to look at these walls and see yourself, you know."
+    },
+    {
+      "start": 1439.16,
+      "end": 1443.56,
+      "text": "And I want everybody else to see like what the city's future really looks like."
+    },
+    {
+      "start": 1443.56,
+      "end": 1451.06,
+      "text": "So anyways, that's an example, though, of how a focus on youth really lays a foundation for everything we do here."
+    },
+    {
+      "start": 1451.48,
+      "end": 1452.9,
+      "text": "Truly inspirational, 100 percent."
+    },
+    {
+      "start": 1453.54,
+      "end": 1467.56,
+      "text": "And on the topic of nonprofits and like youth community centers, I would say how important do you say those centers can be and possibly will be in like helping development students who maybe don't have funding or both parents or underfunded kids like that?"
+    },
+    {
+      "start": 1467.56,
+      "end": 1472.82,
+      "text": "Yeah. So obviously what you're doing is exactly what we're trying to replicate in Oklahoma City."
+    },
+    {
+      "start": 1473.04,
+      "end": 1476.74,
+      "text": "And forgive me for sometimes thanking you as being as being outside of our city limits."
+    },
+    {
+      "start": 1476.9,
+      "end": 1478.92,
+      "text": "I know. Totally fine. Totally fine."
+    },
+    {
+      "start": 1478.98,
+      "end": 1481.4,
+      "text": "Because obviously you're serving a lot of Oklahoma City residents."
+    },
+    {
+      "start": 1481.4,
+      "end": 1482.46,
+      "text": "Sure. Sure. Thank you."
+    },
+    {
+      "start": 1482.46,
+      "end": 1485.0,
+      "text": "But but but you're really kind of the model."
+    },
+    {
+      "start": 1485.0,
+      "end": 1492.76,
+      "text": "I mean, that we're just trying to replicate with with our own dollars and obviously replicate around the city,"
+    },
+    {
+      "start": 1492.76,
+      "end": 1505.64,
+      "text": "because what you do, what what other similar enterprises do is give kids an outlet, you know, something besides getting into mischief, you know,"
+    },
+    {
+      "start": 1505.64,
+      "end": 1509.44,
+      "text": "like or I mean or just playing video games all day."
+    },
+    {
+      "start": 1509.44,
+      "end": 1512.58,
+      "text": "Yeah, that would be the best case scenario in some cases."
+    },
+    {
+      "start": 1512.58,
+      "end": 1521.5,
+      "text": "But but obviously a lot of a lot of crime in any city is actually being perpetrated by young people, you know, by juveniles."
+    },
+    {
+      "start": 1522.04,
+      "end": 1524.66,
+      "text": "And your brains are literally still forming."
+    },
+    {
+      "start": 1526.04,
+      "end": 1530.18,
+      "text": "You seem like yours has gotten a farther along than than maybe some of your peers."
+    },
+    {
+      "start": 1530.32,
+      "end": 1531.5,
+      "text": "But I think you're right about that."
+    },
+    {
+      "start": 1531.5,
+      "end": 1542.46,
+      "text": "But but you need support, you know, and you need you need adults to give you some, you know, some productive pathways."
+    },
+    {
+      "start": 1543.02,
+      "end": 1547.76,
+      "text": "And that's what centers like yours and you centers like we're planning to build provide."
+    },
+    {
+      "start": 1547.96,
+      "end": 1550.14,
+      "text": "Right. It's just like something to do after school."
+    },
+    {
+      "start": 1551.2,
+      "end": 1556.48,
+      "text": "It might just be fun, but it also might be actually exposing you to some future career options."
+    },
+    {
+      "start": 1556.92,
+      "end": 1560.52,
+      "text": "But but most of all, it's just giving you some definition."
+    },
+    {
+      "start": 1560.52,
+      "end": 1561.94,
+      "text": "It's giving you some structure."
+    },
+    {
+      "start": 1562.36,
+      "end": 1572.24,
+      "text": "It's the same way we feel about like sports teams, you know, things like Fields and Futures and stuff like supporting athletic programs in Oklahoma City is not because we want to create a bunch of professional athletes."
+    },
+    {
+      "start": 1572.24,
+      "end": 1574.18,
+      "text": "I mean, that'd be great, but that's not realistic."
+    },
+    {
+      "start": 1574.18,
+      "end": 1579.46,
+      "text": "What we're really trying to do with youth centers, efforts like yours, sports programs."
+    },
+    {
+      "start": 1579.46,
+      "end": 1590.96,
+      "text": "It's all about just giving young people some structure because we find that people who are engaged in, you know, facilities like this, programs like this, they just they get better grades."
+    },
+    {
+      "start": 1590.96,
+      "end": 1592.02,
+      "text": "They go to college."
+    },
+    {
+      "start": 1592.12,
+      "end": 1593.7,
+      "text": "They live more productive lives."
+    },
+    {
+      "start": 1593.7,
+      "end": 1596.68,
+      "text": "It's just it's just an objective statistical reality."
+    },
+    {
+      "start": 1596.68,
+      "end": 1598.08,
+      "text": "So it's really important."
+    },
+    {
+      "start": 1598.08,
+      "end": 1599.38,
+      "text": "Yeah, that's good."
+    },
+    {
+      "start": 1599.84,
+      "end": 1600.04,
+      "text": "Yeah."
+    },
+    {
+      "start": 1600.12,
+      "end": 1609.86,
+      "text": "You know, one thing that we have noticed at City Center at the center there, you know, having a safe dignifying space has been a game changer for a lot of young people."
+    },
+    {
+      "start": 1610.0,
+      "end": 1618.54,
+      "text": "You know, we realize there's a lot of soft skills that aren't being developed, you know, and things like that that are critical for for their growth and development and things like that."
+    },
+    {
+      "start": 1618.54,
+      "end": 1628.24,
+      "text": "So we're really excited that those things are happening at other centers now as well and that young people are getting that access to those opportunities because I just I truly believe this."
+    },
+    {
+      "start": 1628.32,
+      "end": 1642.3,
+      "text": "I know you do, too, Mayor Holt, because when I heard the story originally when you first came to office about these pictures, it just moved me to tears, honestly, because I thought, yes, you know, we have someone in leadership that realizes this is our future."
+    },
+    {
+      "start": 1642.3,
+      "end": 1647.6,
+      "text": "You know, they're the people that are going to be, you know, either taking over offices or whatever the case may be."
+    },
+    {
+      "start": 1647.6,
+      "end": 1649.44,
+      "text": "So, first of all, thank you for that."
+    },
+    {
+      "start": 1649.58,
+      "end": 1657.28,
+      "text": "But but we've seen this just evolve into a thing where young people are really taking hold of these opportunities to move forward."
+    },
+    {
+      "start": 1657.4,
+      "end": 1662.02,
+      "text": "And we hope that we have young people that launch their own podcast out of this scenario right here."
+    },
+    {
+      "start": 1662.14,
+      "end": 1672.22,
+      "text": "So anyway, thank you so much for for your position on just treating people with dignity, respect and care so that we can all move forward together."
+    },
+    {
+      "start": 1672.34,
+      "end": 1673.24,
+      "text": "So thank you for that."
+    },
+    {
+      "start": 1673.3,
+      "end": 1674.14,
+      "text": "I really appreciate that."
+    },
+    {
+      "start": 1674.2,
+      "end": 1675.18,
+      "text": "Thanks for what you do."
+    },
+    {
+      "start": 1675.34,
+      "end": 1676.0,
+      "text": "Yeah, absolutely."
+    },
+    {
+      "start": 1676.0,
+      "end": 1685.76,
+      "text": "And I'd say before we close, my last question would just be if you had any advice to give to up and coming youth, whether it's high schoolers, middle schoolers, just what would that advice honestly just be?"
+    },
+    {
+      "start": 1686.98,
+      "end": 1690.9,
+      "text": "Well, I think I mean, there's a lot of things I could probably."
+    },
+    {
+      "start": 1690.9,
+      "end": 1706.06,
+      "text": "But I think I think maybe if I had just one thing to say, it would be that you can grow up in Oklahoma City and you can grow up in northwest Oklahoma City, which is kind of our stomping grounds and literally be anything you want."
+    },
+    {
+      "start": 1706.06,
+      "end": 1730.2,
+      "text": "I mean, we have from northwest Oklahoma City, we have famous actors, we have famous athletes, we have famous politicians, but we also have, you know, people that are maybe a little less high profile, but nevertheless, incredibly successful, you know, great teachers, great writers, great, you know, corporate successes."
+    },
+    {
+      "start": 1730.2,
+      "end": 1741.92,
+      "text": "I mean, you name it, like there's there's there's there's there's an example out of our neck of the woods for every single conceivable career path you could imagine."
+    },
+    {
+      "start": 1741.92,
+      "end": 1745.98,
+      "text": "And so I just think and maybe it's less so today than it used to be."
+    },
+    {
+      "start": 1746.06,
+      "end": 1754.74,
+      "text": "But certainly when I was growing up here, it could feel like, well, I'm kind of in some alternate universe outside of American pop culture."
+    },
+    {
+      "start": 1754.98,
+      "end": 1758.96,
+      "text": "Yeah, I'm sure I'm no nothing ever happens here."
+    },
+    {
+      "start": 1759.06,
+      "end": 1766.76,
+      "text": "No one ever comes from here, you know, but but that was probably not particularly true then, but it is definitely not true now."
+    },
+    {
+      "start": 1766.76,
+      "end": 1780.62,
+      "text": "It is absolutely the reality that you can be whatever you want and you're more likely to be whatever you want if you work hard, engage in programs like this, take advantage of the opportunities that are being given to you."
+    },
+    {
+      "start": 1781.46,
+      "end": 1786.84,
+      "text": "But there are these opportunities are presenting pathways to to success."
+    },
+    {
+      "start": 1787.4,
+      "end": 1792.54,
+      "text": "And like, I mean, again, not everything is about this is maybe a fallacy of the young these days."
+    },
+    {
+      "start": 1792.82,
+      "end": 1794.08,
+      "text": "Not everything is about being famous."
+    },
+    {
+      "start": 1794.08,
+      "end": 1798.64,
+      "text": "That's not like that's not the only definition of success by any means."
+    },
+    {
+      "start": 1799.88,
+      "end": 1806.02,
+      "text": "What I mean is to say whatever it is you want to be like, it can happen for you right here."
+    },
+    {
+      "start": 1806.54,
+      "end": 1813.88,
+      "text": "And and so I just think don't don't be discouraged and don't think that your options are closed to you."
+    },
+    {
+      "start": 1813.88,
+      "end": 1815.66,
+      "text": "But also it's not going to just happen."
+    },
+    {
+      "start": 1815.78,
+      "end": 1817.5,
+      "text": "I mean, you got to like you got to make it happen."
+    },
+    {
+      "start": 1817.5,
+      "end": 1824.98,
+      "text": "But but you have an opportunity here through a program like this to to really seize those opportunities."
+    },
+    {
+      "start": 1824.98,
+      "end": 1827.26,
+      "text": "And so jump on them."
+    },
+    {
+      "start": 1827.3,
+      "end": 1828.12,
+      "text": "Sounds like you are."
+    },
+    {
+      "start": 1828.16,
+      "end": 1831.8,
+      "text": "So you're inspirational and I'm glad I could get this time with you today."
+    },
+    {
+      "start": 1831.94,
+      "end": 1832.36,
+      "text": "Same here."
+    },
+    {
+      "start": 1832.42,
+      "end": 1833.16,
+      "text": "I'm glad for this opportunity."
+    },
+    {
+      "start": 1833.24,
+      "end": 1833.9,
+      "text": "Thank you so much."
+    },
+    {
+      "start": 1834.18,
+      "end": 1834.56,
+      "text": "Thank you."
+    },
+    {
+      "start": 1834.7,
+      "end": 1835.0,
+      "text": "Awesome."
+    },
+    {
+      "start": 1835.1,
+      "end": 1837.4,
+      "text": "Well, Mayor Holt, thank you so much for your time today."
+    },
+    {
+      "start": 1837.4,
+      "end": 1840.32,
+      "text": "And thank you, Jordan, my incredible co-host."
+    },
+    {
+      "start": 1840.42,
+      "end": 1841.8,
+      "text": "You've done a great job."
+    },
+    {
+      "start": 1841.8,
+      "end": 1844.2,
+      "text": "And we're just so honored to be here with you at City Hall."
+    },
+    {
+      "start": 1844.36,
+      "end": 1845.62,
+      "text": "And thank you for your leadership."
+    },
+    {
+      "start": 1846.02,
+      "end": 1852.84,
+      "text": "We really genuinely are grateful for your leadership and all you've done over the last couple of years."
+    },
+    {
+      "start": 1852.98,
+      "end": 1853.46,
+      "text": "Now you will."
+    },
+    {
+      "start": 1853.6,
+      "end": 1853.92,
+      "text": "I'm sorry."
+    },
+    {
+      "start": 1854.26,
+      "end": 1854.54,
+      "text": "Several."
+    },
+    {
+      "start": 1854.7,
+      "end": 1855.54,
+      "text": "A lot of long time."
+    },
+    {
+      "start": 1855.66,
+      "end": 1860.28,
+      "text": "But your third term, you know, congratulations on a landslide success for that as well."
+    },
+    {
+      "start": 1860.34,
+      "end": 1863.86,
+      "text": "And yeah, we're just honored to be friends with the mayor."
+    },
+    {
+      "start": 1864.54,
+      "end": 1865.66,
+      "text": "We absolutely are."
+    },
+    {
+      "start": 1865.84,
+      "end": 1867.56,
+      "text": "Thank you for what you do."
+    },
+    {
+      "start": 1867.56,
+      "end": 1870.56,
+      "text": "Thanks for your many years of dedication to our community."
+    },
+    {
+      "start": 1870.74,
+      "end": 1871.0,
+      "text": "Thank you."
+    },
+    {
+      "start": 1871.0,
+      "end": 1876.46,
+      "text": "And I think of all the lives that you've changed and the lives you've saved, literally, through your program."
+    },
+    {
+      "start": 1876.8,
+      "end": 1878.0,
+      "text": "And I wish you all the best."
+    },
+    {
+      "start": 1878.08,
+      "end": 1878.78,
+      "text": "You're very impressive."
+    },
+    {
+      "start": 1879.0,
+      "end": 1882.34,
+      "text": "You're clearly carrying forward a proud tradition at Putnam City North."
+    },
+    {
+      "start": 1883.28,
+      "end": 1886.36,
+      "text": "So stay in touch and let us know how we can support you."
+    },
+    {
+      "start": 1886.44,
+      "end": 1886.94,
+      "text": "And good luck."
+    },
+    {
+      "start": 1887.06,
+      "end": 1887.2,
+      "text": "Sure."
+    },
+    {
+      "start": 1887.26,
+      "end": 1887.6,
+      "text": "100%."
+    },
+    {
+      "start": 1887.6,
+      "end": 1888.18,
+      "text": "Thank you so much."
+    },
+    {
+      "start": 1888.78,
+      "end": 1889.22,
+      "text": "All right."
+    },
+    {
+      "start": 1889.26,
+      "end": 1889.86,
+      "text": "Thank you, sir."
+    },
+    {
+      "start": 1890.04,
+      "end": 1890.44,
+      "text": "That's a wrap."
+    },
+    {
+      "start": 1890.44,
+      "end": 1905.08,
+      "text": "Good luck."
+    }
+  ]
+}

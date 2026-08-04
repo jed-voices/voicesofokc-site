@@ -1,0 +1,1546 @@
+{
+  "episode_title": "Use Wisely: Adam Coury on Leadership, Learning, and the Next Generation",
+  "episode_slug": "use-wisely-adam-coury-on-leadership-learning-and-the-next-generation",
+  "source": "Published episode audio",
+  "language": "en",
+  "review_status": "machine-generated",
+  "generated_at": "2026-08-04T10:04:30+00:00",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 27.0,
+      "text": "It's good to have you here, bro. And I can't wait to hear more about all the things you have going on."
+    },
+    {
+      "start": 27.0,
+      "end": 33.0,
+      "text": "You know, how long ago was it that I came on your podcast? Was it the backpack theory that was back in?"
+    },
+    {
+      "start": 33.0,
+      "end": 37.0,
+      "text": "Yeah, I think it was maybe two, two and a half years ago."
+    },
+    {
+      "start": 37.0,
+      "end": 42.0,
+      "text": "And that was when we kind of met through maybe it was Chris Murray or some other people randomly."
+    },
+    {
+      "start": 42.0,
+      "end": 50.0,
+      "text": "I think it was Chris Murray. It was that group. Yeah. Because we went to some, I went to something that you were at and I think Chris introduced us. Yeah. So that's awesome. Such a great time."
+    },
+    {
+      "start": 50.0,
+      "end": 59.0,
+      "text": "Honestly, man, that was one of the things that got me curious about even podcasting. And then I met Mike Hearn with This Is Oklahoma."
+    },
+    {
+      "start": 59.0,
+      "end": 71.0,
+      "text": "I don't know if you know Mike or not, but he's awesome guy, man. And I was on his podcast as well. And I was like, man, I really feel like this might be something that's beneficial for students here and families and, you know, the community."
+    },
+    {
+      "start": 71.0,
+      "end": 80.0,
+      "text": "So thanks for your inspiration. Appreciate it, man. Yeah, of course. My I've had Mike on the podcast before and I love what he does. You know, he told me, which I think you and I were talking about before we came on the podcast."
+    },
+    {
+      "start": 80.0,
+      "end": 95.48,
+      "text": "It's all about getting the reps in. Yeah. Like the more you get the reps in, like the more natural it becomes, the more you kind of find your voice. The my first thing, whenever I first started podcasting, I would talk like so fast and like I would, and I've watched some of your stuff so far. It's really, really good."
+    },
+    {
+      "start": 95.56,
+      "end": 102.0,
+      "text": "I love, I love what you guys are doing with integrating the students into it and investing in the future to give them an opportunity."
+    },
+    {
+      "start": 102.0,
+      "end": 131.98,
+      "text": "Yeah, man, we're excited. You know, we're even excited to the point where, you know, at the end of at a certain point when they've come along to a certain point, we really hope to be able to conceptualize a podcast for them. And, you know, they have a studio right here to do it in. So why not? You know, so anyway, yeah, thanks, man. I appreciate you saying that. It's been so much fun. Just the people we've gotten to connect to, you know, and even see these kids be inspired by, you know, face to face here in the room. So really cool. And yeah, man."
+    },
+    {
+      "start": 132.0,
+      "end": 148.58,
+      "text": "So thanks again for giving us a little bit of inspiration, but what do you guys, so you got a book out right now. I know we're going to get to that. There's so much stuff we want to get to, but really quickly, man, we always like to ask people just a real quick sketch of what it looked like for you growing up. So you grew up here in Oklahoma, right?"
+    },
+    {
+      "start": 148.94,
+      "end": 160.12,
+      "text": "I, yeah, well, kind of, we, I'm an Okie. So technically I'm from Hopewell, Virginia originally. My dad moved here when we were really, really young. I think I was nine, eight or nine."
+    },
+    {
+      "start": 160.12,
+      "end": 184.24,
+      "text": "Okay. And we were part of a homeschool community and there was a very large homeschool community here in Oklahoma. Yeah. And so my dad had a distribution company on the East coast and ended up selling that and wanted to go into ministry full time. Yeah. And so we ended up moving to Oklahoma. And so I grew up here. I was homeschooled all the way up until my junior year in high school. Ended up going to Oklahoma Christian high school and graduated from there."
+    },
+    {
+      "start": 184.24,
+      "end": 195.66,
+      "text": "That's awesome, man. Very cool. Yeah. So I, you said Hopewell, Virginia. I lived in Smithfield, Virginia for a little bit growing up when my, after my father passed, my biological father, we moved to Virginia."
+    },
+    {
+      "start": 195.66,
+      "end": 208.66,
+      "text": "But so anyway, I lived right across the, on the other side of the bridge of the Newport news. So area. So anyway, it was kind of a cool, I loved Virginia back then. Do you ever miss it? Do you ever go back to that area or have no need to, or?"
+    },
+    {
+      "start": 208.66,
+      "end": 222.56,
+      "text": "We go back every once in a while, you know, um, I miss the trees. Yeah. Yeah. So I miss the trees and being close to the beach. Right. You know, I mean, we grew up and we used to go to the beach multiple times a year."
+    },
+    {
+      "start": 222.56,
+      "end": 238.64,
+      "text": "Yeah. It's fine, man. Gorgeous. And then, you know, in Oklahoma, we think trees are trees and then they go to the East coast and they have trees, man, like real trees. Yeah. Yeah. Yeah. And it's got, I'll tell you, I'll tell you a quick story. It's funny. We grew up right on the Appomattox river. Um, you know, where you had a lot of"
+    },
+    {
+      "start": 238.66,
+      "end": 266.66,
+      "text": "lot of civil war artifacts. And so we used to go out, we lived on 20 acres. Okay. And so one of the really cool memories that I remember growing up is we would literally would just go out into the acreage and you could go shuffle around. There were all like remnants of a fort. Okay. We found a bunch of arrowheads, a bunch of plaques. Oh yeah. It was kind of cool. Like growing up in that kind of environment. And we always, we always had land and everything, but my parents always had a dream of like having a farm and have an acreage."
+    },
+    {
+      "start": 266.66,
+      "end": 283.3,
+      "text": "And so whenever we moved, it's funny growing up in my, in my bedroom, we actually had a painting of a scene that looked like, it was more like Montana. Cause there's mountains in the background. We don't have mountains, mountains here. But, um, we had this massive mural on my wall in my bedroom and then randomly got ended up plopping us in Oklahoma."
+    },
+    {
+      "start": 283.56,
+      "end": 296.62,
+      "text": "That's really cool, man. But yeah, I love it. I love Oklahoma, man. You know, it's different. You know, it's definitely, you know, I hear people talk about, Oh, it's just flat and dry and all these different things. But man, if you go to certain areas in Oklahoma in the, I think Eastern Oklahoma might"
+    },
+    {
+      "start": 296.62,
+      "end": 308.46,
+      "text": "be a good example of that, but man, it's beautiful out there. It's there's mountains and hills and, uh, there's some areas that are really, really beautiful in Oklahoma, but yeah, there is nothing like some of those trees that you'll see on the East coast."
+    },
+    {
+      "start": 308.46,
+      "end": 322.52,
+      "text": "And, um, some of those States like that, Seattle, I'm sure has some huge, you know, trees. California has a lot of big redwoods, right? Yeah. So I've never gotten to see those up close, but, um, my wife, Julie, she grew up. Well, yeah, she grew up in California."
+    },
+    {
+      "start": 322.52,
+      "end": 341.72,
+      "text": "So she, I think she had shown me some pictures of her standing next to some of those huge trees there and that it's unbelievable. Just, you know, kind of like that, just all of what God's creation can look like, you know, but that's really cool, man. So, so tell me about what you have going on. I know now the podcast, you're still in the podcast, right? And that's going well."
+    },
+    {
+      "start": 342.06,
+      "end": 352.4,
+      "text": "Yeah. I just had, you know, I took a little break for a little bit, uh, just kind of a season business got really busy and I kind of pivoted and God kind of had me working on"
+    },
+    {
+      "start": 352.4,
+      "end": 358.04,
+      "text": "some other stuff. And then here recently I've kind of refocused, had Gary Brooks on the podcast,"
+    },
+    {
+      "start": 358.2,
+      "end": 363.84,
+      "text": "first national talking about, you know, kind of what he's doing whenever it comes to the healthy city, healthy city."
+    },
+    {
+      "start": 364.56,
+      "end": 366.3,
+      "text": "I love that he's doing that. That's really cool."
+    },
+    {
+      "start": 366.66,
+      "end": 371.1,
+      "text": "Yeah. It's wild. You know, and on that podcast, we were kind of, we kind of got into medicine and AI and"
+    },
+    {
+      "start": 371.1,
+      "end": 377.04,
+      "text": "yeah, that's really, uh, so I'm still doing the podcast stuff. It's a little bit more focused and I'm not doing"
+    },
+    {
+      "start": 377.04,
+      "end": 382.04,
+      "text": "as many, but I just love having the conversations. You know, I, one of the things I don't think I shared with you"
+    },
+    {
+      "start": 382.04,
+      "end": 387.38,
+      "text": "and the impact of a podcast is I can't tell you how many times, like, you know, I've, I've had a client"
+    },
+    {
+      "start": 387.38,
+      "end": 393.48,
+      "text": "cause I do executive coaching and I do business consulting. And, um, so I'll run into guys that"
+    },
+    {
+      "start": 393.48,
+      "end": 396.98,
+      "text": "are going through a rough patch or they're, they're looking for redemption or hope. And I've actually"
+    },
+    {
+      "start": 396.98,
+      "end": 400.92,
+      "text": "told them to go watch the podcast we did. Yeah. There you go. Yeah. It's a great resource."
+    },
+    {
+      "start": 401.06,
+      "end": 406.04,
+      "text": "You don't understand the impact of a story, you know, no doubt. I've had, it's so cool too. Like I got,"
+    },
+    {
+      "start": 406.04,
+      "end": 410.4,
+      "text": "you know, I've had Ben Fuller on my podcast. Oh, very cool. He was really, really good. You know,"
+    },
+    {
+      "start": 410.4,
+      "end": 413.5,
+      "text": "so it's just, it's, it's cool. I mean, it's an honor sitting here. I mean, you know, I know y'all"
+    },
+    {
+      "start": 413.5,
+      "end": 419.42,
+      "text": "had the mayor on here recently too. And so it's just such a cool opportunity to have candid conversations."
+    },
+    {
+      "start": 419.8,
+      "end": 423.68,
+      "text": "I think somebody, um, I think Mike, Mike Hearn said this, he said, it's like one of the best"
+    },
+    {
+      "start": 423.68,
+      "end": 428.7,
+      "text": "craziest cheat codes, you know, you could have, you know, is, is getting to sit, you know,"
+    },
+    {
+      "start": 428.7,
+      "end": 432.66,
+      "text": "around impressive people and just talk and hear about them. You know what I mean? And so I think"
+    },
+    {
+      "start": 432.66,
+      "end": 436.8,
+      "text": "that's really cool. And, and I just love interesting people. You know, I love people in general,"
+    },
+    {
+      "start": 436.8,
+      "end": 441.7,
+      "text": "everybody's interesting to me, honestly, but, um, I just love talking to people, you know,"
+    },
+    {
+      "start": 441.7,
+      "end": 446.98,
+      "text": "and being, and you know, I, what I do love about podcasting, especially if you're a long form"
+    },
+    {
+      "start": 446.98,
+      "end": 451.18,
+      "text": "podcasting, you can really get to know somebody pretty quick. You know, it's hard to really"
+    },
+    {
+      "start": 451.18,
+      "end": 457.08,
+      "text": "dodge who you are for a whole hour, you know, on camera or whatever, on even on audio. And so it's"
+    },
+    {
+      "start": 457.08,
+      "end": 461.6,
+      "text": "really cool to see kind of really who people are and how they act, how they respond to people,"
+    },
+    {
+      "start": 461.6,
+      "end": 467.44,
+      "text": "you know, things like that. So, um, I love getting that front row seat, man. It's really cool."
+    },
+    {
+      "start": 467.52,
+      "end": 471.76,
+      "text": "And love that our, our students will get that same opportunity and are getting that same opportunity"
+    },
+    {
+      "start": 471.76,
+      "end": 477.5,
+      "text": "as well. And so, yeah, man. Yeah. We had a really great guest the other day, Tricia Everest. She's,"
+    },
+    {
+      "start": 477.62,
+      "end": 484.38,
+      "text": "she was amazing. Um, secretary of public safety, you know, she really, um, had some incredible words"
+    },
+    {
+      "start": 484.38,
+      "end": 490.2,
+      "text": "and insight for us at city center. So that was just so cool. But I was in that moment with,"
+    },
+    {
+      "start": 490.2,
+      "end": 495.28,
+      "text": "with them and I was thinking about, you know, the young man that was helping run the actual"
+    },
+    {
+      "start": 495.28,
+      "end": 502.12,
+      "text": "whole pro, you know, project here. I was thinking, man, that's so cool. This guy gets to be in the"
+    },
+    {
+      "start": 502.12,
+      "end": 508.26,
+      "text": "same room with a person of that level in our government and hear that person talk about the"
+    },
+    {
+      "start": 508.26,
+      "end": 512.68,
+      "text": "things that they hope to do in our state, you know? So I'm like, man, that's a rare opportunity,"
+    },
+    {
+      "start": 512.68,
+      "end": 518.22,
+      "text": "I think, you know? So it's been really cool to see, um, how this has worked like that, you know?"
+    },
+    {
+      "start": 518.22,
+      "end": 522.88,
+      "text": "So I'm just really grateful, you know, really grateful that it, you know, it's working out"
+    },
+    {
+      "start": 522.88,
+      "end": 526.72,
+      "text": "like that. And I'm really grateful for everybody that supports us too, to make this happen. It's"
+    },
+    {
+      "start": 526.72,
+      "end": 533.52,
+      "text": "been, been such a, uh, fun project for, for all of us for sure, man. But so let's talk about,"
+    },
+    {
+      "start": 533.6,
+      "end": 537.46,
+      "text": "so you have your consulting thing. So really quickly, where can they go to see your, find your"
+    },
+    {
+      "start": 537.46,
+      "end": 540.56,
+      "text": "podcast? What's the name of it again? Backpack theory? Yeah, it's called the backpack theory."
+    },
+    {
+      "start": 540.66,
+      "end": 543.42,
+      "text": "It's on Spotify, YouTube. Okay. So go check that out."
+    },
+    {
+      "start": 543.42,
+      "end": 547.56,
+      "text": "You can find on Instagram. Okay. Yeah. And we'll have some, uh, links to all this stuff in our show"
+    },
+    {
+      "start": 547.56,
+      "end": 551.76,
+      "text": "notes and things like that. But, and so then your consulting, uh, business, what does that look"
+    },
+    {
+      "start": 551.76,
+      "end": 560.04,
+      "text": "like? Yeah. So I, uh, you know, I started a consulting company three and a half years ago,"
+    },
+    {
+      "start": 560.1,
+      "end": 564.64,
+      "text": "two and a half years ago now. Um, you know, I've been in business for a long time. I run a couple"
+    },
+    {
+      "start": 564.64,
+      "end": 569.42,
+      "text": "different companies. I've worked for large companies, small companies, and it really felt like,"
+    },
+    {
+      "start": 569.42,
+      "end": 574.32,
+      "text": "you know, two and a half years ago, I've always had this idea of having like a consulting firm to go"
+    },
+    {
+      "start": 574.32,
+      "end": 578.64,
+      "text": "in and do organizational development, leadership development, coaching. And that's really morphed"
+    },
+    {
+      "start": 578.64,
+      "end": 584.62,
+      "text": "into what I'm doing today, which we'll talk about, but it's called solving why. Okay. Yeah. So the"
+    },
+    {
+      "start": 584.62,
+      "end": 588.56,
+      "text": "structure is, you know, which is a little bit different for consultants. We don't operate from"
+    },
+    {
+      "start": 588.56,
+      "end": 594.42,
+      "text": "a set framework. We go in and we ask questions from our clients, uh, and then develop custom-made"
+    },
+    {
+      "start": 594.42,
+      "end": 600.46,
+      "text": "frameworks based off of what their specific needs are. So it's a very long-term vision. It's very,"
+    },
+    {
+      "start": 600.6,
+      "end": 605.9,
+      "text": "very laborious. Okay. Uh, it's a lot of work because it would be much easier for me to just"
+    },
+    {
+      "start": 605.9,
+      "end": 613.22,
+      "text": "take every company and put them in a box. But I I've, I've seen that not be as effective."
+    },
+    {
+      "start": 613.44,
+      "end": 618.96,
+      "text": "Um, I think it works for some people, but I think with some of the things I'm currently stumbling on"
+    },
+    {
+      "start": 618.96,
+      "end": 625.14,
+      "text": "whenever it comes to new emerging technologies, really it's not needed anymore. You can kind of"
+    },
+    {
+      "start": 625.14,
+      "end": 630.74,
+      "text": "make custom anything for anyone and it's much more beneficial. Yeah. And it's also cool because"
+    },
+    {
+      "start": 630.74,
+      "end": 634.48,
+      "text": "like, you know, and doing the consulting thing is cause I get to really share my faith freely."
+    },
+    {
+      "start": 634.48,
+      "end": 638.36,
+      "text": "Yeah. And so, you know, I've got a free app. Anybody can download, by the way, it's called,"
+    },
+    {
+      "start": 638.36,
+      "end": 645.1,
+      "text": "uh, you go to solving why.com top right corner, you just click sign up and you can go create your own,"
+    },
+    {
+      "start": 645.1,
+      "end": 649.8,
+      "text": "um, your own productivity profile. We will throw that up. Yeah. We'll throw that up on the screen"
+    },
+    {
+      "start": 649.8,
+      "end": 653.6,
+      "text": "so everybody can check that out for sure. That's perfect, man. Thank you so much. It's completely"
+    },
+    {
+      "start": 653.6,
+      "end": 659.06,
+      "text": "free. You can go in, you can create communities, you can track your productivity. It's also cool"
+    },
+    {
+      "start": 659.06,
+      "end": 664.04,
+      "text": "cause I converted it to where you have a faith mode. Okay. So you can turn on faith mode, which"
+    },
+    {
+      "start": 664.04,
+      "end": 668.02,
+      "text": "then it'll give you a bunch of scripture references. It'll give you different biblical texts. It'll give"
+    },
+    {
+      "start": 668.02,
+      "end": 672.6,
+      "text": "you scripture memorization, a daily prayer, or if you toggle it off, then it just turns into a"
+    },
+    {
+      "start": 672.6,
+      "end": 677.34,
+      "text": "productivity profile. Okay. So that's, and that's kind of my premise is kind of cool. Yeah. I like"
+    },
+    {
+      "start": 677.34,
+      "end": 681.2,
+      "text": "that. It's, it's, there's that option there, you know what I mean? And so I've got some organizations"
+    },
+    {
+      "start": 681.2,
+      "end": 684.56,
+      "text": "I work with where some of the people aren't faith-based, some of them are faith-based and"
+    },
+    {
+      "start": 684.56,
+      "end": 690.82,
+      "text": "my consulting, you know, ethos is basically I do everything based off of scripture, right? Like"
+    },
+    {
+      "start": 690.82,
+      "end": 698.62,
+      "text": "all of my advice, all my wisdom is based off of God's word, right? But not everybody wants"
+    },
+    {
+      "start": 698.62,
+      "end": 701.98,
+      "text": "to have scripture thrown in their face and especially in a professional environment. So"
+    },
+    {
+      "start": 701.98,
+      "end": 706.56,
+      "text": "the way that we've set up our consultancy is we ask questions. We determine if the person"
+    },
+    {
+      "start": 706.56,
+      "end": 709.94,
+      "text": "is faith-based, if they are, we give faith-based references. If not, we still teach biblical"
+    },
+    {
+      "start": 709.94,
+      "end": 717.52,
+      "text": "principles, but we teach them in a consumable way. And so on that platform we created, basically"
+    },
+    {
+      "start": 717.52,
+      "end": 722.22,
+      "text": "you can have supervisors that have subordinates and they can track their metrics on it, but"
+    },
+    {
+      "start": 722.22,
+      "end": 726.32,
+      "text": "they can either have the faith view to where it'll actually prompt them to like pray for"
+    },
+    {
+      "start": 726.32,
+      "end": 730.82,
+      "text": "their subordinates, pray for the people in their organization, or they can turn off faith"
+    },
+    {
+      "start": 730.82,
+      "end": 734.44,
+      "text": "mode. Okay. If they turn off faith mode, then it's just a standard dashboard."
+    },
+    {
+      "start": 734.74,
+      "end": 738.82,
+      "text": "Okay. Man, that's cool. I'd like to check that out. So solving why, right? Yeah. Dot"
+    },
+    {
+      "start": 738.82,
+      "end": 742.8,
+      "text": "com. And you can download that for free and, you know, work through that, man. I think"
+    },
+    {
+      "start": 742.8,
+      "end": 745.6,
+      "text": "that's a great resource. I would love to check that out. I'm going to check that out myself."
+    },
+    {
+      "start": 745.76,
+      "end": 748.9,
+      "text": "Yeah. It's actually, so if you have Androids in the Android store right now, I'm actually"
+    },
+    {
+      "start": 748.9,
+      "end": 756.36,
+      "text": "going to have it on iOS in the next 30, 45 days. I'm a, I'm a, I have both Android and"
+    },
+    {
+      "start": 756.36,
+      "end": 761.1,
+      "text": "iPhone. Yeah. It's just developing softwares and technologies much easier with Android."
+    },
+    {
+      "start": 761.22,
+      "end": 764.5,
+      "text": "Yeah. I've heard that. Just because of the way that it's set up. But yeah, it'll be on iOS."
+    },
+    {
+      "start": 764.74,
+      "end": 769.38,
+      "text": "Very cool, man. I love that. All right. So now the book. Yeah. Let's talk about the book. Cause"
+    },
+    {
+      "start": 769.38,
+      "end": 774.44,
+      "text": "I want to talk about some of these things that you're writing about in the book for a good part of"
+    },
+    {
+      "start": 774.44,
+      "end": 778.24,
+      "text": "what we're going to be talking about today and some, anything you want to talk about as well. So,"
+    },
+    {
+      "start": 778.68,
+      "end": 782.16,
+      "text": "you know, you're, you're a fellow podcaster, so we're just having a conversation, man. You know what"
+    },
+    {
+      "start": 782.16,
+      "end": 786.82,
+      "text": "I mean? So, but I'd love to hear more about all the stuff that you're doing right now. So tell me"
+    },
+    {
+      "start": 786.82,
+      "end": 792.48,
+      "text": "about the book. What's the name of it? Yeah. So I've not published it yet. Okay. It's, it is currently"
+    },
+    {
+      "start": 792.48,
+      "end": 797.7,
+      "text": "a work in progress. I published my first book last year, thoughts for 31. Okay. Um, which everybody"
+    },
+    {
+      "start": 797.7,
+      "end": 803.18,
+      "text": "should publish a book by the way. Like the, the purpose of that book exercise. Yeah. The purpose of that book,"
+    },
+    {
+      "start": 803.18,
+      "end": 808.38,
+      "text": "it's a very short form book to where it's just one chapter per day. You write down your journal"
+    },
+    {
+      "start": 808.38,
+      "end": 812.58,
+      "text": "prompts and the goal of it is actually for you to write out a bunch of messages and then give it to"
+    },
+    {
+      "start": 812.58,
+      "end": 817.98,
+      "text": "somebody. Okay. So it's like practicing writing your own book. Okay. Um, but the book that I'm"
+    },
+    {
+      "start": 817.98,
+      "end": 823.9,
+      "text": "currently working on is actually kind of my passion project right now. Um, it was called human. I were"
+    },
+    {
+      "start": 823.9,
+      "end": 831.1,
+      "text": "to humans fit into the autonomous future. Okay. And, um, whatever you look at, uh, with my consulting firm,"
+    },
+    {
+      "start": 831.1,
+      "end": 836.28,
+      "text": "for instance, over the last year, the area of, I've really been focusing on just because I've kind of"
+    },
+    {
+      "start": 836.28,
+      "end": 844.26,
+      "text": "seen these big red warning symbols going off in society is that, that combination of what AI is"
+    },
+    {
+      "start": 844.26,
+      "end": 852.0,
+      "text": "going to do to our future. Right. And how disruptive it is. And in the fact that we're on a very, very,"
+    },
+    {
+      "start": 852.0,
+      "end": 858.16,
+      "text": "very tight timeline. Right. To where we are either going to allow it to dictate what we do,"
+    },
+    {
+      "start": 858.16,
+      "end": 864.22,
+      "text": "or we're going to turn it into a tool to where we're going to be able to utilize it to better"
+    },
+    {
+      "start": 864.22,
+      "end": 869.36,
+      "text": "our lives. And it, and it's a pretty stringent thing. And in the book, the purpose of it is,"
+    },
+    {
+      "start": 869.36,
+      "end": 875.74,
+      "text": "is, you know, I've talked to so many boomers, right? Yeah. And they'll be like, they're fun."
+    },
+    {
+      "start": 875.9,
+      "end": 880.0,
+      "text": "They're like, well, I mean, you know, they'll be like, I mean, AI, it's like whatever. And then"
+    },
+    {
+      "start": 880.0,
+      "end": 885.04,
+      "text": "they'll go on Facebook and literally share an AI formed video that they think is true. You know?"
+    },
+    {
+      "start": 885.04,
+      "end": 889.56,
+      "text": "So it's, it's this, it's this wild concept. And then you've got the younger kids who are basically"
+    },
+    {
+      "start": 889.56,
+      "end": 894.64,
+      "text": "raised on their phones and all they know is technology. So we have this massive divide"
+    },
+    {
+      "start": 894.64,
+      "end": 899.86,
+      "text": "with technology that currently needs to be bridged. And that divides growing and growing and growing"
+    },
+    {
+      "start": 899.86,
+      "end": 906.86,
+      "text": "in, in, in economical situations. And I mean, it's just, it's just growing. And so whenever you look"
+    },
+    {
+      "start": 906.86,
+      "end": 912.5,
+      "text": "at my book, kind of the goal of it is to give people a very simple, practical understanding of"
+    },
+    {
+      "start": 912.5,
+      "end": 920.66,
+      "text": "what AI actually is, how you can use it as a tool, not as something that tells you what to do."
+    },
+    {
+      "start": 920.66,
+      "end": 924.58,
+      "text": "Yeah. And then kind of talk through the different generations and how it can benefit"
+    },
+    {
+      "start": 924.58,
+      "end": 928.88,
+      "text": "each person in the generation. And ultimately from a faith-based perspective,"
+    },
+    {
+      "start": 928.88,
+      "end": 935.8,
+      "text": "if there's a technology that's coming out, we kind of have a responsibility to go and understand it,"
+    },
+    {
+      "start": 935.82,
+      "end": 937.5,
+      "text": "not to shy away from it and avoid it."
+    },
+    {
+      "start": 937.5,
+      "end": 940.56,
+      "text": "Right. That's so good, man. You're right. I think you're right. You know,"
+    },
+    {
+      "start": 940.56,
+      "end": 946.24,
+      "text": "there's a lot of things that, you know, there's a lot of directions to go with in regard to AI,"
+    },
+    {
+      "start": 946.48,
+      "end": 954.88,
+      "text": "but I do agree with you. I think that, you know, I hope that we'll see, you know, anybody that has,"
+    },
+    {
+      "start": 955.04,
+      "end": 960.52,
+      "text": "you know, a desire to make sure they have like a spiritual eye when it comes to things like this"
+    },
+    {
+      "start": 960.52,
+      "end": 964.34,
+      "text": "that we talk about, because that's always the question, you know, it's always like a spiritual,"
+    },
+    {
+      "start": 964.66,
+      "end": 967.84,
+      "text": "Hey, what is this, where's this taking us spiritually? What does this mean spiritually?"
+    },
+    {
+      "start": 967.84,
+      "end": 972.6,
+      "text": "You know, and things like that. But, um, I just believe that, you know, we, we have to just be"
+    },
+    {
+      "start": 972.6,
+      "end": 979.26,
+      "text": "attuned to that. And when we get to that place that there might be a line, I feel like there might be"
+    },
+    {
+      "start": 979.26,
+      "end": 984.74,
+      "text": "a line that we're going to say, we have to cross at some point or you have to make a decision about"
+    },
+    {
+      "start": 984.74,
+      "end": 989.54,
+      "text": "our perspective on it. I think, I'm not sure what that even means or what that looks like,"
+    },
+    {
+      "start": 989.54,
+      "end": 993.84,
+      "text": "or how far they're on the road that is. I just have a feeling we will, you know, but, um,"
+    },
+    {
+      "start": 993.84,
+      "end": 999.22,
+      "text": "but until then we have to like figure out how to direct it in a way that does help us. And it does"
+    },
+    {
+      "start": 999.22,
+      "end": 1005.24,
+      "text": "make us more productive and doesn't, uh, for the most, for as much as possible at all, harm people,"
+    },
+    {
+      "start": 1005.34,
+      "end": 1008.94,
+      "text": "you know what I mean? So there's a lot of that stuff happening. There's a lot of other things"
+    },
+    {
+      "start": 1008.94,
+      "end": 1012.86,
+      "text": "happening. I know that people get concerned and scared about, but I think the more scared we are"
+    },
+    {
+      "start": 1012.86,
+      "end": 1017.6,
+      "text": "about stuff and the less we're willing to learn about it, it's even more dangerous, you know what I"
+    },
+    {
+      "start": 1017.6,
+      "end": 1023.58,
+      "text": "mean for, for us. So anyway, yeah. If you know where, uh, I think it's, uh, you know, it's okay."
+    },
+    {
+      "start": 1023.58,
+      "end": 1027.86,
+      "text": "If there's a snake there as long as you know where it's heads at. Yeah, for sure, man. And I think"
+    },
+    {
+      "start": 1027.86,
+      "end": 1033.26,
+      "text": "people avoid what they don't understand. Yeah. People avoid what they can't comprehend people."
+    },
+    {
+      "start": 1033.66,
+      "end": 1038.5,
+      "text": "You know, one of our, I was, uh, you know, I do work development too, and I work with companies,"
+    },
+    {
+      "start": 1038.62,
+      "end": 1044.74,
+      "text": "create efficiencies. And one of the biggest challenges that I see in organizations and individuals"
+    },
+    {
+      "start": 1044.74,
+      "end": 1049.66,
+      "text": "today is they avoid conflict at all costs. Oh gosh, I know they avoid conflict. They avoid the"
+    },
+    {
+      "start": 1049.66,
+      "end": 1054.76,
+      "text": "hard conversations because if you have the hard conversation, it forces you to make a decision."
+    },
+    {
+      "start": 1054.76,
+      "end": 1058.98,
+      "text": "Yeah. And whenever I look at things like AI, you know, one of the most beautiful things about it"
+    },
+    {
+      "start": 1058.98,
+      "end": 1064.24,
+      "text": "is if it's used correctly, it actually gives you the opportunity to make the most informed decisions"
+    },
+    {
+      "start": 1064.24,
+      "end": 1071.52,
+      "text": "you can. Like I've got friends that now you can do 90% of the work of a doctor and actually empower"
+    },
+    {
+      "start": 1071.52,
+      "end": 1077.04,
+      "text": "the doctor through AI. Oh yeah. Like you can do, you can do some of the, some of the wildest things."
+    },
+    {
+      "start": 1077.04,
+      "end": 1081.16,
+      "text": "And so, you know, and it's going to be very interesting, especially whenever it comes to"
+    },
+    {
+      "start": 1081.16,
+      "end": 1085.74,
+      "text": "the future generation. And this is really where my focus is. It's like, if you're a kid and you were"
+    },
+    {
+      "start": 1085.74,
+      "end": 1089.78,
+      "text": "raised and you were told, go to school, become a doctor, uh, go to school, become a lawyer, go to"
+    },
+    {
+      "start": 1089.78,
+      "end": 1096.54,
+      "text": "school, become an engineer. Like those things in the next 10 years, like whenever it comes to"
+    },
+    {
+      "start": 1096.54,
+      "end": 1100.06,
+      "text": "education, they're going to be automated. Yeah. And so it's like, it's like where in the world,"
+    },
+    {
+      "start": 1100.06,
+      "end": 1103.94,
+      "text": "like the, the, the younger generation, if the older generation just avoids it and we just do"
+    },
+    {
+      "start": 1103.94,
+      "end": 1106.86,
+      "text": "what we always do is let's just kick the can down the road and let's avoid it and not have the hard"
+    },
+    {
+      "start": 1106.86,
+      "end": 1110.8,
+      "text": "conversations and not actually address it. We're setting the next generation up for failure."
+    },
+    {
+      "start": 1110.84,
+      "end": 1114.26,
+      "text": "Yeah. I agree, man. And like, we have a, we have a responsibility, especially as believers to"
+    },
+    {
+      "start": 1114.26,
+      "end": 1120.96,
+      "text": "actually get in front of this thing, understand it, and then actually utilize it to the best of our"
+    },
+    {
+      "start": 1120.96,
+      "end": 1126.24,
+      "text": "ability. Because if not, what is going to happen over the next 10 years? And this is the thing,"
+    },
+    {
+      "start": 1126.72,
+      "end": 1129.92,
+      "text": "I've listened to a lot of podcasts, read a lot of books on this. If we"
+    },
+    {
+      "start": 1129.92,
+      "end": 1135.36,
+      "text": "don't get ahead of it and we don't actually get our hands on it, the divide, especially whenever"
+    },
+    {
+      "start": 1135.36,
+      "end": 1139.0,
+      "text": "it comes to the haves and have nots is going to get astronomical."
+    },
+    {
+      "start": 1139.44,
+      "end": 1142.18,
+      "text": "Yeah. I agree, man. I think there's a lot that could happen. There's so many,"
+    },
+    {
+      "start": 1142.34,
+      "end": 1146.58,
+      "text": "there's so many theories out there. It's funny. Yeah. You're, you're so right. You know,"
+    },
+    {
+      "start": 1146.68,
+      "end": 1150.58,
+      "text": "I do think it's wise, you know, I like that you've written this or you're writing this book"
+    },
+    {
+      "start": 1150.58,
+      "end": 1155.22,
+      "text": "that helps us just understand it better, understand how to actually leverage it for,"
+    },
+    {
+      "start": 1155.22,
+      "end": 1161.3,
+      "text": "you know, good for more productivity in our lives to free us. I'll just, that whole idea of freeing us"
+    },
+    {
+      "start": 1161.3,
+      "end": 1167.12,
+      "text": "up to be able to do the things that we really find most valuable and most important. Yeah. You know,"
+    },
+    {
+      "start": 1167.14,
+      "end": 1174.4,
+      "text": "not with, without sacrificing any kind of, uh, enrichment that we have, you know, as it, as it"
+    },
+    {
+      "start": 1174.4,
+      "end": 1179.6,
+      "text": "relates to, you know, absorbing knowledge or learning and things like that, I feel like"
+    },
+    {
+      "start": 1179.6,
+      "end": 1184.86,
+      "text": "if we can stay active in that lane right there and then leverage it, like, like you're talking about,"
+    },
+    {
+      "start": 1184.94,
+      "end": 1190.52,
+      "text": "um, that keeps a really healthy balance. So we're not just relying solely on some other thing to tell"
+    },
+    {
+      "start": 1190.52,
+      "end": 1193.98,
+      "text": "us everything that we need to know. You know what I mean? I think that's the part that probably"
+    },
+    {
+      "start": 1193.98,
+      "end": 1200.24,
+      "text": "concerns me the most is that we won't, we'll, we'll stop that learning process. And so hopefully that"
+    },
+    {
+      "start": 1200.24,
+      "end": 1205.46,
+      "text": "learning process is still something that you keep in your life that keeps you your, I feel like your"
+    },
+    {
+      "start": 1205.46,
+      "end": 1210.2,
+      "text": "mind progressing and your mind growing. So, well, that's a big, yeah, I went and did a talk at my,"
+    },
+    {
+      "start": 1210.28,
+      "end": 1214.86,
+      "text": "my dad's a professor at Oklahoma Christian. He teaches business ethics and it's funny cause my"
+    },
+    {
+      "start": 1214.86,
+      "end": 1220.78,
+      "text": "dad's actually my first case study. Um, you know, whenever it comes to the adoption of AI and teaching"
+    },
+    {
+      "start": 1220.78,
+      "end": 1226.64,
+      "text": "a boomer, the, the, the benefits of using AI. Right. And so I went and talked to his class and,"
+    },
+    {
+      "start": 1226.76,
+      "end": 1230.1,
+      "text": "you know, there's a study that came out by MIT. I think it was about a year and a half ago."
+    },
+    {
+      "start": 1230.24,
+      "end": 1235.5,
+      "text": "And in it, I fact check me on this, by the way, you should always fact check AI, by the way,"
+    },
+    {
+      "start": 1235.56,
+      "end": 1240.66,
+      "text": "because it would hallucinate and lie to you. But, um, you know, I'm in there and I'm talking to the"
+    },
+    {
+      "start": 1240.66,
+      "end": 1243.74,
+      "text": "students and as I'm talking to the students, you know, I'm telling them like, Hey, listen,"
+    },
+    {
+      "start": 1243.82,
+      "end": 1247.62,
+      "text": "like AI can be the greatest tool that you've ever used. And it can also be your greatest detriment"
+    },
+    {
+      "start": 1247.62,
+      "end": 1251.84,
+      "text": "in this study. Basically there were two, there were three control groups and one of the control"
+    },
+    {
+      "start": 1251.84,
+      "end": 1256.06,
+      "text": "groups used AI for all their research, all their comprehension allowed it to do all their thinking."
+    },
+    {
+      "start": 1256.06,
+      "end": 1262.78,
+      "text": "Well, that control group could not tell you what they wrote within minutes of writing it because"
+    },
+    {
+      "start": 1262.78,
+      "end": 1269.72,
+      "text": "you're not actually exercising your mind. And that is the incorrect way to use AI. There's a completely"
+    },
+    {
+      "start": 1269.72,
+      "end": 1276.78,
+      "text": "other way to use AI to where you actually go through it and you instruct it to do things for you. You"
+    },
+    {
+      "start": 1276.78,
+      "end": 1281.78,
+      "text": "instruct it to do things. And then you always fact check it. You always make sure that it's accurate"
+    },
+    {
+      "start": 1281.78,
+      "end": 1286.28,
+      "text": "and you make sure that you work through it. It can save you an astronomical amount of time."
+    },
+    {
+      "start": 1286.62,
+      "end": 1291.66,
+      "text": "Right. But yeah, I mean, there's, there is the cognitive, um, deficiency that we're definitely"
+    },
+    {
+      "start": 1291.66,
+      "end": 1296.66,
+      "text": "running into, which could, you know, prohibit human creativity and then also puts us, you know,"
+    },
+    {
+      "start": 1296.66,
+      "end": 1299.2,
+      "text": "at risk of actually being taken advantage of what you're seeing a lot."
+    },
+    {
+      "start": 1299.42,
+      "end": 1305.7,
+      "text": "Sure. Yeah. Well, I've, I've had my mom called me on the phone twice now, I think. Yeah. Once or twice,"
+    },
+    {
+      "start": 1305.7,
+      "end": 1312.0,
+      "text": "but yeah, she was completely being scammed by an AI bot, you know, voice that sounded so real,"
+    },
+    {
+      "start": 1312.0,
+      "end": 1317.94,
+      "text": "you know, to her anyway. I mean, she was at the bank getting ready to withdraw money from her bank."
+    },
+    {
+      "start": 1317.94,
+      "end": 1323.54,
+      "text": "You know, I was like, mom, put the money back in the, cause it was just a really crazy, just"
+    },
+    {
+      "start": 1323.54,
+      "end": 1328.46,
+      "text": "really wild scam. But yeah, you know, that's what we see a lot of. And I think that, you know,"
+    },
+    {
+      "start": 1328.48,
+      "end": 1333.14,
+      "text": "I think that's why, you know, so many people are concerned because, you know, even like the,"
+    },
+    {
+      "start": 1333.14,
+      "end": 1337.98,
+      "text": "the memes and stuff we see, the, well, the false information that we see that looks so real,"
+    },
+    {
+      "start": 1338.06,
+      "end": 1342.24,
+      "text": "you know, it's so convincing, you know, uh, people are really concerned about that, you know? And so"
+    },
+    {
+      "start": 1342.24,
+      "end": 1348.32,
+      "text": "I get that stuff, you know? Um, but you know, we just have to leverage it in the best way possible"
+    },
+    {
+      "start": 1348.32,
+      "end": 1353.58,
+      "text": "to be, I mean, the best versions of ourself that we can possibly be. I believe that for sure."
+    },
+    {
+      "start": 1353.58,
+      "end": 1359.12,
+      "text": "Cause I think we always talk about even in our professional lives, how, how do we get to the"
+    },
+    {
+      "start": 1359.12,
+      "end": 1364.54,
+      "text": "place where we're only doing two or three things that, because those are the two or three things"
+    },
+    {
+      "start": 1364.54,
+      "end": 1368.88,
+      "text": "that we just do the absolute best. Well, that's kind of the principle we're talking about here."
+    },
+    {
+      "start": 1368.88,
+      "end": 1374.7,
+      "text": "You know, you're freeing yourself up from the, if I was stuck behind a desk doing admin work for,"
+    },
+    {
+      "start": 1374.7,
+      "end": 1379.1,
+      "text": "um, grant proposals and things like that, that, that, you know, is something that has to be done."
+    },
+    {
+      "start": 1379.1,
+      "end": 1384.72,
+      "text": "I'm just not very good at, um, or just, it doesn't keep me driven and motivated and focused"
+    },
+    {
+      "start": 1384.72,
+      "end": 1389.68,
+      "text": "on the task at hand. Really. Um, it's just not work that my mind works well around. So,"
+    },
+    {
+      "start": 1389.68,
+      "end": 1394.6,
+      "text": "um, you know, if I was stuck doing that, man, that would be a really rough, rough day for me."
+    },
+    {
+      "start": 1394.6,
+      "end": 1399.52,
+      "text": "You know what I mean? So, um, I don't know, man, I just think that, uh, when we can free up"
+    },
+    {
+      "start": 1399.52,
+      "end": 1404.04,
+      "text": "ourselves from some of that stuff that does even, I think it, it can even have an effect on us"
+    },
+    {
+      "start": 1404.04,
+      "end": 1411.36,
+      "text": "psychologically sometimes where we don't feel as productive toward what we really love because"
+    },
+    {
+      "start": 1411.36,
+      "end": 1417.96,
+      "text": "we feel bogged down with things that might be, uh, very menial in our, in our minds as far as tasks"
+    },
+    {
+      "start": 1417.96,
+      "end": 1422.68,
+      "text": "go. So I think there's a lot that comes with all that, you know, there's a lot that, that whole"
+    },
+    {
+      "start": 1422.68,
+      "end": 1426.38,
+      "text": "principle of finding ourselves in a place where we're only doing a couple of things that we're"
+    },
+    {
+      "start": 1426.38,
+      "end": 1430.02,
+      "text": "really good at, you know, um, there's something that comes with that. I think there's a lot of"
+    },
+    {
+      "start": 1430.02,
+      "end": 1435.36,
+      "text": "mental freedom that we can have with that because we feel like we're actually more effective because"
+    },
+    {
+      "start": 1435.36,
+      "end": 1440.56,
+      "text": "we're doing what we love. And so anyway, um, yeah, I think that you have a lot of great points,"
+    },
+    {
+      "start": 1440.56,
+      "end": 1443.08,
+      "text": "man. I love that. And I can't wait to read the book when it comes out."
+    },
+    {
+      "start": 1443.08,
+      "end": 1449.56,
+      "text": "Well, the one thing, the, the big thing that, you know, and this goes back to the education part and"
+    },
+    {
+      "start": 1449.56,
+      "end": 1457.94,
+      "text": "we can't avoid it and I can't stress this. I cannot, I cannot stress this enough to people."
+    },
+    {
+      "start": 1457.94,
+      "end": 1462.92,
+      "text": "And I've, I've tried to explain this to people and you know, sometimes I feel like a crazy person"
+    },
+    {
+      "start": 1462.92,
+      "end": 1467.66,
+      "text": "day in, day out. Whenever I tell people this thing, like AI is not a being like, that's one thing"
+    },
+    {
+      "start": 1467.66,
+      "end": 1473.0,
+      "text": "that we have to recognize. It's not a being, it is not your therapist. It is not your best friend."
+    },
+    {
+      "start": 1473.0,
+      "end": 1478.12,
+      "text": "Yeah. There's people fall in love with it. And yeah. So like, so like that is a lack of education."
+    },
+    {
+      "start": 1478.12,
+      "end": 1482.96,
+      "text": "That is a avoidance. That is people that don't actually want to have the hard conversations, right?"
+    },
+    {
+      "start": 1483.6,
+      "end": 1488.94,
+      "text": "It is a tool. It is a tool just like for, just like for the rest of humanity, we've been given a"
+    },
+    {
+      "start": 1488.94,
+      "end": 1494.24,
+      "text": "lot of tools. Tools can be used this, the incorrect way, but I think the big trap that people have to"
+    },
+    {
+      "start": 1494.24,
+      "end": 1497.24,
+      "text": "avoid, especially the younger generation that we're starting to see. I mean, if you've got kids"
+    },
+    {
+      "start": 1497.24,
+      "end": 1502.48,
+      "text": "that are in their twenties and younger that are actually like having these virtual like girlfriends"
+    },
+    {
+      "start": 1502.48,
+      "end": 1506.96,
+      "text": "or these virtual boyfriends, like, and that's like a real thing because we're not educating them."
+    },
+    {
+      "start": 1506.96,
+      "end": 1511.38,
+      "text": "We're not actually having the conversation with them. We're just avoiding it and letting it educate"
+    },
+    {
+      "start": 1511.38,
+      "end": 1516.46,
+      "text": "them. Yeah. Or we're not, or we're not even having our face-to-face conversations. We're supposed"
+    },
+    {
+      "start": 1516.46,
+      "end": 1521.94,
+      "text": "to be having just natural connection conversations. And the whole point of AI, if it's used correctly,"
+    },
+    {
+      "start": 1521.94,
+      "end": 1526.98,
+      "text": "and kind of why I'm writing this book is people need to understand if utilized correctly, what"
+    },
+    {
+      "start": 1526.98,
+      "end": 1532.24,
+      "text": "if in an organization, like what you just said, right? Right. What if you could take half your"
+    },
+    {
+      "start": 1532.24,
+      "end": 1536.84,
+      "text": "workforce, pay them the exact same or more, decrease their hours in half whenever it comes"
+    },
+    {
+      "start": 1536.84,
+      "end": 1540.0,
+      "text": "to redundant tasks. And then the other half to go, Hey man, I want you to go mentor kids."
+    },
+    {
+      "start": 1540.0,
+      "end": 1544.22,
+      "text": "Yeah. Like what if we could just get ahead of the curve and that might sound dystopian, but"
+    },
+    {
+      "start": 1544.22,
+      "end": 1549.82,
+      "text": "like that is literally the potential of the technology that we have at our fingertips and people"
+    },
+    {
+      "start": 1549.82,
+      "end": 1553.74,
+      "text": "aren't urgently adopting because it's something they don't understand. So therefore they just"
+    },
+    {
+      "start": 1553.74,
+      "end": 1557.84,
+      "text": "avoid. That's a really good point, man. Well, I hope people get your book and they learn more"
+    },
+    {
+      "start": 1557.84,
+      "end": 1562.0,
+      "text": "about all of this because it's still just a mystery to me. You know, I, I use it for, you"
+    },
+    {
+      "start": 1562.0,
+      "end": 1567.7,
+      "text": "know, uh, little things here and there, you know what I mean? But, um, I try to be, you"
+    },
+    {
+      "start": 1567.7,
+      "end": 1570.8,
+      "text": "know, I try to be responsible with it for sure. You know what I mean? I don't let it talk for"
+    },
+    {
+      "start": 1570.8,
+      "end": 1575.54,
+      "text": "me and things like that, but right for me, but, um, but it is definitely been a useful"
+    },
+    {
+      "start": 1575.54,
+      "end": 1580.26,
+      "text": "tool for, for, for us and for me for sure. But well, man, I, you know, I really appreciate"
+    },
+    {
+      "start": 1580.26,
+      "end": 1584.3,
+      "text": "your time today, man. It's been awesome having you here. I want to have you back. Cause I"
+    },
+    {
+      "start": 1584.3,
+      "end": 1590.06,
+      "text": "really want to dive in to a longer conversation about some other stuff too. Um, so yeah, man,"
+    },
+    {
+      "start": 1590.1,
+      "end": 1591.8,
+      "text": "can't wait to have you back and appreciate you coming today."
+    },
+    {
+      "start": 1591.8,
+      "end": 1597.32,
+      "text": "Yeah. Can I give one, one tip for one tip I'm going to give you guys and I normally charge"
+    },
+    {
+      "start": 1597.32,
+      "end": 1604.28,
+      "text": "for this, but I'm so passionate about it. If, if you want to do yourself one favor, one favor."
+    },
+    {
+      "start": 1604.28,
+      "end": 1608.38,
+      "text": "Okay. I don't, if you're listening to this, I don't care what age demographic you are. I don't"
+    },
+    {
+      "start": 1608.38,
+      "end": 1614.72,
+      "text": "care where you're at. Do, do one favor for me, whatever your LLM of choices. Okay. Just go into"
+    },
+    {
+      "start": 1614.72,
+      "end": 1622.48,
+      "text": "it, create a chat and tell it, okay, go in and give it very clear instructions. Tell it that for the"
+    },
+    {
+      "start": 1622.48,
+      "end": 1629.96,
+      "text": "next 30 days, I want you to teach me how to use AI based off of X industry that I'm in. I don't care"
+    },
+    {
+      "start": 1629.96,
+      "end": 1633.78,
+      "text": "what industry you're in, whether it be a plumber, whatever it is. And over the next 30 days,"
+    },
+    {
+      "start": 1633.78,
+      "end": 1637.36,
+      "text": "every day I'm going to come back to this chat and I'm going to ask you, teach me my new thing today."
+    },
+    {
+      "start": 1638.36,
+      "end": 1643.14,
+      "text": "Tell it that you want the information to be relevant for a hundred years from now,"
+    },
+    {
+      "start": 1643.14,
+      "end": 1648.3,
+      "text": "whenever it comes to talking to robotics and whenever it comes to talking to AI over the next"
+    },
+    {
+      "start": 1648.3,
+      "end": 1653.54,
+      "text": "30 days, you, if you just do that, that one thing, and I'm not kidding, it won't cost you any money."
+    },
+    {
+      "start": 1653.62,
+      "end": 1657.06,
+      "text": "You can literally do this with the free version. If you do that for 30 days straight,"
+    },
+    {
+      "start": 1657.06,
+      "end": 1662.88,
+      "text": "you will be in the top zero, 1% of users whenever it comes to AI and understanding."
+    },
+    {
+      "start": 1663.82,
+      "end": 1668.7,
+      "text": "That's the one, just do that one thing for me. And I promise you like it will completely shift"
+    },
+    {
+      "start": 1668.7,
+      "end": 1673.26,
+      "text": "your perspective. That's awesome. And that's a good thought. Cause that's probably one of the"
+    },
+    {
+      "start": 1673.26,
+      "end": 1677.72,
+      "text": "things that I've thought too. Like, you know, I hear people saying, Hey, I've created an AI assistant"
+    },
+    {
+      "start": 1677.72,
+      "end": 1680.94,
+      "text": "and all these, I'm like, how do you do that? You know, what does it do? What does an AI assistant do?"
+    },
+    {
+      "start": 1680.94,
+      "end": 1685.98,
+      "text": "So yeah, I'd love to learn more about that kind of stuff because there's a lot of just repetitious"
+    },
+    {
+      "start": 1685.98,
+      "end": 1690.94,
+      "text": "everyday tasks that I use that, you know, that could be helpful for sure. But no, thanks for that"
+    },
+    {
+      "start": 1690.94,
+      "end": 1695.44,
+      "text": "tip, man. I'm really excited. I look forward to the book. I can't wait to read it. Please let me"
+    },
+    {
+      "start": 1695.44,
+      "end": 1700.4,
+      "text": "know. When does it drop in by the way? So should be done with it. I'm hand. So it's funny. Ironically"
+    },
+    {
+      "start": 1700.4,
+      "end": 1704.86,
+      "text": "enough, I'm handwriting the whole thing. Cool. And then I'm taking pictures of every page,"
+    },
+    {
+      "start": 1705.06,
+      "end": 1710.56,
+      "text": "transcribing it into my AI assistant, formatting it and structuring it. And so I am handwriting it"
+    },
+    {
+      "start": 1710.56,
+      "end": 1715.2,
+      "text": "because I'm a big believer in handwriting. That's a big believer. There's a lot of research out there"
+    },
+    {
+      "start": 1715.2,
+      "end": 1719.84,
+      "text": "on why you should still write by hand. Um, a lot of cognitive, a lot, a lot of research. Oh yeah,"
+    },
+    {
+      "start": 1719.84,
+      "end": 1723.66,
+      "text": "I agree. So I'm going through that process. I'm really praying about it and I'm letting,"
+    },
+    {
+      "start": 1723.84,
+      "end": 1727.58,
+      "text": "I'm really trying to be spirit led whenever it comes to it. So the goal is to have it done in"
+    },
+    {
+      "start": 1727.58,
+      "end": 1732.14,
+      "text": "about six months, but I'm kind of letting God takes the reins on it. Um, and just kind of letting"
+    },
+    {
+      "start": 1732.14,
+      "end": 1735.5,
+      "text": "him do what he will. So the goal is about the next six months to have it released. Perfect, man."
+    },
+    {
+      "start": 1735.98,
+      "end": 1740.46,
+      "text": "Well, you guys heard it here, man. Follow that. Take that tip. Just try it. See what it looks like,"
+    },
+    {
+      "start": 1740.46,
+      "end": 1744.18,
+      "text": "man. I think that would be kind of cool to hear back from you guys and see, you know,"
+    },
+    {
+      "start": 1744.24,
+      "end": 1748.32,
+      "text": "what, what you came up with and if it was helpful and beneficial, because that is just good information"
+    },
+    {
+      "start": 1748.32,
+      "end": 1752.76,
+      "text": "for us to have here. So thanks for joining us again, guys. We're so grateful you showed up and"
+    },
+    {
+      "start": 1752.76,
+      "end": 1757.82,
+      "text": "you came and join us next week for another episode of voices of OKC. See you next week."
+    }
+  ]
+}

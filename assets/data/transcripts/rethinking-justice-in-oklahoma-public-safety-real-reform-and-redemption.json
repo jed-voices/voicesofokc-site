@@ -1,0 +1,2706 @@
+{
+  "episode_title": "Rethinking Justice in Oklahoma: Public Safety, Real Reform, and Redemption",
+  "episode_slug": "rethinking-justice-in-oklahoma-public-safety-real-reform-and-redemption",
+  "source": "Published episode audio",
+  "language": "en",
+  "review_status": "machine-generated",
+  "generated_at": "2026-08-04T09:55:15+00:00",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 28.5,
+      "text": "Welcome to Voices of OKC. We're so excited to have you guys this week. We have a very special guest. We've had so many incredible guests that have come on."
+    },
+    {
+      "start": 28.5,
+      "end": 34.5,
+      "text": "And so I just want to ask if there's anyone watching and you know of someone that would be a great guest on Voices of OKC."
+    },
+    {
+      "start": 34.5,
+      "end": 38.5,
+      "text": "We would love, love, love to have them on. But today is going to be very special."
+    },
+    {
+      "start": 38.5,
+      "end": 44.5,
+      "text": "I consider this person a friend. We've known each other for quite a while and she's doing incredible work."
+    },
+    {
+      "start": 44.5,
+      "end": 56.5,
+      "text": "She is a change maker, an impact deliverer, in my opinion. And I can't wait to see what the next however many years looks like in Oklahoma because of her leadership."
+    },
+    {
+      "start": 56.5,
+      "end": 60.5,
+      "text": "So today, without further ado, Tricia Everest. Thank you so much for being here, Tricia."
+    },
+    {
+      "start": 60.5,
+      "end": 61.5,
+      "text": "Thank you, Jed. Thank you for having me."
+    },
+    {
+      "start": 61.5,
+      "end": 66.5,
+      "text": "Absolutely. So you are the Secretary of Public Safety for the state of Oklahoma, right?"
+    },
+    {
+      "start": 66.5,
+      "end": 67.5,
+      "text": "I currently am, yes."
+    },
+    {
+      "start": 67.5,
+      "end": 69.5,
+      "text": "That's exciting. So what all does that oversee?"
+    },
+    {
+      "start": 69.5,
+      "end": 74.5,
+      "text": "It is. So think of it, Jed, as the general manager."
+    },
+    {
+      "start": 74.5,
+      "end": 75.5,
+      "text": "Okay."
+    },
+    {
+      "start": 75.5,
+      "end": 82.5,
+      "text": "And then I have all these sports teams. So the state of Oklahoma has public safety. The governor's the CEO."
+    },
+    {
+      "start": 82.5,
+      "end": 83.5,
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 83.5,
+      "end": 92.5,
+      "text": "I'm the general manager. And so I have the highway patrol, Bureau of Narcotics, pardon and parole, Department of Corrections."
+    },
+    {
+      "start": 92.5,
+      "end": 94.5,
+      "text": "All the easy ones, right?"
+    },
+    {
+      "start": 94.5,
+      "end": 102.5,
+      "text": "Medical marijuana, ABLE. So about everything that's investigative or enforcement driven is in that."
+    },
+    {
+      "start": 102.5,
+      "end": 106.5,
+      "text": "And so they're all, if you think of them as coaches."
+    },
+    {
+      "start": 106.5,
+      "end": 113.5,
+      "text": "So I've got 55 coaches, but about 15 and 10 that I work with. Emergency management, Homeland Security."
+    },
+    {
+      "start": 113.5,
+      "end": 114.5,
+      "text": "Okay."
+    },
+    {
+      "start": 114.5,
+      "end": 115.5,
+      "text": "So just a few things."
+    },
+    {
+      "start": 115.5,
+      "end": 128.5,
+      "text": "Wow. Okay. So that's a lot. That is a lot. And honestly, I couldn't think of anybody better for the job in all reality because you've had a lot of background and work with criminal justice reform and all kinds of things."
+    },
+    {
+      "start": 128.5,
+      "end": 135.5,
+      "text": "So share with us a little bit about your background that led you to want to actually do what you're doing today."
+    },
+    {
+      "start": 135.5,
+      "end": 149.5,
+      "text": "Well, you know, you can have your other lifetimes where you're running from the law as opposed to recognizing how important it is to support public safety and support laws."
+    },
+    {
+      "start": 149.5,
+      "end": 160.5,
+      "text": "So I went to law school when I was 30, ended up representing the state of Oklahoma and some of the agencies I now oversee when I worked for the attorney general's office."
+    },
+    {
+      "start": 160.5,
+      "end": 169.5,
+      "text": "Left the state to work on public private partnerships because I could go through a whole nother thing that we're not going to waste the time on."
+    },
+    {
+      "start": 169.5,
+      "end": 184.5,
+      "text": "But essentially recognizing when you bring an investment, nonprofits, the government, businesses, no one is as qualified on their own to make systemic changes."
+    },
+    {
+      "start": 184.5,
+      "end": 191.5,
+      "text": "And so I was very privileged to be at a table and help to bring an investment into it."
+    },
+    {
+      "start": 191.5,
+      "end": 193.5,
+      "text": "So you could take money off the table."
+    },
+    {
+      "start": 193.5,
+      "end": 196.5,
+      "text": "How could we change this?"
+    },
+    {
+      "start": 196.5,
+      "end": 199.5,
+      "text": "Like, let's don't tell me we can't afford something."
+    },
+    {
+      "start": 199.5,
+      "end": 205.5,
+      "text": "And so you start building things like reemerge and diverting women from prison and that grows."
+    },
+    {
+      "start": 205.5,
+      "end": 215.5,
+      "text": "And so taking that same mindset to how do you change a culture where, you know, I don't even call it criminal justice, the whole justice system."
+    },
+    {
+      "start": 215.5,
+      "end": 220.5,
+      "text": "It's now time to it's like it's not sustainable the way it's always been done."
+    },
+    {
+      "start": 220.5,
+      "end": 229.5,
+      "text": "And fortunately for us and in Oklahoma and with people like you, we are able to be at the forefront of what it should be."
+    },
+    {
+      "start": 229.5,
+      "end": 235.5,
+      "text": "And so we are reinventing the justice system in real time."
+    },
+    {
+      "start": 235.5,
+      "end": 238.5,
+      "text": "And for those reasons is how I kind of got to."
+    },
+    {
+      "start": 238.5,
+      "end": 239.5,
+      "text": "I love that."
+    },
+    {
+      "start": 239.5,
+      "end": 240.5,
+      "text": "Be at this table."
+    },
+    {
+      "start": 240.5,
+      "end": 242.5,
+      "text": "You know, clearly, you know that."
+    },
+    {
+      "start": 242.5,
+      "end": 248.5,
+      "text": "And I think our audience does know as well that the criminal justice system has affected me, you know, by my personal choices."
+    },
+    {
+      "start": 248.5,
+      "end": 252.5,
+      "text": "I made some really poor choices at a young age, to say the least."
+    },
+    {
+      "start": 252.5,
+      "end": 258.5,
+      "text": "But I do remember my time in prison and I remember thinking, I wonder what the ultimate goal is here, you know?"
+    },
+    {
+      "start": 258.5,
+      "end": 260.5,
+      "text": "For me, you know?"
+    },
+    {
+      "start": 260.5,
+      "end": 268.5,
+      "text": "And so not to, I'm not trying to be critical or anything, but at the same time, that was a thought, you know, because at that time I really did want rehabilitation."
+    },
+    {
+      "start": 268.5,
+      "end": 270.5,
+      "text": "I did want to change."
+    },
+    {
+      "start": 270.5,
+      "end": 274.5,
+      "text": "And so I had to aggressively seek that out while I was there."
+    },
+    {
+      "start": 274.5,
+      "end": 283.5,
+      "text": "But it really excites me to know that there's seriousness behind the idea that this has to change."
+    },
+    {
+      "start": 283.5,
+      "end": 296.5,
+      "text": "You know, my opinion is that if we're going to, you know, release people from prison, I would hope they are the most equipped possible so that they don't reoffend and perpetuate the problems that we've had throughout history."
+    },
+    {
+      "start": 296.5,
+      "end": 298.5,
+      "text": "And it just makes too much sense to me, I guess."
+    },
+    {
+      "start": 298.5,
+      "end": 301.5,
+      "text": "Even though I say it's like, oh, this is really common sense."
+    },
+    {
+      "start": 301.5,
+      "end": 304.5,
+      "text": "And so I love that we have leaders like you in place."
+    },
+    {
+      "start": 304.5,
+      "end": 311.5,
+      "text": "But so your life's work, I mean, it's had to have contributed to your position on this."
+    },
+    {
+      "start": 311.5,
+      "end": 316.5,
+      "text": "And so was there something along the way in your life's work that something just hits you different?"
+    },
+    {
+      "start": 316.5,
+      "end": 318.5,
+      "text": "And you said, you know what, this isn't right."
+    },
+    {
+      "start": 318.5,
+      "end": 320.5,
+      "text": "I think we have to turn a corner here."
+    },
+    {
+      "start": 320.5,
+      "end": 323.5,
+      "text": "Was there a moment that really stood out to you?"
+    },
+    {
+      "start": 323.5,
+      "end": 325.5,
+      "text": "So I'm a squirrel chaser."
+    },
+    {
+      "start": 325.5,
+      "end": 326.5,
+      "text": "OK."
+    },
+    {
+      "start": 326.5,
+      "end": 329.5,
+      "text": "So I'm going to go back to something that you just said before."
+    },
+    {
+      "start": 329.5,
+      "end": 330.5,
+      "text": "I forget it."
+    },
+    {
+      "start": 332.5,
+      "end": 337.5,
+      "text": "Oklahoma inherited a warehousing model of incarceration."
+    },
+    {
+      "start": 337.5,
+      "end": 338.5,
+      "text": "So that's that's nationwide."
+    },
+    {
+      "start": 338.5,
+      "end": 349.5,
+      "text": "I never want to accuse anyone in Oklahoma, much less anyone that's operating in powers of leadership or public office today."
+    },
+    {
+      "start": 349.5,
+      "end": 354.5,
+      "text": "We did inherit a warehousing model to which you've experienced."
+    },
+    {
+      "start": 354.5,
+      "end": 357.5,
+      "text": "And it's not that."
+    },
+    {
+      "start": 357.5,
+      "end": 359.5,
+      "text": "And I'll just leave it at that."
+    },
+    {
+      "start": 359.5,
+      "end": 360.5,
+      "text": "Yeah, sure."
+    },
+    {
+      "start": 360.5,
+      "end": 363.5,
+      "text": "So an interesting point I want to bring back to you today."
+    },
+    {
+      "start": 363.5,
+      "end": 364.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 364.5,
+      "end": 370.5,
+      "text": "Is in 2019, the governor had the largest commutation in America."
+    },
+    {
+      "start": 370.5,
+      "end": 371.5,
+      "text": "OK."
+    },
+    {
+      "start": 371.5,
+      "end": 374.5,
+      "text": "And recently, February 18th, we went back."
+    },
+    {
+      "start": 374.5,
+      "end": 375.5,
+      "text": "The department did."
+    },
+    {
+      "start": 375.5,
+      "end": 378.5,
+      "text": "And it's like, where are all those people?"
+    },
+    {
+      "start": 378.5,
+      "end": 379.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 379.5,
+      "end": 383.5,
+      "text": "And so there was a number of things that happened in the 518 that were affected."
+    },
+    {
+      "start": 383.5,
+      "end": 391.5,
+      "text": "But on a specific day in November 2019, 422 people left our facilities."
+    },
+    {
+      "start": 391.5,
+      "end": 392.5,
+      "text": "OK."
+    },
+    {
+      "start": 392.5,
+      "end": 395.5,
+      "text": "And on February 18th, 2026."
+    },
+    {
+      "start": 395.5,
+      "end": 399.5,
+      "text": "Now, if I'm fact checked later, it might have been 17th, might have been 19th."
+    },
+    {
+      "start": 399.5,
+      "end": 406.5,
+      "text": "Only 14.6% of those had recidivated back to being incarcerated."
+    },
+    {
+      "start": 406.5,
+      "end": 407.5,
+      "text": "Wow."
+    },
+    {
+      "start": 407.5,
+      "end": 412.5,
+      "text": "So, you know, recidivism is some people are like, is it three years, five years?"
+    },
+    {
+      "start": 412.5,
+      "end": 414.5,
+      "text": "What are you scaling?"
+    },
+    {
+      "start": 414.5,
+      "end": 416.5,
+      "text": "This is 2019 to 26."
+    },
+    {
+      "start": 416.5,
+      "end": 418.5,
+      "text": "We're talking seven years."
+    },
+    {
+      "start": 418.5,
+      "end": 419.5,
+      "text": "Wow."
+    },
+    {
+      "start": 419.5,
+      "end": 423.5,
+      "text": "One of the reasons that it wasn't that we suddenly were so rehabilitative at that moment."
+    },
+    {
+      "start": 423.5,
+      "end": 424.5,
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 424.5,
+      "end": 428.5,
+      "text": "It is because programs like yours, in which you do."
+    },
+    {
+      "start": 428.5,
+      "end": 429.5,
+      "text": "Oh."
+    },
+    {
+      "start": 429.5,
+      "end": 431.5,
+      "text": "And how you came out, have changed that system."
+    },
+    {
+      "start": 431.5,
+      "end": 432.5,
+      "text": "Wow."
+    },
+    {
+      "start": 432.5,
+      "end": 435.5,
+      "text": "So, like, my lane right now is these state systems."
+    },
+    {
+      "start": 435.5,
+      "end": 436.5,
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 436.5,
+      "end": 442.5,
+      "text": "But what I love is that I used to be in the neighborhoods and in the sub-counties of where"
+    },
+    {
+      "start": 442.5,
+      "end": 445.5,
+      "text": "people are making the change at a lower level."
+    },
+    {
+      "start": 445.5,
+      "end": 446.5,
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 446.5,
+      "end": 450.5,
+      "text": "And I want to congratulate you because what happened in those seven years, you built this."
+    },
+    {
+      "start": 450.5,
+      "end": 452.5,
+      "text": "Oh, thank you."
+    },
+    {
+      "start": 452.5,
+      "end": 453.5,
+      "text": "It means a lot to be."
+    },
+    {
+      "start": 453.5,
+      "end": 454.5,
+      "text": "Thank you."
+    },
+    {
+      "start": 454.5,
+      "end": 455.5,
+      "text": "It has."
+    },
+    {
+      "start": 455.5,
+      "end": 456.5,
+      "text": "And you brought in Victory Church."
+    },
+    {
+      "start": 456.5,
+      "end": 457.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 457.5,
+      "end": 458.5,
+      "text": "And you brought in partners."
+    },
+    {
+      "start": 458.5,
+      "end": 459.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 459.5,
+      "end": 466.5,
+      "text": "And each of those seeds have grown to why not only do we have a data set,"
+    },
+    {
+      "start": 466.5,
+      "end": 468.5,
+      "text": "that I can point out on this great podcast."
+    },
+    {
+      "start": 468.5,
+      "end": 469.5,
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 469.5,
+      "end": 475.5,
+      "text": "But it also goes to show why Oklahoma is still averaging 19%, 20% recidivism when the national"
+    },
+    {
+      "start": 475.5,
+      "end": 477.5,
+      "text": "average is still way above 35%."
+    },
+    {
+      "start": 477.5,
+      "end": 478.5,
+      "text": "Wow."
+    },
+    {
+      "start": 478.5,
+      "end": 479.5,
+      "text": "That's interesting."
+    },
+    {
+      "start": 479.5,
+      "end": 482.5,
+      "text": "But let's just go back to what's happened in the last seven years."
+    },
+    {
+      "start": 482.5,
+      "end": 483.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 483.5,
+      "end": 484.5,
+      "text": "And seven years ago, I met you."
+    },
+    {
+      "start": 484.5,
+      "end": 485.5,
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 485.5,
+      "end": 486.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 486.5,
+      "end": 487.5,
+      "text": "I remember that."
+    },
+    {
+      "start": 487.5,
+      "end": 488.5,
+      "text": "Maybe that's the substantial change in my life."
+    },
+    {
+      "start": 488.5,
+      "end": 490.5,
+      "text": "Hey, you know, I will take that."
+    },
+    {
+      "start": 490.5,
+      "end": 495.5,
+      "text": "That is a high compliment, and we are honored at City Center that you would share that."
+    },
+    {
+      "start": 495.5,
+      "end": 502.5,
+      "text": "We believe that there's a lot that happens when you provide a safe, dignifying space."
+    },
+    {
+      "start": 502.5,
+      "end": 505.5,
+      "text": "And we also believe that how you deliver services is really important."
+    },
+    {
+      "start": 505.5,
+      "end": 507.5,
+      "text": "It's not just, I mean, you know this."
+    },
+    {
+      "start": 507.5,
+      "end": 511.5,
+      "text": "You've probably built some of the curriculum that we've used, but there's great curriculum"
+    },
+    {
+      "start": 511.5,
+      "end": 512.5,
+      "text": "everywhere."
+    },
+    {
+      "start": 512.5,
+      "end": 516.5,
+      "text": "It's, we have no lack of great curriculum or programs."
+    },
+    {
+      "start": 516.5,
+      "end": 521.5,
+      "text": "What we lack is, is people that can deliver the service in such a way that families and"
+    },
+    {
+      "start": 521.5,
+      "end": 524.5,
+      "text": "young people can receive it and feel dignified and respected."
+    },
+    {
+      "start": 524.5,
+      "end": 526.5,
+      "text": "So I really appreciate you saying that."
+    },
+    {
+      "start": 526.5,
+      "end": 527.5,
+      "text": "That means a lot to us."
+    },
+    {
+      "start": 527.5,
+      "end": 532.5,
+      "text": "And our hope is that we could, we could see more things like it doesn't have to be City Center,"
+    },
+    {
+      "start": 532.5,
+      "end": 535.5,
+      "text": "but more things like that, that are wrapping their arms around our community."
+    },
+    {
+      "start": 535.5,
+      "end": 537.5,
+      "text": "So I really appreciate that."
+    },
+    {
+      "start": 537.5,
+      "end": 538.5,
+      "text": "That's awesome."
+    },
+    {
+      "start": 538.5,
+      "end": 545.5,
+      "text": "So what is, do you have any unique scenario that you can share with us that's going on"
+    },
+    {
+      "start": 545.5,
+      "end": 550.5,
+      "text": "right now that's not confidential that you can safely share that, that gives us some hope"
+    },
+    {
+      "start": 550.5,
+      "end": 551.5,
+      "text": "and some insight."
+    },
+    {
+      "start": 551.5,
+      "end": 553.5,
+      "text": "We talk about hope a lot here on the podcast."
+    },
+    {
+      "start": 553.5,
+      "end": 554.5,
+      "text": "Well, let's go back to you for a second."
+    },
+    {
+      "start": 554.5,
+      "end": 555.5,
+      "text": "Okay."
+    },
+    {
+      "start": 555.5,
+      "end": 556.5,
+      "text": "All right."
+    },
+    {
+      "start": 556.5,
+      "end": 563.5,
+      "text": "So the squirrel, which I'm pleasantly surprised that I remember your second question."
+    },
+    {
+      "start": 563.5,
+      "end": 566.5,
+      "text": "My brother was diagnosed with a rare cancer."
+    },
+    {
+      "start": 566.5,
+      "end": 567.5,
+      "text": "Okay."
+    },
+    {
+      "start": 567.5,
+      "end": 573.5,
+      "text": "And when he was 16 and subsequently died when he was 17."
+    },
+    {
+      "start": 573.5,
+      "end": 574.5,
+      "text": "I was a few years older."
+    },
+    {
+      "start": 574.5,
+      "end": 583.5,
+      "text": "I was in college studying human behavior, psychology, business, working actually for, with victims."
+    },
+    {
+      "start": 583.5,
+      "end": 586.5,
+      "text": "Anyway, it goes on."
+    },
+    {
+      "start": 586.5,
+      "end": 591.5,
+      "text": "And one of the things that his passing taught me was it's not how much time we have is truly"
+    },
+    {
+      "start": 591.5,
+      "end": 592.5,
+      "text": "what we do with it."
+    },
+    {
+      "start": 592.5,
+      "end": 599.5,
+      "text": "Now it took 10 years of sibling guilt that I might have been the one."
+    },
+    {
+      "start": 599.5,
+      "end": 600.5,
+      "text": "He was a really good kid."
+    },
+    {
+      "start": 600.5,
+      "end": 601.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 601.5,
+      "end": 606.5,
+      "text": "When that I was a bad kid, I just recognized that there was a difference."
+    },
+    {
+      "start": 606.5,
+      "end": 610.5,
+      "text": "And I had more time to explore."
+    },
+    {
+      "start": 610.5,
+      "end": 611.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 611.5,
+      "end": 612.5,
+      "text": "Rebel."
+    },
+    {
+      "start": 612.5,
+      "end": 613.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 613.5,
+      "end": 618.5,
+      "text": "And when I finally woke up to like, wait, I need to start living his example."
+    },
+    {
+      "start": 618.5,
+      "end": 623.5,
+      "text": "And so every day I wake up, I'm like, oh my gosh, I really haven't given a new day."
+    },
+    {
+      "start": 623.5,
+      "end": 625.5,
+      "text": "What am I going to do with it?"
+    },
+    {
+      "start": 625.5,
+      "end": 629.5,
+      "text": "And that was kind of the mindset moving into law school and beyond."
+    },
+    {
+      "start": 629.5,
+      "end": 636.5,
+      "text": "And the second part to that is it's also helped me to see, to really hone in on the difference"
+    },
+    {
+      "start": 636.5,
+      "end": 638.5,
+      "text": "one person can make."
+    },
+    {
+      "start": 638.5,
+      "end": 639.5,
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 639.5,
+      "end": 645.5,
+      "text": "And then if I can zero in on this limited amount of time that we all have."
+    },
+    {
+      "start": 645.5,
+      "end": 646.5,
+      "text": "Right."
+    },
+    {
+      "start": 646.5,
+      "end": 652.5,
+      "text": "So like I'm in state government, but I absolutely do not run, public safety is nonpolitical,"
+    },
+    {
+      "start": 652.5,
+      "end": 653.5,
+      "text": "nonpartisan."
+    },
+    {
+      "start": 653.5,
+      "end": 659.5,
+      "text": "And I have no desire who's at the table next time because it's who do we work with now."
+    },
+    {
+      "start": 659.5,
+      "end": 660.5,
+      "text": "Right."
+    },
+    {
+      "start": 660.5,
+      "end": 665.5,
+      "text": "But when I come in with a mindset of like, okay, how is that one person affecting change?"
+    },
+    {
+      "start": 665.5,
+      "end": 668.5,
+      "text": "And then you start seeing how the connections come."
+    },
+    {
+      "start": 668.5,
+      "end": 671.5,
+      "text": "And so I'm going to bring it back to you, Jim."
+    },
+    {
+      "start": 671.5,
+      "end": 675.5,
+      "text": "Many people want to create what you have here."
+    },
+    {
+      "start": 675.5,
+      "end": 678.5,
+      "text": "And I know that there's efforts going forth."
+    },
+    {
+      "start": 678.5,
+      "end": 685.5,
+      "text": "Every youth center that's being created gratefully and thank God throughout greater Oklahoma City"
+    },
+    {
+      "start": 685.5,
+      "end": 689.5,
+      "text": "is going to miss some of the heartbeat that you have because it's not just the curriculum,"
+    },
+    {
+      "start": 689.5,
+      "end": 692.5,
+      "text": "as you said, it's the delivery of the curriculum."
+    },
+    {
+      "start": 692.5,
+      "end": 699.5,
+      "text": "And so having a you and the spinoffs, it will be many of the graduates of your program."
+    },
+    {
+      "start": 699.5,
+      "end": 703.5,
+      "text": "I don't know if you call them graduates, but the people who participate in your participants"
+    },
+    {
+      "start": 703.5,
+      "end": 709.5,
+      "text": "that will go on and hopefully be the ones that flutter into those other youth centers"
+    },
+    {
+      "start": 709.5,
+      "end": 713.5,
+      "text": "so that it's not what's taught online or curriculum."
+    },
+    {
+      "start": 713.5,
+      "end": 715.5,
+      "text": "It's the heartbeat that teaches it."
+    },
+    {
+      "start": 715.5,
+      "end": 721.5,
+      "text": "So the hope that I see that most don't is during my time,"
+    },
+    {
+      "start": 721.5,
+      "end": 725.5,
+      "text": "15 of those coaches or directors have changed during my time."
+    },
+    {
+      "start": 725.5,
+      "end": 726.5,
+      "text": "Sure."
+    },
+    {
+      "start": 726.5,
+      "end": 728.5,
+      "text": "Which shows that we were ready for a change."
+    },
+    {
+      "start": 728.5,
+      "end": 729.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 729.5,
+      "end": 730.5,
+      "text": "Positive one."
+    },
+    {
+      "start": 730.5,
+      "end": 737.5,
+      "text": "And each of those men and women that I work with, I'm able to hone in."
+    },
+    {
+      "start": 737.5,
+      "end": 742.5,
+      "text": "Like they are now the directors because they have their own heartbeats of delivery"
+    },
+    {
+      "start": 742.5,
+      "end": 745.5,
+      "text": "that goes well beyond a job."
+    },
+    {
+      "start": 745.5,
+      "end": 747.5,
+      "text": "They are each visionaries."
+    },
+    {
+      "start": 747.5,
+      "end": 749.5,
+      "text": "And they are each willing."
+    },
+    {
+      "start": 749.5,
+      "end": 751.5,
+      "text": "Now some are going to get trapped in the bureaucratic system."
+    },
+    {
+      "start": 751.5,
+      "end": 757.5,
+      "text": "But of the systems that you and I work with, like the justice ones, the DAs,"
+    },
+    {
+      "start": 757.5,
+      "end": 764.5,
+      "text": "the corrections, law enforcement, all of those are moving at such a quick speed"
+    },
+    {
+      "start": 764.5,
+      "end": 767.5,
+      "text": "because we found the Jed-like people to run them."
+    },
+    {
+      "start": 767.5,
+      "end": 768.5,
+      "text": "Oh, wow."
+    },
+    {
+      "start": 768.5,
+      "end": 770.5,
+      "text": "And it only works when you set that example."
+    },
+    {
+      "start": 770.5,
+      "end": 776.5,
+      "text": "And who starts catching on and who starts speaking up, and those are the people to pick."
+    },
+    {
+      "start": 776.5,
+      "end": 783.5,
+      "text": "So the hope is, and most people would never know this, but the leaders who get to invest intentionality"
+    },
+    {
+      "start": 783.5,
+      "end": 789.5,
+      "text": "into systems that used to be bureaucratic are the ones making the change."
+    },
+    {
+      "start": 789.5,
+      "end": 795.5,
+      "text": "So I feel good as my term ends this year knowing that the culture will keep going."
+    },
+    {
+      "start": 795.5,
+      "end": 797.5,
+      "text": "That's very hopeful."
+    },
+    {
+      "start": 797.5,
+      "end": 798.5,
+      "text": "That's very encouraging."
+    },
+    {
+      "start": 798.5,
+      "end": 801.5,
+      "text": "First of all, like, thank you very much."
+    },
+    {
+      "start": 801.5,
+      "end": 805.5,
+      "text": "That's very encouraging coming from you, you know, towards City Center."
+    },
+    {
+      "start": 805.5,
+      "end": 806.5,
+      "text": "And that means a lot to us."
+    },
+    {
+      "start": 806.5,
+      "end": 808.5,
+      "text": "And we believe it's the answer."
+    },
+    {
+      "start": 808.5,
+      "end": 809.5,
+      "text": "We really do."
+    },
+    {
+      "start": 809.5,
+      "end": 811.5,
+      "text": "You know, we, from the very start, it's funny."
+    },
+    {
+      "start": 811.5,
+      "end": 815.5,
+      "text": "I'm like, has she read my organizational overview before she came here?"
+    },
+    {
+      "start": 815.5,
+      "end": 816.5,
+      "text": "Are you interviewing me right now?"
+    },
+    {
+      "start": 816.5,
+      "end": 817.5,
+      "text": "I love this."
+    },
+    {
+      "start": 817.5,
+      "end": 818.5,
+      "text": "You know."
+    },
+    {
+      "start": 818.5,
+      "end": 820.5,
+      "text": "The state's always hiring."
+    },
+    {
+      "start": 820.5,
+      "end": 821.5,
+      "text": "There you go."
+    },
+    {
+      "start": 821.5,
+      "end": 828.5,
+      "text": "You know, I am, you know, we've always said we hope and we really hope and pray that, you"
+    },
+    {
+      "start": 828.5,
+      "end": 833.5,
+      "text": "know, a young person that's come through our program is the next, you know, CEO, site director,"
+    },
+    {
+      "start": 833.5,
+      "end": 835.5,
+      "text": "whatever the case may be."
+    },
+    {
+      "start": 835.5,
+      "end": 836.5,
+      "text": "That's the goal, you know."
+    },
+    {
+      "start": 836.5,
+      "end": 842.5,
+      "text": "And then when we, our hope is to scale these micro centers into other neighborhoods and it's"
+    },
+    {
+      "start": 842.5,
+      "end": 844.5,
+      "text": "going to be a person from that neighborhood."
+    },
+    {
+      "start": 844.5,
+      "end": 849.5,
+      "text": "It needs to be, you know, it needs to be people that are invested in the community they want to see thrive,"
+    },
+    {
+      "start": 849.5,
+      "end": 854.5,
+      "text": "you know, and so thank you for that because I do believe that can promote change."
+    },
+    {
+      "start": 854.5,
+      "end": 863.5,
+      "text": "And hopefully these new folks that are not new, they've been doing this for a long time, most likely, but hopefully they'll have the opportunity to speak into that change."
+    },
+    {
+      "start": 863.5,
+      "end": 867.5,
+      "text": "So I love that you're, you're bringing people to the table that can do that."
+    },
+    {
+      "start": 867.5,
+      "end": 869.5,
+      "text": "That, that is really, really big deal."
+    },
+    {
+      "start": 869.5,
+      "end": 870.5,
+      "text": "So thank you for that."
+    },
+    {
+      "start": 870.5,
+      "end": 872.5,
+      "text": "That's really encouraging."
+    },
+    {
+      "start": 872.5,
+      "end": 875.5,
+      "text": "So, justice and redemption."
+    },
+    {
+      "start": 875.5,
+      "end": 878.5,
+      "text": "Those are two words that not everybody likes together."
+    },
+    {
+      "start": 878.5,
+      "end": 881.5,
+      "text": "What are your thoughts on justice and redemption?"
+    },
+    {
+      "start": 881.5,
+      "end": 886.5,
+      "text": "Well, as things have always historically been very siloed."
+    },
+    {
+      "start": 886.5,
+      "end": 889.5,
+      "text": "So even in public safety, I mean, I'll be frank."
+    },
+    {
+      "start": 889.5,
+      "end": 894.5,
+      "text": "When I first came in, I was like, the public thinks that you all talk to each other."
+    },
+    {
+      "start": 894.5,
+      "end": 896.5,
+      "text": "So let's act like it."
+    },
+    {
+      "start": 896.5,
+      "end": 897.5,
+      "text": "Yeah, yeah."
+    },
+    {
+      "start": 897.5,
+      "end": 901.5,
+      "text": "So the first prong, public safety is nonpolitical, nonpartisan."
+    },
+    {
+      "start": 901.5,
+      "end": 905.5,
+      "text": "The second prong, and both equally valued."
+    },
+    {
+      "start": 905.5,
+      "end": 907.5,
+      "text": "We are better when we work together."
+    },
+    {
+      "start": 907.5,
+      "end": 910.5,
+      "text": "The two standpoints that I come in as a leader."
+    },
+    {
+      "start": 910.5,
+      "end": 917.5,
+      "text": "And, and when you start bringing the people to the table and you start having the open air accountability."
+    },
+    {
+      "start": 917.5,
+      "end": 926.5,
+      "text": "So judges and district attorneys and in our public defense system and all of those branches that interface."
+    },
+    {
+      "start": 926.5,
+      "end": 929.5,
+      "text": "And you start saying things out loud."
+    },
+    {
+      "start": 929.5,
+      "end": 937.5,
+      "text": "That helps to kind of break up the ice of just a system that has always been run, which is overrun."
+    },
+    {
+      "start": 937.5,
+      "end": 941.5,
+      "text": "Again, we inherited, just lock people up and not worry about it."
+    },
+    {
+      "start": 941.5,
+      "end": 944.5,
+      "text": "Now we actually care about who we're locking up."
+    },
+    {
+      "start": 944.5,
+      "end": 946.5,
+      "text": "And so people are like, what do we do?"
+    },
+    {
+      "start": 948.5,
+      "end": 952.5,
+      "text": "That's, I hope most of this is edited out because that was a lot of trail of thought."
+    },
+    {
+      "start": 952.5,
+      "end": 953.5,
+      "text": "Oh yeah, great."
+    },
+    {
+      "start": 953.5,
+      "end": 954.5,
+      "text": "Justice."
+    },
+    {
+      "start": 954.5,
+      "end": 957.5,
+      "text": "But justice and redemption."
+    },
+    {
+      "start": 957.5,
+      "end": 965.5,
+      "text": "One of the things that I'm acutely have come aware is how do we learn how to find forgiveness?"
+    },
+    {
+      "start": 965.5,
+      "end": 969.5,
+      "text": "And if we can't find forgiveness, how do we find indifference?"
+    },
+    {
+      "start": 969.5,
+      "end": 972.5,
+      "text": "And so I'm going to start with one that's a little bit of a simpler example."
+    },
+    {
+      "start": 972.5,
+      "end": 979.5,
+      "text": "Someone breaks into my business and generally speaking, they're, they're hungry."
+    },
+    {
+      "start": 979.5,
+      "end": 980.5,
+      "text": "They're high."
+    },
+    {
+      "start": 980.5,
+      "end": 986.5,
+      "text": "It might be a really radical gang, but why did I join a gang?"
+    },
+    {
+      "start": 986.5,
+      "end": 987.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 987.5,
+      "end": 993.5,
+      "text": "I probably joined a gang because I wasn't feeling fulfilled and, and this offered me group."
+    },
+    {
+      "start": 993.5,
+      "end": 998.5,
+      "text": "But if I had had another option and a different mentor, I probably would have gone otherwise."
+    },
+    {
+      "start": 998.5,
+      "end": 1002.5,
+      "text": "So for years, that person who breaks in is locked away."
+    },
+    {
+      "start": 1002.5,
+      "end": 1015.5,
+      "text": "Did we ever ask the business person, would you rather be paid $10 a year made whole or destroy the next three generations of that person's life?"
+    },
+    {
+      "start": 1015.5,
+      "end": 1016.5,
+      "text": "And that's what we've done."
+    },
+    {
+      "start": 1016.5,
+      "end": 1017.5,
+      "text": "Wow."
+    },
+    {
+      "start": 1017.5,
+      "end": 1018.5,
+      "text": "But we never asked the question."
+    },
+    {
+      "start": 1018.5,
+      "end": 1022.5,
+      "text": "So a redemption is also like, well, what's the real threat?"
+    },
+    {
+      "start": 1022.5,
+      "end": 1027.5,
+      "text": "Like we should only lock away those or detain those that are a danger to others."
+    },
+    {
+      "start": 1027.5,
+      "end": 1035.5,
+      "text": "And I would say that the most likely indication I'm going to be a danger on the street is I'm a danger in the home."
+    },
+    {
+      "start": 1035.5,
+      "end": 1047.5,
+      "text": "So we have not elevated what domestic violence looks like, because that is the number one cop killer, the number one mass shooters, and all have in common is that they've done something in the home."
+    },
+    {
+      "start": 1047.5,
+      "end": 1061.5,
+      "text": "So that's just a side note that I want to leave out for people to, A, seek help, but for the law enforcement to recognize, wait, we need to look at it from a law enforcement preventative standpoint."
+    },
+    {
+      "start": 1061.5,
+      "end": 1064.5,
+      "text": "So that's kind of a note."
+    },
+    {
+      "start": 1064.5,
+      "end": 1076.5,
+      "text": "And then if I am a victim of crime and I've been physically injured, how do I get, you know, if someone tells me that my rapist is being moved every day to cell to cell, I'm re-traumatized."
+    },
+    {
+      "start": 1076.5,
+      "end": 1077.5,
+      "text": "Sure."
+    },
+    {
+      "start": 1077.5,
+      "end": 1081.5,
+      "text": "So did we really look at what it's like to learn how do we get to indifference?"
+    },
+    {
+      "start": 1081.5,
+      "end": 1082.5,
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 1082.5,
+      "end": 1094.5,
+      "text": "And if I, as a victim of however that works, can find some form of indifference, if not forgiveness, then it opens up my head to be able to go live and strive."
+    },
+    {
+      "start": 1094.5,
+      "end": 1104.0,
+      "text": "And then the same is, and you are uniquely qualified to answer what it's like that, do I find forgiveness for myself?"
+    },
+    {
+      "start": 1104.5,
+      "end": 1106.5,
+      "text": "Do I, I mean, we all carry some form of shame."
+    },
+    {
+      "start": 1106.5,
+      "end": 1108.24,
+      "text": "We all carry some form of burdens."
+    },
+    {
+      "start": 1108.24,
+      "end": 1108.54,
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 1108.54,
+      "end": 1109.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 1109.86,
+      "end": 1110.94,
+      "text": "Do we forgive ourselves?"
+    },
+    {
+      "start": 1111.06,
+      "end": 1111.26,
+      "text": "Sure."
+    },
+    {
+      "start": 1111.5,
+      "end": 1112.62,
+      "text": "Do we look for that redemption?"
+    },
+    {
+      "start": 1113.52,
+      "end": 1116.88,
+      "text": "Yeah, that's a really good point to kind of expound on that, you know."
+    },
+    {
+      "start": 1116.88,
+      "end": 1120.6,
+      "text": "I think forgiving ourselves is the hardest person to forgive, you know."
+    },
+    {
+      "start": 1120.6,
+      "end": 1130.82,
+      "text": "And so a lot of times I've noticed and I've seen patterns with, you know, men and women that offend and, you know, they're so bound by their past, you know."
+    },
+    {
+      "start": 1130.88,
+      "end": 1134.04,
+      "text": "And I think maybe that's part of the system maybe, you know."
+    },
+    {
+      "start": 1134.04,
+      "end": 1143.84,
+      "text": "And not blaming anybody at all, just I wonder if that's part of it, you know, part of the culture of the system that was with the warehousing system, you know."
+    },
+    {
+      "start": 1143.84,
+      "end": 1154.28,
+      "text": "And so anyway, I just feel like it's really important to find ways to bring the two groups together in a healthy way."
+    },
+    {
+      "start": 1154.56,
+      "end": 1160.78,
+      "text": "I like when we can mediate, you know, forgiveness in that scenario in the legal structure."
+    },
+    {
+      "start": 1160.78,
+      "end": 1165.14,
+      "text": "You know, I think maybe I've told you this story about me and the officer that shot me."
+    },
+    {
+      "start": 1165.34,
+      "end": 1171.06,
+      "text": "You know, I reached out to him at one point years ago and we had a great conversation."
+    },
+    {
+      "start": 1171.32,
+      "end": 1172.44,
+      "text": "You know what was interesting?"
+    },
+    {
+      "start": 1172.76,
+      "end": 1176.74,
+      "text": "He felt like he needed my forgiveness because he felt like he was too excessive."
+    },
+    {
+      "start": 1176.96,
+      "end": 1180.16,
+      "text": "He was, I mean, he was traumatized by having to shoot a kid, you know."
+    },
+    {
+      "start": 1180.88,
+      "end": 1187.38,
+      "text": "So when that, when those two dynamics came together, I mean, we were both clearly emotional."
+    },
+    {
+      "start": 1187.38,
+      "end": 1195.2,
+      "text": "You know, it led me to be having a relationship with his son that I was so privileged to help him walk through an addiction."
+    },
+    {
+      "start": 1195.82,
+      "end": 1198.76,
+      "text": "And, you know, it just, it just, it's amazing what it opens up."
+    },
+    {
+      "start": 1198.78,
+      "end": 1206.06,
+      "text": "You know, when, when we say, you know what, this thing happened, you know, but we're all humans and we do want to be better."
+    },
+    {
+      "start": 1206.06,
+      "end": 1213.0,
+      "text": "The only way to move forward and be better is to communicate and find if there is a route to forgiveness, you know."
+    },
+    {
+      "start": 1213.38,
+      "end": 1220.94,
+      "text": "And so imagine what could happen if that was a part of every process that was able to be had, you know."
+    },
+    {
+      "start": 1221.24,
+      "end": 1228.88,
+      "text": "Imagine if that process was built into every sentence that was issued to any inmate or whoever."
+    },
+    {
+      "start": 1228.88,
+      "end": 1238.12,
+      "text": "Now, obviously there's a lot of people that wouldn't want to participate most likely, but I do think the percentages would skyrocket, you know, of good things happening."
+    },
+    {
+      "start": 1238.12,
+      "end": 1240.52,
+      "text": "And again, changing the expectations in the culture."
+    },
+    {
+      "start": 1240.78,
+      "end": 1240.98,
+      "text": "Yeah."
+    },
+    {
+      "start": 1241.46,
+      "end": 1243.18,
+      "text": "We've kept things siloed."
+    },
+    {
+      "start": 1243.26,
+      "end": 1243.48,
+      "text": "Yeah."
+    },
+    {
+      "start": 1243.76,
+      "end": 1248.94,
+      "text": "Including the victims or including those impacted."
+    },
+    {
+      "start": 1249.14,
+      "end": 1250.64,
+      "text": "And so you brought up a really good point."
+    },
+    {
+      "start": 1250.64,
+      "end": 1263.72,
+      "text": "One of the other things, we did discuss this before, is on a whole nother track, Oklahoma is the first state to have really created a statewide first responders wellness division."
+    },
+    {
+      "start": 1264.86,
+      "end": 1279.36,
+      "text": "And so when I have coastal friends, I am shocked at the smartest cities and smartest people that still tell me that defunding police is where they want to be."
+    },
+    {
+      "start": 1279.36,
+      "end": 1286.18,
+      "text": "And I'm like, well, who stays but the very ones that you are afraid of or the community is worried."
+    },
+    {
+      "start": 1287.32,
+      "end": 1300.88,
+      "text": "And so when you actually support law enforcement and create the wellness and make it a priority from leadership down and leadership up, using that example you had with the officer."
+    },
+    {
+      "start": 1301.78,
+      "end": 1308.62,
+      "text": "So most unlawful uses of force, the unlawful, is just cumulative trauma unaddressed."
+    },
+    {
+      "start": 1308.62,
+      "end": 1311.6,
+      "text": "But we never have addressed it together."
+    },
+    {
+      "start": 1311.6,
+      "end": 1314.1,
+      "text": "Like we didn't have the providers or the whole system."
+    },
+    {
+      "start": 1314.34,
+      "end": 1323.76,
+      "text": "So that officer that shoots a young man, a boy, and he gets to feel the release, but only after he talks to you."
+    },
+    {
+      "start": 1323.82,
+      "end": 1330.62,
+      "text": "So there's this whole time where he's a family man, most likely, his kids and the effects."
+    },
+    {
+      "start": 1330.62,
+      "end": 1338.4,
+      "text": "And he may not even know how to voice and certainly historically would not have been able to voice it necessarily with their superiors."
+    },
+    {
+      "start": 1339.28,
+      "end": 1341.34,
+      "text": "And so you just take that example."
+    },
+    {
+      "start": 1342.4,
+      "end": 1344.26,
+      "text": "You take anything else."
+    },
+    {
+      "start": 1344.26,
+      "end": 1350.94,
+      "text": "Like I used to say, like that person shoots a young person, saves a baby, and gets pulled over by a brat like me."
+    },
+    {
+      "start": 1351.02,
+      "end": 1352.32,
+      "text": "Like, don't you know who I am?"
+    },
+    {
+      "start": 1353.04,
+      "end": 1355.02,
+      "text": "And then they go home and wash, rinse, repeat."
+    },
+    {
+      "start": 1355.02,
+      "end": 1357.38,
+      "text": "So who's ever been looking out?"
+    },
+    {
+      "start": 1357.9,
+      "end": 1364.94,
+      "text": "So when we created the wellness division, it has gone on to, you know, we have executions in Oklahoma,"
+    },
+    {
+      "start": 1365.1,
+      "end": 1372.5,
+      "text": "so making sure that what that whole team looks like going through, and that affects many agencies, not just corrections."
+    },
+    {
+      "start": 1373.26,
+      "end": 1376.76,
+      "text": "So now judges have come to me and been like, hey, what about us?"
+    },
+    {
+      "start": 1377.12,
+      "end": 1382.78,
+      "text": "Because we've been normalized listening to the cases that come before the bench."
+    },
+    {
+      "start": 1382.78,
+      "end": 1384.0,
+      "text": "But no one's ever asked us."
+    },
+    {
+      "start": 1384.0,
+      "end": 1384.76,
+      "text": "That affects you too."
+    },
+    {
+      "start": 1385.4,
+      "end": 1387.8,
+      "text": "And I talk to the media, and I go up to the camera people."
+    },
+    {
+      "start": 1387.9,
+      "end": 1396.06,
+      "text": "I'm like, who talked to you about witnessing this family murder-suicide of five kids?"
+    },
+    {
+      "start": 1396.54,
+      "end": 1398.74,
+      "text": "And you're sitting here filming the whole day."
+    },
+    {
+      "start": 1399.22,
+      "end": 1400.76,
+      "text": "Who talks to you at the end?"
+    },
+    {
+      "start": 1401.48,
+      "end": 1408.74,
+      "text": "How do we mentally, spiritually, physically, everything you do for the kids, for the young people at City Center,"
+    },
+    {
+      "start": 1408.74,
+      "end": 1416.42,
+      "text": "and the people who work in here, is you are teaching them healthy ways to breathe, healthy ways to eat,"
+    },
+    {
+      "start": 1416.76,
+      "end": 1423.14,
+      "text": "healthy ways so that when they're in a stressful condition, it doesn't get hardened like plaque."
+    },
+    {
+      "start": 1423.46,
+      "end": 1425.36,
+      "text": "They're able to work through it."
+    },
+    {
+      "start": 1425.48,
+      "end": 1426.48,
+      "text": "That's so good."
+    },
+    {
+      "start": 1426.84,
+      "end": 1431.96,
+      "text": "And so this is you again in the City Center is that example."
+    },
+    {
+      "start": 1431.96,
+      "end": 1437.24,
+      "text": "I get to see it at a larger scale, but it doesn't mean it's not the same."
+    },
+    {
+      "start": 1438.4,
+      "end": 1438.88,
+      "text": "Wow."
+    },
+    {
+      "start": 1439.02,
+      "end": 1440.02,
+      "text": "That's really good."
+    },
+    {
+      "start": 1440.12,
+      "end": 1441.54,
+      "text": "You know, that is so thoughtful."
+    },
+    {
+      "start": 1442.02,
+      "end": 1444.76,
+      "text": "You know, even down to the camera operator."
+    },
+    {
+      "start": 1445.08,
+      "end": 1448.08,
+      "text": "You know, who's thinking about that guy, you know, or that girl?"
+    },
+    {
+      "start": 1448.72,
+      "end": 1455.94,
+      "text": "Who's considering the mental health of those people that are, you know, experiencing this whole horrific thing, you know?"
+    },
+    {
+      "start": 1456.7,
+      "end": 1459.22,
+      "text": "And I didn't even think about that until you said it."
+    },
+    {
+      "start": 1459.26,
+      "end": 1460.5,
+      "text": "I didn't think about the camera operator."
+    },
+    {
+      "start": 1460.56,
+      "end": 1463.88,
+      "text": "I didn't think about all the people that are directly involved in that."
+    },
+    {
+      "start": 1464.48,
+      "end": 1469.42,
+      "text": "You know, how amazing could that be in that whole process?"
+    },
+    {
+      "start": 1469.42,
+      "end": 1475.0,
+      "text": "And how fast could we expedite the healing if we just, you know, like considered that?"
+    },
+    {
+      "start": 1475.0,
+      "end": 1480.78,
+      "text": "Like, hey, let's pull our punch list out of people that we need to check on because this was bad, guys."
+    },
+    {
+      "start": 1480.78,
+      "end": 1488.92,
+      "text": "You know, that's just so thoughtful and very, you know, first responders and law enforcement have a very special place in my heart."
+    },
+    {
+      "start": 1488.94,
+      "end": 1489.5,
+      "text": "I have a good friend."
+    },
+    {
+      "start": 1489.56,
+      "end": 1491.58,
+      "text": "His name is Jeff Moorfield, retired admin."
+    },
+    {
+      "start": 1491.72,
+      "end": 1492.18,
+      "text": "I know Jeff."
+    },
+    {
+      "start": 1492.34,
+      "end": 1492.74,
+      "text": "You know Jeff."
+    },
+    {
+      "start": 1492.82,
+      "end": 1493.04,
+      "text": "Good."
+    },
+    {
+      "start": 1493.14,
+      "end": 1494.0,
+      "text": "I was hoping you did."
+    },
+    {
+      "start": 1494.38,
+      "end": 1495.82,
+      "text": "But he's doing some great work."
+    },
+    {
+      "start": 1495.92,
+      "end": 1496.62,
+      "text": "A little on-call."
+    },
+    {
+      "start": 1496.74,
+      "end": 1497.94,
+      "text": "Let's go ahead and call it out."
+    },
+    {
+      "start": 1498.0,
+      "end": 1499.52,
+      "text": "Yeah, on-call project, man."
+    },
+    {
+      "start": 1499.8,
+      "end": 1500.9,
+      "text": "See Jeff Moorfield."
+    },
+    {
+      "start": 1501.22,
+      "end": 1506.38,
+      "text": "He's doing incredible things for first responders once they retire because there's a big issue there, too."
+    },
+    {
+      "start": 1506.58,
+      "end": 1507.52,
+      "text": "And before they retire."
+    },
+    {
+      "start": 1507.64,
+      "end": 1508.26,
+      "text": "And before, yeah."
+    },
+    {
+      "start": 1508.26,
+      "end": 1509.42,
+      "text": "So that there's an intentionality."
+    },
+    {
+      "start": 1509.42,
+      "end": 1509.66,
+      "text": "Prep, yeah."
+    },
+    {
+      "start": 1509.66,
+      "end": 1520.46,
+      "text": "I spoke to a group of his officers not too long ago and a first responder and not one officer, not one dry eye in the room."
+    },
+    {
+      "start": 1520.82,
+      "end": 1533.54,
+      "text": "And the first responder lady that was there with IMSA, her supervisor was the guy that saved my life years ago, the supervisor that trained her."
+    },
+    {
+      "start": 1534.44,
+      "end": 1535.24,
+      "text": "Isn't that crazy?"
+    },
+    {
+      "start": 1535.74,
+      "end": 1536.8,
+      "text": "Back to the point."
+    },
+    {
+      "start": 1536.8,
+      "end": 1544.7,
+      "text": "You know, when this kind of healthy, positive move towards a solution stuff starts happening, people start colliding."
+    },
+    {
+      "start": 1545.1,
+      "end": 1546.58,
+      "text": "Well, just this weekend."
+    },
+    {
+      "start": 1546.68,
+      "end": 1547.3,
+      "text": "I'm sorry, Tricia."
+    },
+    {
+      "start": 1547.6,
+      "end": 1548.42,
+      "text": "Just this Saturday."
+    },
+    {
+      "start": 1548.42,
+      "end": 1553.9,
+      "text": "I spoke at a men's breakfast at a friend's church here in the city that supports us."
+    },
+    {
+      "start": 1554.56,
+      "end": 1563.36,
+      "text": "And after I shared my personal story and after I spoke, an officer came up to me and said, crying, I know Jerry."
+    },
+    {
+      "start": 1563.88,
+      "end": 1568.94,
+      "text": "My son was at a church you spoke at and he was struggling with an addiction."
+    },
+    {
+      "start": 1569.3,
+      "end": 1572.94,
+      "text": "He called me immediately to verify that that story about the officer was true."
+    },
+    {
+      "start": 1572.94,
+      "end": 1576.72,
+      "text": "I verified it because I know Jerry and my son."
+    },
+    {
+      "start": 1576.92,
+      "end": 1579.4,
+      "text": "That was the pivotal point to him getting help."
+    },
+    {
+      "start": 1579.84,
+      "end": 1581.34,
+      "text": "And so I only share that again."
+    },
+    {
+      "start": 1581.7,
+      "end": 1589.48,
+      "text": "Look at all the things that extrapolate out when there is one conversation around forgiveness and redemption and justice."
+    },
+    {
+      "start": 1589.92,
+      "end": 1592.42,
+      "text": "You know, it's pretty incredible."
+    },
+    {
+      "start": 1592.42,
+      "end": 1595.06,
+      "text": "That is such a needle mover."
+    },
+    {
+      "start": 1595.44,
+      "end": 1596.96,
+      "text": "I wonder why we're so scared of that."
+    },
+    {
+      "start": 1597.26,
+      "end": 1598.52,
+      "text": "I wonder why we're so scared to communicate."
+    },
+    {
+      "start": 1598.64,
+      "end": 1601.28,
+      "text": "Maybe you can give some personal insight on that, Tricia."
+    },
+    {
+      "start": 1601.42,
+      "end": 1604.2,
+      "text": "Do you think that what are we afraid of?"
+    },
+    {
+      "start": 1604.96,
+      "end": 1607.2,
+      "text": "Why are we scared to get the same table together?"
+    },
+    {
+      "start": 1607.5,
+      "end": 1608.92,
+      "text": "Everybody that needs to be involved."
+    },
+    {
+      "start": 1609.86,
+      "end": 1610.78,
+      "text": "And maybe you can't answer this."
+    },
+    {
+      "start": 1610.86,
+      "end": 1611.96,
+      "text": "Don't answer if you can't."
+    },
+    {
+      "start": 1612.18,
+      "end": 1613.04,
+      "text": "But I don't know."
+    },
+    {
+      "start": 1613.08,
+      "end": 1614.6,
+      "text": "I'd just love to hear your insight on that."
+    },
+    {
+      "start": 1615.24,
+      "end": 1617.84,
+      "text": "So, Jed, I'm not on social media at all."
+    },
+    {
+      "start": 1617.94,
+      "end": 1619.08,
+      "text": "Any way, shape or form."
+    },
+    {
+      "start": 1619.14,
+      "end": 1619.28,
+      "text": "Okay."
+    },
+    {
+      "start": 1619.78,
+      "end": 1622.06,
+      "text": "Never had Facebook or anything."
+    },
+    {
+      "start": 1622.06,
+      "end": 1627.16,
+      "text": "And I will say that if I had, so I'll use kind of a simpler form."
+    },
+    {
+      "start": 1628.2,
+      "end": 1638.24,
+      "text": "One of the things that I witness in people that I've worked with, that the people who are like you that are moving things are moving them because you're coming from here."
+    },
+    {
+      "start": 1638.6,
+      "end": 1642.44,
+      "text": "But when you're on social media and stuff, everything stays in your own head."
+    },
+    {
+      "start": 1642.96,
+      "end": 1648.76,
+      "text": "And when we allow the voices in our head, which we should treat like a dangerous neighborhood at night."
+    },
+    {
+      "start": 1649.66,
+      "end": 1650.14,
+      "text": "Yes."
+    },
+    {
+      "start": 1650.14,
+      "end": 1650.72,
+      "text": "Because they're alone."
+    },
+    {
+      "start": 1650.72,
+      "end": 1651.24,
+      "text": "I wouldn't put that."
+    },
+    {
+      "start": 1651.7,
+      "end": 1656.38,
+      "text": "But so I constantly say, the more I don't think about me, the better my life is getting."
+    },
+    {
+      "start": 1656.38,
+      "end": 1666.04,
+      "text": "And I get to be on a podcast with you that's named four touch points that have spanned decades of your life that have all come back."
+    },
+    {
+      "start": 1666.14,
+      "end": 1668.56,
+      "text": "I mean, there's millions of people."
+    },
+    {
+      "start": 1669.22,
+      "end": 1672.06,
+      "text": "And statistically speaking, you're right."
+    },
+    {
+      "start": 1672.38,
+      "end": 1676.26,
+      "text": "Because when you're coming from here, we find those pathways."
+    },
+    {
+      "start": 1676.26,
+      "end": 1680.08,
+      "text": "So the more I don't think about myself, the better my life is."
+    },
+    {
+      "start": 1680.2,
+      "end": 1682.04,
+      "text": "I would not be here if I was stuck in my head."
+    },
+    {
+      "start": 1683.1,
+      "end": 1686.16,
+      "text": "So society itself wants to keep people stuck in their heads."
+    },
+    {
+      "start": 1686.24,
+      "end": 1688.6,
+      "text": "I mean, we're geared to it."
+    },
+    {
+      "start": 1688.6,
+      "end": 1701.44,
+      "text": "And so that natural easy button or the natural status quo fight or who am I in my identity, we do great things when there's no who am I."
+    },
+    {
+      "start": 1701.58,
+      "end": 1701.88,
+      "text": "Right."
+    },
+    {
+      "start": 1701.88,
+      "end": 1706.64,
+      "text": "Because we're becoming the person we are by just following that passion."
+    },
+    {
+      "start": 1707.06,
+      "end": 1707.54,
+      "text": "That's good."
+    },
+    {
+      "start": 1707.54,
+      "end": 1708.84,
+      "text": "So I'm just a big believer."
+    },
+    {
+      "start": 1709.0,
+      "end": 1712.32,
+      "text": "Mine is the more we don't think about ourselves, the better our life will be."
+    },
+    {
+      "start": 1712.44,
+      "end": 1713.52,
+      "text": "And we're more open to it."
+    },
+    {
+      "start": 1714.04,
+      "end": 1714.72,
+      "text": "I love that."
+    },
+    {
+      "start": 1714.72,
+      "end": 1722.06,
+      "text": "And, you know, we can all hang on to what we think we know and what we think we want to."
+    },
+    {
+      "start": 1722.16,
+      "end": 1725.82,
+      "text": "But if we do that, we're not floating down the river of life."
+    },
+    {
+      "start": 1725.82,
+      "end": 1727.48,
+      "text": "We're just staying in one place."
+    },
+    {
+      "start": 1727.54,
+      "end": 1730.44,
+      "text": "And that water will just keep hitting us and say, come on, move."
+    },
+    {
+      "start": 1730.74,
+      "end": 1731.14,
+      "text": "Let's go."
+    },
+    {
+      "start": 1731.64,
+      "end": 1735.28,
+      "text": "You know, and I think pride, you know, I just think of the word pride, too."
+    },
+    {
+      "start": 1735.34,
+      "end": 1737.16,
+      "text": "I think that comes into play in this whole."
+    },
+    {
+      "start": 1737.26,
+      "end": 1740.48,
+      "text": "I was talking at a panel this weekend on a Sunday."
+    },
+    {
+      "start": 1740.48,
+      "end": 1747.96,
+      "text": "And, you know, kind of talking about me just as a husband, you know, I said, you know, we were talking about pride."
+    },
+    {
+      "start": 1748.26,
+      "end": 1749.98,
+      "text": "And pride is very me-centric."
+    },
+    {
+      "start": 1750.72,
+      "end": 1751.88,
+      "text": "Pride wants to keep control."
+    },
+    {
+      "start": 1752.16,
+      "end": 1755.02,
+      "text": "Pride wants to do it my way."
+    },
+    {
+      "start": 1755.22,
+      "end": 1758.54,
+      "text": "Pride wants it to not include people, you know, all these different things."
+    },
+    {
+      "start": 1758.76,
+      "end": 1765.84,
+      "text": "And, you know, there's always an opportunity for pride to really creep into leadership, you know."
+    },
+    {
+      "start": 1765.84,
+      "end": 1771.46,
+      "text": "And I think we probably see that in some, in every state, in every nation."
+    },
+    {
+      "start": 1771.82,
+      "end": 1777.64,
+      "text": "Pride creeps in and it becomes about them and their power and their influence and theirs."
+    },
+    {
+      "start": 1778.3,
+      "end": 1785.7,
+      "text": "But I love that we are moving in a direction, it sounds like, where we're talking about, hey, this is about all of us together as Oklahomans."
+    },
+    {
+      "start": 1786.06,
+      "end": 1787.98,
+      "text": "You know, who are we as Oklahomans?"
+    },
+    {
+      "start": 1788.04,
+      "end": 1789.4,
+      "text": "That might be a good question, you know."
+    },
+    {
+      "start": 1789.58,
+      "end": 1791.3,
+      "text": "What do we want to be known for, you know?"
+    },
+    {
+      "start": 1791.3,
+      "end": 1798.44,
+      "text": "And I love it that we're being known for, you know, all the great things that we knew we had the capacity to be great for."
+    },
+    {
+      "start": 1798.64,
+      "end": 1799.1,
+      "text": "You know what I mean?"
+    },
+    {
+      "start": 1799.26,
+      "end": 1799.98,
+      "text": "It's coming."
+    },
+    {
+      "start": 1800.18,
+      "end": 1800.84,
+      "text": "I believe that."
+    },
+    {
+      "start": 1800.98,
+      "end": 1804.46,
+      "text": "I believe there's so much potential for our city and for our state as well."
+    },
+    {
+      "start": 1804.58,
+      "end": 1810.0,
+      "text": "But, and you are directly contributing to that in such a significant way."
+    },
+    {
+      "start": 1810.66,
+      "end": 1819.0,
+      "text": "But to your point about me, I'm going to make a point about you, how you're doing it, how you're delivering that leadership is completely different."
+    },
+    {
+      "start": 1819.0,
+      "end": 1823.52,
+      "text": "And so I'm very honored to get to sit and have this time with you because of that."
+    },
+    {
+      "start": 1824.1,
+      "end": 1825.7,
+      "text": "More than that, just because of who you are."
+    },
+    {
+      "start": 1825.82,
+      "end": 1832.66,
+      "text": "I really appreciate your character and the heart that you have for people that just need another chance, you know."
+    },
+    {
+      "start": 1833.04,
+      "end": 1834.3,
+      "text": "Second chances says it all."
+    },
+    {
+      "start": 1834.4,
+      "end": 1842.54,
+      "text": "That was the name of the, I mean, that's basically the theme of your life is trying to find ways to provide healthy second chances."
+    },
+    {
+      "start": 1842.62,
+      "end": 1843.92,
+      "text": "And that's really, really cool."
+    },
+    {
+      "start": 1843.92,
+      "end": 1847.4,
+      "text": "Okay, so before we end, is it really a second chance?"
+    },
+    {
+      "start": 1847.88,
+      "end": 1852.24,
+      "text": "I mean, to me, I believe that we just need to help find people pathways."
+    },
+    {
+      "start": 1852.6,
+      "end": 1852.68,
+      "text": "Yeah."
+    },
+    {
+      "start": 1852.74,
+      "end": 1856.52,
+      "text": "That they never, most, the 70% that we have incarcerated."
+    },
+    {
+      "start": 1857.08,
+      "end": 1857.3,
+      "text": "Yeah."
+    },
+    {
+      "start": 1858.28,
+      "end": 1864.84,
+      "text": "I'm pretty sure the systems have failed them between ages 5 to 12 where we could have had a positive interruption."
+    },
+    {
+      "start": 1865.22,
+      "end": 1865.62,
+      "text": "That's true."
+    },
+    {
+      "start": 1865.62,
+      "end": 1873.18,
+      "text": "So is it a second chance or is it just recognizing that at this point, let's find the best path forward we can?"
+    },
+    {
+      "start": 1873.32,
+      "end": 1875.76,
+      "text": "Maybe we have one perpetual chance."
+    },
+    {
+      "start": 1876.34,
+      "end": 1878.62,
+      "text": "And every time we get it wrong, we get another chance to get it right."
+    },
+    {
+      "start": 1878.94,
+      "end": 1880.64,
+      "text": "You know, it's like one perpetual."
+    },
+    {
+      "start": 1880.64,
+      "end": 1882.52,
+      "text": "And the more we change the culture at each level."
+    },
+    {
+      "start": 1883.2,
+      "end": 1883.48,
+      "text": "Yeah."
+    },
+    {
+      "start": 1883.68,
+      "end": 1884.1,
+      "text": "I love it."
+    },
+    {
+      "start": 1884.1,
+      "end": 1887.78,
+      "text": "We're training teachers a little bit more to be able to ask about trauma."
+    },
+    {
+      "start": 1888.04,
+      "end": 1888.24,
+      "text": "Yeah."
+    },
+    {
+      "start": 1888.24,
+      "end": 1899.74,
+      "text": "We're training, I mean, and again, it goes back to if we all recognize that people have seen things, that things don't need to be normalized."
+    },
+    {
+      "start": 1900.02,
+      "end": 1900.2,
+      "text": "Yeah."
+    },
+    {
+      "start": 1900.2,
+      "end": 1904.48,
+      "text": "We can get outside of what are, we're not cogs."
+    },
+    {
+      "start": 1904.82,
+      "end": 1905.28,
+      "text": "That's good."
+    },
+    {
+      "start": 1905.54,
+      "end": 1906.14,
+      "text": "That's so good."
+    },
+    {
+      "start": 1906.28,
+      "end": 1906.76,
+      "text": "Thank you."
+    },
+    {
+      "start": 1907.12,
+      "end": 1909.04,
+      "text": "I mean, I have so appreciated my time."
+    },
+    {
+      "start": 1909.04,
+      "end": 1910.08,
+      "text": "Oh, I have too."
+    },
+    {
+      "start": 1910.2,
+      "end": 1911.7,
+      "text": "I have one last question if you're okay with that."
+    },
+    {
+      "start": 1911.7,
+      "end": 1912.72,
+      "text": "One last question."
+    },
+    {
+      "start": 1912.72,
+      "end": 1917.5,
+      "text": "So over the next 10 to 20 years, what is your hope for Oklahoma?"
+    },
+    {
+      "start": 1918.12,
+      "end": 1924.58,
+      "text": "Sitting in the position you're sitting in as the Secretary of Public Safety for Oklahoma, what is your hope for the future?"
+    },
+    {
+      "start": 1925.94,
+      "end": 1928.24,
+      "text": "Knowing what you know, too, like what's happening right now?"
+    },
+    {
+      "start": 1929.88,
+      "end": 1934.74,
+      "text": "We have an incredible amount of momentum in changing."
+    },
+    {
+      "start": 1934.74,
+      "end": 1950.32,
+      "text": "So one of the things on a hope question, when I travel around now with our State Director of Corrections, in the industry, Oklahoma is now known as the most rehabilitative and AI innovated."
+    },
+    {
+      "start": 1950.92,
+      "end": 1957.0,
+      "text": "And I don't even have to tell any of your listeners how different that is, and most probably don't believe me."
+    },
+    {
+      "start": 1957.18,
+      "end": 1961.38,
+      "text": "So that's, let me be clear, within its own industry."
+    },
+    {
+      "start": 1961.38,
+      "end": 1979.46,
+      "text": "If we continue this momentum, then we're able to really recognize that all things are integrated intentionally, and all of our outcomes or education can be looked at, not through such little microscopics, but looked through from a grander standpoint."
+    },
+    {
+      "start": 1980.22,
+      "end": 1981.56,
+      "text": "Oklahoma is a great state."
+    },
+    {
+      "start": 1981.72,
+      "end": 1983.64,
+      "text": "We work well together."
+    },
+    {
+      "start": 1984.18,
+      "end": 1985.46,
+      "text": "We want to invest."
+    },
+    {
+      "start": 1985.46,
+      "end": 1991.84,
+      "text": "We are, what I hear, a very poor state, so we're far more hands-on and building."
+    },
+    {
+      "start": 1991.84,
+      "end": 1993.12,
+      "text": "More of a blue-collar state."
+    },
+    {
+      "start": 1993.14,
+      "end": 1993.98,
+      "text": "Blue-collar state."
+    },
+    {
+      "start": 1994.9,
+      "end": 1998.74,
+      "text": "And continue to be a gold standard in those things that we can."
+    },
+    {
+      "start": 1999.22,
+      "end": 1999.88,
+      "text": "I love it."
+    },
+    {
+      "start": 2000.1,
+      "end": 2002.18,
+      "text": "Tricia Everest, you're absolutely amazing."
+    },
+    {
+      "start": 2002.28,
+      "end": 2003.32,
+      "text": "We appreciate you so much."
+    },
+    {
+      "start": 2003.38,
+      "end": 2004.54,
+      "text": "Thank you so much for your leadership."
+    },
+    {
+      "start": 2005.12,
+      "end": 2009.58,
+      "text": "And thank you for not just your leadership, but how you deliver your leadership."
+    },
+    {
+      "start": 2009.82,
+      "end": 2012.96,
+      "text": "That's really just amazing to watch."
+    },
+    {
+      "start": 2012.96,
+      "end": 2017.22,
+      "text": "And I'm excited about the future of our state, and I'm so thankful that you're in this place."
+    },
+    {
+      "start": 2017.28,
+      "end": 2017.98,
+      "text": "Are you running again?"
+    },
+    {
+      "start": 2018.46,
+      "end": 2018.6,
+      "text": "No."
+    },
+    {
+      "start": 2018.68,
+      "end": 2019.98,
+      "text": "I'm excited to be partnering with you."
+    },
+    {
+      "start": 2019.98,
+      "end": 2020.24,
+      "text": "Okay."
+    },
+    {
+      "start": 2020.3,
+      "end": 2020.66,
+      "text": "All right."
+    },
+    {
+      "start": 2020.7,
+      "end": 2020.94,
+      "text": "Okay."
+    },
+    {
+      "start": 2021.04,
+      "end": 2021.7,
+      "text": "I love that."
+    },
+    {
+      "start": 2021.88,
+      "end": 2022.8,
+      "text": "I love that, too."
+    },
+    {
+      "start": 2022.94,
+      "end": 2023.6,
+      "text": "I love that, too."
+    },
+    {
+      "start": 2023.7,
+      "end": 2025.16,
+      "text": "So thank you again for coming."
+    },
+    {
+      "start": 2025.22,
+      "end": 2025.52,
+      "text": "Thank you."
+    },
+    {
+      "start": 2026.36,
+      "end": 2027.78,
+      "text": "I feel like we've become friends."
+    },
+    {
+      "start": 2027.8,
+      "end": 2028.26,
+      "text": "What an honor."
+    },
+    {
+      "start": 2028.56,
+      "end": 2032.06,
+      "text": "And I'm just so grateful that we get to have this relationship with you."
+    },
+    {
+      "start": 2032.14,
+      "end": 2033.44,
+      "text": "And please don't be a stranger."
+    },
+    {
+      "start": 2033.58,
+      "end": 2034.58,
+      "text": "Come by any time."
+    },
+    {
+      "start": 2034.82,
+      "end": 2038.18,
+      "text": "If you just pop in and a camera's on, feel free to jump in the chair."
+    },
+    {
+      "start": 2038.3,
+      "end": 2038.92,
+      "text": "We're going to have you."
+    },
+    {
+      "start": 2038.92,
+      "end": 2041.54,
+      "text": "So thank you guys so much for joining us this week."
+    },
+    {
+      "start": 2041.54,
+      "end": 2045.64,
+      "text": "Tricia Everest, guys, please share this podcast with all your friends."
+    },
+    {
+      "start": 2045.86,
+      "end": 2047.06,
+      "text": "It has a lot of great information."
+    },
+    {
+      "start": 2047.58,
+      "end": 2050.8,
+      "text": "But thank you again for joining us, and we hope that you join us next week."
+    }
+  ]
+}

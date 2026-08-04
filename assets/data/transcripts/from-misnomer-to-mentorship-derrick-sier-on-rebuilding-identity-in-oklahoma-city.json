@@ -1,0 +1,4131 @@
+{
+  "episode_title": "From Misnomer to Mentorship: Derrick Sier on Rebuilding Identity in Oklahoma City",
+  "episode_slug": "from-misnomer-to-mentorship-derrick-sier-on-rebuilding-identity-in-oklahoma-city",
+  "source": "Published episode audio",
+  "language": "en",
+  "review_status": "machine-generated",
+  "generated_at": "2026-08-04T10:07:15+00:00",
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 29.98,
+      "text": "Welcome to Voices of OKC. We are back again this week. Thanks for joining us. We are so excited about where the podcast is headed. The kids are really getting engaged. We had a great episode."
+    },
+    {
+      "start": 29.98,
+      "end": 59.96,
+      "text": "That just dropped last week with Mayor Holt. Our student Jordan did a phenomenal job interviewing him. So I really appreciate everybody watching, listening, your support. It means a lot. These kids are gaining skills that are going to propel them into their adulthood, we believe, and that will help equip them for life in the future. So we're excited that you're a part of that. But today we're going to talk mentorship with one of the best in our city. Derrick Sier, thank you so much for joining us today, man. We are"
+    },
+    {
+      "start": 59.98,
+      "end": 89.96,
+      "text": "We're excited to have you. You know, we've met here and there like really briefly in certain scenarios. Yeah, we never really had a chance to talk. And so just the time we've had before we were on camera, man, I really my head, my ears are sparking because I just love vision. I love what you guys are doing at Restore OKC, man. Just phenomenal work. But there is so much so much to Derrick. And so I can't wait to hear more about you, man. And I actually just want to start right here. You know, so what was life like growing up for you? Are you from Oklahoma City?"
+    },
+    {
+      "start": 89.98,
+      "end": 94.94,
+      "text": "Oklahoma? What was that like, man? Absolutely. Born and raised in Tulsa, Oklahoma. Northside?"
+    },
+    {
+      "start": 95.1,
+      "end": 112.0,
+      "text": "Northside, okay. Anybody that's familiar? Whenever people ask about the north side of Oklahoma City, I tell them, or north side of Tulsa, I tell them the east side of Oklahoma City, east side of St. Louis, south side of Chicago, south Dallas. Like, it's just one of those areas. And so very tight knit community."
+    },
+    {
+      "start": 112.0,
+      "end": 124.38,
+      "text": "Yeah. My dad, I drove buses. My mom was a school nurse. But one of the most important things that kind of shaped me in my youth was seeing my dad work with kids down at the park, Chamberlain Park."
+    },
+    {
+      "start": 124.56,
+      "end": 124.78,
+      "text": "Okay."
+    },
+    {
+      "start": 124.98,
+      "end": 131.62,
+      "text": "And he would drive kids back and forth and taught sports while he was down there, life skills, wash clothes, things like that."
+    },
+    {
+      "start": 131.62,
+      "end": 139.88,
+      "text": "And so that kind of formed and shaped me in the fire of North Tulsa. Went on to play football in Iowa."
+    },
+    {
+      "start": 140.28,
+      "end": 141.0,
+      "text": "Okay. College?"
+    },
+    {
+      "start": 141.1,
+      "end": 143.76,
+      "text": "Yeah, college ball in Iowa. Moved back to..."
+    },
+    {
+      "start": 143.76,
+      "end": 144.62,
+      "text": "At Iowa University?"
+    },
+    {
+      "start": 144.72,
+      "end": 149.42,
+      "text": "No, no, no, no. It was a small school. Well, it's easier to say Iowa than say Graceland."
+    },
+    {
+      "start": 149.58,
+      "end": 152.78,
+      "text": "Sure. But college in general, play football, it's a different beast."
+    },
+    {
+      "start": 152.88,
+      "end": 153.1,
+      "text": "Oh, absolutely."
+    },
+    {
+      "start": 153.1,
+      "end": 153.94,
+      "text": "That's a huge accomplishment."
+    },
+    {
+      "start": 153.94,
+      "end": 156.42,
+      "text": "The game is faster and people are stronger."
+    },
+    {
+      "start": 156.64,
+      "end": 156.92,
+      "text": "Oh, yeah."
+    },
+    {
+      "start": 157.02,
+      "end": 159.94,
+      "text": "The commitment level is way more than I had in college."
+    },
+    {
+      "start": 160.06,
+      "end": 167.38,
+      "text": "And so moved back home, got married, got involved with Edmond Parks and Rec's Boys and Girls Club with Salvation Army."
+    },
+    {
+      "start": 167.48,
+      "end": 167.66,
+      "text": "Yeah."
+    },
+    {
+      "start": 167.76,
+      "end": 169.36,
+      "text": "Kind of did some community programming there."
+    },
+    {
+      "start": 169.4,
+      "end": 169.56,
+      "text": "Okay."
+    },
+    {
+      "start": 169.9,
+      "end": 174.2,
+      "text": "Led me to UCO where I did recreation management there."
+    },
+    {
+      "start": 174.26,
+      "end": 174.44,
+      "text": "Okay."
+    },
+    {
+      "start": 174.76,
+      "end": 179.24,
+      "text": "And got into corporate rec and then eventually launched my own team building mentoring company."
+    },
+    {
+      "start": 179.36,
+      "end": 181.18,
+      "text": "Oh, very cool. So how long have you been married?"
+    },
+    {
+      "start": 181.44,
+      "end": 182.86,
+      "text": "I've been married 24 years, man."
+    },
+    {
+      "start": 182.86,
+      "end": 183.92,
+      "text": "24. You got me by the time."
+    },
+    {
+      "start": 183.92,
+      "end": 184.36,
+      "text": "I got you, man."
+    },
+    {
+      "start": 184.36,
+      "end": 184.84,
+      "text": "Yes, sir."
+    },
+    {
+      "start": 184.98,
+      "end": 189.82,
+      "text": "I tell you, it's a beautiful thing. It'll shape you in great way."
+    },
+    {
+      "start": 190.6,
+      "end": 192.24,
+      "text": "I'm going to say everything positive right now."
+    },
+    {
+      "start": 192.24,
+      "end": 192.84,
+      "text": "Yeah, here we go. There we go."
+    },
+    {
+      "start": 192.84,
+      "end": 196.14,
+      "text": "No, it's good. You know, marriage is such a... Truly, it is such a good thing."
+    },
+    {
+      "start": 196.22,
+      "end": 196.38,
+      "text": "Yeah."
+    },
+    {
+      "start": 196.64,
+      "end": 199.5,
+      "text": "But yeah, it does knock off some edges of both of you."
+    },
+    {
+      "start": 199.62,
+      "end": 199.78,
+      "text": "Yeah."
+    },
+    {
+      "start": 199.92,
+      "end": 205.52,
+      "text": "Anyway, so yeah, very great for my wife and I'm sure you've outpunted your coverage as well."
+    },
+    {
+      "start": 205.64,
+      "end": 205.96,
+      "text": "Absolutely."
+    },
+    {
+      "start": 206.36,
+      "end": 206.64,
+      "text": "Yeah."
+    },
+    {
+      "start": 207.1,
+      "end": 212.32,
+      "text": "That's awesome, man. So your dad really had a big influence in your life as far as..."
+    },
+    {
+      "start": 212.32,
+      "end": 215.4,
+      "text": "So that's a good question then that we can jump on."
+    },
+    {
+      "start": 215.4,
+      "end": 222.64,
+      "text": "So how important is it for the father to be in the home in regard to any young person's life?"
+    },
+    {
+      "start": 222.92,
+      "end": 225.02,
+      "text": "Maybe not even in the home, but maybe just present."
+    },
+    {
+      "start": 225.18,
+      "end": 225.6,
+      "text": "Yeah, active."
+    },
+    {
+      "start": 225.7,
+      "end": 226.66,
+      "text": "He's available, active."
+    },
+    {
+      "start": 226.82,
+      "end": 227.52,
+      "text": "You know, what is that?"
+    },
+    {
+      "start": 227.52,
+      "end": 231.36,
+      "text": "How important is that? And then I got another question to back that one up."
+    },
+    {
+      "start": 231.48,
+      "end": 242.82,
+      "text": "Yeah, absolutely. I know for the last 20, 25 years, I think there's been this misnomer of the absence of specifically black fathers in the lives of children."
+    },
+    {
+      "start": 242.82,
+      "end": 252.96,
+      "text": "And I think research, when they talk about fathers being in the home, they actually talk about residing within the four walls of the building."
+    },
+    {
+      "start": 253.22,
+      "end": 253.3,
+      "text": "Yeah."
+    },
+    {
+      "start": 253.3,
+      "end": 260.42,
+      "text": "But what we found out with a little more nuance is that while dads may not be in the home, they're still active and they're still present."
+    },
+    {
+      "start": 260.72,
+      "end": 269.18,
+      "text": "And so we were talking about birthdays, graduations, showing up for extracurricular activities, sporting events, being available for date nights."
+    },
+    {
+      "start": 269.58,
+      "end": 271.38,
+      "text": "They're active disciplinarians."
+    },
+    {
+      "start": 271.38,
+      "end": 273.24,
+      "text": "It's like then the numbers begin to change."
+    },
+    {
+      "start": 273.24,
+      "end": 273.6,
+      "text": "Sure."
+    },
+    {
+      "start": 273.74,
+      "end": 280.1,
+      "text": "And so I had the benefit of having a father that was not only in the home, but also meeting all of those things."
+    },
+    {
+      "start": 280.1,
+      "end": 293.24,
+      "text": "And so when I think about having a father specifically, I think it comes with a very specific flavor and nuance as it pertains to relationships and dynamics."
+    },
+    {
+      "start": 293.24,
+      "end": 301.32,
+      "text": "I could be very archaic and generalize the roles of mom and dad."
+    },
+    {
+      "start": 301.32,
+      "end": 311.76,
+      "text": "But I think when you boil it down, the dads have a very unique contribution as it pertains to the confidence, the identity of a child."
+    },
+    {
+      "start": 312.2,
+      "end": 316.76,
+      "text": "And so what I've learned by having my father in my life has been tremendous."
+    },
+    {
+      "start": 316.76,
+      "end": 324.48,
+      "text": "One of the things that my dad did also was not only was he present, but he brought other males into my life as well."
+    },
+    {
+      "start": 325.04,
+      "end": 328.78,
+      "text": "And some of those men had children."
+    },
+    {
+      "start": 329.26,
+      "end": 330.66,
+      "text": "Some of those men did not."
+    },
+    {
+      "start": 330.84,
+      "end": 333.02,
+      "text": "Some of those men were in the home with their children."
+    },
+    {
+      "start": 333.1,
+      "end": 334.06,
+      "text": "Some of those men were not."
+    },
+    {
+      "start": 334.46,
+      "end": 341.64,
+      "text": "And so what I got to see is not only what my experience taught me in that there are black men who are active,"
+    },
+    {
+      "start": 341.64,
+      "end": 348.46,
+      "text": "but it was counterintuitive or counter like what was being said in the research."
+    },
+    {
+      "start": 348.46,
+      "end": 348.86,
+      "text": "Right."
+    },
+    {
+      "start": 348.98,
+      "end": 354.48,
+      "text": "And so it was there was something that I had to reconcile with what I was reading and hearing versus what I was seeing."
+    },
+    {
+      "start": 355.06,
+      "end": 365.02,
+      "text": "And so my dad being present, being in the home, introducing me to other people was very vital as it pertains to the formation of my identity,"
+    },
+    {
+      "start": 365.02,
+      "end": 367.54,
+      "text": "not only as a black male, but also as an active father."
+    },
+    {
+      "start": 367.68,
+      "end": 368.24,
+      "text": "That's so good."
+    },
+    {
+      "start": 368.24,
+      "end": 372.98,
+      "text": "Yeah, I was I was glad you said that because I've I've ran across that same misnomer."
+    },
+    {
+      "start": 373.18,
+      "end": 374.5,
+      "text": "You know, it's very interesting."
+    },
+    {
+      "start": 374.5,
+      "end": 382.2,
+      "text": "There is a lot of very active, you know, black, white fathers that are active in their kids lives."
+    },
+    {
+      "start": 382.2,
+      "end": 388.88,
+      "text": "But specifically, I like to highlight that the black men in the community, because I think that was a major misnomer."
+    },
+    {
+      "start": 388.98,
+      "end": 390.88,
+      "text": "So I appreciate you highlighting that."
+    },
+    {
+      "start": 390.96,
+      "end": 391.22,
+      "text": "Absolutely."
+    },
+    {
+      "start": 391.58,
+      "end": 396.4,
+      "text": "You know, and so then there's the kids that maybe they don't have the father, you know, that's where you come in."
+    },
+    {
+      "start": 396.4,
+      "end": 396.7,
+      "text": "Mm hmm."
+    },
+    {
+      "start": 397.3,
+      "end": 403.76,
+      "text": "So I guess I guess it's safe to say there's probably no replacement for a father for an actual healthy father."
+    },
+    {
+      "start": 404.22,
+      "end": 410.12,
+      "text": "However, someone that's positive male or female mentors can come into your life."
+    },
+    {
+      "start": 410.2,
+      "end": 412.62,
+      "text": "And so what kind of impact can that have?"
+    },
+    {
+      "start": 412.68,
+      "end": 416.18,
+      "text": "What's what kind of a game changer is that when a mentor can step into their life?"
+    },
+    {
+      "start": 416.44,
+      "end": 416.7,
+      "text": "Yeah."
+    },
+    {
+      "start": 416.98,
+      "end": 419.16,
+      "text": "I was talking with Waylon Cubitt."
+    },
+    {
+      "start": 419.24,
+      "end": 419.88,
+      "text": "I love way."
+    },
+    {
+      "start": 419.88,
+      "end": 423.26,
+      "text": "Also, one of the greatest mentors on Earth."
+    },
+    {
+      "start": 423.48,
+      "end": 425.22,
+      "text": "We like to call him a master mentor."
+    },
+    {
+      "start": 425.42,
+      "end": 426.24,
+      "text": "He is a master mentor."
+    },
+    {
+      "start": 426.38,
+      "end": 429.42,
+      "text": "He not only has mentored way longer than I have, but he's mentored me as well."
+    },
+    {
+      "start": 429.46,
+      "end": 430.16,
+      "text": "Oh, I didn't know that."
+    },
+    {
+      "start": 430.22,
+      "end": 430.4,
+      "text": "Yeah."
+    },
+    {
+      "start": 430.48,
+      "end": 431.72,
+      "text": "And we talked about this."
+    },
+    {
+      "start": 432.44,
+      "end": 434.02,
+      "text": "Some research is taking place."
+    },
+    {
+      "start": 434.04,
+      "end": 439.24,
+      "text": "It's talking about the impact of positive adult influences outside of the home."
+    },
+    {
+      "start": 439.24,
+      "end": 439.42,
+      "text": "OK."
+    },
+    {
+      "start": 439.52,
+      "end": 440.26,
+      "text": "I'll say it again."
+    },
+    {
+      "start": 440.26,
+      "end": 446.08,
+      "text": "The impact of positive influences on children, adult figures outside of the home."
+    },
+    {
+      "start": 446.42,
+      "end": 448.52,
+      "text": "We're not talking about aunties, uncles."
+    },
+    {
+      "start": 448.72,
+      "end": 450.3,
+      "text": "We're not talking about mom, dad."
+    },
+    {
+      "start": 450.56,
+      "end": 450.8,
+      "text": "Unrelated."
+    },
+    {
+      "start": 450.98,
+      "end": 451.14,
+      "text": "Yeah."
+    },
+    {
+      "start": 451.22,
+      "end": 451.36,
+      "text": "Yeah."
+    },
+    {
+      "start": 451.38,
+      "end": 453.3,
+      "text": "We're talking about people outside of the home."
+    },
+    {
+      "start": 453.3,
+      "end": 466.4,
+      "text": "And we find that he did some research within Oklahoma City Public Schools, within a certain school, that showed children that had positive male figures in their lives that are outside of the home."
+    },
+    {
+      "start": 466.4,
+      "end": 480.62,
+      "text": "The more you had, the more the success, this affirmation, this positivity, this identity, that when you got to one, which means one plus family, that you saw a positive increase."
+    },
+    {
+      "start": 480.62,
+      "end": 484.94,
+      "text": "But when you got to two and three, that started to increase."
+    },
+    {
+      "start": 485.32,
+      "end": 497.64,
+      "text": "And so their high-performing, like their high-identity confirmation, like these students actively had six to ten additional positive adults in their life."
+    },
+    {
+      "start": 497.76,
+      "end": 497.84,
+      "text": "Yeah."
+    },
+    {
+      "start": 498.0,
+      "end": 509.62,
+      "text": "And so one of the reasons this is important is because if mom is saying something and dad is saying something, auntie, uncle is saying something, there's something that happens in a child's brain that said they're in cahoots."
+    },
+    {
+      "start": 509.62,
+      "end": 510.62,
+      "text": "Yeah."
+    },
+    {
+      "start": 510.8,
+      "end": 511.46,
+      "text": "With each other."
+    },
+    {
+      "start": 511.68,
+      "end": 511.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 512.0,
+      "end": 512.84,
+      "text": "Mom has talked to dad."
+    },
+    {
+      "start": 512.92,
+      "end": 513.82,
+      "text": "Dad has talked to mom."
+    },
+    {
+      "start": 514.04,
+      "end": 514.68,
+      "text": "Auntie, uncle."
+    },
+    {
+      "start": 514.82,
+      "end": 515.54,
+      "text": "They've all talked."
+    },
+    {
+      "start": 515.7,
+      "end": 518.0,
+      "text": "And they're all trying to tell me for this one point."
+    },
+    {
+      "start": 518.06,
+      "end": 518.3,
+      "text": "Right."
+    },
+    {
+      "start": 518.58,
+      "end": 522.86,
+      "text": "But when that happens, we call this the Charlie Brown effect, right?"
+    },
+    {
+      "start": 522.9,
+      "end": 524.54,
+      "text": "It's the want, want, want, want, want, want."
+    },
+    {
+      "start": 524.6,
+      "end": 524.78,
+      "text": "Yep."
+    },
+    {
+      "start": 524.94,
+      "end": 530.4,
+      "text": "But when you get someone outside the home that is not in the family or the sphere that's saying."
+    },
+    {
+      "start": 530.4,
+      "end": 531.36,
+      "text": "We didn't know anything going on."
+    },
+    {
+      "start": 531.58,
+      "end": 533.28,
+      "text": "So he must be valid."
+    },
+    {
+      "start": 533.4,
+      "end": 534.84,
+      "text": "So something validates it."
+    },
+    {
+      "start": 534.84,
+      "end": 535.12,
+      "text": "Yeah."
+    },
+    {
+      "start": 535.22,
+      "end": 539.68,
+      "text": "And then if you can get that additional adult outside of a similar atmosphere."
+    },
+    {
+      "start": 539.92,
+      "end": 545.58,
+      "text": "And so we started to see it sort of plateau or bell curve if they're all at school."
+    },
+    {
+      "start": 545.7,
+      "end": 546.12,
+      "text": "Okay."
+    },
+    {
+      "start": 546.28,
+      "end": 546.5,
+      "text": "Right."
+    },
+    {
+      "start": 546.5,
+      "end": 549.02,
+      "text": "Because then the same cahoots."
+    },
+    {
+      "start": 549.2,
+      "end": 549.64,
+      "text": "Yeah."
+    },
+    {
+      "start": 549.8,
+      "end": 551.38,
+      "text": "So the principal's talking to the coach."
+    },
+    {
+      "start": 551.46,
+      "end": 552.16,
+      "text": "He's talking to the teacher."
+    },
+    {
+      "start": 552.46,
+      "end": 553.44,
+      "text": "Different group of family that's trying to get on."
+    },
+    {
+      "start": 553.48,
+      "end": 553.74,
+      "text": "Yeah."
+    },
+    {
+      "start": 553.84,
+      "end": 554.08,
+      "text": "Yeah."
+    },
+    {
+      "start": 554.08,
+      "end": 554.38,
+      "text": "Yeah."
+    },
+    {
+      "start": 554.38,
+      "end": 554.58,
+      "text": "Yeah."
+    },
+    {
+      "start": 554.58,
+      "end": 554.72,
+      "text": "Yeah."
+    },
+    {
+      "start": 554.72,
+      "end": 555.02,
+      "text": "Yeah."
+    },
+    {
+      "start": 555.02,
+      "end": 562.56,
+      "text": "So if you can get, if you can get neighbor, you can get church, you can get school, you"
+    },
+    {
+      "start": 562.56,
+      "end": 563.48,
+      "text": "can get, right."
+    },
+    {
+      "start": 563.52,
+      "end": 565.64,
+      "text": "If you can, if you can start to spread it out."
+    },
+    {
+      "start": 565.82,
+      "end": 568.42,
+      "text": "The staples of our community that went away a little bit."
+    },
+    {
+      "start": 568.52,
+      "end": 568.88,
+      "text": "Yeah."
+    },
+    {
+      "start": 568.98,
+      "end": 570.32,
+      "text": "Or else we haven't accessed them."
+    },
+    {
+      "start": 570.6,
+      "end": 570.9,
+      "text": "Yeah."
+    },
+    {
+      "start": 571.26,
+      "end": 576.14,
+      "text": "And so the, the, having these positive adults outside of the home are so important."
+    },
+    {
+      "start": 576.14,
+      "end": 576.52,
+      "text": "So good."
+    },
+    {
+      "start": 576.52,
+      "end": 580.92,
+      "text": "Not only because they begin to reinforce the same concept, but they also begin to provide"
+    },
+    {
+      "start": 580.92,
+      "end": 583.5,
+      "text": "a different perspective to arriving at the same point."
+    },
+    {
+      "start": 583.5,
+      "end": 584.76,
+      "text": "You know, it's interesting."
+    },
+    {
+      "start": 585.4,
+      "end": 589.2,
+      "text": "I love the way you put that, you know, that makes such clear sense."
+    },
+    {
+      "start": 589.24,
+      "end": 594.82,
+      "text": "And I think about at Restore or here at City Center, you know, we have a small community,"
+    },
+    {
+      "start": 595.02,
+      "end": 596.6,
+      "text": "you know, we have all that here."
+    },
+    {
+      "start": 596.74,
+      "end": 598.3,
+      "text": "You know, there's those different people."
+    },
+    {
+      "start": 598.5,
+      "end": 600.08,
+      "text": "I think about our youth program."
+    },
+    {
+      "start": 600.18,
+      "end": 603.6,
+      "text": "We have Mrs. Shante and Christian, who's our programs coordinator."
+    },
+    {
+      "start": 603.6,
+      "end": 605.84,
+      "text": "And then Seth, who's the site director."
+    },
+    {
+      "start": 606.22,
+      "end": 610.42,
+      "text": "Seth's kind of like the dad, you know, Christian's kind of like the brother, you know, we're not,"
+    },
+    {
+      "start": 610.42,
+      "end": 612.96,
+      "text": "we're not necessarily in cahoots against them."
+    },
+    {
+      "start": 612.96,
+      "end": 614.74,
+      "text": "We're more here for them."
+    },
+    {
+      "start": 614.74,
+      "end": 615.12,
+      "text": "You know what I mean?"
+    },
+    {
+      "start": 615.12,
+      "end": 617.48,
+      "text": "So it's like an uplifting community."
+    },
+    {
+      "start": 617.7,
+      "end": 621.44,
+      "text": "And so that's kind of the idea, I think, you know, I think that's why community is so"
+    },
+    {
+      "start": 621.44,
+      "end": 626.34,
+      "text": "important is because you have all those components that you mentioned that are actually, you know,"
+    },
+    {
+      "start": 626.38,
+      "end": 628.7,
+      "text": "contributing to the wellbeing of this young person."
+    },
+    {
+      "start": 628.8,
+      "end": 629.0,
+      "text": "Yeah."
+    },
+    {
+      "start": 629.18,
+      "end": 630.76,
+      "text": "Which is how it was designed, I think."
+    },
+    {
+      "start": 630.82,
+      "end": 631.1,
+      "text": "Yeah."
+    },
+    {
+      "start": 631.1,
+      "end": 634.94,
+      "text": "And so we're getting back to that in some pockets of our city, it looks like."
+    },
+    {
+      "start": 635.0,
+      "end": 635.22,
+      "text": "Yeah."
+    },
+    {
+      "start": 635.32,
+      "end": 635.8,
+      "text": "You know what I mean?"
+    },
+    {
+      "start": 636.0,
+      "end": 636.16,
+      "text": "Yeah."
+    },
+    {
+      "start": 636.16,
+      "end": 639.28,
+      "text": "So let me ask you this question to back up more of your personal story."
+    },
+    {
+      "start": 639.4,
+      "end": 642.48,
+      "text": "So you have a great dad, great mom, great examples."
+    },
+    {
+      "start": 643.26,
+      "end": 648.16,
+      "text": "Now I know that you had to have opportunities to get into something negative, like some kids"
+    },
+    {
+      "start": 648.16,
+      "end": 651.4,
+      "text": "that maybe don't have someone there to redirect them."
+    },
+    {
+      "start": 651.5,
+      "end": 651.68,
+      "text": "Yeah."
+    },
+    {
+      "start": 651.82,
+      "end": 652.88,
+      "text": "Was that the case?"
+    },
+    {
+      "start": 652.94,
+      "end": 654.34,
+      "text": "Or was, what was that like for you?"
+    },
+    {
+      "start": 654.44,
+      "end": 654.58,
+      "text": "Yeah."
+    },
+    {
+      "start": 654.58,
+      "end": 654.74,
+      "text": "Yeah."
+    },
+    {
+      "start": 654.74,
+      "end": 654.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 654.86,
+      "end": 659.66,
+      "text": "I get to spend some time in partnership with the Star Foundation."
+    },
+    {
+      "start": 659.8,
+      "end": 659.86,
+      "text": "Okay."
+    },
+    {
+      "start": 660.04,
+      "end": 660.74,
+      "text": "Oh, I love Gerald."
+    },
+    {
+      "start": 661.02,
+      "end": 661.46,
+      "text": "Gerald Scott."
+    },
+    {
+      "start": 661.6,
+      "end": 661.72,
+      "text": "Yeah."
+    },
+    {
+      "start": 661.72,
+      "end": 662.16,
+      "text": "I love Gerald."
+    },
+    {
+      "start": 662.18,
+      "end": 663.16,
+      "text": "Awesome guy."
+    },
+    {
+      "start": 663.7,
+      "end": 667.6,
+      "text": "Gerald and I have been trying to work together for probably close to a decade, over a decade."
+    },
+    {
+      "start": 668.02,
+      "end": 673.58,
+      "text": "When I first started over volunteering at Metro Tech with their young men's mentoring program,"
+    },
+    {
+      "start": 674.02,
+      "end": 675.32,
+      "text": "he was one of the first people that I met."
+    },
+    {
+      "start": 675.78,
+      "end": 680.0,
+      "text": "A decade later, Gerald and I found ourselves sitting down at Scramble on the east side of Oklahoma"
+    },
+    {
+      "start": 680.0,
+      "end": 681.74,
+      "text": "City talking about mentorship."
+    },
+    {
+      "start": 681.74,
+      "end": 686.14,
+      "text": "And he said, Derek, I would love for you to come alongside and help us with this project"
+    },
+    {
+      "start": 686.14,
+      "end": 688.3,
+      "text": "at Kojak out in Tecumseh."
+    },
+    {
+      "start": 688.4,
+      "end": 688.56,
+      "text": "Yeah."
+    },
+    {
+      "start": 688.66,
+      "end": 689.0,
+      "text": "Man up."
+    },
+    {
+      "start": 689.34,
+      "end": 689.46,
+      "text": "Yeah."
+    },
+    {
+      "start": 689.46,
+      "end": 689.66,
+      "text": "Yeah."
+    },
+    {
+      "start": 689.74,
+      "end": 689.92,
+      "text": "Yeah."
+    },
+    {
+      "start": 690.02,
+      "end": 690.22,
+      "text": "Yeah."
+    },
+    {
+      "start": 690.34,
+      "end": 695.08,
+      "text": "And so talking to Gerald, we get out there and one of the first thing I told those kids,"
+    },
+    {
+      "start": 695.12,
+      "end": 700.94,
+      "text": "I said, hey, listen, I don't, I'm not coming in as a subject matter expert on your life."
+    },
+    {
+      "start": 701.04,
+      "end": 701.22,
+      "text": "Right."
+    },
+    {
+      "start": 701.48,
+      "end": 703.4,
+      "text": "I did not live your life."
+    },
+    {
+      "start": 703.52,
+      "end": 705.06,
+      "text": "I have no idea what that looks like."
+    },
+    {
+      "start": 705.18,
+      "end": 705.32,
+      "text": "Right."
+    },
+    {
+      "start": 705.74,
+      "end": 711.32,
+      "text": "There's, there's a really cool opportunity to compare same environment, different outcomes."
+    },
+    {
+      "start": 711.32,
+      "end": 714.58,
+      "text": "And so when I say North Tulsa and people raise their hand, North Tulsa, North Tulsa."
+    },
+    {
+      "start": 714.62,
+      "end": 714.8,
+      "text": "Okay."
+    },
+    {
+      "start": 714.88,
+      "end": 715.66,
+      "text": "So, you know, North Tulsa."
+    },
+    {
+      "start": 715.82,
+      "end": 716.02,
+      "text": "Yep."
+    },
+    {
+      "start": 716.84,
+      "end": 719.32,
+      "text": "I went to college where I had other friends go to."
+    },
+    {
+      "start": 719.82,
+      "end": 720.04,
+      "text": "Yeah."
+    },
+    {
+      "start": 720.34,
+      "end": 720.44,
+      "text": "Yeah."
+    },
+    {
+      "start": 720.44,
+      "end": 720.58,
+      "text": "Yeah."
+    },
+    {
+      "start": 720.64,
+      "end": 722.58,
+      "text": "I waited to while other people."
+    },
+    {
+      "start": 722.86,
+      "end": 723.02,
+      "text": "Yeah."
+    },
+    {
+      "start": 723.02,
+      "end": 730.12,
+      "text": "And so the reason I say that is I was in the same environment, but I had some adult people"
+    },
+    {
+      "start": 730.12,
+      "end": 733.06,
+      "text": "in my life that were helping me make some different decisions."
+    },
+    {
+      "start": 733.14,
+      "end": 736.78,
+      "text": "I also had some friends that knew that I was a bit different."
+    },
+    {
+      "start": 736.78,
+      "end": 739.58,
+      "text": "And so they would also help me make some, some different decisions."
+    },
+    {
+      "start": 739.58,
+      "end": 739.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 739.86,
+      "end": 745.66,
+      "text": "And then probably one of the most important components of me not being where they are at"
+    },
+    {
+      "start": 745.66,
+      "end": 750.82,
+      "text": "that age is there's something magical about not being caught, not getting caught."
+    },
+    {
+      "start": 750.92,
+      "end": 751.06,
+      "text": "Yeah."
+    },
+    {
+      "start": 751.14,
+      "end": 751.28,
+      "text": "Yeah."
+    },
+    {
+      "start": 751.28,
+      "end": 751.48,
+      "text": "Yeah."
+    },
+    {
+      "start": 751.48,
+      "end": 755.86,
+      "text": "There's a big difference between what you did and I did."
+    },
+    {
+      "start": 756.02,
+      "end": 756.48,
+      "text": "And oftentimes."
+    },
+    {
+      "start": 756.86,
+      "end": 757.28,
+      "text": "You look way sharper than me."
+    },
+    {
+      "start": 757.36,
+      "end": 758.44,
+      "text": "Oh, man."
+    },
+    {
+      "start": 758.74,
+      "end": 759.14,
+      "text": "Man."
+    },
+    {
+      "start": 759.22,
+      "end": 761.98,
+      "text": "There's something that happened where I didn't get caught."
+    },
+    {
+      "start": 761.98,
+      "end": 767.68,
+      "text": "And had I gotten caught, I could have easily, and there's no telling what happened."
+    },
+    {
+      "start": 767.88,
+      "end": 767.98,
+      "text": "Sure."
+    },
+    {
+      "start": 768.06,
+      "end": 772.78,
+      "text": "And so some of it, I believe, is luck and chance on one end."
+    },
+    {
+      "start": 773.26,
+      "end": 774.1,
+      "text": "Man, I'm a faith person."
+    },
+    {
+      "start": 774.1,
+      "end": 781.18,
+      "text": "So I believe in destiny and plan for my life and things that are orchestrated for a reason."
+    },
+    {
+      "start": 781.7,
+      "end": 786.8,
+      "text": "And so I think I was brought up in that environment and I had the opportunities to make some of those"
+    },
+    {
+      "start": 786.8,
+      "end": 793.5,
+      "text": "same decisions, but I had these barriers and these stops and these checkpoints in place that made it so hard."
+    },
+    {
+      "start": 793.62,
+      "end": 798.84,
+      "text": "And if, in fact, I blew all through all of those and I did the thing, I just did not get caught."
+    },
+    {
+      "start": 799.02,
+      "end": 799.24,
+      "text": "Yeah."
+    },
+    {
+      "start": 799.44,
+      "end": 801.64,
+      "text": "You know, that's, that's what I was trying to get at."
+    },
+    {
+      "start": 801.68,
+      "end": 803.16,
+      "text": "You know, that's the difference."
+    },
+    {
+      "start": 803.2,
+      "end": 807.2,
+      "text": "You know, it's community, you know, it's not about, it's not about a race."
+    },
+    {
+      "start": 807.24,
+      "end": 808.28,
+      "text": "It's not about anything else."
+    },
+    {
+      "start": 808.28,
+      "end": 814.44,
+      "text": "It's about, you know, how we're wrapping ourselves or our arms around the young people that are within our community."
+    },
+    {
+      "start": 814.44,
+      "end": 816.74,
+      "text": "I think, you know, and what kind of support is available for them."
+    },
+    {
+      "start": 817.0,
+      "end": 822.44,
+      "text": "You know, if there's a father out of the home or a mom out of the home, hey, how can we fill that gap with what we have in our community?"
+    },
+    {
+      "start": 822.7,
+      "end": 822.9,
+      "text": "Yeah."
+    },
+    {
+      "start": 822.98,
+      "end": 826.48,
+      "text": "You know, and I think we have everything we need in our communities that we live in."
+    },
+    {
+      "start": 826.48,
+      "end": 827.1,
+      "text": "It's right here."
+    },
+    {
+      "start": 827.16,
+      "end": 828.04,
+      "text": "It's right here."
+    },
+    {
+      "start": 828.7,
+      "end": 831.4,
+      "text": "You out there might be waiting on something to do."
+    },
+    {
+      "start": 831.6,
+      "end": 838.2,
+      "text": "And now's your opportunity to get involved potentially with, you know, with Restore or with the Bridge Impact Center or with City City."
+    },
+    {
+      "start": 838.2,
+      "end": 839.78,
+      "text": "It doesn't matter as long as you're involved."
+    },
+    {
+      "start": 839.8,
+      "end": 840.0,
+      "text": "Yeah."
+    },
+    {
+      "start": 840.0,
+      "end": 847.22,
+      "text": "And speaking life into some young person, man, you never know what the trajectory of that kid's life's going to look like after that."
+    },
+    {
+      "start": 847.38,
+      "end": 848.66,
+      "text": "So I love that, man."
+    },
+    {
+      "start": 848.72,
+      "end": 856.52,
+      "text": "And I love that idea of really being intentional even about, okay, there's this type of person that needs to be in your life."
+    },
+    {
+      "start": 856.82,
+      "end": 858.66,
+      "text": "There's this type of person that needs to be in your life."
+    },
+    {
+      "start": 858.68,
+      "end": 859.48,
+      "text": "Oh, you're getting ready to graduate?"
+    },
+    {
+      "start": 859.92,
+      "end": 860.3,
+      "text": "All right."
+    },
+    {
+      "start": 860.34,
+      "end": 860.98,
+      "text": "What do you want to do?"
+    },
+    {
+      "start": 861.2,
+      "end": 861.88,
+      "text": "Oh, you want to podcast?"
+    },
+    {
+      "start": 862.22,
+      "end": 863.78,
+      "text": "You need this person in your life."
+    },
+    {
+      "start": 863.78,
+      "end": 864.0,
+      "text": "Yeah."
+    },
+    {
+      "start": 864.44,
+      "end": 870.4,
+      "text": "Having somebody that cares enough to be able to navigate that with them is so huge."
+    },
+    {
+      "start": 870.4,
+      "end": 871.62,
+      "text": "You know, I remember."
+    },
+    {
+      "start": 871.74,
+      "end": 873.06,
+      "text": "So I had a different life than you."
+    },
+    {
+      "start": 873.14,
+      "end": 875.54,
+      "text": "I made all the wrong choices and I got caught."
+    },
+    {
+      "start": 875.92,
+      "end": 877.44,
+      "text": "When I got caught, it was bad."
+    },
+    {
+      "start": 877.58,
+      "end": 877.8,
+      "text": "Yeah."
+    },
+    {
+      "start": 878.26,
+      "end": 882.2,
+      "text": "But, you know, I remember as a young person, my father passed when I was young."
+    },
+    {
+      "start": 882.2,
+      "end": 887.36,
+      "text": "And so I didn't really have any positive role model to look towards."
+    },
+    {
+      "start": 887.56,
+      "end": 891.52,
+      "text": "But I had some, you know, some guys in the neighborhood that, you know, they were selling drugs and stuff like that."
+    },
+    {
+      "start": 891.62,
+      "end": 893.08,
+      "text": "So they mentored me."
+    },
+    {
+      "start": 893.34,
+      "end": 893.48,
+      "text": "Yeah."
+    },
+    {
+      "start": 893.68,
+      "end": 899.52,
+      "text": "So I always tell people there's positive mentors out there and there's negative mentors, man."
+    },
+    {
+      "start": 899.88,
+      "end": 903.32,
+      "text": "You know, it's really on us who we let get to them first."
+    },
+    {
+      "start": 903.46,
+      "end": 903.64,
+      "text": "Yeah."
+    },
+    {
+      "start": 904.22,
+      "end": 905.12,
+      "text": "That's on us."
+    },
+    {
+      "start": 905.24,
+      "end": 908.36,
+      "text": "You know, we, I feel like it's our responsibility for that."
+    },
+    {
+      "start": 908.36,
+      "end": 913.46,
+      "text": "But I remember when I was that age thinking like, I don't know what I'm doing."
+    },
+    {
+      "start": 913.66,
+      "end": 914.84,
+      "text": "And I don't want anybody to know."
+    },
+    {
+      "start": 914.94,
+      "end": 917.14,
+      "text": "I don't know what I'm doing because I don't want to look dumb."
+    },
+    {
+      "start": 917.28,
+      "end": 917.46,
+      "text": "Yeah."
+    },
+    {
+      "start": 917.54,
+      "end": 918.6,
+      "text": "And I don't want to, you know what I mean?"
+    },
+    {
+      "start": 918.68,
+      "end": 918.98,
+      "text": "Yeah."
+    },
+    {
+      "start": 919.12,
+      "end": 932.76,
+      "text": "And so when guys like you come on the scene or Marcus or anybody that is mentoring on a high level in this community, in this city, you know, when, when they can soften up and they can trust you and they can earn their respect."
+    },
+    {
+      "start": 932.76,
+      "end": 934.5,
+      "text": "It's amazing what can happen, man."
+    },
+    {
+      "start": 934.5,
+      "end": 938.2,
+      "text": "And we've seen it time and time again with so many young people."
+    },
+    {
+      "start": 938.42,
+      "end": 942.08,
+      "text": "And, and it's not really that complicated at all."
+    },
+    {
+      "start": 942.2,
+      "end": 942.36,
+      "text": "Yeah."
+    },
+    {
+      "start": 942.6,
+      "end": 947.62,
+      "text": "It's challenging because we have schedules because we have busy stuff we think is really important."
+    },
+    {
+      "start": 947.62,
+      "end": 954.02,
+      "text": "But the idea of what could happen to a young person's life if we just maybe an hour a week."
+    },
+    {
+      "start": 954.2,
+      "end": 954.4,
+      "text": "Yeah."
+    },
+    {
+      "start": 954.5,
+      "end": 955.78,
+      "text": "Actually invest in them."
+    },
+    {
+      "start": 955.84,
+      "end": 956.88,
+      "text": "It could change everything."
+    },
+    {
+      "start": 957.14,
+      "end": 957.44,
+      "text": "So, yeah."
+    },
+    {
+      "start": 957.48,
+      "end": 958.2,
+      "text": "Let me jump in there."
+    },
+    {
+      "start": 958.2,
+      "end": 962.9,
+      "text": "You said something very unique that I realized that my dad did on the back end."
+    },
+    {
+      "start": 963.08,
+      "end": 963.14,
+      "text": "Okay."
+    },
+    {
+      "start": 963.14,
+      "end": 976.02,
+      "text": "And you talk about when you are hanging out with a young person and you're really curious and inquisitive and you're asking these great questions, you're being astute in your observation."
+    },
+    {
+      "start": 976.68,
+      "end": 981.12,
+      "text": "Something happens when they reveal a need or desire or interest."
+    },
+    {
+      "start": 981.34,
+      "end": 988.46,
+      "text": "This is why it's so important as mentors to also be connectors in our own world because we bring all of that to the table."
+    },
+    {
+      "start": 988.46,
+      "end": 988.8,
+      "text": "Yeah."
+    },
+    {
+      "start": 988.94,
+      "end": 1000.48,
+      "text": "And I realized later on in life that my dad created a, he surrounded me with people that I did not know I needed while he was doing it."
+    },
+    {
+      "start": 1000.48,
+      "end": 1004.88,
+      "text": "So, he would say, based on my interest, he would say, he would hear something."
+    },
+    {
+      "start": 1004.98,
+      "end": 1007.02,
+      "text": "He'd be like, oh, let me introduce you to this guy."
+    },
+    {
+      "start": 1007.16,
+      "end": 1018.02,
+      "text": "And I found myself hanging out with four or five adults from different areas with different life experiences that were all able to speak into my life from those areas that I told my father I was interested in."
+    },
+    {
+      "start": 1018.42,
+      "end": 1019.2,
+      "text": "Because he listened."
+    },
+    {
+      "start": 1019.44,
+      "end": 1020.06,
+      "text": "Yes, he did."
+    },
+    {
+      "start": 1020.16,
+      "end": 1020.3,
+      "text": "Yeah."
+    },
+    {
+      "start": 1020.3,
+      "end": 1028.26,
+      "text": "And there's also something about a mentor being able to hear what's not being said to provide an opportunity to a child that they don't know that they need."
+    },
+    {
+      "start": 1029.02,
+      "end": 1030.48,
+      "text": "And so, as I am."
+    },
+    {
+      "start": 1030.84,
+      "end": 1031.2,
+      "text": "Yes."
+    },
+    {
+      "start": 1031.32,
+      "end": 1037.54,
+      "text": "As I'm connecting you with people, not only are there things that you are able to identify directly dot to dot."
+    },
+    {
+      "start": 1037.8,
+      "end": 1039.52,
+      "text": "As a child, I'm able to connect this dot."
+    },
+    {
+      "start": 1039.74,
+      "end": 1041.04,
+      "text": "He said I was interested in culinary."
+    },
+    {
+      "start": 1041.64,
+      "end": 1043.34,
+      "text": "He introduced me to somebody that was a cook."
+    },
+    {
+      "start": 1043.34,
+      "end": 1045.46,
+      "text": "But he also introduced me to somebody else."
+    },
+    {
+      "start": 1045.48,
+      "end": 1046.92,
+      "text": "And I'm like, who is this person?"
+    },
+    {
+      "start": 1047.12,
+      "end": 1048.44,
+      "text": "Why do I need to hang out with them?"
+    },
+    {
+      "start": 1048.56,
+      "end": 1053.28,
+      "text": "But because somebody that I love and I trust, I'm going to connect with them anyway."
+    },
+    {
+      "start": 1053.54,
+      "end": 1056.58,
+      "text": "And then over time, that need or that connection is revealed."
+    },
+    {
+      "start": 1057.12,
+      "end": 1063.12,
+      "text": "And so, I think that's another reason I believe diversifying this mentoring circle is really important."
+    },
+    {
+      "start": 1063.74,
+      "end": 1067.3,
+      "text": "There's a guy out of Tulsa that I've been spending time with."
+    },
+    {
+      "start": 1067.8,
+      "end": 1069.94,
+      "text": "And they only do group mentoring."
+    },
+    {
+      "start": 1070.22,
+      "end": 1070.5,
+      "text": "Okay."
+    },
+    {
+      "start": 1070.5,
+      "end": 1077.78,
+      "text": "And I think that's really cool because there's this element of one-on-one that, you know, just kind of socially want to put some safeguards around."
+    },
+    {
+      "start": 1077.96,
+      "end": 1079.92,
+      "text": "Not to say that one-on-one is ineffective."
+    },
+    {
+      "start": 1080.48,
+      "end": 1087.06,
+      "text": "But I think when you create this silo or when you, you know, you do that with one person to one person, that's the only voice you hear."
+    },
+    {
+      "start": 1087.44,
+      "end": 1088.9,
+      "text": "That's the only perspective you have."
+    },
+    {
+      "start": 1089.1,
+      "end": 1095.66,
+      "text": "There's this element or this propensity to not maximize the mentoring experience."
+    },
+    {
+      "start": 1095.66,
+      "end": 1101.12,
+      "text": "And so, when you add those other caring adults into the element, then it begins to broaden."
+    },
+    {
+      "start": 1101.24,
+      "end": 1102.56,
+      "text": "We talked about exposure earlier."
+    },
+    {
+      "start": 1102.84,
+      "end": 1108.18,
+      "text": "And then you get all these caring adults that can pour into the life of a child in a similar way that my father did."
+    },
+    {
+      "start": 1108.28,
+      "end": 1109.44,
+      "text": "And I had no idea what was happening."
+    },
+    {
+      "start": 1109.6,
+      "end": 1109.72,
+      "text": "Wow."
+    },
+    {
+      "start": 1109.98,
+      "end": 1110.78,
+      "text": "That's cool."
+    },
+    {
+      "start": 1110.92,
+      "end": 1112.16,
+      "text": "So, he pulled a Jedi mind trick."
+    },
+    {
+      "start": 1112.2,
+      "end": 1112.82,
+      "text": "Yeah, he did."
+    },
+    {
+      "start": 1113.02,
+      "end": 1113.46,
+      "text": "Yeah, he did."
+    },
+    {
+      "start": 1113.48,
+      "end": 1113.68,
+      "text": "I love it."
+    },
+    {
+      "start": 1113.68,
+      "end": 1114.02,
+      "text": "I love it."
+    },
+    {
+      "start": 1114.28,
+      "end": 1116.08,
+      "text": "Well, we're going to take a quick break really quick, guys."
+    },
+    {
+      "start": 1116.08,
+      "end": 1119.88,
+      "text": "We're going to make this as quick as we possibly can because this is a great conversation."
+    },
+    {
+      "start": 1120.02,
+      "end": 1121.62,
+      "text": "And we'll be right back with Derek."
+    },
+    {
+      "start": 1121.96,
+      "end": 1122.38,
+      "text": "All right."
+    },
+    {
+      "start": 1122.62,
+      "end": 1126.12,
+      "text": "Well, we are back with Derek Sire and we are having a great conversation."
+    },
+    {
+      "start": 1126.46,
+      "end": 1127.36,
+      "text": "Where do we leave off?"
+    },
+    {
+      "start": 1127.72,
+      "end": 1128.08,
+      "text": "I'm sorry."
+    },
+    {
+      "start": 1128.5,
+      "end": 1131.96,
+      "text": "Yeah, we talked about just having people surround."
+    },
+    {
+      "start": 1132.1,
+      "end": 1132.34,
+      "text": "Yeah."
+    },
+    {
+      "start": 1132.46,
+      "end": 1137.78,
+      "text": "My dad choosing community for me and the impact of having those caring adults."
+    },
+    {
+      "start": 1138.02,
+      "end": 1138.22,
+      "text": "Yeah."
+    },
+    {
+      "start": 1138.22,
+      "end": 1144.56,
+      "text": "I had to ask Derek where we left off because when we go off camera, we have five different incredible conversations."
+    },
+    {
+      "start": 1144.56,
+      "end": 1146.1,
+      "text": "I'm like, okay, let's get back to where we were."
+    },
+    {
+      "start": 1146.2,
+      "end": 1146.54,
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "start": 1146.64,
+      "end": 1150.9,
+      "text": "Having those people surround a young person or anybody, even adults, I think."
+    },
+    {
+      "start": 1151.4,
+      "end": 1155.84,
+      "text": "For me, I have mentors in my life that are very important to draw from."
+    },
+    {
+      "start": 1156.02,
+      "end": 1159.7,
+      "text": "So, for a young person, it's got to be times 20."
+    },
+    {
+      "start": 1159.82,
+      "end": 1160.14,
+      "text": "Absolutely."
+    },
+    {
+      "start": 1160.3,
+      "end": 1161.18,
+      "text": "On a level of importance."
+    },
+    {
+      "start": 1161.18,
+      "end": 1172.32,
+      "text": "Especially if they're in challenging situations where there's so many factors that come into play beyond just the, hey, let's have some one-on-one time with a young person."
+    },
+    {
+      "start": 1172.5,
+      "end": 1172.58,
+      "text": "Yeah."
+    },
+    {
+      "start": 1172.58,
+      "end": 1179.52,
+      "text": "And there's so many things happening underneath the surface that I feel like we have to pray through and be educated about, too."
+    },
+    {
+      "start": 1179.64,
+      "end": 1179.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 1179.76,
+      "end": 1180.96,
+      "text": "So, there's a lot that goes into that."
+    },
+    {
+      "start": 1181.26,
+      "end": 1186.34,
+      "text": "And having more people creates that diversity that fills in more gaps, it seems like."
+    },
+    {
+      "start": 1186.4,
+      "end": 1186.44,
+      "text": "Yeah."
+    },
+    {
+      "start": 1186.44,
+      "end": 1188.26,
+      "text": "And so, we see that at City Center."
+    },
+    {
+      "start": 1188.64,
+      "end": 1195.3,
+      "text": "And it's so good to hear affirming things about mentorship because we want to get it right."
+    },
+    {
+      "start": 1195.54,
+      "end": 1195.66,
+      "text": "Yeah."
+    },
+    {
+      "start": 1195.66,
+      "end": 1198.74,
+      "text": "We all want to get it right to see something positive progress."
+    },
+    {
+      "start": 1199.28,
+      "end": 1201.52,
+      "text": "So, what's on your plate right now, man?"
+    },
+    {
+      "start": 1201.66,
+      "end": 1203.34,
+      "text": "So, you're at Restore OKC."
+    },
+    {
+      "start": 1203.48,
+      "end": 1203.64,
+      "text": "Yeah."
+    },
+    {
+      "start": 1203.9,
+      "end": 1205.58,
+      "text": "You've written 1,000 books."
+    },
+    {
+      "start": 1206.64,
+      "end": 1210.9,
+      "text": "You also have a Reverb, which is a curriculum."
+    },
+    {
+      "start": 1210.9,
+      "end": 1212.2,
+      "text": "Is that a curriculum for mentorship?"
+    },
+    {
+      "start": 1212.52,
+      "end": 1213.04,
+      "text": "Reverb."
+    },
+    {
+      "start": 1213.04,
+      "end": 1216.46,
+      "text": "We do some training for mentors."
+    },
+    {
+      "start": 1216.8,
+      "end": 1216.94,
+      "text": "Okay."
+    },
+    {
+      "start": 1217.06,
+      "end": 1220.18,
+      "text": "We help recruit, create recruitment plans."
+    },
+    {
+      "start": 1220.68,
+      "end": 1223.58,
+      "text": "And then we also create safe spaces for mentors and mentees to connect."
+    },
+    {
+      "start": 1223.8,
+      "end": 1224.0,
+      "text": "Okay."
+    },
+    {
+      "start": 1224.0,
+      "end": 1232.96,
+      "text": "And so, being able to use that as a platform to get into certain spaces that are trying to develop their mentoring program, become a mentoring partner in whatever way they need."
+    },
+    {
+      "start": 1233.52,
+      "end": 1237.84,
+      "text": "I work with colleges that are doing some things like that, high school, school districts."
+    },
+    {
+      "start": 1238.52,
+      "end": 1246.56,
+      "text": "I'm really trying to get into kind of this professional setting, this corporate setting, and develop this culture of mentorship there."
+    },
+    {
+      "start": 1246.76,
+      "end": 1246.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 1246.86,
+      "end": 1254.08,
+      "text": "I have to phrase it a little bit differently because you say mentorship, I think people bring their own baggage to that unshared connotation."
+    },
+    {
+      "start": 1254.8,
+      "end": 1256.66,
+      "text": "I like to call it information sharing."
+    },
+    {
+      "start": 1256.9,
+      "end": 1257.08,
+      "text": "Yeah."
+    },
+    {
+      "start": 1257.16,
+      "end": 1264.5,
+      "text": "Just because I think oftentimes, as we become adults, we kind of lose some of those childlike components that kind of keep us fresh and young."
+    },
+    {
+      "start": 1264.76,
+      "end": 1271.06,
+      "text": "And I think connecting with someone that's older or more seasoned in an area of life that you want to grow in is really, really important."
+    },
+    {
+      "start": 1271.46,
+      "end": 1275.34,
+      "text": "In the corporate setting, I think we just assume that adults are going to do that organically."
+    },
+    {
+      "start": 1275.34,
+      "end": 1277.3,
+      "text": "But I don't know that we do."
+    },
+    {
+      "start": 1277.46,
+      "end": 1288.58,
+      "text": "So, really trying to set up a culture of mentoring within corporations that allow people that have been there for a while to kind of be culture carriers for the people that are coming in and bridging that gap."
+    },
+    {
+      "start": 1288.66,
+      "end": 1297.38,
+      "text": "So, I think mentorship can happen on all levels, whether it's faith-based or corporate or community, whether it's adult to child, whether it's adult to adult."
+    },
+    {
+      "start": 1297.7,
+      "end": 1300.08,
+      "text": "I'm really just trying to expand the idea of mentorship."
+    },
+    {
+      "start": 1300.42,
+      "end": 1301.66,
+      "text": "And I want to do it here in Oklahoma City."
+    },
+    {
+      "start": 1301.66,
+      "end": 1301.98,
+      "text": "Okay."
+    },
+    {
+      "start": 1302.4,
+      "end": 1307.84,
+      "text": "So, with that said, you know, I feel like there's probably going to be some people watching there in that corporate space."
+    },
+    {
+      "start": 1308.02,
+      "end": 1308.14,
+      "text": "Yeah."
+    },
+    {
+      "start": 1308.2,
+      "end": 1314.84,
+      "text": "What's a good way to reach you for more information about that whole opportunity to develop mentorship programs within the corporate space?"
+    },
+    {
+      "start": 1314.94,
+      "end": 1315.42,
+      "text": "Yeah, absolutely."
+    },
+    {
+      "start": 1317.46,
+      "end": 1318.6,
+      "text": "Reverbmentoring.com."
+    },
+    {
+      "start": 1318.7,
+      "end": 1320.12,
+      "text": "There's some contact information there."
+    },
+    {
+      "start": 1320.56,
+      "end": 1322.66,
+      "text": "I'm Derek Sire on all social media platforms."
+    },
+    {
+      "start": 1324.24,
+      "end": 1325.66,
+      "text": "Derek at Reverbmentoring.com."
+    },
+    {
+      "start": 1325.66,
+      "end": 1326.46,
+      "text": "I think I said that.com."
+    },
+    {
+      "start": 1326.46,
+      "end": 1328.22,
+      "text": "Just wanted to make sure that you all have it."
+    },
+    {
+      "start": 1328.28,
+      "end": 1340.5,
+      "text": "If you're interested at all in establishing a culture of mentorship or mentorship components in your groups, in your department, organization-wide, I'd love to have a conversation to help you figure that out."
+    },
+    {
+      "start": 1340.9,
+      "end": 1341.1,
+      "text": "Awesome."
+    },
+    {
+      "start": 1341.36,
+      "end": 1344.9,
+      "text": "We were having a great conversation off camera, too, about Restore a little bit."
+    },
+    {
+      "start": 1345.02,
+      "end": 1345.16,
+      "text": "Yeah."
+    },
+    {
+      "start": 1345.7,
+      "end": 1351.58,
+      "text": "Let us know what's happening there and what your role looks like there and what your favorite aspect of the job is."
+    },
+    {
+      "start": 1351.58,
+      "end": 1352.02,
+      "text": "Absolutely."
+    },
+    {
+      "start": 1352.92,
+      "end": 1356.54,
+      "text": "So I was initially started this conversation in 2023."
+    },
+    {
+      "start": 1357.28,
+      "end": 1360.9,
+      "text": "There's a guy that I've been in a relationship for a while named Jonathan Veal."
+    },
+    {
+      "start": 1361.08,
+      "end": 1361.26,
+      "text": "Yeah."
+    },
+    {
+      "start": 1361.46,
+      "end": 1373.9,
+      "text": "And Jonathan, he reached out to me and he said, hey, man, I've been talking to some folks and we're thinking about creating this collaborative for place-based youth serving organizations that are kind of doing the same thing in the same space."
+    },
+    {
+      "start": 1374.4,
+      "end": 1377.0,
+      "text": "And we need somebody to kind of push that machine."
+    },
+    {
+      "start": 1377.0,
+      "end": 1377.14,
+      "text": "Yeah."
+    },
+    {
+      "start": 1377.5,
+      "end": 1378.96,
+      "text": "And there are four of us there."
+    },
+    {
+      "start": 1379.08,
+      "end": 1381.66,
+      "text": "Three of them all said, does anybody know Derek Sire?"
+    },
+    {
+      "start": 1381.92,
+      "end": 1382.1,
+      "text": "Yeah."
+    },
+    {
+      "start": 1382.1,
+      "end": 1388.24,
+      "text": "And so, first of all, I was flattered that that conversation was even taking place and then excited that my name came up."
+    },
+    {
+      "start": 1388.38,
+      "end": 1391.9,
+      "text": "And so they pitched an idea, a big house at Restore."
+    },
+    {
+      "start": 1392.12,
+      "end": 1393.98,
+      "text": "And a few months later, I was on staff."
+    },
+    {
+      "start": 1394.12,
+      "end": 1394.68,
+      "text": "That's amazing."
+    },
+    {
+      "start": 1394.7,
+      "end": 1402.76,
+      "text": "And so they brought me in to do a few different things, some leadership development with adults and then some workforce development with their youth."
+    },
+    {
+      "start": 1402.9,
+      "end": 1403.12,
+      "text": "Okay."
+    },
+    {
+      "start": 1403.12,
+      "end": 1409.82,
+      "text": "And so I've recently let go of that adult side, which is kind of what I do in corporate spaces."
+    },
+    {
+      "start": 1410.0,
+      "end": 1411.92,
+      "text": "And I focus on youth, which out of my heart."
+    },
+    {
+      "start": 1412.18,
+      "end": 1412.32,
+      "text": "Yeah."
+    },
+    {
+      "start": 1412.34,
+      "end": 1414.0,
+      "text": "And so now that's primarily what I do."
+    },
+    {
+      "start": 1414.08,
+      "end": 1414.32,
+      "text": "Okay."
+    },
+    {
+      "start": 1414.44,
+      "end": 1428.82,
+      "text": "For those of you that don't know about Restore OKC, it is an asset-based, place-based, supportive employment organization that uses employment to help stabilize people in the community, specifically in the 73111."
+    },
+    {
+      "start": 1429.28,
+      "end": 1431.08,
+      "text": "We run the market on 23rd Street."
+    },
+    {
+      "start": 1431.08,
+      "end": 1435.48,
+      "text": "We have a youth-led kitchen, this east side eatery out of that market."
+    },
+    {
+      "start": 1436.18,
+      "end": 1439.76,
+      "text": "We have some single-family homes and apartment unit complexes."
+    },
+    {
+      "start": 1440.6,
+      "end": 1443.66,
+      "text": "We have the Red Barn, which we do renovations and repairs out of."
+    },
+    {
+      "start": 1443.74,
+      "end": 1446.22,
+      "text": "We have an all-women's cleaning company called Wellspring."
+    },
+    {
+      "start": 1446.66,
+      "end": 1450.18,
+      "text": "And then we have a cafe on site now in addition to our five-and-a-half-acre farm."
+    },
+    {
+      "start": 1450.18,
+      "end": 1458.16,
+      "text": "And so we use all of those assets to partner with people in the community to kind of help stabilize them, get back on their feet, and figure out what they want to do."
+    },
+    {
+      "start": 1458.52,
+      "end": 1459.52,
+      "text": "Man, I love that."
+    },
+    {
+      "start": 1459.58,
+      "end": 1461.36,
+      "text": "It's such a beautiful concept."
+    },
+    {
+      "start": 1461.48,
+      "end": 1462.2,
+      "text": "I love Kaylee."
+    },
+    {
+      "start": 1462.36,
+      "end": 1464.1,
+      "text": "I've known she's an amazing person."
+    },
+    {
+      "start": 1464.24,
+      "end": 1464.34,
+      "text": "Yeah."
+    },
+    {
+      "start": 1464.34,
+      "end": 1469.2,
+      "text": "I met her when they – I think we both kind of came to the city in a similar timing."
+    },
+    {
+      "start": 1469.2,
+      "end": 1473.5,
+      "text": "So I said 10 years because Restore is coming up on their 10 years."
+    },
+    {
+      "start": 1473.6,
+      "end": 1474.06,
+      "text": "Yeah, that's right."
+    },
+    {
+      "start": 1474.14,
+      "end": 1474.28,
+      "text": "Yeah."
+    },
+    {
+      "start": 1474.28,
+      "end": 1479.26,
+      "text": "So I remember we met, and we were like, man, I love what you're doing, just kind of getting connected."
+    },
+    {
+      "start": 1479.62,
+      "end": 1483.96,
+      "text": "So just to see how it's grown has been incredible."
+    },
+    {
+      "start": 1483.96,
+      "end": 1493.94,
+      "text": "And just the lives that are impacted by empowering people in a dignifying way to provide the things that they need for themselves."
+    },
+    {
+      "start": 1494.14,
+      "end": 1495.5,
+      "text": "There's something about that as humans."
+    },
+    {
+      "start": 1495.72,
+      "end": 1499.3,
+      "text": "It feels good to be helped in your time of need."
+    },
+    {
+      "start": 1499.42,
+      "end": 1504.5,
+      "text": "But it feels even better to feel like you can provide for yourself and contribute back to the community."
+    },
+    {
+      "start": 1505.26,
+      "end": 1507.68,
+      "text": "And that's what I know filled my cup."
+    },
+    {
+      "start": 1508.74,
+      "end": 1510.68,
+      "text": "Well, let me answer your question real quick."
+    },
+    {
+      "start": 1510.76,
+      "end": 1510.9,
+      "text": "Yeah."
+    },
+    {
+      "start": 1510.9,
+      "end": 1514.52,
+      "text": "I told you all the things about Restore, and I didn't tell you my favorite thing about my job that I do."
+    },
+    {
+      "start": 1515.0,
+      "end": 1519.32,
+      "text": "So working with kids, we have something called the Education Exposure Fridays."
+    },
+    {
+      "start": 1519.58,
+      "end": 1519.7,
+      "text": "Okay."
+    },
+    {
+      "start": 1519.96,
+      "end": 1523.58,
+      "text": "And we're just bringing in all these – it seems random."
+    },
+    {
+      "start": 1524.98,
+      "end": 1530.22,
+      "text": "And we had – we partnered with Kitvation, which is Harold and Brent."
+    },
+    {
+      "start": 1530.52,
+      "end": 1531.88,
+      "text": "They run that organization now."
+    },
+    {
+      "start": 1532.52,
+      "end": 1538.22,
+      "text": "And they have been working with Eastside Schools probably over the last three to four years in Oklahoma City."
+    },
+    {
+      "start": 1538.22,
+      "end": 1540.04,
+      "text": "That used to be Michael Hirsch that was –"
+    },
+    {
+      "start": 1540.04,
+      "end": 1540.2,
+      "text": "Yes."
+    },
+    {
+      "start": 1540.2,
+      "end": 1540.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 1540.98,
+      "end": 1541.76,
+      "text": "And then Michael left."
+    },
+    {
+      "start": 1541.98,
+      "end": 1543.16,
+      "text": "Yeah, he's doing his own thing."
+    },
+    {
+      "start": 1543.64,
+      "end": 1548.02,
+      "text": "And so they come over, and they walk through the door with a bunch of cardboard boxes."
+    },
+    {
+      "start": 1548.2,
+      "end": 1548.46,
+      "text": "Okay."
+    },
+    {
+      "start": 1548.8,
+      "end": 1557.24,
+      "text": "And this is what I love about activities and games is being able to kind of front load with fun and then on the back end provide some facts."
+    },
+    {
+      "start": 1557.46,
+      "end": 1557.6,
+      "text": "Yeah."
+    },
+    {
+      "start": 1557.6,
+      "end": 1562.36,
+      "text": "And so this fun and facts collaboration that takes place that sort of blindsides its participants."
+    },
+    {
+      "start": 1562.62,
+      "end": 1563.76,
+      "text": "They do that really, really well."
+    },
+    {
+      "start": 1563.86,
+      "end": 1569.98,
+      "text": "And so we talked about tapping into creativity and using anything or everything to make anything."
+    },
+    {
+      "start": 1570.22,
+      "end": 1570.38,
+      "text": "Yeah."
+    },
+    {
+      "start": 1570.38,
+      "end": 1578.14,
+      "text": "And so one of the fun things I love about my job is being able to present the farm and then blindside them, essentially."
+    },
+    {
+      "start": 1578.56,
+      "end": 1581.34,
+      "text": "Give them the fun and then follow it up with facts."
+    },
+    {
+      "start": 1581.5,
+      "end": 1581.68,
+      "text": "Yeah."
+    },
+    {
+      "start": 1581.68,
+      "end": 1582.46,
+      "text": "Same with our culinary."
+    },
+    {
+      "start": 1582.62,
+      "end": 1583.26,
+      "text": "Give them some fun."
+    },
+    {
+      "start": 1583.34,
+      "end": 1584.16,
+      "text": "They're in there making meals."
+    },
+    {
+      "start": 1584.64,
+      "end": 1590.24,
+      "text": "And then talk about are there some other components that you can bring together in your life to make a meal that you can eat off of for the rest of your life?"
+    },
+    {
+      "start": 1590.24,
+      "end": 1590.42,
+      "text": "Yeah."
+    },
+    {
+      "start": 1590.42,
+      "end": 1592.08,
+      "text": "You know, it's like those kind of concepts."
+    },
+    {
+      "start": 1592.08,
+      "end": 1602.5,
+      "text": "So the fun thing, the most fun thing that I love is being able to provide these opportunities and create this space where students get to come in and learn things but learn more about themselves."
+    },
+    {
+      "start": 1602.76,
+      "end": 1602.96,
+      "text": "Yeah."
+    },
+    {
+      "start": 1602.98,
+      "end": 1603.76,
+      "text": "That's so good."
+    },
+    {
+      "start": 1603.92,
+      "end": 1604.7,
+      "text": "I love that."
+    },
+    {
+      "start": 1605.04,
+      "end": 1606.04,
+      "text": "And I love all the things."
+    },
+    {
+      "start": 1606.08,
+      "end": 1607.0,
+      "text": "I like that career day."
+    },
+    {
+      "start": 1607.36,
+      "end": 1608.14,
+      "text": "What do you call it?"
+    },
+    {
+      "start": 1608.18,
+      "end": 1608.58,
+      "text": "You call it a-"
+    },
+    {
+      "start": 1608.58,
+      "end": 1609.72,
+      "text": "Education and exposure day."
+    },
+    {
+      "start": 1609.96,
+      "end": 1610.3,
+      "text": "Education and exposure."
+    },
+    {
+      "start": 1610.42,
+      "end": 1610.58,
+      "text": "Yeah."
+    },
+    {
+      "start": 1610.58,
+      "end": 1611.14,
+      "text": "I love that."
+    },
+    {
+      "start": 1611.4,
+      "end": 1614.12,
+      "text": "We do something similar that's not as cool as that."
+    },
+    {
+      "start": 1614.46,
+      "end": 1616.38,
+      "text": "You know, not the, you know, we don't."
+    },
+    {
+      "start": 1617.14,
+      "end": 1619.04,
+      "text": "But we do bring business leaders in."
+    },
+    {
+      "start": 1619.04,
+      "end": 1624.3,
+      "text": "And I have just noticed that just little piece of having them, even if they don't have like a, you know, elaborate activity."
+    },
+    {
+      "start": 1624.42,
+      "end": 1624.58,
+      "text": "Yeah."
+    },
+    {
+      "start": 1624.96,
+      "end": 1630.06,
+      "text": "Just being exposed to a professional person and a professional person that looks like the kids that are in the room."
+    },
+    {
+      "start": 1630.14,
+      "end": 1630.38,
+      "text": "Yeah."
+    },
+    {
+      "start": 1630.64,
+      "end": 1631.58,
+      "text": "Makes a big difference."
+    },
+    {
+      "start": 1631.66,
+      "end": 1632.02,
+      "text": "Absolutely."
+    },
+    {
+      "start": 1632.24,
+      "end": 1635.06,
+      "text": "It speaks that they can actually potentially accomplish that."
+    },
+    {
+      "start": 1635.1,
+      "end": 1635.46,
+      "text": "That's cool."
+    },
+    {
+      "start": 1635.6,
+      "end": 1635.88,
+      "text": "Yeah."
+    },
+    {
+      "start": 1635.88,
+      "end": 1638.48,
+      "text": "So what else is, what other stuff do you guys do with kids?"
+    },
+    {
+      "start": 1638.88,
+      "end": 1639.02,
+      "text": "Yeah."
+    },
+    {
+      "start": 1639.08,
+      "end": 1641.88,
+      "text": "So really trying to get them off the property."
+    },
+    {
+      "start": 1642.14,
+      "end": 1642.28,
+      "text": "Yeah."
+    },
+    {
+      "start": 1642.5,
+      "end": 1648.94,
+      "text": "We know that bringing people to the property is important, but not only is the east side bigger than, you know,"
+    },
+    {
+      "start": 1648.94,
+      "end": 1651.38,
+      "text": "the school that they go to and the house that they live in."
+    },
+    {
+      "start": 1651.42,
+      "end": 1652.94,
+      "text": "But Oklahoma City is huge as well."
+    },
+    {
+      "start": 1653.06,
+      "end": 1653.18,
+      "text": "Yeah."
+    },
+    {
+      "start": 1653.3,
+      "end": 1657.48,
+      "text": "We all know that Oklahoma City is one of the largest landmass cities in the country."
+    },
+    {
+      "start": 1657.72,
+      "end": 1659.78,
+      "text": "I want to say it is the largest."
+    },
+    {
+      "start": 1659.78,
+      "end": 1660.44,
+      "text": "That's what I believe."
+    },
+    {
+      "start": 1660.64,
+      "end": 1660.84,
+      "text": "It's true."
+    },
+    {
+      "start": 1660.92,
+      "end": 1661.3,
+      "text": "It's true."
+    },
+    {
+      "start": 1661.4,
+      "end": 1661.58,
+      "text": "Yeah."
+    },
+    {
+      "start": 1661.58,
+      "end": 1669.52,
+      "text": "And so you think about kids that have not been outside of the 73111 or the east side of Oklahoma City."
+    },
+    {
+      "start": 1669.52,
+      "end": 1675.22,
+      "text": "And if they have gone outside of that zip code or that area, it's to like Quill Spring and back."
+    },
+    {
+      "start": 1675.78,
+      "end": 1677.28,
+      "text": "Or it's like Penn Square and back."
+    },
+    {
+      "start": 1677.5,
+      "end": 1678.3,
+      "text": "Straight line to and from."
+    },
+    {
+      "start": 1678.4,
+      "end": 1678.6,
+      "text": "Yeah."
+    },
+    {
+      "start": 1678.68,
+      "end": 1678.8,
+      "text": "Yeah."
+    },
+    {
+      "start": 1678.88,
+      "end": 1682.08,
+      "text": "It's a, it's a, um, uh, what's the amusement park?"
+    },
+    {
+      "start": 1682.46,
+      "end": 1683.12,
+      "text": "Can you believe it?"
+    },
+    {
+      "start": 1683.16,
+      "end": 1683.58,
+      "text": "Frontier City."
+    },
+    {
+      "start": 1683.58,
+      "end": 1684.72,
+      "text": "Frontier City and back."
+    },
+    {
+      "start": 1684.82,
+      "end": 1685.0,
+      "text": "Yeah."
+    },
+    {
+      "start": 1685.06,
+      "end": 1685.16,
+      "text": "Yeah."
+    },
+    {
+      "start": 1685.16,
+      "end": 1686.42,
+      "text": "White Water Bay and back."
+    },
+    {
+      "start": 1686.62,
+      "end": 1686.78,
+      "text": "Yeah."
+    },
+    {
+      "start": 1686.78,
+      "end": 1694.74,
+      "text": "And so trying to, uh, get them to see that there's other parts, downtown, Midtown, Pseo, Plaza, Film Row, Automobile Alley, like all these areas."
+    },
+    {
+      "start": 1694.74,
+      "end": 1696.78,
+      "text": "Trying to get them out there as well."
+    },
+    {
+      "start": 1696.9,
+      "end": 1698.26,
+      "text": "So really trying to get them off campus."
+    },
+    {
+      "start": 1698.52,
+      "end": 1706.84,
+      "text": "One of the things we're going to do over spring break, uh, ironically is we're going to have a podcast camp and partner with Possibilities."
+    },
+    {
+      "start": 1707.44,
+      "end": 1711.4,
+      "text": "Um, uh, Byron Jackson and Santiago, they're going to come over to the Urban Bridge."
+    },
+    {
+      "start": 1711.56,
+      "end": 1714.66,
+      "text": "And so none of them have ever been on a podcast."
+    },
+    {
+      "start": 1714.78,
+      "end": 1716.06,
+      "text": "They've never had podcast experience."
+    },
+    {
+      "start": 1716.22,
+      "end": 1720.72,
+      "text": "And so we're going to use their internship experience as the platform to have that conversation."
+    },
+    {
+      "start": 1720.84,
+      "end": 1721.06,
+      "text": "Okay."
+    },
+    {
+      "start": 1721.1,
+      "end": 1721.52,
+      "text": "Very cool."
+    },
+    {
+      "start": 1721.52,
+      "end": 1721.7,
+      "text": "Yeah."
+    },
+    {
+      "start": 1721.7,
+      "end": 1723.66,
+      "text": "So we think about how do we bring something?"
+    },
+    {
+      "start": 1723.66,
+      "end": 1725.94,
+      "text": "And this is something else when I think about exposure."
+    },
+    {
+      "start": 1726.1,
+      "end": 1733.1,
+      "text": "It's like, I think sometimes we, it's easy to reach for the most convenient next step."
+    },
+    {
+      "start": 1733.18,
+      "end": 1742.66,
+      "text": "And so if we have a culinary internship, uh, uh, linking them to a, uh, Marcus Black because he's also in culinary, that makes sense."
+    },
+    {
+      "start": 1742.66,
+      "end": 1749.04,
+      "text": "Or taking them to, uh, we have a partnership through restaurant, uh, ready, um, Oklahoma restaurant association."
+    },
+    {
+      "start": 1749.04,
+      "end": 1752.82,
+      "text": "They have a curriculum called restaurant ready and they have partnerships with Hilton."
+    },
+    {
+      "start": 1752.82,
+      "end": 1760.74,
+      "text": "And so that, because it's hospitality is a next step, but also thinking like, well, what about the military?"
+    },
+    {
+      "start": 1760.88,
+      "end": 1761.3,
+      "text": "Yeah."
+    },
+    {
+      "start": 1761.72,
+      "end": 1766.5,
+      "text": "That doesn't seem so obvious, but in the military, they also have chefs."
+    },
+    {
+      "start": 1766.5,
+      "end": 1766.92,
+      "text": "Yeah."
+    },
+    {
+      "start": 1767.14,
+      "end": 1767.36,
+      "text": "Yeah."
+    },
+    {
+      "start": 1767.36,
+      "end": 1767.52,
+      "text": "Yeah."
+    },
+    {
+      "start": 1767.52,
+      "end": 1769.48,
+      "text": "Or thinking like hospitals."
+    },
+    {
+      "start": 1769.68,
+      "end": 1770.04,
+      "text": "Yeah."
+    },
+    {
+      "start": 1770.14,
+      "end": 1771.1,
+      "text": "They also have chefs."
+    },
+    {
+      "start": 1771.18,
+      "end": 1772.26,
+      "text": "And so sometimes."
+    },
+    {
+      "start": 1772.48,
+      "end": 1773.26,
+      "text": "Other practical."
+    },
+    {
+      "start": 1773.38,
+      "end": 1773.66,
+      "text": "Yeah."
+    },
+    {
+      "start": 1773.9,
+      "end": 1774.38,
+      "text": "Yeah."
+    },
+    {
+      "start": 1774.38,
+      "end": 1774.7,
+      "text": "Yeah."
+    },
+    {
+      "start": 1774.7,
+      "end": 1778.32,
+      "text": "Sometimes it's reaching beyond that, the next most obvious thing."
+    },
+    {
+      "start": 1778.44,
+      "end": 1782.78,
+      "text": "And then like when you, when you do that, you actually shrink the world a bit."
+    },
+    {
+      "start": 1782.88,
+      "end": 1783.16,
+      "text": "Yeah."
+    },
+    {
+      "start": 1783.28,
+      "end": 1783.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 1783.5,
+      "end": 1788.54,
+      "text": "It's like when you, when I can reach across the city and go to Dale who has a cafeteria."
+    },
+    {
+      "start": 1788.82,
+      "end": 1789.1,
+      "text": "Yeah."
+    },
+    {
+      "start": 1789.1,
+      "end": 1794.28,
+      "text": "And bring them into our culinary program, you know, like this is the ways that we can, we"
+    },
+    {
+      "start": 1794.28,
+      "end": 1798.68,
+      "text": "can really shrink their understanding of the world, even though it's big, this is how it's"
+    },
+    {
+      "start": 1798.68,
+      "end": 1799.22,
+      "text": "pieced together."
+    },
+    {
+      "start": 1799.32,
+      "end": 1800.06,
+      "text": "That's so good."
+    },
+    {
+      "start": 1800.18,
+      "end": 1800.76,
+      "text": "I love that."
+    },
+    {
+      "start": 1800.96,
+      "end": 1801.2,
+      "text": "Yeah."
+    },
+    {
+      "start": 1801.2,
+      "end": 1802.54,
+      "text": "That's so, so powerful."
+    },
+    {
+      "start": 1802.54,
+      "end": 1805.94,
+      "text": "And the good thing about Oklahoma city, man, we have great people in Oklahoma city."
+    },
+    {
+      "start": 1806.08,
+      "end": 1806.48,
+      "text": "Absolutely."
+    },
+    {
+      "start": 1806.64,
+      "end": 1809.54,
+      "text": "You know, we have so many gifted, talented people."
+    },
+    {
+      "start": 1809.74,
+      "end": 1810.02,
+      "text": "Generous."
+    },
+    {
+      "start": 1810.02,
+      "end": 1810.74,
+      "text": "So many levels."
+    },
+    {
+      "start": 1810.94,
+      "end": 1811.22,
+      "text": "Generous."
+    },
+    {
+      "start": 1811.22,
+      "end": 1811.52,
+      "text": "Yeah."
+    },
+    {
+      "start": 1811.52,
+      "end": 1816.28,
+      "text": "You know, and, and I think that's it, you know, part of, part of our, what I feel like"
+    },
+    {
+      "start": 1816.28,
+      "end": 1818.74,
+      "text": "my job is a lot of times is just connecting those dots."
+    },
+    {
+      "start": 1818.74,
+      "end": 1822.76,
+      "text": "You know, I was having a great conversation with the potential donor yesterday."
+    },
+    {
+      "start": 1823.62,
+      "end": 1826.8,
+      "text": "And I remember, you know, the conversation led to a point."
+    },
+    {
+      "start": 1826.86,
+      "end": 1828.98,
+      "text": "I just finally said, you know, what, what are you passionate about?"
+    },
+    {
+      "start": 1829.06,
+      "end": 1832.54,
+      "text": "You know, what really like makes your heart cry?"
+    },
+    {
+      "start": 1832.54,
+      "end": 1837.18,
+      "text": "What gets you, you know, besides what you currently do, I know you're passionate about"
+    },
+    {
+      "start": 1837.18,
+      "end": 1837.42,
+      "text": "that."
+    },
+    {
+      "start": 1837.52,
+      "end": 1837.62,
+      "text": "Yeah."
+    },
+    {
+      "start": 1838.22,
+      "end": 1841.5,
+      "text": "What outside of that do you wish, man, I wish I could have an experience."
+    },
+    {
+      "start": 1841.52,
+      "end": 1844.62,
+      "text": "An extension of myself to help propel this type of work."
+    },
+    {
+      "start": 1844.66,
+      "end": 1844.9,
+      "text": "Yeah."
+    },
+    {
+      "start": 1845.24,
+      "end": 1849.6,
+      "text": "You know, and he, it was kids for, for this person, but his face lit up."
+    },
+    {
+      "start": 1849.7,
+      "end": 1855.4,
+      "text": "It was like, it was like he was saying, finally, somebody figured out what I, what I'm looking"
+    },
+    {
+      "start": 1855.4,
+      "end": 1855.72,
+      "text": "for."
+    },
+    {
+      "start": 1855.76,
+      "end": 1855.96,
+      "text": "Yeah."
+    },
+    {
+      "start": 1855.96,
+      "end": 1856.44,
+      "text": "I mean, kind of."
+    },
+    {
+      "start": 1856.44,
+      "end": 1856.68,
+      "text": "Yeah."
+    },
+    {
+      "start": 1856.98,
+      "end": 1860.5,
+      "text": "So I think the idea, the reality is there's so many gifted people here."
+    },
+    {
+      "start": 1860.78,
+      "end": 1865.34,
+      "text": "It's just about how do we, how do we tap into what they are really excited about that"
+    },
+    {
+      "start": 1865.34,
+      "end": 1868.36,
+      "text": "we can contribute to, you know, or they can contribute to that we're doing."
+    },
+    {
+      "start": 1868.5,
+      "end": 1868.78,
+      "text": "Yeah."
+    },
+    {
+      "start": 1868.78,
+      "end": 1873.22,
+      "text": "And so the more we can connect those dots, it's cool because now you have a bunch of"
+    },
+    {
+      "start": 1873.22,
+      "end": 1878.18,
+      "text": "passionate people about specific things that they're all contributing directly to."
+    },
+    {
+      "start": 1878.42,
+      "end": 1878.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 1878.5,
+      "end": 1881.94,
+      "text": "It's like this ecosystem of creativity and productivity."
+    },
+    {
+      "start": 1881.94,
+      "end": 1882.98,
+      "text": "That's so exciting."
+    },
+    {
+      "start": 1882.98,
+      "end": 1884.1,
+      "text": "So I love that."
+    },
+    {
+      "start": 1884.18,
+      "end": 1889.16,
+      "text": "I tell mentors all the time that you, and this is for the new mentors, for all you seasoned"
+    },
+    {
+      "start": 1889.16,
+      "end": 1890.84,
+      "text": "mentors out there, you get this already."
+    },
+    {
+      "start": 1890.84,
+      "end": 1896.04,
+      "text": "But when I think about new mentors, they, sometimes it's hard to break this mentality"
+    },
+    {
+      "start": 1896.04,
+      "end": 1897.42,
+      "text": "of they're coming to give."
+    },
+    {
+      "start": 1897.66,
+      "end": 1897.86,
+      "text": "Yeah."
+    },
+    {
+      "start": 1897.9,
+      "end": 1902.28,
+      "text": "And I'm telling, I'm like, if you show up, you're going to get way more than you give."
+    },
+    {
+      "start": 1902.4,
+      "end": 1904.46,
+      "text": "You're coming with expertise and experience."
+    },
+    {
+      "start": 1904.58,
+      "end": 1909.22,
+      "text": "But if you come with an open heart and open mind, a willingness to connect, the desire to"
+    },
+    {
+      "start": 1909.22,
+      "end": 1911.76,
+      "text": "be not only available, but present."
+    },
+    {
+      "start": 1911.76,
+      "end": 1916.58,
+      "text": "I think it's really, really important for them to understand that if you just lock in for"
+    },
+    {
+      "start": 1916.58,
+      "end": 1920.52,
+      "text": "this 30 minutes or this hour, you're going to get way more than you could ever give."
+    },
+    {
+      "start": 1920.6,
+      "end": 1924.2,
+      "text": "Like these kids, they are, I mean, they are liberal."
+    },
+    {
+      "start": 1924.28,
+      "end": 1926.1,
+      "text": "They're generous with their opinion."
+    },
+    {
+      "start": 1926.28,
+      "end": 1926.56,
+      "text": "Yeah."
+    },
+    {
+      "start": 1926.78,
+      "end": 1927.28,
+      "text": "That's true."
+    },
+    {
+      "start": 1927.72,
+      "end": 1928.3,
+      "text": "That's true."
+    },
+    {
+      "start": 1928.3,
+      "end": 1929.48,
+      "text": "They will let you know."
+    },
+    {
+      "start": 1929.62,
+      "end": 1933.08,
+      "text": "If there's something that they want to share and they're confident in sharing, and they"
+    },
+    {
+      "start": 1933.08,
+      "end": 1939.64,
+      "text": "feel not only confident, but they feel capable of sharing it, man, a mentor will walk away"
+    },
+    {
+      "start": 1939.64,
+      "end": 1943.9,
+      "text": "essentially looking at a mirror thinking, I thought I knew, but I didn't."
+    },
+    {
+      "start": 1944.0,
+      "end": 1944.1,
+      "text": "Yeah."
+    },
+    {
+      "start": 1944.12,
+      "end": 1945.1,
+      "text": "I thought I was tapped in."
+    },
+    {
+      "start": 1945.24,
+      "end": 1945.46,
+      "text": "Yeah."
+    },
+    {
+      "start": 1945.46,
+      "end": 1946.82,
+      "text": "I thought, and that's here in the city."
+    },
+    {
+      "start": 1946.92,
+      "end": 1947.16,
+      "text": "Yeah."
+    },
+    {
+      "start": 1947.36,
+      "end": 1952.12,
+      "text": "That's not, you don't have to go to some third world to figure out that you don't know"
+    },
+    {
+      "start": 1952.12,
+      "end": 1952.62,
+      "text": "what's happening."
+    },
+    {
+      "start": 1952.62,
+      "end": 1952.74,
+      "text": "Yeah."
+    },
+    {
+      "start": 1952.74,
+      "end": 1955.32,
+      "text": "Like go across your town to figure that out."
+    },
+    {
+      "start": 1955.32,
+      "end": 1959.84,
+      "text": "And I tell mentors all the time, if you, if you come, you will leave impacted."
+    },
+    {
+      "start": 1959.84,
+      "end": 1963.66,
+      "text": "If you're able to lock in because you're going to receive and walk away with way more than"
+    },
+    {
+      "start": 1963.66,
+      "end": 1964.02,
+      "text": "you brought."
+    },
+    {
+      "start": 1964.2,
+      "end": 1964.44,
+      "text": "Yeah."
+    },
+    {
+      "start": 1964.44,
+      "end": 1965.22,
+      "text": "That's so good."
+    },
+    {
+      "start": 1965.32,
+      "end": 1966.82,
+      "text": "And that's, that's very true."
+    },
+    {
+      "start": 1967.0,
+      "end": 1971.32,
+      "text": "I know that every experience I've ever had were, you know, there's those days where you're"
+    },
+    {
+      "start": 1971.32,
+      "end": 1971.68,
+      "text": "tired."
+    },
+    {
+      "start": 1971.82,
+      "end": 1972.06,
+      "text": "Yeah."
+    },
+    {
+      "start": 1972.38,
+      "end": 1976.98,
+      "text": "You're going to walk into a session, you know, encourage a young person or something like,"
+    },
+    {
+      "start": 1977.06,
+      "end": 1979.58,
+      "text": "man, I really, I could, I could probably cancel this."
+    },
+    {
+      "start": 1979.66,
+      "end": 1979.96,
+      "text": "Yeah."
+    },
+    {
+      "start": 1979.96,
+      "end": 1983.56,
+      "text": "But then when you don't and you go through it, you're like, I'm so glad I didn't cancel that"
+    },
+    {
+      "start": 1983.56,
+      "end": 1986.28,
+      "text": "because that they actually gave me what I needed for this moment."
+    },
+    {
+      "start": 1986.42,
+      "end": 1986.74,
+      "text": "Yeah."
+    },
+    {
+      "start": 1987.1,
+      "end": 1987.34,
+      "text": "Yeah."
+    },
+    {
+      "start": 1987.36,
+      "end": 1991.14,
+      "text": "So it's really cool that there's that give and take there with mentorship, but well, Derek,"
+    },
+    {
+      "start": 1991.22,
+      "end": 1993.4,
+      "text": "it's been such a pleasure to sit and visit with you."
+    },
+    {
+      "start": 1993.48,
+      "end": 1993.72,
+      "text": "Absolutely."
+    },
+    {
+      "start": 1993.88,
+      "end": 1996.0,
+      "text": "I would like you to share the details about restore."
+    },
+    {
+      "start": 1996.22,
+      "end": 2001.12,
+      "text": "We, and I want to share with you who, if you're watching today, contribute to restore"
+    },
+    {
+      "start": 2001.12,
+      "end": 2001.56,
+      "text": "OKC."
+    },
+    {
+      "start": 2001.62,
+      "end": 2004.76,
+      "text": "They are doing incredible work in the Northeast side of Oklahoma city."
+    },
+    {
+      "start": 2005.28,
+      "end": 2008.18,
+      "text": "They're building infrastructure for employment."
+    },
+    {
+      "start": 2008.18,
+      "end": 2009.26,
+      "text": "It's, it's incredible."
+    },
+    {
+      "start": 2009.56,
+      "end": 2011.94,
+      "text": "So where can they go to find more about restore?"
+    },
+    {
+      "start": 2011.94,
+      "end": 2012.66,
+      "text": "Absolutely."
+    },
+    {
+      "start": 2013.56,
+      "end": 2019.74,
+      "text": "RestoreOKC.org is where you can find, you're going to find a bunch of information on that"
+    },
+    {
+      "start": 2019.74,
+      "end": 2020.12,
+      "text": "page."
+    },
+    {
+      "start": 2020.26,
+      "end": 2025.96,
+      "text": "But if I could zero in and be a bit more selfish and targeted with this time, we're doing some"
+    },
+    {
+      "start": 2025.96,
+      "end": 2030.74,
+      "text": "great work in partnership with other organizations on the East side of Oklahoma city."
+    },
+    {
+      "start": 2031.26,
+      "end": 2036.42,
+      "text": "I can't leave this place without shouting out class matters and Dr. Darren Lampkin."
+    },
+    {
+      "start": 2036.54,
+      "end": 2040.2,
+      "text": "I can't leave without shouting out Harold and Brent over at Kithvation."
+    },
+    {
+      "start": 2040.2,
+      "end": 2045.0,
+      "text": "I cannot leave without shouting out Marcus Jackson and his crew over at the urban bridge impact"
+    },
+    {
+      "start": 2045.0,
+      "end": 2045.3,
+      "text": "center."
+    },
+    {
+      "start": 2046.38,
+      "end": 2050.56,
+      "text": "We are all working together to do some really cool work in that area."
+    },
+    {
+      "start": 2050.76,
+      "end": 2056.9,
+      "text": "But specifically at restore, we are really working to, to increase the number of not only"
+    },
+    {
+      "start": 2056.9,
+      "end": 2061.86,
+      "text": "community partners and program partners, but we want to create this employment pathway,"
+    },
+    {
+      "start": 2062.0,
+      "end": 2064.94,
+      "text": "this pipeline from experience to employment."
+    },
+    {
+      "start": 2064.94,
+      "end": 2070.7,
+      "text": "We have so many kids that are ready to graduate, but they don't want to take the traditional"
+    },
+    {
+      "start": 2070.7,
+      "end": 2072.64,
+      "text": "route from graduation to college."
+    },
+    {
+      "start": 2073.12,
+      "end": 2076.68,
+      "text": "And we want to let them know that while that is for some, it's not for everybody."
+    },
+    {
+      "start": 2076.82,
+      "end": 2078.64,
+      "text": "In fact, I would argue and say it's not for most."
+    },
+    {
+      "start": 2079.04,
+      "end": 2082.1,
+      "text": "There are a lot of folks that want to graduate and they want to make money."
+    },
+    {
+      "start": 2082.4,
+      "end": 2083.62,
+      "text": "They want to provide for their own."
+    },
+    {
+      "start": 2083.92,
+      "end": 2085.48,
+      "text": "They want to contribute back to their family."
+    },
+    {
+      "start": 2085.74,
+      "end": 2088.7,
+      "text": "And they don't want to have to worry about being able to swipe a card and whether or not"
+    },
+    {
+      "start": 2088.7,
+      "end": 2090.28,
+      "text": "it's approved."
+    },
+    {
+      "start": 2090.28,
+      "end": 2094.9,
+      "text": "And so what we're really trying to do is create experience and opportunities for them to be"
+    },
+    {
+      "start": 2094.9,
+      "end": 2100.82,
+      "text": "exposed to what's happening in Oklahoma City and find ways to get plugged in to those things."
+    },
+    {
+      "start": 2101.22,
+      "end": 2102.66,
+      "text": "We're talking about entrepreneurship."
+    },
+    {
+      "start": 2103.12,
+      "end": 2104.42,
+      "text": "We're talking about site visits."
+    },
+    {
+      "start": 2104.68,
+      "end": 2111.1,
+      "text": "We're talking about internships, observations, anything that we can do to let our kids know"
+    },
+    {
+      "start": 2111.1,
+      "end": 2112.84,
+      "text": "that there is a lot of opportunity."
+    },
+    {
+      "start": 2113.34,
+      "end": 2117.66,
+      "text": "If you would love to partner with that, Derek at RestoreOKC.org, hit me up."
+    },
+    {
+      "start": 2118.42,
+      "end": 2119.76,
+      "text": "We can have a conversation."
+    },
+    {
+      "start": 2119.76,
+      "end": 2120.78,
+      "text": "I can bring you on campus."
+    },
+    {
+      "start": 2120.86,
+      "end": 2121.52,
+      "text": "We can take a tour."
+    },
+    {
+      "start": 2121.62,
+      "end": 2122.46,
+      "text": "You can see what we're doing."
+    },
+    {
+      "start": 2122.8,
+      "end": 2124.54,
+      "text": "I'll let you ask all the questions."
+    },
+    {
+      "start": 2124.88,
+      "end": 2127.3,
+      "text": "And if I don't have the answers immediately, I'll make sure I get to them."
+    },
+    {
+      "start": 2128.3,
+      "end": 2129.1,
+      "text": "RestoreOKC.org."
+    },
+    {
+      "start": 2129.22,
+      "end": 2129.74,
+      "text": "I love it."
+    },
+    {
+      "start": 2129.78,
+      "end": 2130.38,
+      "text": "That's perfect."
+    },
+    {
+      "start": 2130.74,
+      "end": 2134.18,
+      "text": "And then your book, what's your latest book out?"
+    },
+    {
+      "start": 2134.22,
+      "end": 2134.5,
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "start": 2134.5,
+      "end": 2137.54,
+      "text": "I want to share the title of that and we'll throw up a graphic for that as well."
+    },
+    {
+      "start": 2137.6,
+      "end": 2138.28,
+      "text": "Absolutely, absolutely."
+    },
+    {
+      "start": 2138.46,
+      "end": 2140.14,
+      "text": "So I have five projects out."
+    },
+    {
+      "start": 2140.52,
+      "end": 2145.74,
+      "text": "One is called Small Stories, Big Team, which talks about these individual stories that contribute"
+    },
+    {
+      "start": 2145.74,
+      "end": 2148.24,
+      "text": "to organizations, your story, my story."
+    },
+    {
+      "start": 2148.24,
+      "end": 2151.38,
+      "text": "We all contribute to any organization that we're part of."
+    },
+    {
+      "start": 2151.38,
+      "end": 2153.84,
+      "text": "My second book is called Life of List."
+    },
+    {
+      "start": 2154.52,
+      "end": 2159.32,
+      "text": "And that is talking about how do we stop, pause, look at the things around us and narrow in"
+    },
+    {
+      "start": 2159.32,
+      "end": 2160.06,
+      "text": "on gratitude."
+    },
+    {
+      "start": 2160.74,
+      "end": 2164.14,
+      "text": "My third book is called Dear Ricky, which is a mentoring book."
+    },
+    {
+      "start": 2164.22,
+      "end": 2167.96,
+      "text": "Actually, it's wise words from a mentor's heart."
+    },
+    {
+      "start": 2168.44,
+      "end": 2170.26,
+      "text": "My fourth book is called Hallway Leadership."
+    },
+    {
+      "start": 2170.26,
+      "end": 2176.28,
+      "text": "I wrote that in conjunction with Katie Kinder and Taylor Upchurch."
+    },
+    {
+      "start": 2176.8,
+      "end": 2180.16,
+      "text": "And then my fourth book, which is my most recent book, which is probably the most dearest to"
+    },
+    {
+      "start": 2180.16,
+      "end": 2182.06,
+      "text": "my heart, is called Dear Daughter."
+    },
+    {
+      "start": 2182.62,
+      "end": 2186.08,
+      "text": "It's a letter, notes from a father's heart to his daughter."
+    },
+    {
+      "start": 2186.08,
+      "end": 2189.9,
+      "text": "And so Life of List is probably one that is the most popular."
+    },
+    {
+      "start": 2190.46,
+      "end": 2197.06,
+      "text": "I actually go around to organizations and we talk about increasing our awareness of gratitude,"
+    },
+    {
+      "start": 2197.06,
+      "end": 2203.22,
+      "text": "where we are with our families as parents, spouses, children, friends, neighbors, and in"
+    },
+    {
+      "start": 2203.22,
+      "end": 2204.04,
+      "text": "workspaces."
+    },
+    {
+      "start": 2204.04,
+      "end": 2206.0,
+      "text": "How can we be better coworkers as well?"
+    },
+    {
+      "start": 2206.1,
+      "end": 2207.88,
+      "text": "So you can find those out there."
+    },
+    {
+      "start": 2208.02,
+      "end": 2210.52,
+      "text": "Just Derek Sire, OKC Books."
+    },
+    {
+      "start": 2210.58,
+      "end": 2212.6,
+      "text": "If you Google that, all five will pop up."
+    },
+    {
+      "start": 2213.02,
+      "end": 2214.32,
+      "text": "And if you got any questions, let's connect."
+    },
+    {
+      "start": 2214.32,
+      "end": 2215.0,
+      "text": "I love it."
+    },
+    {
+      "start": 2215.04,
+      "end": 2215.28,
+      "text": "Love it."
+    },
+    {
+      "start": 2215.36,
+      "end": 2217.0,
+      "text": "OK, to wrap it all up."
+    },
+    {
+      "start": 2217.06,
+      "end": 2217.3,
+      "text": "Yes, sir."
+    },
+    {
+      "start": 2217.36,
+      "end": 2220.82,
+      "text": "We talk about hope on this podcast a lot, you know, and I think that we've been talking"
+    },
+    {
+      "start": 2220.82,
+      "end": 2226.74,
+      "text": "about a lot of hopeful things, you know, and I believe hope is a pretty powerful component"
+    },
+    {
+      "start": 2226.74,
+      "end": 2228.18,
+      "text": "of our lives."
+    },
+    {
+      "start": 2228.28,
+      "end": 2230.02,
+      "text": "But what is hope to you?"
+    },
+    {
+      "start": 2230.1,
+      "end": 2232.38,
+      "text": "You know, just to wrap up the entire podcast."
+    },
+    {
+      "start": 2232.58,
+      "end": 2237.02,
+      "text": "How important is hope for the young people in our community today that need this mentorship?"
+    },
+    {
+      "start": 2237.52,
+      "end": 2237.84,
+      "text": "Absolutely."
+    },
+    {
+      "start": 2238.26,
+      "end": 2243.58,
+      "text": "Yeah, I think hope is just kind of the encouragement, the push to wake up and try again."
+    },
+    {
+      "start": 2243.58,
+      "end": 2243.82,
+      "text": "Yeah."
+    },
+    {
+      "start": 2244.32,
+      "end": 2248.04,
+      "text": "I know sometimes we look for external hope."
+    },
+    {
+      "start": 2248.4,
+      "end": 2251.98,
+      "text": "We look for hope in people, in community, in systems."
+    },
+    {
+      "start": 2252.94,
+      "end": 2255.12,
+      "text": "But I think the greatest hope is intrinsic."
+    },
+    {
+      "start": 2255.7,
+      "end": 2260.32,
+      "text": "And if I can look in the world and find good, if I can look close and find good, if I can"
+    },
+    {
+      "start": 2260.32,
+      "end": 2264.66,
+      "text": "look at myself and find good, then that's that additional motivation to get up and try"
+    },
+    {
+      "start": 2264.66,
+      "end": 2265.04,
+      "text": "again."
+    },
+    {
+      "start": 2265.04,
+      "end": 2271.38,
+      "text": "I think when we try again, there's this element of like, there's always this 50-50 chance."
+    },
+    {
+      "start": 2271.46,
+      "end": 2274.38,
+      "text": "It'll go the way I want and it'll go the way that I will."
+    },
+    {
+      "start": 2274.92,
+      "end": 2277.96,
+      "text": "And I think we could talk about pessimism and optimism."
+    },
+    {
+      "start": 2277.96,
+      "end": 2280.8,
+      "text": "We could talk about glass half full, glass half empty, all those different things."
+    },
+    {
+      "start": 2280.8,
+      "end": 2286.88,
+      "text": "But for me, I think there's something about the will of an individual that no matter what"
+    },
+    {
+      "start": 2286.88,
+      "end": 2288.72,
+      "text": "happens, I'm going to find good in it."
+    },
+    {
+      "start": 2288.72,
+      "end": 2289.88,
+      "text": "To me, that's hope."
+    },
+    {
+      "start": 2290.14,
+      "end": 2292.62,
+      "text": "To be able to salvage it."
+    },
+    {
+      "start": 2292.94,
+      "end": 2303.02,
+      "text": "One of my greatest quotes that I love, it talks about working all things to good for those who"
+    },
+    {
+      "start": 2303.02,
+      "end": 2304.66,
+      "text": "believe and are called, right?"
+    },
+    {
+      "start": 2304.68,
+      "end": 2310.98,
+      "text": "If you believe and if you are called to this work, right, I believe that you're able to"
+    },
+    {
+      "start": 2310.98,
+      "end": 2315.0,
+      "text": "mentally, emotionally, spiritually work all things to good."
+    },
+    {
+      "start": 2315.0,
+      "end": 2320.1,
+      "text": "I can look at something that is awful and it's bad and I can make it good."
+    },
+    {
+      "start": 2320.2,
+      "end": 2326.08,
+      "text": "Now, my issue is that sometimes I want to breeze past the lesson to the good and I want to force"
+    },
+    {
+      "start": 2326.08,
+      "end": 2330.22,
+      "text": "people into positivity and optimism instead of kind of milking that moment and salvaging the"
+    },
+    {
+      "start": 2330.22,
+      "end": 2330.8,
+      "text": "experience."
+    },
+    {
+      "start": 2330.8,
+      "end": 2335.36,
+      "text": "I've gotten so much trouble when somebody goes through something that is traumatic and I'm like,"
+    },
+    {
+      "start": 2335.4,
+      "end": 2336.76,
+      "text": "well, the silver lining."
+    },
+    {
+      "start": 2336.9,
+      "end": 2337.54,
+      "text": "And they're like, nope."
+    },
+    {
+      "start": 2337.72,
+      "end": 2338.38,
+      "text": "No silver lining."
+    },
+    {
+      "start": 2338.38,
+      "end": 2338.86,
+      "text": "No, sir."
+    },
+    {
+      "start": 2338.9,
+      "end": 2340.14,
+      "text": "We are not doing that right now."
+    },
+    {
+      "start": 2340.18,
+      "end": 2340.72,
+      "text": "And I'm like, you're right."
+    },
+    {
+      "start": 2340.76,
+      "end": 2341.0,
+      "text": "You're right."
+    },
+    {
+      "start": 2341.02,
+      "end": 2341.24,
+      "text": "You're right."
+    },
+    {
+      "start": 2341.24,
+      "end": 2341.42,
+      "text": "You're right."
+    },
+    {
+      "start": 2341.42,
+      "end": 2342.58,
+      "text": "Let me sit in this moment with you."
+    },
+    {
+      "start": 2342.84,
+      "end": 2347.74,
+      "text": "But I honestly believe that everything, like if we are, if we believe with all of our hearts"
+    },
+    {
+      "start": 2347.74,
+      "end": 2352.54,
+      "text": "and minds and if we are called to this work and if our faith continues to drive us, I honestly"
+    },
+    {
+      "start": 2352.54,
+      "end": 2354.68,
+      "text": "believe that everything will work out to our good."
+    },
+    {
+      "start": 2354.76,
+      "end": 2355.48,
+      "text": "And to me, that's hope."
+    },
+    {
+      "start": 2355.8,
+      "end": 2356.24,
+      "text": "I agree."
+    },
+    {
+      "start": 2356.34,
+      "end": 2358.54,
+      "text": "That's a great, that's a great explanation of hope."
+    },
+    {
+      "start": 2358.54,
+      "end": 2361.96,
+      "text": "Well, I would really love to have you back on because something just popped in my head."
+    },
+    {
+      "start": 2362.4,
+      "end": 2363.68,
+      "text": "You know, I agree."
+    },
+    {
+      "start": 2363.94,
+      "end": 2366.66,
+      "text": "I think that we try to skip the process too often."
+    },
+    {
+      "start": 2366.78,
+      "end": 2367.0,
+      "text": "Yeah."
+    },
+    {
+      "start": 2367.22,
+      "end": 2369.58,
+      "text": "And the process is where all the richness."
+    },
+    {
+      "start": 2369.88,
+      "end": 2370.68,
+      "text": "Oh, yes."
+    },
+    {
+      "start": 2370.68,
+      "end": 2375.16,
+      "text": "So I'd love to have you back to talk about the process of mentorship and how important"
+    },
+    {
+      "start": 2375.16,
+      "end": 2377.72,
+      "text": "that process is and what, what it looks like."
+    },
+    {
+      "start": 2377.8,
+      "end": 2379.52,
+      "text": "You know, it's not a year process."
+    },
+    {
+      "start": 2379.64,
+      "end": 2380.96,
+      "text": "It's a lifelong process."
+    },
+    {
+      "start": 2381.78,
+      "end": 2385.28,
+      "text": "So anyway, hopefully you'll, you'd be open to coming back, but it's been such an honor"
+    },
+    {
+      "start": 2385.28,
+      "end": 2385.9,
+      "text": "to have you, Derek."
+    },
+    {
+      "start": 2386.02,
+      "end": 2390.34,
+      "text": "So great to get to know more about you and I'm going to go get your book and I'm excited"
+    },
+    {
+      "start": 2390.34,
+      "end": 2394.2,
+      "text": "about that read myself, but yeah, we're excited to have you on Voices of OKC."
+    },
+    {
+      "start": 2394.34,
+      "end": 2396.46,
+      "text": "And thank you guys for joining us today."
+    },
+    {
+      "start": 2396.54,
+      "end": 2399.32,
+      "text": "It's been a great episode and we look forward to seeing you next week."
+    },
+    {
+      "start": 2399.32,
+      "end": 2399.98,
+      "text": "Thanks so much."
+    }
+  ]
+}
