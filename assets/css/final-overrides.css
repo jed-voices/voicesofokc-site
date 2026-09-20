@@ -1078,7 +1078,7 @@ body {
 }
 
 :where(a, button, input, [tabindex]):focus-visible {
-  outline: 3px solid rgba(27,111,159,.45);
+  outline: 3px solid var(--focus-ring);
   outline-offset: 4px;
 }
 
