@@ -8,6 +8,8 @@ from html import escape, unescape
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlparse, urlsplit, urlunsplit
+from urllib.request import Request, urlopen
+from xml.etree import ElementTree
 
 import feedparser
 
@@ -15,6 +17,7 @@ feed_url = os.environ.get("PODBEAN_FEED_URL", "").strip()
 spotify_url = os.environ.get("SPOTIFY_URL", "").strip()
 apple_url = os.environ.get("APPLE_URL", "").strip()
 youtube_url = os.environ.get("YOUTUBE_URL", "").strip()
+youtube_channel_id = os.environ.get("YOUTUBE_CHANNEL_ID", "UCllLRXhOeySqJF-DsFTGwlw").strip()
 site_email = os.environ.get("SITE_EMAIL", "info@voicesofokc.com").strip()
 
 site_origin = os.environ.get("SITE_ORIGIN", "https://www.voicesofokc.com").rstrip("/")
@@ -401,11 +404,113 @@ def local_asset_path(value, prefix):
     return path
 
 
+YOUTUBE_FEED_TEMPLATE = "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+YOUTUBE_ATOM_NS = {
+    "atom": "http://www.w3.org/2005/Atom",
+    "yt": "http://www.youtube.com/xml/schemas/2015",
+}
+_youtube_thumbnail_cache = {}
+_youtube_channel_index = None
+
+
+def best_youtube_thumbnail(video_id):
+    """maxresdefault when the upload has one, else hqdefault. Probed once per video id.
+
+    maxresdefault.jpg 404s for any upload without an HD thumbnail, which would drop the
+    episode all the way to the static fallback image. Resolving it here rather than in the
+    browser means the card never flashes a broken image.
+    """
+    if video_id in _youtube_thumbnail_cache:
+        return _youtube_thumbnail_cache[video_id]
+    maxres = f"https://i.ytimg.com/vi/{video_id}/maxresdefault.jpg"
+    chosen = f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
+    try:
+        with urlopen(Request(maxres, method="HEAD"), timeout=10) as response:
+            if response.status == 200:
+                chosen = maxres
+    except Exception:
+        pass
+    _youtube_thumbnail_cache[video_id] = chosen
+    return chosen
+
+
+def youtube_match_key(value):
+    """Normalized key so a YouTube upload title can be matched to a Podbean title.
+
+    Podbean and YouTube titles differ mainly in their separators -- "Generational Curses:
+    Naming the Pattern" against "Generational Curses | Naming the Pattern" -- so punctuation
+    and case are flattened and everything else must still agree exactly.
+    """
+    normalized = unicodedata.normalize("NFKD", str(value or ""))
+    ascii_value = normalized.encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]+", " ", ascii_value.lower()).strip()
+
+
+def episode_number_from_text(value):
+    match = re.match(r"\s*(?:ep\.?\s*|episode\s*)?0*(\d{1,3})\b", str(value or ""), re.IGNORECASE)
+    return match.group(1) if match else ""
+
+
+def youtube_channel_index():
+    """Index the channel's public RSS by normalized title and by episode number.
+
+    No API key: the channel feed carries the most recent uploads, which is what a newly
+    published episode needs. Network failure is never fatal -- a YouTube outage must not
+    blank out youtube_url values that already work.
+    """
+    global _youtube_channel_index
+    if _youtube_channel_index is not None:
+        return _youtube_channel_index
+    index = {"by_title": {}, "by_number": {}}
+    if not youtube_channel_id:
+        _youtube_channel_index = index
+        return index
+    try:
+        with urlopen(YOUTUBE_FEED_TEMPLATE.format(channel_id=youtube_channel_id), timeout=20) as response:
+            root = ElementTree.fromstring(response.read())
+    except Exception as error:
+        print(f"YouTube channel feed unavailable ({error}); leaving youtube_url values as they are.")
+        _youtube_channel_index = index
+        return index
+    for item in root.findall("atom:entry", YOUTUBE_ATOM_NS):
+        video_id = (item.findtext("yt:videoId", "", YOUTUBE_ATOM_NS) or "").strip()
+        title = (item.findtext("atom:title", "", YOUTUBE_ATOM_NS) or "").strip()
+        if not video_id or not title:
+            continue
+        key = youtube_match_key(title)
+        if key:
+            index["by_title"].setdefault(key, video_id)
+        number = episode_number_from_text(title)
+        if number:
+            index["by_number"].setdefault(number, video_id)
+    print(f"YouTube channel feed: indexed {len(index['by_title'])} uploads.")
+    _youtube_channel_index = index
+    return index
+
+
+def resolve_youtube_url(payload):
+    """A watch URL for this episode, or "" when nothing matches confidently.
+
+    Exact normalized title first, then episode number. Deliberately no fuzzy matching: one
+    upload is titled "038 Les Thomas YOUTUBE 2160p", and a wrong thumbnail is worse than a
+    Podbean fallback. episode-map.json is merged before this runs, so a manual mapping wins.
+    """
+    index = youtube_channel_index()
+    if not index["by_title"] and not index["by_number"]:
+        return ""
+    video_id = index["by_title"].get(youtube_match_key(payload.get("title")))
+    if not video_id:
+        number = str(payload.get("episode_number") or "").strip().lstrip("0")
+        if number:
+            video_id = index["by_number"].get(number)
+    return f"https://www.youtube.com/watch?v={video_id}" if video_id else ""
+
+
 def youtube_thumbnail_from_url(value):
     match = YOUTUBE_VIDEO_RE.search(str(value or ""))
     if not match:
         return ""
-    return f"https://i.ytimg.com/vi/{match.group(1)}/maxresdefault.jpg"
+    return best_youtube_thumbnail(match.group(1))
 
 
 def is_youtube_thumbnail(value):
@@ -941,6 +1046,8 @@ for index, entry in enumerate(feed.entries):
     payload["site_path"] = payload.get("site_path") or site_path
     payload["site_url"] = f"{site_origin}/{payload['site_path']}"
     payload["episode_url"] = payload["site_url"]
+    if not str(payload.get("youtube_url") or "").strip():
+        payload["youtube_url"] = resolve_youtube_url(payload)
     youtube_artwork = (
         youtube_thumbnail_from_url(payload.get("youtube_url"))
         or (payload.get("thumbnail_url") if is_youtube_thumbnail(payload.get("thumbnail_url")) else "")
