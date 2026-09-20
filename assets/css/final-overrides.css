@@ -106,7 +106,7 @@
   background: rgba(255,255,255,0.92);
   color: var(--civic-navy);
   font-size: 0.9rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.02em;
   text-align: center !important;
   transition: transform var(--ease), box-shadow var(--ease), background-color var(--ease), border-color var(--ease), color var(--ease);
@@ -251,7 +251,7 @@
 .hero-panel-balanced .hero-meta-item span:first-child {
   color: rgba(244,247,250,0.66);
   font-size: 0.76rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
@@ -631,7 +631,7 @@ img,
   background:rgba(95,168,211,.1);
   color:var(--civic-navy);
   font-size:.72rem;
-  font-weight:800;
+  font-weight:600;
   text-transform:uppercase;
 }
 
@@ -703,7 +703,7 @@ img,
   margin-top:18px;
   color:var(--civic-navy);
   font-size:.78rem;
-  font-weight:800;
+  font-weight:600;
   text-transform:uppercase;
 }
 
@@ -768,7 +768,7 @@ img,
   color:var(--civic-navy);
   background:rgba(95,168,211,.08);
   font-size:.72rem;
-  font-weight:800;
+  font-weight:600;
 }
 
 .media-button-group,
@@ -881,7 +881,7 @@ img,
   background:#fff;
   color:var(--civic-navy);
   font-size:.78rem;
-  font-weight:800;
+  font-weight:600;
 }
 
 .filter-pill[aria-pressed="true"] {
@@ -915,7 +915,7 @@ img,
   gap:7px;
   color:var(--civic-navy);
   font-size:.88rem;
-  font-weight:800;
+  font-weight:600;
 }
 
 .form-embed input,
@@ -1069,7 +1069,7 @@ body {
   border-radius: 999px;
   background: var(--civic-navy);
   color: var(--cloud-white);
-  font-weight: 800;
+  font-weight: 600;
   transition: transform var(--ease);
 }
 
@@ -1216,7 +1216,7 @@ body {
 
 .episode-notes a {
   color: var(--civic-navy);
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: underline;
   text-decoration-color: rgba(95,168,211,.58);
   text-underline-offset: 3px;
@@ -1238,7 +1238,7 @@ body {
 
 .link-strong {
   color: var(--civic-navy);
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
@@ -1275,7 +1275,7 @@ body {
 .episode-kicker,
 .audio-label {
   font-size: .72rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .nav {
@@ -1443,7 +1443,7 @@ body {
   min-height: 48px !important;
   border-radius: 999px !important;
   font-size: .86rem;
-  font-weight: 800;
+  font-weight: 600;
   transition: transform var(--ease), box-shadow var(--ease), background-color var(--ease), border-color var(--ease), color var(--ease);
 }
 
@@ -1698,7 +1698,7 @@ body {
   margin-top: -2px;
   color: var(--slate);
   font-size: .82rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .episode-card-actions {
@@ -1747,7 +1747,7 @@ body {
   padding-top: 18px;
   border-top: 1px solid var(--line);
   color: var(--slate);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .team-anchor-row {
@@ -1794,7 +1794,7 @@ body {
   border-top: 1px solid var(--line);
   color: var(--slate);
   font-size: .94rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .team-callout strong {
