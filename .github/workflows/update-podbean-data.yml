@@ -29,6 +29,7 @@ jobs:
           SPOTIFY_URL: "https://open.spotify.com/show/3nUpFLOsHGVtrN8tZz6nlM?si=478a6beb645b40f6"
           APPLE_URL: "https://podcasts.apple.com/us/podcast/voices-of-okc/id1847725322"
           YOUTUBE_URL: "https://youtube.com/@voicesofokc"
+          YOUTUBE_CHANNEL_ID: "UCllLRXhOeySqJF-DsFTGwlw"
           SITE_ORIGIN: "https://www.voicesofokc.com"
           SITE_EMAIL: "info@voicesofokc.com"
         run: python scripts/update_podbean_data.py

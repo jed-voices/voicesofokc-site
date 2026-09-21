@@ -58,9 +58,12 @@ const usableImage = (value) => {
 };
 
 const getEpisodeArtwork = (episode) => {
-  return youtubeThumbnailFromUrl(episode.youtube_url)
-    || (isYoutubeThumbnail(episode.thumbnail_url) ? episode.thumbnail_url : '')
+  // A YouTube thumbnail already on the episode wins: the sync step probed whether that
+  // video has a maxresdefault and stored whichever size actually exists. Deriving one from
+  // youtube_url here is the fallback, and always guesses maxresdefault.
+  return (isYoutubeThumbnail(episode.thumbnail_url) ? episode.thumbnail_url : '')
     || (isYoutubeThumbnail(episode.artwork_url) ? episode.artwork_url : '')
+    || youtubeThumbnailFromUrl(episode.youtube_url)
     || usableImage(episode.thumbnail_url)
     || usableImage(episode.artwork_url)
     || fallbackImage;
