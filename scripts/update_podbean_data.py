@@ -18,6 +18,7 @@ spotify_url = os.environ.get("SPOTIFY_URL", "").strip()
 apple_url = os.environ.get("APPLE_URL", "").strip()
 youtube_url = os.environ.get("YOUTUBE_URL", "").strip()
 youtube_channel_id = os.environ.get("YOUTUBE_CHANNEL_ID", "UCllLRXhOeySqJF-DsFTGwlw").strip()
+youtube_api_key = os.environ.get("YOUTUBE_API_KEY", "").strip()
 site_email = os.environ.get("SITE_EMAIL", "info@voicesofokc.com").strip()
 
 site_origin = os.environ.get("SITE_ORIGIN", "https://www.voicesofokc.com").rstrip("/")
@@ -447,43 +448,114 @@ def youtube_match_key(value):
 
 
 def episode_number_from_text(value):
-    match = re.match(r"\s*(?:ep\.?\s*|episode\s*)?0*(\d{1,3})\b", str(value or ""), re.IGNORECASE)
-    return match.group(1) if match else ""
+    """An episode number only when the title marks it as one.
 
-
-def youtube_channel_index():
-    """Index the channel's public RSS by normalized title and by episode number.
-
-    No API key: the channel feed carries the most recent uploads, which is what a newly
-    published episode needs. Network failure is never fatal -- a YouTube outage must not
-    blank out youtube_url values that already work.
+    "EP 38", "Episode 38" or a zero-padded "038" count. A bare leading number does not:
+    the full uploads list includes Shorts, and a clip titled "3 things..." must never be
+    matched to episode 3.
     """
-    global _youtube_channel_index
-    if _youtube_channel_index is not None:
-        return _youtube_channel_index
-    index = {"by_title": {}, "by_number": {}}
+    text = str(value or "")
+    match = re.match(r"\s*(?:ep\.?|episode)\s*0*(\d{1,3})\b", text, re.IGNORECASE)
+    if not match:
+        match = re.match(r"\s*0(\d{2})\b", text)
+    return match.group(1).lstrip("0") if match else ""
+
+
+YOUTUBE_API_BASE = "https://www.googleapis.com/youtube/v3"
+YOUTUBE_API_MAX_PAGES = 20
+
+
+def youtube_api_get(endpoint, params):
+    """One YouTube Data API call. Returns parsed JSON, or None on any failure.
+
+    The key travels only in the request URL. Errors are reported by status code alone,
+    so the key can never end up in the Actions log.
+    """
+    query = urlencode({**params, "key": youtube_api_key})
+    try:
+        with urlopen(f"{YOUTUBE_API_BASE}/{endpoint}?{query}", timeout=20) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except Exception as error:
+        status = getattr(error, "code", None)
+        print(f"YouTube API {endpoint} request failed" + (f" (HTTP {status})" if status else "") + ".")
+        return None
+
+
+def youtube_api_uploads():
+    """Every upload on the channel as (video_id, title) pairs, newest first.
+
+    Used only when YOUTUBE_API_KEY is set. This is what reaches the back catalogue: the
+    public RSS stops at the most recent 15 uploads. Returns [] on any failure, and the
+    RSS feed still runs, so a bad or missing key costs nothing that already works.
+    """
+    if not youtube_api_key or not youtube_channel_id:
+        return []
+    channel = youtube_api_get("channels", {"part": "contentDetails", "id": youtube_channel_id})
+    try:
+        uploads_playlist = channel["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+    except (TypeError, KeyError, IndexError):
+        print("YouTube API: could not find the channel's uploads playlist; using the RSS feed only.")
+        return []
+    pairs, page_token = [], ""
+    for _ in range(YOUTUBE_API_MAX_PAGES):
+        params = {"part": "snippet", "playlistId": uploads_playlist, "maxResults": 50}
+        if page_token:
+            params["pageToken"] = page_token
+        page = youtube_api_get("playlistItems", params)
+        if page is None:
+            break
+        for item in page.get("items", []):
+            snippet = item.get("snippet") or {}
+            video_id = ((snippet.get("resourceId") or {}).get("videoId") or "").strip()
+            title = (snippet.get("title") or "").strip()
+            if video_id and title and title not in ("Private video", "Deleted video"):
+                pairs.append((video_id, title))
+        page_token = page.get("nextPageToken") or ""
+        if not page_token:
+            break
+    print(f"YouTube API: listed {len(pairs)} channel uploads.")
+    return pairs
+
+
+def youtube_rss_uploads():
+    """The most recent uploads (about 15) from the channel's public RSS, as (video_id, title)."""
     if not youtube_channel_id:
-        _youtube_channel_index = index
-        return index
+        return []
     try:
         with urlopen(YOUTUBE_FEED_TEMPLATE.format(channel_id=youtube_channel_id), timeout=20) as response:
             root = ElementTree.fromstring(response.read())
     except Exception as error:
         print(f"YouTube channel feed unavailable ({error}); leaving youtube_url values as they are.")
-        _youtube_channel_index = index
-        return index
+        return []
+    pairs = []
     for item in root.findall("atom:entry", YOUTUBE_ATOM_NS):
         video_id = (item.findtext("yt:videoId", "", YOUTUBE_ATOM_NS) or "").strip()
         title = (item.findtext("atom:title", "", YOUTUBE_ATOM_NS) or "").strip()
-        if not video_id or not title:
-            continue
+        if video_id and title:
+            pairs.append((video_id, title))
+    print(f"YouTube channel feed: indexed {len(pairs)} uploads.")
+    return pairs
+
+
+def youtube_channel_index():
+    """Index channel uploads by normalized title and by marked episode number.
+
+    The public RSS always runs and covers new episodes. With YOUTUBE_API_KEY set, the full
+    uploads list is added so older episodes resolve too. RSS entries are indexed first, so
+    for the recent uploads both sources agree on, the no-key result is unchanged. Neither
+    source failing is ever fatal.
+    """
+    global _youtube_channel_index
+    if _youtube_channel_index is not None:
+        return _youtube_channel_index
+    index = {"by_title": {}, "by_number": {}}
+    for video_id, title in youtube_rss_uploads() + youtube_api_uploads():
         key = youtube_match_key(title)
         if key:
             index["by_title"].setdefault(key, video_id)
         number = episode_number_from_text(title)
         if number:
             index["by_number"].setdefault(number, video_id)
-    print(f"YouTube channel feed: indexed {len(index['by_title'])} uploads.")
     _youtube_channel_index = index
     return index
 
