@@ -12,6 +12,15 @@ const episodeLink = document.getElementById('audioEpisode');
 const note = document.getElementById('audioStatusNote');
 const audioPlayer = document.getElementById('audioPlayer');
 
+// Keep the final page content above the fixed player as its rows and labels resize.
+if (audioPlayer) {
+  const updatePlayerSpace = () => {
+    document.body.style.setProperty('--audio-height', `${Math.ceil(audioPlayer.getBoundingClientRect().height)}px`);
+  };
+  new ResizeObserver(updatePlayerSpace).observe(audioPlayer);
+  updatePlayerSpace();
+}
+
 const featuredImage = document.getElementById('featuredEpisodeImage');
 const featuredTitle = document.getElementById('featuredEpisodeTitle');
 const featuredDescription = document.getElementById('featuredEpisodeDescription');
@@ -60,7 +69,7 @@ const usableImage = (value) => {
 // the blurred-fill treatment so square artwork doesn't pillarbox against flat navy bars.
 const needsFill = (value) => /^https:\/\//.test(String(value || '')) && !isYoutubeThumbnail(value);
 
-const isMobileViewport = () => window.matchMedia('(max-width: 680px)').matches;
+const isMobileViewport = () => window.matchMedia('(max-width: 600px)').matches;
 
 const hideMobilePlayer = () => {
   if (!audioPlayer || !isMobileViewport()) return;
