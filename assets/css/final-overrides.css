@@ -1449,7 +1449,6 @@ body {
 
 .button {
   background: var(--azure);
-  color: #071b2d;
   box-shadow: 0 12px 24px rgba(95,168,211,.2);
 }
 
@@ -1601,7 +1600,7 @@ body {
 
 .platform-section {
   background:
-    linear-gradient(180deg, #0d263d 0%, #102d47 100%) !important;
+    linear-gradient(180deg, var(--civic-navy) 0%, var(--civic-navy) 100%) !important;
 }
 
 .platform-row {

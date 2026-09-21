@@ -194,7 +194,7 @@ audio { display:none; }
 .platform-card strong { display:block; font-family:"Sora","Inter",sans-serif; font-size:1rem; letter-spacing:-.02em; margin-bottom:8px; }
 .platform-card span { color:rgba(244,247,250,.72); font-size:.91rem; text-wrap:pretty; }
 .cta-band {
-  background:linear-gradient(135deg,#112f4a,#183b5b); color:var(--cloud-white); border-radius:28px;
+  background:linear-gradient(135deg,var(--civic-navy),#183b5b); color:var(--cloud-white); border-radius:28px;
   padding:40px clamp(24px,4vw,44px); display:grid; grid-template-columns:minmax(0,1fr) auto; gap:24px; align-items:center; box-shadow:0 24px 50px rgba(15,42,68,.14);
 }
 .cta-band .title-md,.cta-band p { margin:0; color:var(--cloud-white); }
