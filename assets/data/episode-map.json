@@ -2,6 +2,11 @@
   "purpose": "Manual bridge for matching Podbean episodes to YouTube videos, guest metadata, and local episode pages. The update workflow reads this before regenerating public JSON and pages.",
   "episodes": [
     {
+      "title": "Kristina Mills on grief, laughter and life after Survivor",
+      "podbean_url": "https://voicesofokc.podbean.com/e/kristina-mills-on-grief-laughter-and-life-after-survivor/",
+      "youtube_url": "https://www.youtube.com/watch?v=RunTIi964VI"
+    },
+    {
       "episode_number": 30,
       "title": "What Oklahoma City Cannot Lose as It Grows with Brad Carter",
       "podbean_url": "https://voicesofokc.podbean.com/e/what-oklahoma-city-cannot-lose-as-it-grows-with-brad-carter/",
