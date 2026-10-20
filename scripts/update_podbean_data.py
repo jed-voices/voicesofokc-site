@@ -4,7 +4,7 @@ import re
 import unicodedata
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
-from html import escape, unescape
+from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlparse, urlsplit, urlunsplit
@@ -290,11 +290,36 @@ def find_show_notes(entry):
     return entry.get("summary") or entry.get("description") or ""
 
 
+class PlainTextExtractor(HTMLParser):
+    """Extract text once; decoded character data is never reparsed as markup."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.parts = []
+        self.skip_depth = 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag in {"script", "style"}:
+            self.skip_depth += 1
+        elif not self.skip_depth:
+            self.parts.append(" ")
+
+    def handle_endtag(self, tag):
+        if tag in {"script", "style"}:
+            self.skip_depth = max(0, self.skip_depth - 1)
+        if not self.skip_depth:
+            self.parts.append(" ")
+
+    def handle_data(self, data):
+        if not self.skip_depth:
+            self.parts.append(data)
+
+
 def strip_html(value):
-    parser = ShowNotesSanitizer()
+    parser = PlainTextExtractor()
     parser.feed(str(value or ""))
-    text = re.sub(r"<[^>]+>", " ", parser.get_html())
-    return " ".join(unescape(text).split())
+    parser.close()
+    return " ".join("".join(parser.parts).split())
 
 
 def truncate_text(value, limit=160):
@@ -306,7 +331,10 @@ def truncate_text(value, limit=160):
 
 def structured_data_markup(payload, element_id=""):
     identifier = f' id="{escape(element_id, quote=True)}"' if element_id else ""
-    serialized = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    # Keep HTML delimiters (including archive comment markers) out of script data.
+    serialized = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
+    for character, encoded in (("<", r"\u003c"), (">", r"\u003e"), ("&", r"\u0026")):
+        serialized = serialized.replace(character, encoded)
     return f'<script type="application/ld+json"{identifier}>{serialized}</script>'
 
 
@@ -803,16 +831,32 @@ def archive_structured_data(episodes):
     }
 
 
+class ArchiveMarkerParser(HTMLParser):
+    """Locate real HTML comments, ignoring marker-like text inside script data."""
+
+    def __init__(self, document):
+        super().__init__(convert_charrefs=False)
+        self.line_offsets = [0]
+        self.line_offsets.extend(match.end() for match in re.finditer("\n", document))
+        self.comments = {}
+
+    def handle_comment(self, data):
+        line, column = self.getpos()
+        offset = self.line_offsets[line - 1] + column
+        self.comments.setdefault(f"<!--{data}-->", []).append(offset)
+
+
 def replace_marker_block(document, start_marker, end_marker, content):
-    pattern = re.compile(
-        rf"{re.escape(start_marker)}.*?{re.escape(end_marker)}",
-        flags=re.DOTALL,
-    )
-    replacement = f"{start_marker}\n{content}\n        {end_marker}"
-    updated, count = pattern.subn(replacement, document, count=1)
-    if count != 1:
-        raise SystemExit(f"Could not find archive marker block: {start_marker}")
-    return updated
+    parser = ArchiveMarkerParser(document)
+    parser.feed(document)
+    parser.close()
+    starts = parser.comments.get(start_marker, [])
+    ends = parser.comments.get(end_marker, [])
+    if len(starts) != 1 or len(ends) != 1 or starts[0] >= ends[0]:
+        raise SystemExit(f"Missing, ambiguous, or reversed archive marker block: {start_marker}")
+    # Literal slicing also preserves JSON backslashes, unlike regex replacement strings.
+    return (document[:starts[0] + len(start_marker)] + "\n" + content
+            + "\n        " + document[ends[0]:])
 
 
 def write_episode_archive(episodes):

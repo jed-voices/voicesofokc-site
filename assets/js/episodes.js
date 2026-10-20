@@ -74,14 +74,11 @@ const getEpisodeArtwork = (episode) => {
 // the Podbean art is often square, so it gets the blurred-fill treatment instead of flat bars.
 const needsFill = (value) => /^https:\/\//.test(String(value || '')) && !isYoutubeThumbnail(value);
 
-const stripHtml = (value) => {
-  const tmp = document.createElement('div');
-  tmp.innerHTML = normalizeBrandRefs(value);
-  return (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
-};
+// Episode summaries are plain text. Never parse feed content as HTML.
+const normalizeSummary = (value) => normalizeBrandRefs(value).replace(/\s+/g, ' ').trim();
 
 const trimSummary = (value) => {
-  const text = stripHtml(value);
+  const text = normalizeSummary(value);
   if (text.length <= 190) return text;
   const clipped = text.slice(0, 187);
   return `${clipped.slice(0, clipped.lastIndexOf(' ')).trim() || clipped}...`;

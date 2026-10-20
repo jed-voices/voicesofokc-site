@@ -37,12 +37,8 @@ const fmt = (sec) => {
   return `${m}:${s}`;
 };
 
-const stripHtml = (value) => {
-  if (!value) return '';
-  const tmp = document.createElement('div');
-  tmp.innerHTML = value;
-  return (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
-};
+// Episode summaries are plain text. Never parse feed content as HTML.
+const normalizeSummary = (value) => String(value || '').replace(/\s+/g, ' ').trim();
 
 const truncateText = (value, limit = 360) => {
   const text = String(value || '').replace(/\s+/g, ' ').trim();
@@ -138,7 +134,7 @@ async function loadLatestEpisode() {
     }
 
     if (episode.summary && featuredDescription) {
-      const cleanSummary = stripHtml(episode.summary);
+      const cleanSummary = normalizeSummary(episode.summary);
       if (cleanSummary) featuredDescription.textContent = truncateText(cleanSummary);
     }
 
