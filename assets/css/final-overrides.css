@@ -2467,3 +2467,22 @@ body {
   }
 
 }
+
+/* Keep scheduling above the current page, with the surrounding site visible. */
+.scheduling-popup {
+  width: min(680px, calc(100vw - 32px));
+  max-width: none;
+  height: min(740px, 84dvh);
+  max-height: 84dvh;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  color: var(--civic-navy);
+  background: #fff;
+}
+.scheduling-popup::backdrop { background: rgba(15, 42, 68, .3); }
+.scheduling-popup[open] { display: flex; flex-direction: column; }
+.scheduling-popup-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 20px; border-bottom: 1px solid var(--line); }
+.scheduling-popup-header h2 { margin: 0; font-size: 1rem; }
+.scheduling-popup-header button { background: var(--civic-navy); color: #fff; border: 0; border-radius: 24px; padding: 10px 16px; cursor: pointer; }
+.scheduling-popup iframe { width: 100%; flex: 1; min-height: 0; border: 0; }

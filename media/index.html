@@ -26,6 +26,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/site.css" />
   <link rel="stylesheet" href="../assets/css/final-overrides.css" />
+  <script async src="https://tally.so/widgets/embed.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -60,25 +61,30 @@
       <div class="container">
         <span class="eyebrow">Media & Guest Resources</span>
         <h1 class="title-xl title-with-rule">EVERYTHING GUESTS, MEDIA, AND PARTNERS NEED IN <span class="rule-target">ONE PLACE</span>.</h1>
-        <p class="lede">Forms to complete before recording, brand assets and approved language for press and partners, and usage notes for our team — calm and organized, with no back-and-forth.</p>
+        <p class="lede">Recording details, media consent, brand assets and approved language for press and partners — everything in one place.</p>
       </div>
     </section>
 
     <section class="section section-tight" id="guests">
       <div class="container">
         <span class="eyebrow">For guests</span>
-        <h2 class="title-lg title-with-rule">Guest forms &amp; <span class="rule-target">scheduling</span>.</h2>
+        <h2 class="title-lg title-with-rule">Guest preparation &amp; <span class="rule-target">scheduling</span>.</h2>
         <div class="body-copy mt-copy">
-          <p>Please complete both forms before your episode. If you have already submitted them, there is no need to do it again.</p>
+          <p>Choose a recording time below. Please complete the Media Consent &amp; Release Form before we record, either in advance or together when you arrive. If you have already submitted it, there is no need to do it again.</p>
         </div>
         <div class="button-row">
-          <a class="button" href="https://calendly.com/jedchappell/podcast-recording-schedule" target="_blank" rel="noreferrer">Schedule Your Recording</a>
-          <a class="button" href="https://tally.so/r/LZkXXO" target="_blank" rel="noreferrer">Guest Questionnaire</a>
-          <a class="button" href="https://tally.so/r/9qMOv4" target="_blank" rel="noreferrer">Media Consent &amp; Release Form</a>
+          <a class="button" href="https://calendly.com/jedchappell/podcast-recording-schedule" data-scheduling-popup>Schedule Your Recording</a>
+          <button class="button" data-tally-open="9qMOv4" data-tally-layout="modal" data-tally-width="520" data-tally-overlay="1" type="button">Media Consent &amp; Release Form</button><noscript><a href="https://tally.so/r/9qMOv4">Open the consent form</a></noscript>
         </div>
         <div class="body-copy mt-copy">
           <p><strong>What to expect.</strong> A relaxed, unscripted conversation — no scripts, no gotcha questions, just a thoughtful discussion of your story and perspective. Conversations typically run about 60 minutes, recorded midweek during the daytime and filmed in the VOICES of OKC studio in Oklahoma City.</p>
-          <p><strong>How to prepare.</strong> Nothing elaborate. Find a quiet space and come with a few stories or examples in mind — the rest takes care of itself in the conversation. If you would like a headshot or your organization's logo included in show notes and social posts, email a high-resolution file to <span class="email-display">info@voicesofokc.com</span>.</p>
+          <p><strong>How to prepare.</strong> Just come ready to be yourself. No preparation or written answers are required. If you would like, reply to your invitation email or email <a href="mailto:info@voicesofokc.com">info@voicesofokc.com</a> with any of these optional details:</p>
+          <ul>
+            <li>Anything you’d especially enjoy discussing?</li>
+            <li>Anything you’d prefer to avoid?</li>
+            <li>Do you have an existing bio or website link you’d like to share?</li>
+          </ul>
+          <p>If you would like a headshot or your organization's logo included in show notes and social posts, you are welcome to email a high-resolution file to <span class="email-display">info@voicesofokc.com</span>.</p>
           <p>Questions before then? Reach us anytime at <span class="email-display">info@voicesofokc.com</span>.</p>
         </div>
       </div>
@@ -179,6 +185,11 @@
       </div>
     </div>
   </footer>
+  <dialog class="scheduling-popup" aria-labelledby="scheduling-title">
+    <div class="scheduling-popup-header"><h2 id="scheduling-title">Schedule your recording</h2><button type="button" data-close-scheduling aria-label="Close scheduling">Close</button></div>
+    <iframe title="VOICES of OKC recording schedule"></iframe>
+  </dialog>
+  <script src="../assets/js/guest-scheduling.js" defer></script>
   <script src="../assets/js/site-automation.js" defer></script>
 </body>
 </html>
