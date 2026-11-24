@@ -70,3 +70,31 @@ If your Podbean feed URL is different, change it in the workflow file.
 3. Enable GitHub Pages.
 4. Keep the `CNAME` file with `www.voicesofokc.com`.
 5. If the player is not loading audio, run the workflow manually once from GitHub Actions.
+
+## Development
+
+### Tests
+Run the full regression suite from the repo root:
+
+```
+python3 -m unittest discover -s tests -v
+node tests/test_summary_rendering.cjs
+node tests/test_featured_guest_fallback.cjs
+node --check assets/js/episodes.js
+node --check assets/js/player.js
+git diff --check
+```
+
+CI runs the same commands on every push and pull request to `main` (see `.github/workflows/tests.yml`).
+
+### Pre-push hook (once per clone)
+Point git at the tracked hooks folder so the same tests run before every `git push`:
+
+```
+git config core.hooksPath .githooks
+```
+
+The hook is `.githooks/pre-push`. If any check fails, the push is blocked. To bypass in a true emergency, use `git push --no-verify` — but write down what you skipped and why, in `LESSONS.md`.
+
+### Lessons
+Before planning non-trivial work, read `LESSONS.md`. If today's work teaches a new lesson, append a dated entry.
