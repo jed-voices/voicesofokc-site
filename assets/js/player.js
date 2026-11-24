@@ -65,6 +65,18 @@ const usableImage = (value) => {
 // the blurred-fill treatment so square artwork doesn't pillarbox against flat navy bars.
 const needsFill = (value) => /^https:\/\//.test(String(value || '')) && !isYoutubeThumbnail(value);
 
+// Fallback when the Podbean sync omits guest_name — matches episodes.js:deriveGuest
+// so the home-page kicker and the archive card show the same name.
+const deriveGuest = (episode) => {
+  if (episode && episode.guest_name) return episode.guest_name;
+  const title = (episode && episode.title) || '';
+  const onMatch = title.match(/:\s*([^:|]+?)\s+on\s+/i);
+  if (onMatch) return onMatch[1].trim();
+  const pipeMatch = title.match(/\|\s*([^|]+)$/);
+  if (pipeMatch) return pipeMatch[1].trim();
+  return 'VOICES of OKC';
+};
+
 const isMobileViewport = () => window.matchMedia('(max-width: 600px)').matches;
 
 const hideMobilePlayer = () => {
@@ -128,9 +140,10 @@ async function loadLatestEpisode() {
       if (featuredTitle) featuredTitle.textContent = displayTitle;
     }
 
-    if (featuredGuest && episode.guest_name) {
-      const guestMeta = [episode.guest_name, episode.guest_title || episode.guest_organization].filter(Boolean).join(' · ');
-      featuredGuest.textContent = guestMeta;
+    if (featuredGuest) {
+      const guestName = deriveGuest(episode);
+      const guestMeta = [guestName, episode.guest_title || episode.guest_organization].filter(Boolean).join(' · ');
+      if (guestMeta) featuredGuest.textContent = guestMeta;
     }
 
     if (episode.summary && featuredDescription) {
