@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Pre-push gate: run every regression test. If any fail, the push is blocked.
+# Rulebook: step 9 — "Upload it. The tests run again automatically. If any test fails, the upload is blocked."
+# Set up once per clone with:  git config core.hooksPath .githooks
+set -euo pipefail
+
+cd "$(git rev-parse --show-toplevel)"
+
+echo "[pre-push] Python unittests"
+python3 -m unittest discover -s tests
+
+echo "[pre-push] Node summary rendering"
+node tests/test_summary_rendering.cjs
+
+echo "[pre-push] Node featured-guest fallback"
+node tests/test_featured_guest_fallback.cjs
+
+echo "[pre-push] JS syntax checks"
+node --check assets/js/episodes.js
+node --check assets/js/player.js
+
+echo "[pre-push] Whitespace"
+git diff --check HEAD
+
+echo "[pre-push] All checks passed."
